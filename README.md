@@ -1,10 +1,18 @@
 🔥永久免费的VPN加速器梯子（AD）
 https://www.bjch666.com/?mid=3037
 
-✈️我的TG频道链接
+✈️我的个人TG频道链接
+Stymei-分享/破解/VPN/机场
 https://t.me/stymei1
 
-🎬每天分享各种高速8K节点订阅，白嫖分享的覆盖面非常广，基本上你想要的都能免费获取，频道的发展愿景是做成TG最大的白嫖联盟
+Stymei-反差/学生/萝莉/少妇
+https://t.me/stymei2
+
+Stymei-币圈/合约/BTC/比特币
+https://t.me/stymei3
+
+🔗我的个人网站链接
+https://jsnzk.blogspot.com
 
 🎬频道永久订阅（翻墙导入） 
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
