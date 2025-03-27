@@ -17,7 +17,7 @@ https://t.me/stymei3
 
 🔗我的个人网站链接
 
-https://jsnzk.blogspot.com
+https://jsnzkpg.blogspot.com
 
 🎬频道永久订阅（翻墙导入） 
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
