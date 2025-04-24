@@ -1,545 +1,730 @@
-mixed-port: 7890
-allow-lan: false
-bind-address: '*'
-mode: rule
-log-level: info
-external-controller: '127.0.0.1:9090'
-unified-delay: true
-tcp-concurrent: true
-dns:
-  enable: true
-  ipv6: false
-  default-nameserver: [223.5.5.5, 119.29.29.29]
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  use-hosts: true
-  nameserver: ['https://dns.alidns.com/dns-query', 'https://doh.pub/dns-query']
-  fallback: ['https://dns.alidns.com/dns-query', 'https://doh.pub/dns-query']
-  fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32]}
 proxies:
-  - {name: TG频道@stymei1, server: 192.9.130.120, port: 35000, ports: 35000-39000, mport: 35000-39000, udp: true, skip-cert-verify: true, sni: www.apple.com, type: hysteria2, auth: af8e7760-4993-4393-9db7-e84f05a06d21, fast-open: false, servername: www.apple.com}
-  - {name: 1, type: vless, server: 104.18.20.20, port: 443, uuid: af8e7760-4993-4393-9db7-e84f05a06d21, flow: '', client-fingerprint: chrome, udp: true, tls: true, servername: us2.globals-download.com, network: ws, ws-opts: {path: /pq/us2, headers: {Host: us2.globals-download.com}}, ws-path: /pq/us2, ws-headers: {Host: us2.globals-download.com}, alterId: 0, cipher: "", sni: us2.globals-download.com}
-  - {name: 2, type: vless, server: 104.18.20.20, port: 443, uuid: af8e7760-4993-4393-9db7-e84f05a06d21, flow: '', client-fingerprint: chrome, udp: true, tls: true, servername: us3.globals-download.com, network: ws, ws-opts: {path: /pq/us3, headers: {Host: us3.globals-download.com}}, ws-path: /pq/us3, ws-headers: {Host: us3.globals-download.com}, alterId: 0, cipher: "", sni: us3.globals-download.com}
-  - {name: 3, type: vless, server: 104.18.20.20, port: 443, uuid: af8e7760-4993-4393-9db7-e84f05a06d21, flow: '', client-fingerprint: chrome, udp: true, tls: true, servername: us4.globals-download.com, network: ws, ws-opts: {path: /pq/us4, headers: {Host: us4.globals-download.com}}, ws-path: /pq/us4, ws-headers: {Host: us4.globals-download.com}, alterId: 0, cipher: "", sni: us4.globals-download.com}
-  - {name: 4, type: vless, server: 104.18.20.20, port: 443, uuid: af8e7760-4993-4393-9db7-e84f05a06d21, flow: '', client-fingerprint: chrome, udp: true, tls: true, servername: us5.globals-download.com, network: ws, ws-opts: {path: /pq/us5, headers: {Host: us5.globals-download.com}}, ws-path: /pq/us5, ws-headers: {Host: us5.globals-download.com}, alterId: 0, cipher: "", sni: us5.globals-download.com}
-  - {name: 5, type: vless, server: 104.18.20.20, port: 443, uuid: af8e7760-4993-4393-9db7-e84f05a06d21, flow: '', client-fingerprint: chrome, udp: true, tls: true, servername: us6.globals-download.com, network: ws, ws-opts: {path: /pq/us6, headers: {Host: us6.globals-download.com}}, ws-path: /pq/us6, ws-headers: {Host: us6.globals-download.com}, alterId: 0, cipher: "", sni: us6.globals-download.com}
-  - {name: 6, type: vless, server: 104.18.20.20, port: 443, uuid: af8e7760-4993-4393-9db7-e84f05a06d21, flow: '', client-fingerprint: chrome, udp: true, tls: true, servername: us7.globals-download.com, network: ws, ws-opts: {path: /pq/us7, headers: {Host: us7.globals-download.com}}, ws-path: /pq/us7, ws-headers: {Host: us7.globals-download.com}, alterId: 0, cipher: "", sni: us7.globals-download.com}
-  - {name: 节点全失效就连这个（防失联）, type: http, server: sf3.epicbrowser.net, port: 8888, uuid: af8e7760-4993-4393-9db7-e84f05a06d21, flow: null, client-fingerprint: null, udp: true, tls: true, servername: null, reality-opts: {public-key: 8nT5x5OM-97ibWMfu5y0mrvWdmuwVeg_f_RE5Ycl_yw, short-id: c5835b1f}, skip-cert-verify: true}
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "TG频道@stymei1"
+    port: 31800
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      short-id: ""
+    server: agaungzhou01.bumbleshrimp.com
+    skip-cert-verify: null
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.nvidia.com
+    alterId: 0
+    cipher: ""
+    sni: www.nvidia.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "1"
+    port: 23301
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      short-id: ""
+    server: test123.zlqhdns.top
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    servername: www.nvidia.com
+    alterId: 0
+    cipher: ""
+    sni: www.nvidia.com
+  - name: "2"
+    network: ws
+    port: 8080
+    server: tgju.org
+    type: vless
+    udp: true
+    uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
+    ws-opts:
+      headers:
+        Host: J9.oDOtZrHUoO.ZuLAIR.ORg.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: /?ed=2048
+    xudp: true
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - client-fingerprint: chrome
+    name: "3"
+    network: ws
+    port: 443
+    server: 162.247.5.91
+    tls: true
+    type: vless
+    udp: true
+    uuid: 94fadaf3-ccd8-4734-b372-8772c9bfd147
+    ws-opts:
+      headers:
+        Host: tw.qhahd.shop
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+      path: /bing
+    xudp: true
+    servername: tw.qhahd.shop
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: tw.qhahd.shop
+  - name: "5"
+    network: ws
+    port: 443
+    server: 192.0.63.29
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    ws-opts:
+      headers:
+        Host: sv.ylka.dpdns.org
+      path: /?ed=2560
+    servername: sv.ylka.dpdns.org
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: sv.ylka.dpdns.org
+  - name: "6"
+    network: ws
+    port: 443
+    server: 192.200.160.119
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    ws-opts:
+      headers:
+        Host: sv.ylka.dpdns.org
+      path: /?ed=2560
+    servername: sv.ylka.dpdns.org
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: sv.ylka.dpdns.org
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "7"
+    network: tcp
+    port: 38400
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      short-id: ""
+    server: shenzhou02.mysynology.net
+    tls: true
+    type: vless
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    servername: www.yahoo.com
+    alterId: 0
+    cipher: ""
+    sni: www.yahoo.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "8"
+    network: tcp
+    port: 57926
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      short-id: ""
+    server: beiyong.dynuddns.net
+    tls: true
+    type: vless
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    servername: gateway.icloud.com
+    alterId: 0
+    cipher: ""
+    sni: gateway.icloud.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "9"
+    network: tcp
+    port: 30274
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      short-id: ""
+    server: gysz0000.dynu.net
+    tls: true
+    type: vless
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    servername: gateway.icloud.com
+    alterId: 0
+    cipher: ""
+    sni: gateway.icloud.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "10"
+    network: tcp
+    port: 32055
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      short-id: ""
+    server: csuzhou01.1cooldns.com
+    tls: true
+    type: vless
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    servername: www.amazon.com
+    alterId: 0
+    cipher: ""
+    sni: www.amazon.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "11"
+    network: tcp
+    port: 40072
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      short-id: ""
+    server: agaungzhou01.bumbleshrimp.com
+    tls: true
+    type: vless
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    servername: www.yahoo.com
+    alterId: 0
+    cipher: ""
+    sni: www.yahoo.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "12"
+    network: tcp
+    port: 30019
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+      short-id: ""
+    server: agaungzhou01.bumbleshrimp.com
+    tls: true
+    type: vless
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    servername: www.yahoo.com
+    alterId: 0
+    cipher: ""
+    sni: www.yahoo.com
+  - client-fingerprint: chrome
+    name: "13"
+    password: f89f8229-37e8-4a5d-88ed-8b6bf3dd2db2
+    port: 34014
+    server: sla.cn.964e995b760.gogodns.xin
+    skip-cert-verify: null
+    sni: q08m.vgraxiw73s.hasyaf.cn
+    type: trojan
+    udp: true
+    servername: q08m.vgraxiw73s.hasyaf.cn
+  - client-fingerprint: chrome
+    name: "14"
+    password: 29b236d2-14c3-4284-804e-e943a2c17328
+    port: 27301
+    server: 183.2.150.98
+    skip-cert-verify: null
+    sni: q08m.vgraxiw73s.hasyaf.cn
+    type: trojan
+    udp: true
+    servername: q08m.vgraxiw73s.hasyaf.cn
+  - client-fingerprint: chrome
+    flow:
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "15"
+    network: ws
+    port: 2052
+    reality-opts:
+      public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+      short-id: 7a2b
+    server: 104.25.252.147
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    xudp: true
+    servername: zula.ir
+    alterId: 0
+    cipher: ""
+    ws-opts:
+      headers:
+        Host: huajuan.yzcjd.workers.dev
+      path: /?ed=2048
+  - client-fingerprint: chrome
+    flow:
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "16"
+    network: ws
+    port: 2052
+    reality-opts:
+      public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+      short-id: 7a2b
+    server: cf.877771.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    xudp: true
+    servername: zula.ir
+    alterId: 0
+    cipher: ""
+    ws-opts:
+      headers:
+        Host: huajuan.yzcjd.workers.dev
+      path: /?ed=2048
+  - client-fingerprint: chrome
+    flow:
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "17"
+    network: ws
+    port: 2052
+    reality-opts:
+      public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+      short-id: 7a2b
+    server: cloudflare.182682.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    xudp: true
+    servername: zula.ir
+    alterId: 0
+    cipher: ""
+    ws-opts:
+      headers:
+        Host: huajuan.yzcjd.workers.dev
+      path: /?ed=2048
+  - client-fingerprint: chrome
+    flow:
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "18"
+    network: ws
+    port: 2052
+    reality-opts:
+      public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+      short-id: 7a2b
+    server: 190.93.246.237
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    xudp: true
+    servername: zula.ir
+    alterId: 0
+    cipher: ""
+    ws-opts:
+      headers:
+        Host: huajuan.yzcjd.workers.dev
+      path: /?ed=2048
+  - alterId: 0
+    cipher: ""
+    flow: ""
+    name: "19"
+    network: ws
+    port: 2052
+    server: 190.93.246.151
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: huajuan.yzcjd.workers.dev
+      path: /?ed=2048
+  - alterId: 0
+    cipher: ""
+    flow: ""
+    name: "20"
+    network: ws
+    port: 2052
+    server: 198.41.199.247
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: huajuan.yzcjd.workers.dev
+      path: /?ed=2048
+  - alterId: 0
+    cipher: ""
+    flow: ""
+    name: "21"
+    network: ws
+    port: 2052
+    server: upload.yunzhongzhuan.com
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: huajuan.yzcjd.workers.dev
+      path: /?ed=2048
+  - alterId: 0
+    cipher: ""
+    flow: ""
+    name: "22"
+    network: ws
+    port: 2052
+    server: 172.67.6.3
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: huajuan.yzcjd.workers.dev
+      path: /?ed=2048
+  - alterId: 0
+    cipher: ""
+    flow: ""
+    name: "23"
+    network: ws
+    port: 2052
+    server: www.udemy.com
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: huajuan.yzcjd.workers.dev
+      path: /?ed=2048
 proxy-groups:
-  - {name: 电报频道@stymei1, type: select, proxies: [欢迎关注每天付费机场白嫖, TG频道@stymei1, "1", "2", "3", "4", "5", "6", 节点全失效就连这个（防失联）]}
-  - {name: 欢迎关注每天付费机场白嫖, type: url-test, proxies: [TG频道@stymei1, "1", "2", "3", "4", "5", "6", 节点全失效就连这个（防失联）], url: 'http://www.gstatic.com/generate_204', interval: 86400}
+  - name: "电报频道stymei1"
+    include-all: true
+    type: select
+    proxies:
+      - TG频道@stymei1
+      - "1"
+      - "2"
+      - "3"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
+      - "9"
+      - "10"
+      - "11"
+      - "12"
+      - "13"
+      - "14"
+      - "15"
+      - "16"
+      - "17"
+      - "18"
+      - "19"
+      - "21"
+      - "20"
+      - "22"
+      - "23"
+  - name: 欢迎关注
+    type: url-test
+    include-all: true
+    interval: 300
+    tolerance: 50
+    proxies:
+      - TG频道@stymei1
+      - "1"
+      - "2"
+      - "3"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
+      - "9"
+      - "10"
+      - "11"
+      - "12"
+      - "13"
+      - "14"
+      - "15"
+      - "16"
+      - "17"
+      - "18"
+      - "19"
+      - "20"
+      - "21"
+      - "22"
+      - "23"
+rule-providers:
+  LocalAreaNetwork:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
+    path: ./ruleset/LocalAreaNetwork.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  UnBan:
+    url: 'https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/UnBan.list'
+    path: ./ruleset/UnBan.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BanAD:
+    url: 'https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list'
+    path: ./ruleset/BanAD.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BanProgramAD:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanProgramAD.list
+    path: ./ruleset/BanProgramAD.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleFCM:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/GoogleFCM.list
+    path: ./ruleset/GoogleFCM.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleCN:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/GoogleCN.list
+    path: ./ruleset/GoogleCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  SteamCN:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/SteamCN.list
+    path: ./ruleset/SteamCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bing:
+    url: 'https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Bing.list'
+    path: ./ruleset/Bing.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OneDrive:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/OneDrive.list
+    path: ./ruleset/OneDrive.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Microsoft:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Microsoft.list
+    path: ./ruleset/Microsoft.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Apple:
+    url: 'https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Apple.list'
+    path: ./ruleset/Apple.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Telegram:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Telegram.list
+    path: ./ruleset/Telegram.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  AI:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/AI.list
+    path: ./ruleset/AI.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OpenAi:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/OpenAi.list
+    path: ./ruleset/OpenAi.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  NetEaseMusic:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/NetEaseMusic.list
+    path: ./ruleset/NetEaseMusic.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Epic:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Epic.list
+    path: ./ruleset/Epic.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Origin:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Origin.list
+    path: ./ruleset/Origin.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Sony:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Sony.list
+    path: ./ruleset/Sony.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Steam:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Steam.list
+    path: ./ruleset/Steam.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Nintendo:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Nintendo.list
+    path: ./ruleset/Nintendo.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  YouTube:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/YouTube.list
+    path: ./ruleset/YouTube.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Netflix:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Netflix.list
+    path: ./ruleset/Netflix.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bahamut:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bahamut.list
+    path: ./ruleset/Bahamut.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BilibiliHMT:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/BilibiliHMT.list
+    path: ./ruleset/BilibiliHMT.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bilibili:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bilibili.list
+    path: ./ruleset/Bilibili.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaMedia:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaMedia.list
+    path: ./ruleset/ChinaMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ProxyMedia:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyMedia.list
+    path: ./ruleset/ProxyMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ProxyGFWlist:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyGFWlist.list
+    path: ./ruleset/ProxyGFWlist.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaDomain:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaDomain.list
+    path: ./ruleset/ChinaDomain.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaCompanyIp:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list
+    path: ./ruleset/ChinaCompanyIp.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Download:
+    url: >-
+      https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Download.list
+    path: ./ruleset/Download.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 rules:
-  - 'DOMAIN,xn--cp3a08l.com,DIRECT'
-  - DOMAIN-SUFFIX,services.googleapis.cn,电报频道@stymei1
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,电报频道@stymei1
-  - 'DOMAIN,safebrowsing.urlsec.qq.com,DIRECT'
-  - 'DOMAIN,safebrowsing.googleapis.com,DIRECT'
-  - DOMAIN,developer.apple.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,digicert.com,电报频道@stymei1
-  - DOMAIN,ocsp.apple.com,电报频道@stymei1
-  - DOMAIN,ocsp.comodoca.com,电报频道@stymei1
-  - DOMAIN,ocsp.usertrust.com,电报频道@stymei1
-  - DOMAIN,ocsp.sectigo.com,电报频道@stymei1
-  - DOMAIN,ocsp.verisign.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,apple-dns.net,电报频道@stymei1
-  - DOMAIN,testflight.apple.com,电报频道@stymei1
-  - DOMAIN,sandbox.itunes.apple.com,电报频道@stymei1
-  - DOMAIN,itunes.apple.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,apps.apple.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,blobstore.apple.com,电报频道@stymei1
-  - DOMAIN,cvws.icloud-content.com,电报频道@stymei1
-  - 'DOMAIN-SUFFIX,mzstatic.com,DIRECT'
-  - 'DOMAIN-SUFFIX,itunes.apple.com,DIRECT'
-  - 'DOMAIN-SUFFIX,icloud.com,DIRECT'
-  - 'DOMAIN-SUFFIX,icloud-content.com,DIRECT'
-  - 'DOMAIN-SUFFIX,me.com,DIRECT'
-  - 'DOMAIN-SUFFIX,aaplimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,cdn20.com,DIRECT'
-  - 'DOMAIN-SUFFIX,cdn-apple.com,DIRECT'
-  - 'DOMAIN-SUFFIX,akadns.net,DIRECT'
-  - 'DOMAIN-SUFFIX,akamaiedge.net,DIRECT'
-  - 'DOMAIN-SUFFIX,edgekey.net,DIRECT'
-  - 'DOMAIN-SUFFIX,mwcloudcdn.com,DIRECT'
-  - 'DOMAIN-SUFFIX,mwcname.com,DIRECT'
-  - 'DOMAIN-SUFFIX,apple.com,DIRECT'
-  - 'DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT'
-  - 'DOMAIN-SUFFIX,apple-mapkit.com,DIRECT'
-  - 'DOMAIN-SUFFIX,126.com,DIRECT'
-  - 'DOMAIN-SUFFIX,126.net,DIRECT'
-  - 'DOMAIN-SUFFIX,127.net,DIRECT'
-  - 'DOMAIN-SUFFIX,163.com,DIRECT'
-  - 'DOMAIN-SUFFIX,360buyimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,36kr.com,DIRECT'
-  - 'DOMAIN-SUFFIX,acfun.tv,DIRECT'
-  - 'DOMAIN-SUFFIX,air-matters.com,DIRECT'
-  - 'DOMAIN-SUFFIX,aixifan.com,DIRECT'
-  - 'DOMAIN-KEYWORD,alicdn,DIRECT'
-  - 'DOMAIN-KEYWORD,alipay,DIRECT'
-  - 'DOMAIN-KEYWORD,taobao,DIRECT'
-  - 'DOMAIN-SUFFIX,amap.com,DIRECT'
-  - 'DOMAIN-SUFFIX,autonavi.com,DIRECT'
-  - 'DOMAIN-KEYWORD,baidu,DIRECT'
-  - 'DOMAIN-SUFFIX,bdimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,bdstatic.com,DIRECT'
-  - 'DOMAIN-SUFFIX,bilibili.com,DIRECT'
-  - 'DOMAIN-SUFFIX,bilivideo.com,DIRECT'
-  - 'DOMAIN-SUFFIX,caiyunapp.com,DIRECT'
-  - 'DOMAIN-SUFFIX,clouddn.com,DIRECT'
-  - 'DOMAIN-SUFFIX,cnbeta.com,DIRECT'
-  - 'DOMAIN-SUFFIX,cnbetacdn.com,DIRECT'
-  - 'DOMAIN-SUFFIX,cootekservice.com,DIRECT'
-  - 'DOMAIN-SUFFIX,csdn.net,DIRECT'
-  - 'DOMAIN-SUFFIX,ctrip.com,DIRECT'
-  - 'DOMAIN-SUFFIX,dgtle.com,DIRECT'
-  - 'DOMAIN-SUFFIX,dianping.com,DIRECT'
-  - 'DOMAIN-SUFFIX,douban.com,DIRECT'
-  - 'DOMAIN-SUFFIX,doubanio.com,DIRECT'
-  - 'DOMAIN-SUFFIX,duokan.com,DIRECT'
-  - 'DOMAIN-SUFFIX,easou.com,DIRECT'
-  - 'DOMAIN-SUFFIX,ele.me,DIRECT'
-  - 'DOMAIN-SUFFIX,feng.com,DIRECT'
-  - 'DOMAIN-SUFFIX,fir.im,DIRECT'
-  - 'DOMAIN-SUFFIX,frdic.com,DIRECT'
-  - 'DOMAIN-SUFFIX,g-cores.com,DIRECT'
-  - 'DOMAIN-SUFFIX,godic.net,DIRECT'
-  - 'DOMAIN-SUFFIX,gtimg.com,DIRECT'
-  - 'DOMAIN,cdn.hockeyapp.net,DIRECT'
-  - 'DOMAIN-SUFFIX,hongxiu.com,DIRECT'
-  - 'DOMAIN-SUFFIX,hxcdn.net,DIRECT'
-  - 'DOMAIN-SUFFIX,iciba.com,DIRECT'
-  - 'DOMAIN-SUFFIX,ifeng.com,DIRECT'
-  - 'DOMAIN-SUFFIX,ifengimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,ipip.net,DIRECT'
-  - 'DOMAIN-SUFFIX,iqiyi.com,DIRECT'
-  - 'DOMAIN-SUFFIX,jd.com,DIRECT'
-  - 'DOMAIN-SUFFIX,jianshu.com,DIRECT'
-  - 'DOMAIN-SUFFIX,knewone.com,DIRECT'
-  - 'DOMAIN-SUFFIX,le.com,DIRECT'
-  - 'DOMAIN-SUFFIX,lecloud.com,DIRECT'
-  - 'DOMAIN-SUFFIX,lemicp.com,DIRECT'
-  - 'DOMAIN-SUFFIX,licdn.com,DIRECT'
-  - 'DOMAIN-SUFFIX,luoo.net,DIRECT'
-  - 'DOMAIN-SUFFIX,meituan.com,DIRECT'
-  - 'DOMAIN-SUFFIX,meituan.net,DIRECT'
-  - 'DOMAIN-SUFFIX,mi.com,DIRECT'
-  - 'DOMAIN-SUFFIX,miaopai.com,DIRECT'
-  - 'DOMAIN-SUFFIX,microsoft.com,DIRECT'
-  - 'DOMAIN-SUFFIX,microsoftonline.com,DIRECT'
-  - 'DOMAIN-SUFFIX,miui.com,DIRECT'
-  - 'DOMAIN-SUFFIX,miwifi.com,DIRECT'
-  - 'DOMAIN-SUFFIX,mob.com,DIRECT'
-  - 'DOMAIN-SUFFIX,netease.com,DIRECT'
-  - 'DOMAIN-SUFFIX,office.com,DIRECT'
-  - 'DOMAIN-SUFFIX,office365.com,DIRECT'
-  - 'DOMAIN-KEYWORD,officecdn,DIRECT'
-  - 'DOMAIN-SUFFIX,oschina.net,DIRECT'
-  - 'DOMAIN-SUFFIX,ppsimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,pstatp.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qcloud.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qdaily.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qdmm.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qhimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qhres.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qidian.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qihucdn.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qiniu.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qiniucdn.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qiyipic.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qq.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qqurl.com,DIRECT'
-  - 'DOMAIN-SUFFIX,rarbg.to,DIRECT'
-  - 'DOMAIN-SUFFIX,ruguoapp.com,DIRECT'
-  - 'DOMAIN-SUFFIX,segmentfault.com,DIRECT'
-  - 'DOMAIN-SUFFIX,sinaapp.com,DIRECT'
-  - 'DOMAIN-SUFFIX,smzdm.com,DIRECT'
-  - 'DOMAIN-SUFFIX,snapdrop.net,DIRECT'
-  - 'DOMAIN-SUFFIX,sogou.com,DIRECT'
-  - 'DOMAIN-SUFFIX,sogoucdn.com,DIRECT'
-  - 'DOMAIN-SUFFIX,sohu.com,DIRECT'
-  - 'DOMAIN-SUFFIX,soku.com,DIRECT'
-  - 'DOMAIN-SUFFIX,speedtest.net,DIRECT'
-  - 'DOMAIN-SUFFIX,sspai.com,DIRECT'
-  - 'DOMAIN-SUFFIX,suning.com,DIRECT'
-  - 'DOMAIN-SUFFIX,taobao.com,DIRECT'
-  - 'DOMAIN-SUFFIX,tencent.com,DIRECT'
-  - 'DOMAIN-SUFFIX,tenpay.com,DIRECT'
-  - 'DOMAIN-SUFFIX,tianyancha.com,DIRECT'
-  - 'DOMAIN-SUFFIX,tmall.com,DIRECT'
-  - 'DOMAIN-SUFFIX,tudou.com,DIRECT'
-  - 'DOMAIN-SUFFIX,umetrip.com,DIRECT'
-  - 'DOMAIN-SUFFIX,upaiyun.com,DIRECT'
-  - 'DOMAIN-SUFFIX,upyun.com,DIRECT'
-  - 'DOMAIN-SUFFIX,veryzhun.com,DIRECT'
-  - 'DOMAIN-SUFFIX,weather.com,DIRECT'
-  - 'DOMAIN-SUFFIX,weibo.com,DIRECT'
-  - 'DOMAIN-SUFFIX,xiami.com,DIRECT'
-  - 'DOMAIN-SUFFIX,xiami.net,DIRECT'
-  - 'DOMAIN-SUFFIX,xiaomicp.com,DIRECT'
-  - 'DOMAIN-SUFFIX,ximalaya.com,DIRECT'
-  - 'DOMAIN-SUFFIX,xmcdn.com,DIRECT'
-  - 'DOMAIN-SUFFIX,xunlei.com,DIRECT'
-  - 'DOMAIN-SUFFIX,yhd.com,DIRECT'
-  - 'DOMAIN-SUFFIX,yihaodianimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,yinxiang.com,DIRECT'
-  - 'DOMAIN-SUFFIX,ykimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,youdao.com,DIRECT'
-  - 'DOMAIN-SUFFIX,youku.com,DIRECT'
-  - 'DOMAIN-SUFFIX,zealer.com,DIRECT'
-  - 'DOMAIN-SUFFIX,zhihu.com,DIRECT'
-  - 'DOMAIN-SUFFIX,zhimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,zimuzu.tv,DIRECT'
-  - 'DOMAIN-SUFFIX,zoho.com,DIRECT'
-  - DOMAIN-KEYWORD,amazon,电报频道@stymei1
-  - DOMAIN-KEYWORD,google,电报频道@stymei1
-  - DOMAIN-KEYWORD,gmail,电报频道@stymei1
-  - DOMAIN-KEYWORD,youtube,电报频道@stymei1
-  - DOMAIN-KEYWORD,facebook,电报频道@stymei1
-  - DOMAIN-SUFFIX,fb.me,电报频道@stymei1
-  - DOMAIN-SUFFIX,fbcdn.net,电报频道@stymei1
-  - DOMAIN-KEYWORD,twitter,电报频道@stymei1
-  - DOMAIN-KEYWORD,instagram,电报频道@stymei1
-  - DOMAIN-KEYWORD,dropbox,电报频道@stymei1
-  - DOMAIN-SUFFIX,twimg.com,电报频道@stymei1
-  - DOMAIN-KEYWORD,blogspot,电报频道@stymei1
-  - DOMAIN-SUFFIX,youtu.be,电报频道@stymei1
-  - DOMAIN-KEYWORD,whatsapp,电报频道@stymei1
-  - 'DOMAIN-KEYWORD,admarvel,REJECT'
-  - 'DOMAIN-KEYWORD,admaster,REJECT'
-  - 'DOMAIN-KEYWORD,adsage,REJECT'
-  - 'DOMAIN-KEYWORD,adsmogo,REJECT'
-  - 'DOMAIN-KEYWORD,adsrvmedia,REJECT'
-  - 'DOMAIN-KEYWORD,adwords,REJECT'
-  - 'DOMAIN-KEYWORD,adservice,REJECT'
-  - 'DOMAIN-SUFFIX,appsflyer.com,REJECT'
-  - 'DOMAIN-KEYWORD,domob,REJECT'
-  - 'DOMAIN-SUFFIX,doubleclick.net,REJECT'
-  - 'DOMAIN-KEYWORD,duomeng,REJECT'
-  - 'DOMAIN-KEYWORD,dwtrack,REJECT'
-  - 'DOMAIN-KEYWORD,guanggao,REJECT'
-  - 'DOMAIN-KEYWORD,lianmeng,REJECT'
-  - 'DOMAIN-SUFFIX,mmstat.com,REJECT'
-  - 'DOMAIN-KEYWORD,mopub,REJECT'
-  - 'DOMAIN-KEYWORD,omgmta,REJECT'
-  - 'DOMAIN-KEYWORD,openx,REJECT'
-  - 'DOMAIN-KEYWORD,partnerad,REJECT'
-  - 'DOMAIN-KEYWORD,pingfore,REJECT'
-  - 'DOMAIN-KEYWORD,supersonicads,REJECT'
-  - 'DOMAIN-KEYWORD,uedas,REJECT'
-  - 'DOMAIN-KEYWORD,umeng,REJECT'
-  - 'DOMAIN-KEYWORD,usage,REJECT'
-  - 'DOMAIN-SUFFIX,vungle.com,REJECT'
-  - 'DOMAIN-KEYWORD,wlmonitor,REJECT'
-  - 'DOMAIN-KEYWORD,zjtoolbar,REJECT'
-  - DOMAIN-SUFFIX,9to5mac.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,abpchina.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,adblockplus.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,adobe.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,akamaized.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,alfredapp.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,amplitude.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,ampproject.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,android.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,angularjs.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,aolcdn.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,apkpure.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,appledaily.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,appshopper.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,appspot.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,arcgis.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,archive.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,armorgames.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,aspnetcdn.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,att.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,awsstatic.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,azureedge.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,azurewebsites.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,bing.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,bintray.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,bit.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,bit.ly,电报频道@stymei1
-  - DOMAIN-SUFFIX,bitbucket.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,bjango.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,bkrtx.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,blog.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,blogcdn.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,blogger.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,blogsmithmedia.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,blogspot.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,blogspot.hk,电报频道@stymei1
-  - DOMAIN-SUFFIX,bloomberg.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,box.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,box.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,cachefly.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,chromium.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,cl.ly,电报频道@stymei1
-  - DOMAIN-SUFFIX,cloudflare.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,cloudfront.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,cloudmagic.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,cmail19.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,cnet.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,cocoapods.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,comodoca.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,crashlytics.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,culturedcode.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,d.pr,电报频道@stymei1
-  - DOMAIN-SUFFIX,danilo.to,电报频道@stymei1
-  - DOMAIN-SUFFIX,dayone.me,电报频道@stymei1
-  - DOMAIN-SUFFIX,db.tt,电报频道@stymei1
-  - DOMAIN-SUFFIX,deskconnect.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,disq.us,电报频道@stymei1
-  - DOMAIN-SUFFIX,disqus.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,disquscdn.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,dnsimple.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,docker.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,dribbble.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,droplr.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,duckduckgo.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,dueapp.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,dytt8.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,edgecastcdn.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,edgekey.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,edgesuite.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,engadget.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,entrust.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,eurekavpt.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,evernote.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,fabric.io,电报频道@stymei1
-  - DOMAIN-SUFFIX,fast.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,fastly.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,fc2.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,feedburner.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,feedly.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,feedsportal.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,fiftythree.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,firebaseio.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,flexibits.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,flickr.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,flipboard.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,g.co,电报频道@stymei1
-  - DOMAIN-SUFFIX,gabia.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,geni.us,电报频道@stymei1
-  - DOMAIN-SUFFIX,gfx.ms,电报频道@stymei1
-  - DOMAIN-SUFFIX,ggpht.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,ghostnoteapp.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,git.io,电报频道@stymei1
-  - DOMAIN-KEYWORD,github,电报频道@stymei1
-  - DOMAIN-SUFFIX,globalsign.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,gmodules.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,godaddy.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,golang.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,gongm.in,电报频道@stymei1
-  - DOMAIN-SUFFIX,goo.gl,电报频道@stymei1
-  - DOMAIN-SUFFIX,goodreaders.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,goodreads.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,gravatar.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,gstatic.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,gvt0.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,hockeyapp.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,hotmail.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,icons8.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,ifixit.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,ift.tt,电报频道@stymei1
-  - DOMAIN-SUFFIX,ifttt.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,iherb.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,imageshack.us,电报频道@stymei1
-  - DOMAIN-SUFFIX,img.ly,电报频道@stymei1
-  - DOMAIN-SUFFIX,imgur.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,imore.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,instapaper.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,ipn.li,电报频道@stymei1
-  - DOMAIN-SUFFIX,is.gd,电报频道@stymei1
-  - DOMAIN-SUFFIX,issuu.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,itgonglun.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,itun.es,电报频道@stymei1
-  - DOMAIN-SUFFIX,ixquick.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,j.mp,电报频道@stymei1
-  - DOMAIN-SUFFIX,js.revsci.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,jshint.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,jtvnw.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,justgetflux.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,kat.cr,电报频道@stymei1
-  - DOMAIN-SUFFIX,klip.me,电报频道@stymei1
-  - DOMAIN-SUFFIX,libsyn.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,linkedin.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,line-apps.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,linode.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,lithium.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,littlehj.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,live.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,live.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,livefilestore.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,llnwd.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,macid.co,电报频道@stymei1
-  - DOMAIN-SUFFIX,macromedia.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,macrumors.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,mashable.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,mathjax.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,medium.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,mega.co.nz,电报频道@stymei1
-  - DOMAIN-SUFFIX,mega.nz,电报频道@stymei1
-  - DOMAIN-SUFFIX,megaupload.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,microsofttranslator.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,mindnode.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,mobile01.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,modmyi.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,msedge.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,myfontastic.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,name.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,nextmedia.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,nsstatic.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,nssurge.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,nyt.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,nytimes.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,omnigroup.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,onedrive.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,onenote.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,ooyala.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,openvpn.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,openwrt.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,orkut.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,osxdaily.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,outlook.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,ow.ly,电报频道@stymei1
-  - DOMAIN-SUFFIX,paddleapi.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,parallels.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,parse.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,pdfexpert.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,periscope.tv,电报频道@stymei1
-  - DOMAIN-SUFFIX,pinboard.in,电报频道@stymei1
-  - DOMAIN-SUFFIX,pinterest.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,pixelmator.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,pixiv.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,playpcesor.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,playstation.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,playstation.com.hk,电报频道@stymei1
-  - DOMAIN-SUFFIX,playstation.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,playstationnetwork.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,pushwoosh.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,rime.im,电报频道@stymei1
-  - DOMAIN-SUFFIX,servebom.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,sfx.ms,电报频道@stymei1
-  - DOMAIN-SUFFIX,shadowsocks.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,sharethis.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,shazam.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,skype.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,smartdns赔钱机场.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,smartmailcloud.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,sndcdn.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,sony.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,soundcloud.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,sourceforge.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,spotify.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,squarespace.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,sstatic.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,st.luluku.pw,电报频道@stymei1
-  - DOMAIN-SUFFIX,stackoverflow.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,startpage.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,staticflickr.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,steamcommunity.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,symauth.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,symcb.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,symcd.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,tapbots.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,tapbots.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,tdesktop.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,techcrunch.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,techsmith.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,thepiratebay.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,theverge.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,time.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,timeinc.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,tiny.cc,电报频道@stymei1
-  - DOMAIN-SUFFIX,tinypic.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,tmblr.co,电报频道@stymei1
-  - DOMAIN-SUFFIX,todoist.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,trello.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,trustasiassl.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,tumblr.co,电报频道@stymei1
-  - DOMAIN-SUFFIX,tumblr.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,tweetdeck.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,tweetmarker.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,twitch.tv,电报频道@stymei1
-  - DOMAIN-SUFFIX,txmblr.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,typekit.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,ubertags.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,ublock.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,ubnt.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,ulyssesapp.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,urchin.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,usertrust.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,v.gd,电报频道@stymei1
-  - DOMAIN-SUFFIX,v2ex.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,vimeo.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,vimeocdn.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,vine.co,电报频道@stymei1
-  - DOMAIN-SUFFIX,vivaldi.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,vox-cdn.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,vsco.co,电报频道@stymei1
-  - DOMAIN-SUFFIX,vultr.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,w.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,w3schools.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,webtype.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,wikiwand.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,wikileaks.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,wikimedia.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,wikipedia.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,wikipedia.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,windows.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,windows.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,wire.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,wordpress.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,workflowy.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,wp.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,wsj.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,wsj.net,电报频道@stymei1
-  - DOMAIN-SUFFIX,xda-developers.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,xeeno.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,xiti.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,yahoo.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,yimg.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,ying.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,yoyo.org,电报频道@stymei1
-  - DOMAIN-SUFFIX,ytimg.com,电报频道@stymei1
-  - DOMAIN-SUFFIX,telegra.ph,电报频道@stymei1
-  - DOMAIN-SUFFIX,telegram.org,电报频道@stymei1
-  - IP-CIDR,91.108.4.0/22,电报频道@stymei1,no-resolve
-  - IP-CIDR,91.108.8.0/21,电报频道@stymei1,no-resolve
-  - IP-CIDR,91.108.16.0/22,电报频道@stymei1,no-resolve
-  - IP-CIDR,91.108.56.0/22,电报频道@stymei1,no-resolve
-  - IP-CIDR,149.154.160.0/20,电报频道@stymei1,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,电报频道@stymei1,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,电报频道@stymei1,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,电报频道@stymei1,no-resolve
-  - IP-CIDR,120.232.181.162/32,电报频道@stymei1,no-resolve
-  - IP-CIDR,120.241.147.226/32,电报频道@stymei1,no-resolve
-  - IP-CIDR,120.253.253.226/32,电报频道@stymei1,no-resolve
-  - IP-CIDR,120.253.255.162/32,电报频道@stymei1,no-resolve
-  - IP-CIDR,120.253.255.34/32,电报频道@stymei1,no-resolve
-  - IP-CIDR,120.253.255.98/32,电报频道@stymei1,no-resolve
-  - IP-CIDR,180.163.150.162/32,电报频道@stymei1,no-resolve
-  - IP-CIDR,180.163.150.34/32,电报频道@stymei1,no-resolve
-  - IP-CIDR,180.163.151.162/32,电报频道@stymei1,no-resolve
-  - IP-CIDR,180.163.151.34/32,电报频道@stymei1,no-resolve
-  - IP-CIDR,203.208.39.0/24,电报频道@stymei1,no-resolve
-  - IP-CIDR,203.208.40.0/24,电报频道@stymei1,no-resolve
-  - IP-CIDR,203.208.41.0/24,电报频道@stymei1,no-resolve
-  - IP-CIDR,203.208.43.0/24,电报频道@stymei1,no-resolve
-  - IP-CIDR,203.208.50.0/24,电报频道@stymei1,no-resolve
-  - IP-CIDR,220.181.174.162/32,电报频道@stymei1,no-resolve
-  - IP-CIDR,220.181.174.226/32,电报频道@stymei1,no-resolve
-  - IP-CIDR,220.181.174.34/32,电报频道@stymei1,no-resolve
-  - 'DOMAIN,injections.adguard.org,DIRECT'
-  - 'DOMAIN,local.adguard.org,DIRECT'
-  - 'DOMAIN-SUFFIX,local,DIRECT'
-  - 'IP-CIDR,127.0.0.0/8,DIRECT'
-  - 'IP-CIDR,172.16.0.0/12,DIRECT'
-  - 'IP-CIDR,192.168.0.0/16,DIRECT'
-  - 'IP-CIDR,10.0.0.0/8,DIRECT'
-  - 'IP-CIDR,17.0.0.0/8,DIRECT'
-  - 'IP-CIDR,100.64.0.0/10,DIRECT'
-  - 'IP-CIDR,224.0.0.0/4,DIRECT'
-  - 'IP-CIDR6,fe80::/10,DIRECT'
-  - 'DOMAIN-SUFFIX,cn,DIRECT'
-  - 'DOMAIN-KEYWORD,-cn,DIRECT'
-  - 'GEOIP,CN,DIRECT'
-  - MATCH,电报频道@stymei1
+  - "PROCESS-NAME,subs-check.exe,🎯 全球直连"
+  - "PROCESS-NAME,subs-check,🎯 全球直连"
+  - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
+  - "RULE-SET,UnBan,🎯 全球直连"
+  - "RULE-SET,BanAD,🛑 广告拦截"
+  - "RULE-SET,BanProgramAD,🍃 应用净化"
+  - "RULE-SET,GoogleFCM,📢 谷歌FCM"
+  - "RULE-SET,GoogleCN,🎯 全球直连"
+  - "RULE-SET,SteamCN,🎯 全球直连"
+  - 'RULE-SET,Bing,Ⓜ️ 微软Bing'
+  - 'RULE-SET,OneDrive,Ⓜ️ 微软云盘'
+  - 'RULE-SET,Microsoft,Ⓜ️ 微软服务'
+  - "RULE-SET,Apple,🍎 苹果服务"
+  - "RULE-SET,Telegram,📲 电报消息"
+  - "RULE-SET,AI,💬 Ai平台"
+  - "RULE-SET,NetEaseMusic,🎶 网易音乐"
+  - "RULE-SET,Epic,🎮 游戏平台"
+  - "RULE-SET,Origin,🎮 游戏平台"
+  - "RULE-SET,Sony,🎮 游戏平台"
+  - "RULE-SET,Steam,🎮 游戏平台"
+  - "RULE-SET,Nintendo,🎮 游戏平台"
+  - "RULE-SET,YouTube,📹 油管视频"
+  - "RULE-SET,Netflix,🎥 奈飞视频"
+  - "RULE-SET,Bahamut,📺 巴哈姆特"
+  - "RULE-SET,BilibiliHMT,📺 哔哩哔哩"
+  - "RULE-SET,Bilibili,📺 哔哩哔哩"
+  - "RULE-SET,ChinaMedia,🌏 国内媒体"
+  - "RULE-SET,ProxyMedia,🌍 国外媒体"
+  - "RULE-SET,ProxyGFWlist,🚀 节点选择"
+  - "RULE-SET,ChinaDomain,🎯 全球直连"
+  - "RULE-SET,ChinaCompanyIp,🎯 全球直连"
+  - "RULE-SET,Download,🎯 全球直连"
+  - "GEOIP,CN,🎯 全球直连"
+  - "MATCH,🐟 漏网之鱼"
+# 2025-04-24 17:16:36
