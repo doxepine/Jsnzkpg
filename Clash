@@ -562,3 +562,4 @@ rules:
   - 'DOMAIN-KEYWORD,-cn,DIRECT'
   - 'GEOIP,CN,DIRECT'
   - MATCH,电报频道@stymei1
+
