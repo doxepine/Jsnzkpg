@@ -25,10 +25,28 @@ proxies:
   - {name: 5, type: vless, server: 104.18.20.20, port: 443, uuid: 2ee2c33b-cc0f-4ea1-b287-5870f3ee3951, flow: '', client-fingerprint: chrome, udp: true, tls: true, servername: us6s.globals-download.com, network: ws, ws-opts: {path: /pq/us6, headers: {Host: us6s.globals-download.com}}, ws-path: /pq/us6, ws-headers: {Host: us6s.globals-download.com}, alterId: 0, cipher: "", sni: us6s.globals-download.com}
   - {name: 6, type: vless, server: 104.18.20.20, port: 443, uuid: 2ee2c33b-cc0f-4ea1-b287-5870f3ee3951, flow: '', client-fingerprint: chrome, udp: true, tls: true, servername: us7.globals-download.com, network: ws, ws-opts: {path: /pq/us7, headers: {Host: us7.globals-download.com}}, ws-path: /pq/us7, ws-headers: {Host: us7.globals-download.com}, alterId: 0, cipher: "", sni: us7.globals-download.com}
   - {name: 7, type: vless, server: 104.27.125.158, port: 443, uuid: 2ee2c33b-cc0f-4ea1-b287-5870f3ee3951, flow: '', client-fingerprint: chrome, udp: true, tls: true, network: ws, ws-opts: {path: /pq/jp1, headers: {Host: jp1.xn--ghqu5fm27b67w.com}}, ws-path: /pq/jp1, ws-headers: {Host: jp1.xn--ghqu5fm27b67w.com}, alterId: 0, cipher: ""}
+  - alterId: 0
+    cipher: ""
+    flow: xtls-rprx-vision
+    name: "8"
+    port: 443
+    reality-opts:
+      public-key: IDKfxFjmVdUwLZJazMqqJZabKPGhxwNhp1sOPKvHqwo
+      short-id: 758c70f9
+    server: 2605:6400:20:337:4b2f:2186:32c7:591f
+    servername: us.archive.ubuntu.com
+    sni: us.archive.ubuntu.com
+    tls: true
+    type: vless
+    uuid: 44fdb13b-e23b-40fb-820c-f50b66216c2b
+  - name: "9"
+    port: 8888
+    server: sf3.epicbrowser.net
+    type: http
 proxy-groups:
-  - {name: 电报频道@stymei1, type: select, proxies: [自动选择, 故障转移, TG频道@stymei1, "1", "2", "3", "4", "5", "6", "7"]}
-  - {name: 自动选择, type: url-test, proxies: [TG频道@stymei1, "1", "2", "3", "4", "5", "6", "7"], url: 'http://www.gstatic.com/generate_204', interval: 86400}
-  - {name: 故障转移, type: fallback, proxies: [TG频道@stymei1, "1", "2", "3", "4", "5", "6", "7"], url: 'http://www.gstatic.com/generate_204', interval: 7200}
+  - {name: 电报频道@stymei1, type: select, proxies: [自动选择, 故障转移, TG频道@stymei1, "1", "2", "3", "4", "5", "6", "7", "8", "9"]}
+  - {name: 自动选择, type: url-test, proxies: [TG频道@stymei1, "1", "2", "3", "4", "5", "6", "7", "8", "9"], url: 'http://www.gstatic.com/generate_204', interval: 86400}
+  - {name: 故障转移, type: fallback, proxies: [TG频道@stymei1, "1", "2", "3", "4", "5", "6", "7", "8", "9"], url: 'http://www.gstatic.com/generate_204', interval: 7200}
 rules:
   - 'DOMAIN,xn--cp3a08l.com,DIRECT'
   - DOMAIN-SUFFIX,services.googleapis.cn,电报频道@stymei1
