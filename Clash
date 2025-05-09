@@ -32,118 +32,121 @@ proxies:
     uuid: 44fdb13b-e23b-40fb-820c-f50b66216c2b
   - mtu: 1420
     name: "2"
-    port: 443
+    port: 11501
     private-key: kDjMhp3s1AnPI+Hkd4nWaqau9907+CYAvEDI/df8lHk=
     public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
-    server: dc3.sg.flow.host
-    type: wireguard
+    server: cdn-p1-hk.weibo-dns.com
+    type: ss
     ip: 10.211.246.38
+    cipher: aes-256-gcm
+    password: 423cf642-6528-410c-b542-2aae04113d33
   - mtu: 1420
     name: "3"
-    port: 443
+    port: 11501
     private-key: kDjMhp3s1AnPI+Hkd4nWaqau9907+CYAvEDI/df8lHk=
     public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
-    server: vn.flow.host
-    type: wireguard
+    server: cdn-p1-hk.weibo-dns.com
+    type: ss
     ip: 10.211.246.38
+    cipher: aes-256-gcm
+    password: 423cf642-6528-410c-b542-2aae04113d33
   - mtu: 1420
     name: "4"
     port: 443
     private-key: kDjMhp3s1AnPI+Hkd4nWaqau9907+CYAvEDI/df8lHk=
     public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
-    server: dc11.hk.flow.host
-    type: wireguard
+    server: sg01.trojanyyds.xyz
+    type: trojan
     ip: 10.211.246.38
+    password: 54231b3d-a39d-4769-a511-2a1c663a62b1
+    servername: sg01.trojanyyds.xyz
+    sni: sg01.trojanyyds.xyz
   - mtu: 1420
     name: "5"
     port: 443
     private-key: kDjMhp3s1AnPI+Hkd4nWaqau9907+CYAvEDI/df8lHk=
     public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
-    server: ph.flow.host
-    type: wireguard
+    server: sg02.trojanyyds.xyz
+    type: trojan
     ip: 10.211.246.38
+    password: 54231b3d-a39d-4769-a511-2a1c663a62b1
+    servername: sg02.trojanyyds.xyz
+    sni: sg02.trojanyyds.xyz
   - mtu: 1420
     name: "6"
-    port: 443
+    port: 2095
     private-key: kDjMhp3s1AnPI+Hkd4nWaqau9907+CYAvEDI/df8lHk=
     public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
-    server: dc6.hk.flow.host
-    type: wireguard
+    server: qrzv.youxuan.wiki
+    type: vless
     ip: 10.211.246.38
+    alterId: 0
+    cipher: ""
+    flow: ""
+    network: ws
+    uuid: 6cab1805-92ff-4d19-b64b-25d1f4250804
+    ws-opts:
+      headers:
+        Host: us7.7896543.xyz
+      path: /youxuan
   - mtu: 1420
     name: "7"
-    port: 443
+    port: 20230
     private-key: kDjMhp3s1AnPI+Hkd4nWaqau9907+CYAvEDI/df8lHk=
     public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
-    server: dc7.hk.flow.host
-    type: wireguard
+    server: sg001.421421.xyz
+    type: vless
     ip: 10.211.246.38
+    alterId: 0
+    cipher: ""
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: WEttTimK6Q9qB8cd2AQ8kyDJOVfKAlPIl5E1T7-q0Dw
+      short-id: 1afbe06d
+    servername: www.nvidia.com
+    sni: www.nvidia.com
+    tls: true
+    uuid: bf03c4c4-fe9b-4e45-a00b-8afd8d8e7372
   - mtu: 1420
     name: "8"
     port: 443
     private-key: kDjMhp3s1AnPI+Hkd4nWaqau9907+CYAvEDI/df8lHk=
     public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
-    server: dc1.hk.flow.host
-    type: wireguard
+    server: mpdh.cloudflare.182682.xyz
+    type: vmess
     ip: 10.211.246.38
+    alterId: 0
+    cipher: ""
+    flow: ""
+    network: ws
+    servername: v2de3.333789.xyz
+    sni: v2de3.333789.xyz
+    tls: true
+    uuid: bacfcdf3-abc1-38ee-9a70-6cfbc72621c7
+    ws-opts:
+      headers:
+        Host: v2de3.333789.xyz
+      path: /hls/cctv5phd.m3u8
   - mtu: 1420
     name: "9"
     port: 443
     private-key: kDjMhp3s1AnPI+Hkd4nWaqau9907+CYAvEDI/df8lHk=
     public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
-    server: dc4.tw.flow.host
-    type: wireguard
-    ip: 10.211.246.38
-  - mtu: 1420
-    name: "10"
-    port: 443
-    private-key: kDjMhp3s1AnPI+Hkd4nWaqau9907+CYAvEDI/df8lHk=
-    public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
-    server: dc4.kr.flow.host
-    type: wireguard
-    ip: 10.211.246.38
-  - alterId: 0
-    cipher: ""
-    flow: ""
-    name: "11"
-    network: ws
-    port: 80
-    server: www.speedtest.net
-    type: vless
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    ws-opts:
-      headers:
-        Host: redfree8mahsang6.redfree8.ir
-      path: /TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
-  - alterId: 0
-    cipher: ""
-    flow: ""
-    name: "12"
-    network: ws
-    port: 443
-    server: cf.cishanjichang.me
-    servername: us.cishanjichang.me
-    sni: us.cishanjichang.me
-    tls: true
-    type: vless
-    uuid: 432e1e8b-18ce-488f-8203-2ba54b2fb61f
-    ws-opts:
-      headers:
-        Host: us.cishanjichang.me
-      path: /swordnewnewnew
-  - name: "13"
-    network: ws
-    password: redfree8
-    port: 443
-    server: 104.17.147.22
-    servername: ipsychO.SUEx12.Ir
-    sni: ipsychO.SUEx12.Ir
-    tls: true
+    server: 35.201.203.106
     type: trojan
+    ip: 10.211.246.38
+    alpn:
+      - h3
+    network: ws
+    password: bpb-trojan
+    servername: skwygx.top
+    skip-cert-verify: true
+    sni: skwygx.top
+    tls: true
     ws-opts:
       headers:
-        Host: ipsychO.SUEx12.Ir
-      path: /trre5IzbZ9IZZMddtw?ed=2560
+        Host: skwygx.top
+      path: /tr?ed=2560
 proxy-groups:
   - name: 🚀 电报频道@stymei1
     type: select
@@ -162,10 +165,6 @@ proxy-groups:
       - "7"
       - "8"
       - "9"
-      - "10"
-      - "11"
-      - "12"
-      - "13"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -182,10 +181,6 @@ proxy-groups:
       - "7"
       - "8"
       - "9"
-      - "10"
-      - "11"
-      - "12"
-      - "13"
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -201,10 +196,6 @@ proxy-groups:
       - "7"
       - "8"
       - "9"
-      - "10"
-      - "11"
-      - "12"
-      - "13"
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -221,10 +212,6 @@ proxy-groups:
       - "7"
       - "8"
       - "9"
-      - "10"
-      - "11"
-      - "12"
-      - "13"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -254,10 +241,6 @@ proxy-groups:
       - "7"
       - "8"
       - "9"
-      - "10"
-      - "11"
-      - "12"
-      - "13"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
