@@ -108,26 +108,6 @@ proxies:
     tls: true
     uuid: bf03c4c4-fe9b-4e45-a00b-8afd8d8e7372
   - mtu: 1420
-    name: "8"
-    port: 443
-    private-key: kDjMhp3s1AnPI+Hkd4nWaqau9907+CYAvEDI/df8lHk=
-    public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
-    server: mpdh.cloudflare.182682.xyz
-    type: vmess
-    ip: 10.211.246.38
-    alterId: 0
-    cipher: ""
-    flow: ""
-    network: ws
-    servername: v2de3.333789.xyz
-    sni: v2de3.333789.xyz
-    tls: true
-    uuid: bacfcdf3-abc1-38ee-9a70-6cfbc72621c7
-    ws-opts:
-      headers:
-        Host: v2de3.333789.xyz
-      path: /hls/cctv5phd.m3u8
-  - mtu: 1420
     name: "9"
     port: 443
     private-key: kDjMhp3s1AnPI+Hkd4nWaqau9907+CYAvEDI/df8lHk=
@@ -163,7 +143,6 @@ proxy-groups:
       - "5"
       - "6"
       - "7"
-      - "8"
       - "9"
   - name: ♻️ 自动选择
     type: url-test
@@ -179,7 +158,6 @@ proxy-groups:
       - "5"
       - "6"
       - "7"
-      - "8"
       - "9"
   - name: 🔯 故障转移
     type: fallback
@@ -194,7 +172,6 @@ proxy-groups:
       - "5"
       - "6"
       - "7"
-      - "8"
       - "9"
   - name: 🔮 负载均衡
     type: load-balance
@@ -210,7 +187,6 @@ proxy-groups:
       - "5"
       - "6"
       - "7"
-      - "8"
       - "9"
   - name: 🎯 全球直连
     type: select
@@ -239,7 +215,6 @@ proxy-groups:
       - "5"
       - "6"
       - "7"
-      - "8"
       - "9"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
