@@ -5,14 +5,14 @@ mode: Rule
 port: 7890
 proxies:
   - cipher: aes-128-cfb
-    name: 🇲🇴5月16丨TG频道@stymei1丨1
+    name: 🇯🇵5月18丨TG频道@stymei1丨1
     password: shadowsocks
     port: 443
     server: 184.170.241.194
     type: ss
   - client-fingerprint: chrome
     fingerprint: ''
-    name: 🇲🇴5月16丨TG频道@stymei1丨2
+    name: 🇯🇵5月18丨TG频道@stymei1丨2
     network: ws
     port: 443
     server: 104.21.69.44
@@ -31,7 +31,7 @@ proxies:
     sni: cr77.hedieh.dpdns.org
   - client-fingerprint: chrome
     fingerprint: ''
-    name: 🇲🇴5月16丨TG频道@stymei1丨3
+    name: 🇯🇵5月18丨TG频道@stymei1丨3
     network: ws
     port: 443
     server: 172.64.80.228
@@ -48,7 +48,7 @@ proxies:
     cipher: ""
     flow: ""
     sni: bantony199.top
-  - name: 🇲🇴5月16丨TG频道@stymei1丨4
+  - name: 🇯🇵5月18丨TG频道@stymei1丨4
     network: ws
     port: 443
     server: 185.133.35.36
@@ -66,7 +66,7 @@ proxies:
     cipher: ""
     flow: ""
     sni: 0229.patterdeng.pp.ua
-  - name: 🇲🇴5月16丨TG频道@stymei1丨5
+  - name: 🇯🇵5月18丨TG频道@stymei1丨5
     network: ws
     port: 443
     server: 212.183.88.51
@@ -85,7 +85,7 @@ proxies:
     flow: ""
     sni: 0229.patterdeng.pp.ua
   - client-fingerprint: random
-    name: 🇲🇴5月16丨TG频道@stymei1丨6
+    name: 🇯🇵5月18丨TG频道@stymei1丨6
     network: ws
     port: 443
     server: 160.79.104.113
@@ -104,7 +104,7 @@ proxies:
     flow: ""
     sni: 0229.patterdeng.pp.ua
   - client-fingerprint: random
-    name: 🇲🇴5月16丨TG频道@stymei1丨7
+    name: 🇯🇵5月18丨TG频道@stymei1丨7
     network: ws
     port: 443
     server: 45.67.215.168
@@ -124,7 +124,7 @@ proxies:
     sni: 0229.patterdeng.pp.ua
   - client-fingerprint: chrome
     fingerprint: ''
-    name: 🇲🇴5月16丨TG频道@stymei1丨8
+    name: 🇯🇵5月18丨TG频道@stymei1丨8
     network: ws
     port: 443
     server: 185.16.110.70
@@ -141,7 +141,7 @@ proxies:
     cipher: ""
     flow: ""
     sni: 0229.patterdeng.pp.ua
-  - name: 🇲🇴5月16丨TG频道@stymei1丨9
+  - name: 🇯🇵5月18丨TG频道@stymei1丨9
     network: ws
     port: 443
     server: 212.183.88.46
@@ -160,7 +160,7 @@ proxies:
     flow: ""
     sni: 0229.patterdeng.pp.ua
   - client-fingerprint: random
-    name: 🇲🇴5月16丨TG频道@stymei1丨10
+    name: 🇯🇵5月18丨TG频道@stymei1丨10
     network: ws
     port: 443
     server: 212.183.88.26
@@ -178,7 +178,7 @@ proxies:
     cipher: ""
     flow: ""
     sni: 0229.patterdeng.pp.ua
-  - name: 🇲🇴5月16丨TG频道@stymei1丨11
+  - name: 🇯🇵5月18丨TG频道@stymei1丨11
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -192,7 +192,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=192.0.54.194:443&proxyIP=null
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨12
+  - name: 🇯🇵5月18丨TG频道@stymei1丨12
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -206,7 +206,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=217.163.76.221:443&proxyIP=null
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨13
+  - name: 🇯🇵5月18丨TG频道@stymei1丨13
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -220,7 +220,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=185.133.35.141:443
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨14
+  - name: 🇯🇵5月18丨TG频道@stymei1丨14
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -234,7 +234,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=160.123.255.134:443&proxyIP=null
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨15
+  - name: 🇯🇵5月18丨TG频道@stymei1丨15
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -248,7 +248,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=217.163.76.227:443&proxyIP=null
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨16
+  - name: 🇯🇵5月18丨TG频道@stymei1丨16
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -262,7 +262,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=160.123.255.199:443&proxyIP=null
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨17
+  - name: 🇯🇵5月18丨TG频道@stymei1丨17
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -276,7 +276,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=45.67.215.234:443
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨18
+  - name: 🇯🇵5月18丨TG频道@stymei1丨18
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -290,7 +290,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=45.67.215.5:443&proxyIP=null
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨19
+  - name: 🇯🇵5月18丨TG频道@stymei1丨19
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -304,7 +304,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=160.79.105.220:443
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨20
+  - name: 🇯🇵5月18丨TG频道@stymei1丨20
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -318,7 +318,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=185.133.35.160:443&proxyIP=null
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨21
+  - name: 🇯🇵5月18丨TG频道@stymei1丨21
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -332,7 +332,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=160.123.255.243:443&proxyIP=null
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨22
+  - name: 🇯🇵5月18丨TG频道@stymei1丨22
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -346,7 +346,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=217.163.76.89:443&proxyIP=null
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨23
+  - name: 🇯🇵5月18丨TG频道@stymei1丨23
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -360,7 +360,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=217.163.76.237:443&proxyIP=null
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨24
+  - name: 🇯🇵5月18丨TG频道@stymei1丨24
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -374,7 +374,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=185.133.35.243:443&proxyIP=null
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨25
+  - name: 🇯🇵5月18丨TG频道@stymei1丨25
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -388,7 +388,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=212.183.88.29:443
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨26
+  - name: 🇯🇵5月18丨TG频道@stymei1丨26
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -402,7 +402,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=45.67.215.153:443&proxyIP=null
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨27
+  - name: 🇯🇵5月18丨TG频道@stymei1丨27
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -416,7 +416,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=138.2.107.107:443&proxyIP=null
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨28
+  - name: 🇯🇵5月18丨TG频道@stymei1丨28
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -430,7 +430,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=212.183.88.156:443
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨29
+  - name: 🇯🇵5月18丨TG频道@stymei1丨29
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -446,7 +446,7 @@ proxies:
     servername: icecream.955850.xyz
   - client-fingerprint: chrome
     fingerprint: ''
-    name: 🇲🇴5月16丨TG频道@stymei1丨30
+    name: 🇯🇵5月18丨TG频道@stymei1丨30
     network: ws
     port: 443
     server: 104.18.80.243
@@ -463,7 +463,7 @@ proxies:
     cipher: ""
     flow: ""
     sni: 0229.patterdeng.pp.ua
-  - name: 🇲🇴5月16丨TG频道@stymei1丨31
+  - name: 🇯🇵5月18丨TG频道@stymei1丨31
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 443
@@ -477,7 +477,7 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=217.163.76.254:443&proxyIP=null
     servername: icecream.955850.xyz
-  - name: 🇲🇴5月16丨TG频道@stymei1丨32
+  - name: 🇯🇵5月18丨TG频道@stymei1丨32
     network: ws
     password: 6884d714-d3c4-4b49-aa20-767ea92837d6
     port: 8443
@@ -491,78 +491,125 @@ proxies:
         Host: icecream.955850.xyz
       path: /proxyip=130.61.51.100:8443&proxyIP=null
     servername: icecream.955850.xyz
+  - alpn:
+      - h3
+    name: 🇯🇵5月18丨TG频道@stymei1丨33
+    password: f3ba3679-f2f4-465f-92a5-de320b775a88
+    port: 43516
+    server: 185.22.155.105
+    servername: www.bing.com
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: tuic
+    uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
+    version: 5
+  - name: 🇯🇵5月18丨TG频道@stymei1丨34
+    port: 443
+    server: 19671ce7-sw7j40-swy6li-tni2.sj.gotochinatown.net
+    servername: 19671ce7-sw7j40-swy6li-tni2.sj.gotochinatown.net
+    sni: 19671ce7-sw7j40-swy6li-tni2.sj.gotochinatown.net
+    tls: true
+    type: socks5
+  - name: 🇯🇵5月18丨TG频道@stymei1丨35
+    port: 443
+    server: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
+    tls: true
+    type: socks5
+  - name: 🇯🇵5月18丨TG频道@stymei1丨36
+    port: 443
+    server: e0616d84-svfr40-t28b6o-ef48.sj.gotochinatown.net
+    servername: e0616d84-svfr40-t28b6o-ef48.sj.gotochinatown.net
+    sni: e0616d84-svfr40-t28b6o-ef48.sj.gotochinatown.net
+    tls: true
+    type: socks5
+  - name: 防失联节点（红了也能用）
+    port: 8888
+    server: sf3.epicbrowser.net
+    tls: true
+    type: http
 proxy-groups:
   - name: "👖电报频道@stymei1"
     proxies:
       - 👖一定要关注频道防止失联
-      - 🇲🇴5月16丨TG频道@stymei1丨1
-      - 🇲🇴5月16丨TG频道@stymei1丨2
-      - 🇲🇴5月16丨TG频道@stymei1丨3
-      - 🇲🇴5月16丨TG频道@stymei1丨4
-      - 🇲🇴5月16丨TG频道@stymei1丨5
-      - 🇲🇴5月16丨TG频道@stymei1丨6
-      - 🇲🇴5月16丨TG频道@stymei1丨7
-      - 🇲🇴5月16丨TG频道@stymei1丨8
-      - 🇲🇴5月16丨TG频道@stymei1丨9
-      - 🇲🇴5月16丨TG频道@stymei1丨10
-      - 🇲🇴5月16丨TG频道@stymei1丨11
-      - 🇲🇴5月16丨TG频道@stymei1丨12
-      - 🇲🇴5月16丨TG频道@stymei1丨13
-      - 🇲🇴5月16丨TG频道@stymei1丨14
-      - 🇲🇴5月16丨TG频道@stymei1丨15
-      - 🇲🇴5月16丨TG频道@stymei1丨16
-      - 🇲🇴5月16丨TG频道@stymei1丨17
-      - 🇲🇴5月16丨TG频道@stymei1丨18
-      - 🇲🇴5月16丨TG频道@stymei1丨19
-      - 🇲🇴5月16丨TG频道@stymei1丨20
-      - 🇲🇴5月16丨TG频道@stymei1丨21
-      - 🇲🇴5月16丨TG频道@stymei1丨22
-      - 🇲🇴5月16丨TG频道@stymei1丨23
-      - 🇲🇴5月16丨TG频道@stymei1丨24
-      - 🇲🇴5月16丨TG频道@stymei1丨25
-      - 🇲🇴5月16丨TG频道@stymei1丨26
-      - 🇲🇴5月16丨TG频道@stymei1丨27
-      - 🇲🇴5月16丨TG频道@stymei1丨28
-      - 🇲🇴5月16丨TG频道@stymei1丨29
-      - 🇲🇴5月16丨TG频道@stymei1丨30
-      - 🇲🇴5月16丨TG频道@stymei1丨31
-      - 🇲🇴5月16丨TG频道@stymei1丨32
+      - 🇯🇵5月18丨TG频道@stymei1丨1
+      - 🇯🇵5月18丨TG频道@stymei1丨2
+      - 🇯🇵5月18丨TG频道@stymei1丨3
+      - 🇯🇵5月18丨TG频道@stymei1丨4
+      - 🇯🇵5月18丨TG频道@stymei1丨5
+      - 🇯🇵5月18丨TG频道@stymei1丨6
+      - 🇯🇵5月18丨TG频道@stymei1丨7
+      - 🇯🇵5月18丨TG频道@stymei1丨8
+      - 🇯🇵5月18丨TG频道@stymei1丨9
+      - 🇯🇵5月18丨TG频道@stymei1丨10
+      - 🇯🇵5月18丨TG频道@stymei1丨11
+      - 🇯🇵5月18丨TG频道@stymei1丨12
+      - 🇯🇵5月18丨TG频道@stymei1丨13
+      - 🇯🇵5月18丨TG频道@stymei1丨14
+      - 🇯🇵5月18丨TG频道@stymei1丨15
+      - 🇯🇵5月18丨TG频道@stymei1丨16
+      - 🇯🇵5月18丨TG频道@stymei1丨17
+      - 🇯🇵5月18丨TG频道@stymei1丨18
+      - 🇯🇵5月18丨TG频道@stymei1丨19
+      - 🇯🇵5月18丨TG频道@stymei1丨20
+      - 🇯🇵5月18丨TG频道@stymei1丨21
+      - 🇯🇵5月18丨TG频道@stymei1丨22
+      - 🇯🇵5月18丨TG频道@stymei1丨23
+      - 🇯🇵5月18丨TG频道@stymei1丨24
+      - 🇯🇵5月18丨TG频道@stymei1丨25
+      - 🇯🇵5月18丨TG频道@stymei1丨26
+      - 🇯🇵5月18丨TG频道@stymei1丨27
+      - 🇯🇵5月18丨TG频道@stymei1丨28
+      - 🇯🇵5月18丨TG频道@stymei1丨29
+      - 🇯🇵5月18丨TG频道@stymei1丨30
+      - 🇯🇵5月18丨TG频道@stymei1丨31
+      - 🇯🇵5月18丨TG频道@stymei1丨32
+      - 🇯🇵5月18丨TG频道@stymei1丨33
+      - 🇯🇵5月18丨TG频道@stymei1丨34
+      - 🇯🇵5月18丨TG频道@stymei1丨35
+      - 🇯🇵5月18丨TG频道@stymei1丨36
+      - 防失联节点（红了也能用）
     type: select
   - interval: 300
     name: "👖一定要关注频道防止失联"
     proxies:
-      - 🇲🇴5月16丨TG频道@stymei1丨1
-      - 🇲🇴5月16丨TG频道@stymei1丨2
-      - 🇲🇴5月16丨TG频道@stymei1丨3
-      - 🇲🇴5月16丨TG频道@stymei1丨4
-      - 🇲🇴5月16丨TG频道@stymei1丨5
-      - 🇲🇴5月16丨TG频道@stymei1丨6
-      - 🇲🇴5月16丨TG频道@stymei1丨7
-      - 🇲🇴5月16丨TG频道@stymei1丨8
-      - 🇲🇴5月16丨TG频道@stymei1丨9
-      - 🇲🇴5月16丨TG频道@stymei1丨10
-      - 🇲🇴5月16丨TG频道@stymei1丨11
-      - 🇲🇴5月16丨TG频道@stymei1丨12
-      - 🇲🇴5月16丨TG频道@stymei1丨13
-      - 🇲🇴5月16丨TG频道@stymei1丨14
-      - 🇲🇴5月16丨TG频道@stymei1丨15
-      - 🇲🇴5月16丨TG频道@stymei1丨16
-      - 🇲🇴5月16丨TG频道@stymei1丨17
-      - 🇲🇴5月16丨TG频道@stymei1丨18
-      - 🇲🇴5月16丨TG频道@stymei1丨19
-      - 🇲🇴5月16丨TG频道@stymei1丨20
-      - 🇲🇴5月16丨TG频道@stymei1丨21
-      - 🇲🇴5月16丨TG频道@stymei1丨22
-      - 🇲🇴5月16丨TG频道@stymei1丨23
-      - 🇲🇴5月16丨TG频道@stymei1丨24
-      - 🇲🇴5月16丨TG频道@stymei1丨25
-      - 🇲🇴5月16丨TG频道@stymei1丨26
-      - 🇲🇴5月16丨TG频道@stymei1丨27
-      - 🇲🇴5月16丨TG频道@stymei1丨28
-      - 🇲🇴5月16丨TG频道@stymei1丨29
-      - 🇲🇴5月16丨TG频道@stymei1丨30
-      - 🇲🇴5月16丨TG频道@stymei1丨31
-      - 🇲🇴5月16丨TG频道@stymei1丨32
+      - 🇯🇵5月18丨TG频道@stymei1丨1
+      - 🇯🇵5月18丨TG频道@stymei1丨2
+      - 🇯🇵5月18丨TG频道@stymei1丨3
+      - 🇯🇵5月18丨TG频道@stymei1丨4
+      - 🇯🇵5月18丨TG频道@stymei1丨5
+      - 🇯🇵5月18丨TG频道@stymei1丨6
+      - 🇯🇵5月18丨TG频道@stymei1丨7
+      - 🇯🇵5月18丨TG频道@stymei1丨8
+      - 🇯🇵5月18丨TG频道@stymei1丨9
+      - 🇯🇵5月18丨TG频道@stymei1丨10
+      - 🇯🇵5月18丨TG频道@stymei1丨11
+      - 🇯🇵5月18丨TG频道@stymei1丨12
+      - 🇯🇵5月18丨TG频道@stymei1丨13
+      - 🇯🇵5月18丨TG频道@stymei1丨14
+      - 🇯🇵5月18丨TG频道@stymei1丨15
+      - 🇯🇵5月18丨TG频道@stymei1丨16
+      - 🇯🇵5月18丨TG频道@stymei1丨17
+      - 🇯🇵5月18丨TG频道@stymei1丨18
+      - 🇯🇵5月18丨TG频道@stymei1丨19
+      - 🇯🇵5月18丨TG频道@stymei1丨20
+      - 🇯🇵5月18丨TG频道@stymei1丨21
+      - 🇯🇵5月18丨TG频道@stymei1丨22
+      - 🇯🇵5月18丨TG频道@stymei1丨23
+      - 🇯🇵5月18丨TG频道@stymei1丨24
+      - 🇯🇵5月18丨TG频道@stymei1丨25
+      - 🇯🇵5月18丨TG频道@stymei1丨26
+      - 🇯🇵5月18丨TG频道@stymei1丨27
+      - 🇯🇵5月18丨TG频道@stymei1丨28
+      - 🇯🇵5月18丨TG频道@stymei1丨29
+      - 🇯🇵5月18丨TG频道@stymei1丨30
+      - 🇯🇵5月18丨TG频道@stymei1丨31
+      - 🇯🇵5月18丨TG频道@stymei1丨32
+      - 🇯🇵5月18丨TG频道@stymei1丨33
+      - 🇯🇵5月18丨TG频道@stymei1丨34
+      - 🇯🇵5月18丨TG频道@stymei1丨35
+      - 🇯🇵5月18丨TG频道@stymei1丨36
+      - 防失联节点（红了也能用）
     type: url-test
     url: https://www.gstatic.com/youtube/img/emojis/emojis-png-7.json
 rules:
