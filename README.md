@@ -20,7 +20,7 @@ Win端用Karing
 
 Mac端用Karing
 
-苹果端用小火箭或者Karing
+苹果端用小火箭或者Stash
 
 TV端用Surfboard
 
