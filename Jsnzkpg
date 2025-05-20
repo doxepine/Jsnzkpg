@@ -4,302 +4,27 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-  - client-fingerprint: chrome
-    fingerprint: ''
-    name: 🇰🇷5月19丨TG频道@stymei1丨1
+  - name: ❤️520丨TG频道@stymei1丨1
     network: ws
-    port: 8880
-    server: 198.41.217.20
-    servername: reedfree8mahsang2.redorg.ir
-    tls: false
-    type: vless
-    udp: false
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    ws-opts:
-      headers:
-        host: reedfree8mahsang2.redorg.ir
-      path: /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨2
-    network: ws
-    port: 8880
-    server: 193.33.87.20
-    servername: reedfree8mahsang2.redorg.ir
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    ws-opts:
-      headers:
-        Host: reedfree8mahsang2.redorg.ir
-      path: /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - client-fingerprint: chrome
-    fingerprint: ''
-    name: 🇰🇷5月19丨TG频道@stymei1丨3
-    network: ws
-    port: 8880
-    server: 141.101.120.20
-    servername: reedfree8mahsang2.redorg.ir
-    tls: false
-    type: vless
-    udp: false
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    ws-opts:
-      headers:
-        host: reedfree8mahsang2.redorg.ir
-      path: /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨4
-    network: ws
-    port: 8880
-    server: 198.41.199.20
-    servername: reedfree8mahsang2.redorg.ir
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    ws-opts:
-      headers:
-        Host: reedfree8mahsang2.redorg.ir
-      path: /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨5
-    network: ws
-    port: 8880
-    server: 91.193.58.42
-    servername: sk.laoyoutiao.link
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      headers:
-        Host: sk.laoyoutiao.link
-      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨6
-    network: ws
-    port: 8880
-    server: 91.193.58.248
-    servername: sk.laoyoutiao.link
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      headers:
-        Host: sk.laoyoutiao.link
-      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨7
-    network: ws
-    port: 8880
-    server: 45.85.118.20
-    servername: reedfree8mahsang2.redorg.ir
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    ws-opts:
-      headers:
-        Host: reedfree8mahsang2.redorg.ir
-      path: /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨8
-    network: ws
-    port: 8880
-    server: 91.193.58.28
-    servername: sk.laoyoutiao.link
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      headers:
-        Host: sk.laoyoutiao.link
-      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨9
-    network: ws
-    port: 8880
-    server: 167.68.11.20
-    servername: reedfree8mahsang2.redorg.ir
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    ws-opts:
-      headers:
-        Host: reedfree8mahsang2.redorg.ir
-      path: /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨10
-    network: ws
-    port: 8880
-    server: 91.193.58.77
-    servername: sk.laoyoutiao.link
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      headers:
-        Host: sk.laoyoutiao.link
-      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨11
-    network: ws
-    port: 8880
-    server: 31.12.75.20
-    servername: reedfree8mahsang2.redorg.ir
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    ws-opts:
-      headers:
-        Host: reedfree8mahsang2.redorg.ir
-      path: /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨12
-    network: ws
-    port: 8880
-    server: 91.193.58.190
-    servername: sk.laoyoutiao.link
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      headers:
-        Host: sk.laoyoutiao.link
-      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨13
-    network: ws
-    port: 8880
-    server: 91.193.58.132
-    servername: sk.laoyoutiao.link
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      headers:
-        Host: sk.laoyoutiao.link
-      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨14
-    network: ws
-    port: 8880
-    server: 91.193.58.88
-    servername: sk.laoyoutiao.link
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      headers:
-        Host: sk.laoyoutiao.link
-      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨15
-    network: ws
-    port: 8880
-    server: 154.219.5.20
-    servername: reedfree8mahsang2.redorg.ir
+    port: 80
+    server: support.zoom.us
+    servername: 14.sahanwickramasinghe.shop
     skip-cert-verify: true
     tls: false
     type: vless
     udp: true
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    uuid: 438f9559-1671-45cf-9d2c-338fe6766acf
     ws-opts:
       headers:
-        Host: reedfree8mahsang2.redorg.ir
-      path: /?ed=2560
+        Host: 14.sahanwickramasinghe.shop
+      path: /
     alterId: 0
     cipher: ""
     flow: ""
-  - client-fingerprint: chrome
-    fingerprint: ''
-    name: 🇰🇷5月19丨TG频道@stymei1丨16
+  - name: ❤️520丨TG频道@stymei1丨2
     network: ws
     port: 8880
-    server: 14.102.229.20
-    servername: reedfree8mahsang2.redorg.ir
-    tls: false
-    type: vless
-    udp: false
-    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-    ws-opts:
-      headers:
-        host: reedfree8mahsang2.redorg.ir
-      path: /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨17
-    network: ws
-    port: 8880
-    server: 91.193.58.75
-    servername: sk.laoyoutiao.link
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      headers:
-        Host: sk.laoyoutiao.link
-      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨18
-    network: ws
-    port: 8880
-    server: 185.16.110.20
+    server: 14.102.228.20
     servername: reedfree8mahsang2.redorg.ir
     skip-cert-verify: false
     tls: false
@@ -313,27 +38,10 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨19
+  - name: ❤️520丨TG频道@stymei1丨3
     network: ws
     port: 8880
-    server: 91.193.58.13
-    servername: sk.laoyoutiao.link
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      headers:
-        Host: sk.laoyoutiao.link
-      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨20
-    network: ws
-    port: 8880
-    server: 185.162.231.20
+    server: 172.66.2.20
     servername: reedfree8mahsang2.redorg.ir
     skip-cert-verify: false
     tls: false
@@ -347,127 +55,24 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨21
+  - name: ❤️520丨TG频道@stymei1丨4
     network: ws
     port: 8880
-    server: 91.193.58.106
-    servername: sk.laoyoutiao.link
-    skip-cert-verify: true
+    server: 212.183.88.20
+    servername: reedfree8mahsang2.redorg.ir
+    skip-cert-verify: false
     tls: false
     type: vless
     udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
     ws-opts:
       headers:
-        Host: sk.laoyoutiao.link
-      path: "/Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560"
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨22
-    network: ws
-    port: 443
-    server: 185.133.35.204
-    servername: cl.bgm2024.dpdns.org
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 55520747-311e-4015-83ce-be46e2060ce3
-    ws-opts:
-      headers:
-        Host: cl.bgm2024.dpdns.org
+        Host: reedfree8mahsang2.redorg.ir
       path: /?ed=2560
     alterId: 0
     cipher: ""
     flow: ""
-    sni: cl.bgm2024.dpdns.org
-  - name: 🇰🇷5月19丨TG频道@stymei1丨23
-    network: ws
-    port: 8880
-    server: 156.238.18.90
-    servername: yd.laoyoutiao.link
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      headers:
-        Host: yd.laoyoutiao.link
-      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨24
-    network: ws
-    port: 8880
-    server: 156.238.18.34
-    servername: yd.laoyoutiao.link
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      headers:
-        Host: yd.laoyoutiao.link
-      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨 25
-    network: ws
-    port: 8880
-    server: 91.193.58.93
-    servername: sk.laoyoutiao.link
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      headers:
-        Host: sk.laoyoutiao.link
-      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨26
-    network: ws
-    port: 8880
-    server: 91.193.58.47
-    servername: sk.laoyoutiao.link
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      headers:
-        Host: sk.laoyoutiao.link
-      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨27
-    network: ws
-    port: 8880
-    server: 91.193.58.137
-    servername: sk.laoyoutiao.link
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      headers:
-        Host: sk.laoyoutiao.link
-      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨28
+  - name: ❤️520丨TG频道@stymei1丨5
     network: ws
     port: 8880
     server: 88.216.66.20
@@ -484,151 +89,731 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨29
+  - name: ❤️520丨TG频道@stymei1丨6
     network: ws
-    port: 80
-    server: 141.193.213.55
-    servername: cs.laoyoutiao.link
+    port: 8880
+    server: 198.41.219.20
+    servername: reedfree8mahsang2.redorg.ir
     skip-cert-verify: false
     tls: false
     type: vless
     udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
     ws-opts:
       headers:
-        Host: cs.laoyoutiao.link
-      path: /TelegramU0001F1E8U0001F1F3 @MxlShare+@WangCai2+/?ed=2560
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇰🇷5月19丨TG频道@stymei1丨30
-    network: ws
-    port: 443
-    server: 160.123.255.23
-    servername: cl.bgm2024.dpdns.org
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 55520747-311e-4015-83ce-be46e2060ce3
-    ws-opts:
-      headers:
-        Host: cl.bgm2024.dpdns.org
+        Host: reedfree8mahsang2.redorg.ir
       path: /?ed=2560
     alterId: 0
     cipher: ""
     flow: ""
-    sni: cl.bgm2024.dpdns.org
-  - client-fingerprint: chrome
-    name: 🇰🇷5月19丨TG频道@stymei1丨31
+  - cipher: aes-256-gcm
+    name: ❤️520丨TG频道@stymei1丨7
+    password: ENYGONDU94UW1G6X
+    port: 15010
+    server: 8tv68qhq.slashdevslashnetslashtun.net
+    tfo: false
+    type: ss
+  - name: ❤️520丨TG频道@stymei1丨8
     network: ws
-    port: 8443
-    server: 190.93.246.246
-    servername: bitget1.asdasd.click
+    port: 8880
+    server: 162.159.136.20
+    servername: reedfree8mahsang2.redorg.ir
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    ws-opts:
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+      path: /?ed=2560
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: ❤️520丨TG频道@stymei1丨9
+    network: ws
+    port: 8880
+    server: 194.53.53.20
+    servername: reedfree8mahsang2.redorg.ir
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    ws-opts:
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+      path: /?ed=2560
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: ❤️520丨TG频道@stymei1丨10
+    network: ws
+    port: 8880
+    server: 162.159.248.20
+    servername: reedfree8mahsang2.redorg.ir
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    ws-opts:
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+      path: /?ed=2560
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: ❤️520丨TG频道@stymei1丨11
+    network: ws
+    port: 8880
+    server: 108.162.198.20
+    servername: reedfree8mahsang2.redorg.ir
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    ws-opts:
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+      path: /?ed=2560
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: ❤️520丨TG频道@stymei1丨12
+    network: ws
+    port: 8880
+    server: 198.41.223.20
+    servername: reedfree8mahsang2.redorg.ir
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    ws-opts:
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+      path: /?ed=2560
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: ❤️520丨TG频道@stymei1丨13
+    network: ws
+    port: 8880
+    server: 216.116.134.20
+    servername: reedfree8mahsang2.redorg.ir
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    ws-opts:
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+      path: /?ed=2560
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: ❤️520丨TG频道@stymei1丨14
+    network: ws
+    port: 8880
+    server: 89.116.180.20
+    servername: reedfree8mahsang2.redorg.ir
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    ws-opts:
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+      path: /?ed=2560
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: ❤️520丨TG频道@stymei1丨15
+    network: ws
+    port: 8880
+    server: 162.159.61.20
+    servername: reedfree8mahsang2.redorg.ir
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    ws-opts:
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+      path: /?ed=2560
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - alterId: 64
+    cipher: auto
+    name: ❤️520丨TG频道@stymei1丨16
+    network: ws
+    port: 1443
+    server: sslvpn.51job.com
+    skip-cert-verify: true
+    tfo: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+    ws-opts:
+      headers:
+        Host: centos7
+      path: /634c5c4f9782
+    flow: ""
+  - name: ❤️520丨TG频道@stymei1丨17
+    network: ws
+    port: 8880
+    server: 154.219.5.20
+    servername: reedfree8mahsang2.redorg.ir
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    ws-opts:
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+      path: /?ed=2560
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: ❤️520丨TG频道@stymei1丨18
+    network: ws
+    port: 8880
+    server: 172.66.44.20
+    servername: reedfree8mahsang2.redorg.ir
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    ws-opts:
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+      path: /?ed=2560
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: ❤️520丨TG频道@stymei1丨19
+    network: ws
+    port: 8880
+    server: 14.102.229.20
+    servername: reedfree8mahsang2.redorg.ir
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    ws-opts:
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+      path: /?ed=2560
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: ❤️520丨TG频道@stymei1丨20
+    network: ws
+    port: 8880
+    server: 141.101.120.20
+    servername: reedfree8mahsang2.redorg.ir
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    ws-opts:
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+      path: /?ed=2560
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: ❤️520丨TG频道@stymei1丨21
+    network: ws
+    port: 8880
+    server: 45.131.208.20
+    servername: reedfree8mahsang2.redorg.ir
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    ws-opts:
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+      path: /?ed=2560
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: ❤️520丨TG频道@stymei1丨22
+    network: ws
+    port: 80
+    server: 185.162.230.6
+    servername: reedfree8mahsang2.redorg.ir
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    ws-opts:
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+      path: /
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: ❤️520丨TG频道@stymei1丨23
+    network: ws
+    port: 8880
+    server: 62.72.166.20
+    servername: reedfree8mahsang2.redorg.ir
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+    ws-opts:
+      headers:
+        Host: reedfree8mahsang2.redorg.ir
+      path: /?ed=2560
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - alterId: 0
+    cipher: auto
+    grpc-opts:
+      grpc-service-name: vmess-grpc
+    name: ❤️520丨TG频道@stymei1丨24
+    network: grpc
+    port: 443
+    server: de.vmess.comnpmjs.com
+    servername: de.vmess.comnpmjs.com
     skip-cert-verify: null
     tls: true
-    type: vless
-    udp: true
-    uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-    ws-opts:
-      headers:
-        Host: bitget1.asdasd.click
-      path: /?ed=2560
-    alterId: 0
-    cipher: ""
+    type: vmess
+    uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
     flow: ""
-    sni: bitget1.asdasd.click
-  - name: 🇰🇷5月19丨TG频道@stymei1丨32
+    sni: de.vmess.comnpmjs.com
+  - client-fingerprint: chrome
+    fingerprint: ''
+    name: ❤️520丨TG频道@stymei1丨25
     network: ws
-    port: 80
-    server: 141.193.213.100
-    servername: cs.laoyoutiao.link
-    skip-cert-verify: false
-    tls: false
+    port: 443
+    server: 164.38.155.156
+    servername: cdn-nodes.maviks.eu
+    tls: true
     type: vless
-    udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    udp: false
+    uuid: ebc5b01a-d736-4e8d-bbd1-7dda5195742b
     ws-opts:
       headers:
-        Host: cs.laoyoutiao.link
-      path: /TelegramU0001F1E8U0001F1F3 @MxlShare+@WangCai2+/?ed=2560
+        host: cdn-nodes.maviks.eu
+      path: /pLmdwS3fSrE9WwdgE3LdG2?ed=2560
     alterId: 0
     cipher: ""
     flow: ""
+    sni: cdn-nodes.maviks.eu
+  - name: ❤️520丨TG频道@stymei1丨26
+    password: RlzoEILU
+    port: 7815
+    server: 36.151.251.59
+    skip-cert-verify: true
+    type: trojan
+  - name: ❤️520丨TG频道@stymei1丨27
+    password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+    port: 15229
+    server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
+    skip-cert-verify: null
+    sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
+    type: trojan
+    servername: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
+  - cipher: rc4-md5
+    name: ❤️520丨TG频道@stymei1丨28
+    obfs: plain
+    password: 14fFPrbezE3HDZzsMOr6
+    port: 8080
+    protocol: origin
+    server: 193.108.119.230
+    type: ssr
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: 55 Mbps
+    name: ❤️520丨TG频道@stymei1丨29
+    port: 11512
+    protocol: udp
+    server: 108.181.24.77
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 11 Mbps
+    down-speed: 0
+    servername: apple.com
+    up-speed: 0
+  - name: ❤️520丨TG频道@stymei1丨30
+    password: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+    port: 15229
+    server: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net
+    skip-cert-verify: null
+    sni: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net
+    type: trojan
+    servername: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net
+  - alterId: 2
+    cipher: auto
+    name: ❤️520丨TG频道@stymei1丨31
+    network: ws
+    port: '30809'
+    server: v9.heduian.link
+    servername: ''
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: baidu.com
+      path: /oooo
+    flow: ""
+  - cipher: aes-256-cfb
+    name: ❤️520丨TG频道@stymei1丨32
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.18
+    type: ss
 proxy-groups:
-  - name: "👖电报频道@stymei1"
+  - name: "🔰 节点选择"
     proxies:
-      - 👖记得关注频道
-      - 🇰🇷5月19丨TG频道@stymei1丨1
-      - 🇰🇷5月19丨TG频道@stymei1丨2
-      - 🇰🇷5月19丨TG频道@stymei1丨3
-      - 🇰🇷5月19丨TG频道@stymei1丨4
-      - 🇰🇷5月19丨TG频道@stymei1丨5
-      - 🇰🇷5月19丨TG频道@stymei1丨6
-      - 🇰🇷5月19丨TG频道@stymei1丨7
-      - 🇰🇷5月19丨TG频道@stymei1丨8
-      - 🇰🇷5月19丨TG频道@stymei1丨9
-      - 🇰🇷5月19丨TG频道@stymei1丨10
-      - 🇰🇷5月19丨TG频道@stymei1丨11
-      - 🇰🇷5月19丨TG频道@stymei1丨12
-      - 🇰🇷5月19丨TG频道@stymei1丨13
-      - 🇰🇷5月19丨TG频道@stymei1丨14
-      - 🇰🇷5月19丨TG频道@stymei1丨15
-      - 🇰🇷5月19丨TG频道@stymei1丨16
-      - 🇰🇷5月19丨TG频道@stymei1丨17
-      - 🇰🇷5月19丨TG频道@stymei1丨18
-      - 🇰🇷5月19丨TG频道@stymei1丨19
-      - 🇰🇷5月19丨TG频道@stymei1丨20
-      - 🇰🇷5月19丨TG频道@stymei1丨21
-      - 🇰🇷5月19丨TG频道@stymei1丨22
-      - 🇰🇷5月19丨TG频道@stymei1丨23
-      - 🇰🇷5月19丨TG频道@stymei1丨24
-      - 🇰🇷5月19丨TG频道@stymei1丨 25
-      - 🇰🇷5月19丨TG频道@stymei1丨26
-      - 🇰🇷5月19丨TG频道@stymei1丨27
-      - 🇰🇷5月19丨TG频道@stymei1丨28
-      - 🇰🇷5月19丨TG频道@stymei1丨29
-      - 🇰🇷5月19丨TG频道@stymei1丨30
-      - 🇰🇷5月19丨TG频道@stymei1丨31
-      - 🇰🇷5月19丨TG频道@stymei1丨32
+      - "♻️ 自动选择"
+      - "🎯 全球直连"
+      - ❤️520丨TG频道@stymei1丨1
+      - ❤️520丨TG频道@stymei1丨2
+      - ❤️520丨TG频道@stymei1丨3
+      - ❤️520丨TG频道@stymei1丨4
+      - ❤️520丨TG频道@stymei1丨5
+      - ❤️520丨TG频道@stymei1丨6
+      - ❤️520丨TG频道@stymei1丨7
+      - ❤️520丨TG频道@stymei1丨8
+      - ❤️520丨TG频道@stymei1丨9
+      - ❤️520丨TG频道@stymei1丨10
+      - ❤️520丨TG频道@stymei1丨11
+      - ❤️520丨TG频道@stymei1丨12
+      - ❤️520丨TG频道@stymei1丨13
+      - ❤️520丨TG频道@stymei1丨14
+      - ❤️520丨TG频道@stymei1丨15
+      - ❤️520丨TG频道@stymei1丨16
+      - ❤️520丨TG频道@stymei1丨17
+      - ❤️520丨TG频道@stymei1丨18
+      - ❤️520丨TG频道@stymei1丨19
+      - ❤️520丨TG频道@stymei1丨20
+      - ❤️520丨TG频道@stymei1丨21
+      - ❤️520丨TG频道@stymei1丨22
+      - ❤️520丨TG频道@stymei1丨23
+      - ❤️520丨TG频道@stymei1丨24
+      - ❤️520丨TG频道@stymei1丨25
+      - ❤️520丨TG频道@stymei1丨26
+      - ❤️520丨TG频道@stymei1丨27
+      - ❤️520丨TG频道@stymei1丨28
+      - ❤️520丨TG频道@stymei1丨29
+      - ❤️520丨TG频道@stymei1丨30
+      - ❤️520丨TG频道@stymei1丨31
+      - ❤️520丨TG频道@stymei1丨32
     type: select
   - interval: 300
-    name: "👖记得关注频道"
+    name: "♻️ 自动选择"
     proxies:
-      - 🇰🇷5月19丨TG频道@stymei1丨1
-      - 🇰🇷5月19丨TG频道@stymei1丨2
-      - 🇰🇷5月19丨TG频道@stymei1丨3
-      - 🇰🇷5月19丨TG频道@stymei1丨4
-      - 🇰🇷5月19丨TG频道@stymei1丨5
-      - 🇰🇷5月19丨TG频道@stymei1丨6
-      - 🇰🇷5月19丨TG频道@stymei1丨7
-      - 🇰🇷5月19丨TG频道@stymei1丨8
-      - 🇰🇷5月19丨TG频道@stymei1丨9
-      - 🇰🇷5月19丨TG频道@stymei1丨10
-      - 🇰🇷5月19丨TG频道@stymei1丨11
-      - 🇰🇷5月19丨TG频道@stymei1丨12
-      - 🇰🇷5月19丨TG频道@stymei1丨13
-      - 🇰🇷5月19丨TG频道@stymei1丨14
-      - 🇰🇷5月19丨TG频道@stymei1丨15
-      - 🇰🇷5月19丨TG频道@stymei1丨16
-      - 🇰🇷5月19丨TG频道@stymei1丨17
-      - 🇰🇷5月19丨TG频道@stymei1丨18
-      - 🇰🇷5月19丨TG频道@stymei1丨19
-      - 🇰🇷5月19丨TG频道@stymei1丨20
-      - 🇰🇷5月19丨TG频道@stymei1丨21
-      - 🇰🇷5月19丨TG频道@stymei1丨22
-      - 🇰🇷5月19丨TG频道@stymei1丨23
-      - 🇰🇷5月19丨TG频道@stymei1丨24
-      - 🇰🇷5月19丨TG频道@stymei1丨 25
-      - 🇰🇷5月19丨TG频道@stymei1丨26
-      - 🇰🇷5月19丨TG频道@stymei1丨27
-      - 🇰🇷5月19丨TG频道@stymei1丨28
-      - 🇰🇷5月19丨TG频道@stymei1丨29
-      - 🇰🇷5月19丨TG频道@stymei1丨30
-      - 🇰🇷5月19丨TG频道@stymei1丨31
-      - 🇰🇷5月19丨TG频道@stymei1丨32
+      - ❤️520丨TG频道@stymei1丨1
+      - ❤️520丨TG频道@stymei1丨2
+      - ❤️520丨TG频道@stymei1丨3
+      - ❤️520丨TG频道@stymei1丨4
+      - ❤️520丨TG频道@stymei1丨5
+      - ❤️520丨TG频道@stymei1丨6
+      - ❤️520丨TG频道@stymei1丨7
+      - ❤️520丨TG频道@stymei1丨8
+      - ❤️520丨TG频道@stymei1丨9
+      - ❤️520丨TG频道@stymei1丨10
+      - ❤️520丨TG频道@stymei1丨11
+      - ❤️520丨TG频道@stymei1丨12
+      - ❤️520丨TG频道@stymei1丨13
+      - ❤️520丨TG频道@stymei1丨14
+      - ❤️520丨TG频道@stymei1丨15
+      - ❤️520丨TG频道@stymei1丨16
+      - ❤️520丨TG频道@stymei1丨17
+      - ❤️520丨TG频道@stymei1丨18
+      - ❤️520丨TG频道@stymei1丨19
+      - ❤️520丨TG频道@stymei1丨20
+      - ❤️520丨TG频道@stymei1丨21
+      - ❤️520丨TG频道@stymei1丨22
+      - ❤️520丨TG频道@stymei1丨23
+      - ❤️520丨TG频道@stymei1丨24
+      - ❤️520丨TG频道@stymei1丨25
+      - ❤️520丨TG频道@stymei1丨26
+      - ❤️520丨TG频道@stymei1丨27
+      - ❤️520丨TG频道@stymei1丨28
+      - ❤️520丨TG频道@stymei1丨29
+      - ❤️520丨TG频道@stymei1丨30
+      - ❤️520丨TG频道@stymei1丨31
+      - ❤️520丨TG频道@stymei1丨32
     type: url-test
     url: https://www.gstatic.com/youtube/img/emojis/emojis-png-7.json
+  - name: "🎥 NETFLIX"
+    proxies:
+      - "🔰 节点选择"
+      - "♻️ 自动选择"
+      - "🎯 全球直连"
+      - ❤️520丨TG频道@stymei1丨1
+      - ❤️520丨TG频道@stymei1丨2
+      - ❤️520丨TG频道@stymei1丨3
+      - ❤️520丨TG频道@stymei1丨4
+      - ❤️520丨TG频道@stymei1丨5
+      - ❤️520丨TG频道@stymei1丨6
+      - ❤️520丨TG频道@stymei1丨7
+      - ❤️520丨TG频道@stymei1丨8
+      - ❤️520丨TG频道@stymei1丨9
+      - ❤️520丨TG频道@stymei1丨10
+      - ❤️520丨TG频道@stymei1丨11
+      - ❤️520丨TG频道@stymei1丨12
+      - ❤️520丨TG频道@stymei1丨13
+      - ❤️520丨TG频道@stymei1丨14
+      - ❤️520丨TG频道@stymei1丨15
+      - ❤️520丨TG频道@stymei1丨16
+      - ❤️520丨TG频道@stymei1丨17
+      - ❤️520丨TG频道@stymei1丨18
+      - ❤️520丨TG频道@stymei1丨19
+      - ❤️520丨TG频道@stymei1丨20
+      - ❤️520丨TG频道@stymei1丨21
+      - ❤️520丨TG频道@stymei1丨22
+      - ❤️520丨TG频道@stymei1丨23
+      - ❤️520丨TG频道@stymei1丨24
+      - ❤️520丨TG频道@stymei1丨25
+      - ❤️520丨TG频道@stymei1丨26
+      - ❤️520丨TG频道@stymei1丨27
+      - ❤️520丨TG频道@stymei1丨28
+      - ❤️520丨TG频道@stymei1丨29
+      - ❤️520丨TG频道@stymei1丨30
+      - ❤️520丨TG频道@stymei1丨31
+      - ❤️520丨TG频道@stymei1丨32
+    type: select
+  - name: "⛔️ 广告拦截"
+    proxies:
+      - "🛑 全球拦截"
+      - "🎯 全球直连"
+      - "🔰 节点选择"
+    type: select
+  - name: "🚫 运营劫持"
+    proxies:
+      - "🛑 全球拦截"
+      - "🎯 全球直连"
+      - "🔰 节点选择"
+    type: select
+  - name: "🌍 国外媒体"
+    proxies:
+      - "🔰 节点选择"
+      - "♻️ 自动选择"
+      - "🎯 全球直连"
+      - ❤️520丨TG频道@stymei1丨1
+      - ❤️520丨TG频道@stymei1丨2
+      - ❤️520丨TG频道@stymei1丨3
+      - ❤️520丨TG频道@stymei1丨4
+      - ❤️520丨TG频道@stymei1丨5
+      - ❤️520丨TG频道@stymei1丨6
+      - ❤️520丨TG频道@stymei1丨7
+      - ❤️520丨TG频道@stymei1丨8
+      - ❤️520丨TG频道@stymei1丨9
+      - ❤️520丨TG频道@stymei1丨10
+      - ❤️520丨TG频道@stymei1丨11
+      - ❤️520丨TG频道@stymei1丨12
+      - ❤️520丨TG频道@stymei1丨13
+      - ❤️520丨TG频道@stymei1丨14
+      - ❤️520丨TG频道@stymei1丨15
+      - ❤️520丨TG频道@stymei1丨16
+      - ❤️520丨TG频道@stymei1丨17
+      - ❤️520丨TG频道@stymei1丨18
+      - ❤️520丨TG频道@stymei1丨19
+      - ❤️520丨TG频道@stymei1丨20
+      - ❤️520丨TG频道@stymei1丨21
+      - ❤️520丨TG频道@stymei1丨22
+      - ❤️520丨TG频道@stymei1丨23
+      - ❤️520丨TG频道@stymei1丨24
+      - ❤️520丨TG频道@stymei1丨25
+      - ❤️520丨TG频道@stymei1丨26
+      - ❤️520丨TG频道@stymei1丨27
+      - ❤️520丨TG频道@stymei1丨28
+      - ❤️520丨TG频道@stymei1丨29
+      - ❤️520丨TG频道@stymei1丨30
+      - ❤️520丨TG频道@stymei1丨31
+      - ❤️520丨TG频道@stymei1丨32
+    type: select
+  - name: "🌏 国内媒体"
+    proxies:
+      - "🎯 全球直连"
+      - "🔰 节点选择"
+    type: select
+  - name: "Ⓜ️ 微软服务"
+    proxies:
+      - "🎯 全球直连"
+      - "🔰 节点选择"
+      - ❤️520丨TG频道@stymei1丨1
+      - ❤️520丨TG频道@stymei1丨2
+      - ❤️520丨TG频道@stymei1丨3
+      - ❤️520丨TG频道@stymei1丨4
+      - ❤️520丨TG频道@stymei1丨5
+      - ❤️520丨TG频道@stymei1丨6
+      - ❤️520丨TG频道@stymei1丨7
+      - ❤️520丨TG频道@stymei1丨8
+      - ❤️520丨TG频道@stymei1丨9
+      - ❤️520丨TG频道@stymei1丨10
+      - ❤️520丨TG频道@stymei1丨11
+      - ❤️520丨TG频道@stymei1丨12
+      - ❤️520丨TG频道@stymei1丨13
+      - ❤️520丨TG频道@stymei1丨14
+      - ❤️520丨TG频道@stymei1丨15
+      - ❤️520丨TG频道@stymei1丨16
+      - ❤️520丨TG频道@stymei1丨17
+      - ❤️520丨TG频道@stymei1丨18
+      - ❤️520丨TG频道@stymei1丨19
+      - ❤️520丨TG频道@stymei1丨20
+      - ❤️520丨TG频道@stymei1丨21
+      - ❤️520丨TG频道@stymei1丨22
+      - ❤️520丨TG频道@stymei1丨23
+      - ❤️520丨TG频道@stymei1丨24
+      - ❤️520丨TG频道@stymei1丨25
+      - ❤️520丨TG频道@stymei1丨26
+      - ❤️520丨TG频道@stymei1丨27
+      - ❤️520丨TG频道@stymei1丨28
+      - ❤️520丨TG频道@stymei1丨29
+      - ❤️520丨TG频道@stymei1丨30
+      - ❤️520丨TG频道@stymei1丨31
+      - ❤️520丨TG频道@stymei1丨32
+    type: select
+  - name: "📲 电报信息"
+    proxies:
+      - "🔰 节点选择"
+      - "🎯 全球直连"
+      - ❤️520丨TG频道@stymei1丨1
+      - ❤️520丨TG频道@stymei1丨2
+      - ❤️520丨TG频道@stymei1丨3
+      - ❤️520丨TG频道@stymei1丨4
+      - ❤️520丨TG频道@stymei1丨5
+      - ❤️520丨TG频道@stymei1丨6
+      - ❤️520丨TG频道@stymei1丨7
+      - ❤️520丨TG频道@stymei1丨8
+      - ❤️520丨TG频道@stymei1丨9
+      - ❤️520丨TG频道@stymei1丨10
+      - ❤️520丨TG频道@stymei1丨11
+      - ❤️520丨TG频道@stymei1丨12
+      - ❤️520丨TG频道@stymei1丨13
+      - ❤️520丨TG频道@stymei1丨14
+      - ❤️520丨TG频道@stymei1丨15
+      - ❤️520丨TG频道@stymei1丨16
+      - ❤️520丨TG频道@stymei1丨17
+      - ❤️520丨TG频道@stymei1丨18
+      - ❤️520丨TG频道@stymei1丨19
+      - ❤️520丨TG频道@stymei1丨20
+      - ❤️520丨TG频道@stymei1丨21
+      - ❤️520丨TG频道@stymei1丨22
+      - ❤️520丨TG频道@stymei1丨23
+      - ❤️520丨TG频道@stymei1丨24
+      - ❤️520丨TG频道@stymei1丨25
+      - ❤️520丨TG频道@stymei1丨26
+      - ❤️520丨TG频道@stymei1丨27
+      - ❤️520丨TG频道@stymei1丨28
+      - ❤️520丨TG频道@stymei1丨29
+      - ❤️520丨TG频道@stymei1丨30
+      - ❤️520丨TG频道@stymei1丨31
+      - ❤️520丨TG频道@stymei1丨32
+    type: select
+  - name: "🍎 苹果服务"
+    proxies:
+      - "🔰 节点选择"
+      - "🎯 全球直连"
+      - "♻️ 自动选择"
+      - ❤️520丨TG频道@stymei1丨1
+      - ❤️520丨TG频道@stymei1丨2
+      - ❤️520丨TG频道@stymei1丨3
+      - ❤️520丨TG频道@stymei1丨4
+      - ❤️520丨TG频道@stymei1丨5
+      - ❤️520丨TG频道@stymei1丨6
+      - ❤️520丨TG频道@stymei1丨7
+      - ❤️520丨TG频道@stymei1丨8
+      - ❤️520丨TG频道@stymei1丨9
+      - ❤️520丨TG频道@stymei1丨10
+      - ❤️520丨TG频道@stymei1丨11
+      - ❤️520丨TG频道@stymei1丨12
+      - ❤️520丨TG频道@stymei1丨13
+      - ❤️520丨TG频道@stymei1丨14
+      - ❤️520丨TG频道@stymei1丨15
+      - ❤️520丨TG频道@stymei1丨16
+      - ❤️520丨TG频道@stymei1丨17
+      - ❤️520丨TG频道@stymei1丨18
+      - ❤️520丨TG频道@stymei1丨19
+      - ❤️520丨TG频道@stymei1丨20
+      - ❤️520丨TG频道@stymei1丨21
+      - ❤️520丨TG频道@stymei1丨22
+      - ❤️520丨TG频道@stymei1丨23
+      - ❤️520丨TG频道@stymei1丨24
+      - ❤️520丨TG频道@stymei1丨25
+      - ❤️520丨TG频道@stymei1丨26
+      - ❤️520丨TG频道@stymei1丨27
+      - ❤️520丨TG频道@stymei1丨28
+      - ❤️520丨TG频道@stymei1丨29
+      - ❤️520丨TG频道@stymei1丨30
+      - ❤️520丨TG频道@stymei1丨31
+      - ❤️520丨TG频道@stymei1丨32
+    type: select
+  - name: "🎯 全球直连"
+    proxies:
+      - DIRECT
+    type: select
+  - name: "🛑 全球拦截"
+    proxies:
+      - REJECT
+      - DIRECT
+    type: select
+  - name: "🐟 漏网之鱼"
+    proxies:
+      - "🔰 节点选择"
+      - "🎯 全球直连"
+      - "♻️ 自动选择"
+      - ❤️520丨TG频道@stymei1丨1
+      - ❤️520丨TG频道@stymei1丨2
+      - ❤️520丨TG频道@stymei1丨3
+      - ❤️520丨TG频道@stymei1丨4
+      - ❤️520丨TG频道@stymei1丨5
+      - ❤️520丨TG频道@stymei1丨6
+      - ❤️520丨TG频道@stymei1丨7
+      - ❤️520丨TG频道@stymei1丨8
+      - ❤️520丨TG频道@stymei1丨9
+      - ❤️520丨TG频道@stymei1丨10
+      - ❤️520丨TG频道@stymei1丨11
+      - ❤️520丨TG频道@stymei1丨12
+      - ❤️520丨TG频道@stymei1丨13
+      - ❤️520丨TG频道@stymei1丨14
+      - ❤️520丨TG频道@stymei1丨15
+      - ❤️520丨TG频道@stymei1丨16
+      - ❤️520丨TG频道@stymei1丨17
+      - ❤️520丨TG频道@stymei1丨18
+      - ❤️520丨TG频道@stymei1丨19
+      - ❤️520丨TG频道@stymei1丨20
+      - ❤️520丨TG频道@stymei1丨21
+      - ❤️520丨TG频道@stymei1丨22
+      - ❤️520丨TG频道@stymei1丨23
+      - ❤️520丨TG频道@stymei1丨24
+      - ❤️520丨TG频道@stymei1丨25
+      - ❤️520丨TG频道@stymei1丨26
+      - ❤️520丨TG频道@stymei1丨27
+      - ❤️520丨TG频道@stymei1丨28
+      - ❤️520丨TG频道@stymei1丨29
+      - ❤️520丨TG频道@stymei1丨30
+      - ❤️520丨TG频道@stymei1丨31
+      - ❤️520丨TG频道@stymei1丨32
+    type: select
 rules:
   - "DOMAIN-SUFFIX,local,🎯 全球直连"
   - "IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve"
@@ -9906,444 +10091,444 @@ rules:
   - "IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve"
   - "IP-CIDR6,2001:b28:f23c::/48,📲 电报信息,no-resolve"
   - "IP-CIDR6,2a0a:f280::/32,📲 电报信息,no-resolve"
-  - DOMAIN-SUFFIX,9cache.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,9gag.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,abc.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,anchor.fm,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,archive.fo,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,archive.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,archive.ph,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,archiveofourown.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,artstation.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,ask.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,avg.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,axios.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bandcamp.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bandwagonhost.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bbc.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,behance.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bit.ly,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bloglovin.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,blubrry.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,box.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,brave.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bullguard.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,castbox.fm,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,change.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,cloudcone.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,clyp.it,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,cna.com.tw,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,conoha.jp,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,coursehero.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,c-span.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,dailymotion.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,daum.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,deadline.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,depositphotos.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,deviantart.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,deviantart.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,disconnect.me,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,disqus.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,dlive.tv,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,dowjones.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,duckduckgo.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,earthcam.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,edx-cdn.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,encyclopedia.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,feeder.co,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,feedly.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,flickr.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,flipboard.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,flitto.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,foreignaffairs.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,foreignpolicy.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,ft.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,ftchinese.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,ftimg.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,genius.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,getsync.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,gfw.report,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,git.io,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,githack.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,graphql.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,hackmd.io,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,heroku.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,hket.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,huffpost.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,i-cable.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,imgur.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,independent.co.uk,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,inoreader.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,is.gd,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,issuu.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,istockphoto.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,justpaste.it,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,kakao.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,kobo.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,listennotes.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,livestream.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,mailchimp.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,matrix.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,medibang.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,medium.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,mega.co.nz,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,mega.io,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,mega.nz,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,mixlr.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,moon.fm,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,mubi.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,myspace.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,myspacecdn.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,nbcnews.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,neowin.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,newstatesman.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,newsweek.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,newyorker.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,now.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,ok.ru,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,omny.fm,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,openvpn.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,owltail.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,oxfordscholarship.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,parsevideo.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,paste.ee,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,pastie.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,pcloud.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,peing.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,player.fm,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,podbean.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,prism-break.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,privoxy.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,proxifier.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,quora.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,quoracdn.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,qz.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,radioline.co,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,reabble.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,redditlist.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,resilio.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,rsshub.app,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,rthk.hk,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,scmp.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,scribd.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,search.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,shutterstock.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,signal.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,sketchappsources.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,slideshare.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,smartmailcloud.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,smh.com.au,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,speakerdeck.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,spideroak.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,spiegel.de,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,startpage.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,steemit.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,straitstimes.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,streamable.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,substack.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,swissinfo.ch,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,tapatalk.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,techspot.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,textnow.me,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,theage.com.au,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,theatlantic.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,theaustralian.com.au,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,theconversation.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,thediplomat.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,theguardian.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,theinitium.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,themoviedb.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,thetvdb.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,time.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,tineye.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,tiny.cc,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,torproject.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,tradingview.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,turbobit.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,tutanota.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,urbandictionary.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,ustream.tv,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,v2ex.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,venturebeat.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,viber.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,vimeo.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,voxer.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,vzw.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,washingtonpost.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wattpad.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,welt.de,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,whoer.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wikimapia.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wikiwand.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wire.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wireguard.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wn.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,worldcat.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wsj.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wsj.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,x.co,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,yandex.ru,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,you-get.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,zaobao.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,zello.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,zeronet.io,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,z-lib.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,zophar.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,zyxel.com,👖电报频道@stymei1
-  - DOMAIN,lab.skk.moe,👖电报频道@stymei1
-  - DOMAIN,ocsp.int-x3.letsencrypt.org,👖电报频道@stymei1
-  - DOMAIN,a248.e.akamai.net,👖电报频道@stymei1
-  - DOMAIN,a771.dscq.akamai.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,amazon.co.jp,👖电报频道@stymei1
-  - DOMAIN,d3c33hcgiwev3.cloudfront.net,👖电报频道@stymei1
-  - DOMAIN,payments-jp.amazon.com,👖电报频道@stymei1
-  - DOMAIN,s3-ap-northeast-1.amazonaws.com,👖电报频道@stymei1
-  - DOMAIN,s3-ap-southeast-2.amazonaws.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,abc.xyz,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,admob.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,adsense.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,advertisercommunity.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,ampproject.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,android.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,androidify.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,androidtv.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,api.ai,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,apigee.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,appspot.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,blogblog.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,blogger.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,chrome.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,chromium.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,debug.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,dialogflow.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,feedburner.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,firebaseio.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,g.co,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,getoutline.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,ggpht.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,gmail.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,gmodules.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,gvt0.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,gvt1.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,gvt3.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,itasoftware.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,on2.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,recaptcha.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,schema.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,tensorflow.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,tenor.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,tfhub.dev,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,tiltbrush.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,waymo.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,web.dev,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,webmproject.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,webrtc.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,widevine.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,zynamics.com,👖电报频道@stymei1
-  - DOMAIN-KEYWORD,google,👖电报频道@stymei1
-  - DOMAIN-KEYWORD,.blogspot.,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,goog,👖电报频道@stymei1
-  - DOMAIN,testflight.apple.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,gravatar.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,tumblr.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,videopress.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wordpress.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bloomberg.cn,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bloomberg.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bloomberg.de,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bloombergview.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,clubhouseapi.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,joinclubhouse.com,👖电报频道@stymei1
-  - DOMAIN,clubhouse.pubnubapi.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,aex.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bibox.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,binance.cc,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,binance.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,binance.me,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,binance.us,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bitcointalk.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bitfinex.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bithumb.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bitmex.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bitstamp.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bittrex.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bybit.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,coinbase.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,coincheck.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,coingecko.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,coinmarketcap.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,coinone.co.kr,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,etherscan.io,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,ftx.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,gate.io,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,gemini.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,huobi.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,korbit.co.kr,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,kraken.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,kucoin.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,liquid.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,okex.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,okx.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,poloniex.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,sushi.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,uniswap.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,zb.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,discord.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,discordapp.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,discordapp.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,dropbox.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,dropboxapi.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,dropboxusercontent.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,freetls.fastly.net,👖电报频道@stymei1
-  - DOMAIN,cloud-cdn-digitalocean-com.global.ssl.fastly.net,👖电报频道@stymei1
-  - DOMAIN,github.global.ssl.fastly.net,👖电报频道@stymei1
-  - DOMAIN,nytimes.map.fastly.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,line.me,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,line-apps.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,line-scdn.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,naver.jp,👖电报频道@stymei1
-  - IP-CIDR,103.2.30.0/23,👖电报频道@stymei1,no-resolve
-  - IP-CIDR,125.209.208.0/20,👖电报频道@stymei1,no-resolve
-  - IP-CIDR,147.92.128.0/17,👖电报频道@stymei1,no-resolve
-  - IP-CIDR,203.104.144.0/21,👖电报频道@stymei1,no-resolve
-  - DOMAIN-SUFFIX,accountkit.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,cdninstagram.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,f8.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,facebookmail.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,fb.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,fb.me,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,fb.watch,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,fbaddins.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,fbcdn.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,fbsbx.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,fbworkmail.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,instagram.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,m.me,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,messenger.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,oculus.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,oculuscdn.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,readyatdawn.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,rocksdb.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,whatsapp.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,whatsapp.net,👖电报频道@stymei1
-  - DOMAIN-KEYWORD,.facebook.,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,aka.ms,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,github.blog,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,github.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,github.io,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,githubassets.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,githubusercontent.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,onedrive.live.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,streaming.mediaservices.windows.net,👖电报频道@stymei1
-  - DOMAIN,assets1.xboxlive.com,👖电报频道@stymei1
-  - DOMAIN,assets2.xboxlive.com,👖电报频道@stymei1
-  - DOMAIN,az416426.vo.msecnd.net,👖电报频道@stymei1
-  - DOMAIN,az668014.vo.msecnd.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,pinimg.com,👖电报频道@stymei1
-  - DOMAIN-KEYWORD,.pinterest.,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,pixiv.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,pixiv.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,pximg.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,redd.it,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,reddit.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,redditmedia.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,redditstatic.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,reuters.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,reutersmedia.net,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,steamcommunity.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,legra.ph,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,t.me,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,tdesktop.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,telegra.ph,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,telegram.me,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,telegram.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,telesco.pe,👖电报频道@stymei1
-  - IP-CIDR,91.108.4.0/22,👖电报频道@stymei1,no-resolve
-  - IP-CIDR,91.108.8.0/22,👖电报频道@stymei1,no-resolve
-  - IP-CIDR,91.108.12.0/22,👖电报频道@stymei1,no-resolve
-  - IP-CIDR,91.108.16.0/22,👖电报频道@stymei1,no-resolve
-  - IP-CIDR,91.108.20.0/22,👖电报频道@stymei1,no-resolve
-  - IP-CIDR,91.108.56.0/22,👖电报频道@stymei1,no-resolve
-  - IP-CIDR,91.105.192.0/23,👖电报频道@stymei1,no-resolve
-  - IP-CIDR,149.154.160.0/20,👖电报频道@stymei1,no-resolve
-  - IP-CIDR,185.76.151.0/24,👖电报频道@stymei1,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,👖电报频道@stymei1,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,👖电报频道@stymei1,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,👖电报频道@stymei1,no-resolve
-  - IP-CIDR6,2001:b28:f23c::/48,👖电报频道@stymei1,no-resolve
-  - IP-CIDR6,2a0a:f280::/32,👖电报频道@stymei1,no-resolve
-  - DOMAIN-SUFFIX,economist.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,static-economist.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,newyorktimes.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,nyt.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,nytco.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,nytimes.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,nytimg.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,nytlog.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,nytstyle.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,tmagazine.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,periscope.tv,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,pscp.tv,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,t.co,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,tweetdeck.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,twimg.co,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,twimg.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,twitpic.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,twitter.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,twitter.jp,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,vine.co,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,mediawiki.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wikibooks.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wikidata.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wikileaks.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wikimedia.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wikimediafoundation.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wikinews.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wikipedia.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wikiquote.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wikisource.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wikiversity.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wikivoyage.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,wiktionary.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,yahoo.com,👖电报频道@stymei1
-  - DOMAIN,search.yahoo.co.jp,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,yadi.sk,👖电报频道@stymei1
-  - DOMAIN,disk.yandex.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,aicoin.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,aimoon.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,engadget.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,ifixit.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,terabox.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,zaobao.com.sg,👖电报频道@stymei1
-  - DOMAIN,addons.mozilla.org,👖电报频道@stymei1
-  - DOMAIN,wego.here.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,go.dev,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,golang.org,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,appsto.re,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,smoot.apple.com,👖电报频道@stymei1
-  - DOMAIN,amp-api.podcasts.apple.com,👖电报频道@stymei1
-  - DOMAIN,beta.music.apple.com,👖电报频道@stymei1
-  - DOMAIN,books.itunes.apple.com,👖电报频道@stymei1
-  - DOMAIN,lookup-api.apple.com,👖电报频道@stymei1
-  - DOMAIN,radio.itunes.apple.com,👖电报频道@stymei1
-  - DOMAIN,apps.apple.com,👖电报频道@stymei1
-  - DOMAIN,books.apple.com,👖电报频道@stymei1
-  - DOMAIN,itunes.apple.com,👖电报频道@stymei1
-  - DOMAIN,tv.apple.com,👖电报频道@stymei1
-  - DOMAIN,gateway.icloud.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,apple.news,👖电报频道@stymei1
-  - DOMAIN,news-assets.apple.com,👖电报频道@stymei1
-  - DOMAIN,news-client.apple.com,👖电报频道@stymei1
-  - DOMAIN,news-client-search.apple.com,👖电报频道@stymei1
-  - DOMAIN,news-edge.apple.com,👖电报频道@stymei1
-  - DOMAIN,news-events.apple.com,👖电报频道@stymei1
-  - DOMAIN,apple.comscoreresearch.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,bing.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,linkedin.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,licdn.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,msn.com,👖电报频道@stymei1
-  - DOMAIN-SUFFIX,skype.com,👖电报频道@stymei1
+  - "DOMAIN-SUFFIX,9cache.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,9gag.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,abc.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,anchor.fm,🔰 节点选择"
+  - "DOMAIN-SUFFIX,archive.fo,🔰 节点选择"
+  - "DOMAIN-SUFFIX,archive.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,archive.ph,🔰 节点选择"
+  - "DOMAIN-SUFFIX,archiveofourown.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,artstation.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,ask.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,avg.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,axios.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bandcamp.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bandwagonhost.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bbc.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,behance.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bit.ly,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bloglovin.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,blubrry.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,box.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,brave.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bullguard.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,castbox.fm,🔰 节点选择"
+  - "DOMAIN-SUFFIX,change.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,cloudcone.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,clyp.it,🔰 节点选择"
+  - "DOMAIN-SUFFIX,cna.com.tw,🔰 节点选择"
+  - "DOMAIN-SUFFIX,conoha.jp,🔰 节点选择"
+  - "DOMAIN-SUFFIX,coursehero.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,c-span.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,dailymotion.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,daum.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,deadline.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,depositphotos.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,deviantart.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,deviantart.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,disconnect.me,🔰 节点选择"
+  - "DOMAIN-SUFFIX,disqus.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,dlive.tv,🔰 节点选择"
+  - "DOMAIN-SUFFIX,dowjones.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,duckduckgo.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,earthcam.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,edx-cdn.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,encyclopedia.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,feeder.co,🔰 节点选择"
+  - "DOMAIN-SUFFIX,feedly.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,flickr.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,flipboard.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,flitto.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,foreignaffairs.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,foreignpolicy.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,ft.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,ftchinese.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,ftimg.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,genius.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,getsync.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,gfw.report,🔰 节点选择"
+  - "DOMAIN-SUFFIX,git.io,🔰 节点选择"
+  - "DOMAIN-SUFFIX,githack.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,graphql.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,hackmd.io,🔰 节点选择"
+  - "DOMAIN-SUFFIX,heroku.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,hket.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,huffpost.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,i-cable.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,imgur.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,independent.co.uk,🔰 节点选择"
+  - "DOMAIN-SUFFIX,inoreader.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,is.gd,🔰 节点选择"
+  - "DOMAIN-SUFFIX,issuu.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,istockphoto.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,justpaste.it,🔰 节点选择"
+  - "DOMAIN-SUFFIX,kakao.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,kobo.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,listennotes.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,livestream.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,mailchimp.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,matrix.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,medibang.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,medium.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,mega.co.nz,🔰 节点选择"
+  - "DOMAIN-SUFFIX,mega.io,🔰 节点选择"
+  - "DOMAIN-SUFFIX,mega.nz,🔰 节点选择"
+  - "DOMAIN-SUFFIX,mixlr.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,moon.fm,🔰 节点选择"
+  - "DOMAIN-SUFFIX,mubi.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,myspace.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,myspacecdn.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,nbcnews.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,neowin.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,newstatesman.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,newsweek.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,newyorker.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,now.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,ok.ru,🔰 节点选择"
+  - "DOMAIN-SUFFIX,omny.fm,🔰 节点选择"
+  - "DOMAIN-SUFFIX,openvpn.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,owltail.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,oxfordscholarship.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,parsevideo.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,paste.ee,🔰 节点选择"
+  - "DOMAIN-SUFFIX,pastie.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,pcloud.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,peing.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,player.fm,🔰 节点选择"
+  - "DOMAIN-SUFFIX,podbean.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,prism-break.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,privoxy.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,proxifier.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,quora.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,quoracdn.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,qz.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,radioline.co,🔰 节点选择"
+  - "DOMAIN-SUFFIX,reabble.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,redditlist.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,resilio.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,rsshub.app,🔰 节点选择"
+  - "DOMAIN-SUFFIX,rthk.hk,🔰 节点选择"
+  - "DOMAIN-SUFFIX,scmp.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,scribd.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,search.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,shutterstock.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,signal.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,sketchappsources.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,slideshare.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,smartmailcloud.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,smh.com.au,🔰 节点选择"
+  - "DOMAIN-SUFFIX,speakerdeck.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,spideroak.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,spiegel.de,🔰 节点选择"
+  - "DOMAIN-SUFFIX,startpage.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,steemit.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,straitstimes.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,streamable.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,substack.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,swissinfo.ch,🔰 节点选择"
+  - "DOMAIN-SUFFIX,tapatalk.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,techspot.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,textnow.me,🔰 节点选择"
+  - "DOMAIN-SUFFIX,theage.com.au,🔰 节点选择"
+  - "DOMAIN-SUFFIX,theatlantic.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,theaustralian.com.au,🔰 节点选择"
+  - "DOMAIN-SUFFIX,theconversation.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,thediplomat.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,theguardian.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,theinitium.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,themoviedb.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,thetvdb.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,time.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,tineye.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,tiny.cc,🔰 节点选择"
+  - "DOMAIN-SUFFIX,torproject.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,tradingview.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,turbobit.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,tutanota.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,urbandictionary.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,ustream.tv,🔰 节点选择"
+  - "DOMAIN-SUFFIX,v2ex.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,venturebeat.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,viber.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,vimeo.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,voxer.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,vzw.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,washingtonpost.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wattpad.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,welt.de,🔰 节点选择"
+  - "DOMAIN-SUFFIX,whoer.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wikimapia.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wikiwand.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wire.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wireguard.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wn.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,worldcat.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wsj.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wsj.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,x.co,🔰 节点选择"
+  - "DOMAIN-SUFFIX,yandex.ru,🔰 节点选择"
+  - "DOMAIN-SUFFIX,you-get.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,zaobao.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,zello.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,zeronet.io,🔰 节点选择"
+  - "DOMAIN-SUFFIX,z-lib.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,zophar.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,zyxel.com,🔰 节点选择"
+  - "DOMAIN,lab.skk.moe,🔰 节点选择"
+  - "DOMAIN,ocsp.int-x3.letsencrypt.org,🔰 节点选择"
+  - "DOMAIN,a248.e.akamai.net,🔰 节点选择"
+  - "DOMAIN,a771.dscq.akamai.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,amazon.co.jp,🔰 节点选择"
+  - "DOMAIN,d3c33hcgiwev3.cloudfront.net,🔰 节点选择"
+  - "DOMAIN,payments-jp.amazon.com,🔰 节点选择"
+  - "DOMAIN,s3-ap-northeast-1.amazonaws.com,🔰 节点选择"
+  - "DOMAIN,s3-ap-southeast-2.amazonaws.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,abc.xyz,🔰 节点选择"
+  - "DOMAIN-SUFFIX,admob.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,adsense.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,advertisercommunity.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,ampproject.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,android.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,androidify.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,androidtv.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,api.ai,🔰 节点选择"
+  - "DOMAIN-SUFFIX,apigee.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,appspot.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,blogblog.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,blogger.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,chrome.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,chromium.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,debug.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,dialogflow.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,feedburner.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,firebaseio.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,g.co,🔰 节点选择"
+  - "DOMAIN-SUFFIX,getoutline.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,ggpht.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,gmail.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,gmodules.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,gvt0.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,gvt1.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,gvt3.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,itasoftware.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,on2.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,recaptcha.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,schema.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,tensorflow.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,tenor.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,tfhub.dev,🔰 节点选择"
+  - "DOMAIN-SUFFIX,tiltbrush.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,waymo.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,web.dev,🔰 节点选择"
+  - "DOMAIN-SUFFIX,webmproject.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,webrtc.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,widevine.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,zynamics.com,🔰 节点选择"
+  - "DOMAIN-KEYWORD,google,🔰 节点选择"
+  - "DOMAIN-KEYWORD,.blogspot.,🔰 节点选择"
+  - "DOMAIN-SUFFIX,goog,🔰 节点选择"
+  - "DOMAIN,testflight.apple.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,gravatar.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,tumblr.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,videopress.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wordpress.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bloomberg.cn,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bloomberg.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bloomberg.de,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bloombergview.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,clubhouseapi.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,joinclubhouse.com,🔰 节点选择"
+  - "DOMAIN,clubhouse.pubnubapi.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,aex.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bibox.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,binance.cc,🔰 节点选择"
+  - "DOMAIN-SUFFIX,binance.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,binance.me,🔰 节点选择"
+  - "DOMAIN-SUFFIX,binance.us,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bitcointalk.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bitfinex.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bithumb.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bitmex.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bitstamp.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bittrex.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bybit.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,coinbase.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,coincheck.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,coingecko.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,coinmarketcap.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,coinone.co.kr,🔰 节点选择"
+  - "DOMAIN-SUFFIX,etherscan.io,🔰 节点选择"
+  - "DOMAIN-SUFFIX,ftx.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,gate.io,🔰 节点选择"
+  - "DOMAIN-SUFFIX,gemini.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,huobi.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,korbit.co.kr,🔰 节点选择"
+  - "DOMAIN-SUFFIX,kraken.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,kucoin.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,liquid.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,okex.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,okx.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,poloniex.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,sushi.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,uniswap.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,zb.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,discord.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,discordapp.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,discordapp.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,dropbox.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,dropboxapi.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,dropboxusercontent.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,freetls.fastly.net,🔰 节点选择"
+  - "DOMAIN,cloud-cdn-digitalocean-com.global.ssl.fastly.net,🔰 节点选择"
+  - "DOMAIN,github.global.ssl.fastly.net,🔰 节点选择"
+  - "DOMAIN,nytimes.map.fastly.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,line.me,🔰 节点选择"
+  - "DOMAIN-SUFFIX,line-apps.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,line-scdn.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,naver.jp,🔰 节点选择"
+  - "IP-CIDR,103.2.30.0/23,🔰 节点选择,no-resolve"
+  - "IP-CIDR,125.209.208.0/20,🔰 节点选择,no-resolve"
+  - "IP-CIDR,147.92.128.0/17,🔰 节点选择,no-resolve"
+  - "IP-CIDR,203.104.144.0/21,🔰 节点选择,no-resolve"
+  - "DOMAIN-SUFFIX,accountkit.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,cdninstagram.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,f8.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,facebookmail.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,fb.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,fb.me,🔰 节点选择"
+  - "DOMAIN-SUFFIX,fb.watch,🔰 节点选择"
+  - "DOMAIN-SUFFIX,fbaddins.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,fbcdn.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,fbsbx.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,fbworkmail.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,instagram.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,m.me,🔰 节点选择"
+  - "DOMAIN-SUFFIX,messenger.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,oculus.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,oculuscdn.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,readyatdawn.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,rocksdb.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,whatsapp.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,whatsapp.net,🔰 节点选择"
+  - "DOMAIN-KEYWORD,.facebook.,🔰 节点选择"
+  - "DOMAIN-SUFFIX,aka.ms,🔰 节点选择"
+  - "DOMAIN-SUFFIX,github.blog,🔰 节点选择"
+  - "DOMAIN-SUFFIX,github.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,github.io,🔰 节点选择"
+  - "DOMAIN-SUFFIX,githubassets.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,githubusercontent.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,onedrive.live.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,streaming.mediaservices.windows.net,🔰 节点选择"
+  - "DOMAIN,assets1.xboxlive.com,🔰 节点选择"
+  - "DOMAIN,assets2.xboxlive.com,🔰 节点选择"
+  - "DOMAIN,az416426.vo.msecnd.net,🔰 节点选择"
+  - "DOMAIN,az668014.vo.msecnd.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,pinimg.com,🔰 节点选择"
+  - "DOMAIN-KEYWORD,.pinterest.,🔰 节点选择"
+  - "DOMAIN-SUFFIX,pixiv.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,pixiv.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,pximg.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,redd.it,🔰 节点选择"
+  - "DOMAIN-SUFFIX,reddit.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,redditmedia.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,redditstatic.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,reuters.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,reutersmedia.net,🔰 节点选择"
+  - "DOMAIN-SUFFIX,steamcommunity.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,legra.ph,🔰 节点选择"
+  - "DOMAIN-SUFFIX,t.me,🔰 节点选择"
+  - "DOMAIN-SUFFIX,tdesktop.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,telegra.ph,🔰 节点选择"
+  - "DOMAIN-SUFFIX,telegram.me,🔰 节点选择"
+  - "DOMAIN-SUFFIX,telegram.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,telesco.pe,🔰 节点选择"
+  - "IP-CIDR,91.108.4.0/22,🔰 节点选择,no-resolve"
+  - "IP-CIDR,91.108.8.0/22,🔰 节点选择,no-resolve"
+  - "IP-CIDR,91.108.12.0/22,🔰 节点选择,no-resolve"
+  - "IP-CIDR,91.108.16.0/22,🔰 节点选择,no-resolve"
+  - "IP-CIDR,91.108.20.0/22,🔰 节点选择,no-resolve"
+  - "IP-CIDR,91.108.56.0/22,🔰 节点选择,no-resolve"
+  - "IP-CIDR,91.105.192.0/23,🔰 节点选择,no-resolve"
+  - "IP-CIDR,149.154.160.0/20,🔰 节点选择,no-resolve"
+  - "IP-CIDR,185.76.151.0/24,🔰 节点选择,no-resolve"
+  - "IP-CIDR6,2001:b28:f23d::/48,🔰 节点选择,no-resolve"
+  - "IP-CIDR6,2001:b28:f23f::/48,🔰 节点选择,no-resolve"
+  - "IP-CIDR6,2001:67c:4e8::/48,🔰 节点选择,no-resolve"
+  - "IP-CIDR6,2001:b28:f23c::/48,🔰 节点选择,no-resolve"
+  - "IP-CIDR6,2a0a:f280::/32,🔰 节点选择,no-resolve"
+  - "DOMAIN-SUFFIX,economist.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,static-economist.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,newyorktimes.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,nyt.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,nytco.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,nytimes.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,nytimg.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,nytlog.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,nytstyle.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,tmagazine.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,periscope.tv,🔰 节点选择"
+  - "DOMAIN-SUFFIX,pscp.tv,🔰 节点选择"
+  - "DOMAIN-SUFFIX,t.co,🔰 节点选择"
+  - "DOMAIN-SUFFIX,tweetdeck.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,twimg.co,🔰 节点选择"
+  - "DOMAIN-SUFFIX,twimg.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,twitpic.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,twitter.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,twitter.jp,🔰 节点选择"
+  - "DOMAIN-SUFFIX,vine.co,🔰 节点选择"
+  - "DOMAIN-SUFFIX,mediawiki.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wikibooks.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wikidata.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wikileaks.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wikimedia.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wikimediafoundation.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wikinews.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wikipedia.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wikiquote.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wikisource.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wikiversity.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wikivoyage.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,wiktionary.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,yahoo.com,🔰 节点选择"
+  - "DOMAIN,search.yahoo.co.jp,🔰 节点选择"
+  - "DOMAIN-SUFFIX,yadi.sk,🔰 节点选择"
+  - "DOMAIN,disk.yandex.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,aicoin.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,aimoon.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,engadget.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,ifixit.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,terabox.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,zaobao.com.sg,🔰 节点选择"
+  - "DOMAIN,addons.mozilla.org,🔰 节点选择"
+  - "DOMAIN,wego.here.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,go.dev,🔰 节点选择"
+  - "DOMAIN-SUFFIX,golang.org,🔰 节点选择"
+  - "DOMAIN-SUFFIX,appsto.re,🔰 节点选择"
+  - "DOMAIN-SUFFIX,smoot.apple.com,🔰 节点选择"
+  - "DOMAIN,amp-api.podcasts.apple.com,🔰 节点选择"
+  - "DOMAIN,beta.music.apple.com,🔰 节点选择"
+  - "DOMAIN,books.itunes.apple.com,🔰 节点选择"
+  - "DOMAIN,lookup-api.apple.com,🔰 节点选择"
+  - "DOMAIN,radio.itunes.apple.com,🔰 节点选择"
+  - "DOMAIN,apps.apple.com,🔰 节点选择"
+  - "DOMAIN,books.apple.com,🔰 节点选择"
+  - "DOMAIN,itunes.apple.com,🔰 节点选择"
+  - "DOMAIN,tv.apple.com,🔰 节点选择"
+  - "DOMAIN,gateway.icloud.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,apple.news,🔰 节点选择"
+  - "DOMAIN,news-assets.apple.com,🔰 节点选择"
+  - "DOMAIN,news-client.apple.com,🔰 节点选择"
+  - "DOMAIN,news-client-search.apple.com,🔰 节点选择"
+  - "DOMAIN,news-edge.apple.com,🔰 节点选择"
+  - "DOMAIN,news-events.apple.com,🔰 节点选择"
+  - "DOMAIN,apple.comscoreresearch.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,bing.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,linkedin.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,licdn.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,msn.com,🔰 节点选择"
+  - "DOMAIN-SUFFIX,skype.com,🔰 节点选择"
   - "DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务"
   - "DOMAIN-SUFFIX,apple.co,🍎 苹果服务"
   - "DOMAIN-SUFFIX,apple.com,🍎 苹果服务"
