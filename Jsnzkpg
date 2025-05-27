@@ -6,7 +6,7 @@ port: 7890
 proxies:
   - client-fingerprint: chrome
     fingerprint: ''
-    name: 👖5.23丨TG频道@stymei1丨1
+    name: 🇺🇸5.27丨TG频道@stymei1丨1
     network: ws
     port: 8880
     server: 156.238.18.119
@@ -22,7 +22,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨2
+  - name: 🇺🇸5.27丨TG频道@stymei1丨2
     network: ws
     port: 8880
     server: 102.177.176.20
@@ -41,7 +41,7 @@ proxies:
     flow: ""
   - client-fingerprint: chrome
     fingerprint: ''
-    name: 👖5.23丨TG频道@stymei1丨3
+    name: 🇺🇸5.27丨TG频道@stymei1丨3
     network: ws
     port: 8880
     server: 156.238.18.172
@@ -57,7 +57,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨4
+  - name: 🇺🇸5.27丨TG频道@stymei1丨4
     network: ws
     port: 8880
     server: 89.116.180.20
@@ -74,7 +74,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨5
+  - name: 🇺🇸5.27丨TG频道@stymei1丨5
     network: ws
     port: 8880
     server: 92.53.188.20
@@ -91,7 +91,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨6
+  - name: 🇺🇸5.27丨TG频道@stymei1丨6
     network: ws
     port: 8880
     server: 135.84.73.29
@@ -110,7 +110,7 @@ proxies:
     flow: ""
   - client-fingerprint: chrome
     fingerprint: ''
-    name: 👖5.23丨TG频道@stymei1丨7
+    name: 🇺🇸5.27丨TG频道@stymei1丨7
     network: ws
     port: 8880
     server: 156.238.18.94
@@ -126,7 +126,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨8
+  - name: 🇺🇸5.27丨TG频道@stymei1丨8
     network: ws
     port: 8880
     server: 108.165.216.20
@@ -145,7 +145,7 @@ proxies:
     flow: ""
   - client-fingerprint: chrome
     fingerprint: ''
-    name: 👖5.23丨TG频道@stymei1丨9
+    name: 🇺🇸5.27丨TG频道@stymei1丨9
     network: ws
     port: 8880
     server: 91.193.58.69
@@ -161,7 +161,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨10
+  - name: 🇺🇸5.27丨TG频道@stymei1丨10
     network: ws
     port: 8880
     server: 154.197.108.29
@@ -178,7 +178,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨11
+  - name: 🇺🇸5.27丨TG频道@stymei1丨11
     network: ws
     port: 8880
     server: 160.153.1.29
@@ -195,7 +195,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨12
+  - name: 🇺🇸5.27丨TG频道@stymei1丨12
     network: ws
     port: 8880
     server: 185.18.250.29
@@ -212,7 +212,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨13
+  - name: 🇺🇸5.27丨TG频道@stymei1丨13
     network: ws
     port: 8880
     server: 103.116.7.29
@@ -229,7 +229,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨14
+  - name: 🇺🇸5.27丨TG频道@stymei1丨14
     network: ws
     port: 8880
     server: 25.129.197.29
@@ -246,7 +246,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨15
+  - name: 🇺🇸5.27丨TG频道@stymei1丨15
     network: ws
     port: 8880
     server: 103.245.228.29
@@ -263,7 +263,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨16
+  - name: 🇺🇸5.27丨TG频道@stymei1丨16
     network: ws
     port: 8880
     server: 167.68.42.20
@@ -280,7 +280,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨17
+  - name: 🇺🇸5.27丨TG频道@stymei1丨17
     network: ws
     port: 80
     server: 141.193.213.29
@@ -299,7 +299,7 @@ proxies:
     flow: ""
   - client-fingerprint: chrome
     fingerprint: ''
-    name: 👖5.23丨TG频道@stymei1丨18
+    name: 🇺🇸5.27丨TG频道@stymei1丨18
     network: ws
     port: 8880
     server: 156.238.18.142
@@ -315,7 +315,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨19
+  - name: 🇺🇸5.27丨TG频道@stymei1丨19
     network: ws
     port: 8880
     server: 209.46.30.20
@@ -332,7 +332,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨20
+  - name: 🇺🇸5.27丨TG频道@stymei1丨20
     network: ws
     port: 8880
     server: 45.159.219.29
@@ -349,7 +349,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨21
+  - name: 🇺🇸5.27丨TG频道@stymei1丨21
     network: ws
     port: 8880
     server: 185.176.26.29
@@ -366,7 +366,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨22
+  - name: 🇺🇸5.27丨TG频道@stymei1丨22
     network: ws
     port: 8880
     server: 102.177.176.29
@@ -383,7 +383,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨23
+  - name: 🇺🇸5.27丨TG频道@stymei1丨23
     network: ws
     port: 8880
     server: 94.140.0.29
@@ -400,7 +400,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨24
+  - name: 🇺🇸5.27丨TG频道@stymei1丨24
     network: ws
     port: 8880
     server: 89.117.112.29
@@ -417,7 +417,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨25
+  - name: 🇺🇸5.27丨TG频道@stymei1丨25
     network: ws
     port: 8880
     server: 195.13.44.29
@@ -434,7 +434,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨26
+  - name: 🇺🇸5.27丨TG频道@stymei1丨26
     network: ws
     port: 8880
     server: 213.109.205.29
@@ -451,7 +451,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨27
+  - name: 🇺🇸5.27丨TG频道@stymei1丨27
     network: ws
     port: 8880
     server: 185.59.218.29
@@ -468,7 +468,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨28
+  - name: 🇺🇸5.27丨TG频道@stymei1丨28
     network: ws
     port: 8880
     server: 25.129.199.29
@@ -485,7 +485,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨29
+  - name: 🇺🇸5.27丨TG频道@stymei1丨29
     network: ws
     port: 8880
     server: 185.251.81.29
@@ -502,7 +502,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨30
+  - name: 🇺🇸5.27丨TG频道@stymei1丨30
     network: ws
     port: 8880
     server: 167.68.42.29
@@ -519,7 +519,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨31
+  - name: 🇺🇸5.27丨TG频道@stymei1丨31
     network: ws
     port: 8880
     server: 213.182.199.29
@@ -536,7 +536,7 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖5.23丨TG频道@stymei1丨32
+  - name: 🇺🇸5.27丨TG频道@stymei1丨32
     network: ws
     port: 8880
     server: 5.182.85.29
@@ -558,74 +558,74 @@ proxy-groups:
     proxies:
       - "♻️ 自动选择"
       - "🎯 全球直连"
-      - 👖5.23丨TG频道@stymei1丨1
-      - 👖5.23丨TG频道@stymei1丨2
-      - 👖5.23丨TG频道@stymei1丨3
-      - 👖5.23丨TG频道@stymei1丨4
-      - 👖5.23丨TG频道@stymei1丨5
-      - 👖5.23丨TG频道@stymei1丨6
-      - 👖5.23丨TG频道@stymei1丨7
-      - 👖5.23丨TG频道@stymei1丨8
-      - 👖5.23丨TG频道@stymei1丨9
-      - 👖5.23丨TG频道@stymei1丨10
-      - 👖5.23丨TG频道@stymei1丨11
-      - 👖5.23丨TG频道@stymei1丨12
-      - 👖5.23丨TG频道@stymei1丨13
-      - 👖5.23丨TG频道@stymei1丨14
-      - 👖5.23丨TG频道@stymei1丨15
-      - 👖5.23丨TG频道@stymei1丨16
-      - 👖5.23丨TG频道@stymei1丨17
-      - 👖5.23丨TG频道@stymei1丨18
-      - 👖5.23丨TG频道@stymei1丨19
-      - 👖5.23丨TG频道@stymei1丨20
-      - 👖5.23丨TG频道@stymei1丨21
-      - 👖5.23丨TG频道@stymei1丨22
-      - 👖5.23丨TG频道@stymei1丨23
-      - 👖5.23丨TG频道@stymei1丨24
-      - 👖5.23丨TG频道@stymei1丨25
-      - 👖5.23丨TG频道@stymei1丨26
-      - 👖5.23丨TG频道@stymei1丨27
-      - 👖5.23丨TG频道@stymei1丨28
-      - 👖5.23丨TG频道@stymei1丨29
-      - 👖5.23丨TG频道@stymei1丨30
-      - 👖5.23丨TG频道@stymei1丨31
-      - 👖5.23丨TG频道@stymei1丨32
+      - 🇺🇸5.27丨TG频道@stymei1丨1
+      - 🇺🇸5.27丨TG频道@stymei1丨2
+      - 🇺🇸5.27丨TG频道@stymei1丨3
+      - 🇺🇸5.27丨TG频道@stymei1丨4
+      - 🇺🇸5.27丨TG频道@stymei1丨5
+      - 🇺🇸5.27丨TG频道@stymei1丨6
+      - 🇺🇸5.27丨TG频道@stymei1丨7
+      - 🇺🇸5.27丨TG频道@stymei1丨8
+      - 🇺🇸5.27丨TG频道@stymei1丨9
+      - 🇺🇸5.27丨TG频道@stymei1丨10
+      - 🇺🇸5.27丨TG频道@stymei1丨11
+      - 🇺🇸5.27丨TG频道@stymei1丨12
+      - 🇺🇸5.27丨TG频道@stymei1丨13
+      - 🇺🇸5.27丨TG频道@stymei1丨14
+      - 🇺🇸5.27丨TG频道@stymei1丨15
+      - 🇺🇸5.27丨TG频道@stymei1丨16
+      - 🇺🇸5.27丨TG频道@stymei1丨17
+      - 🇺🇸5.27丨TG频道@stymei1丨18
+      - 🇺🇸5.27丨TG频道@stymei1丨19
+      - 🇺🇸5.27丨TG频道@stymei1丨20
+      - 🇺🇸5.27丨TG频道@stymei1丨21
+      - 🇺🇸5.27丨TG频道@stymei1丨22
+      - 🇺🇸5.27丨TG频道@stymei1丨23
+      - 🇺🇸5.27丨TG频道@stymei1丨24
+      - 🇺🇸5.27丨TG频道@stymei1丨25
+      - 🇺🇸5.27丨TG频道@stymei1丨26
+      - 🇺🇸5.27丨TG频道@stymei1丨27
+      - 🇺🇸5.27丨TG频道@stymei1丨28
+      - 🇺🇸5.27丨TG频道@stymei1丨29
+      - 🇺🇸5.27丨TG频道@stymei1丨30
+      - 🇺🇸5.27丨TG频道@stymei1丨31
+      - 🇺🇸5.27丨TG频道@stymei1丨32
     type: select
   - interval: 300
     name: "♻️ 自动选择"
     proxies:
-      - 👖5.23丨TG频道@stymei1丨1
-      - 👖5.23丨TG频道@stymei1丨2
-      - 👖5.23丨TG频道@stymei1丨3
-      - 👖5.23丨TG频道@stymei1丨4
-      - 👖5.23丨TG频道@stymei1丨5
-      - 👖5.23丨TG频道@stymei1丨6
-      - 👖5.23丨TG频道@stymei1丨7
-      - 👖5.23丨TG频道@stymei1丨8
-      - 👖5.23丨TG频道@stymei1丨9
-      - 👖5.23丨TG频道@stymei1丨10
-      - 👖5.23丨TG频道@stymei1丨11
-      - 👖5.23丨TG频道@stymei1丨12
-      - 👖5.23丨TG频道@stymei1丨13
-      - 👖5.23丨TG频道@stymei1丨14
-      - 👖5.23丨TG频道@stymei1丨15
-      - 👖5.23丨TG频道@stymei1丨16
-      - 👖5.23丨TG频道@stymei1丨17
-      - 👖5.23丨TG频道@stymei1丨18
-      - 👖5.23丨TG频道@stymei1丨19
-      - 👖5.23丨TG频道@stymei1丨20
-      - 👖5.23丨TG频道@stymei1丨21
-      - 👖5.23丨TG频道@stymei1丨22
-      - 👖5.23丨TG频道@stymei1丨23
-      - 👖5.23丨TG频道@stymei1丨24
-      - 👖5.23丨TG频道@stymei1丨25
-      - 👖5.23丨TG频道@stymei1丨26
-      - 👖5.23丨TG频道@stymei1丨27
-      - 👖5.23丨TG频道@stymei1丨28
-      - 👖5.23丨TG频道@stymei1丨29
-      - 👖5.23丨TG频道@stymei1丨30
-      - 👖5.23丨TG频道@stymei1丨31
-      - 👖5.23丨TG频道@stymei1丨32
+      - 🇺🇸5.27丨TG频道@stymei1丨1
+      - 🇺🇸5.27丨TG频道@stymei1丨2
+      - 🇺🇸5.27丨TG频道@stymei1丨3
+      - 🇺🇸5.27丨TG频道@stymei1丨4
+      - 🇺🇸5.27丨TG频道@stymei1丨5
+      - 🇺🇸5.27丨TG频道@stymei1丨6
+      - 🇺🇸5.27丨TG频道@stymei1丨7
+      - 🇺🇸5.27丨TG频道@stymei1丨8
+      - 🇺🇸5.27丨TG频道@stymei1丨9
+      - 🇺🇸5.27丨TG频道@stymei1丨10
+      - 🇺🇸5.27丨TG频道@stymei1丨11
+      - 🇺🇸5.27丨TG频道@stymei1丨12
+      - 🇺🇸5.27丨TG频道@stymei1丨13
+      - 🇺🇸5.27丨TG频道@stymei1丨14
+      - 🇺🇸5.27丨TG频道@stymei1丨15
+      - 🇺🇸5.27丨TG频道@stymei1丨16
+      - 🇺🇸5.27丨TG频道@stymei1丨17
+      - 🇺🇸5.27丨TG频道@stymei1丨18
+      - 🇺🇸5.27丨TG频道@stymei1丨19
+      - 🇺🇸5.27丨TG频道@stymei1丨20
+      - 🇺🇸5.27丨TG频道@stymei1丨21
+      - 🇺🇸5.27丨TG频道@stymei1丨22
+      - 🇺🇸5.27丨TG频道@stymei1丨23
+      - 🇺🇸5.27丨TG频道@stymei1丨24
+      - 🇺🇸5.27丨TG频道@stymei1丨25
+      - 🇺🇸5.27丨TG频道@stymei1丨26
+      - 🇺🇸5.27丨TG频道@stymei1丨27
+      - 🇺🇸5.27丨TG频道@stymei1丨28
+      - 🇺🇸5.27丨TG频道@stymei1丨29
+      - 🇺🇸5.27丨TG频道@stymei1丨30
+      - 🇺🇸5.27丨TG频道@stymei1丨31
+      - 🇺🇸5.27丨TG频道@stymei1丨32
     type: url-test
     url: https://www.gstatic.com/youtube/img/emojis/emojis-png-7.json
   - name: "🎥 NETFLIX"
@@ -633,38 +633,38 @@ proxy-groups:
       - "🔰 节点选择"
       - "♻️ 自动选择"
       - "🎯 全球直连"
-      - 👖5.23丨TG频道@stymei1丨1
-      - 👖5.23丨TG频道@stymei1丨2
-      - 👖5.23丨TG频道@stymei1丨3
-      - 👖5.23丨TG频道@stymei1丨4
-      - 👖5.23丨TG频道@stymei1丨5
-      - 👖5.23丨TG频道@stymei1丨6
-      - 👖5.23丨TG频道@stymei1丨7
-      - 👖5.23丨TG频道@stymei1丨8
-      - 👖5.23丨TG频道@stymei1丨9
-      - 👖5.23丨TG频道@stymei1丨10
-      - 👖5.23丨TG频道@stymei1丨11
-      - 👖5.23丨TG频道@stymei1丨12
-      - 👖5.23丨TG频道@stymei1丨13
-      - 👖5.23丨TG频道@stymei1丨14
-      - 👖5.23丨TG频道@stymei1丨15
-      - 👖5.23丨TG频道@stymei1丨16
-      - 👖5.23丨TG频道@stymei1丨17
-      - 👖5.23丨TG频道@stymei1丨18
-      - 👖5.23丨TG频道@stymei1丨19
-      - 👖5.23丨TG频道@stymei1丨20
-      - 👖5.23丨TG频道@stymei1丨21
-      - 👖5.23丨TG频道@stymei1丨22
-      - 👖5.23丨TG频道@stymei1丨23
-      - 👖5.23丨TG频道@stymei1丨24
-      - 👖5.23丨TG频道@stymei1丨25
-      - 👖5.23丨TG频道@stymei1丨26
-      - 👖5.23丨TG频道@stymei1丨27
-      - 👖5.23丨TG频道@stymei1丨28
-      - 👖5.23丨TG频道@stymei1丨29
-      - 👖5.23丨TG频道@stymei1丨30
-      - 👖5.23丨TG频道@stymei1丨31
-      - 👖5.23丨TG频道@stymei1丨32
+      - 🇺🇸5.27丨TG频道@stymei1丨1
+      - 🇺🇸5.27丨TG频道@stymei1丨2
+      - 🇺🇸5.27丨TG频道@stymei1丨3
+      - 🇺🇸5.27丨TG频道@stymei1丨4
+      - 🇺🇸5.27丨TG频道@stymei1丨5
+      - 🇺🇸5.27丨TG频道@stymei1丨6
+      - 🇺🇸5.27丨TG频道@stymei1丨7
+      - 🇺🇸5.27丨TG频道@stymei1丨8
+      - 🇺🇸5.27丨TG频道@stymei1丨9
+      - 🇺🇸5.27丨TG频道@stymei1丨10
+      - 🇺🇸5.27丨TG频道@stymei1丨11
+      - 🇺🇸5.27丨TG频道@stymei1丨12
+      - 🇺🇸5.27丨TG频道@stymei1丨13
+      - 🇺🇸5.27丨TG频道@stymei1丨14
+      - 🇺🇸5.27丨TG频道@stymei1丨15
+      - 🇺🇸5.27丨TG频道@stymei1丨16
+      - 🇺🇸5.27丨TG频道@stymei1丨17
+      - 🇺🇸5.27丨TG频道@stymei1丨18
+      - 🇺🇸5.27丨TG频道@stymei1丨19
+      - 🇺🇸5.27丨TG频道@stymei1丨20
+      - 🇺🇸5.27丨TG频道@stymei1丨21
+      - 🇺🇸5.27丨TG频道@stymei1丨22
+      - 🇺🇸5.27丨TG频道@stymei1丨23
+      - 🇺🇸5.27丨TG频道@stymei1丨24
+      - 🇺🇸5.27丨TG频道@stymei1丨25
+      - 🇺🇸5.27丨TG频道@stymei1丨26
+      - 🇺🇸5.27丨TG频道@stymei1丨27
+      - 🇺🇸5.27丨TG频道@stymei1丨28
+      - 🇺🇸5.27丨TG频道@stymei1丨29
+      - 🇺🇸5.27丨TG频道@stymei1丨30
+      - 🇺🇸5.27丨TG频道@stymei1丨31
+      - 🇺🇸5.27丨TG频道@stymei1丨32
     type: select
   - name: "⛔️ 广告拦截"
     proxies:
@@ -683,38 +683,38 @@ proxy-groups:
       - "🔰 节点选择"
       - "♻️ 自动选择"
       - "🎯 全球直连"
-      - 👖5.23丨TG频道@stymei1丨1
-      - 👖5.23丨TG频道@stymei1丨2
-      - 👖5.23丨TG频道@stymei1丨3
-      - 👖5.23丨TG频道@stymei1丨4
-      - 👖5.23丨TG频道@stymei1丨5
-      - 👖5.23丨TG频道@stymei1丨6
-      - 👖5.23丨TG频道@stymei1丨7
-      - 👖5.23丨TG频道@stymei1丨8
-      - 👖5.23丨TG频道@stymei1丨9
-      - 👖5.23丨TG频道@stymei1丨10
-      - 👖5.23丨TG频道@stymei1丨11
-      - 👖5.23丨TG频道@stymei1丨12
-      - 👖5.23丨TG频道@stymei1丨13
-      - 👖5.23丨TG频道@stymei1丨14
-      - 👖5.23丨TG频道@stymei1丨15
-      - 👖5.23丨TG频道@stymei1丨16
-      - 👖5.23丨TG频道@stymei1丨17
-      - 👖5.23丨TG频道@stymei1丨18
-      - 👖5.23丨TG频道@stymei1丨19
-      - 👖5.23丨TG频道@stymei1丨20
-      - 👖5.23丨TG频道@stymei1丨21
-      - 👖5.23丨TG频道@stymei1丨22
-      - 👖5.23丨TG频道@stymei1丨23
-      - 👖5.23丨TG频道@stymei1丨24
-      - 👖5.23丨TG频道@stymei1丨25
-      - 👖5.23丨TG频道@stymei1丨26
-      - 👖5.23丨TG频道@stymei1丨27
-      - 👖5.23丨TG频道@stymei1丨28
-      - 👖5.23丨TG频道@stymei1丨29
-      - 👖5.23丨TG频道@stymei1丨30
-      - 👖5.23丨TG频道@stymei1丨31
-      - 👖5.23丨TG频道@stymei1丨32
+      - 🇺🇸5.27丨TG频道@stymei1丨1
+      - 🇺🇸5.27丨TG频道@stymei1丨2
+      - 🇺🇸5.27丨TG频道@stymei1丨3
+      - 🇺🇸5.27丨TG频道@stymei1丨4
+      - 🇺🇸5.27丨TG频道@stymei1丨5
+      - 🇺🇸5.27丨TG频道@stymei1丨6
+      - 🇺🇸5.27丨TG频道@stymei1丨7
+      - 🇺🇸5.27丨TG频道@stymei1丨8
+      - 🇺🇸5.27丨TG频道@stymei1丨9
+      - 🇺🇸5.27丨TG频道@stymei1丨10
+      - 🇺🇸5.27丨TG频道@stymei1丨11
+      - 🇺🇸5.27丨TG频道@stymei1丨12
+      - 🇺🇸5.27丨TG频道@stymei1丨13
+      - 🇺🇸5.27丨TG频道@stymei1丨14
+      - 🇺🇸5.27丨TG频道@stymei1丨15
+      - 🇺🇸5.27丨TG频道@stymei1丨16
+      - 🇺🇸5.27丨TG频道@stymei1丨17
+      - 🇺🇸5.27丨TG频道@stymei1丨18
+      - 🇺🇸5.27丨TG频道@stymei1丨19
+      - 🇺🇸5.27丨TG频道@stymei1丨20
+      - 🇺🇸5.27丨TG频道@stymei1丨21
+      - 🇺🇸5.27丨TG频道@stymei1丨22
+      - 🇺🇸5.27丨TG频道@stymei1丨23
+      - 🇺🇸5.27丨TG频道@stymei1丨24
+      - 🇺🇸5.27丨TG频道@stymei1丨25
+      - 🇺🇸5.27丨TG频道@stymei1丨26
+      - 🇺🇸5.27丨TG频道@stymei1丨27
+      - 🇺🇸5.27丨TG频道@stymei1丨28
+      - 🇺🇸5.27丨TG频道@stymei1丨29
+      - 🇺🇸5.27丨TG频道@stymei1丨30
+      - 🇺🇸5.27丨TG频道@stymei1丨31
+      - 🇺🇸5.27丨TG频道@stymei1丨32
     type: select
   - name: "🌏 国内媒体"
     proxies:
@@ -725,113 +725,113 @@ proxy-groups:
     proxies:
       - "🎯 全球直连"
       - "🔰 节点选择"
-      - 👖5.23丨TG频道@stymei1丨1
-      - 👖5.23丨TG频道@stymei1丨2
-      - 👖5.23丨TG频道@stymei1丨3
-      - 👖5.23丨TG频道@stymei1丨4
-      - 👖5.23丨TG频道@stymei1丨5
-      - 👖5.23丨TG频道@stymei1丨6
-      - 👖5.23丨TG频道@stymei1丨7
-      - 👖5.23丨TG频道@stymei1丨8
-      - 👖5.23丨TG频道@stymei1丨9
-      - 👖5.23丨TG频道@stymei1丨10
-      - 👖5.23丨TG频道@stymei1丨11
-      - 👖5.23丨TG频道@stymei1丨12
-      - 👖5.23丨TG频道@stymei1丨13
-      - 👖5.23丨TG频道@stymei1丨14
-      - 👖5.23丨TG频道@stymei1丨15
-      - 👖5.23丨TG频道@stymei1丨16
-      - 👖5.23丨TG频道@stymei1丨17
-      - 👖5.23丨TG频道@stymei1丨18
-      - 👖5.23丨TG频道@stymei1丨19
-      - 👖5.23丨TG频道@stymei1丨20
-      - 👖5.23丨TG频道@stymei1丨21
-      - 👖5.23丨TG频道@stymei1丨22
-      - 👖5.23丨TG频道@stymei1丨23
-      - 👖5.23丨TG频道@stymei1丨24
-      - 👖5.23丨TG频道@stymei1丨25
-      - 👖5.23丨TG频道@stymei1丨26
-      - 👖5.23丨TG频道@stymei1丨27
-      - 👖5.23丨TG频道@stymei1丨28
-      - 👖5.23丨TG频道@stymei1丨29
-      - 👖5.23丨TG频道@stymei1丨30
-      - 👖5.23丨TG频道@stymei1丨31
-      - 👖5.23丨TG频道@stymei1丨32
+      - 🇺🇸5.27丨TG频道@stymei1丨1
+      - 🇺🇸5.27丨TG频道@stymei1丨2
+      - 🇺🇸5.27丨TG频道@stymei1丨3
+      - 🇺🇸5.27丨TG频道@stymei1丨4
+      - 🇺🇸5.27丨TG频道@stymei1丨5
+      - 🇺🇸5.27丨TG频道@stymei1丨6
+      - 🇺🇸5.27丨TG频道@stymei1丨7
+      - 🇺🇸5.27丨TG频道@stymei1丨8
+      - 🇺🇸5.27丨TG频道@stymei1丨9
+      - 🇺🇸5.27丨TG频道@stymei1丨10
+      - 🇺🇸5.27丨TG频道@stymei1丨11
+      - 🇺🇸5.27丨TG频道@stymei1丨12
+      - 🇺🇸5.27丨TG频道@stymei1丨13
+      - 🇺🇸5.27丨TG频道@stymei1丨14
+      - 🇺🇸5.27丨TG频道@stymei1丨15
+      - 🇺🇸5.27丨TG频道@stymei1丨16
+      - 🇺🇸5.27丨TG频道@stymei1丨17
+      - 🇺🇸5.27丨TG频道@stymei1丨18
+      - 🇺🇸5.27丨TG频道@stymei1丨19
+      - 🇺🇸5.27丨TG频道@stymei1丨20
+      - 🇺🇸5.27丨TG频道@stymei1丨21
+      - 🇺🇸5.27丨TG频道@stymei1丨22
+      - 🇺🇸5.27丨TG频道@stymei1丨23
+      - 🇺🇸5.27丨TG频道@stymei1丨24
+      - 🇺🇸5.27丨TG频道@stymei1丨25
+      - 🇺🇸5.27丨TG频道@stymei1丨26
+      - 🇺🇸5.27丨TG频道@stymei1丨27
+      - 🇺🇸5.27丨TG频道@stymei1丨28
+      - 🇺🇸5.27丨TG频道@stymei1丨29
+      - 🇺🇸5.27丨TG频道@stymei1丨30
+      - 🇺🇸5.27丨TG频道@stymei1丨31
+      - 🇺🇸5.27丨TG频道@stymei1丨32
     type: select
   - name: "📲 电报信息"
     proxies:
       - "🔰 节点选择"
       - "🎯 全球直连"
-      - 👖5.23丨TG频道@stymei1丨1
-      - 👖5.23丨TG频道@stymei1丨2
-      - 👖5.23丨TG频道@stymei1丨3
-      - 👖5.23丨TG频道@stymei1丨4
-      - 👖5.23丨TG频道@stymei1丨5
-      - 👖5.23丨TG频道@stymei1丨6
-      - 👖5.23丨TG频道@stymei1丨7
-      - 👖5.23丨TG频道@stymei1丨8
-      - 👖5.23丨TG频道@stymei1丨9
-      - 👖5.23丨TG频道@stymei1丨10
-      - 👖5.23丨TG频道@stymei1丨11
-      - 👖5.23丨TG频道@stymei1丨12
-      - 👖5.23丨TG频道@stymei1丨13
-      - 👖5.23丨TG频道@stymei1丨14
-      - 👖5.23丨TG频道@stymei1丨15
-      - 👖5.23丨TG频道@stymei1丨16
-      - 👖5.23丨TG频道@stymei1丨17
-      - 👖5.23丨TG频道@stymei1丨18
-      - 👖5.23丨TG频道@stymei1丨19
-      - 👖5.23丨TG频道@stymei1丨20
-      - 👖5.23丨TG频道@stymei1丨21
-      - 👖5.23丨TG频道@stymei1丨22
-      - 👖5.23丨TG频道@stymei1丨23
-      - 👖5.23丨TG频道@stymei1丨24
-      - 👖5.23丨TG频道@stymei1丨25
-      - 👖5.23丨TG频道@stymei1丨26
-      - 👖5.23丨TG频道@stymei1丨27
-      - 👖5.23丨TG频道@stymei1丨28
-      - 👖5.23丨TG频道@stymei1丨29
-      - 👖5.23丨TG频道@stymei1丨30
-      - 👖5.23丨TG频道@stymei1丨31
-      - 👖5.23丨TG频道@stymei1丨32
+      - 🇺🇸5.27丨TG频道@stymei1丨1
+      - 🇺🇸5.27丨TG频道@stymei1丨2
+      - 🇺🇸5.27丨TG频道@stymei1丨3
+      - 🇺🇸5.27丨TG频道@stymei1丨4
+      - 🇺🇸5.27丨TG频道@stymei1丨5
+      - 🇺🇸5.27丨TG频道@stymei1丨6
+      - 🇺🇸5.27丨TG频道@stymei1丨7
+      - 🇺🇸5.27丨TG频道@stymei1丨8
+      - 🇺🇸5.27丨TG频道@stymei1丨9
+      - 🇺🇸5.27丨TG频道@stymei1丨10
+      - 🇺🇸5.27丨TG频道@stymei1丨11
+      - 🇺🇸5.27丨TG频道@stymei1丨12
+      - 🇺🇸5.27丨TG频道@stymei1丨13
+      - 🇺🇸5.27丨TG频道@stymei1丨14
+      - 🇺🇸5.27丨TG频道@stymei1丨15
+      - 🇺🇸5.27丨TG频道@stymei1丨16
+      - 🇺🇸5.27丨TG频道@stymei1丨17
+      - 🇺🇸5.27丨TG频道@stymei1丨18
+      - 🇺🇸5.27丨TG频道@stymei1丨19
+      - 🇺🇸5.27丨TG频道@stymei1丨20
+      - 🇺🇸5.27丨TG频道@stymei1丨21
+      - 🇺🇸5.27丨TG频道@stymei1丨22
+      - 🇺🇸5.27丨TG频道@stymei1丨23
+      - 🇺🇸5.27丨TG频道@stymei1丨24
+      - 🇺🇸5.27丨TG频道@stymei1丨25
+      - 🇺🇸5.27丨TG频道@stymei1丨26
+      - 🇺🇸5.27丨TG频道@stymei1丨27
+      - 🇺🇸5.27丨TG频道@stymei1丨28
+      - 🇺🇸5.27丨TG频道@stymei1丨29
+      - 🇺🇸5.27丨TG频道@stymei1丨30
+      - 🇺🇸5.27丨TG频道@stymei1丨31
+      - 🇺🇸5.27丨TG频道@stymei1丨32
     type: select
   - name: "🍎 苹果服务"
     proxies:
       - "🔰 节点选择"
       - "🎯 全球直连"
       - "♻️ 自动选择"
-      - 👖5.23丨TG频道@stymei1丨1
-      - 👖5.23丨TG频道@stymei1丨2
-      - 👖5.23丨TG频道@stymei1丨3
-      - 👖5.23丨TG频道@stymei1丨4
-      - 👖5.23丨TG频道@stymei1丨5
-      - 👖5.23丨TG频道@stymei1丨6
-      - 👖5.23丨TG频道@stymei1丨7
-      - 👖5.23丨TG频道@stymei1丨8
-      - 👖5.23丨TG频道@stymei1丨9
-      - 👖5.23丨TG频道@stymei1丨10
-      - 👖5.23丨TG频道@stymei1丨11
-      - 👖5.23丨TG频道@stymei1丨12
-      - 👖5.23丨TG频道@stymei1丨13
-      - 👖5.23丨TG频道@stymei1丨14
-      - 👖5.23丨TG频道@stymei1丨15
-      - 👖5.23丨TG频道@stymei1丨16
-      - 👖5.23丨TG频道@stymei1丨17
-      - 👖5.23丨TG频道@stymei1丨18
-      - 👖5.23丨TG频道@stymei1丨19
-      - 👖5.23丨TG频道@stymei1丨20
-      - 👖5.23丨TG频道@stymei1丨21
-      - 👖5.23丨TG频道@stymei1丨22
-      - 👖5.23丨TG频道@stymei1丨23
-      - 👖5.23丨TG频道@stymei1丨24
-      - 👖5.23丨TG频道@stymei1丨25
-      - 👖5.23丨TG频道@stymei1丨26
-      - 👖5.23丨TG频道@stymei1丨27
-      - 👖5.23丨TG频道@stymei1丨28
-      - 👖5.23丨TG频道@stymei1丨29
-      - 👖5.23丨TG频道@stymei1丨30
-      - 👖5.23丨TG频道@stymei1丨31
-      - 👖5.23丨TG频道@stymei1丨32
+      - 🇺🇸5.27丨TG频道@stymei1丨1
+      - 🇺🇸5.27丨TG频道@stymei1丨2
+      - 🇺🇸5.27丨TG频道@stymei1丨3
+      - 🇺🇸5.27丨TG频道@stymei1丨4
+      - 🇺🇸5.27丨TG频道@stymei1丨5
+      - 🇺🇸5.27丨TG频道@stymei1丨6
+      - 🇺🇸5.27丨TG频道@stymei1丨7
+      - 🇺🇸5.27丨TG频道@stymei1丨8
+      - 🇺🇸5.27丨TG频道@stymei1丨9
+      - 🇺🇸5.27丨TG频道@stymei1丨10
+      - 🇺🇸5.27丨TG频道@stymei1丨11
+      - 🇺🇸5.27丨TG频道@stymei1丨12
+      - 🇺🇸5.27丨TG频道@stymei1丨13
+      - 🇺🇸5.27丨TG频道@stymei1丨14
+      - 🇺🇸5.27丨TG频道@stymei1丨15
+      - 🇺🇸5.27丨TG频道@stymei1丨16
+      - 🇺🇸5.27丨TG频道@stymei1丨17
+      - 🇺🇸5.27丨TG频道@stymei1丨18
+      - 🇺🇸5.27丨TG频道@stymei1丨19
+      - 🇺🇸5.27丨TG频道@stymei1丨20
+      - 🇺🇸5.27丨TG频道@stymei1丨21
+      - 🇺🇸5.27丨TG频道@stymei1丨22
+      - 🇺🇸5.27丨TG频道@stymei1丨23
+      - 🇺🇸5.27丨TG频道@stymei1丨24
+      - 🇺🇸5.27丨TG频道@stymei1丨25
+      - 🇺🇸5.27丨TG频道@stymei1丨26
+      - 🇺🇸5.27丨TG频道@stymei1丨27
+      - 🇺🇸5.27丨TG频道@stymei1丨28
+      - 🇺🇸5.27丨TG频道@stymei1丨29
+      - 🇺🇸5.27丨TG频道@stymei1丨30
+      - 🇺🇸5.27丨TG频道@stymei1丨31
+      - 🇺🇸5.27丨TG频道@stymei1丨32
     type: select
   - name: "🎯 全球直连"
     proxies:
@@ -847,38 +847,38 @@ proxy-groups:
       - "🔰 节点选择"
       - "🎯 全球直连"
       - "♻️ 自动选择"
-      - 👖5.23丨TG频道@stymei1丨1
-      - 👖5.23丨TG频道@stymei1丨2
-      - 👖5.23丨TG频道@stymei1丨3
-      - 👖5.23丨TG频道@stymei1丨4
-      - 👖5.23丨TG频道@stymei1丨5
-      - 👖5.23丨TG频道@stymei1丨6
-      - 👖5.23丨TG频道@stymei1丨7
-      - 👖5.23丨TG频道@stymei1丨8
-      - 👖5.23丨TG频道@stymei1丨9
-      - 👖5.23丨TG频道@stymei1丨10
-      - 👖5.23丨TG频道@stymei1丨11
-      - 👖5.23丨TG频道@stymei1丨12
-      - 👖5.23丨TG频道@stymei1丨13
-      - 👖5.23丨TG频道@stymei1丨14
-      - 👖5.23丨TG频道@stymei1丨15
-      - 👖5.23丨TG频道@stymei1丨16
-      - 👖5.23丨TG频道@stymei1丨17
-      - 👖5.23丨TG频道@stymei1丨18
-      - 👖5.23丨TG频道@stymei1丨19
-      - 👖5.23丨TG频道@stymei1丨20
-      - 👖5.23丨TG频道@stymei1丨21
-      - 👖5.23丨TG频道@stymei1丨22
-      - 👖5.23丨TG频道@stymei1丨23
-      - 👖5.23丨TG频道@stymei1丨24
-      - 👖5.23丨TG频道@stymei1丨25
-      - 👖5.23丨TG频道@stymei1丨26
-      - 👖5.23丨TG频道@stymei1丨27
-      - 👖5.23丨TG频道@stymei1丨28
-      - 👖5.23丨TG频道@stymei1丨29
-      - 👖5.23丨TG频道@stymei1丨30
-      - 👖5.23丨TG频道@stymei1丨31
-      - 👖5.23丨TG频道@stymei1丨32
+      - 🇺🇸5.27丨TG频道@stymei1丨1
+      - 🇺🇸5.27丨TG频道@stymei1丨2
+      - 🇺🇸5.27丨TG频道@stymei1丨3
+      - 🇺🇸5.27丨TG频道@stymei1丨4
+      - 🇺🇸5.27丨TG频道@stymei1丨5
+      - 🇺🇸5.27丨TG频道@stymei1丨6
+      - 🇺🇸5.27丨TG频道@stymei1丨7
+      - 🇺🇸5.27丨TG频道@stymei1丨8
+      - 🇺🇸5.27丨TG频道@stymei1丨9
+      - 🇺🇸5.27丨TG频道@stymei1丨10
+      - 🇺🇸5.27丨TG频道@stymei1丨11
+      - 🇺🇸5.27丨TG频道@stymei1丨12
+      - 🇺🇸5.27丨TG频道@stymei1丨13
+      - 🇺🇸5.27丨TG频道@stymei1丨14
+      - 🇺🇸5.27丨TG频道@stymei1丨15
+      - 🇺🇸5.27丨TG频道@stymei1丨16
+      - 🇺🇸5.27丨TG频道@stymei1丨17
+      - 🇺🇸5.27丨TG频道@stymei1丨18
+      - 🇺🇸5.27丨TG频道@stymei1丨19
+      - 🇺🇸5.27丨TG频道@stymei1丨20
+      - 🇺🇸5.27丨TG频道@stymei1丨21
+      - 🇺🇸5.27丨TG频道@stymei1丨22
+      - 🇺🇸5.27丨TG频道@stymei1丨23
+      - 🇺🇸5.27丨TG频道@stymei1丨24
+      - 🇺🇸5.27丨TG频道@stymei1丨25
+      - 🇺🇸5.27丨TG频道@stymei1丨26
+      - 🇺🇸5.27丨TG频道@stymei1丨27
+      - 🇺🇸5.27丨TG频道@stymei1丨28
+      - 🇺🇸5.27丨TG频道@stymei1丨29
+      - 🇺🇸5.27丨TG频道@stymei1丨30
+      - 🇺🇸5.27丨TG频道@stymei1丨31
+      - 🇺🇸5.27丨TG频道@stymei1丨32
     type: select
 rules:
   - "DOMAIN-SUFFIX,local,🎯 全球直连"
