@@ -10,6 +10,9 @@ https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
 🎬（免翻Clash订阅链接）
 https://upld.zone.id/uploads/q9iq9e5iq/clash.txt
 
+🎬（免翻Singbox订阅链接）
+https://clash2sfa.xmdhs.com/sub?sub=https%3A%2F%2Fupld.zone.id%2Fuploads%2Fq9iq9e5iq%2Fclash.txt
+
 🎮Clash订阅适配性很全，很多代理工具都能使用，比如：ios小火箭，Stash，Karing
 
 自动选择的如果体验不理想可以去手动选择节点，然后不要用原版的clash，因为作者删库了，可以用其他替代的clash代理工具即可
