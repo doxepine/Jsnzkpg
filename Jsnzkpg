@@ -18,23 +18,31 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 👖TG频道@stymei1, server: 91.193.58.229, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: cs.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: cs.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
-  - {name: 👖TG频道@stymei1丨1, server: 91.193.58.222, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: cs.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560", headers: {Host: cs.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
-  - {name: 👖TG频道@stymei1丨2, server: 91.193.58.172, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
-  - {name: 👖TG频道@stymei1丨3, server: 91.193.58.245, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
-  - {name: 👖TG频道@stymei1丨4, server: 91.193.58.64, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
-  - {name: 👖TG频道@stymei1丨5, server: 91.193.58.184, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
-  - {name: 👖TG频道@stymei1丨6, server: 91.193.58.79, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: true, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
-  - {name: 👖TG频道@stymei1丨7, server: 91.193.58.63, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
-  - {name: 👖TG频道@stymei1丨8, server: 91.193.58.4, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
-  - {name: 👖TG频道@stymei1丨9, server: 91.193.58.65, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: true, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
-  - {name: 👖用不了就更新订阅, server: 91.193.58.102, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: sk.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
+  - {name: 👖TG频道@stymei1丨1, server: 25.129.197.19, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: hk.laoyoutiao.link, network: ws, ws-opts: {path: "/telegram🇨🇳 @pgkj666 /?ed=2560", headers: {Host: hk.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
+  - {name: 👖TG频道@stymei1丨2, server: 91.193.58.247, port: 8880, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: false, skip-cert-verify: false, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true, alterId: 0, cipher: "", flow: ""}
+  - {name: 👖TG频道@stymei1丨3, server: ssca.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "null", obfs-param: "null", udp: true}
+  - {name: 👖TG频道@stymei1丨4, server: 91.193.58.79, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: true, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
+  - {name: 👖TG频道@stymei1丨5, server: 91.193.58.4, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
+  - {name: 👖TG频道@stymei1丨6, server: 91.193.58.63, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
+  - {name: 👖TG频道@stymei1丨7, server: 91.193.58.245, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
+  - {name: 👖TG频道@stymei1丨8, server: 91.193.58.108, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
+  - {name: 👖TG频道@stymei1丨9, server: 91.193.58.78, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: cs.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: cs.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
+  - {name: 👖TG频道@stymei1丨10, server: 91.193.58.184, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
+  - {name: 👖TG频道@stymei1丨11, server: 91.193.58.65, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: true, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
+  - {name: 👖TG频道@stymei1丨12, server: 91.193.58.64, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
+  - {name: 👖TG频道@stymei1丨13, server: 91.193.58.172, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}, udp: true, alterId: 0, cipher: "", flow: ""}
+  - {name: 👖TG频道@stymei1丨14, server: 213.163.200.215, port: 443, type: vless, uuid: 12d6eb6c-7fe7-4d13-9587-3bb9fda1bd28, tls: true, skip-cert-verify: true, client-fingerprint: chrome, servername: pasindu.vpnhub.news, network: ws, ws-opts: {path: /, headers: {Host: pasindu.vpnhub.news}}, udp: true, alterId: 0, cipher: "", flow: "", sni: pasindu.vpnhub.news}
+  - {name: 👖TG频道@stymei1丨15, server: 47.76.218.163, port: 443, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, skip-cert-verify: null, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "/Telegram @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true, alterId: 0, cipher: "", flow: "", sni: steep.skyfigure.top}
+  - {name: 👖TG频道@stymei1丨16, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, udp: true}
+  - {name: 👖TG频道@stymei1丨17, server: 103.137.62.194, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 937f6b6168b6, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wt8v1.kvote.cn, path: /oqhygtklyhwi, tls: true, mux: true, headers: {}, password: "", skip-cert-verify: false, version: 0}, udp: true}
+  - {name: 👖TG频道@stymei1丨18, server: 66.55.65.54, port: 8330, type: http, username: tqqlqvxj@mayorlogistic.com, password: 25d55ad283aa400af464c76d713c07ad, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 👖TG频道@stymei1丨19, server: 146.71.78.145, port: 4999, type: http, username: tqqlqvxj@mayorlogistic.com, password: 25d55ad283aa400af464c76d713c07ad, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 👖TG频道@stymei1丨20, server: 162.251.82.187, port: 80, type: vless, uuid: 8c9a892c-e9d5-4fff-bfdb-8ef9c50272b1, tls: false, skip-cert-verify: false, servername: my-mail-management-pr0-git-land-manager.clients-github.com, network: ws, ws-opts: {path: /58834/mail-template, headers: {Host: my-mail-management-pr0-git-land-manager.clients-github.com}}, udp: true, alterId: 0, cipher: "", flow: ""}
 proxy-groups:
   - name: ⭕ proxinode
     type: select
     proxies:
       - ♻️ automatic
-      - 👖TG频道@stymei1
       - 👖TG频道@stymei1丨1
       - 👖TG频道@stymei1丨2
       - 👖TG频道@stymei1丨3
@@ -44,11 +52,20 @@ proxy-groups:
       - 👖TG频道@stymei1丨7
       - 👖TG频道@stymei1丨8
       - 👖TG频道@stymei1丨9
-      - 👖用不了就更新订阅
+      - 👖TG频道@stymei1丨10
+      - 👖TG频道@stymei1丨11
+      - 👖TG频道@stymei1丨12
+      - 👖TG频道@stymei1丨13
+      - 👖TG频道@stymei1丨14
+      - 👖TG频道@stymei1丨15
+      - 👖TG频道@stymei1丨16
+      - 👖TG频道@stymei1丨17
+      - 👖TG频道@stymei1丨18
+      - 👖TG频道@stymei1丨19
+      - 👖TG频道@stymei1丨20
   - name: ♻️ automatic
     type: url-test
     proxies:
-      - 👖TG频道@stymei1
       - 👖TG频道@stymei1丨1
       - 👖TG频道@stymei1丨2
       - 👖TG频道@stymei1丨3
@@ -58,7 +75,17 @@ proxy-groups:
       - 👖TG频道@stymei1丨7
       - 👖TG频道@stymei1丨8
       - 👖TG频道@stymei1丨9
-      - 👖用不了就更新订阅
+      - 👖TG频道@stymei1丨10
+      - 👖TG频道@stymei1丨11
+      - 👖TG频道@stymei1丨12
+      - 👖TG频道@stymei1丨13
+      - 👖TG频道@stymei1丨14
+      - 👖TG频道@stymei1丨15
+      - 👖TG频道@stymei1丨16
+      - 👖TG频道@stymei1丨17
+      - 👖TG频道@stymei1丨18
+      - 👖TG频道@stymei1丨19
+      - 👖TG频道@stymei1丨20
     url: https://www.google.com/favicon.ico
     interval: 300
 rules:
