@@ -19,8 +19,3 @@ https://upld.zone.id/uploads/q9iq9e5iq/jsnzkpg.txt
 📌推荐的订阅转换网站
 https://sub.cmliussss.com
 
-🎮Clash订阅适配性很全，很多代理工具都能使用，比如：ios小火箭，Stash，Karing
-
-自动选择的如果体验不理想可以去手动选择节点，然后不要用原版的clash，因为作者删库了，可以用其他替代的clash代理工具即可
-
-
