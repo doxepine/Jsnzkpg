@@ -3,89 +3,133 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸👖TG频道@stymei1丨1, server: 5.10.214.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨2, server: 5.10.215.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨3, server: 5.10.244.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨4, server: 5.10.245.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨5, server: 5.10.246.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨6, server: 5.10.247.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨7, server: 5.175.141.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨8, server: 5.182.34.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨9, server: 5.182.84.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨10, server: 5.182.85.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨11, server: 14.102.228.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨12, server: 14.102.229.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨13, server: 23.227.38.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨14, server: 23.227.39.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨15, server: 23.227.60.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨16, server: 25.25.25.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨17, server: 25.26.27.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨18, server: 25.129.196.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨19, server: 25.129.197.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨20, server: 25.129.198.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨21, server: 25.129.199.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨22, server: 27.50.48.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
-  - {name: 🇺🇸👖TG频道@stymei1丨23, server: 27.50.49.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, servername: Telegram-channel-WangCai2, skip-cert-verify: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: bitget1.asdasd.click}}, alterId: 0, cipher: "", flow: ""}
+  - {name: "[SS] TG频道@stymei1", server: ti3hyra4.slashdevslashnetslashtun.net, port: 15008, type: ss, cipher: aes-256-gcm, password: 46JF0V0KLENHKC06}
+  - {name: "[SS] TG频道@stymei1 2", server: qh62onjn.slashdevslashnetslashtun.net, port: 15011, type: ss, cipher: aes-256-gcm, password: 6H42J3T2RI4TZOB2}
+  - {name: "[SS] TG频道@stymei1 3", server: ti3hyra4.slashdevslashnetslashtun.net, port: 15013, type: ss, cipher: aes-256-gcm, password: 28JS32FA9QUZB38Z}
+  - {name: "[SS] TG频道@stymei1 4", server: ti3hyra4.slashdevslashnetslashtun.net, port: 15016, type: ss, cipher: aes-256-gcm, password: ME4CRKDLJUJYJAWH}
+  - {name: "[SS] TG频道@stymei1 5", server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15009, type: ss, cipher: aes-256-gcm, password: LFZ4KEMFJY6BNFNI}
+  - {name: "[SSR] TG频道@stymei1 3", server: pro-twa.ginkgolink.me, port: 31501, type: ssr, cipher: aes-256-cfb, password: hrkycyiepu, protocol: auth_aes128_sha1, obfs: plain, protocol-param: '502:DzrH8M', obfs-param: 0f2a3502.ikea.com}
+  - {name: "[VMess] TG频道@stymei1", server: 120.232.153.40, port: 52152, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "[SS] TG频道@stymei1 6", server: 183.240.187.198, port: 34664, type: ss, cipher: 2022-blake3-aes-128-gcm, password: 12xGRmcEy3TVETzE47MreA==}
+  - {name: "[SS] TG频道@stymei1 7", server: ti3hyra4.slashdevslashnetslashtun.net, port: 16004, type: ss, cipher: aes-256-gcm, password: XTA3GTQ5IOYO702N}
+  - {name: "[SSR] TG频道@stymei1 5", server: cnamepc02-d2zdrzg6ilecsynk.bestdosas.com, port: 9041, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '99935:vb3TTF', obfs-param: dfde699935.microsoft.com}
+  - {name: "[SSR] TG频道@stymei1 6", server: cname04b-srmkx6ffsizssmjw.bestruisleipa.com, port: 9061, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '99935:vb3TTF', obfs-param: dfde699935.microsoft.com}
+  - {name: "[SS] TG频道@stymei1 10", server: 8tv68qhq.slashdevslashnetslashtun.net, port: 18014, type: ss, cipher: aes-256-gcm, password: QL2U5ZAIR32LJIG3}
+  - {name: "[VMess] TG频道@stymei1 2", server: 10236.wma.113002.xyz, port: 10236, type: vmess, uuid: 30da58a3-7f64-365c-9899-797b485b19a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: "%7B%22Host%22:%22www.bing.com%22%7D"}}}
+  - {name: "[SSR] TG频道@stymei1 7", server: cnamelm-dwzksl7kzye3rdby.bestbrocciu.com, port: 9031, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '99935:vb3TTF', obfs-param: dfde699935.microsoft.com}
+  - {name: "[SSR] TG频道@stymei1 8", server: cnamelm-dwzksl7kzye3rdby.bestbrocciu.com, port: 9080, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '99935:vb3TTF', obfs-param: dfde699935.microsoft.com}
+  - {name: "[SSR] TG频道@stymei1 9", server: cname04b-srmkx6ffsizssmjw.bestruisleipa.com, port: 9011, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: '99935:vb3TTF', obfs-param: dfde699935.microsoft.com}
+  - {name: "[SS] TG频道@stymei1 12", server: hzhz2.sssyun.xyz, port: 44014, type: ss, cipher: 2022-blake3-aes-128-gcm, password: 'MDhhMTdjZDI0MjI2ZWRlNg==:ZDJjZmMxNDgtZDJjNi00MA=='}
+  - {name: "[SSR] TG频道@stymei1 10", server: y66.ffd.mt5888.top, port: 41114, type: ssr, cipher: dummy, password: mantouyun888, protocol: auth_chain_a, obfs: plain, protocol-param: '8198:CsJt8BBrKFOSrjv2', obfs-param: cbcdc8198.microsoft.com}
+  - {name: "[SS] TG频道@stymei1 13", server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16006, type: ss, cipher: aes-256-gcm, password: UCZDKMPNQNU0CUD4}
+  - {name: "[SS] TG频道@stymei1 14", server: ti3hyra4.slashdevslashnetslashtun.net, port: 18008, type: ss, cipher: aes-256-gcm, password: KAB2P3693PNXGL0D}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
+      - 🔯 故障转移
+      - 🔮 负载均衡
       - DIRECT
-      - 🇺🇸👖TG频道@stymei1丨1
-      - 🇺🇸👖TG频道@stymei1丨2
-      - 🇺🇸👖TG频道@stymei1丨3
-      - 🇺🇸👖TG频道@stymei1丨4
-      - 🇺🇸👖TG频道@stymei1丨5
-      - 🇺🇸👖TG频道@stymei1丨6
-      - 🇺🇸👖TG频道@stymei1丨7
-      - 🇺🇸👖TG频道@stymei1丨8
-      - 🇺🇸👖TG频道@stymei1丨9
-      - 🇺🇸👖TG频道@stymei1丨10
-      - 🇺🇸👖TG频道@stymei1丨11
-      - 🇺🇸👖TG频道@stymei1丨12
-      - 🇺🇸👖TG频道@stymei1丨13
-      - 🇺🇸👖TG频道@stymei1丨14
-      - 🇺🇸👖TG频道@stymei1丨15
-      - 🇺🇸👖TG频道@stymei1丨16
-      - 🇺🇸👖TG频道@stymei1丨17
-      - 🇺🇸👖TG频道@stymei1丨18
-      - 🇺🇸👖TG频道@stymei1丨19
-      - 🇺🇸👖TG频道@stymei1丨20
-      - 🇺🇸👖TG频道@stymei1丨21
-      - 🇺🇸👖TG频道@stymei1丨22
-      - 🇺🇸👖TG频道@stymei1丨23
+      - "[SS] TG频道@stymei1"
+      - "[SS] TG频道@stymei1 2"
+      - "[SS] TG频道@stymei1 3"
+      - "[SS] TG频道@stymei1 4"
+      - "[SS] TG频道@stymei1 5"
+      - "[SSR] TG频道@stymei1 3"
+      - "[VMess] TG频道@stymei1"
+      - "[SS] TG频道@stymei1 6"
+      - "[SS] TG频道@stymei1 7"
+      - "[SSR] TG频道@stymei1 5"
+      - "[SSR] TG频道@stymei1 6"
+      - "[SS] TG频道@stymei1 10"
+      - "[VMess] TG频道@stymei1 2"
+      - "[SSR] TG频道@stymei1 7"
+      - "[SSR] TG频道@stymei1 8"
+      - "[SSR] TG频道@stymei1 9"
+      - "[SS] TG频道@stymei1 12"
+      - "[SSR] TG频道@stymei1 10"
+      - "[SS] TG频道@stymei1 13"
+      - "[SS] TG频道@stymei1 14"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸👖TG频道@stymei1丨1
-      - 🇺🇸👖TG频道@stymei1丨2
-      - 🇺🇸👖TG频道@stymei1丨3
-      - 🇺🇸👖TG频道@stymei1丨4
-      - 🇺🇸👖TG频道@stymei1丨5
-      - 🇺🇸👖TG频道@stymei1丨6
-      - 🇺🇸👖TG频道@stymei1丨7
-      - 🇺🇸👖TG频道@stymei1丨8
-      - 🇺🇸👖TG频道@stymei1丨9
-      - 🇺🇸👖TG频道@stymei1丨10
-      - 🇺🇸👖TG频道@stymei1丨11
-      - 🇺🇸👖TG频道@stymei1丨12
-      - 🇺🇸👖TG频道@stymei1丨13
-      - 🇺🇸👖TG频道@stymei1丨14
-      - 🇺🇸👖TG频道@stymei1丨15
-      - 🇺🇸👖TG频道@stymei1丨16
-      - 🇺🇸👖TG频道@stymei1丨17
-      - 🇺🇸👖TG频道@stymei1丨18
-      - 🇺🇸👖TG频道@stymei1丨19
-      - 🇺🇸👖TG频道@stymei1丨20
-      - 🇺🇸👖TG频道@stymei1丨21
-      - 🇺🇸👖TG频道@stymei1丨22
-      - 🇺🇸👖TG频道@stymei1丨23
+      - "[SS] TG频道@stymei1"
+      - "[SS] TG频道@stymei1 2"
+      - "[SS] TG频道@stymei1 3"
+      - "[SS] TG频道@stymei1 4"
+      - "[SS] TG频道@stymei1 5"
+      - "[SSR] TG频道@stymei1 3"
+      - "[VMess] TG频道@stymei1"
+      - "[SS] TG频道@stymei1 6"
+      - "[SS] TG频道@stymei1 7"
+      - "[SSR] TG频道@stymei1 5"
+      - "[SSR] TG频道@stymei1 6"
+      - "[SS] TG频道@stymei1 10"
+      - "[VMess] TG频道@stymei1 2"
+      - "[SSR] TG频道@stymei1 7"
+      - "[SSR] TG频道@stymei1 8"
+      - "[SSR] TG频道@stymei1 9"
+      - "[SS] TG频道@stymei1 12"
+      - "[SSR] TG频道@stymei1 10"
+      - "[SS] TG频道@stymei1 13"
+      - "[SS] TG频道@stymei1 14"
+  - name: 🔯 故障转移
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+    proxies:
+      - "[SS] TG频道@stymei1"
+      - "[SS] TG频道@stymei1 2"
+      - "[SS] TG频道@stymei1 3"
+      - "[SS] TG频道@stymei1 4"
+      - "[SS] TG频道@stymei1 5"
+      - "[SSR] TG频道@stymei1 3"
+      - "[VMess] TG频道@stymei1"
+      - "[SS] TG频道@stymei1 6"
+      - "[SS] TG频道@stymei1 7"
+      - "[SSR] TG频道@stymei1 5"
+      - "[SSR] TG频道@stymei1 6"
+      - "[SS] TG频道@stymei1 10"
+      - "[VMess] TG频道@stymei1 2"
+      - "[SSR] TG频道@stymei1 7"
+      - "[SSR] TG频道@stymei1 8"
+      - "[SSR] TG频道@stymei1 9"
+      - "[SS] TG频道@stymei1 12"
+      - "[SSR] TG频道@stymei1 10"
+      - "[SS] TG频道@stymei1 13"
+      - "[SS] TG频道@stymei1 14"
+  - name: 🔮 负载均衡
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+    proxies:
+      - "[SS] TG频道@stymei1"
+      - "[SS] TG频道@stymei1 2"
+      - "[SS] TG频道@stymei1 3"
+      - "[SS] TG频道@stymei1 4"
+      - "[SS] TG频道@stymei1 5"
+      - "[SSR] TG频道@stymei1 3"
+      - "[VMess] TG频道@stymei1"
+      - "[SS] TG频道@stymei1 6"
+      - "[SS] TG频道@stymei1 7"
+      - "[SSR] TG频道@stymei1 5"
+      - "[SSR] TG频道@stymei1 6"
+      - "[SS] TG频道@stymei1 10"
+      - "[VMess] TG频道@stymei1 2"
+      - "[SSR] TG频道@stymei1 7"
+      - "[SSR] TG频道@stymei1 8"
+      - "[SSR] TG频道@stymei1 9"
+      - "[SS] TG频道@stymei1 12"
+      - "[SSR] TG频道@stymei1 10"
+      - "[SS] TG频道@stymei1 13"
+      - "[SS] TG频道@stymei1 14"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -103,29 +147,28 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸👖TG频道@stymei1丨1
-      - 🇺🇸👖TG频道@stymei1丨2
-      - 🇺🇸👖TG频道@stymei1丨3
-      - 🇺🇸👖TG频道@stymei1丨4
-      - 🇺🇸👖TG频道@stymei1丨5
-      - 🇺🇸👖TG频道@stymei1丨6
-      - 🇺🇸👖TG频道@stymei1丨7
-      - 🇺🇸👖TG频道@stymei1丨8
-      - 🇺🇸👖TG频道@stymei1丨9
-      - 🇺🇸👖TG频道@stymei1丨10
-      - 🇺🇸👖TG频道@stymei1丨11
-      - 🇺🇸👖TG频道@stymei1丨12
-      - 🇺🇸👖TG频道@stymei1丨13
-      - 🇺🇸👖TG频道@stymei1丨14
-      - 🇺🇸👖TG频道@stymei1丨15
-      - 🇺🇸👖TG频道@stymei1丨16
-      - 🇺🇸👖TG频道@stymei1丨17
-      - 🇺🇸👖TG频道@stymei1丨18
-      - 🇺🇸👖TG频道@stymei1丨19
-      - 🇺🇸👖TG频道@stymei1丨20
-      - 🇺🇸👖TG频道@stymei1丨21
-      - 🇺🇸👖TG频道@stymei1丨22
-      - 🇺🇸👖TG频道@stymei1丨23
+      - 🔯 故障转移
+      - 🔮 负载均衡
+      - "[SS] TG频道@stymei1"
+      - "[SS] TG频道@stymei1 2"
+      - "[SS] TG频道@stymei1 3"
+      - "[SS] TG频道@stymei1 4"
+      - "[SS] TG频道@stymei1 5"
+      - "[SSR] TG频道@stymei1 3"
+      - "[VMess] TG频道@stymei1"
+      - "[SS] TG频道@stymei1 6"
+      - "[SS] TG频道@stymei1 7"
+      - "[SSR] TG频道@stymei1 5"
+      - "[SSR] TG频道@stymei1 6"
+      - "[SS] TG频道@stymei1 10"
+      - "[VMess] TG频道@stymei1 2"
+      - "[SSR] TG频道@stymei1 7"
+      - "[SSR] TG频道@stymei1 8"
+      - "[SSR] TG频道@stymei1 9"
+      - "[SS] TG频道@stymei1 12"
+      - "[SSR] TG频道@stymei1 10"
+      - "[SS] TG频道@stymei1 13"
+      - "[SS] TG频道@stymei1 14"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
