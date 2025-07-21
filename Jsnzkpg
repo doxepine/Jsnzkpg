@@ -5,7 +5,151 @@ mode: Rule
 log-level: info
 external-controller: 9090
 proxies:
-  - name: 🇭🇰👖TG频道stymei1丨1
+  - name: 🇺🇸👖TG频道@stymei1丨1
+    type: vless
+    server: 91.193.58.52
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram@WangCai2/?ed=2560
+      headers:
+        Host: kjgx.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨2
+    type: vless
+    server: 185.148.105.63
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+      headers:
+        Host: jp.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨3
+    type: vless
+    server: 156.238.18.106
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560fp=chrome
+      headers:
+        Host: yd.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨4
+    type: vless
+    server: 88.216.69.63
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram
+      headers:
+        Host: jp.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨5
+    type: vless
+    server: 199.34.229.29
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hk.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨6
+    type: vless
+    server: 92.243.74.29
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /TelegramU0001F1E8U0001F1F3
+      headers:
+        Host: hk.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨7
+    type: vless
+    server: 91.193.58.172
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: us.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨8
+    type: vless
+    server: 91.193.58.100
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram@WangCai2/?ed=2560
+      headers:
+        Host: kjgx.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨9
     type: vless
     server: 185.251.80.156
     port: 8880
@@ -23,9 +167,45 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨2
+  - name: 🇺🇸👖TG频道@stymei1丨10
     type: vless
-    server: 91.193.58.85
+    server: 94.247.142.188
+    port: 8880
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+      headers:
+        Host: ip.langmanshanxi.top
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨11
+    type: vless
+    server: 185.16.110.63
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳
+      headers:
+        Host: sg.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨12
+    type: vless
+    server: 91.193.58.66
     port: 8880
     uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
     encryption: none
@@ -41,9 +221,9 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨3
+  - name: 🇺🇸👖TG频道@stymei1丨13
     type: vless
-    server: 45.153.7.63
+    server: 91.193.58.162
     port: 8880
     uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
     encryption: none
@@ -53,15 +233,15 @@ proxies:
     tls: false
     network: ws
     ws-opts:
-      path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
+      path: /TelegramğŸ‡¨ğŸ‡³
       headers:
-        Host: jp.laoyoutiao.link
+        Host: sk.laoyoutiao.link
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨4
+  - name: 🇺🇸👖TG频道@stymei1丨14
     type: vless
-    server: 216.24.57.20
+    server: 91.193.58.127
     port: 8880
     uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
     encryption: none
@@ -71,108 +251,157 @@ proxies:
     tls: false
     network: ws
     ws-opts:
-      path: /Telegram@WangCai2
+      path: /Telegram🇨🇳 @MxlShare @WangCai2
       headers:
-        Host: us.laoyoutiao.link
+        Host: sk.laoyoutiao.link
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨5
-    type: vless
-    server: 168.100.6.29
-    port: 8880
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    encryption: none
+  - name: 🇺🇸👖TG频道@stymei1丨15
+    type: trojan
+    server: 92.243.74.180
+    port: 8443
+    password: Aimer
     udp: true
-    skip-cert-verify: false
     tfo: false
-    tls: false
-    network: ws
-    ws-opts:
-      path: /Telegram
-      headers:
-        Host: hk.laoyoutiao.link
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨6
-    type: vless
-    server: 45.159.219.3
-    port: 8880
-    uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-    encryption: none
-    udp: true
-    skip-cert-verify: false
-    tfo: false
-    tls: false
-    network: ws
-    ws-opts:
-      path: /TelegramU0001F1E8U0001F1F3
-      headers:
-        Host: bitget1.asdasd.click
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨7
-    type: vless
-    server: 167.68.5.29
-    port: 8880
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    encryption: none
-    udp: true
-    skip-cert-verify: false
-    tfo: false
-    tls: false
-    network: ws
-    ws-opts:
-      path: /TelegramU0001F1E8U0001F1F3
-      headers:
-        Host: hk.laoyoutiao.link
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨8
-    type: vless
-    server: 199.34.229.213
-    port: 8880
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    encryption: none
-    udp: true
-    skip-cert-verify: false
-    tfo: false
-    tls: false
+    tls: true
+    sni: tyep.esslh.filegear-sg.me
+    skip-cert-verify: true
     network: ws
     ws-opts:
       path: /
       headers:
+        Host: tyep.esslh.filegear-sg.me
+    servername: tyep.esslh.filegear-sg.me
+  - name: 🇺🇸👖TG频道@stymei1丨16
+    type: vless
+    server: 176.124.223.213
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
         Host: jp.laoyoutiao.link
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨9
+  - name: 🇺🇸👖TG频道@stymei1丨17
     type: vless
-    server: wilson.ns.cloudflare.com
-    port: 443
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    server: 92.53.190.63
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
     encryption: none
     udp: true
-    skip-cert-verify: true
+    skip-cert-verify: false
     tfo: false
-    tls: true
-    sni: ns.ylka.dpdns.org
-    servername: ns.ylka.dpdns.org
-    client-fingerprint: randomized
+    tls: false
     network: ws
     ws-opts:
-      path: /?ed=2560&PROT_TYPE=vless
+      path: /TelegramU0001F1E8U0001F1F3 @WangCai2
       headers:
-        Host: ns.ylka.dpdns.org
+        Host: jp.laoyoutiao.link
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨10
+  - name: 🇺🇸👖TG频道@stymei1丨18
     type: vless
-    server: 104.129.165.156
+    server: 45.159.218.188
+    port: 8880
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+      headers:
+        Host: ip.langmanshanxi.top
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨19
+    type: vless
+    server: 185.148.106.188
+    port: 8880
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+      headers:
+        Host: ip.langmanshanxi.top
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨20
+    type: vless
+    server: 185.148.104.168
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram@WangCai2/?ed=2560
+      headers:
+        Host: kjgx.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨21
+    type: vless
+    server: 205.233.181.213
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: jp.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨22
+    type: vless
+    server: 199.34.230.29
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+      headers:
+        Host: hk.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨23
+    type: vless
+    server: 159.112.235.63
     port: 8880
     uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
     encryption: none
@@ -184,55 +413,13 @@ proxies:
     ws-opts:
       path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
       headers:
-        Host: kjgx.laoyoutiao.link
+        Host: jp.laoyoutiao.link
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨11
+  - name: 🇺🇸👖TG频道@stymei1丨24
     type: vless
-    server: 162.159.129.67
-    port: 8443
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    sni: ns.ylka.dpdns.org
-    servername: ns.ylka.dpdns.org
-    client-fingerprint: randomized
-    network: ws
-    ws-opts:
-      path: /?ed=2560&PROT_TYPE=vless
-      headers:
-        Host: ns.ylka.dpdns.org
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨12
-    type: vless
-    server: wilson.ns.cloudflare.com
-    port: 443
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    sni: nc.ylka.dpdns.org
-    servername: nc.ylka.dpdns.org
-    client-fingerprint: randomized
-    network: ws
-    ws-opts:
-      path: /?ed=2560&PROT_TYPE=vless
-      headers:
-        Host: nc.ylka.dpdns.org
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨13
-    type: vless
-    server: 161.145.150.63
+    server: 216.205.52.213
     port: 8880
     uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
     encryption: none
@@ -242,17 +429,17 @@ proxies:
     tls: false
     network: ws
     ws-opts:
-      path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+      path: /
       headers:
         Host: jp.laoyoutiao.link
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨14
+  - name: 🇺🇸👖TG频道@stymei1丨25
     type: vless
-    server: 192.65.217.29
+    server: 45.85.119.177
     port: 8880
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
     encryption: none
     udp: true
     skip-cert-verify: false
@@ -260,17 +447,17 @@ proxies:
     tls: false
     network: ws
     ws-opts:
-      path: /
+      path: /Telegram🇨🇳 @WangCai2 /?ed=2560
       headers:
-        Host: hk.laoyoutiao.link
+        Host: ip.langmanshanxi.top
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨15
+  - name: 🇺🇸👖TG频道@stymei1丨26
     type: vless
-    server: 91.193.58.25
+    server: 192.200.160.177
     port: 8880
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
     encryption: none
     udp: true
     skip-cert-verify: false
@@ -278,58 +465,25 @@ proxies:
     tls: false
     network: ws
     ws-opts:
-      path: /Telegram@WangCai2/?ed=2560
+      path: /Telegram
       headers:
-        Host: kjgx.laoyoutiao.link
+        Host: ip.langmanshanxi.top
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨16
-    type: vless
-    server: ipw.gfdv54cvghhgfhgj-njhgj64.info
-    port: 443
-    uuid: 0fe0a176-29b9-49dc-b186-dd5b4b72d1a6
-    encryption: none
-    udp: true
+  - name: 🇺🇸👖TG频道@stymei1丨27
+    type: hysteria2
+    server: 209.141.47.127
+    password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
     skip-cert-verify: true
-    tfo: false
-    tls: true
-    sni: 638885878652628304.stockholm-prx-dnraaao.info
-    servername: 638885878652628304.stockholm-prx-dnraaao.info
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /ryvhqfws
-      headers:
-        Host: 638885878652628304.stockholm-prx-dnraaao.info
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨17
+    port: 3234
+    auth: ""
+    fast-open: false
+  - name: 🇺🇸👖TG频道@stymei1丨28
     type: vless
-    server: 160.79.104.11
-    port: 443
-    uuid: 55520747-311e-4015-83ce-be46e2060ce3
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    sni: cv.bgm2024.dpdns.org
-    servername: cv.bgm2024.dpdns.org
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: cv.bgm2024.dpdns.org
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨18
-    type: vless
-    server: 91.193.58.168
+    server: 185.207.199.186
     port: 8880
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
     encryption: none
     udp: true
     skip-cert-verify: false
@@ -337,221 +491,17 @@ proxies:
     tls: false
     network: ws
     ws-opts:
-      path: /Telegram@WangCai2/?ed=2560
+      path: /Telegram🇨🇳 @WangCai2 /?ed=2560
       headers:
-        Host: kjgx.laoyoutiao.link
+        Host: ip.langmanshanxi.top
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨19
-    type: vless
-    server: 91.193.58.191
-    port: 8880
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    encryption: none
-    udp: true
-    skip-cert-verify: false
-    tfo: false
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us.laoyoutiao.link
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨20
-    type: vless
-    server: 172.66.47.156
-    port: 443
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    sni: wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET
-    servername: wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨21
-    type: vless
-    server: 45.80.111.20
-    port: 8880
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    encryption: none
-    udp: true
-    skip-cert-verify: false
-    tfo: false
-    tls: false
-    network: ws
-    ws-opts:
-      path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-      headers:
-        Host: us.laoyoutiao.link
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨22
-    type: vless
-    server: 1750158741.tencentapp.cn
-    port: 443
-    uuid: b6af70db-6701-44c6-a660-0beeb16b26b7
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    sni: us2.loopycloudcfjiasucdn.pp.ua
-    servername: us2.loopycloudcfjiasucdn.pp.ua
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us2.loopycloudcfjiasucdn.pp.ua
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨23
-    type: vless
-    server: 1750158741.tencentapp.cn
-    port: 443
-    uuid: c51847fc-b88c-4ba2-80a6-3d0f3ca97453
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    sni: us2.loopycloudcfjiasucdn.pp.ua
-    servername: us2.loopycloudcfjiasucdn.pp.ua
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us2.loopycloudcfjiasucdn.pp.ua
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨24
-    type: vless
-    server: 1750158741.tencentapp.cn
-    port: 443
-    uuid: 9c63f10e-9d33-4e59-a18f-7339977de429
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    sni: us2.loopycloudcfjiasucdn.pp.ua
-    servername: us2.loopycloudcfjiasucdn.pp.ua
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us2.loopycloudcfjiasucdn.pp.ua
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨25
-    type: vless
-    server: 103.116.7.29
-    port: 8880
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    encryption: none
-    udp: true
-    skip-cert-verify: false
-    tfo: false
-    tls: false
-    network: ws
-    ws-opts:
-      path: /TelegramU0001F1E8U0001F1F3
-      headers:
-        Host: hk.laoyoutiao.link
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨26
-    type: vless
-    server: wouldyoumarriemepleasefuckthesystem4.siasia.ir
-    port: 2053
-    uuid: ce62ee5e-e316-46af-b967-4588a5e8e66c
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    sni: hheydudethisworldisshet.siasia.ir
-    servername: hheydudethisworldisshet.siasia.ir
-    client-fingerprint: randomized
-    alpn:
-      - h3
-      - h2
-    network: ws
-    ws-opts:
-      path: /apiii
-      headers:
-        Host: hheydudethisworldisshet.siasia.ir
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨27
+  - name: 🇺🇸👖TG频道@stymei1丨29
     type: vless
     server: 104.18.26.90
-    port: 443
-    uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    sni: barayeiranmahsang.ghormehsabzi.dpdns.org
-    servername: barayeiranmahsang.ghormehsabzi.dpdns.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: barayeiranmahsang.ghormehsabzi.dpdns.org
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨28
-    type: ss
-    server: 193.29.139.235
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-  - name: 🇭🇰👖TG频道stymei1丨29
-    type: trojan
-    server: 27.50.48.126
-    port: 2083
-    password: Aimer
-    udp: true
-    tfo: false
-    tls: true
-    sni: tyep.esslh.filegear-sg.me
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers: {}
-    servername: tyep.esslh.filegear-sg.me
-  - name: 🇭🇰👖TG频道stymei1丨30
-    type: vless
-    server: 92.53.189.251
-    port: 8880
-    uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+    port: 80
+    uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
     encryption: none
     udp: true
     skip-cert-verify: false
@@ -559,72 +509,15 @@ proxies:
     tls: false
     network: ws
     ws-opts:
-      path: /Telegram @WangCai2 /?ed=2560
-      headers:
-        Host: cf.d3z.net
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨31
-    type: vless
-    server: www.visa.com.sg
-    port: 2087
-    uuid: 90c7ad5e-cd15-4314-b39b-aeabd397d592
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    sni: vl.hongkong6.qzz.io
-    servername: vl.hongkong6.qzz.io
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
       path: /?ed=2560
       headers:
-        Host: vl.hongkong6.qzz.io
+        Host: blaze-can-118.blazecanada.site
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨32
+  - name: 🇺🇸👖TG频道@stymei1丨30
     type: vless
-    server: 199.34.230.213
-    port: 8880
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    encryption: none
-    udp: true
-    skip-cert-verify: false
-    tfo: false
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: jp.laoyoutiao.link
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨33
-    type: vless
-    server: 91.193.58.14
-    port: 8880
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    encryption: none
-    udp: true
-    skip-cert-verify: false
-    tfo: false
-    tls: false
-    network: ws
-    ws-opts:
-      path: /Telegram🇨🇳@WangCai2/?ed=2048
-      headers:
-        Host: tw.laoyoutiao.link
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨34
-    type: vless
-    server: 135.84.76.63
+    server: 185.148.106.63
     port: 8880
     uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
     encryption: none
@@ -640,50 +533,11 @@ proxies:
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨35
+  - name: 🇺🇸👖TG频道@stymei1丨31
     type: vless
-    server: www.visasoutheasteurope.com
-    port: 443
-    uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    sni: rAyAn-12.LeIlA.DpDnS.OrG
-    servername: rAyAn-12.LeIlA.DpDnS.OrG
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /@Rayan_Config
-      headers:
-        Host: rayan-12.leila.dpdns.org
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨36
-    type: vmess
-    server: csgo.com
+    server: 25.129.196.156
     port: 8880
-    uuid: 922b45c8-1ec8-4a65-9b32-137716a0e55f
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    aead: true
-    tfo: false
-    ws-opts:
-      path: /profile/telegram@ssrsub
-      headers:
-        Host: cdn-node-oss-99.paofu.de
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨37
-    type: vless
-    server: 104.18.26.90
-    port: 80
-    uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
     encryption: none
     udp: true
     skip-cert-verify: false
@@ -691,38 +545,17 @@ proxies:
     tls: false
     network: ws
     ws-opts:
-      path: /?ed=2560/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI
+      path: /Telegram🇨🇳 @WangCai2 /?ed=2560
       headers:
-        Host: blaze-can-118.blazecanada.site
+        Host: kjgx.laoyoutiao.link
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨38
+  - name: 🇺🇸👖TG频道@stymei1丨32
     type: vless
-    server: jquery.com
-    port: 443
-    uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    sni: rAyAn-uS-1.MeDiCaLhIsToRy.iR
-    servername: rAyAn-uS-1.MeDiCaLhIsToRy.iR
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /@Rayan_Config
-      headers:
-        Host: rAyAn-uS-1.MeDiCaLhIsToRy.iR
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨39
-    type: vless
-    server: 45.159.218.17
+    server: light-presence.oneeat.co
     port: 80
-    uuid: 64d39d67-62dc-470c-a592-1d5a6ee87cb5
+    uuid: 7e74ff43-3a90-48b3-8372-7d92a045c2d4
     encryption: none
     udp: true
     skip-cert-verify: false
@@ -732,15 +565,15 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: worker-flat-disk-100d.b9563f65aef681.workers.dev
+        Host: light-presence.oneeat.co
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 🇭🇰👖TG频道stymei1丨40
+  - name: 🇺🇸👖TG频道@stymei1丨33
     type: vless
-    server: 162.159.153.2
-    port: 2095
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    server: 141.11.203.213
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
     encryption: none
     udp: true
     skip-cert-verify: false
@@ -750,7 +583,205 @@ proxies:
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: fuckingxijinping.xijinpingbigsb.workers.dev
+        Host: jp.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨34
+    type: vless
+    server: 141.193.213.213
+    port: 80
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳 @MxlShare+@WangCai2+/?ed=2560
+      headers:
+        Host: us.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨35
+    type: vless
+    server: 5.10.215.63
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+      headers:
+        Host: jp.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨36
+    type: vless
+    server: 141.193.213.206
+    port: 80
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳 @MxlShare+@WangCai2+/?ed=2560
+      headers:
+        Host: us.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨37
+    type: vless
+    server: 45.67.215.177
+    port: 8880
+    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram@WangCai2/?ed=2560
+      headers:
+        Host: ip.langmanshanxi.top
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨38
+    type: vless
+    server: 141.193.27.168
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram@WangCai2/?ed=2560
+      headers:
+        Host: kjgx.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨39
+    type: vless
+    server: 91.193.58.230
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram@WangCai2/?ed=2560
+      headers:
+        Host: kjgx.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨40
+    type: vless
+    server: 91.193.58.57
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram@WangCai2/?ed=2560
+      headers:
+        Host: kjgx.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨41
+    type: vless
+    server: 91.193.58.96
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram@WangCai2/?ed=2560
+      headers:
+        Host: kjgx.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨42
+    type: vless
+    server: 91.193.58.7
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram@WangCai2/?ed=2560
+      headers:
+        Host: kjgx.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨43
+    type: vless
+    server: 91.193.58.86
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram@WangCai2/?ed=2560
+      headers:
+        Host: kjgx.laoyoutiao.link
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇺🇸👖TG频道@stymei1丨44
+    type: vless
+    server: 91.193.58.167
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: false
+    network: ws
+    ws-opts:
+      path: /Telegram@WangCai2/?ed=2560
+      headers:
+        Host: kjgx.laoyoutiao.link
     alterId: 0
     cipher: ""
     flow: ""
@@ -760,495 +791,539 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰👖TG频道stymei1丨1
-      - 🇭🇰👖TG频道stymei1丨2
-      - 🇭🇰👖TG频道stymei1丨3
-      - 🇭🇰👖TG频道stymei1丨4
-      - 🇭🇰👖TG频道stymei1丨5
-      - 🇭🇰👖TG频道stymei1丨6
-      - 🇭🇰👖TG频道stymei1丨7
-      - 🇭🇰👖TG频道stymei1丨8
-      - 🇭🇰👖TG频道stymei1丨9
-      - 🇭🇰👖TG频道stymei1丨10
-      - 🇭🇰👖TG频道stymei1丨11
-      - 🇭🇰👖TG频道stymei1丨12
-      - 🇭🇰👖TG频道stymei1丨13
-      - 🇭🇰👖TG频道stymei1丨14
-      - 🇭🇰👖TG频道stymei1丨15
-      - 🇭🇰👖TG频道stymei1丨16
-      - 🇭🇰👖TG频道stymei1丨17
-      - 🇭🇰👖TG频道stymei1丨18
-      - 🇭🇰👖TG频道stymei1丨19
-      - 🇭🇰👖TG频道stymei1丨20
-      - 🇭🇰👖TG频道stymei1丨21
-      - 🇭🇰👖TG频道stymei1丨22
-      - 🇭🇰👖TG频道stymei1丨23
-      - 🇭🇰👖TG频道stymei1丨24
-      - 🇭🇰👖TG频道stymei1丨25
-      - 🇭🇰👖TG频道stymei1丨26
-      - 🇭🇰👖TG频道stymei1丨27
-      - 🇭🇰👖TG频道stymei1丨28
-      - 🇭🇰👖TG频道stymei1丨29
-      - 🇭🇰👖TG频道stymei1丨30
-      - 🇭🇰👖TG频道stymei1丨31
-      - 🇭🇰👖TG频道stymei1丨32
-      - 🇭🇰👖TG频道stymei1丨33
-      - 🇭🇰👖TG频道stymei1丨34
-      - 🇭🇰👖TG频道stymei1丨35
-      - 🇭🇰👖TG频道stymei1丨36
-      - 🇭🇰👖TG频道stymei1丨37
-      - 🇭🇰👖TG频道stymei1丨38
-      - 🇭🇰👖TG频道stymei1丨39
-      - 🇭🇰👖TG频道stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨1
+      - 🇺🇸👖TG频道@stymei1丨2
+      - 🇺🇸👖TG频道@stymei1丨3
+      - 🇺🇸👖TG频道@stymei1丨4
+      - 🇺🇸👖TG频道@stymei1丨5
+      - 🇺🇸👖TG频道@stymei1丨6
+      - 🇺🇸👖TG频道@stymei1丨7
+      - 🇺🇸👖TG频道@stymei1丨8
+      - 🇺🇸👖TG频道@stymei1丨9
+      - 🇺🇸👖TG频道@stymei1丨10
+      - 🇺🇸👖TG频道@stymei1丨11
+      - 🇺🇸👖TG频道@stymei1丨12
+      - 🇺🇸👖TG频道@stymei1丨13
+      - 🇺🇸👖TG频道@stymei1丨14
+      - 🇺🇸👖TG频道@stymei1丨15
+      - 🇺🇸👖TG频道@stymei1丨16
+      - 🇺🇸👖TG频道@stymei1丨17
+      - 🇺🇸👖TG频道@stymei1丨18
+      - 🇺🇸👖TG频道@stymei1丨19
+      - 🇺🇸👖TG频道@stymei1丨20
+      - 🇺🇸👖TG频道@stymei1丨21
+      - 🇺🇸👖TG频道@stymei1丨22
+      - 🇺🇸👖TG频道@stymei1丨23
+      - 🇺🇸👖TG频道@stymei1丨24
+      - 🇺🇸👖TG频道@stymei1丨25
+      - 🇺🇸👖TG频道@stymei1丨26
+      - 🇺🇸👖TG频道@stymei1丨27
+      - 🇺🇸👖TG频道@stymei1丨28
+      - 🇺🇸👖TG频道@stymei1丨29
+      - 🇺🇸👖TG频道@stymei1丨30
+      - 🇺🇸👖TG频道@stymei1丨31
+      - 🇺🇸👖TG频道@stymei1丨32
+      - 🇺🇸👖TG频道@stymei1丨33
+      - 🇺🇸👖TG频道@stymei1丨34
+      - 🇺🇸👖TG频道@stymei1丨35
+      - 🇺🇸👖TG频道@stymei1丨36
+      - 🇺🇸👖TG频道@stymei1丨37
+      - 🇺🇸👖TG频道@stymei1丨38
+      - 🇺🇸👖TG频道@stymei1丨39
+      - 🇺🇸👖TG频道@stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨41
+      - 🇺🇸👖TG频道@stymei1丨42
+      - 🇺🇸👖TG频道@stymei1丨43
+      - 🇺🇸👖TG频道@stymei1丨44
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰👖TG频道stymei1丨1
-      - 🇭🇰👖TG频道stymei1丨2
-      - 🇭🇰👖TG频道stymei1丨3
-      - 🇭🇰👖TG频道stymei1丨4
-      - 🇭🇰👖TG频道stymei1丨5
-      - 🇭🇰👖TG频道stymei1丨6
-      - 🇭🇰👖TG频道stymei1丨7
-      - 🇭🇰👖TG频道stymei1丨8
-      - 🇭🇰👖TG频道stymei1丨9
-      - 🇭🇰👖TG频道stymei1丨10
-      - 🇭🇰👖TG频道stymei1丨11
-      - 🇭🇰👖TG频道stymei1丨12
-      - 🇭🇰👖TG频道stymei1丨13
-      - 🇭🇰👖TG频道stymei1丨14
-      - 🇭🇰👖TG频道stymei1丨15
-      - 🇭🇰👖TG频道stymei1丨16
-      - 🇭🇰👖TG频道stymei1丨17
-      - 🇭🇰👖TG频道stymei1丨18
-      - 🇭🇰👖TG频道stymei1丨19
-      - 🇭🇰👖TG频道stymei1丨20
-      - 🇭🇰👖TG频道stymei1丨21
-      - 🇭🇰👖TG频道stymei1丨22
-      - 🇭🇰👖TG频道stymei1丨23
-      - 🇭🇰👖TG频道stymei1丨24
-      - 🇭🇰👖TG频道stymei1丨25
-      - 🇭🇰👖TG频道stymei1丨26
-      - 🇭🇰👖TG频道stymei1丨27
-      - 🇭🇰👖TG频道stymei1丨28
-      - 🇭🇰👖TG频道stymei1丨29
-      - 🇭🇰👖TG频道stymei1丨30
-      - 🇭🇰👖TG频道stymei1丨31
-      - 🇭🇰👖TG频道stymei1丨32
-      - 🇭🇰👖TG频道stymei1丨33
-      - 🇭🇰👖TG频道stymei1丨34
-      - 🇭🇰👖TG频道stymei1丨35
-      - 🇭🇰👖TG频道stymei1丨36
-      - 🇭🇰👖TG频道stymei1丨37
-      - 🇭🇰👖TG频道stymei1丨38
-      - 🇭🇰👖TG频道stymei1丨39
-      - 🇭🇰👖TG频道stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨1
+      - 🇺🇸👖TG频道@stymei1丨2
+      - 🇺🇸👖TG频道@stymei1丨3
+      - 🇺🇸👖TG频道@stymei1丨4
+      - 🇺🇸👖TG频道@stymei1丨5
+      - 🇺🇸👖TG频道@stymei1丨6
+      - 🇺🇸👖TG频道@stymei1丨7
+      - 🇺🇸👖TG频道@stymei1丨8
+      - 🇺🇸👖TG频道@stymei1丨9
+      - 🇺🇸👖TG频道@stymei1丨10
+      - 🇺🇸👖TG频道@stymei1丨11
+      - 🇺🇸👖TG频道@stymei1丨12
+      - 🇺🇸👖TG频道@stymei1丨13
+      - 🇺🇸👖TG频道@stymei1丨14
+      - 🇺🇸👖TG频道@stymei1丨15
+      - 🇺🇸👖TG频道@stymei1丨16
+      - 🇺🇸👖TG频道@stymei1丨17
+      - 🇺🇸👖TG频道@stymei1丨18
+      - 🇺🇸👖TG频道@stymei1丨19
+      - 🇺🇸👖TG频道@stymei1丨20
+      - 🇺🇸👖TG频道@stymei1丨21
+      - 🇺🇸👖TG频道@stymei1丨22
+      - 🇺🇸👖TG频道@stymei1丨23
+      - 🇺🇸👖TG频道@stymei1丨24
+      - 🇺🇸👖TG频道@stymei1丨25
+      - 🇺🇸👖TG频道@stymei1丨26
+      - 🇺🇸👖TG频道@stymei1丨27
+      - 🇺🇸👖TG频道@stymei1丨28
+      - 🇺🇸👖TG频道@stymei1丨29
+      - 🇺🇸👖TG频道@stymei1丨30
+      - 🇺🇸👖TG频道@stymei1丨31
+      - 🇺🇸👖TG频道@stymei1丨32
+      - 🇺🇸👖TG频道@stymei1丨33
+      - 🇺🇸👖TG频道@stymei1丨34
+      - 🇺🇸👖TG频道@stymei1丨35
+      - 🇺🇸👖TG频道@stymei1丨36
+      - 🇺🇸👖TG频道@stymei1丨37
+      - 🇺🇸👖TG频道@stymei1丨38
+      - 🇺🇸👖TG频道@stymei1丨39
+      - 🇺🇸👖TG频道@stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨41
+      - 🇺🇸👖TG频道@stymei1丨42
+      - 🇺🇸👖TG频道@stymei1丨43
+      - 🇺🇸👖TG频道@stymei1丨44
   - name: 📹 YouTube
     type: select
     proxies:
       - 🚀 手动切换
-      - 🇭🇰👖TG频道stymei1丨1
-      - 🇭🇰👖TG频道stymei1丨2
-      - 🇭🇰👖TG频道stymei1丨3
-      - 🇭🇰👖TG频道stymei1丨4
-      - 🇭🇰👖TG频道stymei1丨5
-      - 🇭🇰👖TG频道stymei1丨6
-      - 🇭🇰👖TG频道stymei1丨7
-      - 🇭🇰👖TG频道stymei1丨8
-      - 🇭🇰👖TG频道stymei1丨9
-      - 🇭🇰👖TG频道stymei1丨10
-      - 🇭🇰👖TG频道stymei1丨11
-      - 🇭🇰👖TG频道stymei1丨12
-      - 🇭🇰👖TG频道stymei1丨13
-      - 🇭🇰👖TG频道stymei1丨14
-      - 🇭🇰👖TG频道stymei1丨15
-      - 🇭🇰👖TG频道stymei1丨16
-      - 🇭🇰👖TG频道stymei1丨17
-      - 🇭🇰👖TG频道stymei1丨18
-      - 🇭🇰👖TG频道stymei1丨19
-      - 🇭🇰👖TG频道stymei1丨20
-      - 🇭🇰👖TG频道stymei1丨21
-      - 🇭🇰👖TG频道stymei1丨22
-      - 🇭🇰👖TG频道stymei1丨23
-      - 🇭🇰👖TG频道stymei1丨24
-      - 🇭🇰👖TG频道stymei1丨25
-      - 🇭🇰👖TG频道stymei1丨26
-      - 🇭🇰👖TG频道stymei1丨27
-      - 🇭🇰👖TG频道stymei1丨28
-      - 🇭🇰👖TG频道stymei1丨29
-      - 🇭🇰👖TG频道stymei1丨30
-      - 🇭🇰👖TG频道stymei1丨31
-      - 🇭🇰👖TG频道stymei1丨32
-      - 🇭🇰👖TG频道stymei1丨33
-      - 🇭🇰👖TG频道stymei1丨34
-      - 🇭🇰👖TG频道stymei1丨35
-      - 🇭🇰👖TG频道stymei1丨36
-      - 🇭🇰👖TG频道stymei1丨37
-      - 🇭🇰👖TG频道stymei1丨38
-      - 🇭🇰👖TG频道stymei1丨39
-      - 🇭🇰👖TG频道stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨1
+      - 🇺🇸👖TG频道@stymei1丨2
+      - 🇺🇸👖TG频道@stymei1丨3
+      - 🇺🇸👖TG频道@stymei1丨4
+      - 🇺🇸👖TG频道@stymei1丨5
+      - 🇺🇸👖TG频道@stymei1丨6
+      - 🇺🇸👖TG频道@stymei1丨7
+      - 🇺🇸👖TG频道@stymei1丨8
+      - 🇺🇸👖TG频道@stymei1丨9
+      - 🇺🇸👖TG频道@stymei1丨10
+      - 🇺🇸👖TG频道@stymei1丨11
+      - 🇺🇸👖TG频道@stymei1丨12
+      - 🇺🇸👖TG频道@stymei1丨13
+      - 🇺🇸👖TG频道@stymei1丨14
+      - 🇺🇸👖TG频道@stymei1丨15
+      - 🇺🇸👖TG频道@stymei1丨16
+      - 🇺🇸👖TG频道@stymei1丨17
+      - 🇺🇸👖TG频道@stymei1丨18
+      - 🇺🇸👖TG频道@stymei1丨19
+      - 🇺🇸👖TG频道@stymei1丨20
+      - 🇺🇸👖TG频道@stymei1丨21
+      - 🇺🇸👖TG频道@stymei1丨22
+      - 🇺🇸👖TG频道@stymei1丨23
+      - 🇺🇸👖TG频道@stymei1丨24
+      - 🇺🇸👖TG频道@stymei1丨25
+      - 🇺🇸👖TG频道@stymei1丨26
+      - 🇺🇸👖TG频道@stymei1丨27
+      - 🇺🇸👖TG频道@stymei1丨28
+      - 🇺🇸👖TG频道@stymei1丨29
+      - 🇺🇸👖TG频道@stymei1丨30
+      - 🇺🇸👖TG频道@stymei1丨31
+      - 🇺🇸👖TG频道@stymei1丨32
+      - 🇺🇸👖TG频道@stymei1丨33
+      - 🇺🇸👖TG频道@stymei1丨34
+      - 🇺🇸👖TG频道@stymei1丨35
+      - 🇺🇸👖TG频道@stymei1丨36
+      - 🇺🇸👖TG频道@stymei1丨37
+      - 🇺🇸👖TG频道@stymei1丨38
+      - 🇺🇸👖TG频道@stymei1丨39
+      - 🇺🇸👖TG频道@stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨41
+      - 🇺🇸👖TG频道@stymei1丨42
+      - 🇺🇸👖TG频道@stymei1丨43
+      - 🇺🇸👖TG频道@stymei1丨44
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🚀 手动切换
-      - 🇭🇰👖TG频道stymei1丨1
-      - 🇭🇰👖TG频道stymei1丨2
-      - 🇭🇰👖TG频道stymei1丨3
-      - 🇭🇰👖TG频道stymei1丨4
-      - 🇭🇰👖TG频道stymei1丨5
-      - 🇭🇰👖TG频道stymei1丨6
-      - 🇭🇰👖TG频道stymei1丨7
-      - 🇭🇰👖TG频道stymei1丨8
-      - 🇭🇰👖TG频道stymei1丨9
-      - 🇭🇰👖TG频道stymei1丨10
-      - 🇭🇰👖TG频道stymei1丨11
-      - 🇭🇰👖TG频道stymei1丨12
-      - 🇭🇰👖TG频道stymei1丨13
-      - 🇭🇰👖TG频道stymei1丨14
-      - 🇭🇰👖TG频道stymei1丨15
-      - 🇭🇰👖TG频道stymei1丨16
-      - 🇭🇰👖TG频道stymei1丨17
-      - 🇭🇰👖TG频道stymei1丨18
-      - 🇭🇰👖TG频道stymei1丨19
-      - 🇭🇰👖TG频道stymei1丨20
-      - 🇭🇰👖TG频道stymei1丨21
-      - 🇭🇰👖TG频道stymei1丨22
-      - 🇭🇰👖TG频道stymei1丨23
-      - 🇭🇰👖TG频道stymei1丨24
-      - 🇭🇰👖TG频道stymei1丨25
-      - 🇭🇰👖TG频道stymei1丨26
-      - 🇭🇰👖TG频道stymei1丨27
-      - 🇭🇰👖TG频道stymei1丨28
-      - 🇭🇰👖TG频道stymei1丨29
-      - 🇭🇰👖TG频道stymei1丨30
-      - 🇭🇰👖TG频道stymei1丨31
-      - 🇭🇰👖TG频道stymei1丨32
-      - 🇭🇰👖TG频道stymei1丨33
-      - 🇭🇰👖TG频道stymei1丨34
-      - 🇭🇰👖TG频道stymei1丨35
-      - 🇭🇰👖TG频道stymei1丨36
-      - 🇭🇰👖TG频道stymei1丨37
-      - 🇭🇰👖TG频道stymei1丨38
-      - 🇭🇰👖TG频道stymei1丨39
-      - 🇭🇰👖TG频道stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨1
+      - 🇺🇸👖TG频道@stymei1丨2
+      - 🇺🇸👖TG频道@stymei1丨3
+      - 🇺🇸👖TG频道@stymei1丨4
+      - 🇺🇸👖TG频道@stymei1丨5
+      - 🇺🇸👖TG频道@stymei1丨6
+      - 🇺🇸👖TG频道@stymei1丨7
+      - 🇺🇸👖TG频道@stymei1丨8
+      - 🇺🇸👖TG频道@stymei1丨9
+      - 🇺🇸👖TG频道@stymei1丨10
+      - 🇺🇸👖TG频道@stymei1丨11
+      - 🇺🇸👖TG频道@stymei1丨12
+      - 🇺🇸👖TG频道@stymei1丨13
+      - 🇺🇸👖TG频道@stymei1丨14
+      - 🇺🇸👖TG频道@stymei1丨15
+      - 🇺🇸👖TG频道@stymei1丨16
+      - 🇺🇸👖TG频道@stymei1丨17
+      - 🇺🇸👖TG频道@stymei1丨18
+      - 🇺🇸👖TG频道@stymei1丨19
+      - 🇺🇸👖TG频道@stymei1丨20
+      - 🇺🇸👖TG频道@stymei1丨21
+      - 🇺🇸👖TG频道@stymei1丨22
+      - 🇺🇸👖TG频道@stymei1丨23
+      - 🇺🇸👖TG频道@stymei1丨24
+      - 🇺🇸👖TG频道@stymei1丨25
+      - 🇺🇸👖TG频道@stymei1丨26
+      - 🇺🇸👖TG频道@stymei1丨27
+      - 🇺🇸👖TG频道@stymei1丨28
+      - 🇺🇸👖TG频道@stymei1丨29
+      - 🇺🇸👖TG频道@stymei1丨30
+      - 🇺🇸👖TG频道@stymei1丨31
+      - 🇺🇸👖TG频道@stymei1丨32
+      - 🇺🇸👖TG频道@stymei1丨33
+      - 🇺🇸👖TG频道@stymei1丨34
+      - 🇺🇸👖TG频道@stymei1丨35
+      - 🇺🇸👖TG频道@stymei1丨36
+      - 🇺🇸👖TG频道@stymei1丨37
+      - 🇺🇸👖TG频道@stymei1丨38
+      - 🇺🇸👖TG频道@stymei1丨39
+      - 🇺🇸👖TG频道@stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨41
+      - 🇺🇸👖TG频道@stymei1丨42
+      - 🇺🇸👖TG频道@stymei1丨43
+      - 🇺🇸👖TG频道@stymei1丨44
   - name: 🎮️ 游戏平台
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 🇭🇰👖TG频道stymei1丨1
-      - 🇭🇰👖TG频道stymei1丨2
-      - 🇭🇰👖TG频道stymei1丨3
-      - 🇭🇰👖TG频道stymei1丨4
-      - 🇭🇰👖TG频道stymei1丨5
-      - 🇭🇰👖TG频道stymei1丨6
-      - 🇭🇰👖TG频道stymei1丨7
-      - 🇭🇰👖TG频道stymei1丨8
-      - 🇭🇰👖TG频道stymei1丨9
-      - 🇭🇰👖TG频道stymei1丨10
-      - 🇭🇰👖TG频道stymei1丨11
-      - 🇭🇰👖TG频道stymei1丨12
-      - 🇭🇰👖TG频道stymei1丨13
-      - 🇭🇰👖TG频道stymei1丨14
-      - 🇭🇰👖TG频道stymei1丨15
-      - 🇭🇰👖TG频道stymei1丨16
-      - 🇭🇰👖TG频道stymei1丨17
-      - 🇭🇰👖TG频道stymei1丨18
-      - 🇭🇰👖TG频道stymei1丨19
-      - 🇭🇰👖TG频道stymei1丨20
-      - 🇭🇰👖TG频道stymei1丨21
-      - 🇭🇰👖TG频道stymei1丨22
-      - 🇭🇰👖TG频道stymei1丨23
-      - 🇭🇰👖TG频道stymei1丨24
-      - 🇭🇰👖TG频道stymei1丨25
-      - 🇭🇰👖TG频道stymei1丨26
-      - 🇭🇰👖TG频道stymei1丨27
-      - 🇭🇰👖TG频道stymei1丨28
-      - 🇭🇰👖TG频道stymei1丨29
-      - 🇭🇰👖TG频道stymei1丨30
-      - 🇭🇰👖TG频道stymei1丨31
-      - 🇭🇰👖TG频道stymei1丨32
-      - 🇭🇰👖TG频道stymei1丨33
-      - 🇭🇰👖TG频道stymei1丨34
-      - 🇭🇰👖TG频道stymei1丨35
-      - 🇭🇰👖TG频道stymei1丨36
-      - 🇭🇰👖TG频道stymei1丨37
-      - 🇭🇰👖TG频道stymei1丨38
-      - 🇭🇰👖TG频道stymei1丨39
-      - 🇭🇰👖TG频道stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨1
+      - 🇺🇸👖TG频道@stymei1丨2
+      - 🇺🇸👖TG频道@stymei1丨3
+      - 🇺🇸👖TG频道@stymei1丨4
+      - 🇺🇸👖TG频道@stymei1丨5
+      - 🇺🇸👖TG频道@stymei1丨6
+      - 🇺🇸👖TG频道@stymei1丨7
+      - 🇺🇸👖TG频道@stymei1丨8
+      - 🇺🇸👖TG频道@stymei1丨9
+      - 🇺🇸👖TG频道@stymei1丨10
+      - 🇺🇸👖TG频道@stymei1丨11
+      - 🇺🇸👖TG频道@stymei1丨12
+      - 🇺🇸👖TG频道@stymei1丨13
+      - 🇺🇸👖TG频道@stymei1丨14
+      - 🇺🇸👖TG频道@stymei1丨15
+      - 🇺🇸👖TG频道@stymei1丨16
+      - 🇺🇸👖TG频道@stymei1丨17
+      - 🇺🇸👖TG频道@stymei1丨18
+      - 🇺🇸👖TG频道@stymei1丨19
+      - 🇺🇸👖TG频道@stymei1丨20
+      - 🇺🇸👖TG频道@stymei1丨21
+      - 🇺🇸👖TG频道@stymei1丨22
+      - 🇺🇸👖TG频道@stymei1丨23
+      - 🇺🇸👖TG频道@stymei1丨24
+      - 🇺🇸👖TG频道@stymei1丨25
+      - 🇺🇸👖TG频道@stymei1丨26
+      - 🇺🇸👖TG频道@stymei1丨27
+      - 🇺🇸👖TG频道@stymei1丨28
+      - 🇺🇸👖TG频道@stymei1丨29
+      - 🇺🇸👖TG频道@stymei1丨30
+      - 🇺🇸👖TG频道@stymei1丨31
+      - 🇺🇸👖TG频道@stymei1丨32
+      - 🇺🇸👖TG频道@stymei1丨33
+      - 🇺🇸👖TG频道@stymei1丨34
+      - 🇺🇸👖TG频道@stymei1丨35
+      - 🇺🇸👖TG频道@stymei1丨36
+      - 🇺🇸👖TG频道@stymei1丨37
+      - 🇺🇸👖TG频道@stymei1丨38
+      - 🇺🇸👖TG频道@stymei1丨39
+      - 🇺🇸👖TG频道@stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨41
+      - 🇺🇸👖TG频道@stymei1丨42
+      - 🇺🇸👖TG频道@stymei1丨43
+      - 🇺🇸👖TG频道@stymei1丨44
   - name: ChatGPT、Claude、Gemini、微软AI
     type: select
     proxies:
       - 🚀 手动切换
-      - 🇭🇰👖TG频道stymei1丨1
-      - 🇭🇰👖TG频道stymei1丨2
-      - 🇭🇰👖TG频道stymei1丨3
-      - 🇭🇰👖TG频道stymei1丨4
-      - 🇭🇰👖TG频道stymei1丨5
-      - 🇭🇰👖TG频道stymei1丨6
-      - 🇭🇰👖TG频道stymei1丨7
-      - 🇭🇰👖TG频道stymei1丨8
-      - 🇭🇰👖TG频道stymei1丨9
-      - 🇭🇰👖TG频道stymei1丨10
-      - 🇭🇰👖TG频道stymei1丨11
-      - 🇭🇰👖TG频道stymei1丨12
-      - 🇭🇰👖TG频道stymei1丨13
-      - 🇭🇰👖TG频道stymei1丨14
-      - 🇭🇰👖TG频道stymei1丨15
-      - 🇭🇰👖TG频道stymei1丨16
-      - 🇭🇰👖TG频道stymei1丨17
-      - 🇭🇰👖TG频道stymei1丨18
-      - 🇭🇰👖TG频道stymei1丨19
-      - 🇭🇰👖TG频道stymei1丨20
-      - 🇭🇰👖TG频道stymei1丨21
-      - 🇭🇰👖TG频道stymei1丨22
-      - 🇭🇰👖TG频道stymei1丨23
-      - 🇭🇰👖TG频道stymei1丨24
-      - 🇭🇰👖TG频道stymei1丨25
-      - 🇭🇰👖TG频道stymei1丨26
-      - 🇭🇰👖TG频道stymei1丨27
-      - 🇭🇰👖TG频道stymei1丨28
-      - 🇭🇰👖TG频道stymei1丨29
-      - 🇭🇰👖TG频道stymei1丨30
-      - 🇭🇰👖TG频道stymei1丨31
-      - 🇭🇰👖TG频道stymei1丨32
-      - 🇭🇰👖TG频道stymei1丨33
-      - 🇭🇰👖TG频道stymei1丨34
-      - 🇭🇰👖TG频道stymei1丨35
-      - 🇭🇰👖TG频道stymei1丨36
-      - 🇭🇰👖TG频道stymei1丨37
-      - 🇭🇰👖TG频道stymei1丨38
-      - 🇭🇰👖TG频道stymei1丨39
-      - 🇭🇰👖TG频道stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨1
+      - 🇺🇸👖TG频道@stymei1丨2
+      - 🇺🇸👖TG频道@stymei1丨3
+      - 🇺🇸👖TG频道@stymei1丨4
+      - 🇺🇸👖TG频道@stymei1丨5
+      - 🇺🇸👖TG频道@stymei1丨6
+      - 🇺🇸👖TG频道@stymei1丨7
+      - 🇺🇸👖TG频道@stymei1丨8
+      - 🇺🇸👖TG频道@stymei1丨9
+      - 🇺🇸👖TG频道@stymei1丨10
+      - 🇺🇸👖TG频道@stymei1丨11
+      - 🇺🇸👖TG频道@stymei1丨12
+      - 🇺🇸👖TG频道@stymei1丨13
+      - 🇺🇸👖TG频道@stymei1丨14
+      - 🇺🇸👖TG频道@stymei1丨15
+      - 🇺🇸👖TG频道@stymei1丨16
+      - 🇺🇸👖TG频道@stymei1丨17
+      - 🇺🇸👖TG频道@stymei1丨18
+      - 🇺🇸👖TG频道@stymei1丨19
+      - 🇺🇸👖TG频道@stymei1丨20
+      - 🇺🇸👖TG频道@stymei1丨21
+      - 🇺🇸👖TG频道@stymei1丨22
+      - 🇺🇸👖TG频道@stymei1丨23
+      - 🇺🇸👖TG频道@stymei1丨24
+      - 🇺🇸👖TG频道@stymei1丨25
+      - 🇺🇸👖TG频道@stymei1丨26
+      - 🇺🇸👖TG频道@stymei1丨27
+      - 🇺🇸👖TG频道@stymei1丨28
+      - 🇺🇸👖TG频道@stymei1丨29
+      - 🇺🇸👖TG频道@stymei1丨30
+      - 🇺🇸👖TG频道@stymei1丨31
+      - 🇺🇸👖TG频道@stymei1丨32
+      - 🇺🇸👖TG频道@stymei1丨33
+      - 🇺🇸👖TG频道@stymei1丨34
+      - 🇺🇸👖TG频道@stymei1丨35
+      - 🇺🇸👖TG频道@stymei1丨36
+      - 🇺🇸👖TG频道@stymei1丨37
+      - 🇺🇸👖TG频道@stymei1丨38
+      - 🇺🇸👖TG频道@stymei1丨39
+      - 🇺🇸👖TG频道@stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨41
+      - 🇺🇸👖TG频道@stymei1丨42
+      - 🇺🇸👖TG频道@stymei1丨43
+      - 🇺🇸👖TG频道@stymei1丨44
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 🇭🇰👖TG频道stymei1丨1
-      - 🇭🇰👖TG频道stymei1丨2
-      - 🇭🇰👖TG频道stymei1丨3
-      - 🇭🇰👖TG频道stymei1丨4
-      - 🇭🇰👖TG频道stymei1丨5
-      - 🇭🇰👖TG频道stymei1丨6
-      - 🇭🇰👖TG频道stymei1丨7
-      - 🇭🇰👖TG频道stymei1丨8
-      - 🇭🇰👖TG频道stymei1丨9
-      - 🇭🇰👖TG频道stymei1丨10
-      - 🇭🇰👖TG频道stymei1丨11
-      - 🇭🇰👖TG频道stymei1丨12
-      - 🇭🇰👖TG频道stymei1丨13
-      - 🇭🇰👖TG频道stymei1丨14
-      - 🇭🇰👖TG频道stymei1丨15
-      - 🇭🇰👖TG频道stymei1丨16
-      - 🇭🇰👖TG频道stymei1丨17
-      - 🇭🇰👖TG频道stymei1丨18
-      - 🇭🇰👖TG频道stymei1丨19
-      - 🇭🇰👖TG频道stymei1丨20
-      - 🇭🇰👖TG频道stymei1丨21
-      - 🇭🇰👖TG频道stymei1丨22
-      - 🇭🇰👖TG频道stymei1丨23
-      - 🇭🇰👖TG频道stymei1丨24
-      - 🇭🇰👖TG频道stymei1丨25
-      - 🇭🇰👖TG频道stymei1丨26
-      - 🇭🇰👖TG频道stymei1丨27
-      - 🇭🇰👖TG频道stymei1丨28
-      - 🇭🇰👖TG频道stymei1丨29
-      - 🇭🇰👖TG频道stymei1丨30
-      - 🇭🇰👖TG频道stymei1丨31
-      - 🇭🇰👖TG频道stymei1丨32
-      - 🇭🇰👖TG频道stymei1丨33
-      - 🇭🇰👖TG频道stymei1丨34
-      - 🇭🇰👖TG频道stymei1丨35
-      - 🇭🇰👖TG频道stymei1丨36
-      - 🇭🇰👖TG频道stymei1丨37
-      - 🇭🇰👖TG频道stymei1丨38
-      - 🇭🇰👖TG频道stymei1丨39
-      - 🇭🇰👖TG频道stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨1
+      - 🇺🇸👖TG频道@stymei1丨2
+      - 🇺🇸👖TG频道@stymei1丨3
+      - 🇺🇸👖TG频道@stymei1丨4
+      - 🇺🇸👖TG频道@stymei1丨5
+      - 🇺🇸👖TG频道@stymei1丨6
+      - 🇺🇸👖TG频道@stymei1丨7
+      - 🇺🇸👖TG频道@stymei1丨8
+      - 🇺🇸👖TG频道@stymei1丨9
+      - 🇺🇸👖TG频道@stymei1丨10
+      - 🇺🇸👖TG频道@stymei1丨11
+      - 🇺🇸👖TG频道@stymei1丨12
+      - 🇺🇸👖TG频道@stymei1丨13
+      - 🇺🇸👖TG频道@stymei1丨14
+      - 🇺🇸👖TG频道@stymei1丨15
+      - 🇺🇸👖TG频道@stymei1丨16
+      - 🇺🇸👖TG频道@stymei1丨17
+      - 🇺🇸👖TG频道@stymei1丨18
+      - 🇺🇸👖TG频道@stymei1丨19
+      - 🇺🇸👖TG频道@stymei1丨20
+      - 🇺🇸👖TG频道@stymei1丨21
+      - 🇺🇸👖TG频道@stymei1丨22
+      - 🇺🇸👖TG频道@stymei1丨23
+      - 🇺🇸👖TG频道@stymei1丨24
+      - 🇺🇸👖TG频道@stymei1丨25
+      - 🇺🇸👖TG频道@stymei1丨26
+      - 🇺🇸👖TG频道@stymei1丨27
+      - 🇺🇸👖TG频道@stymei1丨28
+      - 🇺🇸👖TG频道@stymei1丨29
+      - 🇺🇸👖TG频道@stymei1丨30
+      - 🇺🇸👖TG频道@stymei1丨31
+      - 🇺🇸👖TG频道@stymei1丨32
+      - 🇺🇸👖TG频道@stymei1丨33
+      - 🇺🇸👖TG频道@stymei1丨34
+      - 🇺🇸👖TG频道@stymei1丨35
+      - 🇺🇸👖TG频道@stymei1丨36
+      - 🇺🇸👖TG频道@stymei1丨37
+      - 🇺🇸👖TG频道@stymei1丨38
+      - 🇺🇸👖TG频道@stymei1丨39
+      - 🇺🇸👖TG频道@stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨41
+      - 🇺🇸👖TG频道@stymei1丨42
+      - 🇺🇸👖TG频道@stymei1丨43
+      - 🇺🇸👖TG频道@stymei1丨44
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰👖TG频道stymei1丨1
-      - 🇭🇰👖TG频道stymei1丨2
-      - 🇭🇰👖TG频道stymei1丨3
-      - 🇭🇰👖TG频道stymei1丨4
-      - 🇭🇰👖TG频道stymei1丨5
-      - 🇭🇰👖TG频道stymei1丨6
-      - 🇭🇰👖TG频道stymei1丨7
-      - 🇭🇰👖TG频道stymei1丨8
-      - 🇭🇰👖TG频道stymei1丨9
-      - 🇭🇰👖TG频道stymei1丨10
-      - 🇭🇰👖TG频道stymei1丨11
-      - 🇭🇰👖TG频道stymei1丨12
-      - 🇭🇰👖TG频道stymei1丨13
-      - 🇭🇰👖TG频道stymei1丨14
-      - 🇭🇰👖TG频道stymei1丨15
-      - 🇭🇰👖TG频道stymei1丨16
-      - 🇭🇰👖TG频道stymei1丨17
-      - 🇭🇰👖TG频道stymei1丨18
-      - 🇭🇰👖TG频道stymei1丨19
-      - 🇭🇰👖TG频道stymei1丨20
-      - 🇭🇰👖TG频道stymei1丨21
-      - 🇭🇰👖TG频道stymei1丨22
-      - 🇭🇰👖TG频道stymei1丨23
-      - 🇭🇰👖TG频道stymei1丨24
-      - 🇭🇰👖TG频道stymei1丨25
-      - 🇭🇰👖TG频道stymei1丨26
-      - 🇭🇰👖TG频道stymei1丨27
-      - 🇭🇰👖TG频道stymei1丨28
-      - 🇭🇰👖TG频道stymei1丨29
-      - 🇭🇰👖TG频道stymei1丨30
-      - 🇭🇰👖TG频道stymei1丨31
-      - 🇭🇰👖TG频道stymei1丨32
-      - 🇭🇰👖TG频道stymei1丨33
-      - 🇭🇰👖TG频道stymei1丨34
-      - 🇭🇰👖TG频道stymei1丨35
-      - 🇭🇰👖TG频道stymei1丨36
-      - 🇭🇰👖TG频道stymei1丨37
-      - 🇭🇰👖TG频道stymei1丨38
-      - 🇭🇰👖TG频道stymei1丨39
-      - 🇭🇰👖TG频道stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨1
+      - 🇺🇸👖TG频道@stymei1丨2
+      - 🇺🇸👖TG频道@stymei1丨3
+      - 🇺🇸👖TG频道@stymei1丨4
+      - 🇺🇸👖TG频道@stymei1丨5
+      - 🇺🇸👖TG频道@stymei1丨6
+      - 🇺🇸👖TG频道@stymei1丨7
+      - 🇺🇸👖TG频道@stymei1丨8
+      - 🇺🇸👖TG频道@stymei1丨9
+      - 🇺🇸👖TG频道@stymei1丨10
+      - 🇺🇸👖TG频道@stymei1丨11
+      - 🇺🇸👖TG频道@stymei1丨12
+      - 🇺🇸👖TG频道@stymei1丨13
+      - 🇺🇸👖TG频道@stymei1丨14
+      - 🇺🇸👖TG频道@stymei1丨15
+      - 🇺🇸👖TG频道@stymei1丨16
+      - 🇺🇸👖TG频道@stymei1丨17
+      - 🇺🇸👖TG频道@stymei1丨18
+      - 🇺🇸👖TG频道@stymei1丨19
+      - 🇺🇸👖TG频道@stymei1丨20
+      - 🇺🇸👖TG频道@stymei1丨21
+      - 🇺🇸👖TG频道@stymei1丨22
+      - 🇺🇸👖TG频道@stymei1丨23
+      - 🇺🇸👖TG频道@stymei1丨24
+      - 🇺🇸👖TG频道@stymei1丨25
+      - 🇺🇸👖TG频道@stymei1丨26
+      - 🇺🇸👖TG频道@stymei1丨27
+      - 🇺🇸👖TG频道@stymei1丨28
+      - 🇺🇸👖TG频道@stymei1丨29
+      - 🇺🇸👖TG频道@stymei1丨30
+      - 🇺🇸👖TG频道@stymei1丨31
+      - 🇺🇸👖TG频道@stymei1丨32
+      - 🇺🇸👖TG频道@stymei1丨33
+      - 🇺🇸👖TG频道@stymei1丨34
+      - 🇺🇸👖TG频道@stymei1丨35
+      - 🇺🇸👖TG频道@stymei1丨36
+      - 🇺🇸👖TG频道@stymei1丨37
+      - 🇺🇸👖TG频道@stymei1丨38
+      - 🇺🇸👖TG频道@stymei1丨39
+      - 🇺🇸👖TG频道@stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨41
+      - 🇺🇸👖TG频道@stymei1丨42
+      - 🇺🇸👖TG频道@stymei1丨43
+      - 🇺🇸👖TG频道@stymei1丨44
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 🇭🇰👖TG频道stymei1丨1
-      - 🇭🇰👖TG频道stymei1丨2
-      - 🇭🇰👖TG频道stymei1丨3
-      - 🇭🇰👖TG频道stymei1丨4
-      - 🇭🇰👖TG频道stymei1丨5
-      - 🇭🇰👖TG频道stymei1丨6
-      - 🇭🇰👖TG频道stymei1丨7
-      - 🇭🇰👖TG频道stymei1丨8
-      - 🇭🇰👖TG频道stymei1丨9
-      - 🇭🇰👖TG频道stymei1丨10
-      - 🇭🇰👖TG频道stymei1丨11
-      - 🇭🇰👖TG频道stymei1丨12
-      - 🇭🇰👖TG频道stymei1丨13
-      - 🇭🇰👖TG频道stymei1丨14
-      - 🇭🇰👖TG频道stymei1丨15
-      - 🇭🇰👖TG频道stymei1丨16
-      - 🇭🇰👖TG频道stymei1丨17
-      - 🇭🇰👖TG频道stymei1丨18
-      - 🇭🇰👖TG频道stymei1丨19
-      - 🇭🇰👖TG频道stymei1丨20
-      - 🇭🇰👖TG频道stymei1丨21
-      - 🇭🇰👖TG频道stymei1丨22
-      - 🇭🇰👖TG频道stymei1丨23
-      - 🇭🇰👖TG频道stymei1丨24
-      - 🇭🇰👖TG频道stymei1丨25
-      - 🇭🇰👖TG频道stymei1丨26
-      - 🇭🇰👖TG频道stymei1丨27
-      - 🇭🇰👖TG频道stymei1丨28
-      - 🇭🇰👖TG频道stymei1丨29
-      - 🇭🇰👖TG频道stymei1丨30
-      - 🇭🇰👖TG频道stymei1丨31
-      - 🇭🇰👖TG频道stymei1丨32
-      - 🇭🇰👖TG频道stymei1丨33
-      - 🇭🇰👖TG频道stymei1丨34
-      - 🇭🇰👖TG频道stymei1丨35
-      - 🇭🇰👖TG频道stymei1丨36
-      - 🇭🇰👖TG频道stymei1丨37
-      - 🇭🇰👖TG频道stymei1丨38
-      - 🇭🇰👖TG频道stymei1丨39
-      - 🇭🇰👖TG频道stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨1
+      - 🇺🇸👖TG频道@stymei1丨2
+      - 🇺🇸👖TG频道@stymei1丨3
+      - 🇺🇸👖TG频道@stymei1丨4
+      - 🇺🇸👖TG频道@stymei1丨5
+      - 🇺🇸👖TG频道@stymei1丨6
+      - 🇺🇸👖TG频道@stymei1丨7
+      - 🇺🇸👖TG频道@stymei1丨8
+      - 🇺🇸👖TG频道@stymei1丨9
+      - 🇺🇸👖TG频道@stymei1丨10
+      - 🇺🇸👖TG频道@stymei1丨11
+      - 🇺🇸👖TG频道@stymei1丨12
+      - 🇺🇸👖TG频道@stymei1丨13
+      - 🇺🇸👖TG频道@stymei1丨14
+      - 🇺🇸👖TG频道@stymei1丨15
+      - 🇺🇸👖TG频道@stymei1丨16
+      - 🇺🇸👖TG频道@stymei1丨17
+      - 🇺🇸👖TG频道@stymei1丨18
+      - 🇺🇸👖TG频道@stymei1丨19
+      - 🇺🇸👖TG频道@stymei1丨20
+      - 🇺🇸👖TG频道@stymei1丨21
+      - 🇺🇸👖TG频道@stymei1丨22
+      - 🇺🇸👖TG频道@stymei1丨23
+      - 🇺🇸👖TG频道@stymei1丨24
+      - 🇺🇸👖TG频道@stymei1丨25
+      - 🇺🇸👖TG频道@stymei1丨26
+      - 🇺🇸👖TG频道@stymei1丨27
+      - 🇺🇸👖TG频道@stymei1丨28
+      - 🇺🇸👖TG频道@stymei1丨29
+      - 🇺🇸👖TG频道@stymei1丨30
+      - 🇺🇸👖TG频道@stymei1丨31
+      - 🇺🇸👖TG频道@stymei1丨32
+      - 🇺🇸👖TG频道@stymei1丨33
+      - 🇺🇸👖TG频道@stymei1丨34
+      - 🇺🇸👖TG频道@stymei1丨35
+      - 🇺🇸👖TG频道@stymei1丨36
+      - 🇺🇸👖TG频道@stymei1丨37
+      - 🇺🇸👖TG频道@stymei1丨38
+      - 🇺🇸👖TG频道@stymei1丨39
+      - 🇺🇸👖TG频道@stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨41
+      - 🇺🇸👖TG频道@stymei1丨42
+      - 🇺🇸👖TG频道@stymei1丨43
+      - 🇺🇸👖TG频道@stymei1丨44
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 🚀 手动切换
-      - 🇭🇰👖TG频道stymei1丨1
-      - 🇭🇰👖TG频道stymei1丨2
-      - 🇭🇰👖TG频道stymei1丨3
-      - 🇭🇰👖TG频道stymei1丨4
-      - 🇭🇰👖TG频道stymei1丨5
-      - 🇭🇰👖TG频道stymei1丨6
-      - 🇭🇰👖TG频道stymei1丨7
-      - 🇭🇰👖TG频道stymei1丨8
-      - 🇭🇰👖TG频道stymei1丨9
-      - 🇭🇰👖TG频道stymei1丨10
-      - 🇭🇰👖TG频道stymei1丨11
-      - 🇭🇰👖TG频道stymei1丨12
-      - 🇭🇰👖TG频道stymei1丨13
-      - 🇭🇰👖TG频道stymei1丨14
-      - 🇭🇰👖TG频道stymei1丨15
-      - 🇭🇰👖TG频道stymei1丨16
-      - 🇭🇰👖TG频道stymei1丨17
-      - 🇭🇰👖TG频道stymei1丨18
-      - 🇭🇰👖TG频道stymei1丨19
-      - 🇭🇰👖TG频道stymei1丨20
-      - 🇭🇰👖TG频道stymei1丨21
-      - 🇭🇰👖TG频道stymei1丨22
-      - 🇭🇰👖TG频道stymei1丨23
-      - 🇭🇰👖TG频道stymei1丨24
-      - 🇭🇰👖TG频道stymei1丨25
-      - 🇭🇰👖TG频道stymei1丨26
-      - 🇭🇰👖TG频道stymei1丨27
-      - 🇭🇰👖TG频道stymei1丨28
-      - 🇭🇰👖TG频道stymei1丨29
-      - 🇭🇰👖TG频道stymei1丨30
-      - 🇭🇰👖TG频道stymei1丨31
-      - 🇭🇰👖TG频道stymei1丨32
-      - 🇭🇰👖TG频道stymei1丨33
-      - 🇭🇰👖TG频道stymei1丨34
-      - 🇭🇰👖TG频道stymei1丨35
-      - 🇭🇰👖TG频道stymei1丨36
-      - 🇭🇰👖TG频道stymei1丨37
-      - 🇭🇰👖TG频道stymei1丨38
-      - 🇭🇰👖TG频道stymei1丨39
-      - 🇭🇰👖TG频道stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨1
+      - 🇺🇸👖TG频道@stymei1丨2
+      - 🇺🇸👖TG频道@stymei1丨3
+      - 🇺🇸👖TG频道@stymei1丨4
+      - 🇺🇸👖TG频道@stymei1丨5
+      - 🇺🇸👖TG频道@stymei1丨6
+      - 🇺🇸👖TG频道@stymei1丨7
+      - 🇺🇸👖TG频道@stymei1丨8
+      - 🇺🇸👖TG频道@stymei1丨9
+      - 🇺🇸👖TG频道@stymei1丨10
+      - 🇺🇸👖TG频道@stymei1丨11
+      - 🇺🇸👖TG频道@stymei1丨12
+      - 🇺🇸👖TG频道@stymei1丨13
+      - 🇺🇸👖TG频道@stymei1丨14
+      - 🇺🇸👖TG频道@stymei1丨15
+      - 🇺🇸👖TG频道@stymei1丨16
+      - 🇺🇸👖TG频道@stymei1丨17
+      - 🇺🇸👖TG频道@stymei1丨18
+      - 🇺🇸👖TG频道@stymei1丨19
+      - 🇺🇸👖TG频道@stymei1丨20
+      - 🇺🇸👖TG频道@stymei1丨21
+      - 🇺🇸👖TG频道@stymei1丨22
+      - 🇺🇸👖TG频道@stymei1丨23
+      - 🇺🇸👖TG频道@stymei1丨24
+      - 🇺🇸👖TG频道@stymei1丨25
+      - 🇺🇸👖TG频道@stymei1丨26
+      - 🇺🇸👖TG频道@stymei1丨27
+      - 🇺🇸👖TG频道@stymei1丨28
+      - 🇺🇸👖TG频道@stymei1丨29
+      - 🇺🇸👖TG频道@stymei1丨30
+      - 🇺🇸👖TG频道@stymei1丨31
+      - 🇺🇸👖TG频道@stymei1丨32
+      - 🇺🇸👖TG频道@stymei1丨33
+      - 🇺🇸👖TG频道@stymei1丨34
+      - 🇺🇸👖TG频道@stymei1丨35
+      - 🇺🇸👖TG频道@stymei1丨36
+      - 🇺🇸👖TG频道@stymei1丨37
+      - 🇺🇸👖TG频道@stymei1丨38
+      - 🇺🇸👖TG频道@stymei1丨39
+      - 🇺🇸👖TG频道@stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨41
+      - 🇺🇸👖TG频道@stymei1丨42
+      - 🇺🇸👖TG频道@stymei1丨43
+      - 🇺🇸👖TG频道@stymei1丨44
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 手动切换
       - 🎯 全球直连
-      - 🇭🇰👖TG频道stymei1丨1
-      - 🇭🇰👖TG频道stymei1丨2
-      - 🇭🇰👖TG频道stymei1丨3
-      - 🇭🇰👖TG频道stymei1丨4
-      - 🇭🇰👖TG频道stymei1丨5
-      - 🇭🇰👖TG频道stymei1丨6
-      - 🇭🇰👖TG频道stymei1丨7
-      - 🇭🇰👖TG频道stymei1丨8
-      - 🇭🇰👖TG频道stymei1丨9
-      - 🇭🇰👖TG频道stymei1丨10
-      - 🇭🇰👖TG频道stymei1丨11
-      - 🇭🇰👖TG频道stymei1丨12
-      - 🇭🇰👖TG频道stymei1丨13
-      - 🇭🇰👖TG频道stymei1丨14
-      - 🇭🇰👖TG频道stymei1丨15
-      - 🇭🇰👖TG频道stymei1丨16
-      - 🇭🇰👖TG频道stymei1丨17
-      - 🇭🇰👖TG频道stymei1丨18
-      - 🇭🇰👖TG频道stymei1丨19
-      - 🇭🇰👖TG频道stymei1丨20
-      - 🇭🇰👖TG频道stymei1丨21
-      - 🇭🇰👖TG频道stymei1丨22
-      - 🇭🇰👖TG频道stymei1丨23
-      - 🇭🇰👖TG频道stymei1丨24
-      - 🇭🇰👖TG频道stymei1丨25
-      - 🇭🇰👖TG频道stymei1丨26
-      - 🇭🇰👖TG频道stymei1丨27
-      - 🇭🇰👖TG频道stymei1丨28
-      - 🇭🇰👖TG频道stymei1丨29
-      - 🇭🇰👖TG频道stymei1丨30
-      - 🇭🇰👖TG频道stymei1丨31
-      - 🇭🇰👖TG频道stymei1丨32
-      - 🇭🇰👖TG频道stymei1丨33
-      - 🇭🇰👖TG频道stymei1丨34
-      - 🇭🇰👖TG频道stymei1丨35
-      - 🇭🇰👖TG频道stymei1丨36
-      - 🇭🇰👖TG频道stymei1丨37
-      - 🇭🇰👖TG频道stymei1丨38
-      - 🇭🇰👖TG频道stymei1丨39
-      - 🇭🇰👖TG频道stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨1
+      - 🇺🇸👖TG频道@stymei1丨2
+      - 🇺🇸👖TG频道@stymei1丨3
+      - 🇺🇸👖TG频道@stymei1丨4
+      - 🇺🇸👖TG频道@stymei1丨5
+      - 🇺🇸👖TG频道@stymei1丨6
+      - 🇺🇸👖TG频道@stymei1丨7
+      - 🇺🇸👖TG频道@stymei1丨8
+      - 🇺🇸👖TG频道@stymei1丨9
+      - 🇺🇸👖TG频道@stymei1丨10
+      - 🇺🇸👖TG频道@stymei1丨11
+      - 🇺🇸👖TG频道@stymei1丨12
+      - 🇺🇸👖TG频道@stymei1丨13
+      - 🇺🇸👖TG频道@stymei1丨14
+      - 🇺🇸👖TG频道@stymei1丨15
+      - 🇺🇸👖TG频道@stymei1丨16
+      - 🇺🇸👖TG频道@stymei1丨17
+      - 🇺🇸👖TG频道@stymei1丨18
+      - 🇺🇸👖TG频道@stymei1丨19
+      - 🇺🇸👖TG频道@stymei1丨20
+      - 🇺🇸👖TG频道@stymei1丨21
+      - 🇺🇸👖TG频道@stymei1丨22
+      - 🇺🇸👖TG频道@stymei1丨23
+      - 🇺🇸👖TG频道@stymei1丨24
+      - 🇺🇸👖TG频道@stymei1丨25
+      - 🇺🇸👖TG频道@stymei1丨26
+      - 🇺🇸👖TG频道@stymei1丨27
+      - 🇺🇸👖TG频道@stymei1丨28
+      - 🇺🇸👖TG频道@stymei1丨29
+      - 🇺🇸👖TG频道@stymei1丨30
+      - 🇺🇸👖TG频道@stymei1丨31
+      - 🇺🇸👖TG频道@stymei1丨32
+      - 🇺🇸👖TG频道@stymei1丨33
+      - 🇺🇸👖TG频道@stymei1丨34
+      - 🇺🇸👖TG频道@stymei1丨35
+      - 🇺🇸👖TG频道@stymei1丨36
+      - 🇺🇸👖TG频道@stymei1丨37
+      - 🇺🇸👖TG频道@stymei1丨38
+      - 🇺🇸👖TG频道@stymei1丨39
+      - 🇺🇸👖TG频道@stymei1丨40
+      - 🇺🇸👖TG频道@stymei1丨41
+      - 🇺🇸👖TG频道@stymei1丨42
+      - 🇺🇸👖TG频道@stymei1丨43
+      - 🇺🇸👖TG频道@stymei1丨44
 rules:
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
