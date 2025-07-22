@@ -32,4 +32,4 @@ https://www.tvbox.fit
 https://dpaste.org
 
 ❼推荐的免翻代码托管网站(可以编辑更新)
-https://pastebin.com/u/Jsnzkpg
+https://pastebin.com
