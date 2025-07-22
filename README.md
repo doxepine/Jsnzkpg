@@ -18,4 +18,6 @@ https://upld.zone.id/uploads/q9iq9e5iq/jsnzkpg.txt
 
 🔄推荐的节点订阅转换网站
 https://zh.momobaby.org
+🐈‍⬛推荐的Github代理加速网站
+https://gh-proxy.com
 
