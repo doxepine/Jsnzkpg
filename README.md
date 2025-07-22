@@ -27,3 +27,9 @@ https://xhztv.pro/jsonview?url=
 
 ❺推荐的TVbox接口制作网站
 https://www.tvbox.fit
+
+❻推荐的免翻代码托管网站(不能编辑更新)
+https://dpaste.org
+
+❼推荐的免翻代码托管网站(可以编辑更新)
+https://pastebin.com/u/Jsnzkpg
