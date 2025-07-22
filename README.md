@@ -16,11 +16,14 @@ https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2
 ❶推荐的节点订阅转换网站
 https://zh.momobaby.org
 
-❷推荐的Github代理加速网站
+❷推荐的m3u和txt格式互转网站
+https://epg.iill.top/Conversion.php
+
+❸推荐的Github代理加速网站
 https://gh-proxy.com
 
-❸推荐的TVbox接口解析网站
+❹推荐的TVbox接口解析网站
 https://xhztv.pro/jsonview?url=
 
-❹推荐的TVbox接口制作网站
+❺推荐的TVbox接口制作网站
 https://www.tvbox.fit
