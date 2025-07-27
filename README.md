@@ -13,7 +13,7 @@ https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1
 🎬永久TVbox多源接口
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2
 
-👖TVbox空壳+IPTV空壳+其他影视空壳下载
+👖TVbox空壳+IPTV空壳+PC端+苹果端空壳
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg3
 
 ❶推荐的节点订阅转换网站
@@ -31,11 +31,8 @@ https://xhztv.pro/jsonview?url=
 ❺推荐的TVbox接口制作网站
 https://www.tvbox.fit
 
-❻推荐的免翻代码托管网站(不能编辑更新)
+❻推荐的免翻代码托管网站
 https://dpaste.org
 
-❼推荐的免翻代码托管网站(可以编辑更新)
-https://pastebin.com
-
-❽推荐的全能直链床
+❼推荐的全能直链床
 https://streamshare.wireway.ch
