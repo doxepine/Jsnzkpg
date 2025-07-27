@@ -13,6 +13,9 @@ https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1
 🎬永久TVbox多源接口
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2
 
+👖TVbox空壳+IPTV空壳+其他影视空壳下载
+https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg3
+
 ❶推荐的节点订阅转换网站
 https://zh.momobaby.org
 
