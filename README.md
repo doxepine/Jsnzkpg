@@ -33,3 +33,6 @@ https://dpaste.org
 
 ❼推荐的免翻代码托管网站(可以编辑更新)
 https://pastebin.com
+
+❽推荐的全能直链床
+https://streamshare.wireway.ch
