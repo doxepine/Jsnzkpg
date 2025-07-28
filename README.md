@@ -22,8 +22,8 @@ https://zh.momobaby.org
 ❷推荐的m3u和txt格式互转网站
 https://epg.iill.top/Conversion.php
 
-❸推荐的Github代理加速网站
-https://gh-proxy.com
+❸推荐的Github镜像代理加速网站
+https://yishijie.gitlab.io/ziyuan
 
 ❹推荐的TVbox接口解析网站
 https://xhztv.pro/jsonview?url=
