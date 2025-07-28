@@ -13,7 +13,7 @@ https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1
 🎬永久TVbox多源接口
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2
 
-👖TVbox空壳+IPTV空壳+PC端+苹果端空壳
+👖TVbox空壳+IPTV空壳+翻墙代理工具
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg3
 
 ❶推荐的节点订阅转换网站
