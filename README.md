@@ -1,7 +1,7 @@
 ✈️TG频道
 https://t.me/stymei1
 
-🔗博客
+🌏博客
 https://jsnzkpg.blogspot.com
 
 🚀永久ClashMeta订阅
@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
 📺永久IPTV直播源
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1
 
-🎬永久TVbox多源接口
+🎬永久TVbox多仓接口
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2
 
 👖TVbox空壳+IPTV空壳+翻墙代理工具
