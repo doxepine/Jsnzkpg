@@ -16,7 +16,7 @@ https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2
 👖TVbox空壳+IPTV空壳+翻墙代理工具
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg3
 
-❶推荐的节点订阅转换网站
+❶Clash转换Singbox专用
 https://zh.momobaby.org
 
 ❷推荐的m3u和txt格式互转网站
