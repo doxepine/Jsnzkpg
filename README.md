@@ -2,7 +2,7 @@
 https://t.me/stymei1
 
 🌏博客
-https://jsnzkpg.blogspot.com
+https://Jsnzkpg.github.io/Jsnzkpg
 
 🗣️永久ClashMeta很多代理工具都能直接用的，比如：小火箭，Karing，其他Clash客户端等等之类的
 
