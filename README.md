@@ -1,12 +1,15 @@
-✈️TG频道
+✈️我的TG频道
 https://t.me/stymei1
 
-🌏博客
-https://Jsnzkpg.github.io/Jsnzkpg
+🌏我的网站
+https://Jsnzkpg.github.io
+
+🚀小火箭共享账号
+https://stymei.github.io
 
 🗣️永久ClashMeta很多代理工具都能直接用的，比如：小火箭，Karing，其他Clash客户端等等之类的
 
-🚀永久ClashMeta订阅
+🐈‍⬛永久ClashMeta订阅
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
 
 📺永久IPTV直播源
