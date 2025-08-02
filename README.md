@@ -15,7 +15,7 @@ https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1
 🎬永久TVbox多仓接口
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2
 
-👖TVbox空壳+IPTV空壳+翻墙代理工具
+🎦永久UZ影视订阅
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg3
 
 ❶Clash转换Singbox专用
