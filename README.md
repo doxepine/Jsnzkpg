@@ -22,7 +22,7 @@ https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg3
 
 ❶Clash转换Singbox专用
-https://zh.momobaby.org
+https://clash2sfa.xmdhs.com
 
 ❷推荐的m3u和txt格式互转网站
 https://epg.iill.top/Conversion.php
