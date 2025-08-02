@@ -7,7 +7,7 @@ https://Jsnzkpg.github.io
 🚀小火箭共享账号
 https://stymei.github.io
 
-🗣️永久ClashMeta很多代理工具都能直接用的，比如：小火箭，Karing，其他Clash客户端等等之类的
+🗣️永久ClashMeta很多代理工具都能直接用的，比如：小火箭，Karing，其他Clash客户端等等之类的，各端的翻墙代理工具+IPTV空壳+TVbox空壳+苹果专属空壳，请去我的网站里获取
 
 🐈‍⬛永久ClashMeta订阅
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
