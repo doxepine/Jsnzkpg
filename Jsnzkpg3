@@ -1,6 +1,64 @@
-[{"name": "🔞奶香香","remark":"👖TG频道@stymei1", "url": "https://Naixxzy.com/api.php/provide/vod/?ac=list"},
-          {"name": "🩷黑木耳","remark":"👖TG频道@stymei1","url": "https://heimuer.ggff.net/api.php/tvbox"},
-          {"name": "❤️魔爪","remark":"👖TG频道@stymei1","url": "https://mozhuazy.com/api.php/provide/vod/?ac=list"},
-          {"name": "🧡电影天堂","remark":"👖TG频道@stymei1","url": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list"},
-          {"name": "💛豆瓣","remark":"👖TG频道@stymei1","url": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/josn"},{"name": "💚瓜子影视App","remark":"👖TG频道@stymei1","webSite": "https://api.gudvxty.com","codeID": "ra5Z3wtXKshzSMK2","instance": "gzapp20241001","api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzapp.txt"},
-{ "name": "🩵瓜子影视Web","remark":"👖TG频道@stymei1","webSite": "https://api.gudvxty.com","instance":"gzys20240822","api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzys.js"}]
+[{"name": "✈️TG频道@stymei1","remark":"✈️TG频道@stymei1", "url": "https://Naixxzy.com/api.php/provide/vod/?ac=list"},
+          {"name": "⏰更新时间2025.8.7","remark":"✈️TG频道@stymei1","url": "https://lbapi9.com/api.php/provide/vod/at/json/?ac=list"},
+          {"name": "👖黑木耳","remark":"✈️TG频道@stymei1","url": "https://heimuer.ggff.net/api.php/tvbox"},
+          {"name": "👖魔爪","remark":"✈️TG频道@stymei1","url": "https://mozhuazy.com/api.php/provide/vod/?ac=list"},
+          {"name": "👖电影天堂","remark":"✈️TG频道@stymei1","url": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list"},
+          {"name": "👖豆瓣","remark":"✈️TG频道@stymei1","url": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/josn"},{"name": "👖瓜子影视App","remark":"✈️TG频道@stymei1","webSite": "https://api.gudvxty.com","codeID": "ra5Z3wtXKshzSMK2","instance": "gzapp20241001","api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzapp.txt"},
+{ "name": "👖瓜子影视Web","remark":"✈️TG频道@stymei1","webSite": "https://api.gudvxty.com","instance":"gzys20240822","api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzys.js"},
+     {
+      "name": "👖修罗影视",
+      "version": 2,
+      "webSite": "https://xl01.com.de",
+      "order": "B",
+      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_biliys.js",
+      "type": 101
+    },
+    {
+      "name": "👖韩剧看看",
+      "version": 2,
+      "webSite": "https://www.hanjukankan.com",
+      "instance": "hjkk20240624",
+      "order": "B",
+      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_hjkk.js",
+      "type": 100
+    },
+    {
+      "name": "👖4k-av",
+      "version": 2,
+      "webSite": "https://4k-av.com",
+      "instance": "www4kav20240705",
+      "order": "B",
+      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_4kav.js",
+      "type": 100
+    },
+   {
+      "name": "👖校长影视",
+      "version": 1,
+      "remark": "✈️TG频道@stymei1",
+      "webSite": "https://xzys.fun",
+      "codeID": "7T4PFJobJZegoH1hLUyEL1HOGSoNuwR6",
+      "order": "B",
+      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Pan_xzys.txt",
+      "type": 101
+     },
+    {
+        "name": "👖两个BT",
+        "api": "https://cdn.jsdelivr.net/gh/yswag/uzVideo@main/js/spider/bttwo.js",
+        "instance": "bttwo20240628",
+        "webSite": "https://www.bttwoo.com",
+        "remark": "✈️TG频道@stymei1"
+    },
+    {
+        "name": "🔞麻豆社",
+        "api": "https://cdn.jsdelivr.net/gh/yswag/uzVideo@main/js/spider/madou.js",
+        "instance": "madou20240626",
+        "webSite": "https://madou.club",
+        "remark": "✈️TG频道@stymei1"
+    },
+    {
+        "name": "🔞Jable",
+        "api": "https://cdn.jsdelivr.net/gh/yswag/uzVideo@main/js/spider/jable.js",
+        "instance": "jable20240831",
+        "webSite": "https://jable.tv",
+        "remark": "✈️TG频道@stymei1"
+    }]
