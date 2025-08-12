@@ -29,15 +29,3 @@ https://epg.iill.top/Conversion.php
 
 ❸推荐的Github镜像代理加速网站
 https://yishijie.gitlab.io/ziyuan
-
-❹推荐的TVbox接口解析网站
-https://xhztv.pro/jsonview?url=
-
-❺推荐的TVbox接口制作网站
-https://www.tvbox.fit
-
-❻推荐的免翻代码托管网站
-https://dpaste.org
-
-❼推荐的全能直链床
-https://streamshare.wireway.ch
