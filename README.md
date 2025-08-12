@@ -24,8 +24,8 @@ https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg3
 ❶Clash转换Singbox专用
 https://clash2sfa.xmdhs.com
 
-❷推荐的m3u和txt格式互转网站
+❷m3u和txt格式互转
 https://epg.iill.top/Conversion.php
 
-❸推荐的Github镜像代理加速网站
+❸Github镜像代理加速
 https://yishijie.gitlab.io/ziyuan
