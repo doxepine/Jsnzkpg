@@ -1,13 +1,11 @@
-[{"name": "✈️TG频道@stymei1","remark":"✈️TG频道@stymei1", "url": "https://Naixxzy.com/api.php/provide/vod/?ac=list"},
-          {"name": "⏰更新时间2025.8.12","remark":"✈️TG频道@stymei1","url": "https://lbapi9.com/api.php/provide/vod/at/json/?ac=list"},
-          {"name": "👖黑木耳","remark":"✈️TG频道@stymei1","url": "https://heimuer.ggff.net/api.php/tvbox"},
+[{"name": "✈️TG频道@stymei1","remark":"✈️TG频道@stymei1", "url": "https://heimuer.ggff.net/api.php/tvbox"},
           {"name": "👖魔爪","remark":"✈️TG频道@stymei1","url": "https://mozhuazy.com/api.php/provide/vod/?ac=list"},
           {"name": "👖电影天堂","remark":"✈️TG频道@stymei1","url": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list"},
           {"name": "👖豆瓣","remark":"✈️TG频道@stymei1","url": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/josn"},
         {"name": "👖茅台","remark":"✈️TG频道@stymei1","url": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/josn"},
-        {"name": "👖如意","remark":"✈️TG频道@stymei1","url": "https://cj.rycjapi.com/api.php/provide/vod/?ac=list"},
+        {"name": "👖如意","remark":"✈️TG频道@stymei1","url": "http://cj.rycjapi.com/api.php/provide/vod/?ac=list"},
         {"name": "👖量子","remark":"✈️TG频道@stymei1","url": "https://cj.lziapi.com/api.php/provide/vod/?ac=list"},
-        {"name": "👖卧龙","remark":"✈️TG频道@stymei1","url": "https://collect.wolongzy.cc/api.php/provide/vod/?ac=list"},
+        {"name": "👖卧龙","remark":"✈️TG频道@stymei1","url": "https://collect.wolongzy.cc/api.php/provide/vod/at/xml/?ac=list"},
         {"name": "👖暴风","remark":"✈️TG频道@stymei1","url": "http://by.bfzyapi.com/api.php/provide/vod"},
         {"name": "👖360","remark":"✈️TG频道@stymei1","url": "https://360zyzz.com/api.php/provide/vod/from/360m3u8/at/json"},
         {"name": "👖极速","remark":"✈️TG频道@stymei1","url": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json"},
@@ -82,19 +80,5 @@
         "api": "https://cdn.jsdelivr.net/gh/yswag/uzVideo@main/js/spider/bttwo.js",
         "instance": "bttwo20240628",
         "webSite": "https://www.bttwoo.com",
-        "remark": "✈️TG频道@stymei1"
-    },
-    {
-        "name": "🔞麻豆社",
-        "api": "https://cdn.jsdelivr.net/gh/yswag/uzVideo@main/js/spider/madou.js",
-        "instance": "madou20240626",
-        "webSite": "https://madou.club",
-        "remark": "✈️TG频道@stymei1"
-    },
-    {
-        "name": "🔞Jable",
-        "api": "https://cdn.jsdelivr.net/gh/yswag/uzVideo@main/js/spider/jable.js",
-        "instance": "jable20240831",
-        "webSite": "https://jable.tv",
         "remark": "✈️TG频道@stymei1"
     }]
