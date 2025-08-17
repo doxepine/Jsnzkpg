@@ -488,8 +488,6 @@ NBA-TV,http://fl5.moveonjoy.com/NBA_TV/index.m3u8
 格斗专场,http://113.45.240.129:35455/huya/20072796
 柔道专场,http://113.45.240.129:35455/huya/20072837
 WWE专场,http://113.45.240.129:35455/huya/30021023
-腕力专场,http://113.45.240.129:35455/huya/30572176
-马拉松专场,http://113.45.240.129:35455/huya/30020994
 屿风体育,http://lxajh.top/tv/douyu.php?id=10329889
 拳击大王,http://lxajh.top/tv/douyu.php?id=9385340
 经典拳赛,http://lxajh.top/tv/douyu.php?id=9412138
@@ -506,8 +504,6 @@ HOOPPAPK篮球公园,http://lxajh.top/tv/douyu.php?id=10228726
 看球不费电,http://113.45.240.129:35455/huya/29982603
 超燃球场,http://113.45.240.129:35455/huya/29982597
 篮球五分位,http://113.45.240.129:35455/huya/29982598
-CUUA大学生飞盘联赛,http://113.45.240.129:35455/huya/30689549
-
 
 
 
@@ -667,10 +663,10 @@ BesTV纯享4K,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Co
 BesTV中国通史,http://lvbaiducdnct.inter.ptqy.gitv.tv:80/tslive/c60_fast_1029_720P_t10/c60_fast_1029_720P_t10.m3u8?d
 BesTV世界历史,http://newstreamcdnct.inter.ptqy.gitv.tv:80/tslive/c60_fast_1026_720P_t10/c60_fast_1026_720P_t10.m3u8?d
 BesTV看天下,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000011000288007&livemode=1&stbId=yu&mode=1&$8M
-航拍中国专场,http://1.94.31.214:35450/huya/22414123
-求索岛,http://1.94.31.214:35450/huya/20985858
-生存记,http://1.94.31.214:35450/huya/20985861
-野外生存,http://1.94.31.214:35450/huya/29886293
+航拍中国专场, http://113.45.240.129:35455/huya/22414123
+求索岛, http://113.45.240.129:35455/huya/20985858
+生存记, http://113.45.240.129:35455/huya/20985861
+野外生存, http://113.45.240.129:35455/huya/29886293
 荒野求生,http://lxajh.top/tv/douyu.php?id=9252708
 荒野避难所,http://lxajh.top/tv/douyu.php?id=10234334
 维塔利在野外,http://lxajh.top/tv/douyu.php?id=9804068
@@ -703,33 +699,33 @@ JJ斗地主,http://tc-tct.douyucdn2.cn/dyliveflv1a/488743rAHScWyyII_2000.flv?wsA
 云顶之弈,http://tc-tct.douyucdn2.cn/dyliveflv1/522423rw7NgKaYl9_2000p.flv?wsAuth=ce3c0d32c960ce39c10717b795f7ddf9&token=cpn-androidmpro-0-522423-99737a9b5bf363c27f62ed65c0f1025bd1ccd3a301de7e93&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
 QQ飞车手游,http://tc-tct.douyucdn2.cn/dyliveflv1a/5040227raXQRnvWY_2000.flv?wsAuth=0654cc930e81f0d2b58264196ded38af&token=cpn-androidmpro-0-5040227-432528579fe947129e217c8f3c39d0a94c81c1426c347bfb&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 王者荣耀,http://tc-tct.douyucdn2.cn/dyliveflv1a/1863767rkpl2_2000p.flv?wsAuth=f73077d85e523eb95b6ce1ea3581b46b&token=cpn-androidmpro-0-1863767-7b520f6fe0a2b18db3c111c4e3c14350afd2dcaf43d0ef60&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
-端游/英雄联盟专场,http://1.94.31.214:35450/huya/660000
-端游/CS2专场,http://1.94.31.214:35450/huya/23414220
-端游/无畏契约专场,http://1.94.31.214:35450/huya/660679
-端游/云顶之弈专场,http://1.94.31.214:35450/huya/24423598
-端游/穿越火线专场,http://1.94.31.214:35450/huya/660101
-端游/炉石传说专场,http://1.94.31.214:35450/huya/21103932
-端游/永劫无间专场,http://1.94.31.214:35450/huya/660115
-端游/逆战专场,http://1.94.31.214:35450/huya/12149051
-端游/DOTA2专场,http://1.94.31.214:35450/huya/18525140
-端游/地下城与勇士专场,http://1.94.31.214:35450/huya/21103948
-端游/QQ飞车专场,http://1.94.31.214:35450/huya/660219
-手游/王者荣耀专场,http://1.94.31.214:35450/huya/660002
-手游/天天吃鸡专场,http://1.94.31.214:35450/huya/660004
-手游/三角洲行动专场,http://1.94.31.214:35450/huya/152792
-手游/和平精英专场,http://1.94.31.214:35450/huya/660135
-手游/金铲铲之战专场,http://1.94.31.214:35450/huya/660579
-手游/英雄联盟专场,http://1.94.31.214:35450/huya/667812
-手游/CF专场,http://1.94.31.214:35450/huya/660102
-手游/QQ飞车专场,http://1.94.31.214:35450/huya/660117
-手游/DNF专场,http://1.94.31.214:35450/huya/29886331
-手游/火影忍者专场,http://1.94.31.214:35450/huya/25567648
-手游/第5人格专场,http://1.94.31.214:35450/huya/461698
-手游/JJ斗地主专场,http://1.94.31.214:35450/huya/30814433
-手游/欢乐斗地主专场,http://1.94.31.214:35450/huya/21103928
-单机/我的世界专场,http://1.94.31.214:35450/huya/667788
-单机/拳皇专场,http://1.94.31.214:35450/huya/17167271
-单机/小霸王专场,http://1.94.31.214:35450/huya/24723731
+端游/英雄联盟专场,http://113.45.240.129:35455/huya/660000
+端游/CS2专场,http://113.45.240.129:35455/huya/23414220
+端游/无畏契约专场,http://113.45.240.129:35455/huya/660679
+端游/云顶之弈专场,http://113.45.240.129:35455/huya/24423598
+端游/穿越火线专场,http://113.45.240.129:35455/huya/660101
+端游/炉石传说专场,http://113.45.240.129:35455/huya/21103932
+端游/永劫无间专场,http://113.45.240.129:35455/huya/660115
+端游/逆战专场,http://113.45.240.129:35455/huya/12149051
+端游/DOTA2专场,http://113.45.240.129:35455/huya/18525140
+端游/地下城与勇士专场,http://113.45.240.129:35455/huya/21103948
+端游/QQ飞车专场,http://113.45.240.129:35455/huya/660219
+手游/王者荣耀专场,http://113.45.240.129:35455/huya/660002
+手游/天天吃鸡专场,http://113.45.240.129:35455/huya/660004
+手游/三角洲行动专场,http://113.45.240.129:35455/huya/152792
+手游/和平精英专场,http://113.45.240.129:35455/huya/660135
+手游/金铲铲之战专场,http://113.45.240.129:35455/huya/660579
+手游/英雄联盟专场,http://113.45.240.129:35455/huya/667812
+手游/CF专场,http://113.45.240.129:35455/huya/660102
+手游/QQ飞车专场,http://113.45.240.129:35455/huya/660117
+手游/DNF专场,http://113.45.240.129:35455/huya/29886331
+手游/火影忍者专场,http://113.45.240.129:35455/huya/25567648
+手游/第5人格专场,http://113.45.240.129:35455/huya/461698
+手游/JJ斗地主专场,http://113.45.240.129:35455/huya/30814433
+手游/欢乐斗地主专场,http://113.45.240.129:35455/huya/21103928
+单机/我的世界专场,http://113.45.240.129:35455/huya/667788
+单机/拳皇专场,http://113.45.240.129:35455/huya/17167271
+单机/小霸王专场,http://113.45.240.129:35455/huya/24723731
 
 
 
@@ -767,13 +763,13 @@ DJ舞曲串烧点播,https://txmov2.a.kwimgs.com/bs3/video-hls/52599230165249789
 
 
 🎎动漫直播,#genre#
-名侦探柯南剧场版,http://1.94.31.214:35450/huya/30080236
-火影忍者,http://1.94.31.214:35450/huya/29465866
-海贼王,http://1.94.31.214:35450/huya/29982634
-宫崎骏系列,http://1.94.31.214:35450/huya/21059614
-黑子的篮球,http://1.94.31.214:35450/huya/30080253
-埋堆堆直播1,http://1.94.31.214:35450/huya/23734246
-埋堆堆直播2,http://1.94.31.214:35450/huya/23734256
+名侦探柯南剧场版,http://113.45.240.129:35455/huya/30080236
+火影忍者,http://113.45.240.129:35455/huya/29465866
+海贼王,http://113.45.240.129:35455/huya/29982634
+宫崎骏系列,http://113.45.240.129:35455/huya/21059614
+黑子的篮球,http://113.45.240.129:35455/huya/30080253
+埋堆堆直播1,http://113.45.240.129:35455/huya/23734246
+埋堆堆直播2,http://113.45.240.129:35455/huya/23734256
 
 
 
@@ -839,7 +835,7 @@ BesTV怡伴健康,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLiv
 来呀官人V,http://lxajh.top/tv/douyu.php?id=9986305
 开心嘴炮,http://lxajh.top/tv/douyu.php?id=9026377
 世界未解之谜,http://lxajh.top/tv/douyu.php?id=9369468
-阿斗归来了,http://1.94.31.214:35450/huya/13303478
+阿斗归来了,http://113.45.240.129:35455/huya/13303478
 侃片大师兄,http://lxajh.top/tv/douyu.php?id=9338839
 电影她说,http://lxajh.top/tv/douyu.php?id=10102412
 牛叔说电影,http://lxajh.top/tv/douyu.php?id=2758565
@@ -902,37 +898,26 @@ BesTV怡伴健康,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLiv
 老剧解说,http://lxajh.top/tv/douyu.php?id=9687733
 动漫解说, https://fmbox.cc/huya.php?id=29982688
 JG电影解说,http://lxajh.top/tv/douyu.php?id=9391277
-如来解说,http://1.94.31.214:35450/huya/29856678
 微笑影视解说,http://lxajh.top/tv/douyu.php?id=9476790
 视角解说,http://lxajh.top/tv/douyu.php?id=8813254
-S哥影视解说,http://1.94.31.214:35450/huya/24720260
-斌哥漫说,http://1.94.31.214:35450/huya/18632116
 28说电影,http://lxajh.top/tv/douyu.php?id=8884164
 1900影居室,http://lxajh.top/tv/douyu.php?id=7796193
 三七电影,http://lxajh.top/tv/douyu.php?id=9457792
-三哥说武侠,http://1.94.31.214:35450/huya/29834817
 鬼故事解说,http://lxajh.top/tv/douyu.php?id=9297412
 二哈讲电影,http://lxajh.top/tv/douyu.php?id=8778280
 享看说电影,http://lxajh.top/tv/douyu.php?id=8974130
-亮哥讲电影1,http://1.94.31.214:35450/huya/16144175
-亮哥讲电影2,http://1.94.31.214:35450/huya/29982687
 伦帝电影说,http://lxajh.top/tv/douyu.php?id=9368091
 俗哥看电影,http://lxajh.top/tv/douyu.php?id=2161818
 刘哗说电影,http://lxajh.top/tv/douyu.php?id=2632223
-力哥影视,http://1.94.31.214:35450/huya/23419131
 博然讲电影,http://lxajh.top/tv/douyu.php?id=9561992
 电影最TOP,http://lxajh.top/tv/douyu.php?id=2164691
-古枫影视解说,http://1.94.31.214:35450/huya/30297201
-可乐撩电影,http://1.94.31.214:35450/huya/16424416
 同同说电影,http://lxajh.top/tv/douyu.php?id=10155359
-吾聊电影,http://1.94.31.214:35450/huya/29982684
 周墨看电影,http://lxajh.top/tv/douyu.php?id=9505584
 喜人电影,http://lxajh.top/tv/douyu.php?id=10348735
 电视剧解说,http://lxajh.top/tv/douyu.php?id=9487003
 史君说剧,http://lxajh.top/tv/douyu.php?id=9419771
 都市夜魔人老王,http://lxajh.top/tv/douyu.php?id=610972
 惊悚恐怖解说,http://lxajh.top/tv/douyu.php?id=9075333
-一哥爱解说,http://1.94.31.214:35450/huya/28806915
 电影迷小雅,http://lxajh.top/tv/douyu.php?id=9639225
 悬疑Movie,http://lxajh.top/tv/douyu.php?id=9601429
 蔡老板家的长工,http://lxajh.top/tv/douyu.php?id=8869614
@@ -943,27 +928,19 @@ OneGuy,http://lxajh.top/tv/douyu.php?id=9734098
 老飞仔看动漫,http://lxajh.top/tv/douyu.php?id=7286439
 周扒片,http://lxajh.top/tv/douyu.php?id=6434857
 三新动漫,http://lxajh.top/tv/douyu.php?id=9548279
-乔我说动漫,http://1.94.31.214:35450/huya/17941367
-南南说动漫,http://1.94.31.214:35450/huya/30296754
-呆呆的动画,http://1.94.31.214:35450/huya/29837259
 圈踢动漫,http://lxajh.top/tv/douyu.php?id=1952680
 大魔王动漫解说,http://lxajh.top/tv/douyu.php?id=9963128
 小淘气说动漫,http://lxajh.top/tv/douyu.php?id=9527700
-杰克说动漫,http://1.94.31.214:35450/huya/19757963
 真香动漫解说,http://lxajh.top/tv/douyu.php?id=9391292
 皮皮动漫星球,http://lxajh.top/tv/douyu.php?id=8841920
 米粒儿说动漫,http://lxajh.top/tv/douyu.php?id=9445279
-老P仔说动漫,http://1.94.31.214:35450/huya/26510802
 蛋黄说动漫,http://lxajh.top/tv/douyu.php?id=9542834
 鑫酱盘动漫,http://lxajh.top/tv/douyu.php?id=9547575
 雨忆说动漫,http://lxajh.top/tv/douyu.php?id=9568700
-集集动漫社,http://1.94.31.214:35450/huya/29832558
-DD动漫解说,http://1.94.31.214:35450/huya/25650806
 拳叔二次元,http://lxajh.top/tv/douyu.php?id=9484105
 洗碗君解说,http://lxajh.top/tv/douyu.php?id=9446706
 猫八解说,http://lxajh.top/tv/douyu.php?id=9542831
 豆客解说,http://lxajh.top/tv/douyu.php?id=8883122
-周星驰专场解说,http://1.94.31.214:35450/huya/21136378
 爱好恐怖片的美男子,http://lxajh.top/tv/douyu.php?id=9280384
 一目十影,http://lxajh.top/tv/douyu.php?id=3643605
 嘻咦啊看,http://lxajh.top/tv/douyu.php?id=2660125
@@ -1091,15 +1068,15 @@ y子,https://live.iill.top/douyin/hjy45999999.
 童锦程,http://cfss.cc/cdn/hy/527988.flv
 江章闯,http://cfss.cc/cdn/hy/999603.flv
 小小小酷哥,http://cfss.cc/cdn/hy/1995.flv
-百味大鹏,http://1.94.31.214:35450/huya/20171060
-李子柒,http://1.94.31.214:35450/huya/21969336
-徐大sao,http://1.94.31.214:35450/huya/631427
-探索兄弟,http://1.94.31.214:35450/huya/22024819
-小墨与阿猴,http://1.94.31.214:35450/huya/19617984
-小红在农村,http://1.94.31.214:35450/huya/10348464
-一颗小虎牙,http://1.94.31.214:35450/huya/19743453
-云游故宫1,http://1.94.31.214:35450/huya/19743457
-云游故宫2,http://1.94.31.214:35450/huya/19743452
+百味大鹏,http://113.45.240.129:35455/huya/20171060
+李子柒,http://113.45.240.129:35455/huya/21969336
+徐大sao,http://113.45.240.129:35455/huya/631427
+探索兄弟,http://113.45.240.129:35455/huya/22024819
+小墨与阿猴,http://113.45.240.129:35455/huya/19617984
+小红在农村,http://113.45.240.129:35455/huya/10348464
+一颗小虎牙,http://113.45.240.129:35455/huya/19743453
+云游故宫1,http://113.45.240.129:35455/huya/19743457
+云游故宫2,http://113.45.240.129:35455/huya/19743452
 
 
 
@@ -1362,9 +1339,9 @@ A6少女团,https://videodowntx.9xiuzb.com/9xiu/123371127.m3u8
 🤣沙雕动画直播,#genre#
 小小天才搞笑视频,http://lxajh.top/tv/douyu.php?id=9419678
 冰糖葫芦没放盐V,http://lxajh.top/tv/douyu.php?id=3505453
-悸动,http://1.94.31.214:35450/huya/28272846
-微笑和苦瓜,http://1.94.31.214:35450/huya/28213261
-熊孩子沙雕动画,http://1.94.31.214:35450/huya/25243852
+悸动,http://113.45.240.129:35455/huya/28272846
+微笑和苦瓜,http://113.45.240.129:35455/huya/28213261
+熊孩子沙雕动画,http://113.45.240.129:35455/huya/25243852
 绘说篮球C,http://lxajh.top/tv/douyu.php?id=9401305
 
 
@@ -1740,19 +1717,19 @@ Alin精选16首(1小时),https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v03
 
 
 👖裤佬的收藏,#genre#
-瑜伽裤直播1,http://1.94.31.214:35450/huya/30901477
-瑜伽裤直播2,http://1.94.31.214:35450/huya/30867825
-瑜伽裤直播3,http://1.94.31.214:35450/huya/30867826
-瑜伽裤直播4,http://1.94.31.214:35450/huya/30867824
-瑜伽裤直播5,http://1.94.31.214:35450/huya/30901472
-瑜伽裤直播6,http://1.94.31.214:35450/huya/30805945
-瑜伽裤直播7,http://1.94.31.214:35450/huya/18152381
-瑜伽裤直播8,http://1.94.31.214:35450/huya/30867827
-瑜伽裤直播9,http://1.94.31.214:35450/huya/30901473
-瑜伽裤直播10,http://1.94.31.214:35450/huya/30901471
-瑜伽裤直播11,http://1.94.31.214:35450/huya/30805962
-瑜伽裤直播12,http://1.94.31.214:35450/huya/30901478
-瑜伽裤直播13,http://1.94.31.214:35450/huya/30901474
+瑜伽裤直播1,http://113.45.240.129:35455/huya/30901477
+瑜伽裤直播2,http://113.45.240.129:35455/huya/30867825
+瑜伽裤直播3,http://113.45.240.129:35455/huya/30867826
+瑜伽裤直播4,http://113.45.240.129:35455/huya/30867824
+瑜伽裤直播5,http://113.45.240.129:35455/huya/30901472
+瑜伽裤直播6,http://113.45.240.129:35455/huya/30805945
+瑜伽裤直播7,http://113.45.240.129:35455/huya/18152381
+瑜伽裤直播8,http://113.45.240.129:35455/huya/30867827
+瑜伽裤直播9,http://113.45.240.129:35455/huya/30901473
+瑜伽裤直播10,http://113.45.240.129:35455/huya/30901471
+瑜伽裤直播11,http://113.45.240.129:35455/huya/30805962
+瑜伽裤直播12,http://113.45.240.129:35455/huya/30901478
+瑜伽裤直播13,http://113.45.240.129:35455/huya/30901474
 韩国瑜伽妹,http://lxajh.top/tv/douyu.php?id=10205199
 欧美瑜伽妹1,https://live.iill.top/youtube/@ZenGymnastx
 欧美瑜伽妹2,https://live.iill.top/youtube/@The_Flex_Girl
