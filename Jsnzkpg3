@@ -76,7 +76,7 @@
       "type": 101
      },
     {
-        "name": "👖两个BT",
+        "name": "👖2个BT",
         "api": "https://cdn.jsdelivr.net/gh/yswag/uzVideo@main/js/spider/bttwo.js",
         "instance": "bttwo20240628",
         "webSite": "https://www.bttwoo.com",
