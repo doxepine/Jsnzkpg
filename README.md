@@ -24,11 +24,11 @@ https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2
 🎦永久UZ影视订阅
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg3
 
-❶Clash转换Singbox专用
-https://clash2sfa.xmdhs.com
+❶订阅转换
+https://zh.momobaby.org
 
-❷m3u和txt格式互转
-https://epg.iill.top/Conversion.php
+❷Clash转换Singbox专用
+https://clash2sfa.xmdhs.com
 
 ❸Github镜像代理加速
 https://yishijie.gitlab.io/ziyuan
