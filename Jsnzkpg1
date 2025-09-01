@@ -426,12 +426,14 @@ GOOD好消息2,http://live-350k.streamingfast.net/hls-live/goodtv/_definst_/live
 番薯111,http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8
 番薯111,http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8?blog.ntnas.top
 番薯111,http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
+美亚电影,https://live.tvfix.org/live/mydy/index.m3u8
+香港环球卫视,https://play.xghqws.cn/yunqing888/yunqing888.m3u8?auth_key=1731294000-0-0-0942b140da60167a47c1f2d685f702b2&rts_degrade=on
+亚洲卫视,https://p2hs.vzan.com/slowlive/821481626725612419/live.m3u8
 
 
 
 
 🌏国际直播,#genre#
-MoonTV,http://player.mslivestream.net/mslive/e10bb900976df9177b9a080314f26f86.sdp/index.m3u8
 TENNIS,http://fl3.moveonjoy.com/TENNIS_CHANNEL/index.m3u8
 MLB NETWORK,https://fl3.moveonjoy.com/MLB_NETWORK/index.m3u8
 CBS SPORTS,http://fl3.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
@@ -473,6 +475,8 @@ CNN,https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_
 伊朗新闻,http://live-hls-web-aja.getaj.net/AJA/02.m3u8
 Fox weather,https://247wlive.foxweather.com/stream/index_1280x720.m3u8
 GS Shop,https://gstv-gsshop.gsshop.com/gsshop_hd/gsshop_hd.stream/playlist.m3u8
+MoonTV,http://player.mslivestream.net/mslive/e10bb900976df9177b9a080314f26f86.sdp/index.m3u8
+PAC12,https://pac12-samsungus.amagi.tv/playlist480_p.m3u8
 
 
 
@@ -1342,6 +1346,7 @@ PC梦幻西游2025全民PK赛,https://alipullhls.cc.netease.com/live/eee1d6456b4
 ⚽熊熊直播,#genre#
 诺诺,https://live11.bcoff.cn/live/14195691.m3u8
 闯关,https://live11.bcoff.cn/live/79385811.m3u8
+老鱼,https://live11.bcoff.cn/live/46094255.m3u8
 纳乔,https://live11.bcoff.cn/live/81513550.m3u8
 卡尔,https://live11.bcoff.cn/live/13766660.m3u8
 飞翔,https://live11.bcoff.cn/live/31126848.m3u8
@@ -1392,6 +1397,32 @@ PC梦幻西游2025全民PK赛,https://alipullhls.cc.netease.com/live/eee1d6456b4
 老周说球,https://live09.bjwxb168.cn/live/01809889.m3u8
 雨宝,https://live09.bjwxb168.cn/live/26990617.m3u8
 小诗妹,https://live09.bjwxb168.cn/live/86184203.m3u8
+
+
+⚽鲸鱼直播,#genre#
+念念坎球,https://bf.bynor.net/live/63691635_1756685051.m3u8
+小慧,https://bf.bynor.net/live/63621382_1756682430.m3u8
+春风,https://bf.bynor.net/live/63716915_1756682405.m3u8
+大壮,https://bf.bynor.net/live/63641657_1756684266.m3u8
+小熊,https://bf.bynor.net/live/63622210_1756685093.m3u8
+
+⚽极直播,#genre#
+老默,https://zbpull2.zph369.com/live/1139483118418408337.m3u8
+冠希,https://zbpull2.zph369.com/live/1139571689057441608.m3u8
+优优,https://zbpull2.zph369.com/live/1139430886694660852.m3u8
+牛哥,https://zbpull2.zph369.com/live/1239251003359535466.m3u8
+红豆,https://zbpull2.zph369.com/live/1139618839526473704.m3u8
+小鱼,https://zbpull2.zph369.com/live/1139754801615721565.m3u8
+亦菲,https://zbpull2.zph369.com/live/1139706763795303911.m3u8
+小麦,https://zbpull2.zph369.com/live/1140460340341620850.m3u8
+
+⚽球神直播,#genre#
+神族-乘风破浪,https://newpull.fangzicheng.top/live/409032907.m3u8
+必胜客,https://newpull.fangzicheng.top/live/994568180.m3u8
+苏苏聊球,https://newpull.fangzicheng.top/live/090574037.m3u8
+七宝,https://newpull.fangzicheng.top/live/206452024.m3u8
+花神,https://newpull.fangzicheng.top/live/197604507.m3u8
+
 
 
 
@@ -1898,9 +1929,6 @@ DJ舞曲串烧点播,https://txmov2.a.kwimgs.com/bs3/video-hls/52599230165249789
 热门歌曲DJ点播,https://txmov2.a.kwimgs.com/bs3/video-hls/5232619944545910926_hlsb.m3u8
 
 
-
-
-
 👖裤佬的收藏,#genre#
 你的瑜伽女孩,http://dns.yiandrive.com:13571/douyu/10205199
 瑜伽裤直播1,http://113.45.240.129:35455/huya/30901472
@@ -1918,19 +1946,7 @@ DJ舞曲串烧点播,https://txmov2.a.kwimgs.com/bs3/video-hls/52599230165249789
 茶啊二中,http://lxajh.top/tv/douyu.php?id=2925610
 陈翔六点半,http://113.45.240.129:35455/huya/11274154
 
-
-
-👖裤佬起飞素材,#genre#
-1,https://www.iesdouyin.com/aweme/v1/playwm/?line=0&logo_name=aweme_diversion_search&ratio=720p&video_id=v0200fg10000d28p3tfog65ps00rrlv0
-2,https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v1e00fgi0000d2o3bvvog65osg5dshd0&ratio=720p&line=0
-3,https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v1e00fgi0000d2c3al7og65gtcaca0h0&ratio=720p&line=0
-4,https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v1e00fgi0000d2lvdbnog65ruioqrtlg&ratio=720p&line=0
-5,https://www.iesdouyin.com/aweme/v1/playwm/?line=0&logo_name=aweme_diversion_search&ratio=720p&video_id=v1e00fgi0000d2mvbt7og65ruipn73qg
-6,https://www.iesdouyin.com/aweme/v1/playwm/?line=0&logo_name=aweme_diversion_search&ratio=720p&video_id=v1e00fgi0000d2lsi0fog65lonn4otc0
-7,https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v1e00fgi0000d19pit7og65ndgboobfg&ratio=720p&line=0
-8,https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v1e00fgi0000d0lv8onog65l6ok30e3g&ratio=720p&line=0
-9,https://k0u6fy1dy17yc6zw2409x8c5ex5000x740xx6z.djvod.ndcimgs.com/bs2/photo-video-mz/5207568690309241568_914a75898e332056_1735_v6UltraV5.mp4
-🪭测试,#genre#
+🚀翻墙才能看,#genre#
 澳视澳门,https://globallive.tdm.com.mo/ch1/ch1.live/playlist.m3u8
 澳视葡文,https://globallive.tdm.com.mo/ch2/ch2.live/chunklist_w1226640182.m3u8
 澳门资讯,https://globallive.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
