@@ -157,17 +157,6 @@ proxies:
     servername: bing.com
   - type: hysteria2
     name: 2元1000G机场【13】👉🏻https://kelayun.notepin.co
-    server: 47.242.195.121
-    port: 12854
-    password: XK52yierGckONMJWbJnuskD3unI
-    sni: bing.com
-    skip-cert-verify: true
-    tfo: false
-    auth: ""
-    fast-open: false
-    servername: bing.com
-  - type: hysteria2
-    name: 2元1000G机场【14】👉🏻https://kelayun.notepin.co
     server: 47.239.220.214
     port: 2428
     password: NjEkAYYNqFKUbrksyW1COBtdpU
@@ -178,7 +167,7 @@ proxies:
     fast-open: false
     servername: bing.com
   - type: hysteria2
-    name: 2元1000G机场【15】👉🏻https://kelayun.notepin.co
+    name: 2元1000G机场【14】👉🏻https://kelayun.notepin.co
     server: 38.34.6.180
     port: 22740
     password: TeoP0vNz791156o3UuGb8eBY
@@ -189,7 +178,7 @@ proxies:
     fast-open: false
     servername: bing.com
   - type: hysteria2
-    name: 2元1000G机场【16】👉🏻https://kelayun.notepin.co
+    name: 2元1000G机场【15】👉🏻https://kelayun.notepin.co
     server: 158.41.110.234
     port: 10820
     password: 7GEEGxAfgQaVPQX0PGk7lIuj3I
@@ -220,7 +209,6 @@ proxy-groups:
       - 2元1000G机场【13】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【14】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【15】👉🏻https://kelayun.notepin.co
-      - 2元1000G机场【16】👉🏻https://kelayun.notepin.co
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -242,7 +230,6 @@ proxy-groups:
       - 2元1000G机场【13】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【14】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【15】👉🏻https://kelayun.notepin.co
-      - 2元1000G机场【16】👉🏻https://kelayun.notepin.co
   - name: 📹 YouTube
     type: select
     proxies:
@@ -262,7 +249,6 @@ proxy-groups:
       - 2元1000G机场【13】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【14】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【15】👉🏻https://kelayun.notepin.co
-      - 2元1000G机场【16】👉🏻https://kelayun.notepin.co
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -282,7 +268,6 @@ proxy-groups:
       - 2元1000G机场【13】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【14】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【15】👉🏻https://kelayun.notepin.co
-      - 2元1000G机场【16】👉🏻https://kelayun.notepin.co
   - name: 🎮️ 游戏平台
     type: select
     proxies:
@@ -303,7 +288,6 @@ proxy-groups:
       - 2元1000G机场【13】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【14】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【15】👉🏻https://kelayun.notepin.co
-      - 2元1000G机场【16】👉🏻https://kelayun.notepin.co
   - name: ChatGPT、Claude、Gemini、微软AI
     type: select
     proxies:
@@ -323,7 +307,6 @@ proxy-groups:
       - 2元1000G机场【13】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【14】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【15】👉🏻https://kelayun.notepin.co
-      - 2元1000G机场【16】👉🏻https://kelayun.notepin.co
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -344,7 +327,6 @@ proxy-groups:
       - 2元1000G机场【13】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【14】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【15】👉🏻https://kelayun.notepin.co
-      - 2元1000G机场【16】👉🏻https://kelayun.notepin.co
   - name: 📲 电报信息
     type: select
     proxies:
@@ -366,7 +348,6 @@ proxy-groups:
       - 2元1000G机场【13】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【14】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【15】👉🏻https://kelayun.notepin.co
-      - 2元1000G机场【16】👉🏻https://kelayun.notepin.co
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -387,7 +368,6 @@ proxy-groups:
       - 2元1000G机场【13】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【14】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【15】👉🏻https://kelayun.notepin.co
-      - 2元1000G机场【16】👉🏻https://kelayun.notepin.co
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -408,7 +388,6 @@ proxy-groups:
       - 2元1000G机场【13】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【14】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【15】👉🏻https://kelayun.notepin.co
-      - 2元1000G机场【16】👉🏻https://kelayun.notepin.co
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -429,7 +408,6 @@ proxy-groups:
       - 2元1000G机场【13】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【14】👉🏻https://kelayun.notepin.co
       - 2元1000G机场【15】👉🏻https://kelayun.notepin.co
-      - 2元1000G机场【16】👉🏻https://kelayun.notepin.co
 rules:
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
