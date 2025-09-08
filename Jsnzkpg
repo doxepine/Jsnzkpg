@@ -5,207 +5,321 @@ mode: Rule
 log-level: info
 external-controller: 9090
 proxies:
-  - name: 👖🇭🇰TG频道@stymei1丨1
+  - name: 👖🇸🇬TG频道@stymei1丨1
+    server: bestcf.onecf.eu.org
+    port: 443
     type: vless
-    server: snipaste.speedip.eu.org
-    port: 2053
-    uuid: 01991d1e-b984-35e2-c81d-23f245dd2831
+    uuid: 4fd16fe2-1775-4ce0-a557-2a7383ecb3dc
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: do-sfo3.008883.xyz
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /freev2.net?ed=2048
+      headers:
+        Host: do-sfo3.008883.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-sfo3.008883.xyz
+  - name: 👖🇸🇬TG频道@stymei1丨2
+    server: freev2.cloudflare.182682.xyz
+    port: 443
+    type: vless
+    uuid: 4fd16fe2-1775-4ce0-a557-2a7383ecb3dc
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: do-lon1.008883.xyz
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /freev2.net?ed=2048
+      headers:
+        Host: do-lon1.008883.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-lon1.008883.xyz
+  - name: 👖🇸🇬TG频道@stymei1丨3
+    server: www.visa.com.hk
+    port: 443
+    type: vless
+    uuid: 4fd16fe2-1775-4ce0-a557-2a7383ecb3dc
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: do-blr1.008883.xyz
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /freev2.net?ed=2048
+      headers:
+        Host: do-blr1.008883.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-blr1.008883.xyz
+  - name: 👖🇸🇬TG频道@stymei1丨4
+    server: bestcf.onecf.eu.org
+    port: 443
+    type: vless
+    uuid: 4fd16fe2-1775-4ce0-a557-2a7383ecb3dc
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: do-tor1.008883.xyz
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /freev2.net?ed=2048
+      headers:
+        Host: do-tor1.008883.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-tor1.008883.xyz
+  - name: 👖🇸🇬TG频道@stymei1丨5
+    server: freev2.cloudflare.182682.xyz
+    port: 443
+    type: vless
+    uuid: 4fd16fe2-1775-4ce0-a557-2a7383ecb3dc
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: do-sgp1.008883.xyz
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /freev2.net?ed=2048
+      headers:
+        Host: do-sgp1.008883.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-sgp1.008883.xyz
+  - name: 👖🇸🇬TG频道@stymei1丨6
+    server: freev2.cloudflare.182682.xyz
+    port: 443
+    type: vless
+    uuid: 4fd16fe2-1775-4ce0-a557-2a7383ecb3dc
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: do-fra1.008883.xyz
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /freev2.net?ed=2048
+      headers:
+        Host: do-fra1.008883.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-fra1.008883.xyz
+  - name: 👖🇸🇬TG频道@stymei1丨7
+    type: vless
+    server: 104.26.13.31
+    port: 443
+    uuid: 019926a1-3614-561e-34b4-8082456be2e8
     encryption: none
     udp: true
     skip-cert-verify: true
     tfo: false
     tls: true
-    sni: cloud.5587124.xyz
-    servername: cloud.5587124.xyz
+    sni: 0000ts98qii74l4zz1cahr29s5prmhti6ghw2j3ac5ql5izydt8fm90iuk9bkuym0prxqaxopzosph99s4mnfem14t6pmu80.1547415.xyz
+    servername: 0000ts98qii74l4zz1cahr29s5prmhti6ghw2j3ac5ql5izydt8fm90iuk9bkuym0prxqaxopzosph99s4mnfem14t6pmu80.1547415.xyz
     network: ws
     ws-opts:
       path: /snippets?ip=proxyip:port(443)&nat64=6to4
       headers:
-        Host: cloud.5587124.xyz
+        Host: 0000ts98qii74l4zz1cahr29s5prmhti6ghw2j3ac5ql5izydt8fm90iuk9bkuym0prxqaxopzosph99s4mnfem14t6pmu80.1547415.xyz
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖🇭🇰TG频道@stymei1丨2
+  - name: 👖🇸🇬TG频道@stymei1丨8
     type: vless
-    server: snipaste.speedip.eu.org
-    port: 2053
-    uuid: 01991d1e-b984-7ddf-c81d-23f28850a01e
+    server: 104.26.12.31
+    port: 443
+    uuid: 019926a1-3614-561e-34b4-8082456be2e8
     encryption: none
     udp: true
     skip-cert-verify: true
     tfo: false
     tls: true
-    sni: blog.1547415.xyz
-    servername: blog.1547415.xyz
+    sni: 0000ts98qii783x1gnfa2vlwy961cwvxcx9s8v.31229412.xyz
+    servername: 0000ts98qii783x1gnfa2vlwy961cwvxcx9s8v.31229412.xyz
     network: ws
     ws-opts:
       path: /snippets?ip=proxyip:port(443)&nat64=6to4
       headers:
-        Host: blog.1547415.xyz
+        Host: 0000ts98qii783x1gnfa2vlwy961cwvxcx9s8v.31229412.xyz
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖🇭🇰TG频道@stymei1丨3
+  - name: 👖🇸🇬TG频道@stymei1丨9
     type: vless
-    server: snipaste.speedip.eu.org
-    port: 2053
-    uuid: 01991d1e-b984-7b4b-c81d-23f25f573962
+    server: snipaste1.speedip.eu.org
+    port: 443
+    uuid: 019926a1-3614-561e-34b4-8082456be2e8
     encryption: none
     udp: true
     skip-cert-verify: true
     tfo: false
     tls: true
-    sni: cfvs.eu.org
-    servername: cfvs.eu.org
+    sni: 0000ts98qilly0y5ibqpkauf9jrt4kwl97tgqpc3wvr11ap.5587124.xyz
+    servername: 0000ts98qilly0y5ibqpkauf9jrt4kwl97tgqpc3wvr11ap.5587124.xyz
     network: ws
     ws-opts:
       path: /snippets?ip=proxyip:port(443)&nat64=6to4
       headers:
-        Host: cfvs.eu.org
+        Host: 0000ts98qilly0y5ibqpkauf9jrt4kwl97tgqpc3wvr11ap.5587124.xyz
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖🇭🇰TG频道@stymei1丨4
+  - name: 👖🇸🇬TG频道@stymei1丨10
     type: vless
-    server: snipaste.speedip.eu.org
-    port: 2053
-    uuid: 01991d1e-b984-8642-c81d-23f2ef1b9601
+    server: snipaste3.speedip.eu.org
+    port: 443
+    uuid: 019926a1-3614-561e-34b4-8082456be2e8
     encryption: none
     udp: true
     skip-cert-verify: true
     tfo: false
     tls: true
-    sni: room.vroomvroom.cfd
-    servername: room.vroomvroom.cfd
+    sni: 0000ts98qi9huvql8qs3f4j9j7px48tdjsg9pymaa0fr4d2gjm7q2wqn8bwgvtvbtgr5j1o0612z0g8gt12987b1cbmdvxlacclj.gospeedygo.cyou
+    servername: 0000ts98qi9huvql8qs3f4j9j7px48tdjsg9pymaa0fr4d2gjm7q2wqn8bwgvtvbtgr5j1o0612z0g8gt12987b1cbmdvxlacclj.gospeedygo.cyou
     network: ws
     ws-opts:
       path: /snippets?ip=proxyip:port(443)&nat64=6to4
       headers:
-        Host: room.vroomvroom.cfd
+        Host: 0000ts98qi9huvql8qs3f4j9j7px48tdjsg9pymaa0fr4d2gjm7q2wqn8bwgvtvbtgr5j1o0612z0g8gt12987b1cbmdvxlacclj.gospeedygo.cyou
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖🇭🇰TG频道@stymei1丨5
+  - name: 👖🇸🇬TG频道@stymei1丨11
     type: vless
-    server: snipaste.speedip.eu.org
-    port: 2053
-    uuid: 01991d1e-b984-cc51-c81d-23f27213466f
+    server: snipaste2.speedip.eu.org
+    port: 443
+    uuid: 019926a1-3614-561e-34b4-8082456be2e8
     encryption: none
     udp: true
     skip-cert-verify: true
     tfo: false
     tls: true
-    sni: image.31229412.xyz
-    servername: image.31229412.xyz
+    sni: 0000ts98qi452twlx2277d0bp3mfpq1hbgywljw5h28p46e7n2oh96k4pgucgw0xvv3jmhd1m7j3.1547415.xyz
+    servername: 0000ts98qi452twlx2277d0bp3mfpq1hbgywljw5h28p46e7n2oh96k4pgucgw0xvv3jmhd1m7j3.1547415.xyz
     network: ws
     ws-opts:
       path: /snippets?ip=proxyip:port(443)&nat64=6to4
       headers:
-        Host: image.31229412.xyz
+        Host: 0000ts98qi452twlx2277d0bp3mfpq1hbgywljw5h28p46e7n2oh96k4pgucgw0xvv3jmhd1m7j3.1547415.xyz
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖🇭🇰TG频道@stymei1丨6
+  - name: 👖🇸🇬TG频道@stymei1丨12
     type: vless
-    server: snipaste.speedip.eu.org
-    port: 2053
-    uuid: 01991d1e-b984-966e-c81d-23f2ee4d02cb
+    server: snipaste4.speedip.eu.org
+    port: 443
+    uuid: 019926a1-3614-561e-34b4-8082456be2e8
     encryption: none
     udp: true
     skip-cert-verify: true
     tfo: false
     tls: true
-    sni: lovemoneycat.ggff.net
-    servername: lovemoneycat.ggff.net
+    sni: 0000ts98qi4skazgawmungceqh1y8dlin61rj8e9w6rdw0dfen4ylaww5osendokdv5ugbp3469udop6hp708jir2say53l3cj8s6ae9q.6871124.xyz
+    servername: 0000ts98qi4skazgawmungceqh1y8dlin61rj8e9w6rdw0dfen4ylaww5osendokdv5ugbp3469udop6hp708jir2say53l3cj8s6ae9q.6871124.xyz
     network: ws
     ws-opts:
       path: /snippets?ip=proxyip:port(443)&nat64=6to4
       headers:
-        Host: lovemoneycat.ggff.net
+        Host: 0000ts98qi4skazgawmungceqh1y8dlin61rj8e9w6rdw0dfen4ylaww5osendokdv5ugbp3469udop6hp708jir2say53l3cj8s6ae9q.6871124.xyz
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖🇭🇰TG频道@stymei1丨7
+  - name: 👖🇸🇬TG频道@stymei1丨13
     type: vless
-    server: snipaste.speedip.eu.org
-    port: 2053
-    uuid: 01991d1e-b984-1a09-c81d-23f27c9399fa
+    server: snipaste5.speedip.eu.org
+    port: 443
+    uuid: 019926a1-3614-561e-34b4-8082456be2e8
     encryption: none
     udp: true
     skip-cert-verify: true
     tfo: false
     tls: true
-    sni: www.vl.de5.net
-    servername: www.vl.de5.net
+    sni: 0000ts98qicxczd71il2ce18no05u8e9nt9ekefgdouvrn1bamt3oigyg0mw0zd6zb8pe.zmxquick.sbs
+    servername: 0000ts98qicxczd71il2ce18no05u8e9nt9ekefgdouvrn1bamt3oigyg0mw0zd6zb8pe.zmxquick.sbs
     network: ws
     ws-opts:
       path: /snippets?ip=proxyip:port(443)&nat64=6to4
       headers:
-        Host: www.vl.de5.net
+        Host: 0000ts98qicxczd71il2ce18no05u8e9nt9ekefgdouvrn1bamt3oigyg0mw0zd6zb8pe.zmxquick.sbs
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖🇭🇰TG频道@stymei1丨8
+  - name: 👖🇸🇬TG频道@stymei1丨14
     type: vless
-    server: snipaste.speedip.eu.org
-    port: 2053
-    uuid: 01991d1e-b984-068a-c81d-23f29ac289bf
+    server: snipaste2.speedip.eu.org
+    port: 443
+    uuid: 019926a1-3614-561e-34b4-8082456be2e8
     encryption: none
     udp: true
     skip-cert-verify: true
     tfo: false
     tls: true
-    sni: speed.gospeedygo.cyou
-    servername: speed.gospeedygo.cyou
+    sni: 0000ts98qir57sv0x9ypgxkof0b7s8sq3m8pbp5d4jvnt8hew2v5z2oxkyz4jehejz0a1whovf9xj6oscztuq3la5mjyl01dkojb5tz1g.6871124.xyz
+    servername: 0000ts98qir57sv0x9ypgxkof0b7s8sq3m8pbp5d4jvnt8hew2v5z2oxkyz4jehejz0a1whovf9xj6oscztuq3la5mjyl01dkojb5tz1g.6871124.xyz
     network: ws
     ws-opts:
       path: /snippets?ip=proxyip:port(443)&nat64=6to4
       headers:
-        Host: speed.gospeedygo.cyou
+        Host: 0000ts98qir57sv0x9ypgxkof0b7s8sq3m8pbp5d4jvnt8hew2v5z2oxkyz4jehejz0a1whovf9xj6oscztuq3la5mjyl01dkojb5tz1g.6871124.xyz
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖🇭🇰TG频道@stymei1丨9
+  - name: 👖🇸🇬TG频道@stymei1丨15
     type: vless
-    server: snipaste.speedip.eu.org
-    port: 2053
-    uuid: 01991d1e-b984-73b5-c81d-23f255bc7d99
+    server: snipaste3.speedip.eu.org
+    port: 443
+    uuid: 019926a1-3614-561e-34b4-8082456be2e8
     encryption: none
     udp: true
     skip-cert-verify: true
     tfo: false
     tls: true
-    sni: www.flashspeed.cloud-ip.cc
-    servername: www.flashspeed.cloud-ip.cc
+    sni: 0000ts98qifeltmikr7s5l2t6vefpgthvthbowja85o42vfx2nqcvb8h90tkzg5c424lbq3xo63m8c8hy94vf382aanpzjxkdv3113lxizu00e.vroomvroom.cfd
+    servername: 0000ts98qifeltmikr7s5l2t6vefpgthvthbowja85o42vfx2nqcvb8h90tkzg5c424lbq3xo63m8c8hy94vf382aanpzjxkdv3113lxizu00e.vroomvroom.cfd
     network: ws
     ws-opts:
       path: /snippets?ip=proxyip:port(443)&nat64=6to4
       headers:
-        Host: www.flashspeed.cloud-ip.cc
+        Host: 0000ts98qifeltmikr7s5l2t6vefpgthvthbowja85o42vfx2nqcvb8h90tkzg5c424lbq3xo63m8c8hy94vf382aanpzjxkdv3113lxizu00e.vroomvroom.cfd
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖🇭🇰TG频道@stymei1丨10
+  - name: 👖🇸🇬TG频道@stymei1丨16
     type: vless
-    server: snipaste.speedip.eu.org
-    port: 2053
-    uuid: 01991d1e-b984-9764-c81d-23f2a7bad870
+    server: snipaste1.speedip.eu.org
+    port: 443
+    uuid: 019926a1-3614-561e-34b4-8082456be2e8
     encryption: none
     udp: true
     skip-cert-verify: true
     tfo: false
     tls: true
-    sni: www.1154874.xyz
-    servername: www.1154874.xyz
+    sni: 0000ts98qiryn6fis9jyfxd4ac5cthr95duyvw8x7m4uzg282ojn9k3zkpyx0bie2nt6xmhqv3sqnxp.1154874.xyz
+    servername: 0000ts98qiryn6fis9jyfxd4ac5cthr95duyvw8x7m4uzg282ojn9k3zkpyx0bie2nt6xmhqv3sqnxp.1154874.xyz
     network: ws
     ws-opts:
       path: /snippets?ip=proxyip:port(443)&nat64=6to4
       headers:
-        Host: www.1154874.xyz
+        Host: 0000ts98qiryn6fis9jyfxd4ac5cthr95duyvw8x7m4uzg282ojn9k3zkpyx0bie2nt6xmhqv3sqnxp.1154874.xyz
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 👖🇭🇰TG频道@stymei1丨11
+  - name: 👖🇸🇬TG频道@stymei1丨17
     type: http
     server: twmoon1-cdn-route.couldflare-cdn.com
     port: 1443
@@ -221,7 +335,7 @@ proxies:
     sni: twmoon1-cdn-route.couldflare-cdn.com
     username: mrwdfNTD8M79LCukCieldrqZWqs=
   - type: hysteria2
-    name: 👖🇭🇰TG频道@stymei1丨12
+    name: 👖🇸🇬TG频道@stymei1丨18
     server: 47.129.100.149
     port: 17193
     password: 5OiuCsPmULZ0lJwts89fegLJE
@@ -232,7 +346,7 @@ proxies:
     fast-open: false
     servername: bing.com
   - type: hysteria2
-    name: 👖🇭🇰TG频道@stymei1丨13
+    name: 👖🇸🇬TG频道@stymei1丨19
     server: 47.129.217.4
     port: 22509
     password: 3hszBhqVsUhqOOFWJlev6k6Tkc
@@ -243,7 +357,7 @@ proxies:
     fast-open: false
     servername: bing.com
   - type: hysteria2
-    name: 👖🇭🇰TG频道@stymei1丨14
+    name: 👖🇸🇬TG频道@stymei1丨20
     server: 166.88.164.9
     port: 27704
     password: peEduuHzbExjK7UQHzazXwqgA
@@ -254,7 +368,7 @@ proxies:
     fast-open: false
     servername: bing.com
   - type: hysteria2
-    name: 👖🇭🇰TG频道@stymei1丨15
+    name: 👖🇸🇬TG频道@stymei1丨21
     server: 47.245.0.72
     port: 27789
     password: yD0mxkCA18WgPD1uVGd3Eu1dc
@@ -265,7 +379,7 @@ proxies:
     fast-open: false
     servername: bing.com
   - type: hysteria2
-    name: 👖🇭🇰TG频道@stymei1丨16
+    name: 👖🇸🇬TG频道@stymei1丨22
     server: 8.219.232.60
     port: 6467
     password: fWydUhyG3woKe4a0kcKKKdx78
@@ -276,7 +390,7 @@ proxies:
     fast-open: false
     servername: bing.com
   - type: hysteria2
-    name: 👖🇭🇰TG频道@stymei1丨17
+    name: 👖🇸🇬TG频道@stymei1丨23
     server: 47.237.23.83
     port: 4763
     password: KYIFgW1don6L8TaDBJHynafxZ0
@@ -287,21 +401,10 @@ proxies:
     fast-open: false
     servername: bing.com
   - type: hysteria2
-    name: 👖🇭🇰TG频道@stymei1丨18
+    name: 👖🇸🇬TG频道@stymei1丨24
     server: 47.76.83.25
     port: 11243
     password: L60nS04NhsoMpN2DDGbnMqLP8DY
-    sni: bing.com
-    skip-cert-verify: true
-    tfo: false
-    auth: ""
-    fast-open: false
-    servername: bing.com
-  - type: hysteria2
-    name: 👖🇭🇰TG频道@stymei1丨19
-    server: 158.41.110.234
-    port: 10820
-    password: 7GEEGxAfgQaVPQX0PGk7lIuj3I
     sni: bing.com
     skip-cert-verify: true
     tfo: false
@@ -314,264 +417,319 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 👖🇭🇰TG频道@stymei1丨1
-      - 👖🇭🇰TG频道@stymei1丨2
-      - 👖🇭🇰TG频道@stymei1丨3
-      - 👖🇭🇰TG频道@stymei1丨4
-      - 👖🇭🇰TG频道@stymei1丨5
-      - 👖🇭🇰TG频道@stymei1丨6
-      - 👖🇭🇰TG频道@stymei1丨7
-      - 👖🇭🇰TG频道@stymei1丨8
-      - 👖🇭🇰TG频道@stymei1丨9
-      - 👖🇭🇰TG频道@stymei1丨10
-      - 👖🇭🇰TG频道@stymei1丨11
-      - 👖🇭🇰TG频道@stymei1丨12
-      - 👖🇭🇰TG频道@stymei1丨13
-      - 👖🇭🇰TG频道@stymei1丨14
-      - 👖🇭🇰TG频道@stymei1丨15
-      - 👖🇭🇰TG频道@stymei1丨16
-      - 👖🇭🇰TG频道@stymei1丨17
-      - 👖🇭🇰TG频道@stymei1丨18
-      - 👖🇭🇰TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨1
+      - 👖🇸🇬TG频道@stymei1丨2
+      - 👖🇸🇬TG频道@stymei1丨3
+      - 👖🇸🇬TG频道@stymei1丨4
+      - 👖🇸🇬TG频道@stymei1丨5
+      - 👖🇸🇬TG频道@stymei1丨6
+      - 👖🇸🇬TG频道@stymei1丨7
+      - 👖🇸🇬TG频道@stymei1丨8
+      - 👖🇸🇬TG频道@stymei1丨9
+      - 👖🇸🇬TG频道@stymei1丨10
+      - 👖🇸🇬TG频道@stymei1丨11
+      - 👖🇸🇬TG频道@stymei1丨12
+      - 👖🇸🇬TG频道@stymei1丨13
+      - 👖🇸🇬TG频道@stymei1丨14
+      - 👖🇸🇬TG频道@stymei1丨15
+      - 👖🇸🇬TG频道@stymei1丨16
+      - 👖🇸🇬TG频道@stymei1丨17
+      - 👖🇸🇬TG频道@stymei1丨18
+      - 👖🇸🇬TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨20
+      - 👖🇸🇬TG频道@stymei1丨21
+      - 👖🇸🇬TG频道@stymei1丨22
+      - 👖🇸🇬TG频道@stymei1丨23
+      - 👖🇸🇬TG频道@stymei1丨24
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 👖🇭🇰TG频道@stymei1丨1
-      - 👖🇭🇰TG频道@stymei1丨2
-      - 👖🇭🇰TG频道@stymei1丨3
-      - 👖🇭🇰TG频道@stymei1丨4
-      - 👖🇭🇰TG频道@stymei1丨5
-      - 👖🇭🇰TG频道@stymei1丨6
-      - 👖🇭🇰TG频道@stymei1丨7
-      - 👖🇭🇰TG频道@stymei1丨8
-      - 👖🇭🇰TG频道@stymei1丨9
-      - 👖🇭🇰TG频道@stymei1丨10
-      - 👖🇭🇰TG频道@stymei1丨11
-      - 👖🇭🇰TG频道@stymei1丨12
-      - 👖🇭🇰TG频道@stymei1丨13
-      - 👖🇭🇰TG频道@stymei1丨14
-      - 👖🇭🇰TG频道@stymei1丨15
-      - 👖🇭🇰TG频道@stymei1丨16
-      - 👖🇭🇰TG频道@stymei1丨17
-      - 👖🇭🇰TG频道@stymei1丨18
-      - 👖🇭🇰TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨1
+      - 👖🇸🇬TG频道@stymei1丨2
+      - 👖🇸🇬TG频道@stymei1丨3
+      - 👖🇸🇬TG频道@stymei1丨4
+      - 👖🇸🇬TG频道@stymei1丨5
+      - 👖🇸🇬TG频道@stymei1丨6
+      - 👖🇸🇬TG频道@stymei1丨7
+      - 👖🇸🇬TG频道@stymei1丨8
+      - 👖🇸🇬TG频道@stymei1丨9
+      - 👖🇸🇬TG频道@stymei1丨10
+      - 👖🇸🇬TG频道@stymei1丨11
+      - 👖🇸🇬TG频道@stymei1丨12
+      - 👖🇸🇬TG频道@stymei1丨13
+      - 👖🇸🇬TG频道@stymei1丨14
+      - 👖🇸🇬TG频道@stymei1丨15
+      - 👖🇸🇬TG频道@stymei1丨16
+      - 👖🇸🇬TG频道@stymei1丨17
+      - 👖🇸🇬TG频道@stymei1丨18
+      - 👖🇸🇬TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨20
+      - 👖🇸🇬TG频道@stymei1丨21
+      - 👖🇸🇬TG频道@stymei1丨22
+      - 👖🇸🇬TG频道@stymei1丨23
+      - 👖🇸🇬TG频道@stymei1丨24
   - name: 📹 YouTube
     type: select
     proxies:
       - 🚀 手动切换
-      - 👖🇭🇰TG频道@stymei1丨1
-      - 👖🇭🇰TG频道@stymei1丨2
-      - 👖🇭🇰TG频道@stymei1丨3
-      - 👖🇭🇰TG频道@stymei1丨4
-      - 👖🇭🇰TG频道@stymei1丨5
-      - 👖🇭🇰TG频道@stymei1丨6
-      - 👖🇭🇰TG频道@stymei1丨7
-      - 👖🇭🇰TG频道@stymei1丨8
-      - 👖🇭🇰TG频道@stymei1丨9
-      - 👖🇭🇰TG频道@stymei1丨10
-      - 👖🇭🇰TG频道@stymei1丨11
-      - 👖🇭🇰TG频道@stymei1丨12
-      - 👖🇭🇰TG频道@stymei1丨13
-      - 👖🇭🇰TG频道@stymei1丨14
-      - 👖🇭🇰TG频道@stymei1丨15
-      - 👖🇭🇰TG频道@stymei1丨16
-      - 👖🇭🇰TG频道@stymei1丨17
-      - 👖🇭🇰TG频道@stymei1丨18
-      - 👖🇭🇰TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨1
+      - 👖🇸🇬TG频道@stymei1丨2
+      - 👖🇸🇬TG频道@stymei1丨3
+      - 👖🇸🇬TG频道@stymei1丨4
+      - 👖🇸🇬TG频道@stymei1丨5
+      - 👖🇸🇬TG频道@stymei1丨6
+      - 👖🇸🇬TG频道@stymei1丨7
+      - 👖🇸🇬TG频道@stymei1丨8
+      - 👖🇸🇬TG频道@stymei1丨9
+      - 👖🇸🇬TG频道@stymei1丨10
+      - 👖🇸🇬TG频道@stymei1丨11
+      - 👖🇸🇬TG频道@stymei1丨12
+      - 👖🇸🇬TG频道@stymei1丨13
+      - 👖🇸🇬TG频道@stymei1丨14
+      - 👖🇸🇬TG频道@stymei1丨15
+      - 👖🇸🇬TG频道@stymei1丨16
+      - 👖🇸🇬TG频道@stymei1丨17
+      - 👖🇸🇬TG频道@stymei1丨18
+      - 👖🇸🇬TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨20
+      - 👖🇸🇬TG频道@stymei1丨21
+      - 👖🇸🇬TG频道@stymei1丨22
+      - 👖🇸🇬TG频道@stymei1丨23
+      - 👖🇸🇬TG频道@stymei1丨24
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🚀 手动切换
-      - 👖🇭🇰TG频道@stymei1丨1
-      - 👖🇭🇰TG频道@stymei1丨2
-      - 👖🇭🇰TG频道@stymei1丨3
-      - 👖🇭🇰TG频道@stymei1丨4
-      - 👖🇭🇰TG频道@stymei1丨5
-      - 👖🇭🇰TG频道@stymei1丨6
-      - 👖🇭🇰TG频道@stymei1丨7
-      - 👖🇭🇰TG频道@stymei1丨8
-      - 👖🇭🇰TG频道@stymei1丨9
-      - 👖🇭🇰TG频道@stymei1丨10
-      - 👖🇭🇰TG频道@stymei1丨11
-      - 👖🇭🇰TG频道@stymei1丨12
-      - 👖🇭🇰TG频道@stymei1丨13
-      - 👖🇭🇰TG频道@stymei1丨14
-      - 👖🇭🇰TG频道@stymei1丨15
-      - 👖🇭🇰TG频道@stymei1丨16
-      - 👖🇭🇰TG频道@stymei1丨17
-      - 👖🇭🇰TG频道@stymei1丨18
-      - 👖🇭🇰TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨1
+      - 👖🇸🇬TG频道@stymei1丨2
+      - 👖🇸🇬TG频道@stymei1丨3
+      - 👖🇸🇬TG频道@stymei1丨4
+      - 👖🇸🇬TG频道@stymei1丨5
+      - 👖🇸🇬TG频道@stymei1丨6
+      - 👖🇸🇬TG频道@stymei1丨7
+      - 👖🇸🇬TG频道@stymei1丨8
+      - 👖🇸🇬TG频道@stymei1丨9
+      - 👖🇸🇬TG频道@stymei1丨10
+      - 👖🇸🇬TG频道@stymei1丨11
+      - 👖🇸🇬TG频道@stymei1丨12
+      - 👖🇸🇬TG频道@stymei1丨13
+      - 👖🇸🇬TG频道@stymei1丨14
+      - 👖🇸🇬TG频道@stymei1丨15
+      - 👖🇸🇬TG频道@stymei1丨16
+      - 👖🇸🇬TG频道@stymei1丨17
+      - 👖🇸🇬TG频道@stymei1丨18
+      - 👖🇸🇬TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨20
+      - 👖🇸🇬TG频道@stymei1丨21
+      - 👖🇸🇬TG频道@stymei1丨22
+      - 👖🇸🇬TG频道@stymei1丨23
+      - 👖🇸🇬TG频道@stymei1丨24
   - name: 🎮️ 游戏平台
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 👖🇭🇰TG频道@stymei1丨1
-      - 👖🇭🇰TG频道@stymei1丨2
-      - 👖🇭🇰TG频道@stymei1丨3
-      - 👖🇭🇰TG频道@stymei1丨4
-      - 👖🇭🇰TG频道@stymei1丨5
-      - 👖🇭🇰TG频道@stymei1丨6
-      - 👖🇭🇰TG频道@stymei1丨7
-      - 👖🇭🇰TG频道@stymei1丨8
-      - 👖🇭🇰TG频道@stymei1丨9
-      - 👖🇭🇰TG频道@stymei1丨10
-      - 👖🇭🇰TG频道@stymei1丨11
-      - 👖🇭🇰TG频道@stymei1丨12
-      - 👖🇭🇰TG频道@stymei1丨13
-      - 👖🇭🇰TG频道@stymei1丨14
-      - 👖🇭🇰TG频道@stymei1丨15
-      - 👖🇭🇰TG频道@stymei1丨16
-      - 👖🇭🇰TG频道@stymei1丨17
-      - 👖🇭🇰TG频道@stymei1丨18
-      - 👖🇭🇰TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨1
+      - 👖🇸🇬TG频道@stymei1丨2
+      - 👖🇸🇬TG频道@stymei1丨3
+      - 👖🇸🇬TG频道@stymei1丨4
+      - 👖🇸🇬TG频道@stymei1丨5
+      - 👖🇸🇬TG频道@stymei1丨6
+      - 👖🇸🇬TG频道@stymei1丨7
+      - 👖🇸🇬TG频道@stymei1丨8
+      - 👖🇸🇬TG频道@stymei1丨9
+      - 👖🇸🇬TG频道@stymei1丨10
+      - 👖🇸🇬TG频道@stymei1丨11
+      - 👖🇸🇬TG频道@stymei1丨12
+      - 👖🇸🇬TG频道@stymei1丨13
+      - 👖🇸🇬TG频道@stymei1丨14
+      - 👖🇸🇬TG频道@stymei1丨15
+      - 👖🇸🇬TG频道@stymei1丨16
+      - 👖🇸🇬TG频道@stymei1丨17
+      - 👖🇸🇬TG频道@stymei1丨18
+      - 👖🇸🇬TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨20
+      - 👖🇸🇬TG频道@stymei1丨21
+      - 👖🇸🇬TG频道@stymei1丨22
+      - 👖🇸🇬TG频道@stymei1丨23
+      - 👖🇸🇬TG频道@stymei1丨24
   - name: ChatGPT、Claude、Gemini、微软AI
     type: select
     proxies:
       - 🚀 手动切换
-      - 👖🇭🇰TG频道@stymei1丨1
-      - 👖🇭🇰TG频道@stymei1丨2
-      - 👖🇭🇰TG频道@stymei1丨3
-      - 👖🇭🇰TG频道@stymei1丨4
-      - 👖🇭🇰TG频道@stymei1丨5
-      - 👖🇭🇰TG频道@stymei1丨6
-      - 👖🇭🇰TG频道@stymei1丨7
-      - 👖🇭🇰TG频道@stymei1丨8
-      - 👖🇭🇰TG频道@stymei1丨9
-      - 👖🇭🇰TG频道@stymei1丨10
-      - 👖🇭🇰TG频道@stymei1丨11
-      - 👖🇭🇰TG频道@stymei1丨12
-      - 👖🇭🇰TG频道@stymei1丨13
-      - 👖🇭🇰TG频道@stymei1丨14
-      - 👖🇭🇰TG频道@stymei1丨15
-      - 👖🇭🇰TG频道@stymei1丨16
-      - 👖🇭🇰TG频道@stymei1丨17
-      - 👖🇭🇰TG频道@stymei1丨18
-      - 👖🇭🇰TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨1
+      - 👖🇸🇬TG频道@stymei1丨2
+      - 👖🇸🇬TG频道@stymei1丨3
+      - 👖🇸🇬TG频道@stymei1丨4
+      - 👖🇸🇬TG频道@stymei1丨5
+      - 👖🇸🇬TG频道@stymei1丨6
+      - 👖🇸🇬TG频道@stymei1丨7
+      - 👖🇸🇬TG频道@stymei1丨8
+      - 👖🇸🇬TG频道@stymei1丨9
+      - 👖🇸🇬TG频道@stymei1丨10
+      - 👖🇸🇬TG频道@stymei1丨11
+      - 👖🇸🇬TG频道@stymei1丨12
+      - 👖🇸🇬TG频道@stymei1丨13
+      - 👖🇸🇬TG频道@stymei1丨14
+      - 👖🇸🇬TG频道@stymei1丨15
+      - 👖🇸🇬TG频道@stymei1丨16
+      - 👖🇸🇬TG频道@stymei1丨17
+      - 👖🇸🇬TG频道@stymei1丨18
+      - 👖🇸🇬TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨20
+      - 👖🇸🇬TG频道@stymei1丨21
+      - 👖🇸🇬TG频道@stymei1丨22
+      - 👖🇸🇬TG频道@stymei1丨23
+      - 👖🇸🇬TG频道@stymei1丨24
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 👖🇭🇰TG频道@stymei1丨1
-      - 👖🇭🇰TG频道@stymei1丨2
-      - 👖🇭🇰TG频道@stymei1丨3
-      - 👖🇭🇰TG频道@stymei1丨4
-      - 👖🇭🇰TG频道@stymei1丨5
-      - 👖🇭🇰TG频道@stymei1丨6
-      - 👖🇭🇰TG频道@stymei1丨7
-      - 👖🇭🇰TG频道@stymei1丨8
-      - 👖🇭🇰TG频道@stymei1丨9
-      - 👖🇭🇰TG频道@stymei1丨10
-      - 👖🇭🇰TG频道@stymei1丨11
-      - 👖🇭🇰TG频道@stymei1丨12
-      - 👖🇭🇰TG频道@stymei1丨13
-      - 👖🇭🇰TG频道@stymei1丨14
-      - 👖🇭🇰TG频道@stymei1丨15
-      - 👖🇭🇰TG频道@stymei1丨16
-      - 👖🇭🇰TG频道@stymei1丨17
-      - 👖🇭🇰TG频道@stymei1丨18
-      - 👖🇭🇰TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨1
+      - 👖🇸🇬TG频道@stymei1丨2
+      - 👖🇸🇬TG频道@stymei1丨3
+      - 👖🇸🇬TG频道@stymei1丨4
+      - 👖🇸🇬TG频道@stymei1丨5
+      - 👖🇸🇬TG频道@stymei1丨6
+      - 👖🇸🇬TG频道@stymei1丨7
+      - 👖🇸🇬TG频道@stymei1丨8
+      - 👖🇸🇬TG频道@stymei1丨9
+      - 👖🇸🇬TG频道@stymei1丨10
+      - 👖🇸🇬TG频道@stymei1丨11
+      - 👖🇸🇬TG频道@stymei1丨12
+      - 👖🇸🇬TG频道@stymei1丨13
+      - 👖🇸🇬TG频道@stymei1丨14
+      - 👖🇸🇬TG频道@stymei1丨15
+      - 👖🇸🇬TG频道@stymei1丨16
+      - 👖🇸🇬TG频道@stymei1丨17
+      - 👖🇸🇬TG频道@stymei1丨18
+      - 👖🇸🇬TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨20
+      - 👖🇸🇬TG频道@stymei1丨21
+      - 👖🇸🇬TG频道@stymei1丨22
+      - 👖🇸🇬TG频道@stymei1丨23
+      - 👖🇸🇬TG频道@stymei1丨24
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 👖🇭🇰TG频道@stymei1丨1
-      - 👖🇭🇰TG频道@stymei1丨2
-      - 👖🇭🇰TG频道@stymei1丨3
-      - 👖🇭🇰TG频道@stymei1丨4
-      - 👖🇭🇰TG频道@stymei1丨5
-      - 👖🇭🇰TG频道@stymei1丨6
-      - 👖🇭🇰TG频道@stymei1丨7
-      - 👖🇭🇰TG频道@stymei1丨8
-      - 👖🇭🇰TG频道@stymei1丨9
-      - 👖🇭🇰TG频道@stymei1丨10
-      - 👖🇭🇰TG频道@stymei1丨11
-      - 👖🇭🇰TG频道@stymei1丨12
-      - 👖🇭🇰TG频道@stymei1丨13
-      - 👖🇭🇰TG频道@stymei1丨14
-      - 👖🇭🇰TG频道@stymei1丨15
-      - 👖🇭🇰TG频道@stymei1丨16
-      - 👖🇭🇰TG频道@stymei1丨17
-      - 👖🇭🇰TG频道@stymei1丨18
-      - 👖🇭🇰TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨1
+      - 👖🇸🇬TG频道@stymei1丨2
+      - 👖🇸🇬TG频道@stymei1丨3
+      - 👖🇸🇬TG频道@stymei1丨4
+      - 👖🇸🇬TG频道@stymei1丨5
+      - 👖🇸🇬TG频道@stymei1丨6
+      - 👖🇸🇬TG频道@stymei1丨7
+      - 👖🇸🇬TG频道@stymei1丨8
+      - 👖🇸🇬TG频道@stymei1丨9
+      - 👖🇸🇬TG频道@stymei1丨10
+      - 👖🇸🇬TG频道@stymei1丨11
+      - 👖🇸🇬TG频道@stymei1丨12
+      - 👖🇸🇬TG频道@stymei1丨13
+      - 👖🇸🇬TG频道@stymei1丨14
+      - 👖🇸🇬TG频道@stymei1丨15
+      - 👖🇸🇬TG频道@stymei1丨16
+      - 👖🇸🇬TG频道@stymei1丨17
+      - 👖🇸🇬TG频道@stymei1丨18
+      - 👖🇸🇬TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨20
+      - 👖🇸🇬TG频道@stymei1丨21
+      - 👖🇸🇬TG频道@stymei1丨22
+      - 👖🇸🇬TG频道@stymei1丨23
+      - 👖🇸🇬TG频道@stymei1丨24
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 👖🇭🇰TG频道@stymei1丨1
-      - 👖🇭🇰TG频道@stymei1丨2
-      - 👖🇭🇰TG频道@stymei1丨3
-      - 👖🇭🇰TG频道@stymei1丨4
-      - 👖🇭🇰TG频道@stymei1丨5
-      - 👖🇭🇰TG频道@stymei1丨6
-      - 👖🇭🇰TG频道@stymei1丨7
-      - 👖🇭🇰TG频道@stymei1丨8
-      - 👖🇭🇰TG频道@stymei1丨9
-      - 👖🇭🇰TG频道@stymei1丨10
-      - 👖🇭🇰TG频道@stymei1丨11
-      - 👖🇭🇰TG频道@stymei1丨12
-      - 👖🇭🇰TG频道@stymei1丨13
-      - 👖🇭🇰TG频道@stymei1丨14
-      - 👖🇭🇰TG频道@stymei1丨15
-      - 👖🇭🇰TG频道@stymei1丨16
-      - 👖🇭🇰TG频道@stymei1丨17
-      - 👖🇭🇰TG频道@stymei1丨18
-      - 👖🇭🇰TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨1
+      - 👖🇸🇬TG频道@stymei1丨2
+      - 👖🇸🇬TG频道@stymei1丨3
+      - 👖🇸🇬TG频道@stymei1丨4
+      - 👖🇸🇬TG频道@stymei1丨5
+      - 👖🇸🇬TG频道@stymei1丨6
+      - 👖🇸🇬TG频道@stymei1丨7
+      - 👖🇸🇬TG频道@stymei1丨8
+      - 👖🇸🇬TG频道@stymei1丨9
+      - 👖🇸🇬TG频道@stymei1丨10
+      - 👖🇸🇬TG频道@stymei1丨11
+      - 👖🇸🇬TG频道@stymei1丨12
+      - 👖🇸🇬TG频道@stymei1丨13
+      - 👖🇸🇬TG频道@stymei1丨14
+      - 👖🇸🇬TG频道@stymei1丨15
+      - 👖🇸🇬TG频道@stymei1丨16
+      - 👖🇸🇬TG频道@stymei1丨17
+      - 👖🇸🇬TG频道@stymei1丨18
+      - 👖🇸🇬TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨20
+      - 👖🇸🇬TG频道@stymei1丨21
+      - 👖🇸🇬TG频道@stymei1丨22
+      - 👖🇸🇬TG频道@stymei1丨23
+      - 👖🇸🇬TG频道@stymei1丨24
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 🚀 手动切换
-      - 👖🇭🇰TG频道@stymei1丨1
-      - 👖🇭🇰TG频道@stymei1丨2
-      - 👖🇭🇰TG频道@stymei1丨3
-      - 👖🇭🇰TG频道@stymei1丨4
-      - 👖🇭🇰TG频道@stymei1丨5
-      - 👖🇭🇰TG频道@stymei1丨6
-      - 👖🇭🇰TG频道@stymei1丨7
-      - 👖🇭🇰TG频道@stymei1丨8
-      - 👖🇭🇰TG频道@stymei1丨9
-      - 👖🇭🇰TG频道@stymei1丨10
-      - 👖🇭🇰TG频道@stymei1丨11
-      - 👖🇭🇰TG频道@stymei1丨12
-      - 👖🇭🇰TG频道@stymei1丨13
-      - 👖🇭🇰TG频道@stymei1丨14
-      - 👖🇭🇰TG频道@stymei1丨15
-      - 👖🇭🇰TG频道@stymei1丨16
-      - 👖🇭🇰TG频道@stymei1丨17
-      - 👖🇭🇰TG频道@stymei1丨18
-      - 👖🇭🇰TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨1
+      - 👖🇸🇬TG频道@stymei1丨2
+      - 👖🇸🇬TG频道@stymei1丨3
+      - 👖🇸🇬TG频道@stymei1丨4
+      - 👖🇸🇬TG频道@stymei1丨5
+      - 👖🇸🇬TG频道@stymei1丨6
+      - 👖🇸🇬TG频道@stymei1丨7
+      - 👖🇸🇬TG频道@stymei1丨8
+      - 👖🇸🇬TG频道@stymei1丨9
+      - 👖🇸🇬TG频道@stymei1丨10
+      - 👖🇸🇬TG频道@stymei1丨11
+      - 👖🇸🇬TG频道@stymei1丨12
+      - 👖🇸🇬TG频道@stymei1丨13
+      - 👖🇸🇬TG频道@stymei1丨14
+      - 👖🇸🇬TG频道@stymei1丨15
+      - 👖🇸🇬TG频道@stymei1丨16
+      - 👖🇸🇬TG频道@stymei1丨17
+      - 👖🇸🇬TG频道@stymei1丨18
+      - 👖🇸🇬TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨20
+      - 👖🇸🇬TG频道@stymei1丨21
+      - 👖🇸🇬TG频道@stymei1丨22
+      - 👖🇸🇬TG频道@stymei1丨23
+      - 👖🇸🇬TG频道@stymei1丨24
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 手动切换
       - 🎯 全球直连
-      - 👖🇭🇰TG频道@stymei1丨1
-      - 👖🇭🇰TG频道@stymei1丨2
-      - 👖🇭🇰TG频道@stymei1丨3
-      - 👖🇭🇰TG频道@stymei1丨4
-      - 👖🇭🇰TG频道@stymei1丨5
-      - 👖🇭🇰TG频道@stymei1丨6
-      - 👖🇭🇰TG频道@stymei1丨7
-      - 👖🇭🇰TG频道@stymei1丨8
-      - 👖🇭🇰TG频道@stymei1丨9
-      - 👖🇭🇰TG频道@stymei1丨10
-      - 👖🇭🇰TG频道@stymei1丨11
-      - 👖🇭🇰TG频道@stymei1丨12
-      - 👖🇭🇰TG频道@stymei1丨13
-      - 👖🇭🇰TG频道@stymei1丨14
-      - 👖🇭🇰TG频道@stymei1丨15
-      - 👖🇭🇰TG频道@stymei1丨16
-      - 👖🇭🇰TG频道@stymei1丨17
-      - 👖🇭🇰TG频道@stymei1丨18
-      - 👖🇭🇰TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨1
+      - 👖🇸🇬TG频道@stymei1丨2
+      - 👖🇸🇬TG频道@stymei1丨3
+      - 👖🇸🇬TG频道@stymei1丨4
+      - 👖🇸🇬TG频道@stymei1丨5
+      - 👖🇸🇬TG频道@stymei1丨6
+      - 👖🇸🇬TG频道@stymei1丨7
+      - 👖🇸🇬TG频道@stymei1丨8
+      - 👖🇸🇬TG频道@stymei1丨9
+      - 👖🇸🇬TG频道@stymei1丨10
+      - 👖🇸🇬TG频道@stymei1丨11
+      - 👖🇸🇬TG频道@stymei1丨12
+      - 👖🇸🇬TG频道@stymei1丨13
+      - 👖🇸🇬TG频道@stymei1丨14
+      - 👖🇸🇬TG频道@stymei1丨15
+      - 👖🇸🇬TG频道@stymei1丨16
+      - 👖🇸🇬TG频道@stymei1丨17
+      - 👖🇸🇬TG频道@stymei1丨18
+      - 👖🇸🇬TG频道@stymei1丨19
+      - 👖🇸🇬TG频道@stymei1丨20
+      - 👖🇸🇬TG频道@stymei1丨21
+      - 👖🇸🇬TG频道@stymei1丨22
+      - 👖🇸🇬TG频道@stymei1丨23
+      - 👖🇸🇬TG频道@stymei1丨24
 rules:
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
