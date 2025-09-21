@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/wsqstar/ResHosting@0.031/build/js/Sakura.js"></script>
+
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -51,6 +54,37 @@
             gap: 20px;
         }
 
+        .marquee-container {
+            overflow: hidden;
+            background: var(--primary-gradient);
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 10px 0;
+            box-shadow: var(--shadow);
+        }
+
+        .marquee {
+            white-space: nowrap;
+            display: flex;
+            animation: marquee 15s linear infinite;
+        }
+
+        .marquee a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 0 20px;
+        }
+
+        .marquee a:hover {
+            text-decoration: underline;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
         header {
             display: flex;
             justify-content: space-between;
@@ -62,29 +96,33 @@
         h1 {
             color: var(--primary-color);
             margin: 0;
-            font-size: 32px; /* 加大字号 */
-            font-weight: 900; /* 加粗 */
-            text-align: center; /* 居中 */
-            width: 100%; /* 占据整行 */
+            font-size: 32px;
+            font-weight: 900;
+            text-align: center;
+            width: 100%;
             padding: 10px 0;
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.2); /* 添加文字阴影增强可读性 */
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
         }
 
         .theme-toggle {
             background: var(--primary-gradient);
             color: white;
             border: none;
-            padding: 8px 15px;
-            border-radius: 20px;
+            padding: 10px 16px;
+            border-radius: 25px;
             cursor: pointer;
             font-size: 14px;
             display: flex;
             align-items: center;
-            gap: 5px;
+            gap: 8px;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
         }
 
         .theme-toggle:hover {
             background: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
         }
 
         .card {
@@ -215,44 +253,18 @@
             }
             
             h1 {
-                font-size: 28px; /* 移动端调整字号 */
+                font-size: 28px;
             }
             
             header {
                 flex-direction: column;
                 align-items: flex-start;
             }
-        }
-
-        .breadcrumb {
-            list-style: none;
-            margin: 0 0 25px 0;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .breadcrumb li {
-            display: flex;
-            align-items: center;
-        }
-
-        .breadcrumb li:not(:last-child)::after {
-            content: "/";
-            margin-left: 10px;
-            color: var(--text-primary);
-            opacity: 0.6;
-        }
-
-        .breadcrumb a {
-            color: var(--text-primary);
-            text-decoration: none;
-            font-size: 14px;
-        }
-
-        .breadcrumb a:hover {
-            text-decoration: underline;
+            
+            .theme-toggle {
+                align-self: flex-end;
+                margin-top: 10px;
+            }
         }
 
         .hidden {
@@ -273,10 +285,12 @@
 </head>
 <body>
     <div class="container">
-        <ul class="breadcrumb">
-            <li><a href="/">首页</a></li>
-            <li><a href="/ysub">订阅转换</a></li>
-        </ul>
+        <!-- 跑马灯 -->
+        <div class="marquee-container">
+            <div class="marquee">
+                <a href="https://kelayun.notepin.co" target="_blank">✈️克拉云机场，月付2元1000G流量，超低延迟的家宽ip，不限速不限设备</a>
+            </div>
+        </div>
 
         <header>
             <h1>裤佬全能订阅转换</h1>
@@ -388,8 +402,7 @@
         </div>
 
         <div class="footer">
-            <p>免责声明：本站涉及的远程后端均非本人所有，请谨慎使用并自行承担隐私泄露的风险。建议使用localhost或自建后端！</p>
-            <p><a href="https://whatshub.top" target="_blank">© yfamily</a></p>
+            <!-- 已移除版权信息 -->
         </div>
     </div>
 
@@ -442,12 +455,61 @@
                     document.body.classList.add("dark-mode");
                     elements.themeIcon.textContent = "☀️";
                     elements.themeText.textContent = "亮色模式";
+                } else {
+                    document.body.classList.remove("dark-mode");
+                    elements.themeIcon.textContent = "🌙";
+                    elements.themeText.textContent = "暗色模式";
                 }
 
                 updateCustomConfigVisibility();
                 updateCustomBackendVisibility();
                 updateBackendOptions();
                 updateOptionsBasedOnBackend();
+                
+                // 添加事件监听器
+                setupEventListeners();
+            }
+
+            // 设置事件监听器
+            function setupEventListeners() {
+                // 主题切换
+                elements.themeToggle.addEventListener("click", toggleDarkMode);
+                
+                // 配置变化
+                elements.subConfig.addEventListener("change", function() {
+                    localStorage.setItem("sub-config", elements.subConfig.value);
+                    updateCustomConfigVisibility();
+                });
+                
+                elements.customConfig.addEventListener("input", debounce(function() {
+                    localStorage.setItem("custom-config", elements.customConfig.value);
+                }, 300));
+                
+                elements.subBackend.addEventListener("change", function() {
+                    localStorage.setItem("sub-backend", elements.subBackend.value);
+                    updateCustomBackendVisibility();
+                    updateOptionsBasedOnBackend();
+                });
+                
+                elements.customBackend.addEventListener("input", debounce(function() {
+                    localStorage.setItem("custom-backend", elements.customBackend.value);
+                }, 300));
+                
+                elements.subOptions.addEventListener("change", function() {
+                    localStorage.setItem("sub-options", elements.subOptions.value);
+                    updateBackendOptions();
+                });
+                
+                elements.subFilepath.addEventListener("input", debounce(function() {
+                    localStorage.setItem("sub-filepath", elements.subFilepath.value);
+                }, 300));
+                
+                elements.subParams.addEventListener("input", debounce(function() {
+                    localStorage.setItem("sub-params", elements.subParams.value);
+                }, 300));
+                
+                // 生成订阅链接
+                elements.subGenerate.addEventListener("click", generateSubscription);
             }
 
             // 更新自定义配置可见性
@@ -531,97 +593,43 @@
                 }
             }
 
-            // 事件监听
-            elements.subConfig.addEventListener("change", function() {
-                localStorage.setItem("sub-config", elements.subConfig.value);
-                updateCustomConfigVisibility();
-            });
+            // 生成订阅链接
+            function generateSubscription() {
+                let backendUrl = elements.subBackend.value;
+                if (backendUrl === "custom") {
+                    backendUrl = elements.customBackend.value;
+                    if (!backendUrl) {
+                        alert("请输入自定义后端地址");
+                        return;
+                    }
+                }
 
-            elements.subBackend.addEventListener("change", function() {
-                localStorage.setItem("sub-backend", elements.subBackend.value);
-                updateCustomBackendVisibility();
-                updateOptionsBasedOnBackend();
-            });
-
-            elements.subOptions.addEventListener("change", function() {
-                localStorage.setItem("sub-options", elements.subOptions.value);
-                updateBackendOptions();
-            });
-
-            elements.subFilepath.addEventListener("input", debounce(function() {
-                localStorage.setItem("sub-filepath", elements.subFilepath.value);
-            }, 300));
-
-            elements.customConfig.addEventListener("input", debounce(function() {
-                localStorage.setItem("custom-config", elements.customConfig.value);
-            }, 300));
-
-            elements.customBackend.addEventListener("input", debounce(function() {
-                localStorage.setItem("custom-backend", elements.customBackend.value);
-            }, 300));
-
-            elements.subParams.addEventListener("input", debounce(function() {
-                localStorage.setItem("sub-params", elements.subParams.value);
-            }, 300));
-
-            elements.themeToggle.addEventListener("click", toggleDarkMode);
-
-            elements.subGenerate.addEventListener("click", async function() {
-                const subFilepath = elements.subFilepath.value.trim();
-                const subConfig = elements.subConfig.value;
-                const customConfig = elements.customConfig.value.trim();
-                const subBackend = elements.subBackend.value;
-                const customBackend = elements.customBackend.value.trim();
-                const subParams = elements.subParams.value.trim();
-                
-                if (!subFilepath) {
-                    alert("⚠️ 订阅链接或路径不能为空！");
+                const subLinks = elements.subFilepath.value.split('\n').filter(link => link.trim() !== '');
+                if (subLinks.length === 0) {
+                    alert("请输入订阅链接");
                     return;
                 }
 
-                if (subBackend === "custom" && !customBackend) {
-                    alert("⚠️ 自定义后端地址不能为空！");
-                    return;
+                const target = elements.subOptions.value;
+                let configUrl = elements.subConfig.value;
+                if (configUrl === "custom") {
+                    configUrl = elements.customConfig.value;
                 }
 
-                if (subConfig === "custom" && !customConfig) {
-                    alert("⚠️ 自定义规则地址不能为空！");
-                    return;
+                let params = elements.subParams.value;
+                if (configUrl) {
+                    params += `&config=${encodeURIComponent(configUrl)}`;
                 }
 
-                const selectedUrl = subBackend === "custom" ? 
-                    `https://${customBackend}/sub?target=` : 
-                    subBackend;
+                // 对每个订阅链接生成转换后的链接
+                const convertedLinks = subLinks.map(link => {
+                    return backendUrl + target + '&url=' + encodeURIComponent(link) + params;
+                });
 
-                let output = `${selectedUrl}${elements.subOptions.value}&url=${encodeURIComponent(subFilepath.replace(/\n/g, "|"))}`;
-
-                if (subConfig === "custom") {
-                    output += `&config=${encodeURIComponent(customConfig)}`;
-                } else if (subConfig) {
-                    output += `&config=${encodeURIComponent(subConfig)}`;
-                } else {
-                    output += "&list=true";
-                }
-
-                if (subParams) {
-                    output += `${subParams}`;
-                }
-
-                elements.subLink.href = output;
-                elements.subLink.textContent = output;
+                elements.subLink.href = convertedLinks[0];
+                elements.subLink.textContent = convertedLinks[0];
                 elements.resultContainer.classList.remove("hidden");
-
-                try {
-                    await navigator.clipboard.writeText(output);
-                    const originalText = elements.subGenerate.querySelector("span").textContent;
-                    elements.subGenerate.querySelector("span").textContent = "已复制到剪贴板！";
-                    setTimeout(() => {
-                        elements.subGenerate.querySelector("span").textContent = originalText;
-                    }, 2000);
-                } catch (err) {
-                    console.error("无法复制到剪贴板:", err);
-                }
-            });
+            }
 
             // 初始化应用
             init();
