@@ -6,9 +6,9 @@ log-level: info
 external-controller: 9090
 proxies:
   - name: 🇺🇸👖我的鸡巴18厘米丨1
-    server: www.visa.com.hk
+    server: dc7.hk.flow.host
     port: 443
-    type: vless
+    type: wireguard
     uuid: 20e6dd1f-2348-42c2-9f4c-c67b5ca4cb59
     tls: true
     tfo: false
@@ -24,10 +24,14 @@ proxies:
     cipher: ""
     flow: ""
     sni: do-sfo3.008883.xyz
+    ip: 10.212.29.170
+    mtu: 1420
+    private-key: 2NysqDhUfdIlKAex7K2OBFvx+PZtidJV8p6DiD71YWk=
+    public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
   - name: 🇺🇸👖我的鸡巴18厘米丨2
-    server: www.visa.com.hk
+    server: dc4.hk.flow.host
     port: 443
-    type: vless
+    type: wireguard
     uuid: 20e6dd1f-2348-42c2-9f4c-c67b5ca4cb59
     tls: true
     tfo: false
@@ -43,10 +47,14 @@ proxies:
     cipher: ""
     flow: ""
     sni: do-lon1.008883.xyz
+    ip: 10.212.29.170
+    mtu: 1420
+    private-key: 2NysqDhUfdIlKAex7K2OBFvx+PZtidJV8p6DiD71YWk=
+    public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
   - name: 🇺🇸👖我的鸡巴18厘米丨3
-    server: www.visa.com.hk
+    server: dc1.hk.flow.host
     port: 443
-    type: vless
+    type: wireguard
     uuid: 20e6dd1f-2348-42c2-9f4c-c67b5ca4cb59
     tls: true
     tfo: false
@@ -62,10 +70,14 @@ proxies:
     cipher: ""
     flow: ""
     sni: do-syd1.008883.xyz
+    ip: 10.212.29.170
+    mtu: 1420
+    private-key: 2NysqDhUfdIlKAex7K2OBFvx+PZtidJV8p6DiD71YWk=
+    public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
   - name: 🇺🇸👖我的鸡巴18厘米丨4
-    server: www.visa.com.hk
+    server: na.uk.flow.host
     port: 443
-    type: vless
+    type: wireguard
     uuid: 20e6dd1f-2348-42c2-9f4c-c67b5ca4cb59
     tls: true
     tfo: false
@@ -81,6 +93,10 @@ proxies:
     cipher: ""
     flow: ""
     sni: do-blr1.008883.xyz
+    ip: 10.212.29.170
+    mtu: 1420
+    private-key: 2NysqDhUfdIlKAex7K2OBFvx+PZtidJV8p6DiD71YWk=
+    public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
   - name: 🇺🇸👖我的鸡巴18厘米丨5
     server: ct.877774.xyz
     port: 443
