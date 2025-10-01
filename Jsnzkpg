@@ -6,197 +6,67 @@ log-level: info
 external-controller: 9090
 proxies:
   - name: 👖🇭🇰TG频道@stymei1
-    server: 63.141.226.123
-    port: 20000
-    ports: 20000-55000
-    mport: 20000-55000
-    udp: true
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    password: 4bc7104a-2c65-4fde-ad17-67f7ecdefee1
-    auth: ""
-    fast-open: false
-    servername: www.bing.com
-  - name: 👖🇭🇰2元1000G流量机场分享
-    server: 199.168.96.179
-    port: 20000
-    ports: 20000-55000
-    mport: 20000-55000
-    udp: true
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    password: 4bc7104a-2c65-4fde-ad17-67f7ecdefee1
-    auth: ""
-    fast-open: false
-    servername: www.bing.com
-  - name: 👖🇭🇰官网https://kelayun.notepin.co
-    server: 63.141.239.67
-    port: 20000
-    ports: 20000-55000
-    mport: 20000-55000
-    udp: true
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    password: 4bc7104a-2c65-4fde-ad17-67f7ecdefee1
-    auth: ""
-    fast-open: false
-    servername: www.bing.com
-  - name: 👖🇭🇰家宽ip
-    server: 107.150.55.131
-    port: 20000
-    ports: 20000-55000
-    mport: 20000-55000
-    udp: true
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    password: 4bc7104a-2c65-4fde-ad17-67f7ecdefee1
-    auth: ""
-    fast-open: false
-    servername: www.bing.com
-  - name: 👖🇭🇰商宽ip
-    server: 192.151.146.155
-    port: 20000
-    ports: 20000-55000
-    mport: 20000-55000
-    udp: true
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    password: 4bc7104a-2c65-4fde-ad17-67f7ecdefee1
-    auth: ""
-    fast-open: false
-    servername: www.bing.com
-  - name: 👖🇭🇰原生ip
-    server: 63.141.226.99
-    port: 20000
-    ports: 20000-55000
-    mport: 20000-55000
-    udp: true
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    password: 4bc7104a-2c65-4fde-ad17-67f7ecdefee1
-    auth: ""
-    fast-open: false
-    servername: www.bing.com
-  - name: 👖🇭🇰直连
-    server: 173.208.195.27
-    port: 20000
-    ports: 20000-55000
-    mport: 20000-55000
-    udp: true
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    password: 4bc7104a-2c65-4fde-ad17-67f7ecdefee1
-    auth: ""
-    fast-open: false
-    servername: www.bing.com
-  - name: 👖🇭🇰中转
-    server: 142.54.189.91
-    port: 20000
-    ports: 20000-55000
-    mport: 20000-55000
-    udp: true
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    password: 4bc7104a-2c65-4fde-ad17-67f7ecdefee1
-    auth: ""
-    fast-open: false
-    servername: www.bing.com
-  - name: 👖🇭🇰专线
-    server: 203.10.98.187
-    port: 20000
-    ports: 20000-55000
-    mport: 20000-55000
-    udp: true
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    password: 4bc7104a-2c65-4fde-ad17-67f7ecdefee1
-    auth: ""
-    fast-open: false
-    servername: www.bing.com
-  - name: 👖🇭🇰解锁Netflix
-    server: 203.10.98.187
-    port: 20000
-    ports: 20000-55000
-    mport: 20000-55000
-    udp: true
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    password: 4bc7104a-2c65-4fde-ad17-67f7ecdefee1
-    auth: ""
-    fast-open: false
-    servername: www.bing.com
-  - name: 👖🇭🇰解锁Disney
-    server: 203.10.98.187
-    port: 20000
-    ports: 20000-55000
-    mport: 20000-55000
-    udp: true
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    password: 4bc7104a-2c65-4fde-ad17-67f7ecdefee1
-    auth: ""
-    fast-open: false
-    servername: www.bing.com
-  - name: 👖🇭🇰解锁HBO
-    server: 85.159.92.97
-    port: 20000
-    ports: 20000-55000
-    mport: 20000-55000
-    udp: true
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    password: 4bc7104a-2c65-4fde-ad17-67f7ecdefee1
-    auth: ""
-    fast-open: false
-    servername: www.bing.com
-  - name: 👖🇭🇰解锁TikTok
-    type: vless
-    server: 204.10.194.78
-    port: 443
-    uuid: 4bc7104a-2c65-4fde-ad17-67f7ecdefee1
-    udp: true
+    server: 59.138.63.214
+    port: 20155
+    type: ss
+    uuid: d2273d9a-6064-41a5-bc39-e4e87fe60d35
     tls: true
-    skip-cert-verify: null
-    flow: xtls-rprx-vision
-    client-fingerprint: safari
-    servername: yfnl1.xn--4gq62f52gppi29k.com
-    alterId: 0
-    cipher: ""
-    reality-opts:
-      public-key: ""
-      short-id: ""
-    sni: yfnl1.xn--4gq62f52gppi29k.com
-  - name: 👖🇭🇰解锁ChatGPT
-    type: vless
-    server: 63.141.128.173
-    port: 443
-    uuid: 4bc7104a-2c65-4fde-ad17-67f7ecdefee1
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: ios
-    servername: nl1n.yfjc.sbs
+    tfo: false
+    skip-cert-verify: true
+    servername: do-blr1.008883.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /yfjc/knl1
+      path: /freev2.net?ed=2048
       headers:
-        Host: nl1n1.yfjc.sbs
-    alterId: 0
-    cipher: ""
-    sni: nl1n.yfjc.sbs
+        Host: do-blr1.008883.xyz
+    cipher: 2022-blake3-aes-256-gcm
+    password: tvfJ1dskO7ZoSqNJL1ku516Z4SG3oFE31koW+wA+Ii0=:J6QRG9TfsabK4lRw+nvV0a9WVhF6hCqnUGObiSgvn+E=
+    sni: do-blr1.008883.xyz
+  - name: 👖🇭🇰2元1000G流量机场分享
+    server: 59.138.63.214
+    port: 20147
+    type: ss
+    uuid: d2273d9a-6064-41a5-bc39-e4e87fe60d35
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: do-tor1.008883.xyz
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /freev2.net?ed=2048
+      headers:
+        Host: do-tor1.008883.xyz
+    cipher: 2022-blake3-aes-256-gcm
+    password: IDz3UxzW51k61uliAT7SK7d+suj+wHK4NqI81FUGSJg=:K4f6N0chedF7YQNokhq6pKrKFHDhvSRU98hL/dQfLcU=
+    sni: do-tor1.008883.xyz
+  - name: 👖🇭🇰官网https://kelayun.notepin.co
+    type: http
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    port: 1443
+    password: exaxgqkKkd0TAMrCxeonWg==
+    udp: true
+    tfo: false
+    tls: true
+    skip-cert-verify: null
+    network: tcp
+    alpn:
+      - http/1.1
+    servername: twmoon1-cdn-route.couldflare-cdn.com
+    sni: twmoon1-cdn-route.couldflare-cdn.com
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+  - name: 👖🇭🇰解锁ChatGPT
+    type: http
+    server: testkr3.ssv.vc
+    port: 30446
+    cipher: aes-256-cfb
+    password: test.+
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+    tls: true
+    username: test
 proxy-groups:
   - name: 🚀 手动切换
     type: select
@@ -207,16 +77,6 @@ proxy-groups:
       - 👖🇭🇰TG频道@stymei1
       - 👖🇭🇰2元1000G流量机场分享
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 👖🇭🇰家宽ip
-      - 👖🇭🇰商宽ip
-      - 👖🇭🇰原生ip
-      - 👖🇭🇰直连
-      - 👖🇭🇰中转
-      - 👖🇭🇰专线
-      - 👖🇭🇰解锁Netflix
-      - 👖🇭🇰解锁Disney
-      - 👖🇭🇰解锁HBO
-      - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: ♻️ 自动选择
     type: url-test
@@ -227,16 +87,6 @@ proxy-groups:
       - 👖🇭🇰TG频道@stymei1
       - 👖🇭🇰2元1000G流量机场分享
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 👖🇭🇰家宽ip
-      - 👖🇭🇰商宽ip
-      - 👖🇭🇰原生ip
-      - 👖🇭🇰直连
-      - 👖🇭🇰中转
-      - 👖🇭🇰专线
-      - 👖🇭🇰解锁Netflix
-      - 👖🇭🇰解锁Disney
-      - 👖🇭🇰解锁HBO
-      - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: 📹 YouTube
     type: select
@@ -245,16 +95,6 @@ proxy-groups:
       - 👖🇭🇰TG频道@stymei1
       - 👖🇭🇰2元1000G流量机场分享
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 👖🇭🇰家宽ip
-      - 👖🇭🇰商宽ip
-      - 👖🇭🇰原生ip
-      - 👖🇭🇰直连
-      - 👖🇭🇰中转
-      - 👖🇭🇰专线
-      - 👖🇭🇰解锁Netflix
-      - 👖🇭🇰解锁Disney
-      - 👖🇭🇰解锁HBO
-      - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: 🎥 NETFLIX
     type: select
@@ -263,16 +103,6 @@ proxy-groups:
       - 👖🇭🇰TG频道@stymei1
       - 👖🇭🇰2元1000G流量机场分享
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 👖🇭🇰家宽ip
-      - 👖🇭🇰商宽ip
-      - 👖🇭🇰原生ip
-      - 👖🇭🇰直连
-      - 👖🇭🇰中转
-      - 👖🇭🇰专线
-      - 👖🇭🇰解锁Netflix
-      - 👖🇭🇰解锁Disney
-      - 👖🇭🇰解锁HBO
-      - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: 🎮️ 游戏平台
     type: select
@@ -282,16 +112,6 @@ proxy-groups:
       - 👖🇭🇰TG频道@stymei1
       - 👖🇭🇰2元1000G流量机场分享
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 👖🇭🇰家宽ip
-      - 👖🇭🇰商宽ip
-      - 👖🇭🇰原生ip
-      - 👖🇭🇰直连
-      - 👖🇭🇰中转
-      - 👖🇭🇰专线
-      - 👖🇭🇰解锁Netflix
-      - 👖🇭🇰解锁Disney
-      - 👖🇭🇰解锁HBO
-      - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: ChatGPT、Claude、Gemini、微软AI
     type: select
@@ -299,16 +119,6 @@ proxy-groups:
       - 👖🇭🇰TG频道@stymei1
       - 👖🇭🇰2元1000G流量机场分享
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 👖🇭🇰家宽ip
-      - 👖🇭🇰商宽ip
-      - 👖🇭🇰原生ip
-      - 👖🇭🇰直连
-      - 👖🇭🇰中转
-      - 👖🇭🇰专线
-      - 👖🇭🇰解锁Netflix
-      - 👖🇭🇰解锁Disney
-      - 👖🇭🇰解锁HBO
-      - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: Ⓜ️ 微软服务
     type: select
@@ -318,16 +128,6 @@ proxy-groups:
       - 👖🇭🇰TG频道@stymei1
       - 👖🇭🇰2元1000G流量机场分享
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 👖🇭🇰家宽ip
-      - 👖🇭🇰商宽ip
-      - 👖🇭🇰原生ip
-      - 👖🇭🇰直连
-      - 👖🇭🇰中转
-      - 👖🇭🇰专线
-      - 👖🇭🇰解锁Netflix
-      - 👖🇭🇰解锁Disney
-      - 👖🇭🇰解锁HBO
-      - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: 📲 电报信息
     type: select
@@ -338,16 +138,6 @@ proxy-groups:
       - 👖🇭🇰TG频道@stymei1
       - 👖🇭🇰2元1000G流量机场分享
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 👖🇭🇰家宽ip
-      - 👖🇭🇰商宽ip
-      - 👖🇭🇰原生ip
-      - 👖🇭🇰直连
-      - 👖🇭🇰中转
-      - 👖🇭🇰专线
-      - 👖🇭🇰解锁Netflix
-      - 👖🇭🇰解锁Disney
-      - 👖🇭🇰解锁HBO
-      - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: 🍎 苹果服务
     type: select
@@ -357,16 +147,6 @@ proxy-groups:
       - 👖🇭🇰TG频道@stymei1
       - 👖🇭🇰2元1000G流量机场分享
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 👖🇭🇰家宽ip
-      - 👖🇭🇰商宽ip
-      - 👖🇭🇰原生ip
-      - 👖🇭🇰直连
-      - 👖🇭🇰中转
-      - 👖🇭🇰专线
-      - 👖🇭🇰解锁Netflix
-      - 👖🇭🇰解锁Disney
-      - 👖🇭🇰解锁HBO
-      - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: 🎯 全球直连
     type: select
@@ -376,16 +156,6 @@ proxy-groups:
       - 👖🇭🇰TG频道@stymei1
       - 👖🇭🇰2元1000G流量机场分享
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 👖🇭🇰家宽ip
-      - 👖🇭🇰商宽ip
-      - 👖🇭🇰原生ip
-      - 👖🇭🇰直连
-      - 👖🇭🇰中转
-      - 👖🇭🇰专线
-      - 👖🇭🇰解锁Netflix
-      - 👖🇭🇰解锁Disney
-      - 👖🇭🇰解锁HBO
-      - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: 🐟 漏网之鱼
     type: select
@@ -395,16 +165,6 @@ proxy-groups:
       - 👖🇭🇰TG频道@stymei1
       - 👖🇭🇰2元1000G流量机场分享
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 👖🇭🇰家宽ip
-      - 👖🇭🇰商宽ip
-      - 👖🇭🇰原生ip
-      - 👖🇭🇰直连
-      - 👖🇭🇰中转
-      - 👖🇭🇰专线
-      - 👖🇭🇰解锁Netflix
-      - 👖🇭🇰解锁Disney
-      - 👖🇭🇰解锁HBO
-      - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
 rules:
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
