@@ -5,749 +5,1496 @@ mode: Rule
 log-level: info
 external-controller: 9090
 proxies:
-  - name: 👖🇭🇰最低2块钱1000G流量
-    type: trojan
-    server: lazy.rsqpq.cn
-    port: 30001
-    password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
-    sni: 'null'
-    skip-cert-verify: true
-    network: tcp
-    alpn: null
-    flow: ''
-    udp: true
-    servername: "null"
-  - name: 👖🇭🇰不限速不限设备
-    type: trojan
-    server: lazy.rsqpq.cn
-    port: 30001
-    password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
-    sni: 'null'
-    skip-cert-verify: true
-    network: tcp
-    alpn: null
-    flow: ''
-    udp: true
-  - name: 👖🇭🇰终身永久无限流量仅200元
-    type: trojan
-    server: lazy.rsqpq.cn
-    port: 30001
-    password: 41a6b54a-9797-41a2-b329-63c31c197db8
-    sni: 'null'
-    skip-cert-verify: true
-    network: tcp
-    alpn: null
-    flow: ''
-    udp: true
   - name: 👖🇭🇰官网https://kelayun.notepin.co
     type: trojan
     server: lazy.rsqpq.cn
     port: 30001
-    password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
     sni: 'null'
     skip-cert-verify: true
     network: tcp
     alpn: null
     flow: ''
     udp: true
-  - name: 01-HK02|香港
+  - name: 👖🇭🇰最低2元1000G流量
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30001
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
+    sni: 'null'
+    skip-cert-verify: true
+    network: tcp
+    alpn: null
+    flow: ''
+    udp: true
+  - name: 👖🇭🇰终身无限流量200元永久
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30001
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
+    sni: 'null'
+    skip-cert-verify: true
+    network: tcp
+    alpn: null
+    flow: ''
+    udp: true
+  - name: 👖🇭🇰不限速
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30001
+    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
+    sni: 'null'
+    skip-cert-verify: true
+    network: tcp
+    alpn: null
+    flow: ''
+    udp: true
+  - name: 👖🇭🇰不限设备
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30001
+    password: f34966cd-2c76-48cd-94d5-90293682e14c
+    sni: 'null'
+    skip-cert-verify: true
+    network: tcp
+    alpn: null
+    flow: ''
+    udp: true
+  - name: 👖🇭🇰解锁ChatGPT
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30001
+    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+    sni: 'null'
+    skip-cert-verify: true
+    network: tcp
+    alpn: null
+    flow: ''
+    udp: true
+  - name: 👖🇭🇰解锁TikTok
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30001
+    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+    sni: 'null'
+    skip-cert-verify: true
+    network: tcp
+    alpn: null
+    flow: ''
+    udp: true
+  - name: 👖🇭🇰解锁Hulu
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30001
+    password: 57e41491-08ec-4798-ab19-8398d921e0f7
+    sni: 'null'
+    skip-cert-verify: true
+    network: tcp
+    alpn: null
+    flow: ''
+    udp: true
+  - name: 👖🇭🇰解锁奈飞
     type: trojan
     server: lazy.rsqpq.cn
     port: 30002
-    password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
-    sni: ''
+    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
+    sni: 'null'
     skip-cert-verify: true
     network: tcp
-    alpn: []
+    alpn: null
     flow: ''
     udp: true
-  - name: 02-HK02|香港
+  - name: 👖🇭🇰解锁迪士尼
     type: trojan
     server: lazy.rsqpq.cn
     port: 30002
-    password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
-    sni: ''
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
+    sni: 'null'
     skip-cert-verify: true
     network: tcp
-    alpn: []
+    alpn: null
     flow: ''
     udp: true
-  - name: 03-HK02|香港
+  - name: 👖🇭🇰解锁YouTube
     type: trojan
     server: lazy.rsqpq.cn
     port: 30002
-    password: 41a6b54a-9797-41a2-b329-63c31c197db8
-    sni: ''
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
+    sni: 'null'
     skip-cert-verify: true
     network: tcp
-    alpn: []
+    alpn: null
     flow: ''
     udp: true
-  - name: 04-HK02|香港
+  - name: 👖🇭🇰赠送小火箭共享账号
     type: trojan
     server: lazy.rsqpq.cn
     port: 30002
-    password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
+    sni: 'null'
+    skip-cert-verify: true
+    network: tcp
+    alpn: null
+    flow: ''
+    udp: true
+  - name: 👖🇭🇰永久套餐赠送IPLC专线
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30002
+    password: f34966cd-2c76-48cd-94d5-90293682e14c
+    sni: 'null'
+    skip-cert-verify: true
+    network: tcp
+    alpn: null
+    flow: ''
+    udp: true
+  - name: 06-HK02香港
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30002
+    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 01-HK03|香港
+  - name: 07-HK02香港
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30002
+    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 08-HK02香港
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30002
+    password: 57e41491-08ec-4798-ab19-8398d921e0f7
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 01-HK03香港
     type: trojan
     server: lazy.rsqpq.cn
     port: 30003
-    password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 02-HK03|香港
+  - name: 02-HK03香港
     type: trojan
     server: lazy.rsqpq.cn
     port: 30003
-    password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 03-HK03|香港
+  - name: 03-HK03香港
     type: trojan
     server: lazy.rsqpq.cn
     port: 30003
-    password: 41a6b54a-9797-41a2-b329-63c31c197db8
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 04-HK03|香港
+  - name: 04-HK03香港
     type: trojan
     server: lazy.rsqpq.cn
     port: 30003
-    password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 01-HK04|香港
+  - name: 05-HK03香港
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30003
+    password: f34966cd-2c76-48cd-94d5-90293682e14c
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 06-HK03香港
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30003
+    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 07-HK03香港
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30003
+    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 08-HK03香港
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30003
+    password: 57e41491-08ec-4798-ab19-8398d921e0f7
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 01-HK04香港
     type: trojan
     server: lazy.rsqpq.cn
     port: 30004
-    password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 02-HK04|香港
+  - name: 02-HK04香港
     type: trojan
     server: lazy.rsqpq.cn
     port: 30004
-    password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 03-HK04|香港
+  - name: 03-HK04香港
     type: trojan
     server: lazy.rsqpq.cn
     port: 30004
-    password: 41a6b54a-9797-41a2-b329-63c31c197db8
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 04-HK04|香港
+  - name: 04-HK04香港
     type: trojan
     server: lazy.rsqpq.cn
     port: 30004
-    password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 01-HK05|香港
+  - name: 05-HK04香港
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30004
+    password: f34966cd-2c76-48cd-94d5-90293682e14c
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 06-HK04香港
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30004
+    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 07-HK04香港
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30004
+    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 08-HK04香港
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30004
+    password: 57e41491-08ec-4798-ab19-8398d921e0f7
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 01-HK05香港
     type: trojan
     server: lazy.rsqpq.cn
     port: 30005
-    password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 02-HK05|香港
+  - name: 02-HK05香港
     type: trojan
     server: lazy.rsqpq.cn
     port: 30005
-    password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 03-HK05|香港
+  - name: 03-HK05香港
     type: trojan
     server: lazy.rsqpq.cn
     port: 30005
-    password: 41a6b54a-9797-41a2-b329-63c31c197db8
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 04-HK05|香港
+  - name: 04-HK05香港
     type: trojan
     server: lazy.rsqpq.cn
     port: 30005
-    password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 01-SG01|新加坡
+  - name: 05-HK05香港
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30005
+    password: f34966cd-2c76-48cd-94d5-90293682e14c
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 06-HK05香港
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30005
+    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 07-HK05香港
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30005
+    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 08-HK05香港
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 30005
+    password: 57e41491-08ec-4798-ab19-8398d921e0f7
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 01-SG01新加坡
     type: trojan
     server: lazy.rsqpq.cn
     port: 33001
-    password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 02-SG01|新加坡
+  - name: 02-SG01新加坡
     type: trojan
     server: lazy.rsqpq.cn
     port: 33001
-    password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 03-SG01|新加坡
+  - name: 03-SG01新加坡
     type: trojan
     server: lazy.rsqpq.cn
     port: 33001
-    password: 41a6b54a-9797-41a2-b329-63c31c197db8
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 04-SG01|新加坡
+  - name: 04-SG01新加坡
     type: trojan
     server: lazy.rsqpq.cn
     port: 33001
-    password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 01-SG02|新加坡
+  - name: 05-SG01新加坡
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 33001
+    password: f34966cd-2c76-48cd-94d5-90293682e14c
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 06-SG01新加坡
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 33001
+    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 07-SG01新加坡
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 33001
+    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 08-SG01新加坡
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 33001
+    password: 57e41491-08ec-4798-ab19-8398d921e0f7
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 01-SG02新加坡
     type: trojan
     server: lazy.rsqpq.cn
     port: 33005
-    password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 02-SG02|新加坡
+  - name: 02-SG02新加坡
     type: trojan
     server: lazy.rsqpq.cn
     port: 33005
-    password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 03-SG02|新加坡
+  - name: 03-SG02新加坡
     type: trojan
     server: lazy.rsqpq.cn
     port: 33005
-    password: 41a6b54a-9797-41a2-b329-63c31c197db8
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 04-SG02|新加坡
+  - name: 04-SG02新加坡
     type: trojan
     server: lazy.rsqpq.cn
     port: 33005
-    password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 01-JP01|日本
+  - name: 05-SG02新加坡
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 33005
+    password: f34966cd-2c76-48cd-94d5-90293682e14c
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 06-SG02新加坡
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 33005
+    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 07-SG02新加坡
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 33005
+    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 08-SG02新加坡
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 33005
+    password: 57e41491-08ec-4798-ab19-8398d921e0f7
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 01-JP01日本
     type: trojan
     server: lazy.rsqpq.cn
     port: 32001
-    password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 02-JP01|日本
+  - name: 02-JP01日本
     type: trojan
     server: lazy.rsqpq.cn
     port: 32001
-    password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 03-JP01|日本
+  - name: 03-JP01日本
     type: trojan
     server: lazy.rsqpq.cn
     port: 32001
-    password: 41a6b54a-9797-41a2-b329-63c31c197db8
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 04-JP01|日本
+  - name: 04-JP01日本
     type: trojan
     server: lazy.rsqpq.cn
     port: 32001
-    password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 01-JP02|日本
+  - name: 05-JP01日本
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 32001
+    password: f34966cd-2c76-48cd-94d5-90293682e14c
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 06-JP01日本
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 32001
+    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 07-JP01日本
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 32001
+    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 08-JP01日本
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 32001
+    password: 57e41491-08ec-4798-ab19-8398d921e0f7
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 01-JP02日本
     type: trojan
     server: lazy.rsqpq.cn
     port: 32002
-    password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 02-JP02|日本
+  - name: 02-JP02日本
     type: trojan
     server: lazy.rsqpq.cn
     port: 32002
-    password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 03-JP02|日本
+  - name: 03-JP02日本
     type: trojan
     server: lazy.rsqpq.cn
     port: 32002
-    password: 41a6b54a-9797-41a2-b329-63c31c197db8
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 04-JP02|日本
+  - name: 04-JP02日本
     type: trojan
     server: lazy.rsqpq.cn
     port: 32002
-    password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 01-TW01|台湾|x0.8
+  - name: 05-JP02日本
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 32002
+    password: f34966cd-2c76-48cd-94d5-90293682e14c
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 06-JP02日本
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 32002
+    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 07-JP02日本
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 32002
+    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 08-JP02日本
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 32002
+    password: 57e41491-08ec-4798-ab19-8398d921e0f7
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 01-TW01台湾
     type: trojan
     server: lazy.rsqpq.cn
     port: 38001
-    password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 02-TW01|台湾|x0.8
+  - name: 02-TW01台湾
     type: trojan
     server: lazy.rsqpq.cn
     port: 38001
-    password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 03-TW01|台湾|x0.8
+  - name: 03-TW01台湾
     type: trojan
     server: lazy.rsqpq.cn
     port: 38001
-    password: 41a6b54a-9797-41a2-b329-63c31c197db8
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 04-TW01|台湾|x0.8
+  - name: 04-TW01台湾
     type: trojan
     server: lazy.rsqpq.cn
     port: 38001
-    password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 01-TW02|台湾
+  - name: 05-TW01台湾
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 38001
+    password: f34966cd-2c76-48cd-94d5-90293682e14c
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 06-TW01台湾
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 38001
+    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 07-TW01台湾
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 38001
+    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 08-TW01台湾
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 38001
+    password: 57e41491-08ec-4798-ab19-8398d921e0f7
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 01-TW02台湾
     type: trojan
     server: lazy.rsqpq.cn
     port: 38002
-    password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 02-TW02|台湾
+  - name: 02-TW02台湾
     type: trojan
     server: lazy.rsqpq.cn
     port: 38002
-    password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 03-TW02|台湾
+  - name: 03-TW02台湾
     type: trojan
     server: lazy.rsqpq.cn
     port: 38002
-    password: 41a6b54a-9797-41a2-b329-63c31c197db8
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 04-TW02|台湾
+  - name: 04-TW02台湾
     type: trojan
     server: lazy.rsqpq.cn
     port: 38002
-    password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 01-TW03|台湾|x3.0
+  - name: 05-TW02台湾
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 38002
+    password: f34966cd-2c76-48cd-94d5-90293682e14c
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 06-TW02台湾
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 38002
+    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 07-TW02台湾
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 38002
+    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 08-TW02台湾
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 38002
+    password: 57e41491-08ec-4798-ab19-8398d921e0f7
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 01-TW03台湾
     type: trojan
     server: lazy.rsqpq.cn
     port: 38101
-    password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 02-TW03|台湾|x3.0
+  - name: 02-TW03台湾
     type: trojan
     server: lazy.rsqpq.cn
     port: 38101
-    password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 03-TW03|台湾|x3.0
+  - name: 03-TW03台湾
     type: trojan
     server: lazy.rsqpq.cn
     port: 38101
-    password: 41a6b54a-9797-41a2-b329-63c31c197db8
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 04-TW03|台湾|x3.0
+  - name: 04-TW03台湾
     type: trojan
     server: lazy.rsqpq.cn
     port: 38101
-    password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 01-US01|美国
+  - name: 05-TW03台湾
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 38101
+    password: f34966cd-2c76-48cd-94d5-90293682e14c
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 06-TW03台湾
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 38101
+    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 07-TW03台湾
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 38101
+    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 08-TW03台湾
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 38101
+    password: 57e41491-08ec-4798-ab19-8398d921e0f7
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 01-US01美国
     type: trojan
     server: lazy.rsqpq.cn
     port: 31001
-    password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 02-US01|美国
+  - name: 02-US01美国
     type: trojan
     server: lazy.rsqpq.cn
     port: 31001
-    password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 03-US01|美国
+  - name: 03-US01美国
     type: trojan
     server: lazy.rsqpq.cn
     port: 31001
-    password: 41a6b54a-9797-41a2-b329-63c31c197db8
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 04-US01|美国
+  - name: 04-US01美国
     type: trojan
     server: lazy.rsqpq.cn
     port: 31001
-    password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 01-US02|美国
+  - name: 05-US01美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31001
+    password: f34966cd-2c76-48cd-94d5-90293682e14c
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 06-US01美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31001
+    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 07-US01美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31001
+    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 08-US01美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31001
+    password: 57e41491-08ec-4798-ab19-8398d921e0f7
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 01-US02美国
     type: trojan
     server: lazy.rsqpq.cn
     port: 31002
-    password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 02-US02|美国
+  - name: 02-US02美国
     type: trojan
     server: lazy.rsqpq.cn
     port: 31002
-    password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 03-US02|美国
+  - name: 03-US02美国
     type: trojan
     server: lazy.rsqpq.cn
     port: 31002
-    password: 41a6b54a-9797-41a2-b329-63c31c197db8
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 04-US02|美国
+  - name: 04-US02美国
     type: trojan
     server: lazy.rsqpq.cn
     port: 31002
-    password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 01-US03|美国
+  - name: 05-US02美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31002
+    password: f34966cd-2c76-48cd-94d5-90293682e14c
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 06-US02美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31002
+    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 07-US02美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31002
+    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 08-US02美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31002
+    password: 57e41491-08ec-4798-ab19-8398d921e0f7
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 01-US03美国
     type: trojan
     server: lazy.rsqpq.cn
     port: 31003
-    password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 02-US03|美国
+  - name: 02-US03美国
     type: trojan
     server: lazy.rsqpq.cn
     port: 31003
-    password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 03-US03|美国
+  - name: 03-US03美国
     type: trojan
     server: lazy.rsqpq.cn
     port: 31003
-    password: 41a6b54a-9797-41a2-b329-63c31c197db8
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 04-US03|美国
+  - name: 04-US03美国
     type: trojan
     server: lazy.rsqpq.cn
     port: 31003
-    password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 01-US04|美国
+  - name: 05-US03美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31003
+    password: f34966cd-2c76-48cd-94d5-90293682e14c
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 06-US03美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31003
+    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 07-US03美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31003
+    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 08-US03美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31003
+    password: 57e41491-08ec-4798-ab19-8398d921e0f7
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 01-US04美国
     type: trojan
     server: lazy.rsqpq.cn
     port: 31006
-    password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 02-US04|美国
+  - name: 02-US04美国
     type: trojan
     server: lazy.rsqpq.cn
     port: 31006
-    password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 03-US04|美国
+  - name: 03-US04美国
     type: trojan
     server: lazy.rsqpq.cn
     port: 31006
-    password: 41a6b54a-9797-41a2-b329-63c31c197db8
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 04-US04|美国
+  - name: 04-US04美国
     type: trojan
     server: lazy.rsqpq.cn
     port: 31006
-    password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 01-US05|美国
+  - name: 05-US04美国
     type: trojan
     server: lazy.rsqpq.cn
-    port: 31009
-    password: 76b65886-6a71-47cd-9478-2c2f1f43ffc0
+    port: 31006
+    password: f34966cd-2c76-48cd-94d5-90293682e14c
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 02-US05|美国
+  - name: 06-US04美国
     type: trojan
     server: lazy.rsqpq.cn
-    port: 31009
-    password: d1e387e9-1798-4ca6-b12a-a52a9dd4002c
+    port: 31006
+    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 03-US05|美国
+  - name: 07-US04美国
     type: trojan
     server: lazy.rsqpq.cn
-    port: 31009
-    password: 41a6b54a-9797-41a2-b329-63c31c197db8
+    port: 31006
+    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
     sni: ''
     skip-cert-verify: true
     network: tcp
     alpn: []
     flow: ''
     udp: true
-  - name: 04-US05|美国
+  - name: 08-US04美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31006
+    password: 57e41491-08ec-4798-ab19-8398d921e0f7
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 01-US05美国
     type: trojan
     server: lazy.rsqpq.cn
     port: 31009
-    password: 320e1c1d-2838-492c-95de-2edb29ba13d5
+    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 02-US05美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31009
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 03-US05美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31009
+    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 04-US05美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31009
+    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 05-US05美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31009
+    password: f34966cd-2c76-48cd-94d5-90293682e14c
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 06-US05美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31009
+    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 07-US05美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31009
+    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
+    sni: ''
+    skip-cert-verify: true
+    network: tcp
+    alpn: []
+    flow: ''
+    udp: true
+  - name: 08-US05美国
+    type: trojan
+    server: lazy.rsqpq.cn
+    port: 31009
+    password: 57e41491-08ec-4798-ab19-8398d921e0f7
     sni: ''
     skip-cert-verify: true
     network: tcp
@@ -761,802 +1508,1550 @@ proxy-groups:
       - ♻️ 自动选择
       - ChatGPT、Claude、Gemini、微软AI
       - DIRECT
-      - 👖🇭🇰最低2块钱1000G流量
-      - 👖🇭🇰不限速不限设备
-      - 👖🇭🇰终身永久无限流量仅200元
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 01-HK02|香港
-      - 02-HK02|香港
-      - 03-HK02|香港
-      - 04-HK02|香港
-      - 01-HK03|香港
-      - 02-HK03|香港
-      - 03-HK03|香港
-      - 04-HK03|香港
-      - 01-HK04|香港
-      - 02-HK04|香港
-      - 03-HK04|香港
-      - 04-HK04|香港
-      - 01-HK05|香港
-      - 02-HK05|香港
-      - 03-HK05|香港
-      - 04-HK05|香港
-      - 01-SG01|新加坡
-      - 02-SG01|新加坡
-      - 03-SG01|新加坡
-      - 04-SG01|新加坡
-      - 01-SG02|新加坡
-      - 02-SG02|新加坡
-      - 03-SG02|新加坡
-      - 04-SG02|新加坡
-      - 01-JP01|日本
-      - 02-JP01|日本
-      - 03-JP01|日本
-      - 04-JP01|日本
-      - 01-JP02|日本
-      - 02-JP02|日本
-      - 03-JP02|日本
-      - 04-JP02|日本
-      - 01-TW01|台湾|x0.8
-      - 02-TW01|台湾|x0.8
-      - 03-TW01|台湾|x0.8
-      - 04-TW01|台湾|x0.8
-      - 01-TW02|台湾
-      - 02-TW02|台湾
-      - 03-TW02|台湾
-      - 04-TW02|台湾
-      - 01-TW03|台湾|x3.0
-      - 02-TW03|台湾|x3.0
-      - 03-TW03|台湾|x3.0
-      - 04-TW03|台湾|x3.0
-      - 01-US01|美国
-      - 02-US01|美国
-      - 03-US01|美国
-      - 04-US01|美国
-      - 01-US02|美国
-      - 02-US02|美国
-      - 03-US02|美国
-      - 04-US02|美国
-      - 01-US03|美国
-      - 02-US03|美国
-      - 03-US03|美国
-      - 04-US03|美国
-      - 01-US04|美国
-      - 02-US04|美国
-      - 03-US04|美国
-      - 04-US04|美国
-      - 01-US05|美国
-      - 02-US05|美国
-      - 03-US05|美国
-      - 04-US05|美国
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰终身无限流量200元永久
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰解锁ChatGPT
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁Hulu
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰赠送小火箭共享账号
+      - 👖🇭🇰永久套餐赠送IPLC专线
+      - 06-HK02香港
+      - 07-HK02香港
+      - 08-HK02香港
+      - 01-HK03香港
+      - 02-HK03香港
+      - 03-HK03香港
+      - 04-HK03香港
+      - 05-HK03香港
+      - 06-HK03香港
+      - 07-HK03香港
+      - 08-HK03香港
+      - 01-HK04香港
+      - 02-HK04香港
+      - 03-HK04香港
+      - 04-HK04香港
+      - 05-HK04香港
+      - 06-HK04香港
+      - 07-HK04香港
+      - 08-HK04香港
+      - 01-HK05香港
+      - 02-HK05香港
+      - 03-HK05香港
+      - 04-HK05香港
+      - 05-HK05香港
+      - 06-HK05香港
+      - 07-HK05香港
+      - 08-HK05香港
+      - 01-SG01新加坡
+      - 02-SG01新加坡
+      - 03-SG01新加坡
+      - 04-SG01新加坡
+      - 05-SG01新加坡
+      - 06-SG01新加坡
+      - 07-SG01新加坡
+      - 08-SG01新加坡
+      - 01-SG02新加坡
+      - 02-SG02新加坡
+      - 03-SG02新加坡
+      - 04-SG02新加坡
+      - 05-SG02新加坡
+      - 06-SG02新加坡
+      - 07-SG02新加坡
+      - 08-SG02新加坡
+      - 01-JP01日本
+      - 02-JP01日本
+      - 03-JP01日本
+      - 04-JP01日本
+      - 05-JP01日本
+      - 06-JP01日本
+      - 07-JP01日本
+      - 08-JP01日本
+      - 01-JP02日本
+      - 02-JP02日本
+      - 03-JP02日本
+      - 04-JP02日本
+      - 05-JP02日本
+      - 06-JP02日本
+      - 07-JP02日本
+      - 08-JP02日本
+      - 01-TW01台湾
+      - 02-TW01台湾
+      - 03-TW01台湾
+      - 04-TW01台湾
+      - 05-TW01台湾
+      - 06-TW01台湾
+      - 07-TW01台湾
+      - 08-TW01台湾
+      - 01-TW02台湾
+      - 02-TW02台湾
+      - 03-TW02台湾
+      - 04-TW02台湾
+      - 05-TW02台湾
+      - 06-TW02台湾
+      - 07-TW02台湾
+      - 08-TW02台湾
+      - 01-TW03台湾
+      - 02-TW03台湾
+      - 03-TW03台湾
+      - 04-TW03台湾
+      - 05-TW03台湾
+      - 06-TW03台湾
+      - 07-TW03台湾
+      - 08-TW03台湾
+      - 01-US01美国
+      - 02-US01美国
+      - 03-US01美国
+      - 04-US01美国
+      - 05-US01美国
+      - 06-US01美国
+      - 07-US01美国
+      - 08-US01美国
+      - 01-US02美国
+      - 02-US02美国
+      - 03-US02美国
+      - 04-US02美国
+      - 05-US02美国
+      - 06-US02美国
+      - 07-US02美国
+      - 08-US02美国
+      - 01-US03美国
+      - 02-US03美国
+      - 03-US03美国
+      - 04-US03美国
+      - 05-US03美国
+      - 06-US03美国
+      - 07-US03美国
+      - 08-US03美国
+      - 01-US04美国
+      - 02-US04美国
+      - 03-US04美国
+      - 04-US04美国
+      - 05-US04美国
+      - 06-US04美国
+      - 07-US04美国
+      - 08-US04美国
+      - 01-US05美国
+      - 02-US05美国
+      - 03-US05美国
+      - 04-US05美国
+      - 05-US05美国
+      - 06-US05美国
+      - 07-US05美国
+      - 08-US05美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 👖🇭🇰最低2块钱1000G流量
-      - 👖🇭🇰不限速不限设备
-      - 👖🇭🇰终身永久无限流量仅200元
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 01-HK02|香港
-      - 02-HK02|香港
-      - 03-HK02|香港
-      - 04-HK02|香港
-      - 01-HK03|香港
-      - 02-HK03|香港
-      - 03-HK03|香港
-      - 04-HK03|香港
-      - 01-HK04|香港
-      - 02-HK04|香港
-      - 03-HK04|香港
-      - 04-HK04|香港
-      - 01-HK05|香港
-      - 02-HK05|香港
-      - 03-HK05|香港
-      - 04-HK05|香港
-      - 01-SG01|新加坡
-      - 02-SG01|新加坡
-      - 03-SG01|新加坡
-      - 04-SG01|新加坡
-      - 01-SG02|新加坡
-      - 02-SG02|新加坡
-      - 03-SG02|新加坡
-      - 04-SG02|新加坡
-      - 01-JP01|日本
-      - 02-JP01|日本
-      - 03-JP01|日本
-      - 04-JP01|日本
-      - 01-JP02|日本
-      - 02-JP02|日本
-      - 03-JP02|日本
-      - 04-JP02|日本
-      - 01-TW01|台湾|x0.8
-      - 02-TW01|台湾|x0.8
-      - 03-TW01|台湾|x0.8
-      - 04-TW01|台湾|x0.8
-      - 01-TW02|台湾
-      - 02-TW02|台湾
-      - 03-TW02|台湾
-      - 04-TW02|台湾
-      - 01-TW03|台湾|x3.0
-      - 02-TW03|台湾|x3.0
-      - 03-TW03|台湾|x3.0
-      - 04-TW03|台湾|x3.0
-      - 01-US01|美国
-      - 02-US01|美国
-      - 03-US01|美国
-      - 04-US01|美国
-      - 01-US02|美国
-      - 02-US02|美国
-      - 03-US02|美国
-      - 04-US02|美国
-      - 01-US03|美国
-      - 02-US03|美国
-      - 03-US03|美国
-      - 04-US03|美国
-      - 01-US04|美国
-      - 02-US04|美国
-      - 03-US04|美国
-      - 04-US04|美国
-      - 01-US05|美国
-      - 02-US05|美国
-      - 03-US05|美国
-      - 04-US05|美国
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰终身无限流量200元永久
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰解锁ChatGPT
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁Hulu
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰赠送小火箭共享账号
+      - 👖🇭🇰永久套餐赠送IPLC专线
+      - 06-HK02香港
+      - 07-HK02香港
+      - 08-HK02香港
+      - 01-HK03香港
+      - 02-HK03香港
+      - 03-HK03香港
+      - 04-HK03香港
+      - 05-HK03香港
+      - 06-HK03香港
+      - 07-HK03香港
+      - 08-HK03香港
+      - 01-HK04香港
+      - 02-HK04香港
+      - 03-HK04香港
+      - 04-HK04香港
+      - 05-HK04香港
+      - 06-HK04香港
+      - 07-HK04香港
+      - 08-HK04香港
+      - 01-HK05香港
+      - 02-HK05香港
+      - 03-HK05香港
+      - 04-HK05香港
+      - 05-HK05香港
+      - 06-HK05香港
+      - 07-HK05香港
+      - 08-HK05香港
+      - 01-SG01新加坡
+      - 02-SG01新加坡
+      - 03-SG01新加坡
+      - 04-SG01新加坡
+      - 05-SG01新加坡
+      - 06-SG01新加坡
+      - 07-SG01新加坡
+      - 08-SG01新加坡
+      - 01-SG02新加坡
+      - 02-SG02新加坡
+      - 03-SG02新加坡
+      - 04-SG02新加坡
+      - 05-SG02新加坡
+      - 06-SG02新加坡
+      - 07-SG02新加坡
+      - 08-SG02新加坡
+      - 01-JP01日本
+      - 02-JP01日本
+      - 03-JP01日本
+      - 04-JP01日本
+      - 05-JP01日本
+      - 06-JP01日本
+      - 07-JP01日本
+      - 08-JP01日本
+      - 01-JP02日本
+      - 02-JP02日本
+      - 03-JP02日本
+      - 04-JP02日本
+      - 05-JP02日本
+      - 06-JP02日本
+      - 07-JP02日本
+      - 08-JP02日本
+      - 01-TW01台湾
+      - 02-TW01台湾
+      - 03-TW01台湾
+      - 04-TW01台湾
+      - 05-TW01台湾
+      - 06-TW01台湾
+      - 07-TW01台湾
+      - 08-TW01台湾
+      - 01-TW02台湾
+      - 02-TW02台湾
+      - 03-TW02台湾
+      - 04-TW02台湾
+      - 05-TW02台湾
+      - 06-TW02台湾
+      - 07-TW02台湾
+      - 08-TW02台湾
+      - 01-TW03台湾
+      - 02-TW03台湾
+      - 03-TW03台湾
+      - 04-TW03台湾
+      - 05-TW03台湾
+      - 06-TW03台湾
+      - 07-TW03台湾
+      - 08-TW03台湾
+      - 01-US01美国
+      - 02-US01美国
+      - 03-US01美国
+      - 04-US01美国
+      - 05-US01美国
+      - 06-US01美国
+      - 07-US01美国
+      - 08-US01美国
+      - 01-US02美国
+      - 02-US02美国
+      - 03-US02美国
+      - 04-US02美国
+      - 05-US02美国
+      - 06-US02美国
+      - 07-US02美国
+      - 08-US02美国
+      - 01-US03美国
+      - 02-US03美国
+      - 03-US03美国
+      - 04-US03美国
+      - 05-US03美国
+      - 06-US03美国
+      - 07-US03美国
+      - 08-US03美国
+      - 01-US04美国
+      - 02-US04美国
+      - 03-US04美国
+      - 04-US04美国
+      - 05-US04美国
+      - 06-US04美国
+      - 07-US04美国
+      - 08-US04美国
+      - 01-US05美国
+      - 02-US05美国
+      - 03-US05美国
+      - 04-US05美国
+      - 05-US05美国
+      - 06-US05美国
+      - 07-US05美国
+      - 08-US05美国
   - name: 📹 YouTube
     type: select
     proxies:
       - 🚀 手动切换
-      - 👖🇭🇰最低2块钱1000G流量
-      - 👖🇭🇰不限速不限设备
-      - 👖🇭🇰终身永久无限流量仅200元
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 01-HK02|香港
-      - 02-HK02|香港
-      - 03-HK02|香港
-      - 04-HK02|香港
-      - 01-HK03|香港
-      - 02-HK03|香港
-      - 03-HK03|香港
-      - 04-HK03|香港
-      - 01-HK04|香港
-      - 02-HK04|香港
-      - 03-HK04|香港
-      - 04-HK04|香港
-      - 01-HK05|香港
-      - 02-HK05|香港
-      - 03-HK05|香港
-      - 04-HK05|香港
-      - 01-SG01|新加坡
-      - 02-SG01|新加坡
-      - 03-SG01|新加坡
-      - 04-SG01|新加坡
-      - 01-SG02|新加坡
-      - 02-SG02|新加坡
-      - 03-SG02|新加坡
-      - 04-SG02|新加坡
-      - 01-JP01|日本
-      - 02-JP01|日本
-      - 03-JP01|日本
-      - 04-JP01|日本
-      - 01-JP02|日本
-      - 02-JP02|日本
-      - 03-JP02|日本
-      - 04-JP02|日本
-      - 01-TW01|台湾|x0.8
-      - 02-TW01|台湾|x0.8
-      - 03-TW01|台湾|x0.8
-      - 04-TW01|台湾|x0.8
-      - 01-TW02|台湾
-      - 02-TW02|台湾
-      - 03-TW02|台湾
-      - 04-TW02|台湾
-      - 01-TW03|台湾|x3.0
-      - 02-TW03|台湾|x3.0
-      - 03-TW03|台湾|x3.0
-      - 04-TW03|台湾|x3.0
-      - 01-US01|美国
-      - 02-US01|美国
-      - 03-US01|美国
-      - 04-US01|美国
-      - 01-US02|美国
-      - 02-US02|美国
-      - 03-US02|美国
-      - 04-US02|美国
-      - 01-US03|美国
-      - 02-US03|美国
-      - 03-US03|美国
-      - 04-US03|美国
-      - 01-US04|美国
-      - 02-US04|美国
-      - 03-US04|美国
-      - 04-US04|美国
-      - 01-US05|美国
-      - 02-US05|美国
-      - 03-US05|美国
-      - 04-US05|美国
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰终身无限流量200元永久
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰解锁ChatGPT
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁Hulu
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰赠送小火箭共享账号
+      - 👖🇭🇰永久套餐赠送IPLC专线
+      - 06-HK02香港
+      - 07-HK02香港
+      - 08-HK02香港
+      - 01-HK03香港
+      - 02-HK03香港
+      - 03-HK03香港
+      - 04-HK03香港
+      - 05-HK03香港
+      - 06-HK03香港
+      - 07-HK03香港
+      - 08-HK03香港
+      - 01-HK04香港
+      - 02-HK04香港
+      - 03-HK04香港
+      - 04-HK04香港
+      - 05-HK04香港
+      - 06-HK04香港
+      - 07-HK04香港
+      - 08-HK04香港
+      - 01-HK05香港
+      - 02-HK05香港
+      - 03-HK05香港
+      - 04-HK05香港
+      - 05-HK05香港
+      - 06-HK05香港
+      - 07-HK05香港
+      - 08-HK05香港
+      - 01-SG01新加坡
+      - 02-SG01新加坡
+      - 03-SG01新加坡
+      - 04-SG01新加坡
+      - 05-SG01新加坡
+      - 06-SG01新加坡
+      - 07-SG01新加坡
+      - 08-SG01新加坡
+      - 01-SG02新加坡
+      - 02-SG02新加坡
+      - 03-SG02新加坡
+      - 04-SG02新加坡
+      - 05-SG02新加坡
+      - 06-SG02新加坡
+      - 07-SG02新加坡
+      - 08-SG02新加坡
+      - 01-JP01日本
+      - 02-JP01日本
+      - 03-JP01日本
+      - 04-JP01日本
+      - 05-JP01日本
+      - 06-JP01日本
+      - 07-JP01日本
+      - 08-JP01日本
+      - 01-JP02日本
+      - 02-JP02日本
+      - 03-JP02日本
+      - 04-JP02日本
+      - 05-JP02日本
+      - 06-JP02日本
+      - 07-JP02日本
+      - 08-JP02日本
+      - 01-TW01台湾
+      - 02-TW01台湾
+      - 03-TW01台湾
+      - 04-TW01台湾
+      - 05-TW01台湾
+      - 06-TW01台湾
+      - 07-TW01台湾
+      - 08-TW01台湾
+      - 01-TW02台湾
+      - 02-TW02台湾
+      - 03-TW02台湾
+      - 04-TW02台湾
+      - 05-TW02台湾
+      - 06-TW02台湾
+      - 07-TW02台湾
+      - 08-TW02台湾
+      - 01-TW03台湾
+      - 02-TW03台湾
+      - 03-TW03台湾
+      - 04-TW03台湾
+      - 05-TW03台湾
+      - 06-TW03台湾
+      - 07-TW03台湾
+      - 08-TW03台湾
+      - 01-US01美国
+      - 02-US01美国
+      - 03-US01美国
+      - 04-US01美国
+      - 05-US01美国
+      - 06-US01美国
+      - 07-US01美国
+      - 08-US01美国
+      - 01-US02美国
+      - 02-US02美国
+      - 03-US02美国
+      - 04-US02美国
+      - 05-US02美国
+      - 06-US02美国
+      - 07-US02美国
+      - 08-US02美国
+      - 01-US03美国
+      - 02-US03美国
+      - 03-US03美国
+      - 04-US03美国
+      - 05-US03美国
+      - 06-US03美国
+      - 07-US03美国
+      - 08-US03美国
+      - 01-US04美国
+      - 02-US04美国
+      - 03-US04美国
+      - 04-US04美国
+      - 05-US04美国
+      - 06-US04美国
+      - 07-US04美国
+      - 08-US04美国
+      - 01-US05美国
+      - 02-US05美国
+      - 03-US05美国
+      - 04-US05美国
+      - 05-US05美国
+      - 06-US05美国
+      - 07-US05美国
+      - 08-US05美国
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🚀 手动切换
-      - 👖🇭🇰最低2块钱1000G流量
-      - 👖🇭🇰不限速不限设备
-      - 👖🇭🇰终身永久无限流量仅200元
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 01-HK02|香港
-      - 02-HK02|香港
-      - 03-HK02|香港
-      - 04-HK02|香港
-      - 01-HK03|香港
-      - 02-HK03|香港
-      - 03-HK03|香港
-      - 04-HK03|香港
-      - 01-HK04|香港
-      - 02-HK04|香港
-      - 03-HK04|香港
-      - 04-HK04|香港
-      - 01-HK05|香港
-      - 02-HK05|香港
-      - 03-HK05|香港
-      - 04-HK05|香港
-      - 01-SG01|新加坡
-      - 02-SG01|新加坡
-      - 03-SG01|新加坡
-      - 04-SG01|新加坡
-      - 01-SG02|新加坡
-      - 02-SG02|新加坡
-      - 03-SG02|新加坡
-      - 04-SG02|新加坡
-      - 01-JP01|日本
-      - 02-JP01|日本
-      - 03-JP01|日本
-      - 04-JP01|日本
-      - 01-JP02|日本
-      - 02-JP02|日本
-      - 03-JP02|日本
-      - 04-JP02|日本
-      - 01-TW01|台湾|x0.8
-      - 02-TW01|台湾|x0.8
-      - 03-TW01|台湾|x0.8
-      - 04-TW01|台湾|x0.8
-      - 01-TW02|台湾
-      - 02-TW02|台湾
-      - 03-TW02|台湾
-      - 04-TW02|台湾
-      - 01-TW03|台湾|x3.0
-      - 02-TW03|台湾|x3.0
-      - 03-TW03|台湾|x3.0
-      - 04-TW03|台湾|x3.0
-      - 01-US01|美国
-      - 02-US01|美国
-      - 03-US01|美国
-      - 04-US01|美国
-      - 01-US02|美国
-      - 02-US02|美国
-      - 03-US02|美国
-      - 04-US02|美国
-      - 01-US03|美国
-      - 02-US03|美国
-      - 03-US03|美国
-      - 04-US03|美国
-      - 01-US04|美国
-      - 02-US04|美国
-      - 03-US04|美国
-      - 04-US04|美国
-      - 01-US05|美国
-      - 02-US05|美国
-      - 03-US05|美国
-      - 04-US05|美国
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰终身无限流量200元永久
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰解锁ChatGPT
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁Hulu
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰赠送小火箭共享账号
+      - 👖🇭🇰永久套餐赠送IPLC专线
+      - 06-HK02香港
+      - 07-HK02香港
+      - 08-HK02香港
+      - 01-HK03香港
+      - 02-HK03香港
+      - 03-HK03香港
+      - 04-HK03香港
+      - 05-HK03香港
+      - 06-HK03香港
+      - 07-HK03香港
+      - 08-HK03香港
+      - 01-HK04香港
+      - 02-HK04香港
+      - 03-HK04香港
+      - 04-HK04香港
+      - 05-HK04香港
+      - 06-HK04香港
+      - 07-HK04香港
+      - 08-HK04香港
+      - 01-HK05香港
+      - 02-HK05香港
+      - 03-HK05香港
+      - 04-HK05香港
+      - 05-HK05香港
+      - 06-HK05香港
+      - 07-HK05香港
+      - 08-HK05香港
+      - 01-SG01新加坡
+      - 02-SG01新加坡
+      - 03-SG01新加坡
+      - 04-SG01新加坡
+      - 05-SG01新加坡
+      - 06-SG01新加坡
+      - 07-SG01新加坡
+      - 08-SG01新加坡
+      - 01-SG02新加坡
+      - 02-SG02新加坡
+      - 03-SG02新加坡
+      - 04-SG02新加坡
+      - 05-SG02新加坡
+      - 06-SG02新加坡
+      - 07-SG02新加坡
+      - 08-SG02新加坡
+      - 01-JP01日本
+      - 02-JP01日本
+      - 03-JP01日本
+      - 04-JP01日本
+      - 05-JP01日本
+      - 06-JP01日本
+      - 07-JP01日本
+      - 08-JP01日本
+      - 01-JP02日本
+      - 02-JP02日本
+      - 03-JP02日本
+      - 04-JP02日本
+      - 05-JP02日本
+      - 06-JP02日本
+      - 07-JP02日本
+      - 08-JP02日本
+      - 01-TW01台湾
+      - 02-TW01台湾
+      - 03-TW01台湾
+      - 04-TW01台湾
+      - 05-TW01台湾
+      - 06-TW01台湾
+      - 07-TW01台湾
+      - 08-TW01台湾
+      - 01-TW02台湾
+      - 02-TW02台湾
+      - 03-TW02台湾
+      - 04-TW02台湾
+      - 05-TW02台湾
+      - 06-TW02台湾
+      - 07-TW02台湾
+      - 08-TW02台湾
+      - 01-TW03台湾
+      - 02-TW03台湾
+      - 03-TW03台湾
+      - 04-TW03台湾
+      - 05-TW03台湾
+      - 06-TW03台湾
+      - 07-TW03台湾
+      - 08-TW03台湾
+      - 01-US01美国
+      - 02-US01美国
+      - 03-US01美国
+      - 04-US01美国
+      - 05-US01美国
+      - 06-US01美国
+      - 07-US01美国
+      - 08-US01美国
+      - 01-US02美国
+      - 02-US02美国
+      - 03-US02美国
+      - 04-US02美国
+      - 05-US02美国
+      - 06-US02美国
+      - 07-US02美国
+      - 08-US02美国
+      - 01-US03美国
+      - 02-US03美国
+      - 03-US03美国
+      - 04-US03美国
+      - 05-US03美国
+      - 06-US03美国
+      - 07-US03美国
+      - 08-US03美国
+      - 01-US04美国
+      - 02-US04美国
+      - 03-US04美国
+      - 04-US04美国
+      - 05-US04美国
+      - 06-US04美国
+      - 07-US04美国
+      - 08-US04美国
+      - 01-US05美国
+      - 02-US05美国
+      - 03-US05美国
+      - 04-US05美国
+      - 05-US05美国
+      - 06-US05美国
+      - 07-US05美国
+      - 08-US05美国
   - name: 🎮️ 游戏平台
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 👖🇭🇰最低2块钱1000G流量
-      - 👖🇭🇰不限速不限设备
-      - 👖🇭🇰终身永久无限流量仅200元
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 01-HK02|香港
-      - 02-HK02|香港
-      - 03-HK02|香港
-      - 04-HK02|香港
-      - 01-HK03|香港
-      - 02-HK03|香港
-      - 03-HK03|香港
-      - 04-HK03|香港
-      - 01-HK04|香港
-      - 02-HK04|香港
-      - 03-HK04|香港
-      - 04-HK04|香港
-      - 01-HK05|香港
-      - 02-HK05|香港
-      - 03-HK05|香港
-      - 04-HK05|香港
-      - 01-SG01|新加坡
-      - 02-SG01|新加坡
-      - 03-SG01|新加坡
-      - 04-SG01|新加坡
-      - 01-SG02|新加坡
-      - 02-SG02|新加坡
-      - 03-SG02|新加坡
-      - 04-SG02|新加坡
-      - 01-JP01|日本
-      - 02-JP01|日本
-      - 03-JP01|日本
-      - 04-JP01|日本
-      - 01-JP02|日本
-      - 02-JP02|日本
-      - 03-JP02|日本
-      - 04-JP02|日本
-      - 01-TW01|台湾|x0.8
-      - 02-TW01|台湾|x0.8
-      - 03-TW01|台湾|x0.8
-      - 04-TW01|台湾|x0.8
-      - 01-TW02|台湾
-      - 02-TW02|台湾
-      - 03-TW02|台湾
-      - 04-TW02|台湾
-      - 01-TW03|台湾|x3.0
-      - 02-TW03|台湾|x3.0
-      - 03-TW03|台湾|x3.0
-      - 04-TW03|台湾|x3.0
-      - 01-US01|美国
-      - 02-US01|美国
-      - 03-US01|美国
-      - 04-US01|美国
-      - 01-US02|美国
-      - 02-US02|美国
-      - 03-US02|美国
-      - 04-US02|美国
-      - 01-US03|美国
-      - 02-US03|美国
-      - 03-US03|美国
-      - 04-US03|美国
-      - 01-US04|美国
-      - 02-US04|美国
-      - 03-US04|美国
-      - 04-US04|美国
-      - 01-US05|美国
-      - 02-US05|美国
-      - 03-US05|美国
-      - 04-US05|美国
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰终身无限流量200元永久
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰解锁ChatGPT
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁Hulu
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰赠送小火箭共享账号
+      - 👖🇭🇰永久套餐赠送IPLC专线
+      - 06-HK02香港
+      - 07-HK02香港
+      - 08-HK02香港
+      - 01-HK03香港
+      - 02-HK03香港
+      - 03-HK03香港
+      - 04-HK03香港
+      - 05-HK03香港
+      - 06-HK03香港
+      - 07-HK03香港
+      - 08-HK03香港
+      - 01-HK04香港
+      - 02-HK04香港
+      - 03-HK04香港
+      - 04-HK04香港
+      - 05-HK04香港
+      - 06-HK04香港
+      - 07-HK04香港
+      - 08-HK04香港
+      - 01-HK05香港
+      - 02-HK05香港
+      - 03-HK05香港
+      - 04-HK05香港
+      - 05-HK05香港
+      - 06-HK05香港
+      - 07-HK05香港
+      - 08-HK05香港
+      - 01-SG01新加坡
+      - 02-SG01新加坡
+      - 03-SG01新加坡
+      - 04-SG01新加坡
+      - 05-SG01新加坡
+      - 06-SG01新加坡
+      - 07-SG01新加坡
+      - 08-SG01新加坡
+      - 01-SG02新加坡
+      - 02-SG02新加坡
+      - 03-SG02新加坡
+      - 04-SG02新加坡
+      - 05-SG02新加坡
+      - 06-SG02新加坡
+      - 07-SG02新加坡
+      - 08-SG02新加坡
+      - 01-JP01日本
+      - 02-JP01日本
+      - 03-JP01日本
+      - 04-JP01日本
+      - 05-JP01日本
+      - 06-JP01日本
+      - 07-JP01日本
+      - 08-JP01日本
+      - 01-JP02日本
+      - 02-JP02日本
+      - 03-JP02日本
+      - 04-JP02日本
+      - 05-JP02日本
+      - 06-JP02日本
+      - 07-JP02日本
+      - 08-JP02日本
+      - 01-TW01台湾
+      - 02-TW01台湾
+      - 03-TW01台湾
+      - 04-TW01台湾
+      - 05-TW01台湾
+      - 06-TW01台湾
+      - 07-TW01台湾
+      - 08-TW01台湾
+      - 01-TW02台湾
+      - 02-TW02台湾
+      - 03-TW02台湾
+      - 04-TW02台湾
+      - 05-TW02台湾
+      - 06-TW02台湾
+      - 07-TW02台湾
+      - 08-TW02台湾
+      - 01-TW03台湾
+      - 02-TW03台湾
+      - 03-TW03台湾
+      - 04-TW03台湾
+      - 05-TW03台湾
+      - 06-TW03台湾
+      - 07-TW03台湾
+      - 08-TW03台湾
+      - 01-US01美国
+      - 02-US01美国
+      - 03-US01美国
+      - 04-US01美国
+      - 05-US01美国
+      - 06-US01美国
+      - 07-US01美国
+      - 08-US01美国
+      - 01-US02美国
+      - 02-US02美国
+      - 03-US02美国
+      - 04-US02美国
+      - 05-US02美国
+      - 06-US02美国
+      - 07-US02美国
+      - 08-US02美国
+      - 01-US03美国
+      - 02-US03美国
+      - 03-US03美国
+      - 04-US03美国
+      - 05-US03美国
+      - 06-US03美国
+      - 07-US03美国
+      - 08-US03美国
+      - 01-US04美国
+      - 02-US04美国
+      - 03-US04美国
+      - 04-US04美国
+      - 05-US04美国
+      - 06-US04美国
+      - 07-US04美国
+      - 08-US04美国
+      - 01-US05美国
+      - 02-US05美国
+      - 03-US05美国
+      - 04-US05美国
+      - 05-US05美国
+      - 06-US05美国
+      - 07-US05美国
+      - 08-US05美国
   - name: ChatGPT、Claude、Gemini、微软AI
     type: select
     proxies:
-      - 👖🇭🇰最低2块钱1000G流量
-      - 👖🇭🇰不限速不限设备
-      - 👖🇭🇰终身永久无限流量仅200元
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 01-HK02|香港
-      - 02-HK02|香港
-      - 03-HK02|香港
-      - 04-HK02|香港
-      - 01-HK03|香港
-      - 02-HK03|香港
-      - 03-HK03|香港
-      - 04-HK03|香港
-      - 01-HK04|香港
-      - 02-HK04|香港
-      - 03-HK04|香港
-      - 04-HK04|香港
-      - 01-HK05|香港
-      - 02-HK05|香港
-      - 03-HK05|香港
-      - 04-HK05|香港
-      - 01-SG01|新加坡
-      - 02-SG01|新加坡
-      - 03-SG01|新加坡
-      - 04-SG01|新加坡
-      - 01-SG02|新加坡
-      - 02-SG02|新加坡
-      - 03-SG02|新加坡
-      - 04-SG02|新加坡
-      - 01-JP01|日本
-      - 02-JP01|日本
-      - 03-JP01|日本
-      - 04-JP01|日本
-      - 01-JP02|日本
-      - 02-JP02|日本
-      - 03-JP02|日本
-      - 04-JP02|日本
-      - 01-TW01|台湾|x0.8
-      - 02-TW01|台湾|x0.8
-      - 03-TW01|台湾|x0.8
-      - 04-TW01|台湾|x0.8
-      - 01-TW02|台湾
-      - 02-TW02|台湾
-      - 03-TW02|台湾
-      - 04-TW02|台湾
-      - 01-TW03|台湾|x3.0
-      - 02-TW03|台湾|x3.0
-      - 03-TW03|台湾|x3.0
-      - 04-TW03|台湾|x3.0
-      - 01-US01|美国
-      - 02-US01|美国
-      - 03-US01|美国
-      - 04-US01|美国
-      - 01-US02|美国
-      - 02-US02|美国
-      - 03-US02|美国
-      - 04-US02|美国
-      - 01-US03|美国
-      - 02-US03|美国
-      - 03-US03|美国
-      - 04-US03|美国
-      - 01-US04|美国
-      - 02-US04|美国
-      - 03-US04|美国
-      - 04-US04|美国
-      - 01-US05|美国
-      - 02-US05|美国
-      - 03-US05|美国
-      - 04-US05|美国
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰终身无限流量200元永久
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰解锁ChatGPT
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁Hulu
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰赠送小火箭共享账号
+      - 👖🇭🇰永久套餐赠送IPLC专线
+      - 06-HK02香港
+      - 07-HK02香港
+      - 08-HK02香港
+      - 01-HK03香港
+      - 02-HK03香港
+      - 03-HK03香港
+      - 04-HK03香港
+      - 05-HK03香港
+      - 06-HK03香港
+      - 07-HK03香港
+      - 08-HK03香港
+      - 01-HK04香港
+      - 02-HK04香港
+      - 03-HK04香港
+      - 04-HK04香港
+      - 05-HK04香港
+      - 06-HK04香港
+      - 07-HK04香港
+      - 08-HK04香港
+      - 01-HK05香港
+      - 02-HK05香港
+      - 03-HK05香港
+      - 04-HK05香港
+      - 05-HK05香港
+      - 06-HK05香港
+      - 07-HK05香港
+      - 08-HK05香港
+      - 01-SG01新加坡
+      - 02-SG01新加坡
+      - 03-SG01新加坡
+      - 04-SG01新加坡
+      - 05-SG01新加坡
+      - 06-SG01新加坡
+      - 07-SG01新加坡
+      - 08-SG01新加坡
+      - 01-SG02新加坡
+      - 02-SG02新加坡
+      - 03-SG02新加坡
+      - 04-SG02新加坡
+      - 05-SG02新加坡
+      - 06-SG02新加坡
+      - 07-SG02新加坡
+      - 08-SG02新加坡
+      - 01-JP01日本
+      - 02-JP01日本
+      - 03-JP01日本
+      - 04-JP01日本
+      - 05-JP01日本
+      - 06-JP01日本
+      - 07-JP01日本
+      - 08-JP01日本
+      - 01-JP02日本
+      - 02-JP02日本
+      - 03-JP02日本
+      - 04-JP02日本
+      - 05-JP02日本
+      - 06-JP02日本
+      - 07-JP02日本
+      - 08-JP02日本
+      - 01-TW01台湾
+      - 02-TW01台湾
+      - 03-TW01台湾
+      - 04-TW01台湾
+      - 05-TW01台湾
+      - 06-TW01台湾
+      - 07-TW01台湾
+      - 08-TW01台湾
+      - 01-TW02台湾
+      - 02-TW02台湾
+      - 03-TW02台湾
+      - 04-TW02台湾
+      - 05-TW02台湾
+      - 06-TW02台湾
+      - 07-TW02台湾
+      - 08-TW02台湾
+      - 01-TW03台湾
+      - 02-TW03台湾
+      - 03-TW03台湾
+      - 04-TW03台湾
+      - 05-TW03台湾
+      - 06-TW03台湾
+      - 07-TW03台湾
+      - 08-TW03台湾
+      - 01-US01美国
+      - 02-US01美国
+      - 03-US01美国
+      - 04-US01美国
+      - 05-US01美国
+      - 06-US01美国
+      - 07-US01美国
+      - 08-US01美国
+      - 01-US02美国
+      - 02-US02美国
+      - 03-US02美国
+      - 04-US02美国
+      - 05-US02美国
+      - 06-US02美国
+      - 07-US02美国
+      - 08-US02美国
+      - 01-US03美国
+      - 02-US03美国
+      - 03-US03美国
+      - 04-US03美国
+      - 05-US03美国
+      - 06-US03美国
+      - 07-US03美国
+      - 08-US03美国
+      - 01-US04美国
+      - 02-US04美国
+      - 03-US04美国
+      - 04-US04美国
+      - 05-US04美国
+      - 06-US04美国
+      - 07-US04美国
+      - 08-US04美国
+      - 01-US05美国
+      - 02-US05美国
+      - 03-US05美国
+      - 04-US05美国
+      - 05-US05美国
+      - 06-US05美国
+      - 07-US05美国
+      - 08-US05美国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 👖🇭🇰最低2块钱1000G流量
-      - 👖🇭🇰不限速不限设备
-      - 👖🇭🇰终身永久无限流量仅200元
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 01-HK02|香港
-      - 02-HK02|香港
-      - 03-HK02|香港
-      - 04-HK02|香港
-      - 01-HK03|香港
-      - 02-HK03|香港
-      - 03-HK03|香港
-      - 04-HK03|香港
-      - 01-HK04|香港
-      - 02-HK04|香港
-      - 03-HK04|香港
-      - 04-HK04|香港
-      - 01-HK05|香港
-      - 02-HK05|香港
-      - 03-HK05|香港
-      - 04-HK05|香港
-      - 01-SG01|新加坡
-      - 02-SG01|新加坡
-      - 03-SG01|新加坡
-      - 04-SG01|新加坡
-      - 01-SG02|新加坡
-      - 02-SG02|新加坡
-      - 03-SG02|新加坡
-      - 04-SG02|新加坡
-      - 01-JP01|日本
-      - 02-JP01|日本
-      - 03-JP01|日本
-      - 04-JP01|日本
-      - 01-JP02|日本
-      - 02-JP02|日本
-      - 03-JP02|日本
-      - 04-JP02|日本
-      - 01-TW01|台湾|x0.8
-      - 02-TW01|台湾|x0.8
-      - 03-TW01|台湾|x0.8
-      - 04-TW01|台湾|x0.8
-      - 01-TW02|台湾
-      - 02-TW02|台湾
-      - 03-TW02|台湾
-      - 04-TW02|台湾
-      - 01-TW03|台湾|x3.0
-      - 02-TW03|台湾|x3.0
-      - 03-TW03|台湾|x3.0
-      - 04-TW03|台湾|x3.0
-      - 01-US01|美国
-      - 02-US01|美国
-      - 03-US01|美国
-      - 04-US01|美国
-      - 01-US02|美国
-      - 02-US02|美国
-      - 03-US02|美国
-      - 04-US02|美国
-      - 01-US03|美国
-      - 02-US03|美国
-      - 03-US03|美国
-      - 04-US03|美国
-      - 01-US04|美国
-      - 02-US04|美国
-      - 03-US04|美国
-      - 04-US04|美国
-      - 01-US05|美国
-      - 02-US05|美国
-      - 03-US05|美国
-      - 04-US05|美国
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰终身无限流量200元永久
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰解锁ChatGPT
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁Hulu
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰赠送小火箭共享账号
+      - 👖🇭🇰永久套餐赠送IPLC专线
+      - 06-HK02香港
+      - 07-HK02香港
+      - 08-HK02香港
+      - 01-HK03香港
+      - 02-HK03香港
+      - 03-HK03香港
+      - 04-HK03香港
+      - 05-HK03香港
+      - 06-HK03香港
+      - 07-HK03香港
+      - 08-HK03香港
+      - 01-HK04香港
+      - 02-HK04香港
+      - 03-HK04香港
+      - 04-HK04香港
+      - 05-HK04香港
+      - 06-HK04香港
+      - 07-HK04香港
+      - 08-HK04香港
+      - 01-HK05香港
+      - 02-HK05香港
+      - 03-HK05香港
+      - 04-HK05香港
+      - 05-HK05香港
+      - 06-HK05香港
+      - 07-HK05香港
+      - 08-HK05香港
+      - 01-SG01新加坡
+      - 02-SG01新加坡
+      - 03-SG01新加坡
+      - 04-SG01新加坡
+      - 05-SG01新加坡
+      - 06-SG01新加坡
+      - 07-SG01新加坡
+      - 08-SG01新加坡
+      - 01-SG02新加坡
+      - 02-SG02新加坡
+      - 03-SG02新加坡
+      - 04-SG02新加坡
+      - 05-SG02新加坡
+      - 06-SG02新加坡
+      - 07-SG02新加坡
+      - 08-SG02新加坡
+      - 01-JP01日本
+      - 02-JP01日本
+      - 03-JP01日本
+      - 04-JP01日本
+      - 05-JP01日本
+      - 06-JP01日本
+      - 07-JP01日本
+      - 08-JP01日本
+      - 01-JP02日本
+      - 02-JP02日本
+      - 03-JP02日本
+      - 04-JP02日本
+      - 05-JP02日本
+      - 06-JP02日本
+      - 07-JP02日本
+      - 08-JP02日本
+      - 01-TW01台湾
+      - 02-TW01台湾
+      - 03-TW01台湾
+      - 04-TW01台湾
+      - 05-TW01台湾
+      - 06-TW01台湾
+      - 07-TW01台湾
+      - 08-TW01台湾
+      - 01-TW02台湾
+      - 02-TW02台湾
+      - 03-TW02台湾
+      - 04-TW02台湾
+      - 05-TW02台湾
+      - 06-TW02台湾
+      - 07-TW02台湾
+      - 08-TW02台湾
+      - 01-TW03台湾
+      - 02-TW03台湾
+      - 03-TW03台湾
+      - 04-TW03台湾
+      - 05-TW03台湾
+      - 06-TW03台湾
+      - 07-TW03台湾
+      - 08-TW03台湾
+      - 01-US01美国
+      - 02-US01美国
+      - 03-US01美国
+      - 04-US01美国
+      - 05-US01美国
+      - 06-US01美国
+      - 07-US01美国
+      - 08-US01美国
+      - 01-US02美国
+      - 02-US02美国
+      - 03-US02美国
+      - 04-US02美国
+      - 05-US02美国
+      - 06-US02美国
+      - 07-US02美国
+      - 08-US02美国
+      - 01-US03美国
+      - 02-US03美国
+      - 03-US03美国
+      - 04-US03美国
+      - 05-US03美国
+      - 06-US03美国
+      - 07-US03美国
+      - 08-US03美国
+      - 01-US04美国
+      - 02-US04美国
+      - 03-US04美国
+      - 04-US04美国
+      - 05-US04美国
+      - 06-US04美国
+      - 07-US04美国
+      - 08-US04美国
+      - 01-US05美国
+      - 02-US05美国
+      - 03-US05美国
+      - 04-US05美国
+      - 05-US05美国
+      - 06-US05美国
+      - 07-US05美国
+      - 08-US05美国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 👖🇭🇰最低2块钱1000G流量
-      - 👖🇭🇰不限速不限设备
-      - 👖🇭🇰终身永久无限流量仅200元
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 01-HK02|香港
-      - 02-HK02|香港
-      - 03-HK02|香港
-      - 04-HK02|香港
-      - 01-HK03|香港
-      - 02-HK03|香港
-      - 03-HK03|香港
-      - 04-HK03|香港
-      - 01-HK04|香港
-      - 02-HK04|香港
-      - 03-HK04|香港
-      - 04-HK04|香港
-      - 01-HK05|香港
-      - 02-HK05|香港
-      - 03-HK05|香港
-      - 04-HK05|香港
-      - 01-SG01|新加坡
-      - 02-SG01|新加坡
-      - 03-SG01|新加坡
-      - 04-SG01|新加坡
-      - 01-SG02|新加坡
-      - 02-SG02|新加坡
-      - 03-SG02|新加坡
-      - 04-SG02|新加坡
-      - 01-JP01|日本
-      - 02-JP01|日本
-      - 03-JP01|日本
-      - 04-JP01|日本
-      - 01-JP02|日本
-      - 02-JP02|日本
-      - 03-JP02|日本
-      - 04-JP02|日本
-      - 01-TW01|台湾|x0.8
-      - 02-TW01|台湾|x0.8
-      - 03-TW01|台湾|x0.8
-      - 04-TW01|台湾|x0.8
-      - 01-TW02|台湾
-      - 02-TW02|台湾
-      - 03-TW02|台湾
-      - 04-TW02|台湾
-      - 01-TW03|台湾|x3.0
-      - 02-TW03|台湾|x3.0
-      - 03-TW03|台湾|x3.0
-      - 04-TW03|台湾|x3.0
-      - 01-US01|美国
-      - 02-US01|美国
-      - 03-US01|美国
-      - 04-US01|美国
-      - 01-US02|美国
-      - 02-US02|美国
-      - 03-US02|美国
-      - 04-US02|美国
-      - 01-US03|美国
-      - 02-US03|美国
-      - 03-US03|美国
-      - 04-US03|美国
-      - 01-US04|美国
-      - 02-US04|美国
-      - 03-US04|美国
-      - 04-US04|美国
-      - 01-US05|美国
-      - 02-US05|美国
-      - 03-US05|美国
-      - 04-US05|美国
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰终身无限流量200元永久
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰解锁ChatGPT
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁Hulu
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰赠送小火箭共享账号
+      - 👖🇭🇰永久套餐赠送IPLC专线
+      - 06-HK02香港
+      - 07-HK02香港
+      - 08-HK02香港
+      - 01-HK03香港
+      - 02-HK03香港
+      - 03-HK03香港
+      - 04-HK03香港
+      - 05-HK03香港
+      - 06-HK03香港
+      - 07-HK03香港
+      - 08-HK03香港
+      - 01-HK04香港
+      - 02-HK04香港
+      - 03-HK04香港
+      - 04-HK04香港
+      - 05-HK04香港
+      - 06-HK04香港
+      - 07-HK04香港
+      - 08-HK04香港
+      - 01-HK05香港
+      - 02-HK05香港
+      - 03-HK05香港
+      - 04-HK05香港
+      - 05-HK05香港
+      - 06-HK05香港
+      - 07-HK05香港
+      - 08-HK05香港
+      - 01-SG01新加坡
+      - 02-SG01新加坡
+      - 03-SG01新加坡
+      - 04-SG01新加坡
+      - 05-SG01新加坡
+      - 06-SG01新加坡
+      - 07-SG01新加坡
+      - 08-SG01新加坡
+      - 01-SG02新加坡
+      - 02-SG02新加坡
+      - 03-SG02新加坡
+      - 04-SG02新加坡
+      - 05-SG02新加坡
+      - 06-SG02新加坡
+      - 07-SG02新加坡
+      - 08-SG02新加坡
+      - 01-JP01日本
+      - 02-JP01日本
+      - 03-JP01日本
+      - 04-JP01日本
+      - 05-JP01日本
+      - 06-JP01日本
+      - 07-JP01日本
+      - 08-JP01日本
+      - 01-JP02日本
+      - 02-JP02日本
+      - 03-JP02日本
+      - 04-JP02日本
+      - 05-JP02日本
+      - 06-JP02日本
+      - 07-JP02日本
+      - 08-JP02日本
+      - 01-TW01台湾
+      - 02-TW01台湾
+      - 03-TW01台湾
+      - 04-TW01台湾
+      - 05-TW01台湾
+      - 06-TW01台湾
+      - 07-TW01台湾
+      - 08-TW01台湾
+      - 01-TW02台湾
+      - 02-TW02台湾
+      - 03-TW02台湾
+      - 04-TW02台湾
+      - 05-TW02台湾
+      - 06-TW02台湾
+      - 07-TW02台湾
+      - 08-TW02台湾
+      - 01-TW03台湾
+      - 02-TW03台湾
+      - 03-TW03台湾
+      - 04-TW03台湾
+      - 05-TW03台湾
+      - 06-TW03台湾
+      - 07-TW03台湾
+      - 08-TW03台湾
+      - 01-US01美国
+      - 02-US01美国
+      - 03-US01美国
+      - 04-US01美国
+      - 05-US01美国
+      - 06-US01美国
+      - 07-US01美国
+      - 08-US01美国
+      - 01-US02美国
+      - 02-US02美国
+      - 03-US02美国
+      - 04-US02美国
+      - 05-US02美国
+      - 06-US02美国
+      - 07-US02美国
+      - 08-US02美国
+      - 01-US03美国
+      - 02-US03美国
+      - 03-US03美国
+      - 04-US03美国
+      - 05-US03美国
+      - 06-US03美国
+      - 07-US03美国
+      - 08-US03美国
+      - 01-US04美国
+      - 02-US04美国
+      - 03-US04美国
+      - 04-US04美国
+      - 05-US04美国
+      - 06-US04美国
+      - 07-US04美国
+      - 08-US04美国
+      - 01-US05美国
+      - 02-US05美国
+      - 03-US05美国
+      - 04-US05美国
+      - 05-US05美国
+      - 06-US05美国
+      - 07-US05美国
+      - 08-US05美国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 👖🇭🇰最低2块钱1000G流量
-      - 👖🇭🇰不限速不限设备
-      - 👖🇭🇰终身永久无限流量仅200元
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 01-HK02|香港
-      - 02-HK02|香港
-      - 03-HK02|香港
-      - 04-HK02|香港
-      - 01-HK03|香港
-      - 02-HK03|香港
-      - 03-HK03|香港
-      - 04-HK03|香港
-      - 01-HK04|香港
-      - 02-HK04|香港
-      - 03-HK04|香港
-      - 04-HK04|香港
-      - 01-HK05|香港
-      - 02-HK05|香港
-      - 03-HK05|香港
-      - 04-HK05|香港
-      - 01-SG01|新加坡
-      - 02-SG01|新加坡
-      - 03-SG01|新加坡
-      - 04-SG01|新加坡
-      - 01-SG02|新加坡
-      - 02-SG02|新加坡
-      - 03-SG02|新加坡
-      - 04-SG02|新加坡
-      - 01-JP01|日本
-      - 02-JP01|日本
-      - 03-JP01|日本
-      - 04-JP01|日本
-      - 01-JP02|日本
-      - 02-JP02|日本
-      - 03-JP02|日本
-      - 04-JP02|日本
-      - 01-TW01|台湾|x0.8
-      - 02-TW01|台湾|x0.8
-      - 03-TW01|台湾|x0.8
-      - 04-TW01|台湾|x0.8
-      - 01-TW02|台湾
-      - 02-TW02|台湾
-      - 03-TW02|台湾
-      - 04-TW02|台湾
-      - 01-TW03|台湾|x3.0
-      - 02-TW03|台湾|x3.0
-      - 03-TW03|台湾|x3.0
-      - 04-TW03|台湾|x3.0
-      - 01-US01|美国
-      - 02-US01|美国
-      - 03-US01|美国
-      - 04-US01|美国
-      - 01-US02|美国
-      - 02-US02|美国
-      - 03-US02|美国
-      - 04-US02|美国
-      - 01-US03|美国
-      - 02-US03|美国
-      - 03-US03|美国
-      - 04-US03|美国
-      - 01-US04|美国
-      - 02-US04|美国
-      - 03-US04|美国
-      - 04-US04|美国
-      - 01-US05|美国
-      - 02-US05|美国
-      - 03-US05|美国
-      - 04-US05|美国
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰终身无限流量200元永久
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰解锁ChatGPT
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁Hulu
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰赠送小火箭共享账号
+      - 👖🇭🇰永久套餐赠送IPLC专线
+      - 06-HK02香港
+      - 07-HK02香港
+      - 08-HK02香港
+      - 01-HK03香港
+      - 02-HK03香港
+      - 03-HK03香港
+      - 04-HK03香港
+      - 05-HK03香港
+      - 06-HK03香港
+      - 07-HK03香港
+      - 08-HK03香港
+      - 01-HK04香港
+      - 02-HK04香港
+      - 03-HK04香港
+      - 04-HK04香港
+      - 05-HK04香港
+      - 06-HK04香港
+      - 07-HK04香港
+      - 08-HK04香港
+      - 01-HK05香港
+      - 02-HK05香港
+      - 03-HK05香港
+      - 04-HK05香港
+      - 05-HK05香港
+      - 06-HK05香港
+      - 07-HK05香港
+      - 08-HK05香港
+      - 01-SG01新加坡
+      - 02-SG01新加坡
+      - 03-SG01新加坡
+      - 04-SG01新加坡
+      - 05-SG01新加坡
+      - 06-SG01新加坡
+      - 07-SG01新加坡
+      - 08-SG01新加坡
+      - 01-SG02新加坡
+      - 02-SG02新加坡
+      - 03-SG02新加坡
+      - 04-SG02新加坡
+      - 05-SG02新加坡
+      - 06-SG02新加坡
+      - 07-SG02新加坡
+      - 08-SG02新加坡
+      - 01-JP01日本
+      - 02-JP01日本
+      - 03-JP01日本
+      - 04-JP01日本
+      - 05-JP01日本
+      - 06-JP01日本
+      - 07-JP01日本
+      - 08-JP01日本
+      - 01-JP02日本
+      - 02-JP02日本
+      - 03-JP02日本
+      - 04-JP02日本
+      - 05-JP02日本
+      - 06-JP02日本
+      - 07-JP02日本
+      - 08-JP02日本
+      - 01-TW01台湾
+      - 02-TW01台湾
+      - 03-TW01台湾
+      - 04-TW01台湾
+      - 05-TW01台湾
+      - 06-TW01台湾
+      - 07-TW01台湾
+      - 08-TW01台湾
+      - 01-TW02台湾
+      - 02-TW02台湾
+      - 03-TW02台湾
+      - 04-TW02台湾
+      - 05-TW02台湾
+      - 06-TW02台湾
+      - 07-TW02台湾
+      - 08-TW02台湾
+      - 01-TW03台湾
+      - 02-TW03台湾
+      - 03-TW03台湾
+      - 04-TW03台湾
+      - 05-TW03台湾
+      - 06-TW03台湾
+      - 07-TW03台湾
+      - 08-TW03台湾
+      - 01-US01美国
+      - 02-US01美国
+      - 03-US01美国
+      - 04-US01美国
+      - 05-US01美国
+      - 06-US01美国
+      - 07-US01美国
+      - 08-US01美国
+      - 01-US02美国
+      - 02-US02美国
+      - 03-US02美国
+      - 04-US02美国
+      - 05-US02美国
+      - 06-US02美国
+      - 07-US02美国
+      - 08-US02美国
+      - 01-US03美国
+      - 02-US03美国
+      - 03-US03美国
+      - 04-US03美国
+      - 05-US03美国
+      - 06-US03美国
+      - 07-US03美国
+      - 08-US03美国
+      - 01-US04美国
+      - 02-US04美国
+      - 03-US04美国
+      - 04-US04美国
+      - 05-US04美国
+      - 06-US04美国
+      - 07-US04美国
+      - 08-US04美国
+      - 01-US05美国
+      - 02-US05美国
+      - 03-US05美国
+      - 04-US05美国
+      - 05-US05美国
+      - 06-US05美国
+      - 07-US05美国
+      - 08-US05美国
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 🚀 手动切换
-      - 👖🇭🇰最低2块钱1000G流量
-      - 👖🇭🇰不限速不限设备
-      - 👖🇭🇰终身永久无限流量仅200元
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 01-HK02|香港
-      - 02-HK02|香港
-      - 03-HK02|香港
-      - 04-HK02|香港
-      - 01-HK03|香港
-      - 02-HK03|香港
-      - 03-HK03|香港
-      - 04-HK03|香港
-      - 01-HK04|香港
-      - 02-HK04|香港
-      - 03-HK04|香港
-      - 04-HK04|香港
-      - 01-HK05|香港
-      - 02-HK05|香港
-      - 03-HK05|香港
-      - 04-HK05|香港
-      - 01-SG01|新加坡
-      - 02-SG01|新加坡
-      - 03-SG01|新加坡
-      - 04-SG01|新加坡
-      - 01-SG02|新加坡
-      - 02-SG02|新加坡
-      - 03-SG02|新加坡
-      - 04-SG02|新加坡
-      - 01-JP01|日本
-      - 02-JP01|日本
-      - 03-JP01|日本
-      - 04-JP01|日本
-      - 01-JP02|日本
-      - 02-JP02|日本
-      - 03-JP02|日本
-      - 04-JP02|日本
-      - 01-TW01|台湾|x0.8
-      - 02-TW01|台湾|x0.8
-      - 03-TW01|台湾|x0.8
-      - 04-TW01|台湾|x0.8
-      - 01-TW02|台湾
-      - 02-TW02|台湾
-      - 03-TW02|台湾
-      - 04-TW02|台湾
-      - 01-TW03|台湾|x3.0
-      - 02-TW03|台湾|x3.0
-      - 03-TW03|台湾|x3.0
-      - 04-TW03|台湾|x3.0
-      - 01-US01|美国
-      - 02-US01|美国
-      - 03-US01|美国
-      - 04-US01|美国
-      - 01-US02|美国
-      - 02-US02|美国
-      - 03-US02|美国
-      - 04-US02|美国
-      - 01-US03|美国
-      - 02-US03|美国
-      - 03-US03|美国
-      - 04-US03|美国
-      - 01-US04|美国
-      - 02-US04|美国
-      - 03-US04|美国
-      - 04-US04|美国
-      - 01-US05|美国
-      - 02-US05|美国
-      - 03-US05|美国
-      - 04-US05|美国
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰终身无限流量200元永久
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰解锁ChatGPT
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁Hulu
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰赠送小火箭共享账号
+      - 👖🇭🇰永久套餐赠送IPLC专线
+      - 06-HK02香港
+      - 07-HK02香港
+      - 08-HK02香港
+      - 01-HK03香港
+      - 02-HK03香港
+      - 03-HK03香港
+      - 04-HK03香港
+      - 05-HK03香港
+      - 06-HK03香港
+      - 07-HK03香港
+      - 08-HK03香港
+      - 01-HK04香港
+      - 02-HK04香港
+      - 03-HK04香港
+      - 04-HK04香港
+      - 05-HK04香港
+      - 06-HK04香港
+      - 07-HK04香港
+      - 08-HK04香港
+      - 01-HK05香港
+      - 02-HK05香港
+      - 03-HK05香港
+      - 04-HK05香港
+      - 05-HK05香港
+      - 06-HK05香港
+      - 07-HK05香港
+      - 08-HK05香港
+      - 01-SG01新加坡
+      - 02-SG01新加坡
+      - 03-SG01新加坡
+      - 04-SG01新加坡
+      - 05-SG01新加坡
+      - 06-SG01新加坡
+      - 07-SG01新加坡
+      - 08-SG01新加坡
+      - 01-SG02新加坡
+      - 02-SG02新加坡
+      - 03-SG02新加坡
+      - 04-SG02新加坡
+      - 05-SG02新加坡
+      - 06-SG02新加坡
+      - 07-SG02新加坡
+      - 08-SG02新加坡
+      - 01-JP01日本
+      - 02-JP01日本
+      - 03-JP01日本
+      - 04-JP01日本
+      - 05-JP01日本
+      - 06-JP01日本
+      - 07-JP01日本
+      - 08-JP01日本
+      - 01-JP02日本
+      - 02-JP02日本
+      - 03-JP02日本
+      - 04-JP02日本
+      - 05-JP02日本
+      - 06-JP02日本
+      - 07-JP02日本
+      - 08-JP02日本
+      - 01-TW01台湾
+      - 02-TW01台湾
+      - 03-TW01台湾
+      - 04-TW01台湾
+      - 05-TW01台湾
+      - 06-TW01台湾
+      - 07-TW01台湾
+      - 08-TW01台湾
+      - 01-TW02台湾
+      - 02-TW02台湾
+      - 03-TW02台湾
+      - 04-TW02台湾
+      - 05-TW02台湾
+      - 06-TW02台湾
+      - 07-TW02台湾
+      - 08-TW02台湾
+      - 01-TW03台湾
+      - 02-TW03台湾
+      - 03-TW03台湾
+      - 04-TW03台湾
+      - 05-TW03台湾
+      - 06-TW03台湾
+      - 07-TW03台湾
+      - 08-TW03台湾
+      - 01-US01美国
+      - 02-US01美国
+      - 03-US01美国
+      - 04-US01美国
+      - 05-US01美国
+      - 06-US01美国
+      - 07-US01美国
+      - 08-US01美国
+      - 01-US02美国
+      - 02-US02美国
+      - 03-US02美国
+      - 04-US02美国
+      - 05-US02美国
+      - 06-US02美国
+      - 07-US02美国
+      - 08-US02美国
+      - 01-US03美国
+      - 02-US03美国
+      - 03-US03美国
+      - 04-US03美国
+      - 05-US03美国
+      - 06-US03美国
+      - 07-US03美国
+      - 08-US03美国
+      - 01-US04美国
+      - 02-US04美国
+      - 03-US04美国
+      - 04-US04美国
+      - 05-US04美国
+      - 06-US04美国
+      - 07-US04美国
+      - 08-US04美国
+      - 01-US05美国
+      - 02-US05美国
+      - 03-US05美国
+      - 04-US05美国
+      - 05-US05美国
+      - 06-US05美国
+      - 07-US05美国
+      - 08-US05美国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 手动切换
       - 🎯 全球直连
-      - 👖🇭🇰最低2块钱1000G流量
-      - 👖🇭🇰不限速不限设备
-      - 👖🇭🇰终身永久无限流量仅200元
       - 👖🇭🇰官网https://kelayun.notepin.co
-      - 01-HK02|香港
-      - 02-HK02|香港
-      - 03-HK02|香港
-      - 04-HK02|香港
-      - 01-HK03|香港
-      - 02-HK03|香港
-      - 03-HK03|香港
-      - 04-HK03|香港
-      - 01-HK04|香港
-      - 02-HK04|香港
-      - 03-HK04|香港
-      - 04-HK04|香港
-      - 01-HK05|香港
-      - 02-HK05|香港
-      - 03-HK05|香港
-      - 04-HK05|香港
-      - 01-SG01|新加坡
-      - 02-SG01|新加坡
-      - 03-SG01|新加坡
-      - 04-SG01|新加坡
-      - 01-SG02|新加坡
-      - 02-SG02|新加坡
-      - 03-SG02|新加坡
-      - 04-SG02|新加坡
-      - 01-JP01|日本
-      - 02-JP01|日本
-      - 03-JP01|日本
-      - 04-JP01|日本
-      - 01-JP02|日本
-      - 02-JP02|日本
-      - 03-JP02|日本
-      - 04-JP02|日本
-      - 01-TW01|台湾|x0.8
-      - 02-TW01|台湾|x0.8
-      - 03-TW01|台湾|x0.8
-      - 04-TW01|台湾|x0.8
-      - 01-TW02|台湾
-      - 02-TW02|台湾
-      - 03-TW02|台湾
-      - 04-TW02|台湾
-      - 01-TW03|台湾|x3.0
-      - 02-TW03|台湾|x3.0
-      - 03-TW03|台湾|x3.0
-      - 04-TW03|台湾|x3.0
-      - 01-US01|美国
-      - 02-US01|美国
-      - 03-US01|美国
-      - 04-US01|美国
-      - 01-US02|美国
-      - 02-US02|美国
-      - 03-US02|美国
-      - 04-US02|美国
-      - 01-US03|美国
-      - 02-US03|美国
-      - 03-US03|美国
-      - 04-US03|美国
-      - 01-US04|美国
-      - 02-US04|美国
-      - 03-US04|美国
-      - 04-US04|美国
-      - 01-US05|美国
-      - 02-US05|美国
-      - 03-US05|美国
-      - 04-US05|美国
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰终身无限流量200元永久
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰解锁ChatGPT
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁Hulu
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰赠送小火箭共享账号
+      - 👖🇭🇰永久套餐赠送IPLC专线
+      - 06-HK02香港
+      - 07-HK02香港
+      - 08-HK02香港
+      - 01-HK03香港
+      - 02-HK03香港
+      - 03-HK03香港
+      - 04-HK03香港
+      - 05-HK03香港
+      - 06-HK03香港
+      - 07-HK03香港
+      - 08-HK03香港
+      - 01-HK04香港
+      - 02-HK04香港
+      - 03-HK04香港
+      - 04-HK04香港
+      - 05-HK04香港
+      - 06-HK04香港
+      - 07-HK04香港
+      - 08-HK04香港
+      - 01-HK05香港
+      - 02-HK05香港
+      - 03-HK05香港
+      - 04-HK05香港
+      - 05-HK05香港
+      - 06-HK05香港
+      - 07-HK05香港
+      - 08-HK05香港
+      - 01-SG01新加坡
+      - 02-SG01新加坡
+      - 03-SG01新加坡
+      - 04-SG01新加坡
+      - 05-SG01新加坡
+      - 06-SG01新加坡
+      - 07-SG01新加坡
+      - 08-SG01新加坡
+      - 01-SG02新加坡
+      - 02-SG02新加坡
+      - 03-SG02新加坡
+      - 04-SG02新加坡
+      - 05-SG02新加坡
+      - 06-SG02新加坡
+      - 07-SG02新加坡
+      - 08-SG02新加坡
+      - 01-JP01日本
+      - 02-JP01日本
+      - 03-JP01日本
+      - 04-JP01日本
+      - 05-JP01日本
+      - 06-JP01日本
+      - 07-JP01日本
+      - 08-JP01日本
+      - 01-JP02日本
+      - 02-JP02日本
+      - 03-JP02日本
+      - 04-JP02日本
+      - 05-JP02日本
+      - 06-JP02日本
+      - 07-JP02日本
+      - 08-JP02日本
+      - 01-TW01台湾
+      - 02-TW01台湾
+      - 03-TW01台湾
+      - 04-TW01台湾
+      - 05-TW01台湾
+      - 06-TW01台湾
+      - 07-TW01台湾
+      - 08-TW01台湾
+      - 01-TW02台湾
+      - 02-TW02台湾
+      - 03-TW02台湾
+      - 04-TW02台湾
+      - 05-TW02台湾
+      - 06-TW02台湾
+      - 07-TW02台湾
+      - 08-TW02台湾
+      - 01-TW03台湾
+      - 02-TW03台湾
+      - 03-TW03台湾
+      - 04-TW03台湾
+      - 05-TW03台湾
+      - 06-TW03台湾
+      - 07-TW03台湾
+      - 08-TW03台湾
+      - 01-US01美国
+      - 02-US01美国
+      - 03-US01美国
+      - 04-US01美国
+      - 05-US01美国
+      - 06-US01美国
+      - 07-US01美国
+      - 08-US01美国
+      - 01-US02美国
+      - 02-US02美国
+      - 03-US02美国
+      - 04-US02美国
+      - 05-US02美国
+      - 06-US02美国
+      - 07-US02美国
+      - 08-US02美国
+      - 01-US03美国
+      - 02-US03美国
+      - 03-US03美国
+      - 04-US03美国
+      - 05-US03美国
+      - 06-US03美国
+      - 07-US03美国
+      - 08-US03美国
+      - 01-US04美国
+      - 02-US04美国
+      - 03-US04美国
+      - 04-US04美国
+      - 05-US04美国
+      - 06-US04美国
+      - 07-US04美国
+      - 08-US04美国
+      - 01-US05美国
+      - 02-US05美国
+      - 03-US05美国
+      - 04-US05美国
+      - 05-US05美国
+      - 06-US05美国
+      - 07-US05美国
+      - 08-US05美国
 rules:
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
