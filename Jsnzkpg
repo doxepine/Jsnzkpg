@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 9090
 proxies:
-  - name: 👖🇸🇬官网https://kelayun.notepin.co
+  - name: 👖🇲🇴官网https://kelayun.notepin.co
     server: 208.87.242.97
     port: 35000
     ports: 35000-39000
@@ -14,11 +14,11 @@ proxies:
     skip-cert-verify: true
     sni: www.apple.com
     type: hysteria2
-    password: 7a05db54-8d5e-45d1-b7d8-98f1792d4c29
+    password: ed835600-ae62-4388-bc29-bf547c76d4aa
     auth: ""
     fast-open: false
     servername: www.apple.com
-  - name: 👖🇸🇬2块钱1000G流量
+  - name: 👖🇲🇴最低2元1000G
     server: 146.56.150.104
     port: 35000
     ports: 35000-39000
@@ -27,11 +27,11 @@ proxies:
     skip-cert-verify: true
     sni: www.apple.com
     type: hysteria2
-    password: 7a05db54-8d5e-45d1-b7d8-98f1792d4c29
+    password: ed835600-ae62-4388-bc29-bf547c76d4aa
     auth: ""
     fast-open: false
     servername: www.apple.com
-  - name: 👖🇸🇬终身无限流量200永久
+  - name: 👖🇲🇴终身无限流量套餐200元
     server: 146.56.146.234
     port: 35000
     ports: 35000-39000
@@ -40,15 +40,58 @@ proxies:
     skip-cert-verify: true
     sni: www.apple.com
     type: hysteria2
-    password: 7a05db54-8d5e-45d1-b7d8-98f1792d4c29
+    password: ed835600-ae62-4388-bc29-bf547c76d4aa
     auth: ""
     fast-open: false
     servername: www.apple.com
-  - name: 👖🇸🇬不限速/不限设备
+  - name: 👖🇲🇴采用定制IPLC专线
+    server: 143.47.32.143
+    port: 35000
+    ports: 35000-39000
+    mport: 35000-39000
+    udp: true
+    skip-cert-verify: true
+    sni: www.lamer.com.hk
+    type: hysteria2
+    password: ed835600-ae62-4388-bc29-bf547c76d4aa
+    auth: ""
+    fast-open: false
+    servername: www.lamer.com.hk
+  - name: 👖🇲🇴完全不限速
+    server: 129.151.251.122
+    port: 35000
+    ports: 35000-39000
+    mport: 35000-39000
+    udp: true
+    skip-cert-verify: true
+    sni: www.lamer.com.hk
+    type: hysteria2
+    password: ed835600-ae62-4388-bc29-bf547c76d4aa
+    auth: ""
+    fast-open: false
+    servername: www.lamer.com.hk
+  - name: 👖🇲🇴不限制设备数量
+    type: vless
+    server: 146.235.193.81
+    port: 443
+    uuid: ed835600-ae62-4388-bc29-bf547c76d4aa
+    udp: true
+    tls: true
+    skip-cert-verify: null
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    servername: iosapps.itunes.apple.com
+    reality-opts:
+      public-key: Xd2u-uX0dhiJrB_ESaDSoQBmT6Jv1tEmqn3inOiYFDg
+      short-id: 207a3de5
+    alterId: 0
+    cipher: ""
+    sni: iosapps.itunes.apple.com
+  - name: 👖🇲🇴付费用户赠送小火箭共享账号
     type: vless
     server: kb.aws7.yydjc.top
     port: 443
-    uuid: 7a05db54-8d5e-45d1-b7d8-98f1792d4c29
+    uuid: ed835600-ae62-4388-bc29-bf547c76d4aa
     udp: true
     tls: true
     skip-cert-verify: null
@@ -61,11 +104,11 @@ proxies:
     alterId: 0
     cipher: ""
     sni: iosapps.itunes.apple.com
-  - name: 👖🇸🇬下单赠送小火箭共享账号
+  - name: 👖🇲🇴解锁TikTok
     type: vless
     server: kb.aws7.yydjc.top
     port: 443
-    uuid: 7a05db54-8d5e-45d1-b7d8-98f1792d4c29
+    uuid: ed835600-ae62-4388-bc29-bf547c76d4aa
     udp: true
     tls: true
     skip-cert-verify: null
@@ -78,20 +121,20 @@ proxies:
     alterId: 0
     cipher: ""
     sni: iosapps.itunes.apple.com
-  - name: 👖🇸🇬解锁TikTok/ChatGPT/奈飞
+  - name: 👖🇲🇴解锁ChatGPT
     type: vless
-    server: 193.122.120.203
+    server: 130.162.220.137
     port: 443
-    uuid: 7a05db54-8d5e-45d1-b7d8-98f1792d4c29
+    uuid: ed835600-ae62-4388-bc29-bf547c76d4aa
     udp: true
     tls: true
     skip-cert-verify: null
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: safari
     servername: www.lamer.com
     reality-opts:
-      public-key: j5tsCQhMqefjOq-shVxsZS195S4R7Ce_prmT8yFsvm8
-      short-id: d02456fe
+      public-key: UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8
+      short-id: 66ed2fdd
     alterId: 0
     cipher: ""
     sni: www.lamer.com
@@ -102,120 +145,153 @@ proxy-groups:
       - ♻️ 自动选择
       - ChatGPT、Claude、Gemini、微软AI
       - DIRECT
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬2块钱1000G流量
-      - 👖🇸🇬终身无限流量200永久
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬下单赠送小火箭共享账号
-      - 👖🇸🇬解锁TikTok/ChatGPT/奈飞
+      - 👖🇲🇴官网https://kelayun.notepin.co
+      - 👖🇲🇴最低2元1000G
+      - 👖🇲🇴终身无限流量套餐200元
+      - 👖🇲🇴采用定制IPLC专线
+      - 👖🇲🇴完全不限速
+      - 👖🇲🇴不限制设备数量
+      - 👖🇲🇴付费用户赠送小火箭共享账号
+      - 👖🇲🇴解锁TikTok
+      - 👖🇲🇴解锁ChatGPT
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬2块钱1000G流量
-      - 👖🇸🇬终身无限流量200永久
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬下单赠送小火箭共享账号
-      - 👖🇸🇬解锁TikTok/ChatGPT/奈飞
+      - 👖🇲🇴官网https://kelayun.notepin.co
+      - 👖🇲🇴最低2元1000G
+      - 👖🇲🇴终身无限流量套餐200元
+      - 👖🇲🇴采用定制IPLC专线
+      - 👖🇲🇴完全不限速
+      - 👖🇲🇴不限制设备数量
+      - 👖🇲🇴付费用户赠送小火箭共享账号
+      - 👖🇲🇴解锁TikTok
+      - 👖🇲🇴解锁ChatGPT
   - name: 📹 YouTube
     type: select
     proxies:
       - 🚀 手动切换
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬2块钱1000G流量
-      - 👖🇸🇬终身无限流量200永久
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬下单赠送小火箭共享账号
-      - 👖🇸🇬解锁TikTok/ChatGPT/奈飞
+      - 👖🇲🇴官网https://kelayun.notepin.co
+      - 👖🇲🇴最低2元1000G
+      - 👖🇲🇴终身无限流量套餐200元
+      - 👖🇲🇴采用定制IPLC专线
+      - 👖🇲🇴完全不限速
+      - 👖🇲🇴不限制设备数量
+      - 👖🇲🇴付费用户赠送小火箭共享账号
+      - 👖🇲🇴解锁TikTok
+      - 👖🇲🇴解锁ChatGPT
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🚀 手动切换
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬2块钱1000G流量
-      - 👖🇸🇬终身无限流量200永久
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬下单赠送小火箭共享账号
-      - 👖🇸🇬解锁TikTok/ChatGPT/奈飞
+      - 👖🇲🇴官网https://kelayun.notepin.co
+      - 👖🇲🇴最低2元1000G
+      - 👖🇲🇴终身无限流量套餐200元
+      - 👖🇲🇴采用定制IPLC专线
+      - 👖🇲🇴完全不限速
+      - 👖🇲🇴不限制设备数量
+      - 👖🇲🇴付费用户赠送小火箭共享账号
+      - 👖🇲🇴解锁TikTok
+      - 👖🇲🇴解锁ChatGPT
   - name: 🎮️ 游戏平台
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬2块钱1000G流量
-      - 👖🇸🇬终身无限流量200永久
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬下单赠送小火箭共享账号
-      - 👖🇸🇬解锁TikTok/ChatGPT/奈飞
+      - 👖🇲🇴官网https://kelayun.notepin.co
+      - 👖🇲🇴最低2元1000G
+      - 👖🇲🇴终身无限流量套餐200元
+      - 👖🇲🇴采用定制IPLC专线
+      - 👖🇲🇴完全不限速
+      - 👖🇲🇴不限制设备数量
+      - 👖🇲🇴付费用户赠送小火箭共享账号
+      - 👖🇲🇴解锁TikTok
+      - 👖🇲🇴解锁ChatGPT
   - name: ChatGPT、Claude、Gemini、微软AI
     type: select
     proxies:
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬2块钱1000G流量
-      - 👖🇸🇬终身无限流量200永久
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬下单赠送小火箭共享账号
-      - 👖🇸🇬解锁TikTok/ChatGPT/奈飞
+      - 👖🇲🇴官网https://kelayun.notepin.co
+      - 👖🇲🇴最低2元1000G
+      - 👖🇲🇴终身无限流量套餐200元
+      - 👖🇲🇴采用定制IPLC专线
+      - 👖🇲🇴完全不限速
+      - 👖🇲🇴不限制设备数量
+      - 👖🇲🇴付费用户赠送小火箭共享账号
+      - 👖🇲🇴解锁TikTok
+      - 👖🇲🇴解锁ChatGPT
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬2块钱1000G流量
-      - 👖🇸🇬终身无限流量200永久
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬下单赠送小火箭共享账号
-      - 👖🇸🇬解锁TikTok/ChatGPT/奈飞
+      - 👖🇲🇴官网https://kelayun.notepin.co
+      - 👖🇲🇴最低2元1000G
+      - 👖🇲🇴终身无限流量套餐200元
+      - 👖🇲🇴采用定制IPLC专线
+      - 👖🇲🇴完全不限速
+      - 👖🇲🇴不限制设备数量
+      - 👖🇲🇴付费用户赠送小火箭共享账号
+      - 👖🇲🇴解锁TikTok
+      - 👖🇲🇴解锁ChatGPT
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬2块钱1000G流量
-      - 👖🇸🇬终身无限流量200永久
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬下单赠送小火箭共享账号
-      - 👖🇸🇬解锁TikTok/ChatGPT/奈飞
+      - 👖🇲🇴官网https://kelayun.notepin.co
+      - 👖🇲🇴最低2元1000G
+      - 👖🇲🇴终身无限流量套餐200元
+      - 👖🇲🇴采用定制IPLC专线
+      - 👖🇲🇴完全不限速
+      - 👖🇲🇴不限制设备数量
+      - 👖🇲🇴付费用户赠送小火箭共享账号
+      - 👖🇲🇴解锁TikTok
+      - 👖🇲🇴解锁ChatGPT
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬2块钱1000G流量
-      - 👖🇸🇬终身无限流量200永久
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬下单赠送小火箭共享账号
-      - 👖🇸🇬解锁TikTok/ChatGPT/奈飞
+      - 👖🇲🇴官网https://kelayun.notepin.co
+      - 👖🇲🇴最低2元1000G
+      - 👖🇲🇴终身无限流量套餐200元
+      - 👖🇲🇴采用定制IPLC专线
+      - 👖🇲🇴完全不限速
+      - 👖🇲🇴不限制设备数量
+      - 👖🇲🇴付费用户赠送小火箭共享账号
+      - 👖🇲🇴解锁TikTok
+      - 👖🇲🇴解锁ChatGPT
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 🚀 手动切换
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬2块钱1000G流量
-      - 👖🇸🇬终身无限流量200永久
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬下单赠送小火箭共享账号
-      - 👖🇸🇬解锁TikTok/ChatGPT/奈飞
+      - 👖🇲🇴官网https://kelayun.notepin.co
+      - 👖🇲🇴最低2元1000G
+      - 👖🇲🇴终身无限流量套餐200元
+      - 👖🇲🇴采用定制IPLC专线
+      - 👖🇲🇴完全不限速
+      - 👖🇲🇴不限制设备数量
+      - 👖🇲🇴付费用户赠送小火箭共享账号
+      - 👖🇲🇴解锁TikTok
+      - 👖🇲🇴解锁ChatGPT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 手动切换
       - 🎯 全球直连
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬2块钱1000G流量
-      - 👖🇸🇬终身无限流量200永久
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬下单赠送小火箭共享账号
-      - 👖🇸🇬解锁TikTok/ChatGPT/奈飞
+      - 👖🇲🇴官网https://kelayun.notepin.co
+      - 👖🇲🇴最低2元1000G
+      - 👖🇲🇴终身无限流量套餐200元
+      - 👖🇲🇴采用定制IPLC专线
+      - 👖🇲🇴完全不限速
+      - 👖🇲🇴不限制设备数量
+      - 👖🇲🇴付费用户赠送小火箭共享账号
+      - 👖🇲🇴解锁TikTok
+      - 👖🇲🇴解锁ChatGPT
 rules:
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
