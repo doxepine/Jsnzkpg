@@ -1,6 +1,12 @@
-[{"name": "📌关注TG频道@stymei1","remark":"✈️TG频道@stymei1", "url": "https://learnpython.ggff.net/huoche"},
-          {"name": "👖魔爪","remark":"✈️TG频道@stymei1","url": "https://mozhuazy.com/api.php/provide/vod/?ac=list"},
-          {"name": "👖电影天堂","remark":"✈️TG频道@stymei1","url": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list"},
+{"live": [{
+"name": "👖裤佬IPTV",
+"url": "https://upld.zone.id/uploads/q9iq9e5iq/lvse.txt",
+"type": 10,
+"remark":"✈️TG频道@stymei1"}],
+   "vod": [
+{"name": "📌关注TG频道@stymei1","remark":"✈️TG频道@stymei1", "url": "https://learnpython.ggff.net/huoche"},
+          {"name": "👖魔爪","remark":"✈️TG频道@stymei1","url": "https://mozhuazy.com/api.php/provide/vod"},
+          {"name": "👖电影天堂","remark":"✈️TG频道@stymei1","url": "http://dyttzyw.com/api.php/provide/vod/?ac=list"},
           {"name": "👖豆瓣","remark":"✈️TG频道@stymei1","url": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/josn"},
         {"name": "👖茅台","remark":"✈️TG频道@stymei1","url": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/josn"},
         {"name": "👖如意","remark":"✈️TG频道@stymei1","url": "http://cj.rycjapi.com/api.php/provide/vod/?ac=list"},
@@ -44,8 +50,14 @@
           {"name": "👖小猫咪","remark":"✈️TG频道@stymei1","url": "https://zy.xmm.hk/api.php/provide/vod"},
           {"name": "👖CK","remark":"✈️TG频道@stymei1","url": "https://ckzy.me/api.php/provide/vod"},
           {"name": "👖789","remark":"✈️TG频道@stymei1","url": "https://www.caiji.cyou/api.php/provide/vod/?ac=list"},
+          {"name": "👖人人影视","remark":"✈️TG频道@stymei1","url": "http://43.139.196.163:31308/gather/json"},
+          {"name": "👖建安","remark":"✈️TG频道@stymei1","url": "http://154.219.117.232:9981/jacloudapi.php/provide/vod/?ac=list"},
+          {"name": "👖听风","remark":"✈️TG频道@stymei1","url": "https://gctf.tfdh.top/api.php/provide/vod/?ac=list"},
+          {"name": "👖艾旦影视","remark":"✈️TG频道@stymei1","url": "https://lovedan.net/api.php/provide/vod"},
+          {"name": "👖蛋蛋魔法","remark":"✈️TG频道@stymei1","url": "https://ddmf.net/api.php/provide/vod"},
+          {"name": "👖OK","remark":"✈️TG频道@stymei1","url": "https://api.okzyw.net/api.php/provide/vod/?ac=list"},
+          {"name": "👖索尼","remark":"✈️TG频道@stymei1","url": "https://suoniapi.com/api.php/provide/vod/?ac=list"},
           {"name": "👖荐片","remark":"✈️TG频道@stymei1","url": "http://zhangqun1818.serv00.net/jianpian1.php"},
-
 {"name": "👖瓜子影视App","remark":"✈️TG频道@stymei1","webSite": "https://api.gudvxty.com","codeID": "ra5Z3wtXKshzSMK2","instance": "gzapp20241001","api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzapp.txt"},
 { "name": "👖瓜子影视Web","remark":"✈️TG频道@stymei1","webSite": "https://api.gudvxty.com","instance":"gzys20240822","api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzys.js"},
      {
@@ -78,15 +90,95 @@
       "type": 100
     },
    {
-      "name": "👖校长影视",
-      "version": 1,
-      "remark": "✈️TG频道@stymei1",
-      "webSite": "https://xzys.fun",
-      "codeID": "7T4PFJobJZegoH1hLUyEL1HOGSoNuwR6",
-      "order": "B",
-      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Pan_xzys.txt",
-      "type": 101
-     },
+    "name": "👖MX动漫",
+    "version": 1,
+    "remark": "✈️TG频道@stymei1",
+    "webSite": "https://www.mxdm6.com",
+    "order": "C",
+    "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_mxdm.js",
+    "type": 101
+  },
+  {
+    "name": "👖 NT动漫",
+    "version": 1,
+    "remark": "✈️TG频道@stymei1",
+    "webSite": "https://www.ntdm9.com",
+    "order": "C",
+    "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_ntdm.js",
+    "type": 101
+  },
+  {
+    "name": "👖八号影视",
+    "version": 1,
+    "remark": "✈️TG频道@stymei1",
+    "webSite": "https://www.bahaotv.com",
+    "order": "C",
+    "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_bhys.js",
+    "type": 101
+  },
+  {
+    "name": "👖樱花动漫",
+    "version": 1,
+    "remark": "✈️TG频道@stymei1",
+    "webSite": "https://www.vdm5.com",
+    "order": "C",
+    "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_yhdm.js",
+    "type": 101
+  },
+  {
+    "name": "👖风车动漫",
+    "version": 1,
+    "remark": "✈️TG频道@stymei1",
+    "webSite": "https://www.tt776b.com",
+    "order": "C",
+    "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_fcdm.js",
+    "type": 101
+  },
+  {
+    "name": "👖E-ACG",
+    "version": 1,
+    "remark": "✈️TG频道@stymei1",
+    "webSite": "https://eacg1.com",
+    "order": "C",
+    "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_eacg.js",
+    "type": 101
+  },
+  {
+    "name": "👖E-ACG2",
+    "version": 1,
+    "remark": "✈️TG频道@stymei1",
+    "webSite": "https://eacg1.com",
+    "order": "C",
+    "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_eacg2.js",
+    "type": 101
+  },
+  {
+    "name": "👖MuteFun",
+    "version": 1,
+    "remark": "✈️TG频道@stymei1",
+    "webSite": "https://www.mutean.com",
+    "order": "C",
+    "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_MuteFun.js",
+    "type": 101
+  },
+  {
+    "name": "👖girigirilove",
+    "version": 1,
+    "remark": "✈️TG频道@stymei1",
+    "webSite": "https://anime.girigirilove.com",
+    "order": "C",
+    "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_girigirilove.js",
+    "type": 101
+    },
+    {
+    "name": "👖omofun",
+    "version": 1,
+    "remark": "✈️TG频道@stymei1",
+    "webSite": "http://101.42.227.94:11024",
+    "codeID": "z5nxgZSWE8ipZYvGtImsRFu73TOB45fZ",
+    "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Zhi_omofun.txt",
+    "type": 101
+    },
     {
         "name": "👖两个BT",
         "api": "https://cdn.jsdelivr.net/gh/yswag/uzVideo@main/js/spider/bttwo.js",
@@ -94,7 +186,7 @@
         "webSite": "https://www.bttwoo.com",
         "remark": "✈️TG频道@stymei1"},
         {"name": "🔞越南","remark":"✈️TG频道@stymei1","url": "https://vnzyz.com/api.php/provide/vod"},
-        {"name": "🔞奥斯卡","remark":"✈️TG频道@stymei1","url": "http://aosikazy.com/api.php/provide/vod/at/xml"},
+        {"name": "🔞奥斯卡","remark":"✈️TG频道@stymei1","url": "https://aosikazy.com/api.php/provide/vod/?ac=list"},
         {"name": "🔞好色TV","remark":"✈️TG频道@stymei1","url": "https://learnpython.ggff.net/hstv"},
         {"name": "🔞X细胞","remark":"✈️TG频道@stymei1","url": "https://www.xxibaozyw.com/api.php/provide/vod"},
         {"name": "🔞91视频","remark":"✈️TG频道@stymei1","url": "https://91av.cyou/api.php/provide/vod"},
@@ -125,7 +217,7 @@
           {"name": "🔞森林","remark":"✈️TG频道@stymei1","url": "http://slapibf.com/api.php/provide/vod"},
           {"name": "🔞色南国","remark":"✈️TG频道@stymei1","url": "https://api.sexnguon.com/api.php/provide/vod"},
           {"name": "🔞番茄","remark":"✈️TG频道@stymei1","url": "https://fqzy.me//api.php/provide/vod/?ac=list"},
-          {"name": "🔞souav","remark":"✈️TG频道@stymei1","url": "https://api.souavzy.vip/api.php/provide/vod/at/xml"},
+          {"name": "🔞souav","remark":"✈️TG频道@stymei1","url": "https://souavzy7.com/api.php/provide/vod"},
           {"name": "🔞黄瓜","remark":"✈️TG频道@stymei1","url": "https://www.avre06.com/api.php/Prodao/vod/at/xml"},
           {"name": "🔞鲨鱼","remark":"✈️TG频道@stymei1","url": "https://shayuapi.com/api.php/provide/vod"},
           {"name": "🔞91麻豆","remark":"✈️TG频道@stymei1","url": "http://91md.me/api.php/provide/vod"},
@@ -137,4 +229,4 @@
           {"name": "🔞最色","remark":"✈️TG频道@stymei1","url": "https://api.zuiseapi.com/api.php/provide/vod/?ac=list"},
           {"name": "🔞豆豆","remark":"✈️TG频道@stymei1","url": "https://doudouzy.com/api.php/provide/vod/?ac=list"},
           {"name": "🔞色猫","remark":"✈️TG频道@stymei1","url": "https://caiji.semaozy.net/inc/apijson_vod.php"},
-          {"name": "🔞百万","remark":"✈️TG频道@stymei1","url": "https://api.bwzyz.com/api.php/provide/vod/at/json"}]
+          {"name": "🔞百万","remark":"✈️TG频道@stymei1","url": "https://api.bwzyz.com/api.php/provide/vod/at/json"}]}
