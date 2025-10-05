@@ -58,6 +58,7 @@
           {"name": "👖OK","remark":"✈️TG频道@stymei1","url": "https://api.okzyw.net/api.php/provide/vod/?ac=list"},
           {"name": "👖索尼","remark":"✈️TG频道@stymei1","url": "https://suoniapi.com/api.php/provide/vod/?ac=list"},
           {"name": "👖荐片","remark":"✈️TG频道@stymei1","url": "http://zhangqun1818.serv00.net/jianpian1.php"},
+          {"name": "👖爱瓜","remark":"✈️TG频道@stymei1","url": "https://learnpython.ggff.net/aigua"},
 {"name": "👖瓜子影视App","remark":"✈️TG频道@stymei1","webSite": "https://api.gudvxty.com","codeID": "ra5Z3wtXKshzSMK2","instance": "gzapp20241001","api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzapp.txt"},
 { "name": "👖瓜子影视Web","remark":"✈️TG频道@stymei1","webSite": "https://api.gudvxty.com","instance":"gzys20240822","api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzys.js"},
      {
@@ -185,6 +186,7 @@
         "instance": "bttwo20240628",
         "webSite": "https://www.bttwoo.com",
         "remark": "✈️TG频道@stymei1"},
+        {"name": "🔥[直播]国外大秀","remark":"✈️TG频道@stymei1","url": "https://learnpython.ggff.net/cam4"},
         {"name": "🔞越南","remark":"✈️TG频道@stymei1","url": "https://vnzyz.com/api.php/provide/vod"},
         {"name": "🔞奥斯卡","remark":"✈️TG频道@stymei1","url": "https://aosikazy.com/api.php/provide/vod/?ac=list"},
         {"name": "🔞好色TV","remark":"✈️TG频道@stymei1","url": "https://learnpython.ggff.net/hstv"},
