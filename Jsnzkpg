@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 9090
 proxies:
-  - name: 👖🇲🇴官网https://kelayun.notepin.co
+  - name: 🪜🇰🇷超低价付费机场梯子推荐
     server: 208.87.242.97
     port: 35000
     ports: 35000-39000
@@ -14,84 +14,15 @@ proxies:
     skip-cert-verify: true
     sni: www.apple.com
     type: hysteria2
-    password: ed835600-ae62-4388-bc29-bf547c76d4aa
+    password: e68d97c8-6386-4d7a-b9cf-1ac4f8a5014a
     auth: ""
     fast-open: false
     servername: www.apple.com
-  - name: 👖🇲🇴最低2元1000G
-    server: 146.56.150.104
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
-    skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: ed835600-ae62-4388-bc29-bf547c76d4aa
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
-  - name: 👖🇲🇴终身无限流量套餐200元
-    server: 146.56.146.234
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
-    skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: ed835600-ae62-4388-bc29-bf547c76d4aa
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
-  - name: 👖🇲🇴采用定制IPLC专线
-    server: 143.47.32.143
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
-    skip-cert-verify: true
-    sni: www.lamer.com.hk
-    type: hysteria2
-    password: ed835600-ae62-4388-bc29-bf547c76d4aa
-    auth: ""
-    fast-open: false
-    servername: www.lamer.com.hk
-  - name: 👖🇲🇴完全不限速
-    server: 129.151.251.122
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
-    skip-cert-verify: true
-    sni: www.lamer.com.hk
-    type: hysteria2
-    password: ed835600-ae62-4388-bc29-bf547c76d4aa
-    auth: ""
-    fast-open: false
-    servername: www.lamer.com.hk
-  - name: 👖🇲🇴不限制设备数量
-    type: vless
-    server: 146.235.193.81
-    port: 443
-    uuid: ed835600-ae62-4388-bc29-bf547c76d4aa
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: xtls-rprx-vision
-    client-fingerprint: safari
-    servername: iosapps.itunes.apple.com
-    reality-opts:
-      public-key: Xd2u-uX0dhiJrB_ESaDSoQBmT6Jv1tEmqn3inOiYFDg
-      short-id: 207a3de5
-    alterId: 0
-    cipher: ""
-    sni: iosapps.itunes.apple.com
-  - name: 👖🇲🇴付费用户赠送小火箭共享账号
+  - name: 👖🇲🇴官网https://kelayun.notepin.co
     type: vless
     server: kb.aws7.yydjc.top
     port: 443
-    uuid: ed835600-ae62-4388-bc29-bf547c76d4aa
+    uuid: e68d97c8-6386-4d7a-b9cf-1ac4f8a5014a
     udp: true
     tls: true
     skip-cert-verify: null
@@ -104,11 +35,11 @@ proxies:
     alterId: 0
     cipher: ""
     sni: iosapps.itunes.apple.com
-  - name: 👖🇲🇴解锁TikTok
+  - name: 👖🇲🇴最低2元1000G流量
     type: vless
     server: kb.aws7.yydjc.top
     port: 443
-    uuid: ed835600-ae62-4388-bc29-bf547c76d4aa
+    uuid: e68d97c8-6386-4d7a-b9cf-1ac4f8a5014a
     udp: true
     tls: true
     skip-cert-verify: null
@@ -121,20 +52,20 @@ proxies:
     alterId: 0
     cipher: ""
     sni: iosapps.itunes.apple.com
-  - name: 👖🇲🇴解锁ChatGPT
+  - name: 👖🇲🇴永久无限流量套餐200元
     type: vless
-    server: 130.162.220.137
+    server: 193.122.120.203
     port: 443
-    uuid: ed835600-ae62-4388-bc29-bf547c76d4aa
+    uuid: e68d97c8-6386-4d7a-b9cf-1ac4f8a5014a
     udp: true
     tls: true
     skip-cert-verify: null
     flow: xtls-rprx-vision
-    client-fingerprint: safari
+    client-fingerprint: chrome
     servername: www.lamer.com
     reality-opts:
-      public-key: UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8
-      short-id: 66ed2fdd
+      public-key: j5tsCQhMqefjOq-shVxsZS195S4R7Ce_prmT8yFsvm8
+      short-id: d02456fe
     alterId: 0
     cipher: ""
     sni: www.lamer.com
@@ -145,153 +76,98 @@ proxy-groups:
       - ♻️ 自动选择
       - ChatGPT、Claude、Gemini、微软AI
       - DIRECT
+      - 🪜🇰🇷超低价付费机场梯子推荐
       - 👖🇲🇴官网https://kelayun.notepin.co
-      - 👖🇲🇴最低2元1000G
-      - 👖🇲🇴终身无限流量套餐200元
-      - 👖🇲🇴采用定制IPLC专线
-      - 👖🇲🇴完全不限速
-      - 👖🇲🇴不限制设备数量
-      - 👖🇲🇴付费用户赠送小火箭共享账号
-      - 👖🇲🇴解锁TikTok
-      - 👖🇲🇴解锁ChatGPT
+      - 👖🇲🇴最低2元1000G流量
+      - 👖🇲🇴永久无限流量套餐200元
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🪜🇰🇷超低价付费机场梯子推荐
       - 👖🇲🇴官网https://kelayun.notepin.co
-      - 👖🇲🇴最低2元1000G
-      - 👖🇲🇴终身无限流量套餐200元
-      - 👖🇲🇴采用定制IPLC专线
-      - 👖🇲🇴完全不限速
-      - 👖🇲🇴不限制设备数量
-      - 👖🇲🇴付费用户赠送小火箭共享账号
-      - 👖🇲🇴解锁TikTok
-      - 👖🇲🇴解锁ChatGPT
+      - 👖🇲🇴最低2元1000G流量
+      - 👖🇲🇴永久无限流量套餐200元
   - name: 📹 YouTube
     type: select
     proxies:
       - 🚀 手动切换
+      - 🪜🇰🇷超低价付费机场梯子推荐
       - 👖🇲🇴官网https://kelayun.notepin.co
-      - 👖🇲🇴最低2元1000G
-      - 👖🇲🇴终身无限流量套餐200元
-      - 👖🇲🇴采用定制IPLC专线
-      - 👖🇲🇴完全不限速
-      - 👖🇲🇴不限制设备数量
-      - 👖🇲🇴付费用户赠送小火箭共享账号
-      - 👖🇲🇴解锁TikTok
-      - 👖🇲🇴解锁ChatGPT
+      - 👖🇲🇴最低2元1000G流量
+      - 👖🇲🇴永久无限流量套餐200元
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🚀 手动切换
+      - 🪜🇰🇷超低价付费机场梯子推荐
       - 👖🇲🇴官网https://kelayun.notepin.co
-      - 👖🇲🇴最低2元1000G
-      - 👖🇲🇴终身无限流量套餐200元
-      - 👖🇲🇴采用定制IPLC专线
-      - 👖🇲🇴完全不限速
-      - 👖🇲🇴不限制设备数量
-      - 👖🇲🇴付费用户赠送小火箭共享账号
-      - 👖🇲🇴解锁TikTok
-      - 👖🇲🇴解锁ChatGPT
+      - 👖🇲🇴最低2元1000G流量
+      - 👖🇲🇴永久无限流量套餐200元
   - name: 🎮️ 游戏平台
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
+      - 🪜🇰🇷超低价付费机场梯子推荐
       - 👖🇲🇴官网https://kelayun.notepin.co
-      - 👖🇲🇴最低2元1000G
-      - 👖🇲🇴终身无限流量套餐200元
-      - 👖🇲🇴采用定制IPLC专线
-      - 👖🇲🇴完全不限速
-      - 👖🇲🇴不限制设备数量
-      - 👖🇲🇴付费用户赠送小火箭共享账号
-      - 👖🇲🇴解锁TikTok
-      - 👖🇲🇴解锁ChatGPT
+      - 👖🇲🇴最低2元1000G流量
+      - 👖🇲🇴永久无限流量套餐200元
   - name: ChatGPT、Claude、Gemini、微软AI
     type: select
     proxies:
+      - 🪜🇰🇷超低价付费机场梯子推荐
       - 👖🇲🇴官网https://kelayun.notepin.co
-      - 👖🇲🇴最低2元1000G
-      - 👖🇲🇴终身无限流量套餐200元
-      - 👖🇲🇴采用定制IPLC专线
-      - 👖🇲🇴完全不限速
-      - 👖🇲🇴不限制设备数量
-      - 👖🇲🇴付费用户赠送小火箭共享账号
-      - 👖🇲🇴解锁TikTok
-      - 👖🇲🇴解锁ChatGPT
+      - 👖🇲🇴最低2元1000G流量
+      - 👖🇲🇴永久无限流量套餐200元
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
+      - 🪜🇰🇷超低价付费机场梯子推荐
       - 👖🇲🇴官网https://kelayun.notepin.co
-      - 👖🇲🇴最低2元1000G
-      - 👖🇲🇴终身无限流量套餐200元
-      - 👖🇲🇴采用定制IPLC专线
-      - 👖🇲🇴完全不限速
-      - 👖🇲🇴不限制设备数量
-      - 👖🇲🇴付费用户赠送小火箭共享账号
-      - 👖🇲🇴解锁TikTok
-      - 👖🇲🇴解锁ChatGPT
+      - 👖🇲🇴最低2元1000G流量
+      - 👖🇲🇴永久无限流量套餐200元
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🪜🇰🇷超低价付费机场梯子推荐
       - 👖🇲🇴官网https://kelayun.notepin.co
-      - 👖🇲🇴最低2元1000G
-      - 👖🇲🇴终身无限流量套餐200元
-      - 👖🇲🇴采用定制IPLC专线
-      - 👖🇲🇴完全不限速
-      - 👖🇲🇴不限制设备数量
-      - 👖🇲🇴付费用户赠送小火箭共享账号
-      - 👖🇲🇴解锁TikTok
-      - 👖🇲🇴解锁ChatGPT
+      - 👖🇲🇴最低2元1000G流量
+      - 👖🇲🇴永久无限流量套餐200元
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
+      - 🪜🇰🇷超低价付费机场梯子推荐
       - 👖🇲🇴官网https://kelayun.notepin.co
-      - 👖🇲🇴最低2元1000G
-      - 👖🇲🇴终身无限流量套餐200元
-      - 👖🇲🇴采用定制IPLC专线
-      - 👖🇲🇴完全不限速
-      - 👖🇲🇴不限制设备数量
-      - 👖🇲🇴付费用户赠送小火箭共享账号
-      - 👖🇲🇴解锁TikTok
-      - 👖🇲🇴解锁ChatGPT
+      - 👖🇲🇴最低2元1000G流量
+      - 👖🇲🇴永久无限流量套餐200元
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 🚀 手动切换
+      - 🪜🇰🇷超低价付费机场梯子推荐
       - 👖🇲🇴官网https://kelayun.notepin.co
-      - 👖🇲🇴最低2元1000G
-      - 👖🇲🇴终身无限流量套餐200元
-      - 👖🇲🇴采用定制IPLC专线
-      - 👖🇲🇴完全不限速
-      - 👖🇲🇴不限制设备数量
-      - 👖🇲🇴付费用户赠送小火箭共享账号
-      - 👖🇲🇴解锁TikTok
-      - 👖🇲🇴解锁ChatGPT
+      - 👖🇲🇴最低2元1000G流量
+      - 👖🇲🇴永久无限流量套餐200元
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 手动切换
       - 🎯 全球直连
+      - 🪜🇰🇷超低价付费机场梯子推荐
       - 👖🇲🇴官网https://kelayun.notepin.co
-      - 👖🇲🇴最低2元1000G
-      - 👖🇲🇴终身无限流量套餐200元
-      - 👖🇲🇴采用定制IPLC专线
-      - 👖🇲🇴完全不限速
-      - 👖🇲🇴不限制设备数量
-      - 👖🇲🇴付费用户赠送小火箭共享账号
-      - 👖🇲🇴解锁TikTok
-      - 👖🇲🇴解锁ChatGPT
+      - 👖🇲🇴最低2元1000G流量
+      - 👖🇲🇴永久无限流量套餐200元
 rules:
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
