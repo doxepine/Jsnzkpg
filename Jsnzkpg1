@@ -144,6 +144,16 @@ CETV4,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=
 CETV4,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000006000012123&livemode=1&stbId=yu&mode=1&$3M
 
 📡卫视直播,#genre#
+湖南卫视4K,https://4k.11cn.dpdns.org/1.m3u8
+湖南卫视4K,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+浙江卫视4K,https://4k.11cn.dpdns.org/2.m3u8
+浙江卫视4K,https://play-qukan.cztv.com/live/1758879019692345.m3u8
+江苏卫视4K,https://4k.11cn.dpdns.org/3.m3u8
+东方卫视4K,https://4k.11cn.dpdns.org/4.m3u8
+北京卫视4K,https://4k.11cn.dpdns.org/5.m3u8
+深圳卫视4K,https://4k.11cn.dpdns.org/6.m3u8
+深圳卫视4K,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=r1tbjy
+山东卫视4K,https://4k.11cn.dpdns.org/7.m3u8
 山东卫视,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000020424&livemode=1&stbId=yu&mode=1&$8M
 山东卫视,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000012807&livemode=1&stbId=yu&mode=1&$4M
 山东卫视,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000016568&livemode=1&stbId=yu&mode=1&$8M
@@ -164,6 +174,9 @@ CETV4,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=
 浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 浙江卫视,http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8#http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8#https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8#https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8?#http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8
 浙江卫视,http://183.215.134.239:19901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
+浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/720p.m3u8$1甘电HD直
+浙江卫视,http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8$2甘电FD直
+浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$3甘电FD直
 江苏卫视,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000004684&livemode=1&stbId=yu&mode=1&$4M
 江苏卫视,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=4796340999304424198&livemode=1&stbId=yu&mode=1&$2M
 江苏卫视,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000019351&livemode=1&stbId=yu&mode=1&$8M
@@ -346,6 +359,7 @@ SYTV,http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8
 普洱TV,https://zhibo.puerw.cn/puer/c752b300-602c-4083-8c5e-f6bb97b58f2d.m3u8
 象视界,http://150.158.10.195:80/dxxw.php?id=xsj
 象视界,http://1.94.31.214/php/hntv.php?id=xsj
+营山,http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel101492/playlist.m3u8$1川电HD直
 
 
 
@@ -375,10 +389,12 @@ TVB Plus,http://r.jdshipin.com/ndGgS
 TVB星河,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
 TVB星河,http://r.jdshipin.com/Voac4
 TVB翡翠台,http://erp.giihgtidg.com:8080/live/jade01.m3u8
+TVB千禧经典台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=q3fk4f
 凤凰中文,http://r.jdshipin.com/cCCzW
 凤凰资讯,http://r.jdshipin.com/0Rp07
 凤凰香港,http://r.jdshipin.com/yDoTN
 凤凰电影,http://iot-mqqt.111yao.cn:8080/live/diyp_fhdy.m3u8
+翡翠台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=5ho9y0
 翡翠台,https://cdn6.163189.xyz/163189/fct4k
 翡翠台,https://mytv.cdn.loc.cc/o12.php?id=fct
 翡翠台,https://yang-1989.eu.org/live/TVB-Jade
@@ -391,6 +407,7 @@ Astro QJ,http://php.jdshipin.com/smt.php?id=Quanjia
 Astro 欢喜台,http://php.jdshipin.com/smt.php?id=Huahee
 星空卫视,http://iot-mqqt.111yao.cn:8080/live/diyp_xingkong.m3u8
 星空卫视,https://stream1.freetv.fun/xing-kong-wei-shi-13.m3u8
+RHK31,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=h4xmhy
 RHK32,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
 RHK32,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream2/streamPlaylist.m3u8
 亚洲卫视,https://p2hs.vzan.com/slowlive/821481626725612419/live.m3u8
@@ -400,11 +417,18 @@ GOODTV,https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/
 GOOD2,http://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch2-1.m3u8
 GOOD2,https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch2-2.m3u8
 龙华电影,https://cdn8.163189.xyz/live/lhdy/stream.m3u8
+龙华电影,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=ye7szf
 龙华经典,https://cdn8.163189.xyz/live/lhjd/stream.m3u8
+龙华经典,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=8yrl4q
 龙华偶像,https://cdn8.163189.xyz/live/lhox/stream.m3u8
+龙华偶像,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=6sny1s
 龙华日韩,https://cdn8.163189.xyz/live/lhrh/stream.m3u8
+龙华日韩,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=tnegac
 龙华戏剧,https://cdn8.163189.xyz/live/lhxj/stream.m3u8
+龙华戏剧,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=q5vqjv
 龙华卡通,https://cdn8.163189.xyz/live/lhkt/stream.m3u8
+龙华卡通,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=g1q9gp
+龙华洋片,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=bvwbku
 番薯111,http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8
 番薯111,http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8?blog.ntnas.top
 番薯111,http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
@@ -435,11 +459,14 @@ CH5,http://cdn6.163189.xyz/163189/ch5
 CH8,http://cdn6.163189.xyz/163189/ch8
 CHU,http://cdn6.163189.xyz/163189/chu
 POPC,http://tl.061833.xyz/tl/popc
+HOY77,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=nftjte
 MoMoTV,rtmp://f13h.mine.nu/sat/tv761
 Love Nature,https://yang-1989.eu.org/live/Love-Nature
 东森超视,rtmp://f13h.mine.nu/sat/tv331
 重温经典,http://8.138.7.223/tv/cwjd.php
+重温经典,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=rutvbi
 八度空间,http://cdn6.163189.xyz/163189/8tv
+天映频道,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=mzkhgk
 唐人卫视,https://ntd02.akamaized.net/HD-NY/tracks-v3a1/mono.m3u8
 唯心电视,http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/playlist.m3u8
 中旺电视,http://38.64.72.148:80/hls/modn/list/4010/chunklist1.m3u8
@@ -541,9 +568,11 @@ BseTV至臻视界,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLiv
 皇马RMTV,https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8
 迪拜体育,https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8
 NBA-TV,http://1tv41.icu:8080/30065823/63154294/20073
+五星体育,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=vc4892
 五星体育,https://zby.130519.xyz/PLTV/11/224/3221225732/index.m3u8
 五星体育,http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzYxLjE2OS40Ny4xMDA6MTAwODEvaGxzLzQ4L2luZGV4Lm0zdTg=
 劲爆体育,http://111.8.242.124:4095/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&authid=0$怀化移动1
+广东体育,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=dny2he
 广东体育,http://r.jdshipin.com/LiYdg
 广东体育,http://116.77.33.98:44330/tsfile/live/1004_1.m3u8?key=txiptv&playlive=0&authid=0$深圳天威
 山东体育,http://nw.jiayinkeji.xin/migunew/gtqilu.php?id=typd
@@ -721,6 +750,7 @@ BesTV看天下,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&C
 NewTV哒啵赛事,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5320946857686967621&livemode=1&stbId=yu&mode=1&$4M
 BesTV电竞天堂,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000011000288003&livemode=1&stbId=yu&mode=1&$8M
 BesTV游戏风云,https://zby.130519.xyz/PLTV/11/224/3221226117/index.m3u8
+CN游戏竞技,http://ygbh.site/php/bfgd.php?id=296
 穿越火线,http://tc-tct.douyucdn2.cn/dyliveflv1/605964rzzgGEOZHr.flv?wsAuth=43ef2d796067cbec9c238c73235a1005&token=cpn-androidmpro-0-605964-b9be22700076c085e82232beb0fbe7838e28994acafb3964&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
 穿越火线手游,http://tc-tct.douyucdn2.cn/dyliveflv1/868191rjy69PsEAz_2000.flv?wsAuth=63d571126613feca6067da321aaf2df2&token=cpn-androidmpro-0-868191-846aacab1859214c037e4d0c263121580403540feea39901&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
 和平精英手游,http://tc-tct.douyucdn2.cn/dyliveflv1/999rx47n2pp8pKD_2000.flv?wsAuth=6c429f39afed615e842e02ad1a9b1c6e&token=cpn-androidmpro-0-999-d32d75306aab2a7980ad37445844bcccf012d2bb110b5c33&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
@@ -841,6 +871,7 @@ BesTV戏曲,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Cont
 河南曲艺,http://150.158.10.195:80/dxxw.php?id=jczy
 移动戏曲,http://150.158.10.195:80/dxxw.php?id=ydxj
 秦腔,http://112.46.105.20:8009/hls/22/index.m3u8
+天元围棋,https://cc06.tv12.xyz/47.m3u8
 戏剧影视,http://xatv-yt.xiancity.cn/live/4/index.m3u8
 百度医学课堂,http://lvbaiducdnct.inter.ptqy.gitv.tv:80/tslive/c59_fast_1046_720P_t10/c59_fast_1046_720P_t10.m3u8?d
 
@@ -1441,6 +1472,78 @@ BJ오연하,https://live.iill.top/soop/suezzang25
 微笑和苦瓜,http://113.45.240.129:35455/huya/28213261
 熊孩子沙雕动画,http://113.45.240.129:35455/huya/25243852
 悸动,http://dns.yiandrive.com:13571/huya/28272846
+
+
+🍿四季线上直播,#genre#
+LOVENATURE,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=9bbnwt
+FUN探索娛樂台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=fyc1pa
+ELTA生活旅遊,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=7kneuy
+GlobalTrekker,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=clywnj
+HITS頻道,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=544peo
+原住民族電視台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=mip2pq
+幸福空間居家台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=nxovoq
+歷史頻道,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=ps3kgx
+MAGELLANTV频道,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=0fikbf
+車迷TV,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=5hv3r5
+滾動力Rollor,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=qby8ff
+CI罪案偵查頻道,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=7advq2
+ROCKAction,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=alptrh
+CinemaWorld,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=980l1b
+ROCKEntertainment,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=qvrd5f
+Lifetime,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=5nzf3b
+電影原聲台CMusic,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=6h255f
+MTVLive,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=toz0uo
+INULTRA,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=40wxxt
+LUXETV,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=yka2jt
+TV5MONDEStyle,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=9b961v
+LiveABC互動英語頻道,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=jcao0v
+NickJr.,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=8xep03
+Nickelodeon,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=rg84p1
+DreamWorks,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=qcfcwq
+MOMO親子,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=8w7l4p
+精選動漫台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=2qzijw
+經典卡通台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=d1szln
+霹靂布袋戲,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=0xeogk
+金光布袋戲,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=j4sgh6
+經典電影台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=9s7h6q
+大愛電視,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=a839w4
+大愛二台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=xji3uw
+人間衛視,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=wp0pn4
+BLOOMBERGTV,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=izsohi
+SBN全球財經台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=hovzu4
+NHK新聞資訊台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=wdgx5x
+FRANCE24英文台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=cqxtho
+半島國際新聞台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=1waonm
+CNBCAsia財經台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=97u6c4
+DW德國之聲,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=22vjsu
+三立綜合台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=26semk
+三立iNEWS,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=ewskxh
+TVBS綜藝台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=vhrgr2
+TVBS台劇台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=4pdyt3
+台視,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=3w7mpa
+台視新聞,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=j3sh9i
+中視,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=s0xpxz
+中視新聞,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=y6uz36
+華視,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=b1ek97
+華視新聞,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=hypgko
+三立新聞iNEWS,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=1uuava
+中天新聞台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=ctcw1n
+寰宇新聞台灣台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=u58srn
+寰宇新聞台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=edu0e9
+寰宇財經台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=2n7yny
+國會頻道1台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=6l9eih
+國會頻道2台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=7lmxm6
+ELTV生活英語台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=hh7ptg
+Smart知識台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=6j5c3g
+亞洲旅遊台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=qvgowa
+台灣戲劇台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=u3yfk3
+龍華卡通台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=14pyxg
+龍華戲劇台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=9x8t1x
+龍華偶像台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=9ecymr
+龍華日韓台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=1ym1eo
+龍華經典台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=un2xdu
+龍華電影台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=isizng
+龍華洋片台,https://php.946985.filegear-sg.me/iptv/jacktv.php?id=ka3tos
 
 
 🥥海南移动直播,#genre#
