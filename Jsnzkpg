@@ -5,113 +5,246 @@ mode: Rule
 log-level: info
 external-controller: 9090
 proxies:
-  - name: 👖🇸🇬官网https://kelayun.notepin.co
-    server: 108.181.5.253
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
-    skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: f193c966-9e80-46da-bc5a-9eaaac0ea941
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
-  - name: 👖🇸🇬最低2元1000G流量
-    server: 146.56.150.104
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
-    skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: f193c966-9e80-46da-bc5a-9eaaac0ea941
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
-  - name: 👖🇸🇬终身无限流量套餐200元
-    server: 146.56.146.234
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
-    skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: f193c966-9e80-46da-bc5a-9eaaac0ea941
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
-  - name: 👖🇸🇬不限速/不限设备
+  - name: 👖🇭🇰超低价付费机场分享
     type: vless
-    server: kb.vmjp.yydjc.top
-    port: 443
-    uuid: f193c966-9e80-46da-bc5a-9eaaac0ea941
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: xtls-rprx-vision
-    client-fingerprint: edge
-    servername: iosapps.itunes.apple.com
-    reality-opts:
-      public-key: yzIdIf5RpR-rTzlULRjJoCgcQdx3-yXKl7eT7IuThn4
-      short-id: bb9ab0d5242d53e9
+    server: bpjcpics.bpjcccccc.space
+    port: 2082
+    uuid: 686cf0da-e68d-4c79-8610-14660ba5e46a
     alterId: 0
-    cipher: ""
-    sni: iosapps.itunes.apple.com
-  - name: 👖🇸🇬免费提供ios小火箭共享账号
+    cipher: auto
+    udp: true
+    flow:
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bpjchk.bpjcccccc.space
+  - name: 👖🇭🇰官网https://kelayun.notepin.co
     type: vless
-    server: kb.vmjp.yydjc.top
-    port: 443
-    uuid: f193c966-9e80-46da-bc5a-9eaaac0ea941
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: xtls-rprx-vision
-    client-fingerprint: ios
-    servername: iosapps.itunes.apple.com
-    reality-opts:
-      public-key: yzIdIf5RpR-rTzlULRjJoCgcQdx3-yXKl7eT7IuThn4
-      short-id: bb9ab0d5242d53e9
+    server: bpjcpics.bpjcccccc.space
+    port: 2082
+    uuid: 686cf0da-e68d-4c79-8610-14660ba5e46a
     alterId: 0
-    cipher: ""
-    sni: iosapps.itunes.apple.com
-  - name: 👖🇸🇬解锁TikTok
+    cipher: auto
+    udp: true
+    flow:
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bpjchk.bpjcccccc.space
+  - name: 👖🇭🇰备用官网https://99z.top/kelayun.github.io
     type: vless
-    server: kb.aws7.yydjc.top
-    port: 443
-    uuid: f193c966-9e80-46da-bc5a-9eaaac0ea941
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: xtls-rprx-vision
-    client-fingerprint: safari
-    servername: iosapps.itunes.apple.com
-    reality-opts:
-      public-key: DIOhRsebFvsPYub2ooeF8Uho0leKt59yO0B2rKw6-HE
-      short-id: 8d9411a259b44855
+    server: bpjcpics.bpjcccccc.space
+    port: 2082
+    uuid: 686cf0da-e68d-4c79-8610-14660ba5e46a
     alterId: 0
-    cipher: ""
-    sni: iosapps.itunes.apple.com
-  - name: 👖🇸🇬解锁ChatGPT
+    cipher: auto
+    udp: true
+    flow:
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bpjchk.bpjcccccc.space
+  - name: 👖🇭🇰最低2元1000G流量
     type: vless
-    server: kb.aws7.yydjc.top
-    port: 443
-    uuid: f193c966-9e80-46da-bc5a-9eaaac0ea941
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: xtls-rprx-vision
-    client-fingerprint: ios
-    servername: iosapps.itunes.apple.com
-    reality-opts:
-      public-key: DIOhRsebFvsPYub2ooeF8Uho0leKt59yO0B2rKw6-HE
-      short-id: 8d9411a259b44855
+    server: bpjcpics.bpjcccccc.space
+    port: 2082
+    uuid: 686cf0da-e68d-4c79-8610-14660ba5e46a
     alterId: 0
-    cipher: ""
-    sni: iosapps.itunes.apple.com
+    cipher: auto
+    udp: true
+    flow:
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bpjchk.bpjcccccc.space
+  - name: 👖🇭🇰最高200元终身无限流量
+    type: vless
+    server: bpjcpics.bpjcccccc.space
+    port: 2082
+    uuid: 686cf0da-e68d-4c79-8610-14660ba5e46a
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bpjcsg.bpjcccccc.space
+  - name: 👖🇭🇰提供ios小火箭共享账号
+    type: vless
+    server: bpjcpics.bpjcccccc.space
+    port: 2082
+    uuid: 686cf0da-e68d-4c79-8610-14660ba5e46a
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bpjcsg.bpjcccccc.space
+  - name: 👖🇭🇰王者套餐赠送额外专线
+    type: vless
+    server: bpjcpics.bpjcccccc.space
+    port: 2082
+    uuid: 686cf0da-e68d-4c79-8610-14660ba5e46a
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bpjcsg.bpjcccccc.space
+  - name: 👖🇭🇰不限速
+    type: vless
+    server: bpjcpics.bpjcccccc.space
+    port: 2082
+    uuid: 686cf0da-e68d-4c79-8610-14660ba5e46a
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bpjcus.bpjcccccc.space
+  - name: 👖🇭🇰不限设备
+    type: vless
+    server: bpjcpics.bpjcccccc.space
+    port: 2082
+    uuid: 686cf0da-e68d-4c79-8610-14660ba5e46a
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bpjcus.bpjcccccc.space
+  - name: 👖🇭🇰新疆+西藏+福建=都可用
+    type: vless
+    server: bpjcpics.bpjcccccc.space
+    port: 2082
+    uuid: 686cf0da-e68d-4c79-8610-14660ba5e46a
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bpjcus.bpjcccccc.space
+  - name: 👖🇭🇰解锁奈飞
+    type: vless
+    server: bpjcpics.bpjcccccc.space
+    port: 2082
+    uuid: 686cf0da-e68d-4c79-8610-14660ba5e46a
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bpjcde.bpjcccccc.space
+  - name: 👖🇭🇰解锁迪士尼
+    type: vless
+    server: bpjcpics.bpjcccccc.space
+    port: 2082
+    uuid: 686cf0da-e68d-4c79-8610-14660ba5e46a
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bpjcde.bpjcccccc.space
+  - name: 👖🇭🇰解锁YouTube
+    type: vless
+    server: bpjcpics.bpjcccccc.space
+    port: 2082
+    uuid: 686cf0da-e68d-4c79-8610-14660ba5e46a
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bpjcde.bpjcccccc.space
+  - name: 👖🇭🇰解锁TikTok
+    type: vless
+    server: bpjcpics.bpjcccccc.space
+    port: 2082
+    uuid: 686cf0da-e68d-4c79-8610-14660ba5e46a
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bpjcru.bpjcccccc.space
+  - name: 👖🇭🇰解锁TG
+    type: vless
+    server: bpjcpics.bpjcccccc.space
+    port: 2082
+    uuid: 686cf0da-e68d-4c79-8610-14660ba5e46a
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bpjcru.bpjcccccc.space
+  - name: 👖🇭🇰解锁ChatGPT
+    type: vless
+    server: bpjcpics.bpjcccccc.space
+    port: 2082
+    uuid: 686cf0da-e68d-4c79-8610-14660ba5e46a
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bpjcru.bpjcccccc.space
 proxy-groups:
   - name: 🚀 手动切换
     type: select
@@ -119,131 +252,230 @@ proxy-groups:
       - ♻️ 自动选择
       - ChatGPT、Claude、Gemini、微软AI
       - DIRECT
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬最低2元1000G流量
-      - 👖🇸🇬终身无限流量套餐200元
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬免费提供ios小火箭共享账号
-      - 👖🇸🇬解锁TikTok
-      - 👖🇸🇬解锁ChatGPT
+      - 👖🇭🇰超低价付费机场分享
+      - 👖🇭🇰官网https://kelayun.notepin.co
+      - 👖🇭🇰备用官网https://99z.top/kelayun.github.io
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰最高200元终身无限流量
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰王者套餐赠送额外专线
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰新疆+西藏+福建=都可用
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁TG
+      - 👖🇭🇰解锁ChatGPT
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬最低2元1000G流量
-      - 👖🇸🇬终身无限流量套餐200元
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬免费提供ios小火箭共享账号
-      - 👖🇸🇬解锁TikTok
-      - 👖🇸🇬解锁ChatGPT
+      - 👖🇭🇰超低价付费机场分享
+      - 👖🇭🇰官网https://kelayun.notepin.co
+      - 👖🇭🇰备用官网https://99z.top/kelayun.github.io
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰最高200元终身无限流量
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰王者套餐赠送额外专线
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰新疆+西藏+福建=都可用
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁TG
+      - 👖🇭🇰解锁ChatGPT
   - name: 📹 YouTube
     type: select
     proxies:
       - 🚀 手动切换
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬最低2元1000G流量
-      - 👖🇸🇬终身无限流量套餐200元
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬免费提供ios小火箭共享账号
-      - 👖🇸🇬解锁TikTok
-      - 👖🇸🇬解锁ChatGPT
+      - 👖🇭🇰超低价付费机场分享
+      - 👖🇭🇰官网https://kelayun.notepin.co
+      - 👖🇭🇰备用官网https://99z.top/kelayun.github.io
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰最高200元终身无限流量
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰王者套餐赠送额外专线
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰新疆+西藏+福建=都可用
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁TG
+      - 👖🇭🇰解锁ChatGPT
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🚀 手动切换
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬最低2元1000G流量
-      - 👖🇸🇬终身无限流量套餐200元
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬免费提供ios小火箭共享账号
-      - 👖🇸🇬解锁TikTok
-      - 👖🇸🇬解锁ChatGPT
+      - 👖🇭🇰超低价付费机场分享
+      - 👖🇭🇰官网https://kelayun.notepin.co
+      - 👖🇭🇰备用官网https://99z.top/kelayun.github.io
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰最高200元终身无限流量
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰王者套餐赠送额外专线
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰新疆+西藏+福建=都可用
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁TG
+      - 👖🇭🇰解锁ChatGPT
   - name: 🎮️ 游戏平台
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬最低2元1000G流量
-      - 👖🇸🇬终身无限流量套餐200元
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬免费提供ios小火箭共享账号
-      - 👖🇸🇬解锁TikTok
-      - 👖🇸🇬解锁ChatGPT
+      - 👖🇭🇰超低价付费机场分享
+      - 👖🇭🇰官网https://kelayun.notepin.co
+      - 👖🇭🇰备用官网https://99z.top/kelayun.github.io
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰最高200元终身无限流量
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰王者套餐赠送额外专线
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰新疆+西藏+福建=都可用
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁TG
+      - 👖🇭🇰解锁ChatGPT
   - name: ChatGPT、Claude、Gemini、微软AI
     type: select
     proxies:
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬最低2元1000G流量
-      - 👖🇸🇬终身无限流量套餐200元
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬免费提供ios小火箭共享账号
-      - 👖🇸🇬解锁TikTok
-      - 👖🇸🇬解锁ChatGPT
+      - 👖🇭🇰超低价付费机场分享
+      - 👖🇭🇰官网https://kelayun.notepin.co
+      - 👖🇭🇰备用官网https://99z.top/kelayun.github.io
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰最高200元终身无限流量
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰王者套餐赠送额外专线
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰新疆+西藏+福建=都可用
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁TG
+      - 👖🇭🇰解锁ChatGPT
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬最低2元1000G流量
-      - 👖🇸🇬终身无限流量套餐200元
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬免费提供ios小火箭共享账号
-      - 👖🇸🇬解锁TikTok
-      - 👖🇸🇬解锁ChatGPT
+      - 👖🇭🇰超低价付费机场分享
+      - 👖🇭🇰官网https://kelayun.notepin.co
+      - 👖🇭🇰备用官网https://99z.top/kelayun.github.io
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰最高200元终身无限流量
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰王者套餐赠送额外专线
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰新疆+西藏+福建=都可用
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁TG
+      - 👖🇭🇰解锁ChatGPT
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬最低2元1000G流量
-      - 👖🇸🇬终身无限流量套餐200元
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬免费提供ios小火箭共享账号
-      - 👖🇸🇬解锁TikTok
-      - 👖🇸🇬解锁ChatGPT
+      - 👖🇭🇰超低价付费机场分享
+      - 👖🇭🇰官网https://kelayun.notepin.co
+      - 👖🇭🇰备用官网https://99z.top/kelayun.github.io
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰最高200元终身无限流量
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰王者套餐赠送额外专线
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰新疆+西藏+福建=都可用
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁TG
+      - 👖🇭🇰解锁ChatGPT
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬最低2元1000G流量
-      - 👖🇸🇬终身无限流量套餐200元
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬免费提供ios小火箭共享账号
-      - 👖🇸🇬解锁TikTok
-      - 👖🇸🇬解锁ChatGPT
+      - 👖🇭🇰超低价付费机场分享
+      - 👖🇭🇰官网https://kelayun.notepin.co
+      - 👖🇭🇰备用官网https://99z.top/kelayun.github.io
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰最高200元终身无限流量
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰王者套餐赠送额外专线
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰新疆+西藏+福建=都可用
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁TG
+      - 👖🇭🇰解锁ChatGPT
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 🚀 手动切换
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬最低2元1000G流量
-      - 👖🇸🇬终身无限流量套餐200元
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬免费提供ios小火箭共享账号
-      - 👖🇸🇬解锁TikTok
-      - 👖🇸🇬解锁ChatGPT
+      - 👖🇭🇰超低价付费机场分享
+      - 👖🇭🇰官网https://kelayun.notepin.co
+      - 👖🇭🇰备用官网https://99z.top/kelayun.github.io
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰最高200元终身无限流量
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰王者套餐赠送额外专线
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰新疆+西藏+福建=都可用
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁TG
+      - 👖🇭🇰解锁ChatGPT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 手动切换
       - 🎯 全球直连
-      - 👖🇸🇬官网https://kelayun.notepin.co
-      - 👖🇸🇬最低2元1000G流量
-      - 👖🇸🇬终身无限流量套餐200元
-      - 👖🇸🇬不限速/不限设备
-      - 👖🇸🇬免费提供ios小火箭共享账号
-      - 👖🇸🇬解锁TikTok
-      - 👖🇸🇬解锁ChatGPT
+      - 👖🇭🇰超低价付费机场分享
+      - 👖🇭🇰官网https://kelayun.notepin.co
+      - 👖🇭🇰备用官网https://99z.top/kelayun.github.io
+      - 👖🇭🇰最低2元1000G流量
+      - 👖🇭🇰最高200元终身无限流量
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰王者套餐赠送额外专线
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰新疆+西藏+福建=都可用
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁TG
+      - 👖🇭🇰解锁ChatGPT
 rules:
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
