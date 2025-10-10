@@ -5,826 +5,190 @@ mode: Rule
 log-level: info
 external-controller: 9090
 proxies:
-  - name: 剩余流量：9999999  GB
+  - name: ❶官网https://kelayun.notepin.co
     server: qing-hk.mxtn.net
-    port: 21027
+    port: 21006
     sni: null
     up: null
     down: null
     skip-cert-verify: null
     ports: 21001-21099
     type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
+    password: 956f9680-78ff-4091-bb71-51e8f8c8c075
     auth: ""
     fast-open: false
-  - name: 距离下次重置剩余：29天
+  - name: ❷官网https://99z.top/kelayun.github.io
     server: qing-hk.mxtn.net
-    port: 21027
+    port: 21006
     sni: null
     up: null
     down: null
     skip-cert-verify: null
     ports: 21001-21099
     type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 套餐到期：2099-10-7
-    server: qing-hk.mxtn.net
-    port: 21027
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 官网https://kelayun.notepin.co
-    server: qing-hk.mxtn.net
-    port: 21027
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 备用官网https://99z.top/kelayun.github.io
-    server: qing-hk.mxtn.net
-    port: 21020
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
+    password: 956f9680-78ff-4091-bb71-51e8f8c8c075
     auth: ""
     fast-open: false
   - name: 最低2元1000G流量
     server: qing-hk.mxtn.net
-    port: 21016
+    port: 21006
     sni: null
     up: null
     down: null
     skip-cert-verify: null
     ports: 21001-21099
     type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
+    password: 956f9680-78ff-4091-bb71-51e8f8c8c075
     auth: ""
     fast-open: false
   - name: 最高200元终身无限流量
     server: qing-hk.mxtn.net
-    port: 21098
+    port: 21006
     sni: null
     up: null
     down: null
     skip-cert-verify: null
     ports: 21001-21099
     type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
+    password: 956f9680-78ff-4091-bb71-51e8f8c8c075
     auth: ""
     fast-open: false
-  - name: 🇭🇰 香港1
+  - name: 不限制设备数量
+    server: qing-hk.mxtn.net
+    port: 21068
+    sni: null
+    up: null
+    down: null
+    skip-cert-verify: null
+    ports: 21001-21099
+    type: hysteria2
+    password: 956f9680-78ff-4091-bb71-51e8f8c8c075
+    auth: ""
+    fast-open: false
+  - name: 不限速
+    server: qing-hk.mxtn.net
+    port: 21017
+    sni: null
+    up: null
+    down: null
+    skip-cert-verify: null
+    ports: 21001-21099
+    type: hysteria2
+    password: 956f9680-78ff-4091-bb71-51e8f8c8c075
+    auth: ""
+    fast-open: false
+  - name: 免费提供ios小火箭共享账号
+    server: qing-hk.mxtn.net
+    port: 21094
+    sni: null
+    up: null
+    down: null
+    skip-cert-verify: null
+    ports: 21001-21099
+    type: hysteria2
+    password: 956f9680-78ff-4091-bb71-51e8f8c8c075
+    auth: ""
+    fast-open: false
+  - name: 性感客服24小时在线解答
     type: ss
     server: qing-zz.mxtn.net
     port: 22001
     cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
+    password: NmE5YTM4ZmJhNjE4YWMyOA==:OTU2Zjk2ODAtNzhmZi00MA==
     udp: true
-  - name: 🇭🇰 香港2
+  - name: 王者套餐额外提供IPLC专线
     type: ss
     server: qing-zz.mxtn.net
     port: 22002
     cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
+    password: NmE5YTM4ZmJhNjE4YWMyOA==:OTU2Zjk2ODAtNzhmZi00MA==
     udp: true
-  - name: 日本1
+  - name: 三网优化
     server: qing-jp.mxtn.net
-    port: 21052
+    port: 21002
     sni: null
     up: null
     down: null
     skip-cert-verify: null
     ports: 21001-21099
     type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
+    password: 956f9680-78ff-4091-bb71-51e8f8c8c075
     auth: ""
     fast-open: false
-  - name: 日本2
+  - name: 新疆+西藏+福建可用
     server: qing-jp.mxtn.net
-    port: 21053
+    port: 21029
     sni: null
     up: null
     down: null
     skip-cert-verify: null
     ports: 21001-21099
     type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
+    password: 956f9680-78ff-4091-bb71-51e8f8c8c075
     auth: ""
     fast-open: false
-  - name: 日本3
+  - name: 解锁奈飞
     type: ss
     server: qing-zz.mxtn.net
     port: 22003
     cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
+    password: NmE5YTM4ZmJhNjE4YWMyOA==:OTU2Zjk2ODAtNzhmZi00MA==
     udp: true
-  - name: 日本4
+  - name: 解锁TikTok
     type: ss
     server: qing-zz.mxtn.net
     port: 22004
     cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
+    password: NmE5YTM4ZmJhNjE4YWMyOA==:OTU2Zjk2ODAtNzhmZi00MA==
     udp: true
-  - name: 韩国1
+  - name: 解锁YouTube
     server: qing-kr.mxtn.net
-    port: 21015
+    port: 21018
     sni: null
     up: null
     down: null
     skip-cert-verify: null
     ports: 21001-21099
     type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
+    password: 956f9680-78ff-4091-bb71-51e8f8c8c075
     auth: ""
     fast-open: false
-  - name: 韩国2
-    server: qing-kr.mxtn.net
-    port: 21025
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 韩国3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22005
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 韩国4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22006
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 马来西亚1
+  - name: 解锁迪士尼
     server: qing-my.mxtn.net
-    port: 21038
+    port: 21065
     sni: null
     up: null
     down: null
     skip-cert-verify: null
     ports: 21001-21099
     type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
+    password: 956f9680-78ff-4091-bb71-51e8f8c8c075
     auth: ""
     fast-open: false
-  - name: 马来西亚2
-    server: qing-my.mxtn.net
-    port: 21037
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 马来西亚3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22007
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 马来西亚4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22008
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 美国1
+  - name: 解锁色站Pornhub
     server: qing-us.mxtn.net
-    port: 21095
+    port: 21059
     sni: null
     up: null
     down: null
     skip-cert-verify: null
     ports: 21001-21099
     type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
+    password: 956f9680-78ff-4091-bb71-51e8f8c8c075
     auth: ""
     fast-open: false
-  - name: 美国2
-    server: qing-us.mxtn.net
-    port: 21036
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 美国3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22009
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 美国4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22010
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 印度1
+  - name: 解锁ChatGPT
     server: qing-in.mxtn.net
-    port: 21052
+    port: 21084
     sni: null
     up: null
     down: null
     skip-cert-verify: null
     ports: 21001-21099
     type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
+    password: 956f9680-78ff-4091-bb71-51e8f8c8c075
     auth: ""
     fast-open: false
-  - name: 印度2
-    server: qing-in.mxtn.net
-    port: 21012
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 印度3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22011
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 印度4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22012
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 冰岛1
-    server: qing-is.mxtn.net
-    port: 21069
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 冰岛2
-    server: qing-is.mxtn.net
-    port: 21078
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 冰岛3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22013
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 冰岛4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22014
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 捷克1
-    server: qing-cz.mxtn.net
-    port: 21069
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 捷克2
-    server: qing-cz.mxtn.net
-    port: 21056
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 捷克3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22015
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 捷克4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22016
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 卢森堡1
-    server: qing-lu.mxtn.net
-    port: 21055
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 卢森堡2
-    server: qing-lu.mxtn.net
-    port: 21069
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 卢森堡3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22017
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 卢森堡4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22018
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 土耳其1
-    server: qing-tr.mxtn.net
-    port: 21026
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 土耳其2
-    server: qing-tr.mxtn.net
-    port: 21041
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 土耳其3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22019
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 土耳其4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22020
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 北马其顿1
-    server: qing-mk.mxtn.net
-    port: 21014
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 北马其顿2
-    server: qing-mk.mxtn.net
-    port: 21054
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 北马其顿3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22021
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 北马其顿4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22022
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 立陶宛1
-    server: qing-lt.mxtn.net
-    port: 21010
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 立陶宛2
-    server: qing-lt.mxtn.net
-    port: 21025
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 立陶宛3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22023
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 立陶宛4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22024
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 西班牙1
-    server: qing-es.mxtn.net
-    port: 21009
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 西班牙2
-    server: qing-es.mxtn.net
-    port: 21015
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 西班牙3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22025
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 西班牙4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22026
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 意大利1
-    server: qing-it.mxtn.net
-    port: 21052
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 意大利2
-    server: qing-it.mxtn.net
-    port: 21066
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 意大利3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22027
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 意大利4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22028
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 波斯尼亚和黑塞哥维那1
-    server: qing-ba.mxtn.net
-    port: 21041
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 波斯尼亚和黑塞哥维那2
-    server: qing-ba.mxtn.net
-    port: 21006
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 波斯尼亚和黑塞哥维那3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22029
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 波斯尼亚和黑塞哥维那4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22030
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 哈萨克斯坦1
-    server: qing-kz.mxtn.net
-    port: 21064
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 哈萨克斯坦2
-    server: qing-kz.mxtn.net
-    port: 21006
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 哈萨克斯坦3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22031
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 哈萨克斯坦4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22032
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 巴西1
-    server: qing-br.mxtn.net
-    port: 21067
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 巴西2
-    server: qing-br.mxtn.net
-    port: 21093
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 巴西3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22033
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 巴西4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22034
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 智利1
-    server: qing-cl.mxtn.net
-    port: 21033
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 智利2
-    server: qing-cl.mxtn.net
-    port: 21096
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 智利3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22035
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 智利4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22036
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 新西兰1
-    server: qing-nz.mxtn.net
-    port: 21085
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 新西兰2
-    server: qing-nz.mxtn.net
-    port: 21076
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 新西兰3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22037
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 新西兰4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22038
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 澳大利亚1
-    server: qing-au.mxtn.net
-    port: 21076
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 澳大利亚2
-    server: qing-au.mxtn.net
-    port: 21089
-    sni: null
-    up: null
-    down: null
-    skip-cert-verify: null
-    ports: 21001-21099
-    type: hysteria2
-    password: 1b6288b8-a8ac-485a-a88e-e21be5a2ecc2
-    auth: ""
-    fast-open: false
-  - name: 澳大利亚3
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22039
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
-  - name: 澳大利亚4
-    type: ss
-    server: qing-zz.mxtn.net
-    port: 22040
-    cipher: 2022-blake3-aes-128-gcm
-    password: NmE5YTM4ZmJhNjE4YWMyOA==:MWI2Mjg4YjgtYThhYy00OA==
-    udp: true
 proxy-groups:
   - name: 🚀 手动切换
     type: select
@@ -832,989 +196,241 @@ proxy-groups:
       - ♻️ 自动选择
       - ChatGPT、Claude、Gemini、微软AI
       - DIRECT
-      - 剩余流量：9999999  GB
-      - 距离下次重置剩余：29天
-      - 套餐到期：2099-10-7
-      - 官网https://kelayun.notepin.co
-      - 备用官网https://99z.top/kelayun.github.io
+      - ❶官网https://kelayun.notepin.co
+      - ❷官网https://99z.top/kelayun.github.io
       - 最低2元1000G流量
       - 最高200元终身无限流量
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 日本1
-      - 日本2
-      - 日本3
-      - 日本4
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国4
-      - 马来西亚1
-      - 马来西亚2
-      - 马来西亚3
-      - 马来西亚4
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 印度1
-      - 印度2
-      - 印度3
-      - 印度4
-      - 冰岛1
-      - 冰岛2
-      - 冰岛3
-      - 冰岛4
-      - 捷克1
-      - 捷克2
-      - 捷克3
-      - 捷克4
-      - 卢森堡1
-      - 卢森堡2
-      - 卢森堡3
-      - 卢森堡4
-      - 土耳其1
-      - 土耳其2
-      - 土耳其3
-      - 土耳其4
-      - 北马其顿1
-      - 北马其顿2
-      - 北马其顿3
-      - 北马其顿4
-      - 立陶宛1
-      - 立陶宛2
-      - 立陶宛3
-      - 立陶宛4
-      - 西班牙1
-      - 西班牙2
-      - 西班牙3
-      - 西班牙4
-      - 意大利1
-      - 意大利2
-      - 意大利3
-      - 意大利4
-      - 波斯尼亚和黑塞哥维那1
-      - 波斯尼亚和黑塞哥维那2
-      - 波斯尼亚和黑塞哥维那3
-      - 波斯尼亚和黑塞哥维那4
-      - 哈萨克斯坦1
-      - 哈萨克斯坦2
-      - 哈萨克斯坦3
-      - 哈萨克斯坦4
-      - 巴西1
-      - 巴西2
-      - 巴西3
-      - 巴西4
-      - 智利1
-      - 智利2
-      - 智利3
-      - 智利4
-      - 新西兰1
-      - 新西兰2
-      - 新西兰3
-      - 新西兰4
-      - 澳大利亚1
-      - 澳大利亚2
-      - 澳大利亚3
-      - 澳大利亚4
+      - 不限制设备数量
+      - 不限速
+      - 免费提供ios小火箭共享账号
+      - 性感客服24小时在线解答
+      - 王者套餐额外提供IPLC专线
+      - 三网优化
+      - 新疆+西藏+福建可用
+      - 解锁奈飞
+      - 解锁TikTok
+      - 解锁YouTube
+      - 解锁迪士尼
+      - 解锁色站Pornhub
+      - 解锁ChatGPT
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 剩余流量：9999999  GB
-      - 距离下次重置剩余：29天
-      - 套餐到期：2099-10-7
-      - 官网https://kelayun.notepin.co
-      - 备用官网https://99z.top/kelayun.github.io
+      - ❶官网https://kelayun.notepin.co
+      - ❷官网https://99z.top/kelayun.github.io
       - 最低2元1000G流量
       - 最高200元终身无限流量
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 日本1
-      - 日本2
-      - 日本3
-      - 日本4
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国4
-      - 马来西亚1
-      - 马来西亚2
-      - 马来西亚3
-      - 马来西亚4
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 印度1
-      - 印度2
-      - 印度3
-      - 印度4
-      - 冰岛1
-      - 冰岛2
-      - 冰岛3
-      - 冰岛4
-      - 捷克1
-      - 捷克2
-      - 捷克3
-      - 捷克4
-      - 卢森堡1
-      - 卢森堡2
-      - 卢森堡3
-      - 卢森堡4
-      - 土耳其1
-      - 土耳其2
-      - 土耳其3
-      - 土耳其4
-      - 北马其顿1
-      - 北马其顿2
-      - 北马其顿3
-      - 北马其顿4
-      - 立陶宛1
-      - 立陶宛2
-      - 立陶宛3
-      - 立陶宛4
-      - 西班牙1
-      - 西班牙2
-      - 西班牙3
-      - 西班牙4
-      - 意大利1
-      - 意大利2
-      - 意大利3
-      - 意大利4
-      - 波斯尼亚和黑塞哥维那1
-      - 波斯尼亚和黑塞哥维那2
-      - 波斯尼亚和黑塞哥维那3
-      - 波斯尼亚和黑塞哥维那4
-      - 哈萨克斯坦1
-      - 哈萨克斯坦2
-      - 哈萨克斯坦3
-      - 哈萨克斯坦4
-      - 巴西1
-      - 巴西2
-      - 巴西3
-      - 巴西4
-      - 智利1
-      - 智利2
-      - 智利3
-      - 智利4
-      - 新西兰1
-      - 新西兰2
-      - 新西兰3
-      - 新西兰4
-      - 澳大利亚1
-      - 澳大利亚2
-      - 澳大利亚3
-      - 澳大利亚4
+      - 不限制设备数量
+      - 不限速
+      - 免费提供ios小火箭共享账号
+      - 性感客服24小时在线解答
+      - 王者套餐额外提供IPLC专线
+      - 三网优化
+      - 新疆+西藏+福建可用
+      - 解锁奈飞
+      - 解锁TikTok
+      - 解锁YouTube
+      - 解锁迪士尼
+      - 解锁色站Pornhub
+      - 解锁ChatGPT
   - name: 📹 YouTube
     type: select
     proxies:
       - 🚀 手动切换
-      - 剩余流量：9999999  GB
-      - 距离下次重置剩余：29天
-      - 套餐到期：2099-10-7
-      - 官网https://kelayun.notepin.co
-      - 备用官网https://99z.top/kelayun.github.io
+      - ❶官网https://kelayun.notepin.co
+      - ❷官网https://99z.top/kelayun.github.io
       - 最低2元1000G流量
       - 最高200元终身无限流量
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 日本1
-      - 日本2
-      - 日本3
-      - 日本4
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国4
-      - 马来西亚1
-      - 马来西亚2
-      - 马来西亚3
-      - 马来西亚4
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 印度1
-      - 印度2
-      - 印度3
-      - 印度4
-      - 冰岛1
-      - 冰岛2
-      - 冰岛3
-      - 冰岛4
-      - 捷克1
-      - 捷克2
-      - 捷克3
-      - 捷克4
-      - 卢森堡1
-      - 卢森堡2
-      - 卢森堡3
-      - 卢森堡4
-      - 土耳其1
-      - 土耳其2
-      - 土耳其3
-      - 土耳其4
-      - 北马其顿1
-      - 北马其顿2
-      - 北马其顿3
-      - 北马其顿4
-      - 立陶宛1
-      - 立陶宛2
-      - 立陶宛3
-      - 立陶宛4
-      - 西班牙1
-      - 西班牙2
-      - 西班牙3
-      - 西班牙4
-      - 意大利1
-      - 意大利2
-      - 意大利3
-      - 意大利4
-      - 波斯尼亚和黑塞哥维那1
-      - 波斯尼亚和黑塞哥维那2
-      - 波斯尼亚和黑塞哥维那3
-      - 波斯尼亚和黑塞哥维那4
-      - 哈萨克斯坦1
-      - 哈萨克斯坦2
-      - 哈萨克斯坦3
-      - 哈萨克斯坦4
-      - 巴西1
-      - 巴西2
-      - 巴西3
-      - 巴西4
-      - 智利1
-      - 智利2
-      - 智利3
-      - 智利4
-      - 新西兰1
-      - 新西兰2
-      - 新西兰3
-      - 新西兰4
-      - 澳大利亚1
-      - 澳大利亚2
-      - 澳大利亚3
-      - 澳大利亚4
+      - 不限制设备数量
+      - 不限速
+      - 免费提供ios小火箭共享账号
+      - 性感客服24小时在线解答
+      - 王者套餐额外提供IPLC专线
+      - 三网优化
+      - 新疆+西藏+福建可用
+      - 解锁奈飞
+      - 解锁TikTok
+      - 解锁YouTube
+      - 解锁迪士尼
+      - 解锁色站Pornhub
+      - 解锁ChatGPT
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🚀 手动切换
-      - 剩余流量：9999999  GB
-      - 距离下次重置剩余：29天
-      - 套餐到期：2099-10-7
-      - 官网https://kelayun.notepin.co
-      - 备用官网https://99z.top/kelayun.github.io
+      - ❶官网https://kelayun.notepin.co
+      - ❷官网https://99z.top/kelayun.github.io
       - 最低2元1000G流量
       - 最高200元终身无限流量
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 日本1
-      - 日本2
-      - 日本3
-      - 日本4
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国4
-      - 马来西亚1
-      - 马来西亚2
-      - 马来西亚3
-      - 马来西亚4
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 印度1
-      - 印度2
-      - 印度3
-      - 印度4
-      - 冰岛1
-      - 冰岛2
-      - 冰岛3
-      - 冰岛4
-      - 捷克1
-      - 捷克2
-      - 捷克3
-      - 捷克4
-      - 卢森堡1
-      - 卢森堡2
-      - 卢森堡3
-      - 卢森堡4
-      - 土耳其1
-      - 土耳其2
-      - 土耳其3
-      - 土耳其4
-      - 北马其顿1
-      - 北马其顿2
-      - 北马其顿3
-      - 北马其顿4
-      - 立陶宛1
-      - 立陶宛2
-      - 立陶宛3
-      - 立陶宛4
-      - 西班牙1
-      - 西班牙2
-      - 西班牙3
-      - 西班牙4
-      - 意大利1
-      - 意大利2
-      - 意大利3
-      - 意大利4
-      - 波斯尼亚和黑塞哥维那1
-      - 波斯尼亚和黑塞哥维那2
-      - 波斯尼亚和黑塞哥维那3
-      - 波斯尼亚和黑塞哥维那4
-      - 哈萨克斯坦1
-      - 哈萨克斯坦2
-      - 哈萨克斯坦3
-      - 哈萨克斯坦4
-      - 巴西1
-      - 巴西2
-      - 巴西3
-      - 巴西4
-      - 智利1
-      - 智利2
-      - 智利3
-      - 智利4
-      - 新西兰1
-      - 新西兰2
-      - 新西兰3
-      - 新西兰4
-      - 澳大利亚1
-      - 澳大利亚2
-      - 澳大利亚3
-      - 澳大利亚4
+      - 不限制设备数量
+      - 不限速
+      - 免费提供ios小火箭共享账号
+      - 性感客服24小时在线解答
+      - 王者套餐额外提供IPLC专线
+      - 三网优化
+      - 新疆+西藏+福建可用
+      - 解锁奈飞
+      - 解锁TikTok
+      - 解锁YouTube
+      - 解锁迪士尼
+      - 解锁色站Pornhub
+      - 解锁ChatGPT
   - name: 🎮️ 游戏平台
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 剩余流量：9999999  GB
-      - 距离下次重置剩余：29天
-      - 套餐到期：2099-10-7
-      - 官网https://kelayun.notepin.co
-      - 备用官网https://99z.top/kelayun.github.io
+      - ❶官网https://kelayun.notepin.co
+      - ❷官网https://99z.top/kelayun.github.io
       - 最低2元1000G流量
       - 最高200元终身无限流量
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 日本1
-      - 日本2
-      - 日本3
-      - 日本4
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国4
-      - 马来西亚1
-      - 马来西亚2
-      - 马来西亚3
-      - 马来西亚4
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 印度1
-      - 印度2
-      - 印度3
-      - 印度4
-      - 冰岛1
-      - 冰岛2
-      - 冰岛3
-      - 冰岛4
-      - 捷克1
-      - 捷克2
-      - 捷克3
-      - 捷克4
-      - 卢森堡1
-      - 卢森堡2
-      - 卢森堡3
-      - 卢森堡4
-      - 土耳其1
-      - 土耳其2
-      - 土耳其3
-      - 土耳其4
-      - 北马其顿1
-      - 北马其顿2
-      - 北马其顿3
-      - 北马其顿4
-      - 立陶宛1
-      - 立陶宛2
-      - 立陶宛3
-      - 立陶宛4
-      - 西班牙1
-      - 西班牙2
-      - 西班牙3
-      - 西班牙4
-      - 意大利1
-      - 意大利2
-      - 意大利3
-      - 意大利4
-      - 波斯尼亚和黑塞哥维那1
-      - 波斯尼亚和黑塞哥维那2
-      - 波斯尼亚和黑塞哥维那3
-      - 波斯尼亚和黑塞哥维那4
-      - 哈萨克斯坦1
-      - 哈萨克斯坦2
-      - 哈萨克斯坦3
-      - 哈萨克斯坦4
-      - 巴西1
-      - 巴西2
-      - 巴西3
-      - 巴西4
-      - 智利1
-      - 智利2
-      - 智利3
-      - 智利4
-      - 新西兰1
-      - 新西兰2
-      - 新西兰3
-      - 新西兰4
-      - 澳大利亚1
-      - 澳大利亚2
-      - 澳大利亚3
-      - 澳大利亚4
+      - 不限制设备数量
+      - 不限速
+      - 免费提供ios小火箭共享账号
+      - 性感客服24小时在线解答
+      - 王者套餐额外提供IPLC专线
+      - 三网优化
+      - 新疆+西藏+福建可用
+      - 解锁奈飞
+      - 解锁TikTok
+      - 解锁YouTube
+      - 解锁迪士尼
+      - 解锁色站Pornhub
+      - 解锁ChatGPT
   - name: ChatGPT、Claude、Gemini、微软AI
     type: select
     proxies:
-      - 剩余流量：9999999  GB
-      - 距离下次重置剩余：29天
-      - 套餐到期：2099-10-7
-      - 官网https://kelayun.notepin.co
-      - 备用官网https://99z.top/kelayun.github.io
+      - ❶官网https://kelayun.notepin.co
+      - ❷官网https://99z.top/kelayun.github.io
       - 最低2元1000G流量
       - 最高200元终身无限流量
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 日本1
-      - 日本2
-      - 日本3
-      - 日本4
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国4
-      - 马来西亚1
-      - 马来西亚2
-      - 马来西亚3
-      - 马来西亚4
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 印度1
-      - 印度2
-      - 印度3
-      - 印度4
-      - 冰岛1
-      - 冰岛2
-      - 冰岛3
-      - 冰岛4
-      - 捷克1
-      - 捷克2
-      - 捷克3
-      - 捷克4
-      - 卢森堡1
-      - 卢森堡2
-      - 卢森堡3
-      - 卢森堡4
-      - 土耳其1
-      - 土耳其2
-      - 土耳其3
-      - 土耳其4
-      - 北马其顿1
-      - 北马其顿2
-      - 北马其顿3
-      - 北马其顿4
-      - 立陶宛1
-      - 立陶宛2
-      - 立陶宛3
-      - 立陶宛4
-      - 西班牙1
-      - 西班牙2
-      - 西班牙3
-      - 西班牙4
-      - 意大利1
-      - 意大利2
-      - 意大利3
-      - 意大利4
-      - 波斯尼亚和黑塞哥维那1
-      - 波斯尼亚和黑塞哥维那2
-      - 波斯尼亚和黑塞哥维那3
-      - 波斯尼亚和黑塞哥维那4
-      - 哈萨克斯坦1
-      - 哈萨克斯坦2
-      - 哈萨克斯坦3
-      - 哈萨克斯坦4
-      - 巴西1
-      - 巴西2
-      - 巴西3
-      - 巴西4
-      - 智利1
-      - 智利2
-      - 智利3
-      - 智利4
-      - 新西兰1
-      - 新西兰2
-      - 新西兰3
-      - 新西兰4
-      - 澳大利亚1
-      - 澳大利亚2
-      - 澳大利亚3
-      - 澳大利亚4
+      - 不限制设备数量
+      - 不限速
+      - 免费提供ios小火箭共享账号
+      - 性感客服24小时在线解答
+      - 王者套餐额外提供IPLC专线
+      - 三网优化
+      - 新疆+西藏+福建可用
+      - 解锁奈飞
+      - 解锁TikTok
+      - 解锁YouTube
+      - 解锁迪士尼
+      - 解锁色站Pornhub
+      - 解锁ChatGPT
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 剩余流量：9999999  GB
-      - 距离下次重置剩余：29天
-      - 套餐到期：2099-10-7
-      - 官网https://kelayun.notepin.co
-      - 备用官网https://99z.top/kelayun.github.io
+      - ❶官网https://kelayun.notepin.co
+      - ❷官网https://99z.top/kelayun.github.io
       - 最低2元1000G流量
       - 最高200元终身无限流量
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 日本1
-      - 日本2
-      - 日本3
-      - 日本4
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国4
-      - 马来西亚1
-      - 马来西亚2
-      - 马来西亚3
-      - 马来西亚4
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 印度1
-      - 印度2
-      - 印度3
-      - 印度4
-      - 冰岛1
-      - 冰岛2
-      - 冰岛3
-      - 冰岛4
-      - 捷克1
-      - 捷克2
-      - 捷克3
-      - 捷克4
-      - 卢森堡1
-      - 卢森堡2
-      - 卢森堡3
-      - 卢森堡4
-      - 土耳其1
-      - 土耳其2
-      - 土耳其3
-      - 土耳其4
-      - 北马其顿1
-      - 北马其顿2
-      - 北马其顿3
-      - 北马其顿4
-      - 立陶宛1
-      - 立陶宛2
-      - 立陶宛3
-      - 立陶宛4
-      - 西班牙1
-      - 西班牙2
-      - 西班牙3
-      - 西班牙4
-      - 意大利1
-      - 意大利2
-      - 意大利3
-      - 意大利4
-      - 波斯尼亚和黑塞哥维那1
-      - 波斯尼亚和黑塞哥维那2
-      - 波斯尼亚和黑塞哥维那3
-      - 波斯尼亚和黑塞哥维那4
-      - 哈萨克斯坦1
-      - 哈萨克斯坦2
-      - 哈萨克斯坦3
-      - 哈萨克斯坦4
-      - 巴西1
-      - 巴西2
-      - 巴西3
-      - 巴西4
-      - 智利1
-      - 智利2
-      - 智利3
-      - 智利4
-      - 新西兰1
-      - 新西兰2
-      - 新西兰3
-      - 新西兰4
-      - 澳大利亚1
-      - 澳大利亚2
-      - 澳大利亚3
-      - 澳大利亚4
+      - 不限制设备数量
+      - 不限速
+      - 免费提供ios小火箭共享账号
+      - 性感客服24小时在线解答
+      - 王者套餐额外提供IPLC专线
+      - 三网优化
+      - 新疆+西藏+福建可用
+      - 解锁奈飞
+      - 解锁TikTok
+      - 解锁YouTube
+      - 解锁迪士尼
+      - 解锁色站Pornhub
+      - 解锁ChatGPT
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 剩余流量：9999999  GB
-      - 距离下次重置剩余：29天
-      - 套餐到期：2099-10-7
-      - 官网https://kelayun.notepin.co
-      - 备用官网https://99z.top/kelayun.github.io
+      - ❶官网https://kelayun.notepin.co
+      - ❷官网https://99z.top/kelayun.github.io
       - 最低2元1000G流量
       - 最高200元终身无限流量
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 日本1
-      - 日本2
-      - 日本3
-      - 日本4
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国4
-      - 马来西亚1
-      - 马来西亚2
-      - 马来西亚3
-      - 马来西亚4
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 印度1
-      - 印度2
-      - 印度3
-      - 印度4
-      - 冰岛1
-      - 冰岛2
-      - 冰岛3
-      - 冰岛4
-      - 捷克1
-      - 捷克2
-      - 捷克3
-      - 捷克4
-      - 卢森堡1
-      - 卢森堡2
-      - 卢森堡3
-      - 卢森堡4
-      - 土耳其1
-      - 土耳其2
-      - 土耳其3
-      - 土耳其4
-      - 北马其顿1
-      - 北马其顿2
-      - 北马其顿3
-      - 北马其顿4
-      - 立陶宛1
-      - 立陶宛2
-      - 立陶宛3
-      - 立陶宛4
-      - 西班牙1
-      - 西班牙2
-      - 西班牙3
-      - 西班牙4
-      - 意大利1
-      - 意大利2
-      - 意大利3
-      - 意大利4
-      - 波斯尼亚和黑塞哥维那1
-      - 波斯尼亚和黑塞哥维那2
-      - 波斯尼亚和黑塞哥维那3
-      - 波斯尼亚和黑塞哥维那4
-      - 哈萨克斯坦1
-      - 哈萨克斯坦2
-      - 哈萨克斯坦3
-      - 哈萨克斯坦4
-      - 巴西1
-      - 巴西2
-      - 巴西3
-      - 巴西4
-      - 智利1
-      - 智利2
-      - 智利3
-      - 智利4
-      - 新西兰1
-      - 新西兰2
-      - 新西兰3
-      - 新西兰4
-      - 澳大利亚1
-      - 澳大利亚2
-      - 澳大利亚3
-      - 澳大利亚4
+      - 不限制设备数量
+      - 不限速
+      - 免费提供ios小火箭共享账号
+      - 性感客服24小时在线解答
+      - 王者套餐额外提供IPLC专线
+      - 三网优化
+      - 新疆+西藏+福建可用
+      - 解锁奈飞
+      - 解锁TikTok
+      - 解锁YouTube
+      - 解锁迪士尼
+      - 解锁色站Pornhub
+      - 解锁ChatGPT
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 剩余流量：9999999  GB
-      - 距离下次重置剩余：29天
-      - 套餐到期：2099-10-7
-      - 官网https://kelayun.notepin.co
-      - 备用官网https://99z.top/kelayun.github.io
+      - ❶官网https://kelayun.notepin.co
+      - ❷官网https://99z.top/kelayun.github.io
       - 最低2元1000G流量
       - 最高200元终身无限流量
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 日本1
-      - 日本2
-      - 日本3
-      - 日本4
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国4
-      - 马来西亚1
-      - 马来西亚2
-      - 马来西亚3
-      - 马来西亚4
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 印度1
-      - 印度2
-      - 印度3
-      - 印度4
-      - 冰岛1
-      - 冰岛2
-      - 冰岛3
-      - 冰岛4
-      - 捷克1
-      - 捷克2
-      - 捷克3
-      - 捷克4
-      - 卢森堡1
-      - 卢森堡2
-      - 卢森堡3
-      - 卢森堡4
-      - 土耳其1
-      - 土耳其2
-      - 土耳其3
-      - 土耳其4
-      - 北马其顿1
-      - 北马其顿2
-      - 北马其顿3
-      - 北马其顿4
-      - 立陶宛1
-      - 立陶宛2
-      - 立陶宛3
-      - 立陶宛4
-      - 西班牙1
-      - 西班牙2
-      - 西班牙3
-      - 西班牙4
-      - 意大利1
-      - 意大利2
-      - 意大利3
-      - 意大利4
-      - 波斯尼亚和黑塞哥维那1
-      - 波斯尼亚和黑塞哥维那2
-      - 波斯尼亚和黑塞哥维那3
-      - 波斯尼亚和黑塞哥维那4
-      - 哈萨克斯坦1
-      - 哈萨克斯坦2
-      - 哈萨克斯坦3
-      - 哈萨克斯坦4
-      - 巴西1
-      - 巴西2
-      - 巴西3
-      - 巴西4
-      - 智利1
-      - 智利2
-      - 智利3
-      - 智利4
-      - 新西兰1
-      - 新西兰2
-      - 新西兰3
-      - 新西兰4
-      - 澳大利亚1
-      - 澳大利亚2
-      - 澳大利亚3
-      - 澳大利亚4
+      - 不限制设备数量
+      - 不限速
+      - 免费提供ios小火箭共享账号
+      - 性感客服24小时在线解答
+      - 王者套餐额外提供IPLC专线
+      - 三网优化
+      - 新疆+西藏+福建可用
+      - 解锁奈飞
+      - 解锁TikTok
+      - 解锁YouTube
+      - 解锁迪士尼
+      - 解锁色站Pornhub
+      - 解锁ChatGPT
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 🚀 手动切换
-      - 剩余流量：9999999  GB
-      - 距离下次重置剩余：29天
-      - 套餐到期：2099-10-7
-      - 官网https://kelayun.notepin.co
-      - 备用官网https://99z.top/kelayun.github.io
+      - ❶官网https://kelayun.notepin.co
+      - ❷官网https://99z.top/kelayun.github.io
       - 最低2元1000G流量
       - 最高200元终身无限流量
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 日本1
-      - 日本2
-      - 日本3
-      - 日本4
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国4
-      - 马来西亚1
-      - 马来西亚2
-      - 马来西亚3
-      - 马来西亚4
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 印度1
-      - 印度2
-      - 印度3
-      - 印度4
-      - 冰岛1
-      - 冰岛2
-      - 冰岛3
-      - 冰岛4
-      - 捷克1
-      - 捷克2
-      - 捷克3
-      - 捷克4
-      - 卢森堡1
-      - 卢森堡2
-      - 卢森堡3
-      - 卢森堡4
-      - 土耳其1
-      - 土耳其2
-      - 土耳其3
-      - 土耳其4
-      - 北马其顿1
-      - 北马其顿2
-      - 北马其顿3
-      - 北马其顿4
-      - 立陶宛1
-      - 立陶宛2
-      - 立陶宛3
-      - 立陶宛4
-      - 西班牙1
-      - 西班牙2
-      - 西班牙3
-      - 西班牙4
-      - 意大利1
-      - 意大利2
-      - 意大利3
-      - 意大利4
-      - 波斯尼亚和黑塞哥维那1
-      - 波斯尼亚和黑塞哥维那2
-      - 波斯尼亚和黑塞哥维那3
-      - 波斯尼亚和黑塞哥维那4
-      - 哈萨克斯坦1
-      - 哈萨克斯坦2
-      - 哈萨克斯坦3
-      - 哈萨克斯坦4
-      - 巴西1
-      - 巴西2
-      - 巴西3
-      - 巴西4
-      - 智利1
-      - 智利2
-      - 智利3
-      - 智利4
-      - 新西兰1
-      - 新西兰2
-      - 新西兰3
-      - 新西兰4
-      - 澳大利亚1
-      - 澳大利亚2
-      - 澳大利亚3
-      - 澳大利亚4
+      - 不限制设备数量
+      - 不限速
+      - 免费提供ios小火箭共享账号
+      - 性感客服24小时在线解答
+      - 王者套餐额外提供IPLC专线
+      - 三网优化
+      - 新疆+西藏+福建可用
+      - 解锁奈飞
+      - 解锁TikTok
+      - 解锁YouTube
+      - 解锁迪士尼
+      - 解锁色站Pornhub
+      - 解锁ChatGPT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 手动切换
       - 🎯 全球直连
-      - 剩余流量：9999999  GB
-      - 距离下次重置剩余：29天
-      - 套餐到期：2099-10-7
-      - 官网https://kelayun.notepin.co
-      - 备用官网https://99z.top/kelayun.github.io
+      - ❶官网https://kelayun.notepin.co
+      - ❷官网https://99z.top/kelayun.github.io
       - 最低2元1000G流量
       - 最高200元终身无限流量
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 日本1
-      - 日本2
-      - 日本3
-      - 日本4
-      - 韩国1
-      - 韩国2
-      - 韩国3
-      - 韩国4
-      - 马来西亚1
-      - 马来西亚2
-      - 马来西亚3
-      - 马来西亚4
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 印度1
-      - 印度2
-      - 印度3
-      - 印度4
-      - 冰岛1
-      - 冰岛2
-      - 冰岛3
-      - 冰岛4
-      - 捷克1
-      - 捷克2
-      - 捷克3
-      - 捷克4
-      - 卢森堡1
-      - 卢森堡2
-      - 卢森堡3
-      - 卢森堡4
-      - 土耳其1
-      - 土耳其2
-      - 土耳其3
-      - 土耳其4
-      - 北马其顿1
-      - 北马其顿2
-      - 北马其顿3
-      - 北马其顿4
-      - 立陶宛1
-      - 立陶宛2
-      - 立陶宛3
-      - 立陶宛4
-      - 西班牙1
-      - 西班牙2
-      - 西班牙3
-      - 西班牙4
-      - 意大利1
-      - 意大利2
-      - 意大利3
-      - 意大利4
-      - 波斯尼亚和黑塞哥维那1
-      - 波斯尼亚和黑塞哥维那2
-      - 波斯尼亚和黑塞哥维那3
-      - 波斯尼亚和黑塞哥维那4
-      - 哈萨克斯坦1
-      - 哈萨克斯坦2
-      - 哈萨克斯坦3
-      - 哈萨克斯坦4
-      - 巴西1
-      - 巴西2
-      - 巴西3
-      - 巴西4
-      - 智利1
-      - 智利2
-      - 智利3
-      - 智利4
-      - 新西兰1
-      - 新西兰2
-      - 新西兰3
-      - 新西兰4
-      - 澳大利亚1
-      - 澳大利亚2
-      - 澳大利亚3
-      - 澳大利亚4
+      - 不限制设备数量
+      - 不限速
+      - 免费提供ios小火箭共享账号
+      - 性感客服24小时在线解答
+      - 王者套餐额外提供IPLC专线
+      - 三网优化
+      - 新疆+西藏+福建可用
+      - 解锁奈飞
+      - 解锁TikTok
+      - 解锁YouTube
+      - 解锁迪士尼
+      - 解锁色站Pornhub
+      - 解锁ChatGPT
 rules:
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
