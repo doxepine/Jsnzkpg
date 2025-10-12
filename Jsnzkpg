@@ -22,15 +22,6 @@ proxies:
     alterId: 0
     cipher: ""
     sni: nspk.ru
-  - name: 👖🇭🇰官网❷ https://99z.top/kelayun.github.io
-    server: nat-hk-37465.strongpipe.cloud
-    port: 20443
-    type: http
-    username: dd247fc262
-    password: 80c9752a41
-    tls: true
-    skip-cert-verify: true
-    udp: true
   - name: 👖🇭🇰最低2元1000G流量
     server: v24.heduian.link
     port: 30824
@@ -155,7 +146,7 @@ proxies:
     cipher: ""
     flow: ""
     sni: fei.634676.xyz
-  - name: 👖🇭🇰解锁迪士尼
+  - name: 👖🇭🇰官网❷https://99z.top/kelayun.github.io
     type: http
     server: testkr3.ssv.vc
     port: 30446
@@ -174,7 +165,6 @@ proxy-groups:
       - ChatGPT、Claude、Gemini、微软AI
       - DIRECT
       - 👖🇭🇰 官网❶https://kelayun.notepin.co
-      - 👖🇭🇰官网❷ https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
       - 👖🇭🇰新疆西藏福建都能用
@@ -183,7 +173,7 @@ proxy-groups:
       - 👖🇭🇰解锁奈飞
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
-      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -191,7 +181,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 👖🇭🇰 官网❶https://kelayun.notepin.co
-      - 👖🇭🇰官网❷ https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
       - 👖🇭🇰新疆西藏福建都能用
@@ -200,13 +189,12 @@ proxy-groups:
       - 👖🇭🇰解锁奈飞
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
-      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
   - name: 📹 YouTube
     type: select
     proxies:
       - 🚀 手动切换
       - 👖🇭🇰 官网❶https://kelayun.notepin.co
-      - 👖🇭🇰官网❷ https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
       - 👖🇭🇰新疆西藏福建都能用
@@ -215,13 +203,12 @@ proxy-groups:
       - 👖🇭🇰解锁奈飞
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
-      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🚀 手动切换
       - 👖🇭🇰 官网❶https://kelayun.notepin.co
-      - 👖🇭🇰官网❷ https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
       - 👖🇭🇰新疆西藏福建都能用
@@ -230,14 +217,13 @@ proxy-groups:
       - 👖🇭🇰解锁奈飞
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
-      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
   - name: 🎮️ 游戏平台
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
       - 👖🇭🇰 官网❶https://kelayun.notepin.co
-      - 👖🇭🇰官网❷ https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
       - 👖🇭🇰新疆西藏福建都能用
@@ -246,12 +232,11 @@ proxy-groups:
       - 👖🇭🇰解锁奈飞
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
-      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
   - name: ChatGPT、Claude、Gemini、微软AI
     type: select
     proxies:
       - 👖🇭🇰 官网❶https://kelayun.notepin.co
-      - 👖🇭🇰官网❷ https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
       - 👖🇭🇰新疆西藏福建都能用
@@ -260,14 +245,13 @@ proxy-groups:
       - 👖🇭🇰解锁奈飞
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
-      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
       - 👖🇭🇰 官网❶https://kelayun.notepin.co
-      - 👖🇭🇰官网❷ https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
       - 👖🇭🇰新疆西藏福建都能用
@@ -276,7 +260,7 @@ proxy-groups:
       - 👖🇭🇰解锁奈飞
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
-      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
   - name: 📲 电报信息
     type: select
     proxies:
@@ -284,7 +268,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 👖🇭🇰 官网❶https://kelayun.notepin.co
-      - 👖🇭🇰官网❷ https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
       - 👖🇭🇰新疆西藏福建都能用
@@ -293,14 +276,13 @@ proxy-groups:
       - 👖🇭🇰解锁奈飞
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
-      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
       - 👖🇭🇰 官网❶https://kelayun.notepin.co
-      - 👖🇭🇰官网❷ https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
       - 👖🇭🇰新疆西藏福建都能用
@@ -309,14 +291,13 @@ proxy-groups:
       - 👖🇭🇰解锁奈飞
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
-      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 🚀 手动切换
       - 👖🇭🇰 官网❶https://kelayun.notepin.co
-      - 👖🇭🇰官网❷ https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
       - 👖🇭🇰新疆西藏福建都能用
@@ -325,14 +306,13 @@ proxy-groups:
       - 👖🇭🇰解锁奈飞
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
-      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 手动切换
       - 🎯 全球直连
       - 👖🇭🇰 官网❶https://kelayun.notepin.co
-      - 👖🇭🇰官网❷ https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
       - 👖🇭🇰新疆西藏福建都能用
@@ -341,7 +321,7 @@ proxy-groups:
       - 👖🇭🇰解锁奈飞
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
-      - 👖🇭🇰解锁迪士尼
+      - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
 rules:
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
