@@ -5,30 +5,11 @@ mode: Rule
 log-level: info
 external-controller: 9090
 proxies:
-  - name: 👖🇭🇰 官网❶https://kelayun.notepin.co
-    server: www.visa.com.hk
+  - name: 👖🇭🇰官网❶https://kelayun.notepin.co
+    server: freeyx.cloudflare88.eu.org
     port: 443
     type: vless
-    uuid: 80063447-f4e6-4fbd-9d93-e6a113924a6b
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-sfo3.258526.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /freev2.net?ed=2048
-      headers:
-        Host: do-sfo3.258526.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-sfo3.258526.xyz
-  - name: 👖🇭🇰官网❷https://99z.top/kelayun.github.io
-    server: freev2.cloudflare.182682.xyz
-    port: 443
-    type: vless
-    uuid: 80063447-f4e6-4fbd-9d93-e6a113924a6b
+    uuid: 523c0143-c07d-4cfe-881f-abb1271e39cf
     tls: true
     tfo: false
     skip-cert-verify: true
@@ -43,11 +24,11 @@ proxies:
     cipher: ""
     flow: ""
     sni: do-lon1.258526.xyz
-  - name: 👖🇭🇰最低2元1000G流量
-    server: freeyx.cloudflare88.eu.org
+  - name: 👖🇭🇰官网❷https://99z.top/kelayun.github.io
+    server: www.visa.com.hk
     port: 443
     type: vless
-    uuid: 80063447-f4e6-4fbd-9d93-e6a113924a6b
+    uuid: 523c0143-c07d-4cfe-881f-abb1271e39cf
     tls: true
     tfo: false
     skip-cert-verify: true
@@ -62,11 +43,11 @@ proxies:
     cipher: ""
     flow: ""
     sni: do-syd1.258526.xyz
-  - name: 👖🇭🇰最高200元终身无限流量
+  - name: 👖🇭🇰最低2元1000G流量
     server: freev2.cloudflare.182682.xyz
     port: 443
     type: vless
-    uuid: 80063447-f4e6-4fbd-9d93-e6a113924a6b
+    uuid: 523c0143-c07d-4cfe-881f-abb1271e39cf
     tls: true
     tfo: false
     skip-cert-verify: true
@@ -81,11 +62,11 @@ proxies:
     cipher: ""
     flow: ""
     sni: do-blr1.258526.xyz
-  - name: 👖🇭🇰完全不限速
-    server: www.visa.com.hk
+  - name: 👖🇭🇰最高200元终身无限流量
+    server: ct.877774.xyz
     port: 443
     type: vless
-    uuid: 80063447-f4e6-4fbd-9d93-e6a113924a6b
+    uuid: 523c0143-c07d-4cfe-881f-abb1271e39cf
     tls: true
     tfo: false
     skip-cert-verify: true
@@ -100,49 +81,11 @@ proxies:
     cipher: ""
     flow: ""
     sni: do-tor1.258526.xyz
-  - name: 👖🇭🇰不限制使用设备数量
-    server: freev2.cloudflare.182682.xyz
-    port: 443
-    type: vless
-    uuid: 80063447-f4e6-4fbd-9d93-e6a113924a6b
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-sgp1.258526.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /freev2.net?ed=2048
-      headers:
-        Host: do-sgp1.258526.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-sgp1.258526.xyz
   - name: 👖🇭🇰新疆西藏福建都能用
-    server: freev2.cloudflare.182682.xyz
+    server: freeyx.cloudflare88.eu.org
     port: 443
     type: vless
-    uuid: 80063447-f4e6-4fbd-9d93-e6a113924a6b
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-fra1.258526.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /freev2.net?ed=2048
-      headers:
-        Host: do-fra1.258526.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-fra1.258526.xyz
-  - name: 👖🇭🇰解锁奈飞
-    server: ct.877774.xyz
-    port: 443
-    type: vless
-    uuid: 80063447-f4e6-4fbd-9d93-e6a113924a6b
+    uuid: 523c0143-c07d-4cfe-881f-abb1271e39cf
     tls: true
     tfo: false
     skip-cert-verify: true
@@ -157,11 +100,11 @@ proxies:
     cipher: ""
     flow: ""
     sni: oracle-kr-chuncheon.258526.xyz
-  - name: 👖🇭🇰解锁TikTok
+  - name: 👖🇭🇰提供ios小火箭共享账号
     server: ct.877774.xyz
     port: 443
     type: vless
-    uuid: 80063447-f4e6-4fbd-9d93-e6a113924a6b
+    uuid: 523c0143-c07d-4cfe-881f-abb1271e39cf
     tls: true
     tfo: false
     skip-cert-verify: true
@@ -176,6 +119,40 @@ proxies:
     cipher: ""
     flow: ""
     sni: oracle-id-batam.258526.xyz
+  - name: 👖🇭🇰完全不限速/不限设备数量
+    server: freev2.cloudflare.182682.xyz
+    port: 443
+    type: vless
+    uuid: 523c0143-c07d-4cfe-881f-abb1271e39cf
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: oracle-jp-osaka.258526.xyz
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /freev2.net?ed=2048
+      headers:
+        Host: oracle-jp-osaka.258526.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: oracle-jp-osaka.258526.xyz
+  - name: 👖🇭🇰解锁TikTok
+    type: http
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    port: 1443
+    password: exaxgqkKkd0TAMrCxeonWg==
+    udp: true
+    tfo: false
+    tls: true
+    skip-cert-verify: null
+    network: tcp
+    alpn:
+      - http/1.1
+    servername: twmoon1-cdn-route.couldflare-cdn.com
+    sni: twmoon1-cdn-route.couldflare-cdn.com
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
   - name: 👖🇭🇰解锁ChatGPT
     type: http
     server: testkr3.ssv.vc
@@ -194,14 +171,13 @@ proxy-groups:
       - ♻️ 自动选择
       - ChatGPT、Claude、Gemini、微软AI
       - DIRECT
-      - 👖🇭🇰 官网❶https://kelayun.notepin.co
+      - 👖🇭🇰官网❶https://kelayun.notepin.co
       - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
-      - 👖🇭🇰完全不限速
-      - 👖🇭🇰不限制使用设备数量
       - 👖🇭🇰新疆西藏福建都能用
-      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰完全不限速/不限设备数量
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: ♻️ 自动选择
@@ -210,42 +186,39 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 👖🇭🇰 官网❶https://kelayun.notepin.co
+      - 👖🇭🇰官网❶https://kelayun.notepin.co
       - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
-      - 👖🇭🇰完全不限速
-      - 👖🇭🇰不限制使用设备数量
       - 👖🇭🇰新疆西藏福建都能用
-      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰完全不限速/不限设备数量
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: 📹 YouTube
     type: select
     proxies:
       - 🚀 手动切换
-      - 👖🇭🇰 官网❶https://kelayun.notepin.co
+      - 👖🇭🇰官网❶https://kelayun.notepin.co
       - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
-      - 👖🇭🇰完全不限速
-      - 👖🇭🇰不限制使用设备数量
       - 👖🇭🇰新疆西藏福建都能用
-      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰完全不限速/不限设备数量
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🚀 手动切换
-      - 👖🇭🇰 官网❶https://kelayun.notepin.co
+      - 👖🇭🇰官网❶https://kelayun.notepin.co
       - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
-      - 👖🇭🇰完全不限速
-      - 👖🇭🇰不限制使用设备数量
       - 👖🇭🇰新疆西藏福建都能用
-      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰完全不限速/不限设备数量
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: 🎮️ 游戏平台
@@ -253,27 +226,25 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 👖🇭🇰 官网❶https://kelayun.notepin.co
+      - 👖🇭🇰官网❶https://kelayun.notepin.co
       - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
-      - 👖🇭🇰完全不限速
-      - 👖🇭🇰不限制使用设备数量
       - 👖🇭🇰新疆西藏福建都能用
-      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰完全不限速/不限设备数量
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: ChatGPT、Claude、Gemini、微软AI
     type: select
     proxies:
-      - 👖🇭🇰 官网❶https://kelayun.notepin.co
+      - 👖🇭🇰官网❶https://kelayun.notepin.co
       - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
-      - 👖🇭🇰完全不限速
-      - 👖🇭🇰不限制使用设备数量
       - 👖🇭🇰新疆西藏福建都能用
-      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰完全不限速/不限设备数量
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: Ⓜ️ 微软服务
@@ -281,14 +252,13 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 👖🇭🇰 官网❶https://kelayun.notepin.co
+      - 👖🇭🇰官网❶https://kelayun.notepin.co
       - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
-      - 👖🇭🇰完全不限速
-      - 👖🇭🇰不限制使用设备数量
       - 👖🇭🇰新疆西藏福建都能用
-      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰完全不限速/不限设备数量
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: 📲 电报信息
@@ -297,14 +267,13 @@ proxy-groups:
       - 🚀 手动切换
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 👖🇭🇰 官网❶https://kelayun.notepin.co
+      - 👖🇭🇰官网❶https://kelayun.notepin.co
       - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
-      - 👖🇭🇰完全不限速
-      - 👖🇭🇰不限制使用设备数量
       - 👖🇭🇰新疆西藏福建都能用
-      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰完全不限速/不限设备数量
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: 🍎 苹果服务
@@ -312,14 +281,13 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 手动切换
-      - 👖🇭🇰 官网❶https://kelayun.notepin.co
+      - 👖🇭🇰官网❶https://kelayun.notepin.co
       - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
-      - 👖🇭🇰完全不限速
-      - 👖🇭🇰不限制使用设备数量
       - 👖🇭🇰新疆西藏福建都能用
-      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰完全不限速/不限设备数量
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: 🎯 全球直连
@@ -327,14 +295,13 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 手动切换
-      - 👖🇭🇰 官网❶https://kelayun.notepin.co
+      - 👖🇭🇰官网❶https://kelayun.notepin.co
       - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
-      - 👖🇭🇰完全不限速
-      - 👖🇭🇰不限制使用设备数量
       - 👖🇭🇰新疆西藏福建都能用
-      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰完全不限速/不限设备数量
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
   - name: 🐟 漏网之鱼
@@ -342,14 +309,13 @@ proxy-groups:
     proxies:
       - 🚀 手动切换
       - 🎯 全球直连
-      - 👖🇭🇰 官网❶https://kelayun.notepin.co
+      - 👖🇭🇰官网❶https://kelayun.notepin.co
       - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
       - 👖🇭🇰最低2元1000G流量
       - 👖🇭🇰最高200元终身无限流量
-      - 👖🇭🇰完全不限速
-      - 👖🇭🇰不限制使用设备数量
       - 👖🇭🇰新疆西藏福建都能用
-      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰完全不限速/不限设备数量
       - 👖🇭🇰解锁TikTok
       - 👖🇭🇰解锁ChatGPT
 rules:
