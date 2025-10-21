@@ -5,22 +5,29 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🤮只白嫖不买的死全家, server: ct.877774.xyz, port: 443, type: vless, uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50, tls: true, skip-cert-verify: null, servername: do-sfo3.008883.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: do-sfo3.008883.xyz}}, alterId: 0, cipher: "", flow: "", sni: do-sfo3.008883.xyz}
-  - {name: 🪜超低价付费机场梯子推荐, server: freev2.cloudflare.182682.xyz, port: 443, type: vless, uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50, tls: true, skip-cert-verify: null, servername: do-lon1.008883.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: do-lon1.008883.xyz}}, alterId: 0, cipher: "", flow: "", sni: do-lon1.008883.xyz}
-  - {name: 🚫不要用谷歌浏览器访问官网, server: freeyx.cloudflare88.eu.org, port: 443, type: vless, uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50, tls: true, skip-cert-verify: null, servername: do-syd1.008883.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: do-syd1.008883.xyz}}, alterId: 0, cipher: "", flow: "", sni: do-syd1.008883.xyz}
-  - {name: '👖🇯🇵官网❶https://kelayun.notepin.co', server: ct.877774.xyz, port: 443, type: vless, uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50, tls: true, skip-cert-verify: null, servername: do-blr1.008883.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: do-blr1.008883.xyz}}, alterId: 0, cipher: "", flow: "", sni: do-blr1.008883.xyz}
-  - {name: '👖🇯🇵官网❷https://99z.top/kelayun.github.io', server: freev2.cloudflare.182682.xyz, port: 443, type: vless, uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50, tls: true, skip-cert-verify: null, servername: do-tor1.008883.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: do-tor1.008883.xyz}}, alterId: 0, cipher: "", flow: "", sni: do-tor1.008883.xyz}
-  - {name: 👖🇯🇵最低2块钱1000G流量, server: ct.877774.xyz, port: 443, type: vless, uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50, tls: true, skip-cert-verify: null, servername: do-sgp1.008883.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: do-sgp1.008883.xyz}}, alterId: 0, cipher: "", flow: "", sni: do-sgp1.008883.xyz}
-  - {name: 👖🇯🇵最高200元终身无限流量, server: freev2.cloudflare.182682.xyz, port: 443, type: vless, uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50, tls: true, skip-cert-verify: null, servername: oracle-kr-chuncheon.008883.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: oracle-kr-chuncheon.008883.xyz}}, alterId: 0, cipher: "", flow: "", sni: oracle-kr-chuncheon.008883.xyz}
-  - {name: 👖🇯🇵新疆可以用, server: www.visa.com.hk, port: 443, type: vless, uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50, tls: true, skip-cert-verify: null, servername: oracle-id-batam.008883.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: oracle-id-batam.008883.xyz}}, alterId: 0, cipher: "", flow: "", sni: oracle-id-batam.008883.xyz}
-  - {name: 👖🇯🇵西藏可以用, server: freev2.cloudflare.182682.xyz, port: 443, type: vless, uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50, tls: true, skip-cert-verify: null, servername: oracle-jp-osaka.008883.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: oracle-jp-osaka.008883.xyz}}, alterId: 0, cipher: "", flow: "", sni: oracle-jp-osaka.008883.xyz}
-  - {name: 👖🇯🇵福建可以用, server: 188.42.145.253, port: 2096, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/freecodes@节点狂魔/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
-  - {name: 👖🇯🇵解锁ins, server: 211.48.77.114, port: 12312, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /x @节点狂魔, headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
-  - {name: 👖🇯🇵解锁X, server: 118.46.37.203, port: 50000, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/telegram @freecodes /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
-  - {name: 👖🇯🇵解锁P站, server: 188.42.145.253, port: 2096, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /, headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
-  - {name: 👖🇯🇵解锁TikTok, server: 188.42.145.253, port: 2096, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
-  - {name: 👖🇯🇵解锁奈飞, server: 175.201.95.5, port: 30051, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram@freecodes/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
-  - {name: 👖🇯🇵解锁ChatGPT, server: 45.80.111.157, port: 2053, type: vless, uuid: 08cb0591-5193-4a0c-9105-ceb09fba67fe, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], skip-cert-verify: null, servername: nkGgd-87836.phoenixappdatad.uk, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nkGgd-87836.phoenixappdatad.uk}}, alterId: 0, cipher: "", flow: "", sni: nkGgd-87836.phoenixappdatad.uk}
+  - {name: 🤮只白嫖不买的阳痿早泄, server: freev2.cloudflare.182682.xyz, port: 443, type: vless, uuid: 940205cb-a3d0-4942-8f4b-aed8b74b8001, tls: true, skip-cert-verify: null, servername: do-syd1.008883.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: do-syd1.008883.xyz}}, alterId: 0, cipher: "", flow: "", sni: do-syd1.008883.xyz}
+  - {name: 🪜超低价付费机场梯子推荐, server: www.visa.com.hk, port: 443, type: vless, uuid: 940205cb-a3d0-4942-8f4b-aed8b74b8001, tls: true, skip-cert-verify: null, servername: do-fra1.008883.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: do-fra1.008883.xyz}}, alterId: 0, cipher: "", flow: "", sni: do-fra1.008883.xyz}
+  - {name: 🚫不要用谷歌浏览器访问官网, server: ct.877774.xyz, port: 443, type: vless, uuid: 940205cb-a3d0-4942-8f4b-aed8b74b8001, tls: true, skip-cert-verify: null, servername: oracle-kr-chuncheon.008883.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: oracle-kr-chuncheon.008883.xyz}}, alterId: 0, cipher: "", flow: "", sni: oracle-kr-chuncheon.008883.xyz}
+  - {name: '👖🇭🇰官网❶https://kelayun.notepin.co', server: ct.877774.xyz, port: 443, type: vless, uuid: 940205cb-a3d0-4942-8f4b-aed8b74b8001, tls: true, skip-cert-verify: null, servername: oracle-id-batam.008883.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: oracle-id-batam.008883.xyz}}, alterId: 0, cipher: "", flow: "", sni: oracle-id-batam.008883.xyz}
+  - {name: '👖🇭🇰官网❷https://99z.top/kelayun.github.io', server: freeyx.cloudflare88.eu.org, port: 443, type: vless, uuid: 940205cb-a3d0-4942-8f4b-aed8b74b8001, tls: true, skip-cert-verify: null, servername: oracle-jp-osaka.008883.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: oracle-jp-osaka.008883.xyz}}, alterId: 0, cipher: "", flow: "", sni: oracle-jp-osaka.008883.xyz}
+  - {name: 👖🇭🇰最低2块钱1000G流量, server: 188.42.145.253, port: 2096, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/freecodes@节点狂魔/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
+  - {name: 👖🇭🇰最高200元终身无限流量, server: 211.48.77.114, port: 12312, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /x @节点狂魔, headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
+  - {name: 👖🇭🇰新疆可用, server: 118.46.37.203, port: 50000, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/telegram @freecodes /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
+  - {name: 👖🇭🇰西藏可用, server: 188.42.145.253, port: 2096, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /, headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
+  - {name: 👖🇭🇰福建可用, server: 188.42.145.253, port: 2096, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
+  - {name: 👖🇭🇰电信可用, server: cf.090227.xyz, port: 2095, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, skip-cert-verify: false, client-fingerprint: randomized, network: ws, ws-opts: {path: /, headers: {Host: fangbinxingnmsl.pusytroller.cf}}, alterId: 0, cipher: "", flow: ""}
+  - {name: 👖🇭🇰联通可用, server: 59.22.88.168, port: 50001, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
+  - {name: 👖🇭🇰移动可用, server: 218.155.245.69, port: 50003, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
+  - {name: 👖🇭🇰可bt下载, server: 211.184.133.123, port: 50001, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
+  - {name: 👖🇭🇰不限速, server: 61.78.80.72, port: 10027, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
+  - {name: 👖🇭🇰不限设备, server: 211.229.77.184, port: 27443, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
+  - {name: 👖🇭🇰提供ios小火箭共享账号, server: 220.128.110.108, port: 43, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, skip-cert-verify: null, servername: mf.xmma.xyz, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: mf.xmma.xyz}}, alterId: 0, cipher: "", flow: "", sni: mf.xmma.xyz}
+  - {name: 👖🇭🇰解锁P站, server: 61.78.80.72, port: 10027, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
+  - {name: 👖🇭🇰解锁X推特, server: 61.78.80.72, port: 10027, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
+  - {name: 👖🇭🇰解锁奈飞, server: 182.31.70.92, port: 12147, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
+  - {name: 👖🇭🇰解锁YouTube, server: 218.146.200.8, port: 50001, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
+  - {name: 👖🇭🇰解锁TikTok, server: 112.170.255.67, port: 50001, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram@freecodes/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
+  - {name: 👖🇭🇰解锁ChatGPT, server: 221.156.182.211, port: 50001, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, skip-cert-verify: null, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, alterId: 0, cipher: "", flow: "", sni: gaosir.unfeeling.sbs}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -29,87 +36,115 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🤮只白嫖不买的死全家
+      - 🤮只白嫖不买的阳痿早泄
       - 🪜超低价付费机场梯子推荐
       - 🚫不要用谷歌浏览器访问官网
-      - 👖🇯🇵官网❶https://kelayun.notepin.co
-      - 👖🇯🇵官网❷https://99z.top/kelayun.github.io
-      - 👖🇯🇵最低2块钱1000G流量
-      - 👖🇯🇵最高200元终身无限流量
-      - 👖🇯🇵新疆可以用
-      - 👖🇯🇵西藏可以用
-      - 👖🇯🇵福建可以用
-      - 👖🇯🇵解锁ins
-      - 👖🇯🇵解锁X
-      - 👖🇯🇵解锁P站
-      - 👖🇯🇵解锁TikTok
-      - 👖🇯🇵解锁奈飞
-      - 👖🇯🇵解锁ChatGPT
+      - 👖🇭🇰官网❶https://kelayun.notepin.co
+      - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
+      - 👖🇭🇰最低2块钱1000G流量
+      - 👖🇭🇰最高200元终身无限流量
+      - 👖🇭🇰新疆可用
+      - 👖🇭🇰西藏可用
+      - 👖🇭🇰福建可用
+      - 👖🇭🇰电信可用
+      - 👖🇭🇰联通可用
+      - 👖🇭🇰移动可用
+      - 👖🇭🇰可bt下载
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰解锁P站
+      - 👖🇭🇰解锁X推特
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁ChatGPT
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🤮只白嫖不买的死全家
+      - 🤮只白嫖不买的阳痿早泄
       - 🪜超低价付费机场梯子推荐
       - 🚫不要用谷歌浏览器访问官网
-      - 👖🇯🇵官网❶https://kelayun.notepin.co
-      - 👖🇯🇵官网❷https://99z.top/kelayun.github.io
-      - 👖🇯🇵最低2块钱1000G流量
-      - 👖🇯🇵最高200元终身无限流量
-      - 👖🇯🇵新疆可以用
-      - 👖🇯🇵西藏可以用
-      - 👖🇯🇵福建可以用
-      - 👖🇯🇵解锁ins
-      - 👖🇯🇵解锁X
-      - 👖🇯🇵解锁P站
-      - 👖🇯🇵解锁TikTok
-      - 👖🇯🇵解锁奈飞
-      - 👖🇯🇵解锁ChatGPT
+      - 👖🇭🇰官网❶https://kelayun.notepin.co
+      - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
+      - 👖🇭🇰最低2块钱1000G流量
+      - 👖🇭🇰最高200元终身无限流量
+      - 👖🇭🇰新疆可用
+      - 👖🇭🇰西藏可用
+      - 👖🇭🇰福建可用
+      - 👖🇭🇰电信可用
+      - 👖🇭🇰联通可用
+      - 👖🇭🇰移动可用
+      - 👖🇭🇰可bt下载
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰解锁P站
+      - 👖🇭🇰解锁X推特
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁ChatGPT
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🤮只白嫖不买的死全家
+      - 🤮只白嫖不买的阳痿早泄
       - 🪜超低价付费机场梯子推荐
       - 🚫不要用谷歌浏览器访问官网
-      - 👖🇯🇵官网❶https://kelayun.notepin.co
-      - 👖🇯🇵官网❷https://99z.top/kelayun.github.io
-      - 👖🇯🇵最低2块钱1000G流量
-      - 👖🇯🇵最高200元终身无限流量
-      - 👖🇯🇵新疆可以用
-      - 👖🇯🇵西藏可以用
-      - 👖🇯🇵福建可以用
-      - 👖🇯🇵解锁ins
-      - 👖🇯🇵解锁X
-      - 👖🇯🇵解锁P站
-      - 👖🇯🇵解锁TikTok
-      - 👖🇯🇵解锁奈飞
-      - 👖🇯🇵解锁ChatGPT
+      - 👖🇭🇰官网❶https://kelayun.notepin.co
+      - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
+      - 👖🇭🇰最低2块钱1000G流量
+      - 👖🇭🇰最高200元终身无限流量
+      - 👖🇭🇰新疆可用
+      - 👖🇭🇰西藏可用
+      - 👖🇭🇰福建可用
+      - 👖🇭🇰电信可用
+      - 👖🇭🇰联通可用
+      - 👖🇭🇰移动可用
+      - 👖🇭🇰可bt下载
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰解锁P站
+      - 👖🇭🇰解锁X推特
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁ChatGPT
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🤮只白嫖不买的死全家
+      - 🤮只白嫖不买的阳痿早泄
       - 🪜超低价付费机场梯子推荐
       - 🚫不要用谷歌浏览器访问官网
-      - 👖🇯🇵官网❶https://kelayun.notepin.co
-      - 👖🇯🇵官网❷https://99z.top/kelayun.github.io
-      - 👖🇯🇵最低2块钱1000G流量
-      - 👖🇯🇵最高200元终身无限流量
-      - 👖🇯🇵新疆可以用
-      - 👖🇯🇵西藏可以用
-      - 👖🇯🇵福建可以用
-      - 👖🇯🇵解锁ins
-      - 👖🇯🇵解锁X
-      - 👖🇯🇵解锁P站
-      - 👖🇯🇵解锁TikTok
-      - 👖🇯🇵解锁奈飞
-      - 👖🇯🇵解锁ChatGPT
+      - 👖🇭🇰官网❶https://kelayun.notepin.co
+      - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
+      - 👖🇭🇰最低2块钱1000G流量
+      - 👖🇭🇰最高200元终身无限流量
+      - 👖🇭🇰新疆可用
+      - 👖🇭🇰西藏可用
+      - 👖🇭🇰福建可用
+      - 👖🇭🇰电信可用
+      - 👖🇭🇰联通可用
+      - 👖🇭🇰移动可用
+      - 👖🇭🇰可bt下载
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰解锁P站
+      - 👖🇭🇰解锁X推特
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁ChatGPT
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -129,22 +164,29 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🤮只白嫖不买的死全家
+      - 🤮只白嫖不买的阳痿早泄
       - 🪜超低价付费机场梯子推荐
       - 🚫不要用谷歌浏览器访问官网
-      - 👖🇯🇵官网❶https://kelayun.notepin.co
-      - 👖🇯🇵官网❷https://99z.top/kelayun.github.io
-      - 👖🇯🇵最低2块钱1000G流量
-      - 👖🇯🇵最高200元终身无限流量
-      - 👖🇯🇵新疆可以用
-      - 👖🇯🇵西藏可以用
-      - 👖🇯🇵福建可以用
-      - 👖🇯🇵解锁ins
-      - 👖🇯🇵解锁X
-      - 👖🇯🇵解锁P站
-      - 👖🇯🇵解锁TikTok
-      - 👖🇯🇵解锁奈飞
-      - 👖🇯🇵解锁ChatGPT
+      - 👖🇭🇰官网❶https://kelayun.notepin.co
+      - 👖🇭🇰官网❷https://99z.top/kelayun.github.io
+      - 👖🇭🇰最低2块钱1000G流量
+      - 👖🇭🇰最高200元终身无限流量
+      - 👖🇭🇰新疆可用
+      - 👖🇭🇰西藏可用
+      - 👖🇭🇰福建可用
+      - 👖🇭🇰电信可用
+      - 👖🇭🇰联通可用
+      - 👖🇭🇰移动可用
+      - 👖🇭🇰可bt下载
+      - 👖🇭🇰不限速
+      - 👖🇭🇰不限设备
+      - 👖🇭🇰提供ios小火箭共享账号
+      - 👖🇭🇰解锁P站
+      - 👖🇭🇰解锁X推特
+      - 👖🇭🇰解锁奈飞
+      - 👖🇭🇰解锁YouTube
+      - 👖🇭🇰解锁TikTok
+      - 👖🇭🇰解锁ChatGPT
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
