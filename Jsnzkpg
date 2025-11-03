@@ -5,22 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "官网https://down.nigx.cn/kelayun.github.io", server: 18.195.93.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "官网https://kelayun.notepin.co", server: 18.132.10.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "最低2元1000G", server: 35.176.123.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "最高200元终身无限流量", server: 16.52.153.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "IPLC深港专线", server: 3.148.200.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "IEPL深港专线", server: 18.188.227.100, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "三网优化|x0倍率", server: 18.130.171.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "香港原生家宽ip", server: 18.132.1.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "德国法兰克福商宽", server: 18.158.60.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "美国盐湖城家宽", server: 18.188.211.45, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "解锁奈飞", server: 18.130.249.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "解锁TikTok", server: 18.133.78.96, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "解锁声破天", server: 3.127.136.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "解锁ChatGPT", server: 16.146.86.228, port: 80, type: ss, cipher: aes-256-gcm, password: dada0801, udp: true}
-  - {name: "不限速不限设备", server: 54.245.33.39, port: 80, type: ss, cipher: aes-256-gcm, password: dada0801, udp: true}
-  - {name: "新疆西藏福建都可用", server: 52.12.203.177, port: 80, type: ss, cipher: aes-256-gcm, password: dada0801, udp: true}
+  - {name: '官网https://down.nigx.cn/kelayun.github.io', server: since2023.google.org.kg, port: 443, type: vless, uuid: cc106f82-4680-4ca8-fcd6-b2050cbb3839, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: kCkbsvgl-Dza58a-nqXlrh3_yeDUBXNxMtUXXJLioE4, short-id: 1b39df42}, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true, alterId: 0, cipher: "", sni: www.apple.com}
+  - {name: '官网https://kelayun.notepin.co', server: since2023.google.org.kg, port: 443, type: hysteria, auth_str: BJTvoSPr2p, auth-str: BJTvoSPr2p, up: 100, down: 100, fast-open: false, skip-cert-verify: true, udp: true, down-speed: 0, up-speed: 0}
+  - {name: 不限速不限设备, server: since2023.google.org.kg, port: 24455, type: trojan, password: BJTvoSPr2p, sni: www.apple.com, skip-cert-verify: true, network: ws, ws-opts: {path: /abc, headers: {Host: www.apple.com}}, udp: true, servername: www.apple.com}
+  - {name: 最低2元1000G流量, server: 142.171.237.17, port: 8443, type: hysteria2, password: DiiimnpYaS, auth: DiiimnpYaS, sni: www.apple.com, skip-cert-verify: true, udp: true, fast-open: false, servername: www.apple.com}
+  - {name: 最高200元永久无限流量, server: 142.171.237.17, port: 3456, type: trojan, password: DiiimnpYaS, sni: www.apple.com, skip-cert-verify: true, network: ws, ws-opts: {path: /abc, headers: {Host: www.apple.com}}, udp: true, servername: www.apple.com}
+  - {name: 解锁常用流媒体, server: 142.171.237.17, port: 1988, type: vmess, uuid: aed0feeb-1283-4b7d-b3a4-71ef038d59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, flow: ""}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -29,20 +19,10 @@ proxy-groups:
       - DIRECT
       - 官网https://down.nigx.cn/kelayun.github.io
       - 官网https://kelayun.notepin.co
-      - 最低2元1000G
-      - 最高200元终身无限流量
-      - IPLC深港专线
-      - IEPL深港专线
-      - 三网优化|x0倍率
-      - 香港原生家宽ip
-      - 德国法兰克福商宽
-      - 美国盐湖城家宽
-      - 解锁奈飞
-      - 解锁TikTok
-      - 解锁声破天
-      - 解锁ChatGPT
       - 不限速不限设备
-      - 新疆西藏福建都可用
+      - 最低2元1000G流量
+      - 最高200元永久无限流量
+      - 解锁常用流媒体
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -51,20 +31,10 @@ proxy-groups:
     proxies:
       - 官网https://down.nigx.cn/kelayun.github.io
       - 官网https://kelayun.notepin.co
-      - 最低2元1000G
-      - 最高200元终身无限流量
-      - IPLC深港专线
-      - IEPL深港专线
-      - 三网优化|x0倍率
-      - 香港原生家宽ip
-      - 德国法兰克福商宽
-      - 美国盐湖城家宽
-      - 解锁奈飞
-      - 解锁TikTok
-      - 解锁声破天
-      - 解锁ChatGPT
       - 不限速不限设备
-      - 新疆西藏福建都可用
+      - 最低2元1000G流量
+      - 最高200元永久无限流量
+      - 解锁常用流媒体
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -84,20 +54,10 @@ proxy-groups:
       - ♻️ 自动选择
       - 官网https://down.nigx.cn/kelayun.github.io
       - 官网https://kelayun.notepin.co
-      - 最低2元1000G
-      - 最高200元终身无限流量
-      - IPLC深港专线
-      - IEPL深港专线
-      - 三网优化|x0倍率
-      - 香港原生家宽ip
-      - 德国法兰克福商宽
-      - 美国盐湖城家宽
-      - 解锁奈飞
-      - 解锁TikTok
-      - 解锁声破天
-      - 解锁ChatGPT
       - 不限速不限设备
-      - 新疆西藏福建都可用
+      - 最低2元1000G流量
+      - 最高200元永久无限流量
+      - 解锁常用流媒体
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
