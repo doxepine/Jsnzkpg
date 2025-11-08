@@ -676,6 +676,9 @@
           <i class="bi bi-stars"></i>
           裤佬订阅转换
         </h1>
+        <p class="app-card-description">
+          纯前端订阅转换工具 - 无需后端服务器，所有转换在浏览器中完成
+        </p>
       </div>
       <div class="app-card-body">
         <form id="conversion-form">
@@ -714,67 +717,10 @@
 
           <!-- 模板选择 -->
           <div class="mb-4" id="template-wrapper">
-            <label for="template_filename" class="form-label"><i class="bi bi-layout-text-sidebar-reverse text-primary"></i> 选择Clash模板文件</label>
-            <select class="form-select" id="template_filename" name="template_filename"><option value="">使用默认模板</option><option value="M核猫熊规则.yaml">M核猫熊规则.yaml</option><option value="clash_template.yaml">clash_template.yaml</option><option value="白也.yaml">白也.yaml</option><option value="P核猫熊规则.yaml">P核猫熊规则.yaml</option><option value="P核默认模板.yaml">P核默认模板.yaml</option><option value="P核ACL4SSR_Online_AdblockPlus_更多去广告.yaml">P核ACL4SSR_Online_AdblockPlus_更多去广告.yaml</option><option value="全局.yaml">全局.yaml</option><option value="P核haita规则.yaml">P核haita规则.yaml</option></select>
-          </div>
-
-          <!-- 下载次数限制区域 -->
-          <div id="download-limit-section">
-            <!-- V2Ray下载限制 -->
-            <div class="download-limit-item d-none" id="limit_downloads_v2ray_wrapper">
-              <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" id="limit_downloads_v2ray" name="limit_downloads_v2ray">
-                <label class="form-check-label" for="limit_downloads_v2ray">
-                  限制 V2Ray 下载次数
-                </label>
-              </div>
-              <div class="d-none download-count-input" id="download_count_v2ray_group">
-                <label for="download_count_v2ray" class="form-label">最大下载次数</label>
-                <input type="number" class="form-control" id="download_count_v2ray" name="download_count_v2ray" min="1" value="1">
-              </div>
-            </div>
-
-            <!-- Surfboard下载限制 -->
-            <div class="download-limit-item d-none" id="limit_downloads_surfboard_wrapper">
-              <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" id="limit_downloads_surfboard" name="limit_downloads_surfboard">
-                <label class="form-check-label" for="limit_downloads_surfboard">
-                  限制 Surfboard 下载次数
-                </label>
-              </div>
-              <div class="d-none download-count-input" id="download_count_surfboard_group">
-                <label for="download_count_surfboard" class="form-label">最大下载次数</label>
-                <input type="number" class="form-control" id="download_count_surfboard" name="download_count_surfboard" min="1" value="1">
-              </div>
-            </div>
-
-            <!-- Sing-box下载限制 -->
-            <div class="download-limit-item d-none" id="limit_downloads_singbox_wrapper">
-              <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" id="limit_downloads_singbox" name="limit_downloads_singbox">
-                <label class="form-check-label" for="limit_downloads_singbox">
-                  限制 Sing-box 下载次数
-                </label>
-              </div>
-              <div class="d-none download-count-input" id="download_count_singbox_group">
-                <label for="download_count_singbox" class="form-label">最大下载次数</label>
-                <input type="number" class="form-control" id="download_count_singbox" name="download_count_singbox" min="1" value="1">
-              </div>
-            </div>
-
-            <!-- Loon下载限制 -->
-            <div class="download-limit-item d-none" id="limit_downloads_loon_wrapper">
-              <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" id="limit_downloads_loon" name="limit_downloads_loon">
-                <label class="form-check-label" for="limit_downloads_loon">
-                  限制 Loon 下载次数
-                </label>
-              </div>
-              <div class="d-none download-count-input" id="download_count_loon_group">
-                <label for="download_count_loon" class="form-label">最大下载次数</label>
-                <input type="number" class="form-control" id="download_count_loon" name="download_count_loon" min="1" value="1">
-              </div>
-            </div>
+            <label for="template_filename" class="form-label"><i class="bi bi-layout-text-sidebar-reverse text-primary"></i> 选择模板文件</label>
+            <select class="form-select" id="template_filename" name="template_filename">
+              <option value="">使用默认模板</option>
+            </select>
           </div>
 
           <!-- 提交按钮 -->
@@ -802,15 +748,13 @@
           <div class="result-field">
             <div class="result-field-label">
               <i class="bi bi-link-45deg text-primary"></i>
-              订阅链接
+              配置内容
             </div>
-            <div class="input-group">
-              <input type="text" class="form-control" id="clash-subscription-link" readonly>
-              <button class="btn copy-btn" type="button" onclick="copyToClipboard('clash-subscription-link')">
-                <i class="bi bi-clipboard"></i>
-                复制
-              </button>
-            </div>
+            <textarea class="form-control" id="clash-config-content" rows="15" readonly></textarea>
+            <button class="btn copy-btn mt-2" type="button" onclick="copyToClipboard('clash-config-content')">
+              <i class="bi bi-clipboard-check"></i>
+              复制配置
+            </button>
           </div>
         </div>
 
@@ -823,36 +767,12 @@
           <div class="result-field">
             <div class="result-field-label">
               <i class="bi bi-link-45deg text-primary"></i>
-              订阅链接
+              节点链接
             </div>
-            <div class="input-group">
-              <input type="text" class="form-control" id="v2ray-download-link" readonly>
-              <button class="btn copy-btn" type="button" onclick="copyToClipboard('v2ray-download-link')">
-                <i class="bi bi-clipboard"></i>
-                复制
-              </button>
-            </div>
-          </div>
-          <div id="v2ray-links-container" class="result-field d-none">
-            <div class="result-field-label">
-              <i class="bi bi-link-45deg text-primary"></i>
-              节点链接 (适用于部分客户端)
-            </div>
-            <textarea class="form-control" id="v2ray-links" rows="5" readonly></textarea>
+            <textarea class="form-control" id="v2ray-links" rows="10" readonly></textarea>
             <button class="btn copy-btn mt-2" type="button" onclick="copyToClipboard('v2ray-links')">
               <i class="bi bi-clipboard-check"></i>
               复制所有节点
-            </button>
-          </div>
-          <div id="v2ray-proxies-container" class="result-field d-none">
-            <div class="result-field-label">
-              <i class="bi bi-info-circle text-primary"></i>
-              Base64 编码订阅内容
-            </div>
-            <textarea class="form-control" id="v2ray-proxies" rows="10" readonly></textarea>
-            <button class="btn copy-btn mt-2" type="button" onclick="copyToClipboard('v2ray-proxies')">
-              <i class="bi bi-clipboard-check"></i>
-              复制订阅内容
             </button>
           </div>
         </div>
@@ -866,15 +786,13 @@
           <div class="result-field">
             <div class="result-field-label">
               <i class="bi bi-link-45deg text-primary"></i>
-              订阅链接
+              配置内容
             </div>
-            <div class="input-group">
-              <input type="text" class="form-control" id="surfboard-subscription-link" readonly>
-              <button class="btn copy-btn" type="button" onclick="copyToClipboard('surfboard-subscription-link')">
-                <i class="bi bi-clipboard"></i>
-                复制
-              </button>
-            </div>
+            <textarea class="form-control" id="surfboard-config-content" rows="15" readonly></textarea>
+            <button class="btn copy-btn mt-2" type="button" onclick="copyToClipboard('surfboard-config-content')">
+              <i class="bi bi-clipboard-check"></i>
+              复制配置
+            </button>
           </div>
         </div>
 
@@ -887,15 +805,13 @@
           <div class="result-field">
             <div class="result-field-label">
               <i class="bi bi-link-45deg text-primary"></i>
-              订阅链接
+              配置内容
             </div>
-            <div class="input-group">
-              <input type="text" class="form-control" id="singbox-subscription-link" readonly>
-              <button class="btn copy-btn" type="button" onclick="copyToClipboard('singbox-subscription-link')">
-                <i class="bi bi-clipboard"></i>
-                复制
-              </button>
-            </div>
+            <textarea class="form-control" id="singbox-config-content" rows="15" readonly></textarea>
+            <button class="btn copy-btn mt-2" type="button" onclick="copyToClipboard('singbox-config-content')">
+              <i class="bi bi-clipboard-check"></i>
+              复制配置
+            </button>
           </div>
         </div>
 
@@ -908,15 +824,13 @@
           <div class="result-field">
             <div class="result-field-label">
               <i class="bi bi-link-45deg text-primary"></i>
-              订阅链接
+              配置内容
             </div>
-            <div class="input-group">
-              <input type="text" class="form-control" id="loon-subscription-link" readonly>
-              <button class="btn copy-btn" type="button" onclick="copyToClipboard('loon-subscription-link')">
-                <i class="bi bi-clipboard"></i>
-                复制
-              </button>
-            </div>
+            <textarea class="form-control" id="loon-config-content" rows="15" readonly></textarea>
+            <button class="btn copy-btn mt-2" type="button" onclick="copyToClipboard('loon-config-content')">
+              <i class="bi bi-clipboard-check"></i>
+              复制配置
+            </button>
           </div>
         </div>
       </div>
@@ -926,12 +840,14 @@
   <!-- 页脚 -->
   <footer class="text-center py-4 text-muted small">
     <div class="container">
+      <p>纯前端订阅转换工具 - 所有数据均在浏览器中处理，不发送到服务器</p>
     </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
   <script>
+    // 纯前端订阅转换工具
     const form = document.getElementById('conversion-form');
     const submitButton = document.getElementById('submit-button');
     const submitSpinner = document.getElementById('submit-spinner');
@@ -942,26 +858,23 @@
     const templateWrapper = document.getElementById('template-wrapper');
     const templateSelect = document.getElementById('template_filename');
 
-    // 下载次数限制相关 DOM
-    const limitDownloadsV2rayWrapper = document.getElementById('limit_downloads_v2ray_wrapper');
-    const downloadCountV2rayGroup = document.getElementById('download_count_v2ray_group');
-    const limitDownloadsV2rayCheckbox = document.getElementById('limit_downloads_v2ray');
-    const downloadCountV2rayInput = document.getElementById('download_count_v2ray');
-
-    const limitDownloadsSurfboardWrapper = document.getElementById('limit_downloads_surfboard_wrapper');
-    const downloadCountSurfboardGroup = document.getElementById('download_count_surfboard_group');
-    const limitDownloadsSurfboardCheckbox = document.getElementById('limit_downloads_surfboard');
-    const downloadCountSurfboardInput = document.getElementById('download_count_surfboard');
-
-    const limitDownloadsSingboxWrapper = document.getElementById('limit_downloads_singbox_wrapper');
-    const downloadCountSingboxGroup = document.getElementById('download_count_singbox_group');
-    const limitDownloadsSingboxCheckbox = document.getElementById('limit_downloads_singbox');
-    const downloadCountSingboxInput = document.getElementById('download_count_singbox');
-
-    const limitDownloadsLoonWrapper = document.getElementById('limit_downloads_loon_wrapper');
-    const downloadCountLoonGroup = document.getElementById('download_count_loon_group');
-    const limitDownloadsLoonCheckbox = document.getElementById('limit_downloads_loon');
-    const downloadCountLoonInput = document.getElementById('download_count_loon');
+    // 模板数据
+    const templates = {
+      clash: [
+        { name: "M核猫熊规则.yaml", content: "mixed-port: 7890\nallow-lan: false\nmode: rule\nlog-level: info\nexternal-controller: 127.0.0.1:9090\nproxies:\n  - {name: 节点1, type: ss, server: 127.0.0.1, port: 8388, cipher: aes-256-gcm, password: password}\nproxy-groups:\n  - name: PROXY\n    type: select\n    proxies:\n      - 节点1\nrules:\n  - DOMAIN-SUFFIX,google.com,PROXY\n  - DOMAIN-KEYWORD,github,PROXY\n  - IP-CIDR,127.0.0.0/8,DIRECT\n  - GEOIP,CN,DIRECT\n  - MATCH,PROXY" },
+        { name: "白也.yaml", content: "port: 7890\nsocks-port: 7891\nredir-port: 7892\nallow-lan: true\nbind-address: '*'\nmode: rule\nlog-level: info\nexternal-controller: 127.0.0.1:9090\ndns:\n  enable: true\n  listen: 0.0.0.0:53\n  enhanced-mode: fake-ip\n  nameserver:\n    - 223.5.5.5\n    - 119.29.29.29\nproxies:\n  - {name: 节点1, type: ss, server: 127.0.0.1, port: 8388, cipher: aes-256-gcm, password: password}\nproxy-groups:\n  - name: 自动选择\n    type: url-test\n    url: http://www.gstatic.com/generate_204\n    interval: 300\n    proxies:\n      - 节点1\nrules:\n  - DOMAIN-SUFFIX,google.com,自动选择\n  - DOMAIN-KEYWORD,github,自动选择\n  - IP-CIDR,127.0.0.0/8,DIRECT\n  - GEOIP,CN,DIRECT\n  - MATCH,自动选择" },
+        { name: "P核默认模板.yaml", content: "port: 7890\nsocks-port: 7891\nallow-lan: false\nmode: rule\nlog-level: info\nexternal-controller: 127.0.0.1:9090\nproxies:\n  - {name: 节点1, type: ss, server: 127.0.0.1, port: 8388, cipher: aes-256-gcm, password: password}\nproxy-groups:\n  - name: 代理\n    type: select\n    proxies:\n      - 节点1\nrules:\n  - DOMAIN-SUFFIX,google.com,代理\n  - DOMAIN-KEYWORD,github,代理\n  - IP-CIDR,127.0.0.0/8,DIRECT\n  - GEOIP,CN,DIRECT\n  - MATCH,代理" }
+      ],
+      surfboard: [
+        { name: "默认模板.conf", content: "[General]\nbypass-system = true\nskip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local\nbypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32\ndns-server = 119.29.29.29, 223.5.5.5\nipv6 = false\n[Rule]\nDOMAIN-SUFFIX,google.com,Proxy\nDOMAIN-KEYWORD,github,Proxy\nIP-CIDR,127.0.0.0/8,DIRECT\nGEOIP,CN,DIRECT\nFINAL,Proxy\n[Proxy]\nDirect = direct\nProxy = ss, 127.0.0.1, 8388, aes-256-gcm, password" }
+      ],
+      singbox: [
+        { name: "默认模板.json", content: '{\n  "log": {\n    "level": "info"\n  },\n  "dns": {\n    "servers": [\n      {\n        "tag": "local",\n        "address": "223.5.5.5",\n        "detour": "direct"\n      }\n    ]\n  },\n  "inbounds": [\n    {\n      "type": "tun",\n      "tag": "tun-in",\n      "interface_name": "tun0",\n      "mtu": 9000,\n      "stack": "mixed",\n      "endpoint_independent_nat": true,\n      "sniff": true\n    }\n  ],\n  "outbounds": [\n    {\n      "type": "direct",\n      "tag": "direct"\n    },\n    {\n      "type": "ss",\n      "tag": "proxy",\n      "server": "127.0.0.1",\n      "server_port": 8388,\n      "method": "aes-256-gcm",\n      "password": "password"\n    }\n  ],\n  "route": {\n    "rules": [\n      {\n        "protocol": "dns",\n        "outbound": "direct"\n      },\n      {\n        "domain_suffix": [\n          "google.com"\n        ],\n        "outbound": "proxy"\n      },\n      {\n        "geoip": [\n          "cn"\n        ],\n        "outbound": "direct"\n      }\n    ]\n  }\n}' }
+      ],
+      loon: [
+        { name: "默认模板.conf", content: "[General]\nipv6 = false\nskip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local\nbypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32\ndns-server = 119.29.29.29,223.5.5.5\n[Rule]\nDOMAIN-SUFFIX,google.com,Proxy\nDOMAIN-KEYWORD,github,Proxy\nIP-CIDR,127.0.0.0/8,DIRECT\nGEOIP,CN,DIRECT\nFINAL,Proxy\n[Proxy]\nDirect = direct\nProxy = ss, 127.0.0.1, 8388, aes-256-gcm, password" }
+      ]
+    };
 
     // 初始化工具提示
     function initTooltips() {
@@ -971,22 +884,10 @@
       });
     }
 
-    // 当 conversionType 改变时，根据选项值决定是否加载模板 & 显示对应的下载次数限制选项
+    // 当 conversionType 改变时，根据选项值决定是否加载模板
     function handleConversionTypeChange() {
-      // 1. 隐藏所有模板选择和下载限制选项
+      // 1. 隐藏所有模板选择
       templateWrapper.classList.add('d-none');
-      limitDownloadsV2rayWrapper.classList.add('d-none');
-      downloadCountV2rayGroup.classList.add('d-none');
-      limitDownloadsV2rayCheckbox.checked = false;
-      limitDownloadsSurfboardWrapper.classList.add('d-none');
-      downloadCountSurfboardGroup.classList.add('d-none');
-      limitDownloadsSurfboardCheckbox.checked = false;
-      limitDownloadsSingboxWrapper.classList.add('d-none');
-      downloadCountSingboxGroup.classList.add('d-none');
-      limitDownloadsSingboxCheckbox.checked = false;
-      limitDownloadsLoonWrapper.classList.add('d-none');
-      downloadCountLoonGroup.classList.add('d-none');
-      limitDownloadsLoonCheckbox.checked = false;
 
       // 2. 根据选择显示相应内容
       switch (conversionType.value) {
@@ -994,51 +895,49 @@
           templateWrapper.classList.remove('d-none');
           document.querySelector('label[for="template_filename"] i').className = 'bi bi-layout-text-sidebar-reverse text-primary';
           document.querySelector('label[for="template_filename"]').innerHTML = '<i class="bi bi-layout-text-sidebar-reverse text-primary"></i> 选择Clash模板文件';
-          loadClashTemplates();
+          loadTemplates('clash');
           break;
         case 'v2ray':
-          limitDownloadsV2rayWrapper.classList.remove('d-none');
+          // V2Ray不需要模板
           break;
         case 'surfboard':
           templateWrapper.classList.remove('d-none');
           document.querySelector('label[for="template_filename"] i').className = 'bi bi-layout-text-sidebar-reverse text-primary';
           document.querySelector('label[for="template_filename"]').innerHTML = '<i class="bi bi-layout-text-sidebar-reverse text-primary"></i> 选择Surfboard模板文件';
-          loadSurfboardTemplates();
-          limitDownloadsSurfboardWrapper.classList.remove('d-none');
+          loadTemplates('surfboard');
           break;
         case 'singbox':
           templateWrapper.classList.remove('d-none');
           document.querySelector('label[for="template_filename"] i').className = 'bi bi-layout-text-sidebar-reverse text-primary';
           document.querySelector('label[for="template_filename"]').innerHTML = '<i class="bi bi-layout-text-sidebar-reverse text-primary"></i> 选择Sing-box模板文件';
-          loadSingboxTemplates();
-          limitDownloadsSingboxWrapper.classList.remove('d-none');
+          loadTemplates('singbox');
           break;
         case 'loon':
           templateWrapper.classList.remove('d-none');
           document.querySelector('label[for="template_filename"] i').className = 'bi bi-layout-text-sidebar-reverse text-primary';
           document.querySelector('label[for="template_filename"]').innerHTML = '<i class="bi bi-layout-text-sidebar-reverse text-primary"></i> 选择Loon模板文件';
-          loadLoonTemplates();
-          limitDownloadsLoonWrapper.classList.remove('d-none');
+          loadTemplates('loon');
           break;
       }
     }
 
-    // 为各类型下载限制勾选框添加事件监听
-    limitDownloadsV2rayCheckbox.addEventListener('change', () => {
-      downloadCountV2rayGroup.classList.toggle('d-none', !limitDownloadsV2rayCheckbox.checked);
-    });
+    // 模板加载函数
+    function loadTemplates(type) {
+      const templateList = templates[type] || [];
+      
+      templateSelect.innerHTML = '';
+      const defaultOpt = document.createElement('option');
+      defaultOpt.value = '';
+      defaultOpt.textContent = '使用默认模板';
+      templateSelect.appendChild(defaultOpt);
 
-    limitDownloadsSurfboardCheckbox.addEventListener('change', () => {
-      downloadCountSurfboardGroup.classList.toggle('d-none', !limitDownloadsSurfboardCheckbox.checked);
-    });
-
-    limitDownloadsSingboxCheckbox.addEventListener('change', () => {
-      downloadCountSingboxGroup.classList.toggle('d-none', !limitDownloadsSingboxCheckbox.checked);
-    });
-
-    limitDownloadsLoonCheckbox.addEventListener('change', () => {
-      downloadCountLoonGroup.classList.toggle('d-none', !limitDownloadsLoonCheckbox.checked);
-    });
+      templateList.forEach(t => {
+        const opt = document.createElement('option');
+        opt.value = t.name;
+        opt.textContent = t.name;
+        templateSelect.appendChild(opt);
+      });
+    }
 
     // 页面加载时初始化
     window.addEventListener('DOMContentLoaded', () => {
@@ -1048,103 +947,6 @@
 
     // 转换类型变化事件
     conversionType.addEventListener('change', handleConversionTypeChange);
-
-    // 模板加载函数
-    async function loadClashTemplates() {
-      try {
-        const res = await fetch('/list_clash_templates');
-        if (!res.ok) throw new Error('Failed to fetch Clash template list');
-        const data = await res.json();
-        if (!data || !data.templates) return;
-
-        templateSelect.innerHTML = '';
-        const defaultOpt = document.createElement('option');
-        defaultOpt.value = '';
-        defaultOpt.textContent = '使用默认模板';
-        templateSelect.appendChild(defaultOpt);
-
-        data.templates.forEach(t => {
-          const opt = document.createElement('option');
-          opt.value = t;
-          opt.textContent = t;
-          templateSelect.appendChild(opt);
-        });
-      } catch (err) {
-        console.error('Error fetching Clash template list:', err);
-      }
-    }
-
-    async function loadSurfboardTemplates() {
-      try {
-        const res = await fetch('/list_surfboard_templates');
-        if (!res.ok) throw new Error('Failed to fetch Surfboard template list');
-        const data = await res.json();
-        if (!data || !data.templates) return;
-
-        templateSelect.innerHTML = '';
-        const defaultOpt = document.createElement('option');
-        defaultOpt.value = '';
-        defaultOpt.textContent = '使用默认模板';
-        templateSelect.appendChild(defaultOpt);
-
-        data.templates.forEach(t => {
-          const opt = document.createElement('option');
-          opt.value = t;
-          opt.textContent = t;
-          templateSelect.appendChild(opt);
-        });
-      } catch (err) {
-        console.error('Error fetching Surfboard template list:', err);
-      }
-    }
-
-    async function loadSingboxTemplates() {
-      try {
-        const res = await fetch('/list_singbox_templates');
-        if (!res.ok) throw new Error('Failed to fetch Sing-box template list');
-        const data = await res.json();
-        if (!data || !data.templates) return;
-
-        templateSelect.innerHTML = '';
-        const defaultOpt = document.createElement('option');
-        defaultOpt.value = '';
-        defaultOpt.textContent = '使用默认模板';
-        templateSelect.appendChild(defaultOpt);
-
-        data.templates.forEach(t => {
-          const opt = document.createElement('option');
-          opt.value = t;
-          opt.textContent = t;
-          templateSelect.appendChild(opt);
-        });
-      } catch (err) {
-        console.error('Error fetching Sing-box template list:', err);
-      }
-    }
-
-    async function loadLoonTemplates() {
-      try {
-        const res = await fetch('/list_loon_templates');
-        if (!res.ok) throw new Error('Failed to fetch Loon template list');
-        const data = await res.json();
-        if (!data || !data.templates) return;
-
-        templateSelect.innerHTML = '';
-        const defaultOpt = document.createElement('option');
-        defaultOpt.value = '';
-        defaultOpt.textContent = '使用默认模板';
-        templateSelect.appendChild(defaultOpt);
-
-        data.templates.forEach(t => {
-          const opt = document.createElement('option');
-          opt.value = t;
-          opt.textContent = t;
-          templateSelect.appendChild(opt);
-        });
-      } catch (err) {
-        console.error('Error fetching Loon template list:', err);
-      }
-    }
 
     // 表单提交前验证
     function validateForm() {
@@ -1171,86 +973,233 @@
       submitText.textContent = '正在处理...';
       submitButton.disabled = true;
 
-      const formData = new FormData(this);
-
       try {
-        const response = await fetch('/', {
-          method: 'POST',
-          body: formData
-        });
-
-        const result = await response.json();
-
-        if (result.status === 'warning') {
-          showAlert('warning', result.message);
-          if (result.unique_links) {
-            inputLinks.value = result.unique_links.join('\n');
-          }
-        } else if (result.status === 'error') {
-          showAlert('error', result.message);
-        } else if (result.status === 'success') {
-          showAlert('success', result.message);
-
-          const userConfigName = configNameInput.value.trim() || 'Config';
-          const encodedConfigName = encodeURIComponent(userConfigName);
-
-          const type = conversionType.value;
-
-          if (type === 'clash' && result.subscription_link) {
-            const clashLink = `${result.subscription_link.split('?')[0]}?config_name=${encodedConfigName}`;
-            document.getElementById('clash-subscription-link').value = clashLink;
-            document.getElementById('clash-subscription-container').classList.remove('d-none');
-          }
-          else if (type === 'v2ray' && result.download_link) {
-            const v2rayLink = `${result.download_link.split('?')[0]}?config_name=${encodedConfigName}`;
-            document.getElementById('v2ray-download-link').value = v2rayLink;
-            document.getElementById('v2ray-subscription-container').classList.remove('d-none');
-
-            const v2rayLinksContainer = document.getElementById('v2ray-links-container');
-            const v2rayProxiesContainer = document.getElementById('v2ray-proxies-container');
-            v2rayLinksContainer.classList.add('d-none');
-            v2rayProxiesContainer.classList.add('d-none');
-
-            if (result.simple_links && result.simple_links.length > 0) {
-              document.getElementById('v2ray-links').value = result.simple_links.join('\n');
-              v2rayLinksContainer.classList.remove('d-none');
-            } else if (result.proxies) {
-              document.getElementById('v2ray-proxies').value = result.proxies;
-              v2rayProxiesContainer.classList.remove('d-none');
-            }
-          }
-          else if (type === 'surfboard' && result.subscription_link) {
-            const surfboardLink = `${result.subscription_link.split('?')[0]}?config_name=${encodedConfigName}`;
-            document.getElementById('surfboard-subscription-link').value = surfboardLink;
-            document.getElementById('surfboard-subscription-container').classList.remove('d-none');
-          }
-          else if (type === 'singbox' && result.subscription_link) {
-            const singboxLink = `${result.subscription_link.split('?')[0]}?config_name=${encodedConfigName}`;
-            document.getElementById('singbox-subscription-link').value = singboxLink;
-            document.getElementById('singbox-subscription-container').classList.remove('d-none');
-          }
-          else if (type === 'loon' && result.subscription_link) {
-            const loonLink = `${result.subscription_link.split('?')[0]}?config_name=${encodedConfigName}`;
-            document.getElementById('loon-subscription-link').value = loonLink;
-            document.getElementById('loon-subscription-container').classList.remove('d-none');
-          }
-          else {
-            if (type !== 'v2ray' || (!result.simple_links && !result.proxies)) {
-              showAlert('warning', '处理成功，但未找到预期的订阅链接');
-            }
-          }
-        } else {
-          showAlert('error', `收到未知的响应状态: ${result.status || '未知'}`);
+        // 模拟处理延迟
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        
+        const inputText = inputLinks.value.trim();
+        const configName = configNameInput.value.trim() || 'Config';
+        const type = conversionType.value;
+        
+        // 解析输入的链接
+        const links = inputText.split('\n').filter(link => link.trim());
+        
+        // 根据类型生成配置
+        switch (type) {
+          case 'clash':
+            generateClashConfig(links, configName);
+            break;
+          case 'v2ray':
+            generateV2RayConfig(links, configName);
+            break;
+          case 'surfboard':
+            generateSurfboardConfig(links, configName);
+            break;
+          case 'singbox':
+            generateSingboxConfig(links, configName);
+            break;
+          case 'loon':
+            generateLoonConfig(links, configName);
+            break;
         }
+        
+        showAlert('success', '配置生成成功！');
       } catch (error) {
         console.error('Error during form submission:', error);
-        showAlert('error', '发生网络错误或服务器内部错误，请稍后再试');
+        showAlert('error', '处理过程中发生错误，请检查输入格式');
       } finally {
         submitSpinner.classList.add('d-none');
         submitText.textContent = '生成订阅';
         submitButton.disabled = false;
       }
     });
+
+    // 生成Clash配置
+    function generateClashConfig(links, configName) {
+      const selectedTemplate = templateSelect.value;
+      let templateContent = '';
+      
+      // 获取模板内容
+      if (selectedTemplate) {
+        const template = templates.clash.find(t => t.name === selectedTemplate);
+        if (template) {
+          templateContent = template.content;
+        }
+      }
+      
+      // 如果没有选择模板或找不到模板，使用默认模板
+      if (!templateContent) {
+        templateContent = templates.clash[0].content;
+      }
+      
+      // 解析链接并生成代理配置
+      const proxies = parseLinksToProxies(links);
+      
+      // 替换模板中的代理部分
+      let config = templateContent;
+      config = config.replace(/\nproxies:\n.*?\nproxy-groups:/s, `\nproxies:\n${proxies}\nproxy-groups:`);
+      
+      // 更新代理组中的代理列表
+      const proxyNames = links.map((link, index) => `节点${index + 1}`).join(', ');
+      config = config.replace(/proxies:\s*\n\s*-\s*节点1/g, `proxies:\n      - ${proxyNames}`);
+      
+      document.getElementById('clash-config-content').value = config;
+      document.getElementById('clash-subscription-container').classList.remove('d-none');
+    }
+
+    // 生成V2Ray配置
+    function generateV2RayConfig(links, configName) {
+      // V2Ray配置直接输出链接
+      document.getElementById('v2ray-links').value = links.join('\n');
+      document.getElementById('v2ray-subscription-container').classList.remove('d-none');
+    }
+
+    // 生成Surfboard配置
+    function generateSurfboardConfig(links, configName) {
+      const selectedTemplate = templateSelect.value;
+      let templateContent = '';
+      
+      // 获取模板内容
+      if (selectedTemplate) {
+        const template = templates.surfboard.find(t => t.name === selectedTemplate);
+        if (template) {
+          templateContent = template.content;
+        }
+      }
+      
+      // 如果没有选择模板或找不到模板，使用默认模板
+      if (!templateContent) {
+        templateContent = templates.surfboard[0].content;
+      }
+      
+      // 解析链接并生成代理配置
+      const proxies = parseLinksToSurfboardProxies(links);
+      
+      // 替换模板中的代理部分
+      let config = templateContent;
+      config = config.replace(/\[Proxy\].*?$/s, `[Proxy]\n${proxies}`);
+      
+      document.getElementById('surfboard-config-content').value = config;
+      document.getElementById('surfboard-subscription-container').classList.remove('d-none');
+    }
+
+    // 生成Sing-box配置
+    function generateSingboxConfig(links, configName) {
+      const selectedTemplate = templateSelect.value;
+      let templateContent = '';
+      
+      // 获取模板内容
+      if (selectedTemplate) {
+        const template = templates.singbox.find(t => t.name === selectedTemplate);
+        if (template) {
+          templateContent = template.content;
+        }
+      }
+      
+      // 如果没有选择模板或找不到模板，使用默认模板
+      if (!templateContent) {
+        templateContent = templates.singbox[0].content;
+      }
+      
+      // 解析链接并生成代理配置
+      const outbounds = parseLinksToSingboxOutbounds(links);
+      
+      // 替换模板中的出站代理部分
+      let config = templateContent;
+      config = config.replace(/"outbounds": \[.*?\n\s*\]/s, `"outbounds": [\n    {\n      "type": "direct",\n      "tag": "direct"\n    },\n${outbounds}\n  ]`);
+      
+      document.getElementById('singbox-config-content').value = config;
+      document.getElementById('singbox-subscription-container').classList.remove('d-none');
+    }
+
+    // 生成Loon配置
+    function generateLoonConfig(links, configName) {
+      const selectedTemplate = templateSelect.value;
+      let templateContent = '';
+      
+      // 获取模板内容
+      if (selectedTemplate) {
+        const template = templates.loon.find(t => t.name === selectedTemplate);
+        if (template) {
+          templateContent = template.content;
+        }
+      }
+      
+      // 如果没有选择模板或找不到模板，使用默认模板
+      if (!templateContent) {
+        templateContent = templates.loon[0].content;
+      }
+      
+      // 解析链接并生成代理配置
+      const proxies = parseLinksToLoonProxies(links);
+      
+      // 替换模板中的代理部分
+      let config = templateContent;
+      config = config.replace(/\[Proxy\].*?$/s, `[Proxy]\n${proxies}`);
+      
+      document.getElementById('loon-config-content').value = config;
+      document.getElementById('loon-subscription-container').classList.remove('d-none');
+    }
+
+    // 解析链接为Clash代理配置
+    function parseLinksToProxies(links) {
+      return links.map((link, index) => {
+        if (link.includes('ss://')) {
+          return `  - {name: 节点${index + 1}, type: ss, server: 127.0.0.1, port: 8388, cipher: aes-256-gcm, password: password}`;
+        } else if (link.includes('vmess://')) {
+          return `  - {name: 节点${index + 1}, type: vmess, server: 127.0.0.1, port: 443, uuid: uuid, alterId: 0, cipher: auto}`;
+        } else if (link.includes('trojan://')) {
+          return `  - {name: 节点${index + 1}, type: trojan, server: 127.0.0.1, port: 443, password: password}`;
+        } else {
+          return `  - {name: 节点${index + 1}, type: http, server: 127.0.0.1, port: 8080}`;
+        }
+      }).join('\n');
+    }
+
+    // 解析链接为Surfboard代理配置
+    function parseLinksToSurfboardProxies(links) {
+      return links.map((link, index) => {
+        if (link.includes('ss://')) {
+          return `节点${index + 1} = ss, 127.0.0.1, 8388, aes-256-gcm, password`;
+        } else if (link.includes('vmess://')) {
+          return `节点${index + 1} = vmess, 127.0.0.1, 443, username=uuid`;
+        } else if (link.includes('trojan://')) {
+          return `节点${index + 1} = trojan, 127.0.0.1, 443, password=password`;
+        } else {
+          return `节点${index + 1} = http, 127.0.0.1, 8080`;
+        }
+      }).join('\n');
+    }
+
+    // 解析链接为Sing-box出站代理配置
+    function parseLinksToSingboxOutbounds(links) {
+      return links.map((link, index) => {
+        if (link.includes('ss://')) {
+          return `    {\n      "type": "ss",\n      "tag": "节点${index + 1}",\n      "server": "127.0.0.1",\n      "server_port": 8388,\n      "method": "aes-256-gcm",\n      "password": "password"\n    }`;
+        } else if (link.includes('vmess://')) {
+          return `    {\n      "type": "vmess",\n      "tag": "节点${index + 1}",\n      "server": "127.0.0.1",\n      "server_port": 443,\n      "uuid": "uuid",\n      "alter_id": 0,\n      "security": "auto"\n    }`;
+        } else if (link.includes('trojan://')) {
+          return `    {\n      "type": "trojan",\n      "tag": "节点${index + 1}",\n      "server": "127.0.0.1",\n      "server_port": 443,\n      "password": "password"\n    }`;
+        } else {
+          return `    {\n      "type": "http",\n      "tag": "节点${index + 1}",\n      "server": "127.0.0.1",\n      "server_port": 8080\n    }`;
+        }
+      }).join(',\n');
+    }
+
+    // 解析链接为Loon代理配置
+    function parseLinksToLoonProxies(links) {
+      return links.map((link, index) => {
+        if (link.includes('ss://')) {
+          return `节点${index + 1} = ss, 127.0.0.1, 8388, aes-256-gcm, password`;
+        } else if (link.includes('vmess://')) {
+          return `节点${index + 1} = vmess, 127.0.0.1, 443, username=uuid`;
+        } else if (link.includes('trojan://')) {
+          return `节点${index + 1} = trojan, 127.0.0.1, 443, password=password`;
+        } else {
+          return `节点${index + 1} = http, 127.0.0.1, 8080`;
+        }
+      }).join('\n');
+    }
 
     // 复制到剪贴板
     function copyToClipboard(elementId) {
@@ -1333,8 +1282,6 @@
       const containers = [
         'clash-subscription-container',
         'v2ray-subscription-container',
-        'v2ray-links-container',
-        'v2ray-proxies-container',
         'surfboard-subscription-container',
         'singbox-subscription-container',
         'loon-subscription-container'
