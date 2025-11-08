@@ -1,1299 +1,639 @@
 <!DOCTYPE html>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/wsqstar/ResHosting@0.031/build/js/Sakura.js"></script>
+
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>裤佬订阅转换</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-
-  <style>
-    :root {
-      --primary-color: #4f46e5;
-      --primary-hover: #4338ca;
-      --secondary-color: #f59e0b;
-      --dark-color: #1e293b;
-      --light-color: #f8fafc;
-      --success-color: #10b981;
-      --warning-color: #f59e0b;
-      --danger-color: #ef4444;
-      --info-color: #3b82f6;
-      --border-radius: 12px;
-      --card-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-      --transition-normal: all 0.3s ease;
-    }
-
-    body {
-      font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
-      background-attachment: fixed;
-      color: var(--dark-color);
-      min-height: 100vh;
-      line-height: 1.6;
-    }
-
-    .navbar {
-      background: rgba(255, 255, 255, 0.9);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    }
-
-    .navbar-brand {
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .navbar-brand i {
-      color: var(--secondary-color);
-    }
-
-    .container {
-      max-width: 960px;
-      padding: 0 20px;
-    }
-
-    .main-container {
-      padding-top: 2rem;
-    }
-
-    .app-card {
-      background: white;
-      border-radius: var(--border-radius);
-      box-shadow: var(--card-shadow);
-      overflow: hidden;
-      transition: var(--transition-normal);
-      border: none;
-      margin-bottom: 1.5rem;
-    }
-
-    .app-card:hover {
-      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    }
-
-    .app-card-header {
-      background: rgba(79, 70, 229, 0.05);
-      padding: 1.5rem;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    }
-
-    .app-card-title {
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: var(--primary-color);
-      margin-bottom: 0.5rem;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .app-card-description {
-      color: #64748b;
-      font-size: 0.95rem;
-      margin-bottom: 0;
-    }
-
-    .app-card-body {
-      padding: 1.5rem;
-    }
-
-    .form-label {
-      font-weight: 600;
-      font-size: 0.9rem;
-      color: #475569;
-      margin-bottom: 0.5rem;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .form-control,
-    .form-select {
-      border-radius: 8px;
-      padding: 0.75rem 1rem;
-      border: 1px solid #e2e8f0;
-      background-color: #f8fafc;
-      transition: var(--transition-normal);
-      font-size: 0.95rem;
-    }
-
-    .form-control:focus,
-    .form-select:focus {
-      border-color: var(--primary-color);
-      box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.25);
-    }
-
-    textarea.form-control {
-      min-height: 120px;
-      font-family: 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
-    }
-
-    .btn {
-      padding: 0.75rem 1.5rem;
-      border-radius: 8px;
-      font-weight: 600;
-      transition: var(--transition-normal);
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .btn-primary {
-      background-color: var(--primary-color);
-      border-color: var(--primary-color);
-      color: white;
-    }
-
-    .btn-primary:hover {
-      background-color: var(--primary-hover);
-      border-color: var(--primary-hover);
-    }
-
-    .btn-secondary {
-      background-color: var(--secondary-color);
-      border-color: var(--secondary-color);
-      color: white;
-    }
-
-    .btn-outline-primary {
-      color: var(--primary-color);
-      border-color: var(--primary-color);
-    }
-
-    .btn-outline-primary:hover {
-      background-color: var(--primary-color);
-      color: white;
-    }
-
-    .btn-outline-danger {
-      color: var(--danger-color);
-      border-color: var(--danger-color);
-    }
-
-    .btn-outline-danger:hover {
-      background-color: var(--danger-color);
-      color: white;
-    }
-
-    .btn-icon {
-      width: 38px;
-      height: 38px;
-      padding: 0;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 8px;
-    }
-
-    .alert {
-      border-radius: var(--border-radius);
-      padding: 1rem 1.5rem;
-      margin-bottom: 1.5rem;
-      border: none;
-    }
-
-    .alert-success {
-      background-color: rgba(16, 185, 129, 0.1);
-      color: #065f46;
-    }
-
-    .alert-warning {
-      background-color: rgba(245, 158, 11, 0.1);
-      color: #92400e;
-    }
-
-    .alert-danger {
-      background-color: rgba(239, 68, 68, 0.1);
-      color: #b91c1c;
-    }
-
-    .section-divider {
-      position: relative;
-      text-align: center;
-      margin: 1.5rem 0;
-    }
-
-    .section-divider::before {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 0;
-      right: 0;
-      height: 1px;
-      background-color: #e2e8f0;
-      z-index: 1;
-    }
-
-    .section-divider-text {
-      position: relative;
-      z-index: 2;
-      background-color: white;
-      padding: 0 1rem;
-      font-weight: 600;
-      color: #64748b;
-      font-size: 0.9rem;
-    }
-
-    /* 规则卡片样式 */
-    .rules-container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1rem;
-      margin-top: 1rem;
-    }
-
-    .rule-card {
-      background-color: #f8fafc;
-      border-radius: 10px;
-      padding: 1rem;
-      cursor: pointer;
-      transition: var(--transition-normal);
-      border: 1px solid #e2e8f0;
-      text-align: center;
-      position: relative;
-    }
-
-    .rule-card:hover {
-      background-color: #f1f5f9;
-      transform: translateY(-2px);
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    }
-
-    .rule-card.active {
-      background-color: rgba(79, 70, 229, 0.1);
-      border-color: var(--primary-color);
-    }
-
-    .rule-card.disabled {
-      opacity: 0.5;
-      cursor: not-allowed;
-      pointer-events: none;
-    }
-
-    .rule-card-icon {
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
-      color: var(--primary-color);
-    }
-
-    .rule-card-title {
-      font-weight: 600;
-      margin-bottom: 0.25rem;
-      font-size: 0.9rem;
-    }
-
-    .rule-card-badge {
-      position: absolute;
-      top: -5px;
-      right: -5px;
-      background-color: var(--success-color);
-      color: white;
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.7rem;
-    }
-
-    .rule-card::after {
-      content: '双击添加';
-      position: absolute;
-      bottom: 5px;
-      right: 5px;
-      font-size: 0.7rem;
-      color: #94a3b8;
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
-
-    .rule-card:hover::after {
-      opacity: 1;
-    }
-
-    .rule-list-container {
-      margin-top: 1rem;
-    }
-
-    .rule-list {
-      margin-top: 1rem;
-      max-height: 300px;
-      overflow-y: auto;
-      padding-right: 5px;
-    }
-
-    /* 为已添加规则列表添加滚动条样式 */
-    .rule-list::-webkit-scrollbar {
-      width: 6px;
-    }
-
-    .rule-list::-webkit-scrollbar-track {
-      background: #f1f5f9;
-      border-radius: 10px;
-    }
-
-    .rule-list::-webkit-scrollbar-thumb {
-      background: #cbd5e1;
-      border-radius: 10px;
-    }
-
-    .rule-list::-webkit-scrollbar-thumb:hover {
-      background: #94a3b8;
-    }
-
-    .rule-item {
-      background-color: #f8fafc;
-      border-radius: 10px;
-      padding: 1rem;
-      margin-bottom: 0.75rem;
-      border: 1px solid #e2e8f0;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .rule-item-content {
-      flex: 1;
-      margin-right: 1rem;
-    }
-
-    .rule-item-title {
-      font-weight: 600;
-      margin-bottom: 0.25rem;
-    }
-
-    .rule-item-subtitle {
-      font-size: 0.85rem;
-      color: #64748b;
-      word-break: break-all;
-    }
-
-    .rule-item-actions {
-      display: flex;
-      gap: 0.5rem;
-    }
-
-    /* 折叠面板样式 */
-    .accordion-item {
-      border: none;
-      margin-bottom: 1rem;
-      border-radius: var(--border-radius) !important;
-      overflow: hidden;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    }
-
-    .accordion-header {
-      border-radius: var(--border-radius) !important;
-    }
-
-    .accordion-button {
-      padding: 1.25rem;
-      font-weight: 600;
-      background-color: #f8fafc;
-    }
-
-    .accordion-button:not(.collapsed) {
-      background-color: rgba(79, 70, 229, 0.05);
-      color: var(--primary-color);
-    }
-
-    .accordion-button:focus {
-      box-shadow: none;
-      border-color: #e2e8f0;
-    }
-
-    .accordion-body {
-      padding: 1.25rem;
-      background-color: white;
-    }
-
-    /* 结果区域样式 */
-    .result-section {
-      background-color: #f8fafc;
-      border-radius: var(--border-radius);
-      padding: 1.25rem;
-      margin-top: 2rem;
-    }
-
-    .result-title {
-      font-weight: 600;
-      margin-bottom: 1rem;
-      color: var(--primary-color);
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .result-field {
-      margin-bottom: 1rem;
-    }
-
-    .result-field-label {
-      font-weight: 600;
-      margin-bottom: 0.5rem;
-      font-size: 0.9rem;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .copy-btn {
-      background-color: #f1f5f9;
-      border: 1px solid #e2e8f0;
-      color: #475569;
-    }
-
-    .copy-btn:hover {
-      background-color: #e2e8f0;
-      color: var(--dark-color);
-    }
-
-    /* 开关样式 */
-    .form-switch .form-check-input {
-      width: 2.5em;
-      height: 1.25em;
-    }
-
-    .form-check-input:checked {
-      background-color: var(--primary-color);
-      border-color: var(--primary-color);
-    }
-
-    /* 提示与通知 */
-    .notice {
-      background-color: rgba(245, 158, 11, 0.1);
-      border-left: 4px solid var(--warning-color);
-      padding: 1rem 1.25rem;
-      border-radius: 8px;
-      margin-bottom: 1.5rem;
-    }
-
-    .notice-title {
-      font-weight: 600;
-      color: #92400e;
-      margin-bottom: 0.5rem;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .notice-text {
-      color: #92400e;
-      margin-bottom: 0;
-      font-size: 0.95rem;
-    }
-
-    /* 标签样式 */
-    .badge {
-      padding: 0.35em 0.65em;
-      font-weight: 600;
-      border-radius: 6px;
-      font-size: 0.75em;
-    }
-
-    .badge-primary {
-      background-color: rgba(79, 70, 229, 0.1);
-      color: var(--primary-color);
-    }
-
-    .badge-success {
-      background-color: rgba(16, 185, 129, 0.1);
-      color: #065f46;
-    }
-
-    /* 工具提示 */
-    .tooltip-icon {
-      color: #94a3b8;
-      cursor: help;
-    }
-
-    /* 加载动画 */
-    .spinner-border {
-      width: 1.5rem;
-      height: 1.5rem;
-      border-width: 0.2em;
-    }
-
-    /* 下载限制区域样式 */
-    .download-limit-section {
-      background-color: #f8fafc;
-      border-radius: 10px;
-      padding: 1rem;
-      margin-bottom: 1.5rem;
-    }
-
-    .download-limit-item {
-      margin-bottom: 1rem;
-    }
-
-    .download-count-input {
-      margin-top: 0.5rem;
-      margin-left: 2.5rem;
-    }
-
-    /* 共享代理组高亮 */
-    .highlight-input {
-      border-color: var(--warning-color) !important;
-      box-shadow: 0 0 0 0.25rem rgba(245, 158, 11, 0.25) !important;
-      animation: pulse-yellow 1.5s infinite;
-    }
-
-    @keyframes pulse-yellow {
-      0% {
-        box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.4);
-      }
-
-      70% {
-        box-shadow: 0 0 0 0.25rem rgba(245, 158, 11, 0);
-      }
-
-      100% {
-        box-shadow: 0 0 0 0 rgba(245, 158, 11, 0);
-      }
-    }
-
-    /* 响应式调整 */
-    @media (max-width: 768px) {
-
-      .app-card-header,
-      .app-card-body {
-        padding: 1.25rem;
-      }
-
-      .rules-container {
-        grid-template-columns: repeat(2, 1fr);
-      }
-
-      .rule-card {
-        padding: 0.75rem;
-      }
-
-      .rule-card-icon {
-        font-size: 1.25rem;
-      }
-    }
-
-    @media (max-width: 576px) {
-      .app-card-title {
-        font-size: 1.25rem;
-      }
-
-      .btn {
-        padding: 0.6rem 1.2rem;
-      }
-
-      .rules-container {
-        grid-template-columns: 1fr;
-      }
-
-      /* 在移动端增加双击提示的可见性 */
-      .rule-card::after {
-        opacity: 0.7;
-        position: static;
-        display: block;
-        text-align: right;
-        margin-top: 5px;
-      }
-    }
-
-    /* 动效 */
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(10px);
-      }
-
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    .fade-in {
-      animation: fadeIn 0.3s ease forwards;
-    }
-
-    /* 跟随鼠标的互动效果 */
-    .interactive-element {
-      position: relative;
-      overflow: hidden;
-    }
-
-    .interactive-element::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: radial-gradient(circle at var(--x, 0) var(--y, 0), rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 50%);
-      opacity: 0;
-      transition: opacity 0.3s;
-      pointer-events: none;
-    }
-
-    .interactive-element:hover::after {
-      opacity: 0.15;
-    }
-
-    /* 子规则标签样式 */
-    .subrule-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5px;
-      margin-top: 5px;
-    }
-
-    .subrule-badge {
-      background-color: #e0e0e0;
-      color: #333;
-      border-radius: 15px;
-      padding: 3px 10px;
-      font-size: 0.8rem;
-    }
-  </style>
-</head>
-
-<body>
-  <!-- 导航栏 -->
-  <nav class="navbar navbar-expand-lg navbar-light sticky-top mb-4">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <i class="bi bi-stars"></i>
-        裤佬订阅转换
-      </a>
-    </div>
-  </nav>
-
-  <div class="container main-container">
-    <!-- 主要卡片 -->
-    <div class="app-card">
-      <div class="app-card-header">
-        <h1 class="app-card-title">
-          <i class="bi bi-stars"></i>
-          裤佬订阅转换
-        </h1>
-        <p class="app-card-description">
-          纯前端订阅转换工具 - 无需后端服务器，所有转换在浏览器中完成
-        </p>
-      </div>
-      <div class="app-card-body">
-        <form id="conversion-form">
-          <!-- 转换类型选择 -->
-          <div class="mb-4">
-            <label for="conversion_type" class="form-label">
-              <i class="bi bi-funnel-fill text-primary"></i>
-              选择转换类型
-            </label>
-            <select class="form-select" id="conversion_type" name="conversion_type" required>
-              <option value="clash">Clash</option>
-              <option value="v2ray">V2Ray 或 小火箭</option>
-              <option value="surfboard">Surfboard 或 Surge</option>
-              <option value="singbox">Sing-box</option>
-              <option value="loon">Loon</option>
-            </select>
-          </div>
-
-          <!-- 输入链接区域 -->
-          <div class="mb-4">
-            <label for="input-links" class="form-label">
-              <i class="bi bi-link-45deg text-primary"></i>
-              输入链接或节点
-            </label>
-            <textarea class="form-control" id="input-links" name="input_links" placeholder="请输入节点链接或订阅链接，每行一个" required></textarea>
-          </div>
-
-          <!-- 配置文件名 -->
-          <div class="mb-4">
-            <label for="config_name" class="form-label">
-              <i class="bi bi-file-earmark-text text-primary"></i>
-              配置文件名 (可选)
-            </label>
-            <input type="text" class="form-control" id="config_name" name="config_name" placeholder="默认为 'Config'">
-          </div>
-
-          <!-- 模板选择 -->
-          <div class="mb-4" id="template-wrapper">
-            <label for="template_filename" class="form-label"><i class="bi bi-layout-text-sidebar-reverse text-primary"></i> 选择模板文件</label>
-            <select class="form-select" id="template_filename" name="template_filename">
-              <option value="">使用默认模板</option>
-            </select>
-          </div>
-
-          <!-- 提交按钮 -->
-          <button type="submit" class="btn btn-primary w-100" id="submit-button">
-            <span class="spinner-border spinner-border-sm me-2 d-none" role="status" aria-hidden="true" id="submit-spinner"></span>
-            <i class="bi bi-cpu"></i>
-            <span id="submit-text">生成订阅</span>
-          </button>
-        </form>
-
-        <!-- 提示信息区域 -->
-        <div id="alert-container" class="mt-4 d-none">
-          <div id="success-alert" class="alert alert-success d-none" role="alert"></div>
-          <div id="error-alert" class="alert alert-danger d-none" role="alert"></div>
-          <div id="warning-alert" class="alert alert-warning d-none" role="alert"></div>
-        </div>
-
-        <!-- 结果显示区域 -->
-        <!-- Clash订阅结果 -->
-        <div id="clash-subscription-container" class="result-section mt-4 d-none fade-in">
-          <div class="result-title">
-            <i class="bi bi-cloud-download text-primary"></i>
-            Clash 配置已生成
-          </div>
-          <div class="result-field">
-            <div class="result-field-label">
-              <i class="bi bi-link-45deg text-primary"></i>
-              配置内容
-            </div>
-            <textarea class="form-control" id="clash-config-content" rows="15" readonly></textarea>
-            <button class="btn copy-btn mt-2" type="button" onclick="copyToClipboard('clash-config-content')">
-              <i class="bi bi-clipboard-check"></i>
-              复制配置
-            </button>
-          </div>
-        </div>
-
-        <!-- V2Ray订阅结果 -->
-        <div id="v2ray-subscription-container" class="result-section mt-4 d-none fade-in">
-          <div class="result-title">
-            <i class="bi bi-cloud-download text-primary"></i>
-            V2Ray 配置已生成
-          </div>
-          <div class="result-field">
-            <div class="result-field-label">
-              <i class="bi bi-link-45deg text-primary"></i>
-              节点链接
-            </div>
-            <textarea class="form-control" id="v2ray-links" rows="10" readonly></textarea>
-            <button class="btn copy-btn mt-2" type="button" onclick="copyToClipboard('v2ray-links')">
-              <i class="bi bi-clipboard-check"></i>
-              复制所有节点
-            </button>
-          </div>
-        </div>
-
-        <!-- Surfboard订阅结果 -->
-        <div id="surfboard-subscription-container" class="result-section mt-4 d-none fade-in">
-          <div class="result-title">
-            <i class="bi bi-cloud-download text-primary"></i>
-            Surfboard 配置已生成
-          </div>
-          <div class="result-field">
-            <div class="result-field-label">
-              <i class="bi bi-link-45deg text-primary"></i>
-              配置内容
-            </div>
-            <textarea class="form-control" id="surfboard-config-content" rows="15" readonly></textarea>
-            <button class="btn copy-btn mt-2" type="button" onclick="copyToClipboard('surfboard-config-content')">
-              <i class="bi bi-clipboard-check"></i>
-              复制配置
-            </button>
-          </div>
-        </div>
-
-        <!-- Sing-box订阅结果 -->
-        <div id="singbox-subscription-container" class="result-section mt-4 d-none fade-in">
-          <div class="result-title">
-            <i class="bi bi-cloud-download text-primary"></i>
-            Sing-box 配置已生成
-          </div>
-          <div class="result-field">
-            <div class="result-field-label">
-              <i class="bi bi-link-45deg text-primary"></i>
-              配置内容
-            </div>
-            <textarea class="form-control" id="singbox-config-content" rows="15" readonly></textarea>
-            <button class="btn copy-btn mt-2" type="button" onclick="copyToClipboard('singbox-config-content')">
-              <i class="bi bi-clipboard-check"></i>
-              复制配置
-            </button>
-          </div>
-        </div>
-
-        <!-- Loon订阅结果 -->
-        <div id="loon-subscription-container" class="result-section mt-4 d-none fade-in">
-          <div class="result-title">
-            <i class="bi bi-cloud-download text-primary"></i>
-            Loon 配置已生成
-          </div>
-          <div class="result-field">
-            <div class="result-field-label">
-              <i class="bi bi-link-45deg text-primary"></i>
-              配置内容
-            </div>
-            <textarea class="form-control" id="loon-config-content" rows="15" readonly></textarea>
-            <button class="btn copy-btn mt-2" type="button" onclick="copyToClipboard('loon-config-content')">
-              <i class="bi bi-clipboard-check"></i>
-              复制配置
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- 页脚 -->
-  <footer class="text-center py-4 text-muted small">
-    <div class="container">
-      <p>纯前端订阅转换工具 - 所有数据均在浏览器中处理，不发送到服务器</p>
-    </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-  <script>
-    // 纯前端订阅转换工具
-    const form = document.getElementById('conversion-form');
-    const submitButton = document.getElementById('submit-button');
-    const submitSpinner = document.getElementById('submit-spinner');
-    const submitText = document.getElementById('submit-text');
-    const inputLinks = document.getElementById('input-links');
-    const conversionType = document.getElementById('conversion_type');
-    const configNameInput = document.getElementById('config_name');
-    const templateWrapper = document.getElementById('template-wrapper');
-    const templateSelect = document.getElementById('template_filename');
-
-    // 模板数据
-    const templates = {
-      clash: [
-        { name: "M核猫熊规则.yaml", content: "mixed-port: 7890\nallow-lan: false\nmode: rule\nlog-level: info\nexternal-controller: 127.0.0.1:9090\nproxies:\n  - {name: 节点1, type: ss, server: 127.0.0.1, port: 8388, cipher: aes-256-gcm, password: password}\nproxy-groups:\n  - name: PROXY\n    type: select\n    proxies:\n      - 节点1\nrules:\n  - DOMAIN-SUFFIX,google.com,PROXY\n  - DOMAIN-KEYWORD,github,PROXY\n  - IP-CIDR,127.0.0.0/8,DIRECT\n  - GEOIP,CN,DIRECT\n  - MATCH,PROXY" },
-        { name: "白也.yaml", content: "port: 7890\nsocks-port: 7891\nredir-port: 7892\nallow-lan: true\nbind-address: '*'\nmode: rule\nlog-level: info\nexternal-controller: 127.0.0.1:9090\ndns:\n  enable: true\n  listen: 0.0.0.0:53\n  enhanced-mode: fake-ip\n  nameserver:\n    - 223.5.5.5\n    - 119.29.29.29\nproxies:\n  - {name: 节点1, type: ss, server: 127.0.0.1, port: 8388, cipher: aes-256-gcm, password: password}\nproxy-groups:\n  - name: 自动选择\n    type: url-test\n    url: http://www.gstatic.com/generate_204\n    interval: 300\n    proxies:\n      - 节点1\nrules:\n  - DOMAIN-SUFFIX,google.com,自动选择\n  - DOMAIN-KEYWORD,github,自动选择\n  - IP-CIDR,127.0.0.0/8,DIRECT\n  - GEOIP,CN,DIRECT\n  - MATCH,自动选择" },
-        { name: "P核默认模板.yaml", content: "port: 7890\nsocks-port: 7891\nallow-lan: false\nmode: rule\nlog-level: info\nexternal-controller: 127.0.0.1:9090\nproxies:\n  - {name: 节点1, type: ss, server: 127.0.0.1, port: 8388, cipher: aes-256-gcm, password: password}\nproxy-groups:\n  - name: 代理\n    type: select\n    proxies:\n      - 节点1\nrules:\n  - DOMAIN-SUFFIX,google.com,代理\n  - DOMAIN-KEYWORD,github,代理\n  - IP-CIDR,127.0.0.0/8,DIRECT\n  - GEOIP,CN,DIRECT\n  - MATCH,代理" }
-      ],
-      surfboard: [
-        { name: "默认模板.conf", content: "[General]\nbypass-system = true\nskip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local\nbypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32\ndns-server = 119.29.29.29, 223.5.5.5\nipv6 = false\n[Rule]\nDOMAIN-SUFFIX,google.com,Proxy\nDOMAIN-KEYWORD,github,Proxy\nIP-CIDR,127.0.0.0/8,DIRECT\nGEOIP,CN,DIRECT\nFINAL,Proxy\n[Proxy]\nDirect = direct\nProxy = ss, 127.0.0.1, 8388, aes-256-gcm, password" }
-      ],
-      singbox: [
-        { name: "默认模板.json", content: '{\n  "log": {\n    "level": "info"\n  },\n  "dns": {\n    "servers": [\n      {\n        "tag": "local",\n        "address": "223.5.5.5",\n        "detour": "direct"\n      }\n    ]\n  },\n  "inbounds": [\n    {\n      "type": "tun",\n      "tag": "tun-in",\n      "interface_name": "tun0",\n      "mtu": 9000,\n      "stack": "mixed",\n      "endpoint_independent_nat": true,\n      "sniff": true\n    }\n  ],\n  "outbounds": [\n    {\n      "type": "direct",\n      "tag": "direct"\n    },\n    {\n      "type": "ss",\n      "tag": "proxy",\n      "server": "127.0.0.1",\n      "server_port": 8388,\n      "method": "aes-256-gcm",\n      "password": "password"\n    }\n  ],\n  "route": {\n    "rules": [\n      {\n        "protocol": "dns",\n        "outbound": "direct"\n      },\n      {\n        "domain_suffix": [\n          "google.com"\n        ],\n        "outbound": "proxy"\n      },\n      {\n        "geoip": [\n          "cn"\n        ],\n        "outbound": "direct"\n      }\n    ]\n  }\n}' }
-      ],
-      loon: [
-        { name: "默认模板.conf", content: "[General]\nipv6 = false\nskip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local\nbypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32\ndns-server = 119.29.29.29,223.5.5.5\n[Rule]\nDOMAIN-SUFFIX,google.com,Proxy\nDOMAIN-KEYWORD,github,Proxy\nIP-CIDR,127.0.0.0/8,DIRECT\nGEOIP,CN,DIRECT\nFINAL,Proxy\n[Proxy]\nDirect = direct\nProxy = ss, 127.0.0.1, 8388, aes-256-gcm, password" }
-      ]
-    };
-
-    // 初始化工具提示
-    function initTooltips() {
-      const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-      tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl);
-      });
-    }
-
-    // 当 conversionType 改变时，根据选项值决定是否加载模板
-    function handleConversionTypeChange() {
-      // 1. 隐藏所有模板选择
-      templateWrapper.classList.add('d-none');
-
-      // 2. 根据选择显示相应内容
-      switch (conversionType.value) {
-        case 'clash':
-          templateWrapper.classList.remove('d-none');
-          document.querySelector('label[for="template_filename"] i').className = 'bi bi-layout-text-sidebar-reverse text-primary';
-          document.querySelector('label[for="template_filename"]').innerHTML = '<i class="bi bi-layout-text-sidebar-reverse text-primary"></i> 选择Clash模板文件';
-          loadTemplates('clash');
-          break;
-        case 'v2ray':
-          // V2Ray不需要模板
-          break;
-        case 'surfboard':
-          templateWrapper.classList.remove('d-none');
-          document.querySelector('label[for="template_filename"] i').className = 'bi bi-layout-text-sidebar-reverse text-primary';
-          document.querySelector('label[for="template_filename"]').innerHTML = '<i class="bi bi-layout-text-sidebar-reverse text-primary"></i> 选择Surfboard模板文件';
-          loadTemplates('surfboard');
-          break;
-        case 'singbox':
-          templateWrapper.classList.remove('d-none');
-          document.querySelector('label[for="template_filename"] i').className = 'bi bi-layout-text-sidebar-reverse text-primary';
-          document.querySelector('label[for="template_filename"]').innerHTML = '<i class="bi bi-layout-text-sidebar-reverse text-primary"></i> 选择Sing-box模板文件';
-          loadTemplates('singbox');
-          break;
-        case 'loon':
-          templateWrapper.classList.remove('d-none');
-          document.querySelector('label[for="template_filename"] i').className = 'bi bi-layout-text-sidebar-reverse text-primary';
-          document.querySelector('label[for="template_filename"]').innerHTML = '<i class="bi bi-layout-text-sidebar-reverse text-primary"></i> 选择Loon模板文件';
-          loadTemplates('loon');
-          break;
-      }
-    }
-
-    // 模板加载函数
-    function loadTemplates(type) {
-      const templateList = templates[type] || [];
-      
-      templateSelect.innerHTML = '';
-      const defaultOpt = document.createElement('option');
-      defaultOpt.value = '';
-      defaultOpt.textContent = '使用默认模板';
-      templateSelect.appendChild(defaultOpt);
-
-      templateList.forEach(t => {
-        const opt = document.createElement('option');
-        opt.value = t.name;
-        opt.textContent = t.name;
-        templateSelect.appendChild(opt);
-      });
-    }
-
-    // 页面加载时初始化
-    window.addEventListener('DOMContentLoaded', () => {
-      handleConversionTypeChange();
-      initTooltips();
-    });
-
-    // 转换类型变化事件
-    conversionType.addEventListener('change', handleConversionTypeChange);
-
-    // 表单提交前验证
-    function validateForm() {
-      clearAlerts();
-
-      if (!inputLinks.value.trim()) {
-        showAlert('error', '请至少输入一个链接或节点');
-        inputLinks.focus();
-        return false;
-      }
-
-      return true;
-    }
-
-    // 表单提交事件
-    form.addEventListener('submit', async function (e) {
-      e.preventDefault();
-      clearAlerts();
-      hideAllResultContainers();
-
-      if (!validateForm()) return;
-
-      submitSpinner.classList.remove('d-none');
-      submitText.textContent = '正在处理...';
-      submitButton.disabled = true;
-
-      try {
-        // 模拟处理延迟
-        await new Promise(resolve => setTimeout(resolve, 1000));
-        
-        const inputText = inputLinks.value.trim();
-        const configName = configNameInput.value.trim() || 'Config';
-        const type = conversionType.value;
-        
-        // 解析输入的链接
-        const links = inputText.split('\n').filter(link => link.trim());
-        
-        // 根据类型生成配置
-        switch (type) {
-          case 'clash':
-            generateClashConfig(links, configName);
-            break;
-          case 'v2ray':
-            generateV2RayConfig(links, configName);
-            break;
-          case 'surfboard':
-            generateSurfboardConfig(links, configName);
-            break;
-          case 'singbox':
-            generateSingboxConfig(links, configName);
-            break;
-          case 'loon':
-            generateLoonConfig(links, configName);
-            break;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="YSub Converter - 安全便捷的订阅链接转换工具">
+    <title>裤佬全能订阅转换 - 订阅链接转换</title>
+    <link rel="canonical" href="https://whatshub.top/ysub">
+    <style>
+        :root {
+            --primary-color: #ff6f6f;
+            --primary-gradient: linear-gradient(to right, #ff8a8a, #ff4b4b);
+            --primary-hover: linear-gradient(to right, #e86b6b, #ff1a1a);
+            --bg-gradient: linear-gradient(to right, #f2d1d0, #f2edbd);
+            --card-bg: #fcf5f5;
+            --text-primary: #782205;
+            --text-secondary: #b87046;
+            --border-color: #f5dbd0;
+            --input-bg: #fff9f5;
+            --shadow: 0 4px 15px rgba(0,0,0,0.2), 0 2px 6px rgba(0,0,0,0.15), 0 1px 3px rgba(0,0,0,0.1);
         }
-        
-        showAlert('success', '配置生成成功！');
-      } catch (error) {
-        console.error('Error during form submission:', error);
-        showAlert('error', '处理过程中发生错误，请检查输入格式');
-      } finally {
-        submitSpinner.classList.add('d-none');
-        submitText.textContent = '生成订阅';
-        submitButton.disabled = false;
-      }
-    });
 
-    // 生成Clash配置
-    function generateClashConfig(links, configName) {
-      const selectedTemplate = templateSelect.value;
-      let templateContent = '';
-      
-      // 获取模板内容
-      if (selectedTemplate) {
-        const template = templates.clash.find(t => t.name === selectedTemplate);
-        if (template) {
-          templateContent = template.content;
+        .dark-mode {
+            --bg-gradient: linear-gradient(to right, #2a2a2a, #3a3a3a);
+            --card-bg: #181818;
+            --text-primary: #a3a07f;
+            --text-secondary: #b87046;
+            --border-color: #363531;
+            --input-bg: #222222;
+            --shadow: 0 4px 15px rgba(0,0,0,0.4), 0 2px 6px rgba(0,0,0,0.3), 0 1px 3px rgba(0,0,0,0.2);
         }
-      }
-      
-      // 如果没有选择模板或找不到模板，使用默认模板
-      if (!templateContent) {
-        templateContent = templates.clash[0].content;
-      }
-      
-      // 解析链接并生成代理配置
-      const proxies = parseLinksToProxies(links);
-      
-      // 替换模板中的代理部分
-      let config = templateContent;
-      config = config.replace(/\nproxies:\n.*?\nproxy-groups:/s, `\nproxies:\n${proxies}\nproxy-groups:`);
-      
-      // 更新代理组中的代理列表
-      const proxyNames = links.map((link, index) => `节点${index + 1}`).join(', ');
-      config = config.replace(/proxies:\s*\n\s*-\s*节点1/g, `proxies:\n      - ${proxyNames}`);
-      
-      document.getElementById('clash-config-content').value = config;
-      document.getElementById('clash-subscription-container').classList.remove('d-none');
-    }
 
-    // 生成V2Ray配置
-    function generateV2RayConfig(links, configName) {
-      // V2Ray配置直接输出链接
-      document.getElementById('v2ray-links').value = links.join('\n');
-      document.getElementById('v2ray-subscription-container').classList.remove('d-none');
-    }
-
-    // 生成Surfboard配置
-    function generateSurfboardConfig(links, configName) {
-      const selectedTemplate = templateSelect.value;
-      let templateContent = '';
-      
-      // 获取模板内容
-      if (selectedTemplate) {
-        const template = templates.surfboard.find(t => t.name === selectedTemplate);
-        if (template) {
-          templateContent = template.content;
+        * {
+            box-sizing: border-box;
+            transition: background-color 0.3s, color 0.3s;
         }
-      }
-      
-      // 如果没有选择模板或找不到模板，使用默认模板
-      if (!templateContent) {
-        templateContent = templates.surfboard[0].content;
-      }
-      
-      // 解析链接并生成代理配置
-      const proxies = parseLinksToSurfboardProxies(links);
-      
-      // 替换模板中的代理部分
-      let config = templateContent;
-      config = config.replace(/\[Proxy\].*?$/s, `[Proxy]\n${proxies}`);
-      
-      document.getElementById('surfboard-config-content').value = config;
-      document.getElementById('surfboard-subscription-container').classList.remove('d-none');
-    }
 
-    // 生成Sing-box配置
-    function generateSingboxConfig(links, configName) {
-      const selectedTemplate = templateSelect.value;
-      let templateContent = '';
-      
-      // 获取模板内容
-      if (selectedTemplate) {
-        const template = templates.singbox.find(t => t.name === selectedTemplate);
-        if (template) {
-          templateContent = template.content;
+        body {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg-gradient);
+            color: var(--text-primary);
+            line-height: 1.6;
         }
-      }
-      
-      // 如果没有选择模板或找不到模板，使用默认模板
-      if (!templateContent) {
-        templateContent = templates.singbox[0].content;
-      }
-      
-      // 解析链接并生成代理配置
-      const outbounds = parseLinksToSingboxOutbounds(links);
-      
-      // 替换模板中的出站代理部分
-      let config = templateContent;
-      config = config.replace(/"outbounds": \[.*?\n\s*\]/s, `"outbounds": [\n    {\n      "type": "direct",\n      "tag": "direct"\n    },\n${outbounds}\n  ]`);
-      
-      document.getElementById('singbox-config-content').value = config;
-      document.getElementById('singbox-subscription-container').classList.remove('d-none');
-    }
 
-    // 生成Loon配置
-    function generateLoonConfig(links, configName) {
-      const selectedTemplate = templateSelect.value;
-      let templateContent = '';
-      
-      // 获取模板内容
-      if (selectedTemplate) {
-        const template = templates.loon.find(t => t.name === selectedTemplate);
-        if (template) {
-          templateContent = template.content;
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
         }
-      }
-      
-      // 如果没有选择模板或找不到模板，使用默认模板
-      if (!templateContent) {
-        templateContent = templates.loon[0].content;
-      }
-      
-      // 解析链接并生成代理配置
-      const proxies = parseLinksToLoonProxies(links);
-      
-      // 替换模板中的代理部分
-      let config = templateContent;
-      config = config.replace(/\[Proxy\].*?$/s, `[Proxy]\n${proxies}`);
-      
-      document.getElementById('loon-config-content').value = config;
-      document.getElementById('loon-subscription-container').classList.remove('d-none');
-    }
 
-    // 解析链接为Clash代理配置
-    function parseLinksToProxies(links) {
-      return links.map((link, index) => {
-        if (link.includes('ss://')) {
-          return `  - {name: 节点${index + 1}, type: ss, server: 127.0.0.1, port: 8388, cipher: aes-256-gcm, password: password}`;
-        } else if (link.includes('vmess://')) {
-          return `  - {name: 节点${index + 1}, type: vmess, server: 127.0.0.1, port: 443, uuid: uuid, alterId: 0, cipher: auto}`;
-        } else if (link.includes('trojan://')) {
-          return `  - {name: 节点${index + 1}, type: trojan, server: 127.0.0.1, port: 443, password: password}`;
-        } else {
-          return `  - {name: 节点${index + 1}, type: http, server: 127.0.0.1, port: 8080}`;
+        .marquee-container {
+            overflow: hidden;
+            background: var(--primary-gradient);
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 10px 0;
+            box-shadow: var(--shadow);
         }
-      }).join('\n');
-    }
 
-    // 解析链接为Surfboard代理配置
-    function parseLinksToSurfboardProxies(links) {
-      return links.map((link, index) => {
-        if (link.includes('ss://')) {
-          return `节点${index + 1} = ss, 127.0.0.1, 8388, aes-256-gcm, password`;
-        } else if (link.includes('vmess://')) {
-          return `节点${index + 1} = vmess, 127.0.0.1, 443, username=uuid`;
-        } else if (link.includes('trojan://')) {
-          return `节点${index + 1} = trojan, 127.0.0.1, 443, password=password`;
-        } else {
-          return `节点${index + 1} = http, 127.0.0.1, 8080`;
+        .marquee {
+            white-space: nowrap;
+            display: flex;
+            animation: marquee 15s linear infinite;
         }
-      }).join('\n');
-    }
 
-    // 解析链接为Sing-box出站代理配置
-    function parseLinksToSingboxOutbounds(links) {
-      return links.map((link, index) => {
-        if (link.includes('ss://')) {
-          return `    {\n      "type": "ss",\n      "tag": "节点${index + 1}",\n      "server": "127.0.0.1",\n      "server_port": 8388,\n      "method": "aes-256-gcm",\n      "password": "password"\n    }`;
-        } else if (link.includes('vmess://')) {
-          return `    {\n      "type": "vmess",\n      "tag": "节点${index + 1}",\n      "server": "127.0.0.1",\n      "server_port": 443,\n      "uuid": "uuid",\n      "alter_id": 0,\n      "security": "auto"\n    }`;
-        } else if (link.includes('trojan://')) {
-          return `    {\n      "type": "trojan",\n      "tag": "节点${index + 1}",\n      "server": "127.0.0.1",\n      "server_port": 443,\n      "password": "password"\n    }`;
-        } else {
-          return `    {\n      "type": "http",\n      "tag": "节点${index + 1}",\n      "server": "127.0.0.1",\n      "server_port": 8080\n    }`;
+        .marquee a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 0 20px;
         }
-      }).join(',\n');
-    }
 
-    // 解析链接为Loon代理配置
-    function parseLinksToLoonProxies(links) {
-      return links.map((link, index) => {
-        if (link.includes('ss://')) {
-          return `节点${index + 1} = ss, 127.0.0.1, 8388, aes-256-gcm, password`;
-        } else if (link.includes('vmess://')) {
-          return `节点${index + 1} = vmess, 127.0.0.1, 443, username=uuid`;
-        } else if (link.includes('trojan://')) {
-          return `节点${index + 1} = trojan, 127.0.0.1, 443, password=password`;
-        } else {
-          return `节点${index + 1} = http, 127.0.0.1, 8080`;
+        .marquee a:hover {
+            text-decoration: underline;
         }
-      }).join('\n');
-    }
 
-    // 复制到剪贴板
-    function copyToClipboard(elementId) {
-      const element = document.getElementById(elementId);
-      if (!element) return;
-
-      const text = element.value || element.textContent;
-      if (!text) {
-        showAlert('warning', '没有内容可复制。');
-        return;
-      }
-
-      navigator.clipboard.writeText(text).then(() => {
-        showAlert('success', '内容已复制到剪贴板！');
-      }).catch((err) => {
-        console.error('Failed to copy: ', err);
-        showAlert('error', '复制失败，请手动复制');
-        try {
-          if (element.select) {
-            element.select();
-            element.setSelectionRange(0, 99999);
-          } else {
-            const range = document.createRange();
-            range.selectNodeContents(element);
-            const selection = window.getSelection();
-            selection.removeAllRanges();
-            selection.addRange(range);
-          }
-        } catch (selectErr) {
-          console.error("Could not select text: ", selectErr);
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
         }
-      });
-    }
 
-    // 显示提示
-    function showAlert(type, message) {
-      const oldAlert = document.getElementById(`${type}-alert`);
-      if (oldAlert) oldAlert.classList.add('d-none');
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
 
-      const alertContainer = document.getElementById('alert-container');
-      const alertElement = document.getElementById(`${type}-alert`);
+        h1 {
+            color: var(--primary-color);
+            margin: 0;
+            font-size: 32px;
+            font-weight: 900;
+            text-align: center;
+            width: 100%;
+            padding: 10px 0;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        }
 
-      if (alertElement) {
-        alertElement.innerHTML = message;
-        alertElement.classList.remove('d-none');
-        alertContainer.classList.remove('d-none');
+        .theme-toggle {
+            background: var(--primary-gradient);
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+        }
 
-        if (type === 'success' || type === 'warning') {
-          setTimeout(() => {
-            alertElement.classList.add('d-none');
-            const anyVisible = ['success', 'error', 'warning'].some(t =>
-              !document.getElementById(`${t}-alert`)?.classList.contains('d-none')
-            );
-            if (!anyVisible) {
-              alertContainer.classList.add('d-none');
+        .theme-toggle:hover {
+            background: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+        }
+
+        textarea, select, input[type="text"] {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            background: var(--input-bg);
+            color: var(--text-primary);
+            font-size: 15px;
+        }
+
+        textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        textarea:focus, select:focus, input[type="text"]:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 2px rgba(255, 111, 111, 0.2);
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        .btn {
+            background: var(--primary-gradient);
+            color: white;
+            border: none;
+            padding: 14px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.2s;
+        }
+
+        .btn:hover {
+            background: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .result-container {
+            margin-top: 25px;
+            padding: 20px;
+            background: var(--input-bg);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            word-break: break-all;
+        }
+
+        .result-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .result-link:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+            color: var(--text-primary);
+        }
+
+        .footer a {
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .info-box {
+            background: rgba(255, 111, 111, 0.1);
+            border-left: 4px solid var(--primary-color);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
             }
-          }, 5000);
+            
+            .card {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .theme-toggle {
+                align-self: flex-end;
+                margin-top: 10px;
+            }
         }
-      }
-    }
 
-    // 清除所有提示
-    function clearAlerts() {
-      const alertContainer = document.getElementById('alert-container');
-      const alertTypes = ['success', 'error', 'warning'];
-
-      alertTypes.forEach(type => {
-        const alertElement = document.getElementById(`${type}-alert`);
-        if (alertElement) {
-          alertElement.classList.add('d-none');
-          alertElement.textContent = '';
+        .hidden {
+            display: none;
         }
-      });
 
-      alertContainer.classList.add('d-none');
-    }
-
-    // 隐藏所有结果容器
-    function hideAllResultContainers() {
-      const containers = [
-        'clash-subscription-container',
-        'v2ray-subscription-container',
-        'surfboard-subscription-container',
-        'singbox-subscription-container',
-        'loon-subscription-container'
-      ];
-
-      containers.forEach(id => {
-        const container = document.getElementById(id);
-        if (container) {
-          container.classList.add('d-none');
+        .tag {
+            display: inline-block;
+            background: rgba(255, 111, 111, 0.15);
+            color: var(--primary-color);
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-left: 8px;
+            vertical-align: middle;
         }
-      });
-    }
-  </script>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 跑马灯 -->
+        <div class="marquee-container">
+            <div class="marquee">
+                <a href="https://kelayun.notepin.co" target="_blank">✈️克拉云机场，月付2元1000G流量，超低延迟的家宽ip，不限速不限设备</a>
+            </div>
+        </div>
+
+        <header>
+            <h1>裤佬全能订阅转换</h1>
+            <button class="theme-toggle" id="theme-toggle">
+                <span id="theme-icon">🌙</span> <span id="theme-text">暗色模式</span>
+            </button>
+        </header>
+
+        <div class="card">
+            <div class="input-group">
+                <label for="sub-filepath">订阅链接或本地路径</label>
+                <textarea placeholder="请输入订阅链接，多个链接请用换行分隔..." id="sub-filepath" rows="4"></textarea>
+            </div>
+
+            <div class="input-group">
+                <label for="sub-backend">后端选择</label>
+                <select id="sub-backend">
+                    <option value="http://localhost:25500/sub?target=">localhost:25500</option>
+                    <option value="https://sub.id9.cc/sub?target=">sub.id9.cc <span class="tag">支持singbox</span></option>
+                    <option value="https://url.v1.mk/sub?target=">url.v1.mk <span class="tag">支持vless,hy2,singbox</span></option>
+                    <option value="https://a.y1z.org/sub?target=">a.y1z.org <span class="tag">支持vless,hy2,singbox</span></option>
+                    <option value="https://sub.xeton.dev/sub?target=">sub.xeton.dev <span class="tag">支持singbox</span></option>
+                    <option value="https://yun-api.subcloud.xyz/sub?target=">yun-api.subcloud.xyz <span class="tag">支持singbox</span></option>
+                    <option value="https://api.dler.io/sub?target=">api.dler.io <span class="tag">支持singbox</span></option>
+                    <option value="https://sub.datapipe.top/sub?target=">sub.datapipe.top <span class="tag">支持vless,hy2</span></option>
+                    <option value="https://suc-store.usuc.cc/sub?target=">suc-store.usuc.cc <span class="tag">支持vless,hy2</span></option>
+                    <option value="https://www.nameless13.com/sub?target=">www.nameless13.com</option>
+                    <option value="https://pub-api-1.bianyuan.xyz/sub?target=">pub-api-1.bianyuan.xyz</option>
+                    <option value="https://api.sublink.dev/sub?target=">api.sublink.dev</option>
+                    <option value="https://api.nexconvert.com/sub?target=">api.nexconvert.com</option>
+                    <option value="https://api.wcc.best/sub?target=">api.wcc.best</option>
+                    <option value="https://subscribe.cctv.rip/sub?target=">subscribe.cctv.rip</option>
+                    <option value="https://suc.ssltd.xyz/sub?target=">suc.ssltd.xyz</option>
+                    <option value="https://api.subcsub.com/sub?target=">api.subcsub.com</option>
+                    <option value="custom">自定义后端</option>
+                </select>
+            </div>
+
+            <div class="input-group hidden" id="custom-backend-group">
+                <label for="custom-backend">自定义后端地址</label>
+                <input type="text" placeholder="例如：https://api.example.com/sub?target=" id="custom-backend">
+            </div>
+
+            <div class="input-group">
+                <label for="sub-config">分流规则</label>
+                <select id="sub-config">
+                    <option value="">无(仅节点列表)</option>
+                    <option value="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini">ACL4SSR</option>
+                    <option value="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_AdblockPlus.ini">ACL4SSR_AdblockPlus</option>
+                    <option value="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini">ACL4SSR_Mini</option>
+                    <option value="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_AdblockPlus.ini">ACL4SSR_Mini_AdblockPlus</option>
+                    <option value="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini">ACL4SSR_Full</option>
+                    <option value="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini">ACL4SSR_Full_AdblockPlus</option>
+                    <option value="https://raw.githubusercontent.com/deezertidal/private/main/ini/y.ini">YFAMILY</option>
+                    <option value="https://raw.githubusercontent.com/deezertidal/private/main/ini/ylite.ini">YFAMILY简易分组</option>
+                    <option value="https://raw.githubusercontent.com/deezertidal/private/main/ini/y-adb.ini">YFAMILY去广告</option>
+                    <option value="https://raw.githubusercontent.com/deezertidal/private/main/ini/ylite-adb.ini">YFAMILY简易分组&amp;去广告</option>
+                    <option value="https://subweb.s3.fr-par.scw.cloud/RemoteConfig/customized/nexitally.ini">Nexitally</option>
+                    <option value="https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/customized/maying.ini">Maying</option>
+                    <option value="https://subweb.s3.fr-par.scw.cloud/RemoteConfig/customized/ytoo.ini">YTOO</option>
+                    <option value="https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/customized/socloud.ini">SoCloud</option>
+                    <option value="https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/customized/ark.ini">ARK</option>
+                    <option value="https://subweb.s3.fr-par.scw.cloud/RemoteConfig/customized/flower.ini">FlowerCloud</option>
+                    <option value="custom">自定义规则</option>
+                </select>
+            </div>
+
+            <div class="input-group hidden" id="custom-config-group">
+                <label for="custom-config">自定义规则地址</label>
+                <input type="text" placeholder="例如：https://example.com/rule.ini" id="custom-config">
+            </div>
+
+            <div class="input-group">
+                <label for="sub-options">类型选择</label>
+                <select id="sub-options">
+                    <option value="clash">Clash</option>
+                    <option value="singbox">Singbox</option>
+                    <option value="quanx">QuanX</option>
+                    <option value="loon">Loon</option>
+                    <option value="surge&amp;ver=4">Surge</option>
+                    <option value="clashr">ClashR</option>
+                    <option value="ss">SS (SIP002)</option>
+                    <option value="ssr">SSR</option>
+                    <option value="surfboard">Surfboard</option>
+                    <option value="trojan">Trojan</option>
+                    <option value="v2ray">V2Ray</option>
+                    <option value="mixed">Mixed</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="sub-params">其他参数</label>
+                <input type="text" placeholder="例如：&emoji=true&exclude=Hong Kong|Japan&filename=sub.yaml&udp=true" id="sub-params">
+            </div>
+
+            <div class="info-box">
+                <strong>使用提示：</strong> 其他参数可以添加如：emoji=true（开启表情符号）、filename=sub.yaml（指定文件名）、udp=true（开启UDP）、tfo=true（开启TCP Fast Open）等。
+            </div>
+
+            <div class="btn-container">
+                <button class="btn" id="sub-generate">
+                    <span>生成链接</span>
+                </button>
+            </div>
+
+            <div class="result-container hidden" id="result-container">
+                <a id="sub-link" class="result-link" target="_blank"></a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <!-- 已移除版权信息 -->
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // 元素引用
+            const elements = {
+                subFilepath: document.getElementById("sub-filepath"),
+                subLink: document.getElementById("sub-link"),
+                subGenerate: document.getElementById("sub-generate"),
+                subOptions: document.getElementById("sub-options"),
+                subConfig: document.getElementById("sub-config"),
+                customConfig: document.getElementById("custom-config"),
+                subBackend: document.getElementById("sub-backend"),
+                customBackend: document.getElementById("custom-backend"),
+                subParams: document.getElementById("sub-params"),
+                customConfigGroup: document.getElementById("custom-config-group"),
+                customBackendGroup: document.getElementById("custom-backend-group"),
+                resultContainer: document.getElementById("result-container"),
+                themeToggle: document.getElementById("theme-toggle"),
+                themeIcon: document.getElementById("theme-icon"),
+                themeText: document.getElementById("theme-text")
+            };
+
+            // 支持singbox的后端列表
+            const singboxSupportedBackends = [
+                "http://localhost:25500/sub?target=",
+                "https://sub.id9.cc/sub?target=",
+                "https://sub.xeton.dev/sub?target=",
+                "https://api.dler.io/sub?target=",
+                "https://url.v1.mk/sub?target=",
+                "https://a.y1z.org/sub?target=",
+                "https://yun-api.subcloud.xyz/sub?target=",
+                "custom"
+            ];
+
+            // 初始化
+            function init() {
+                // 从localStorage加载保存的设置
+                elements.subFilepath.value = localStorage.getItem("sub-filepath") || "";
+                elements.subOptions.value = localStorage.getItem("sub-options") || "clash";
+                elements.subConfig.value = localStorage.getItem("sub-config") || "";
+                elements.customConfig.value = localStorage.getItem("custom-config") || "";
+                elements.subBackend.value = localStorage.getItem("sub-backend") || "http://localhost:25500/sub?target=";
+                elements.customBackend.value = localStorage.getItem("custom-backend") || "";
+                elements.subParams.value = localStorage.getItem("sub-params") || "";
+
+                // 检查暗色模式
+                if (localStorage.getItem("dark-mode") === "enabled") {
+                    document.body.classList.add("dark-mode");
+                    elements.themeIcon.textContent = "☀️";
+                    elements.themeText.textContent = "亮色模式";
+                } else {
+                    document.body.classList.remove("dark-mode");
+                    elements.themeIcon.textContent = "🌙";
+                    elements.themeText.textContent = "暗色模式";
+                }
+
+                updateCustomConfigVisibility();
+                updateCustomBackendVisibility();
+                updateBackendOptions();
+                updateOptionsBasedOnBackend();
+                
+                // 添加事件监听器
+                setupEventListeners();
+            }
+
+            // 设置事件监听器
+            function setupEventListeners() {
+                // 主题切换
+                elements.themeToggle.addEventListener("click", toggleDarkMode);
+                
+                // 配置变化
+                elements.subConfig.addEventListener("change", function() {
+                    localStorage.setItem("sub-config", elements.subConfig.value);
+                    updateCustomConfigVisibility();
+                });
+                
+                elements.customConfig.addEventListener("input", debounce(function() {
+                    localStorage.setItem("custom-config", elements.customConfig.value);
+                }, 300));
+                
+                elements.subBackend.addEventListener("change", function() {
+                    localStorage.setItem("sub-backend", elements.subBackend.value);
+                    updateCustomBackendVisibility();
+                    updateOptionsBasedOnBackend();
+                });
+                
+                elements.customBackend.addEventListener("input", debounce(function() {
+                    localStorage.setItem("custom-backend", elements.customBackend.value);
+                }, 300));
+                
+                elements.subOptions.addEventListener("change", function() {
+                    localStorage.setItem("sub-options", elements.subOptions.value);
+                    updateBackendOptions();
+                });
+                
+                elements.subFilepath.addEventListener("input", debounce(function() {
+                    localStorage.setItem("sub-filepath", elements.subFilepath.value);
+                }, 300));
+                
+                elements.subParams.addEventListener("input", debounce(function() {
+                    localStorage.setItem("sub-params", elements.subParams.value);
+                }, 300));
+                
+                // 生成订阅链接
+                elements.subGenerate.addEventListener("click", generateSubscription);
+            }
+
+            // 更新自定义配置可见性
+            function updateCustomConfigVisibility() {
+                if (elements.subConfig.value === "custom") {
+                    elements.customConfigGroup.classList.remove("hidden");
+                } else {
+                    elements.customConfigGroup.classList.add("hidden");
+                }
+            }
+
+            // 更新自定义后端可见性
+            function updateCustomBackendVisibility() {
+                if (elements.subBackend.value === "custom") {
+                    elements.customBackendGroup.classList.remove("hidden");
+                } else {
+                    elements.customBackendGroup.classList.add("hidden");
+                }
+            }
+
+            // 更新后端选项
+            function updateBackendOptions() {
+                const isSingboxSelected = elements.subOptions.value === "singbox";
+                const options = elements.subBackend.options;
+                
+                for (let i = 0; i < options.length; i++) {
+                    if (isSingboxSelected) {
+                        options[i].disabled = !singboxSupportedBackends.includes(options[i].value) && 
+                                            options[i].value !== "custom";
+                    } else {
+                        options[i].disabled = false;
+                    }
+                }
+
+                if (isSingboxSelected && 
+                    !singboxSupportedBackends.includes(elements.subBackend.value) && 
+                    elements.subBackend.value !== "custom") {
+                    elements.subBackend.value = singboxSupportedBackends[0];
+                    localStorage.setItem("sub-backend", elements.subBackend.value);
+                }
+            }
+
+            // 根据后端更新选项
+            function updateOptionsBasedOnBackend() {
+                const selectedBackend = elements.subBackend.value;
+                const isSingboxBackend = singboxSupportedBackends.includes(selectedBackend);
+                const singboxOption = elements.subOptions.querySelector("option[value='singbox']");
+
+                if (isSingboxBackend) {
+                    singboxOption.disabled = false;
+                } else {
+                    singboxOption.disabled = true;
+                    if (elements.subOptions.value === "singbox") {
+                        elements.subOptions.value = "clash";
+                        localStorage.setItem("sub-options", "clash");
+                    }
+                }
+            }
+
+            // 防抖函数
+            function debounce(func, wait) {
+                let timeout;
+                return function (...args) {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => func.apply(this, args), wait);
+                };
+            }
+
+            // 切换暗色模式
+            function toggleDarkMode() {
+                if (document.body.classList.contains("dark-mode")) {
+                    document.body.classList.remove("dark-mode");
+                    localStorage.setItem("dark-mode", "disabled");
+                    elements.themeIcon.textContent = "🌙";
+                    elements.themeText.textContent = "暗色模式";
+                } else {
+                    document.body.classList.add("dark-mode");
+                    localStorage.setItem("dark-mode", "enabled");
+                    elements.themeIcon.textContent = "☀️";
+                    elements.themeText.textContent = "亮色模式";
+                }
+            }
+
+            // 生成订阅链接
+            function generateSubscription() {
+                let backendUrl = elements.subBackend.value;
+                if (backendUrl === "custom") {
+                    backendUrl = elements.customBackend.value;
+                    if (!backendUrl) {
+                        alert("请输入自定义后端地址");
+                        return;
+                    }
+                }
+
+                const subLinks = elements.subFilepath.value.split('\n').filter(link => link.trim() !== '');
+                if (subLinks.length === 0) {
+                    alert("请输入订阅链接");
+                    return;
+                }
+
+                const target = elements.subOptions.value;
+                let configUrl = elements.subConfig.value;
+                if (configUrl === "custom") {
+                    configUrl = elements.customConfig.value;
+                }
+
+                let params = elements.subParams.value;
+                if (configUrl) {
+                    params += `&config=${encodeURIComponent(configUrl)}`;
+                }
+
+                // 对每个订阅链接生成转换后的链接
+                const convertedLinks = subLinks.map(link => {
+                    return backendUrl + target + '&url=' + encodeURIComponent(link) + params;
+                });
+
+                elements.subLink.href = convertedLinks[0];
+                elements.subLink.textContent = convertedLinks[0];
+                elements.resultContainer.classList.remove("hidden");
+            }
+
+            // 初始化应用
+            init();
+        });
+    </script>
 </body>
 </html>
