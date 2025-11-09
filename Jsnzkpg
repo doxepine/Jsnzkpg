@@ -7,225 +7,293 @@ external-controller: 127.0.0.1:9090
 proxies:
   - name: 官网https://kelayun.notepin.co
     type: vmess
-    server: 1762596741.bilibiliapp.cn
+    server: 1762659141.bilibiliapp.cn
     port: 443
     uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
     alterId: 0
     cipher: auto
     udp: true
     tls: true
-    servername: spv04b.speed.vtbiwhda.cccp.useraaca.pp.ua
+    servername: jdydq8ofv.speed.vtbiwhda.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: spv04b.speed.vtbiwhda.cccp.useraaca.pp.ua
+        Host: jdydq8ofv.speed.vtbiwhda.cccp.useraaca.pp.ua
     flow: ""
-    sni: spv04b.speed.vtbiwhda.cccp.useraaca.pp.ua
+    sni: jdydq8ofv.speed.vtbiwhda.cccp.useraaca.pp.ua
   - name: 官网https://down.nigx.cn/kelayun.github.io
     type: vmess
-    server: 1762596741.bilibiliapp.cn
+    server: 1762659141.bilibiliapp.cn
     port: 443
     uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
     alterId: 0
     cipher: auto
     udp: true
     tls: true
-    servername: bmu4r44x1.speed.vtbiwhdb.cccp.useraaca.pp.ua
+    servername: 8g8ing0e.speed.vtbiwhdb.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: bmu4r44x1.speed.vtbiwhdb.cccp.useraaca.pp.ua
+        Host: 8g8ing0e.speed.vtbiwhdb.cccp.useraaca.pp.ua
     flow: ""
-    sni: bmu4r44x1.speed.vtbiwhdb.cccp.useraaca.pp.ua
+    sni: 8g8ing0e.speed.vtbiwhdb.cccp.useraaca.pp.ua
   - name: 最低2元1000G流量
     type: vmess
-    server: 1762596741.bilibiliapp.cn
+    server: 1762659141.bilibiliapp.cn
     port: 443
     uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
     alterId: 0
     cipher: auto
     udp: true
     tls: true
-    servername: 7wl26h.speed.jpsacibna.cccp.useraaca.pp.ua
+    servername: 4um82db9.speed.jpsacibna.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: 7wl26h.speed.jpsacibna.cccp.useraaca.pp.ua
+        Host: 4um82db9.speed.jpsacibna.cccp.useraaca.pp.ua
     flow: ""
-    sni: 7wl26h.speed.jpsacibna.cccp.useraaca.pp.ua
-  - name: 最高200元终身无限流量999999999G
+    sni: 4um82db9.speed.jpsacibna.cccp.useraaca.pp.ua
+  - name: 最高200元终身无限流量
     type: vmess
-    server: 1762596741.bilibiliapp.cn
+    server: 1762659141.bilibiliapp.cn
     port: 443
     uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
     alterId: 0
     cipher: auto
     udp: true
     tls: true
-    servername: 84nmwex.speed.jpsacibnb.cccp.useraaca.pp.ua
+    servername: 5buz4d9u7.speed.jpsacibnb.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: 84nmwex.speed.jpsacibnb.cccp.useraaca.pp.ua
+        Host: 5buz4d9u7.speed.jpsacibnb.cccp.useraaca.pp.ua
     flow: ""
-    sni: 84nmwex.speed.jpsacibnb.cccp.useraaca.pp.ua
+    sni: 5buz4d9u7.speed.jpsacibnb.cccp.useraaca.pp.ua
+  - name: 新疆西藏福建可用
+    type: vmess
+    server: 1762659141.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: 8883j4pycl.speed.jpsacibnc.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 8883j4pycl.speed.jpsacibnc.cccp.useraaca.pp.ua
+    flow: ""
+    sni: 8883j4pycl.speed.jpsacibnc.cccp.useraaca.pp.ua
+  - name: 解锁奈飞/TikTok/ChatGPT
+    type: vmess
+    server: 1762659141.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: bcep2zcl.speed.jpsacibnd.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bcep2zcl.speed.jpsacibnd.cccp.useraaca.pp.ua
+    flow: ""
+    sni: bcep2zcl.speed.jpsacibnd.cccp.useraaca.pp.ua
+  - name: 不限速不限设备
+    type: vmess
+    server: 1762659141.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: p48lxjqoy.speed.thasduba.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: p48lxjqoy.speed.thasduba.cccp.useraaca.pp.ua
+    flow: ""
+    sni: p48lxjqoy.speed.thasduba.cccp.useraaca.pp.ua
+  - name: 提供ios小火箭共享账号
+    type: vmess
+    server: 1762659141.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: zfwzw9bhan.speed.ydnxya.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: zfwzw9bhan.speed.ydnxya.cccp.useraaca.pp.ua
+    flow: ""
+    sni: zfwzw9bhan.speed.ydnxya.cccp.useraaca.pp.ua
   - name: 1
     type: vmess
-    server: 1762596741.bilibiliapp.cn
+    server: 1762659141.bilibiliapp.cn
     port: 443
     uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
     alterId: 0
     cipher: auto
     udp: true
     tls: true
-    servername: vkwhjvjry8.speed.jpsacibnc.cccp.useraaca.pp.ua
+    servername: k2dcbcftjx.speed.ydnxyb.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: vkwhjvjry8.speed.jpsacibnc.cccp.useraaca.pp.ua
+        Host: k2dcbcftjx.speed.ydnxyb.cccp.useraaca.pp.ua
     flow: ""
-    sni: vkwhjvjry8.speed.jpsacibnc.cccp.useraaca.pp.ua
+    sni: k2dcbcftjx.speed.ydnxyb.cccp.useraaca.pp.ua
   - name: 2
     type: vmess
-    server: 1762596741.bilibiliapp.cn
+    server: 1762659141.bilibiliapp.cn
     port: 443
     uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
     alterId: 0
     cipher: auto
     udp: true
     tls: true
-    servername: 7ndlks0dj.speed.jpsacibnd.cccp.useraaca.pp.ua
+    servername: vpnuz3bz.speed.ydnxyc.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: 7ndlks0dj.speed.jpsacibnd.cccp.useraaca.pp.ua
+        Host: vpnuz3bz.speed.ydnxyc.cccp.useraaca.pp.ua
     flow: ""
-    sni: 7ndlks0dj.speed.jpsacibnd.cccp.useraaca.pp.ua
+    sni: vpnuz3bz.speed.ydnxyc.cccp.useraaca.pp.ua
   - name: 3
     type: vmess
-    server: 1762596741.bilibiliapp.cn
+    server: 1762659141.bilibiliapp.cn
     port: 443
     uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
     alterId: 0
     cipher: auto
     udp: true
     tls: true
-    servername: 6omstg.speed.thasduba.cccp.useraaca.pp.ua
+    servername: 243vt7a.speed.ydnxyd.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: 6omstg.speed.thasduba.cccp.useraaca.pp.ua
+        Host: 243vt7a.speed.ydnxyd.cccp.useraaca.pp.ua
     flow: ""
-    sni: 6omstg.speed.thasduba.cccp.useraaca.pp.ua
+    sni: 243vt7a.speed.ydnxyd.cccp.useraaca.pp.ua
   - name: 4
     type: vmess
-    server: 1762596741.bilibiliapp.cn
+    server: 1762659141.bilibiliapp.cn
     port: 443
     uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
     alterId: 0
     cipher: auto
     udp: true
     tls: true
-    servername: i5z5l83j3.speed.ydnxya.cccp.useraaca.pp.ua
+    servername: hfixu78.speed.ydindda.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: i5z5l83j3.speed.ydnxya.cccp.useraaca.pp.ua
+        Host: hfixu78.speed.ydindda.cccp.useraaca.pp.ua
     flow: ""
-    sni: i5z5l83j3.speed.ydnxya.cccp.useraaca.pp.ua
+    sni: hfixu78.speed.ydindda.cccp.useraaca.pp.ua
   - name: 5
     type: vmess
-    server: 1762596741.bilibiliapp.cn
+    server: 1762659141.bilibiliapp.cn
     port: 443
     uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
     alterId: 0
     cipher: auto
     udp: true
     tls: true
-    servername: crfldsl.speed.ydnxyb.cccp.useraaca.pp.ua
+    servername: ex6tap.speed.ydinddb.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: crfldsl.speed.ydnxyb.cccp.useraaca.pp.ua
+        Host: ex6tap.speed.ydinddb.cccp.useraaca.pp.ua
     flow: ""
-    sni: crfldsl.speed.ydnxyb.cccp.useraaca.pp.ua
+    sni: ex6tap.speed.ydinddb.cccp.useraaca.pp.ua
   - name: 6
     type: vmess
-    server: 1762596741.bilibiliapp.cn
+    server: 1762659141.bilibiliapp.cn
     port: 443
     uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
     alterId: 0
     cipher: auto
     udp: true
     tls: true
-    servername: fzbdll.speed.ydnxyc.cccp.useraaca.pp.ua
+    servername: eouz4b.speed.ydinddc.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: fzbdll.speed.ydnxyc.cccp.useraaca.pp.ua
+        Host: eouz4b.speed.ydinddc.cccp.useraaca.pp.ua
     flow: ""
-    sni: fzbdll.speed.ydnxyc.cccp.useraaca.pp.ua
+    sni: eouz4b.speed.ydinddc.cccp.useraaca.pp.ua
   - name: 7
     type: vmess
-    server: 1762596741.bilibiliapp.cn
+    server: 1762659141.bilibiliapp.cn
     port: 443
     uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
     alterId: 0
     cipher: auto
     udp: true
     tls: true
-    servername: lxjm8z0tq.speed.ydnxyd.cccp.useraaca.pp.ua
+    servername: o5ec8vf6e.speed.ydinddd.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: lxjm8z0tq.speed.ydnxyd.cccp.useraaca.pp.ua
+        Host: o5ec8vf6e.speed.ydinddd.cccp.useraaca.pp.ua
     flow: ""
-    sni: lxjm8z0tq.speed.ydnxyd.cccp.useraaca.pp.ua
+    sni: o5ec8vf6e.speed.ydinddd.cccp.useraaca.pp.ua
   - name: 8
     type: vmess
-    server: 1762596741.bilibiliapp.cn
+    server: 1762659141.bilibiliapp.cn
     port: 443
     uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
     alterId: 0
     cipher: auto
     udp: true
     tls: true
-    servername: mrotr1mrl.speed.ydindda.cccp.useraaca.pp.ua
+    servername: u4r566.speed.moerba.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: mrotr1mrl.speed.ydindda.cccp.useraaca.pp.ua
+        Host: u4r566.speed.moerba.cccp.useraaca.pp.ua
     flow: ""
-    sni: mrotr1mrl.speed.ydindda.cccp.useraaca.pp.ua
+    sni: u4r566.speed.moerba.cccp.useraaca.pp.ua
   - name: 9
     type: vmess
-    server: 1762596741.bilibiliapp.cn
+    server: 1762659141.bilibiliapp.cn
     port: 443
     uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
     alterId: 0
     cipher: auto
     udp: true
     tls: true
-    servername: c0slcnw.speed.ydinddb.cccp.useraaca.pp.ua
+    servername: nn1zjhgmg3.speed.moerbb.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: c0slcnw.speed.ydinddb.cccp.useraaca.pp.ua
+        Host: nn1zjhgmg3.speed.moerbb.cccp.useraaca.pp.ua
     flow: ""
-    sni: c0slcnw.speed.ydinddb.cccp.useraaca.pp.ua
+    sni: nn1zjhgmg3.speed.moerbb.cccp.useraaca.pp.ua
 proxy-groups:
   - name: Haita Cloud
     type: select
@@ -235,7 +303,11 @@ proxy-groups:
       - 官网https://kelayun.notepin.co
       - 官网https://down.nigx.cn/kelayun.github.io
       - 最低2元1000G流量
-      - 最高200元终身无限流量999999999G
+      - 最高200元终身无限流量
+      - 新疆西藏福建可用
+      - 解锁奈飞/TikTok/ChatGPT
+      - 不限速不限设备
+      - 提供ios小火箭共享账号
       - "1"
       - "2"
       - "3"
@@ -253,7 +325,11 @@ proxy-groups:
       - 官网https://kelayun.notepin.co
       - 官网https://down.nigx.cn/kelayun.github.io
       - 最低2元1000G流量
-      - 最高200元终身无限流量999999999G
+      - 最高200元终身无限流量
+      - 新疆西藏福建可用
+      - 解锁奈飞/TikTok/ChatGPT
+      - 不限速不限设备
+      - 提供ios小火箭共享账号
       - "1"
       - "2"
       - "3"
@@ -271,7 +347,11 @@ proxy-groups:
       - 官网https://kelayun.notepin.co
       - 官网https://down.nigx.cn/kelayun.github.io
       - 最低2元1000G流量
-      - 最高200元终身无限流量999999999G
+      - 最高200元终身无限流量
+      - 新疆西藏福建可用
+      - 解锁奈飞/TikTok/ChatGPT
+      - 不限速不限设备
+      - 提供ios小火箭共享账号
       - "1"
       - "2"
       - "3"
