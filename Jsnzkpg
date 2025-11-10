@@ -5,418 +5,1426 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 官网https://kelayun.notepin.co
-    server: cf-cname.xingpingcn.top
+  - name: 香港1-GCORE-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
     port: 443
-    type: vless
-    uuid: cef7e6ae-078d-42d4-8283-6aacb9128b5a
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
     tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: snippet.danfeng.eu.org
-    client-fingerprint: random
+    servername: 6e5cw884mg.speed.vtbiwhda.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /
       headers:
-        Host: snippet.danfeng.eu.org
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snippet.danfeng.eu.org
-  - name: 官网https://down.nigx.cn/kelayun.github.io
-    server: mfa.gov.ua
-    port: 2096
-    type: vless
-    uuid: cef7e6ae-078d-42d4-8283-6aacb9128b5a
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: snippet.danfeng.eu.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snippet.danfeng.eu.org
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snippet.danfeng.eu.org
-  - name: 最低2元1000G
-    server: store.ubi.com
-    port: 2083
-    type: vless
-    uuid: cef7e6ae-078d-42d4-8283-6aacb9128b5a
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: snippet.danfeng.eu.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snippet.danfeng.eu.org
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snippet.danfeng.eu.org
-  - name: 最高200元终身无限流量
-    server: www.shopify.com
-    port: 2096
-    type: vless
-    uuid: cef7e6ae-078d-42d4-8283-6aacb9128b5a
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: snippet.danfeng.eu.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snippet.danfeng.eu.org
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snippet.danfeng.eu.org
-  - name: 1
-    server: staticdelivery.nexusmods.com
-    port: 2083
-    type: vless
-    uuid: cef7e6ae-078d-42d4-8283-6aacb9128b5a
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: snippet.danfeng.eu.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snippet.danfeng.eu.org
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snippet.danfeng.eu.org
-  - name: 2
-    server: cloudflare-dl.byoip.top
-    port: 2053
-    type: vless
-    uuid: cef7e6ae-078d-42d4-8283-6aacb9128b5a
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: snippet.danfeng.eu.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snippet.danfeng.eu.org
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snippet.danfeng.eu.org
-  - name: 3
-    server: saas.sin.fan
-    port: 2087
-    type: vless
-    uuid: cef7e6ae-078d-42d4-8283-6aacb9128b5a
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: snippet.danfeng.eu.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snippet.danfeng.eu.org
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snippet.danfeng.eu.org
-  - name: 4
-    server: cloudflare-dl.cnae.top
-    port: 2087
-    type: vless
-    uuid: cef7e6ae-078d-42d4-8283-6aacb9128b5a
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: snippet.danfeng.eu.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snippet.danfeng.eu.org
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snippet.danfeng.eu.org
-  - name: 5
-    server: cfsaas.080112.xyz
-    port: 2096
-    type: vless
-    uuid: cef7e6ae-078d-42d4-8283-6aacb9128b5a
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: snippet.danfeng.eu.org
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snippet.danfeng.eu.org
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snippet.danfeng.eu.org
-  - name: 6
-    server: www.visa.com.hk
+        Host: 6e5cw884mg.speed.vtbiwhda.cccp.useraaca.pp.ua
+  - name: 香港2-GCORE-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
     port: 443
-    type: vless
-    uuid: a9f2d40d-4e3e-4008-8196-3150e70a7024
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
     tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-sfo3.258526.xyz
-    client-fingerprint: random
+    servername: f7hhr1ntws.speed.vtbiwhdb.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /
       headers:
-        Host: do-sfo3.258526.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-sfo3.258526.xyz
-  - name: 7
-    server: ct.877774.xyz
+        Host: f7hhr1ntws.speed.vtbiwhdb.cccp.useraaca.pp.ua
+  - name: 新加坡-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
     port: 443
-    type: vless
-    uuid: a9f2d40d-4e3e-4008-8196-3150e70a7024
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
     tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-lon1.258526.xyz
-    client-fingerprint: random
+    servername: kodkf5.speed.fcdjbisa.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /
       headers:
-        Host: do-lon1.258526.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-lon1.258526.xyz
-  - name: 8
-    server: freeyx.cloudflare88.eu.org
+        Host: kodkf5.speed.fcdjbisa.cccp.useraaca.pp.ua
+  - name: 日本1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
     port: 443
-    type: vless
-    uuid: a9f2d40d-4e3e-4008-8196-3150e70a7024
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
     tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-syd1.258526.xyz
-    client-fingerprint: random
+    servername: 69gasr.speed.jpsacibna.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /
       headers:
-        Host: do-syd1.258526.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-syd1.258526.xyz
-  - name: 9
-    server: freev2.cloudflare.182682.xyz
+        Host: 69gasr.speed.jpsacibna.cccp.useraaca.pp.ua
+  - name: 日本2-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
     port: 443
-    type: vless
-    uuid: a9f2d40d-4e3e-4008-8196-3150e70a7024
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
     tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-blr1.258526.xyz
-    client-fingerprint: random
+    servername: gfixt1i3pz.speed.jpsacibnb.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /
       headers:
-        Host: do-blr1.258526.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-blr1.258526.xyz
-  - name: 10
-    server: ct.877774.xyz
+        Host: gfixt1i3pz.speed.jpsacibnb.cccp.useraaca.pp.ua
+  - name: 日本3-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
     port: 443
-    type: vless
-    uuid: a9f2d40d-4e3e-4008-8196-3150e70a7024
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
     tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-tor1.258526.xyz
-    client-fingerprint: random
+    servername: aoa26fc.speed.jpsacibnc.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /
       headers:
-        Host: do-tor1.258526.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-tor1.258526.xyz
-  - name: 11
-    server: freeyx.cloudflare88.eu.org
+        Host: aoa26fc.speed.jpsacibnc.cccp.useraaca.pp.ua
+  - name: 日本4-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
     port: 443
-    type: vless
-    uuid: a9f2d40d-4e3e-4008-8196-3150e70a7024
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
     tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-sgp1.258526.xyz
-    client-fingerprint: random
+    servername: pkhfhsaphz.speed.jpsacibnd.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /
       headers:
-        Host: do-sgp1.258526.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-sgp1.258526.xyz
-  - name: 12
-    server: freev2.cloudflare.182682.xyz
+        Host: pkhfhsaphz.speed.jpsacibnd.cccp.useraaca.pp.ua
+  - name: 泰国1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
     port: 443
-    type: vless
-    uuid: a9f2d40d-4e3e-4008-8196-3150e70a7024
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
     tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-fra1.258526.xyz
-    client-fingerprint: random
+    servername: sk4puvlz.speed.thasduba.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /
       headers:
-        Host: do-fra1.258526.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-fra1.258526.xyz
-  - name: 13
-    server: www.visa.com.hk
+        Host: sk4puvlz.speed.thasduba.cccp.useraaca.pp.ua
+  - name: 印度尼西亚1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
     port: 443
-    type: vless
-    uuid: a9f2d40d-4e3e-4008-8196-3150e70a7024
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
     tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: oracle-kr-chuncheon.258526.xyz
-    client-fingerprint: random
+    servername: bjkxn8vd2.speed.ydnxya.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /
       headers:
-        Host: oracle-kr-chuncheon.258526.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: oracle-kr-chuncheon.258526.xyz
-  - name: 14
-    server: freeyx.cloudflare88.eu.org
+        Host: bjkxn8vd2.speed.ydnxya.cccp.useraaca.pp.ua
+  - name: 印度尼西亚2-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
     port: 443
-    type: vless
-    uuid: a9f2d40d-4e3e-4008-8196-3150e70a7024
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
     tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: oracle-id-batam.258526.xyz
-    client-fingerprint: random
+    servername: r1khgiyz.speed.ydnxyb.cccp.useraaca.pp.ua
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /
       headers:
-        Host: oracle-id-batam.258526.xyz
+        Host: r1khgiyz.speed.ydnxyb.cccp.useraaca.pp.ua
+  - name: 印度尼西亚3-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
     alterId: 0
-    cipher: ""
-    flow: ""
-    sni: oracle-id-batam.258526.xyz
+    cipher: auto
+    udp: true
+    tls: true
+    servername: r54z7rzc.speed.ydnxyc.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: r54z7rzc.speed.ydnxyc.cccp.useraaca.pp.ua
+  - name: 印度尼西亚4-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: csori1a.speed.ydnxyd.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: csori1a.speed.ydnxyd.cccp.useraaca.pp.ua
+  - name: 印度-海得拉巴1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: we3w17m81.speed.ydindda.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: we3w17m81.speed.ydindda.cccp.useraaca.pp.ua
+  - name: 印度-海得拉巴2-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: gj1ccbdkhh.speed.ydinddb.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: gj1ccbdkhh.speed.ydinddb.cccp.useraaca.pp.ua
+  - name: 印度-海得拉巴3-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: clpi4r8.speed.ydinddc.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: clpi4r8.speed.ydinddc.cccp.useraaca.pp.ua
+  - name: 印度-海得拉巴4-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: ry7xoeo.speed.ydinddd.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ry7xoeo.speed.ydinddd.cccp.useraaca.pp.ua
+  - name: 澳大利亚-墨尔本1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: giz26cyg.speed.moerba.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: giz26cyg.speed.moerba.cccp.useraaca.pp.ua
+  - name: 澳大利亚-墨尔本2-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: 51hy14679e.speed.moerbb.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 51hy14679e.speed.moerbb.cccp.useraaca.pp.ua
+  - name: 沙特阿拉伯-吉达1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: q7k0zo.speed.shatealba.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: q7k0zo.speed.shatealba.cccp.useraaca.pp.ua
+  - name: 沙特阿拉伯-吉达2-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: bw8af1lm27.speed.shatealba.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: bw8af1lm27.speed.shatealba.cccp.useraaca.pp.ua
+  - name: 美国东部阿什本1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: ik2a0u06k1.speed.asbafwa.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ik2a0u06k1.speed.asbafwa.cccp.useraaca.pp.ua
+  - name: 美国东部阿什本2-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: u9e1nxcqay.speed.asbafwb.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: u9e1nxcqay.speed.asbafwb.cccp.useraaca.pp.ua
+  - name: 美国东部阿什本3-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: ej75ujwm.speed.asbafwc.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ej75ujwm.speed.asbafwc.cccp.useraaca.pp.ua
+  - name: 美国西部圣何塞1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: nmv5xxij.speed.sjccascha.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: nmv5xxij.speed.sjccascha.cccp.useraaca.pp.ua
+  - name: 美国西部圣何塞2-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: hivkxpdj.speed.sjccaschb.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hivkxpdj.speed.sjccaschb.cccp.useraaca.pp.ua
+  - name: 美国西部圣何塞3-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: lrr7kv.speed.sjccaschc.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: lrr7kv.speed.sjccaschc.cccp.useraaca.pp.ua
+  - name: 美国西部圣何塞4-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: 1sivnb.speed.sjccaschd.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 1sivnb.speed.sjccaschd.cccp.useraaca.pp.ua
+  - name: 美国中部芝加哥1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: i8bo21o2.speed.zjgsaduba.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: i8bo21o2.speed.zjgsaduba.cccp.useraaca.pp.ua
+  - name: 美国中部芝加哥2-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: h4y4gmifa.speed.zjgsadubb.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: h4y4gmifa.speed.zjgsadubb.cccp.useraaca.pp.ua
+  - name: 美国中部芝加哥3-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: f2siwph3r.speed.zjgsadubc.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: f2siwph3r.speed.zjgsadubc.cccp.useraaca.pp.ua
+  - name: 美国中部芝加哥4-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: m3axjndjdz.speed.zjgsadubd.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: m3axjndjdz.speed.zjgsadubd.cccp.useraaca.pp.ua
+  - name: 美国中部芝加哥5-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: dzkjt5z.speed.zjgsadube.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: dzkjt5z.speed.zjgsadube.cccp.useraaca.pp.ua
+  - name: 美国中部芝加哥6-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: qus3sfhuhl.speed.zjgsadubf.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: qus3sfhuhl.speed.zjgsadubf.cccp.useraaca.pp.ua
+  - name: 美国中部芝加哥7-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: h50dja.speed.zjgsadubg.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: h50dja.speed.zjgsadubg.cccp.useraaca.pp.ua
+  - name: 美国中部芝加哥8-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: ggoqc8u.speed.zjgsadubh.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ggoqc8u.speed.zjgsadubh.cccp.useraaca.pp.ua
+  - name: 美国中部芝加哥9-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: e2tl72denq.speed.zjgsadubi.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e2tl72denq.speed.zjgsadubi.cccp.useraaca.pp.ua
+  - name: 美国西部洛杉矶1-高性能-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: j76y11tp.speed.laxash.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: j76y11tp.speed.laxash.cccp.useraaca.pp.ua
+  - name: 美国南部达拉斯1-高性能-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: vxsxxn.speed.dlsashja.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: vxsxxn.speed.dlsashja.cccp.useraaca.pp.ua
+  - name: 美国东部纽约1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: 11vvjs.speed.jysada.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 11vvjs.speed.jysada.cccp.useraaca.pp.ua
+  - name: 美国西部洛杉矶2-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: xv8bkkyqja.speed.lssaasda.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: xv8bkkyqja.speed.lssaasda.cccp.useraaca.pp.ua
+  - name: 美国西部弗里蒙特1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: wik19u9ey.speed.awfiulaxa.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: wik19u9ey.speed.awfiulaxa.cccp.useraaca.pp.ua
+  - name: 罗马尼亚1-BT/PT/矿池-无分流直出-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: fhvndkhfgo.speed.lmnyaca.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: fhvndkhfgo.speed.lmnyaca.cccp.useraaca.pp.ua
+  - name: 尼日利亚1双ISP无分流直出-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: k5oo4bw.speed.nrlyacaca.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: k5oo4bw.speed.nrlyacaca.cccp.useraaca.pp.ua
+  - name: 土耳其无分流直出-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: ubrmkph.speed.iaugsuitrya.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ubrmkph.speed.iaugsuitrya.cccp.useraaca.pp.ua
+  - name: 俄罗斯-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: 6it7bp.speed.ruauba.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 6it7bp.speed.ruauba.cccp.useraaca.pp.ua
+  - name: 德国纽伦堡1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: pi62i2j89.speed.nlbasda.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: pi62i2j89.speed.nlbasda.cccp.useraaca.pp.ua
+  - name: 德国纽伦堡2-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: rflhapdh2.speed.nlbasdb.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: rflhapdh2.speed.nlbasdb.cccp.useraaca.pp.ua
+  - name: 德国纽伦堡4-高性能-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: c48ijzyiio.speed.nlbasdc.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: c48ijzyiio.speed.nlbasdc.cccp.useraaca.pp.ua
+  - name: 加拿大1多伦多-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: 6qvt9krth.speed.cvbuiasda.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 6qvt9krth.speed.cvbuiasda.cccp.useraaca.pp.ua
+  - name: 英国伦敦1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: yabfx4hr.speed.cvbuiasdb.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: yabfx4hr.speed.cvbuiasdb.cccp.useraaca.pp.ua
+  - name: 英国伦敦2-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: zcgzbabcje.speed.cvbuiasdc.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: zcgzbabcje.speed.cvbuiasdc.cccp.useraaca.pp.ua
+  - name: 英国伦敦3-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: 8f6d2w3ej6.speed.cvbuiasdd.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 8f6d2w3ej6.speed.cvbuiasdd.cccp.useraaca.pp.ua
+  - name: 英国伦敦4-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: 5gmf0gz91.speed.cvbuiasde.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 5gmf0gz91.speed.cvbuiasde.cccp.useraaca.pp.ua
+  - name: 英国伦敦5-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: l5nh68dsnk.speed.cvbuiasdf.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: l5nh68dsnk.speed.cvbuiasdf.cccp.useraaca.pp.ua
+  - name: 英国伦敦6-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: a6psk4m.speed.cvbuiasdg.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: a6psk4m.speed.cvbuiasdg.cccp.useraaca.pp.ua
+  - name: 西班牙马德里1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: 6mch67.speed.xbyuaswda.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 6mch67.speed.xbyuaswda.cccp.useraaca.pp.ua
+  - name: 法国马赛1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: nfy4jz2.speed.fgaduyga.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: nfy4jz2.speed.fgaduyga.cccp.useraaca.pp.ua
+  - name: 荷兰1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: b6poyh.speed.nlsadadvsa.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: b6poyh.speed.nlsadadvsa.cccp.useraaca.pp.ua
+  - name: 荷兰2-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: v4r3y5.speed.nlsadadvsb.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: v4r3y5.speed.nlsadadvsb.cccp.useraaca.pp.ua
+  - name: 以色列1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: jt7bo4c20m.speed.iraadca.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: jt7bo4c20m.speed.iraadca.cccp.useraaca.pp.ua
+  - name: 以色列2-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: z3av76z2.speed.iraadcb.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: z3av76z2.speed.iraadcb.cccp.useraaca.pp.ua
+  - name: 墨西哥1-蒙特雷-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: 28ogx1.speed.maxmxga.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 28ogx1.speed.maxmxga.cccp.useraaca.pp.ua
+  - name: 墨西哥2-蒙特雷-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: 1ozn20nwcp.speed.maxmxgb.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 1ozn20nwcp.speed.maxmxgb.cccp.useraaca.pp.ua
+  - name: 墨西哥3-蒙特雷-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: hnh54ujwm3.speed.maxmxgc.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hnh54ujwm3.speed.maxmxgc.cccp.useraaca.pp.ua
+  - name: 墨西哥4-蒙特雷-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: 0w72gr.speed.maxmxgd.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 0w72gr.speed.maxmxgd.cccp.useraaca.pp.ua
+  - name: 巴西圣保罗1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: ceoxdp6jv.speed.baxafbasa.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ceoxdp6jv.speed.baxafbasa.cccp.useraaca.pp.ua
+  - name: 巴西圣保罗2-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: atz5k4.speed.baxafbasb.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: atz5k4.speed.baxafbasb.cccp.useraaca.pp.ua
+  - name: 巴西圣保罗3-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: kl28ph4.speed.baxafbasc.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: kl28ph4.speed.baxafbasc.cccp.useraaca.pp.ua
+  - name: 巴西维涅社1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: ir1lm27h.speed.baxafbasd.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ir1lm27h.speed.baxafbasd.cccp.useraaca.pp.ua
+  - name: 巴西维涅社2-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: 4ldqb3a.speed.baxafbase.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 4ldqb3a.speed.baxafbase.cccp.useraaca.pp.ua
+  - name: 巴西维涅社3-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: dvwocfvs2.speed.baxafbasf.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: dvwocfvs2.speed.baxafbasf.cccp.useraaca.pp.ua
+  - name: 巴西维涅社4-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: 0qb257dw.speed.baxafbasg.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 0qb257dw.speed.baxafbasg.cccp.useraaca.pp.ua
+  - name: 智利1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: 6wqllvdvz2.speed.ziabsndia.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 6wqllvdvz2.speed.ziabsndia.cccp.useraaca.pp.ua
+  - name: 智利2-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: q9t0bbdlm.speed.ziabsndib.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: q9t0bbdlm.speed.ziabsndib.cccp.useraaca.pp.ua
+  - name: 南非约翰内斯堡1-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: 75te8rt.speed.nfyhnsbaa.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 75te8rt.speed.nfyhnsbaa.cccp.useraaca.pp.ua
+  - name: 南非约翰内斯堡2-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: vjualvc.speed.nfyhnsbab.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: vjualvc.speed.nfyhnsbab.cccp.useraaca.pp.ua
+  - name: 南非约翰内斯堡3-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: tarno7nd.speed.nfyhnsbac.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: tarno7nd.speed.nfyhnsbac.cccp.useraaca.pp.ua
+  - name: 南非约翰内斯堡4-CDN | 0x
+    type: vmess
+    server: 1762751541.bilibiliapp.cn
+    port: 443
+    uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: zmwbo4bw.speed.nfyhnsbad.cccp.useraaca.pp.ua
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: zmwbo4bw.speed.nfyhnsbad.cccp.useraaca.pp.ua
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - 官网https://kelayun.notepin.co
-      - 官网https://down.nigx.cn/kelayun.github.io
-      - 最低2元1000G
-      - 最高200元终身无限流量
-      - "1"
-      - "2"
-      - "3"
-      - "4"
-      - "5"
-      - "6"
-      - "7"
-      - "8"
-      - "9"
-      - "10"
-      - "11"
-      - "12"
-      - "13"
-      - "14"
+      - 香港1-GCORE-CDN | 0x
+      - 香港2-GCORE-CDN | 0x
+      - 新加坡-CDN | 0x
+      - 日本1-CDN | 0x
+      - 日本2-CDN | 0x
+      - 日本3-CDN | 0x
+      - 日本4-CDN | 0x
+      - 泰国1-CDN | 0x
+      - 印度尼西亚1-CDN | 0x
+      - 印度尼西亚2-CDN | 0x
+      - 印度尼西亚3-CDN | 0x
+      - 印度尼西亚4-CDN | 0x
+      - 印度-海得拉巴1-CDN | 0x
+      - 印度-海得拉巴2-CDN | 0x
+      - 印度-海得拉巴3-CDN | 0x
+      - 印度-海得拉巴4-CDN | 0x
+      - 澳大利亚-墨尔本1-CDN | 0x
+      - 澳大利亚-墨尔本2-CDN | 0x
+      - 沙特阿拉伯-吉达1-CDN | 0x
+      - 沙特阿拉伯-吉达2-CDN | 0x
+      - 美国东部阿什本1-CDN | 0x
+      - 美国东部阿什本2-CDN | 0x
+      - 美国东部阿什本3-CDN | 0x
+      - 美国西部圣何塞1-CDN | 0x
+      - 美国西部圣何塞2-CDN | 0x
+      - 美国西部圣何塞3-CDN | 0x
+      - 美国西部圣何塞4-CDN | 0x
+      - 美国中部芝加哥1-CDN | 0x
+      - 美国中部芝加哥2-CDN | 0x
+      - 美国中部芝加哥3-CDN | 0x
+      - 美国中部芝加哥4-CDN | 0x
+      - 美国中部芝加哥5-CDN | 0x
+      - 美国中部芝加哥6-CDN | 0x
+      - 美国中部芝加哥7-CDN | 0x
+      - 美国中部芝加哥8-CDN | 0x
+      - 美国中部芝加哥9-CDN | 0x
+      - 美国西部洛杉矶1-高性能-CDN | 0x
+      - 美国南部达拉斯1-高性能-CDN | 0x
+      - 美国东部纽约1-CDN | 0x
+      - 美国西部洛杉矶2-CDN | 0x
+      - 美国西部弗里蒙特1-CDN | 0x
+      - 罗马尼亚1-BT/PT/矿池-无分流直出-CDN | 0x
+      - 尼日利亚1双ISP无分流直出-CDN | 0x
+      - 土耳其无分流直出-CDN | 0x
+      - 俄罗斯-CDN | 0x
+      - 德国纽伦堡1-CDN | 0x
+      - 德国纽伦堡2-CDN | 0x
+      - 德国纽伦堡4-高性能-CDN | 0x
+      - 加拿大1多伦多-CDN | 0x
+      - 英国伦敦1-CDN | 0x
+      - 英国伦敦2-CDN | 0x
+      - 英国伦敦3-CDN | 0x
+      - 英国伦敦4-CDN | 0x
+      - 英国伦敦5-CDN | 0x
+      - 英国伦敦6-CDN | 0x
+      - 西班牙马德里1-CDN | 0x
+      - 法国马赛1-CDN | 0x
+      - 荷兰1-CDN | 0x
+      - 荷兰2-CDN | 0x
+      - 以色列1-CDN | 0x
+      - 以色列2-CDN | 0x
+      - 墨西哥1-蒙特雷-CDN | 0x
+      - 墨西哥2-蒙特雷-CDN | 0x
+      - 墨西哥3-蒙特雷-CDN | 0x
+      - 墨西哥4-蒙特雷-CDN | 0x
+      - 巴西圣保罗1-CDN | 0x
+      - 巴西圣保罗2-CDN | 0x
+      - 巴西圣保罗3-CDN | 0x
+      - 巴西维涅社1-CDN | 0x
+      - 巴西维涅社2-CDN | 0x
+      - 巴西维涅社3-CDN | 0x
+      - 巴西维涅社4-CDN | 0x
+      - 智利1-CDN | 0x
+      - 智利2-CDN | 0x
+      - 南非约翰内斯堡1-CDN | 0x
+      - 南非约翰内斯堡2-CDN | 0x
+      - 南非约翰内斯堡3-CDN | 0x
+      - 南非约翰内斯堡4-CDN | 0x
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - 官网https://kelayun.notepin.co
-      - 官网https://down.nigx.cn/kelayun.github.io
-      - 最低2元1000G
-      - 最高200元终身无限流量
-      - "1"
-      - "2"
-      - "3"
-      - "4"
-      - "5"
-      - "6"
-      - "7"
-      - "8"
-      - "9"
-      - "10"
-      - "11"
-      - "12"
-      - "13"
-      - "14"
+      - 香港1-GCORE-CDN | 0x
+      - 香港2-GCORE-CDN | 0x
+      - 新加坡-CDN | 0x
+      - 日本1-CDN | 0x
+      - 日本2-CDN | 0x
+      - 日本3-CDN | 0x
+      - 日本4-CDN | 0x
+      - 泰国1-CDN | 0x
+      - 印度尼西亚1-CDN | 0x
+      - 印度尼西亚2-CDN | 0x
+      - 印度尼西亚3-CDN | 0x
+      - 印度尼西亚4-CDN | 0x
+      - 印度-海得拉巴1-CDN | 0x
+      - 印度-海得拉巴2-CDN | 0x
+      - 印度-海得拉巴3-CDN | 0x
+      - 印度-海得拉巴4-CDN | 0x
+      - 澳大利亚-墨尔本1-CDN | 0x
+      - 澳大利亚-墨尔本2-CDN | 0x
+      - 沙特阿拉伯-吉达1-CDN | 0x
+      - 沙特阿拉伯-吉达2-CDN | 0x
+      - 美国东部阿什本1-CDN | 0x
+      - 美国东部阿什本2-CDN | 0x
+      - 美国东部阿什本3-CDN | 0x
+      - 美国西部圣何塞1-CDN | 0x
+      - 美国西部圣何塞2-CDN | 0x
+      - 美国西部圣何塞3-CDN | 0x
+      - 美国西部圣何塞4-CDN | 0x
+      - 美国中部芝加哥1-CDN | 0x
+      - 美国中部芝加哥2-CDN | 0x
+      - 美国中部芝加哥3-CDN | 0x
+      - 美国中部芝加哥4-CDN | 0x
+      - 美国中部芝加哥5-CDN | 0x
+      - 美国中部芝加哥6-CDN | 0x
+      - 美国中部芝加哥7-CDN | 0x
+      - 美国中部芝加哥8-CDN | 0x
+      - 美国中部芝加哥9-CDN | 0x
+      - 美国西部洛杉矶1-高性能-CDN | 0x
+      - 美国南部达拉斯1-高性能-CDN | 0x
+      - 美国东部纽约1-CDN | 0x
+      - 美国西部洛杉矶2-CDN | 0x
+      - 美国西部弗里蒙特1-CDN | 0x
+      - 罗马尼亚1-BT/PT/矿池-无分流直出-CDN | 0x
+      - 尼日利亚1双ISP无分流直出-CDN | 0x
+      - 土耳其无分流直出-CDN | 0x
+      - 俄罗斯-CDN | 0x
+      - 德国纽伦堡1-CDN | 0x
+      - 德国纽伦堡2-CDN | 0x
+      - 德国纽伦堡4-高性能-CDN | 0x
+      - 加拿大1多伦多-CDN | 0x
+      - 英国伦敦1-CDN | 0x
+      - 英国伦敦2-CDN | 0x
+      - 英国伦敦3-CDN | 0x
+      - 英国伦敦4-CDN | 0x
+      - 英国伦敦5-CDN | 0x
+      - 英国伦敦6-CDN | 0x
+      - 西班牙马德里1-CDN | 0x
+      - 法国马赛1-CDN | 0x
+      - 荷兰1-CDN | 0x
+      - 荷兰2-CDN | 0x
+      - 以色列1-CDN | 0x
+      - 以色列2-CDN | 0x
+      - 墨西哥1-蒙特雷-CDN | 0x
+      - 墨西哥2-蒙特雷-CDN | 0x
+      - 墨西哥3-蒙特雷-CDN | 0x
+      - 墨西哥4-蒙特雷-CDN | 0x
+      - 巴西圣保罗1-CDN | 0x
+      - 巴西圣保罗2-CDN | 0x
+      - 巴西圣保罗3-CDN | 0x
+      - 巴西维涅社1-CDN | 0x
+      - 巴西维涅社2-CDN | 0x
+      - 巴西维涅社3-CDN | 0x
+      - 巴西维涅社4-CDN | 0x
+      - 智利1-CDN | 0x
+      - 智利2-CDN | 0x
+      - 南非约翰内斯堡1-CDN | 0x
+      - 南非约翰内斯堡2-CDN | 0x
+      - 南非约翰内斯堡3-CDN | 0x
+      - 南非约翰内斯堡4-CDN | 0x
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - 官网https://kelayun.notepin.co
-      - 官网https://down.nigx.cn/kelayun.github.io
-      - 最低2元1000G
-      - 最高200元终身无限流量
-      - "1"
-      - "2"
-      - "3"
-      - "4"
-      - "5"
-      - "6"
-      - "7"
-      - "8"
-      - "9"
-      - "10"
-      - "11"
-      - "12"
-      - "13"
-      - "14"
+      - 香港1-GCORE-CDN | 0x
+      - 香港2-GCORE-CDN | 0x
+      - 新加坡-CDN | 0x
+      - 日本1-CDN | 0x
+      - 日本2-CDN | 0x
+      - 日本3-CDN | 0x
+      - 日本4-CDN | 0x
+      - 泰国1-CDN | 0x
+      - 印度尼西亚1-CDN | 0x
+      - 印度尼西亚2-CDN | 0x
+      - 印度尼西亚3-CDN | 0x
+      - 印度尼西亚4-CDN | 0x
+      - 印度-海得拉巴1-CDN | 0x
+      - 印度-海得拉巴2-CDN | 0x
+      - 印度-海得拉巴3-CDN | 0x
+      - 印度-海得拉巴4-CDN | 0x
+      - 澳大利亚-墨尔本1-CDN | 0x
+      - 澳大利亚-墨尔本2-CDN | 0x
+      - 沙特阿拉伯-吉达1-CDN | 0x
+      - 沙特阿拉伯-吉达2-CDN | 0x
+      - 美国东部阿什本1-CDN | 0x
+      - 美国东部阿什本2-CDN | 0x
+      - 美国东部阿什本3-CDN | 0x
+      - 美国西部圣何塞1-CDN | 0x
+      - 美国西部圣何塞2-CDN | 0x
+      - 美国西部圣何塞3-CDN | 0x
+      - 美国西部圣何塞4-CDN | 0x
+      - 美国中部芝加哥1-CDN | 0x
+      - 美国中部芝加哥2-CDN | 0x
+      - 美国中部芝加哥3-CDN | 0x
+      - 美国中部芝加哥4-CDN | 0x
+      - 美国中部芝加哥5-CDN | 0x
+      - 美国中部芝加哥6-CDN | 0x
+      - 美国中部芝加哥7-CDN | 0x
+      - 美国中部芝加哥8-CDN | 0x
+      - 美国中部芝加哥9-CDN | 0x
+      - 美国西部洛杉矶1-高性能-CDN | 0x
+      - 美国南部达拉斯1-高性能-CDN | 0x
+      - 美国东部纽约1-CDN | 0x
+      - 美国西部洛杉矶2-CDN | 0x
+      - 美国西部弗里蒙特1-CDN | 0x
+      - 罗马尼亚1-BT/PT/矿池-无分流直出-CDN | 0x
+      - 尼日利亚1双ISP无分流直出-CDN | 0x
+      - 土耳其无分流直出-CDN | 0x
+      - 俄罗斯-CDN | 0x
+      - 德国纽伦堡1-CDN | 0x
+      - 德国纽伦堡2-CDN | 0x
+      - 德国纽伦堡4-高性能-CDN | 0x
+      - 加拿大1多伦多-CDN | 0x
+      - 英国伦敦1-CDN | 0x
+      - 英国伦敦2-CDN | 0x
+      - 英国伦敦3-CDN | 0x
+      - 英国伦敦4-CDN | 0x
+      - 英国伦敦5-CDN | 0x
+      - 英国伦敦6-CDN | 0x
+      - 西班牙马德里1-CDN | 0x
+      - 法国马赛1-CDN | 0x
+      - 荷兰1-CDN | 0x
+      - 荷兰2-CDN | 0x
+      - 以色列1-CDN | 0x
+      - 以色列2-CDN | 0x
+      - 墨西哥1-蒙特雷-CDN | 0x
+      - 墨西哥2-蒙特雷-CDN | 0x
+      - 墨西哥3-蒙特雷-CDN | 0x
+      - 墨西哥4-蒙特雷-CDN | 0x
+      - 巴西圣保罗1-CDN | 0x
+      - 巴西圣保罗2-CDN | 0x
+      - 巴西圣保罗3-CDN | 0x
+      - 巴西维涅社1-CDN | 0x
+      - 巴西维涅社2-CDN | 0x
+      - 巴西维涅社3-CDN | 0x
+      - 巴西维涅社4-CDN | 0x
+      - 智利1-CDN | 0x
+      - 智利2-CDN | 0x
+      - 南非约翰内斯堡1-CDN | 0x
+      - 南非约翰内斯堡2-CDN | 0x
+      - 南非约翰内斯堡3-CDN | 0x
+      - 南非约翰内斯堡4-CDN | 0x
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
