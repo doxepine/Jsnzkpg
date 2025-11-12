@@ -5,644 +5,198 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: '发布页https://down.nigx.cn/kelayun.github.io'
-    type: vless
-    server: pq.vmjp3.yydjc.top
+  - name: 🚫不要用谷歌浏览器访问
+    server: freeyx.cloudflare88.eu.org
     port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: xtls-rprx-vision
-    client-fingerprint: ios
-    reality-opts:
-      public-key: pR8CV43xvSgvzSXPVLCVomjw-yZvNyqU32kietO2pEc
-      short-id: a6115a2c
-    network: tcp
-    servername: iosapps.itunes.apple.com
-    alterId: 0
-    cipher: ""
-    sni: iosapps.itunes.apple.com
-  - name: '官网https://kelayun.notepin.co'
     type: vless
-    server: pq.vmjp4.yydjc.top
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
+    uuid: 4bc1e148-89bb-43b1-9621-497f8efa8e8d
     tls: true
-    skip-cert-verify: null
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: FrLhPuCVfzdM5rppzxHXQ5BZSGf1YHrXgo-cCtecGSo
-      short-id: f3b38af2
-    network: tcp
-    servername: cdn-dynmedia-1.microsoft.com
-    alterId: 0
-    cipher: ""
-    sni: cdn-dynmedia-1.microsoft.com
-  - name: '最低2元1000G'
-    type: vless
-    server: pq.vmjp3.yydjc.top
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: xtls-rprx-vision
-    client-fingerprint: ios
-    reality-opts:
-      public-key: pR8CV43xvSgvzSXPVLCVomjw-yZvNyqU32kietO2pEc
-      short-id: a6115a2c
-    network: tcp
-    servername: iosapps.itunes.apple.com
-    alterId: 0
-    cipher: ""
-    sni: iosapps.itunes.apple.com
-  - name: '最高200元永久无限流量'
-    type: vless
-    server: pq.vmjp4.yydjc.top
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: FrLhPuCVfzdM5rppzxHXQ5BZSGf1YHrXgo-cCtecGSo
-      short-id: f3b38af2
-    network: tcp
-    servername: cdn-dynmedia-1.microsoft.com
-    alterId: 0
-    cipher: ""
-    sni: cdn-dynmedia-1.microsoft.com
-  - name: '1'
-    server: pq.us1.globals-download.com
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
+    tfo: false
     skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: de81cf6b-0d2f-42be-ac60-a3b734216739
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
-  - name: '2'
-    server: pq.us2.globals-download.com
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
+    servername: do-sfo3.064288.xyz
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /announcement?ed=2048
+      headers:
+        Host: do-sfo3.064288.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-sfo3.064288.xyz
+  - name: 发布页https://down.nigx.cn/kelayun.github.io
+    server: freeyx.cloudflare88.eu.org
+    port: 443
+    type: vless
+    uuid: 4bc1e148-89bb-43b1-9621-497f8efa8e8d
+    tls: true
+    tfo: false
     skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: de81cf6b-0d2f-42be-ac60-a3b734216739
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
-  - name: '3'
-    server: pq.us3.globals-download.com
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
+    servername: do-lon1.064288.xyz
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /announcement?ed=2048
+      headers:
+        Host: do-lon1.064288.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-lon1.064288.xyz
+  - name: 地址https://kelayun.notepin.co
+    server: freev2.cloudflare.182682.xyz
+    port: 443
+    type: vless
+    uuid: 4bc1e148-89bb-43b1-9621-497f8efa8e8d
+    tls: true
+    tfo: false
     skip-cert-verify: true
-    sni: tv.apple.com
-    type: hysteria2
-    password: de81cf6b-0d2f-42be-ac60-a3b734216739
-    auth: ""
-    fast-open: false
-    servername: tv.apple.com
-  - name: '4'
-    server: pq.us4.globals-download.com
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
+    servername: do-syd1.064288.xyz
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /announcement?ed=2048
+      headers:
+        Host: do-syd1.064288.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-syd1.064288.xyz
+  - name: 最低2元1000G流量
+    server: ct.877774.xyz
+    port: 443
+    type: vless
+    uuid: 4bc1e148-89bb-43b1-9621-497f8efa8e8d
+    tls: true
+    tfo: false
     skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: de81cf6b-0d2f-42be-ac60-a3b734216739
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
-  - name: '5'
-    server: pq.us5.globals-download.com
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
+    servername: do-blr1.064288.xyz
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /announcement?ed=2048
+      headers:
+        Host: do-blr1.064288.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-blr1.064288.xyz
+  - name: 最高200元永久无限流量
+    server: ct.877774.xyz
+    port: 443
+    type: vless
+    uuid: 4bc1e148-89bb-43b1-9621-497f8efa8e8d
+    tls: true
+    tfo: false
     skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: de81cf6b-0d2f-42be-ac60-a3b734216739
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
-  - name: '6'
-    server: pq.us6.globals-download.com
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
+    servername: do-tor1.064288.xyz
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /announcement?ed=2048
+      headers:
+        Host: do-tor1.064288.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-tor1.064288.xyz
+  - name: 解锁奈飞/TikTok/ChatGPT
+    server: freev2.cloudflare.182682.xyz
+    port: 443
+    type: vless
+    uuid: 4bc1e148-89bb-43b1-9621-497f8efa8e8d
+    tls: true
+    tfo: false
     skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: de81cf6b-0d2f-42be-ac60-a3b734216739
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
-  - name: '7'
-    server: pq.us7.globals-download.com
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
+    servername: do-sgp1.064288.xyz
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /announcement?ed=2048
+      headers:
+        Host: do-sgp1.064288.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-sgp1.064288.xyz
+  - name: 新疆西藏福建可用
+    server: ct.877774.xyz
+    port: 443
+    type: vless
+    uuid: 4bc1e148-89bb-43b1-9621-497f8efa8e8d
+    tls: true
+    tfo: false
     skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: de81cf6b-0d2f-42be-ac60-a3b734216739
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
-  - name: '8'
-    server: pq.us8.globals-download.com
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
+    servername: do-fra1.064288.xyz
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /announcement?ed=2048
+      headers:
+        Host: do-fra1.064288.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-fra1.064288.xyz
+  - name: 提供ios小火箭共享账号
+    server: freeyx.cloudflare88.eu.org
+    port: 443
+    type: vless
+    uuid: 4bc1e148-89bb-43b1-9621-497f8efa8e8d
+    tls: true
+    tfo: false
     skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: de81cf6b-0d2f-42be-ac60-a3b734216739
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
-  - name: '9'
-    server: pq.us9.globals-download.com
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
-    skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: de81cf6b-0d2f-42be-ac60-a3b734216739
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
-  - name: '10'
-    server: pq.us10.globals-download.com
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
-    skip-cert-verify: true
-    sni: api.push.apple.com
-    type: hysteria2
-    password: de81cf6b-0d2f-42be-ac60-a3b734216739
-    auth: ""
-    fast-open: false
-    servername: api.push.apple.com
-  - name: '11'
-    server: pq.us10.globals-download.com
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
-    skip-cert-verify: true
-    sni: api.push.apple.com
-    type: hysteria2
-    password: de81cf6b-0d2f-42be-ac60-a3b734216739
-    auth: ""
-    fast-open: false
-    servername: api.push.apple.com
-  - name: '12'
-    server: pq.us10.globals-download.com
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
-    skip-cert-verify: true
-    sni: api.push.apple.com
-    type: hysteria2
-    password: de81cf6b-0d2f-42be-ac60-a3b734216739
-    auth: ""
-    fast-open: false
-    servername: api.push.apple.com
-  - name: '13'
-    server: 85.159.92.99
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
-    skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: de81cf6b-0d2f-42be-ac60-a3b734216739
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
-  - name: '14'
-    type: vless
-    server: 69.84.182.108
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    client-fingerprint: chrome
+    servername: oracle-id-batam.064288.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /pq/us4
+      path: /announcement?ed=2048
       headers:
-        Host: pq-us4.globals-download.com
-    servername: pq-us4.globals-download.com
+        Host: oracle-id-batam.064288.xyz
     alterId: 0
     cipher: ""
     flow: ""
-    sni: pq-us4.globals-download.com
-  - name: '15'
-    type: vless
-    server: 69.84.182.108
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /pq/us5
-      headers:
-        Host: pq-us5.globals-download.com
-    servername: pq-us5.globals-download.com
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: pq-us5.globals-download.com
-  - name: '16'
-    type: vless
-    server: 69.84.182.108
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /pq/us6
-      headers:
-        Host: pq-us6.globals-download.com
-    servername: pq-us6.globals-download.com
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: pq-us6.globals-download.com
-  - name: '17'
-    type: vless
-    server: 69.84.182.18
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    client-fingerprint: ios
-    network: ws
-    ws-opts:
-      path: /pq/jp1
-      headers:
-        Host: jpa1.xn--ghqu5fm27b67w.com
-    servername: jpa1.xn--ghqu5fm27b67w.com
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: jpa1.xn--ghqu5fm27b67w.com
-  - name: '18'
-    type: vless
-    server: 104.18.20.69
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /pq/in1
-      headers:
-        Host: in1s-s.pqvip.top
-    servername: in1s-s.pqvip.top
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: in1s-s.pqvip.top
-  - name: '19'
-    type: vless
-    server: 69.84.182.18
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /pq/us1
-      headers:
-        Host: usa1.xn--ghqu5fm27b67w.com
-    servername: usa1.xn--ghqu5fm27b67w.com
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: usa1.xn--ghqu5fm27b67w.com
-  - name: '20'
-    type: vless
-    server: 69.84.182.18
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /pq/us1
-      headers:
-        Host: usa1.xn--ghqu5fm27b67w.com
-    servername: usa1.xn--ghqu5fm27b67w.com
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: usa1.xn--ghqu5fm27b67w.com
-  - name: '21'
-    type: vless
-    server: 69.84.182.18
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /pq/us1
-      headers:
-        Host: usa1.xn--ghqu5fm27b67w.com
-    servername: usa1.xn--ghqu5fm27b67w.com
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: usa1.xn--ghqu5fm27b67w.com
-  - name: '22'
-    type: vless
-    server: 69.84.182.18
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /pq/us1
-      headers:
-        Host: usa1.xn--ghqu5fm27b67w.com
-    servername: usa1.xn--ghqu5fm27b67w.com
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: usa1.xn--ghqu5fm27b67w.com
-  - name: '23'
-    type: vless
-    server: 69.84.182.18
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /pq/us1
-      headers:
-        Host: usa1.xn--ghqu5fm27b67w.com
-    servername: usa1.xn--ghqu5fm27b67w.com
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: usa1.xn--ghqu5fm27b67w.com
-  - name: '24'
-    type: vless
-    server: 104.18.20.69
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /pq/us1
-      headers:
-        Host: us1e.pqvip.top
-    servername: us1e.pqvip.top
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: us1e.pqvip.top
-  - name: '25'
-    type: vless
-    server: 104.18.20.69
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /pq/us2
-      headers:
-        Host: us21e.pqvip.top
-    servername: us21e.pqvip.top
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: us21e.pqvip.top
-  - name: '26'
-    type: vless
-    server: 104.18.20.69
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /pq/us3
-      headers:
-        Host: us3e.pqvip.top
-    servername: us3e.pqvip.top
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: us3e.pqvip.top
-  - name: '27'
-    type: vless
-    server: 104.18.20.69
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /pq/us4
-      headers:
-        Host: us4e.pqvip.top
-    servername: us4e.pqvip.top
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: us4e.pqvip.top
-  - name: '28'
-    type: vless
-    server: 104.18.20.69
-    port: 443
-    uuid: de81cf6b-0d2f-42be-ac60-a3b734216739
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    client-fingerprint: ios
-    network: ws
-    ws-opts:
-      path: /pq/us5
-      headers:
-        Host: us51e.pqvip.top
-    servername: us51e.pqvip.top
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: us51e.pqvip.top
+    sni: oracle-id-batam.064288.xyz
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - '发布页https://down.nigx.cn/kelayun.github.io'
-      - '官网https://kelayun.notepin.co'
-      - '最低2元1000G'
-      - '最高200元永久无限流量'
-      - '1'
-      - '2'
-      - '3'
-      - '4'
-      - '5'
-      - '6'
-      - '7'
-      - '8'
-      - '9'
-      - '10'
-      - '11'
-      - '12'
-      - '13'
-      - '14'
-      - '15'
-      - '16'
-      - '17'
-      - '18'
-      - '19'
-      - '20'
-      - '21'
-      - '22'
-      - '23'
-      - '24'
-      - '25'
-      - '26'
-      - '27'
-      - '28'
+      - 🚫不要用谷歌浏览器访问
+      - 发布页https://down.nigx.cn/kelayun.github.io
+      - 地址https://kelayun.notepin.co
+      - 最低2元1000G流量
+      - 最高200元永久无限流量
+      - 解锁奈飞/TikTok/ChatGPT
+      - 新疆西藏福建可用
+      - 提供ios小火箭共享账号
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - '发布页https://down.nigx.cn/kelayun.github.io'
-      - '官网https://kelayun.notepin.co'
-      - '最低2元1000G'
-      - '最高200元永久无限流量'
-      - '1'
-      - '2'
-      - '3'
-      - '4'
-      - '5'
-      - '6'
-      - '7'
-      - '8'
-      - '9'
-      - '10'
-      - '11'
-      - '12'
-      - '13'
-      - '14'
-      - '15'
-      - '16'
-      - '17'
-      - '18'
-      - '19'
-      - '20'
-      - '21'
-      - '22'
-      - '23'
-      - '24'
-      - '25'
-      - '26'
-      - '27'
-      - '28'
+      - 🚫不要用谷歌浏览器访问
+      - 发布页https://down.nigx.cn/kelayun.github.io
+      - 地址https://kelayun.notepin.co
+      - 最低2元1000G流量
+      - 最高200元永久无限流量
+      - 解锁奈飞/TikTok/ChatGPT
+      - 新疆西藏福建可用
+      - 提供ios小火箭共享账号
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - '发布页https://down.nigx.cn/kelayun.github.io'
-      - '官网https://kelayun.notepin.co'
-      - '最低2元1000G'
-      - '最高200元永久无限流量'
-      - '1'
-      - '2'
-      - '3'
-      - '4'
-      - '5'
-      - '6'
-      - '7'
-      - '8'
-      - '9'
-      - '10'
-      - '11'
-      - '12'
-      - '13'
-      - '14'
-      - '15'
-      - '16'
-      - '17'
-      - '18'
-      - '19'
-      - '20'
-      - '21'
-      - '22'
-      - '23'
-      - '24'
-      - '25'
-      - '26'
-      - '27'
-      - '28'
+      - 🚫不要用谷歌浏览器访问
+      - 发布页https://down.nigx.cn/kelayun.github.io
+      - 地址https://kelayun.notepin.co
+      - 最低2元1000G流量
+      - 最高200元永久无限流量
+      - 解锁奈飞/TikTok/ChatGPT
+      - 新疆西藏福建可用
+      - 提供ios小火箭共享账号
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
