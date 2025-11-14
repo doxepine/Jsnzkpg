@@ -5,172 +5,230 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 发布页https://kelayun.notepin.co
-    server: 123.214.83.63
-    port: 20332
-    type: trojan
-    password: 3471a7b8-40e0-40c8-87f8-e234e7dd48ee
-    sni: tlors.wxgqlfx.cn
+  - name: 永久发布页https://kelayun.notepin.co
+    type: http
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    port: 1443
+    password: exaxgqkKkd0TAMrCxeonWg==
+    udp: true
+    tfo: false
+    tls: true
+    skip-cert-verify: null
+    network: tcp
+    alpn:
+      - http/1.1
+    servername: twmoon1-cdn-route.couldflare-cdn.com
+    sni: twmoon1-cdn-route.couldflare-cdn.com
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+  - name: 永久官网https://down.nigx.cn/kelayun.github.io
+    type: http
+    server: testkr3.ssv.vc
+    port: 30446
+    cipher: aes-256-cfb
+    password: test.+
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+    tls: true
+    username: test
+  - name: 最低2元1000G流量
+    server: www.visa.com.hk
+    port: 443
+    type: vless
+    uuid: 3a77584f-1e3b-4c3e-ad27-c17e2f603eb3
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: do-sfo3.064288.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /TG@wxgqlfx
+      path: /announcement?ed=2048
       headers:
-        Host: tlors.wxgqlfx.cn
-    servername: tlors.wxgqlfx.cn
-  - name: 最低2元1000G
-    server: 218.151.91.131
-    port: 12151
-    type: trojan
-    password: 3471a7b8-40e0-40c8-87f8-e234e7dd48ee
-    sni: tlors.wxgqlfx.cn
-    network: ws
-    ws-opts:
-      path: /TG@wxgqlfx
-      headers:
-        Host: tlors.wxgqlfx.cn
-    servername: tlors.wxgqlfx.cn
+        Host: do-sfo3.064288.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-sfo3.064288.xyz
   - name: 最高200元永久无限流量
-    server: 121.188.182.190
-    port: 50003
-    type: trojan
-    password: 3471a7b8-40e0-40c8-87f8-e234e7dd48ee
-    sni: tlors.wxgqlfx.cn
+    server: ct.877774.xyz
+    port: 443
+    type: vless
+    uuid: 3a77584f-1e3b-4c3e-ad27-c17e2f603eb3
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: do-lon1.064288.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /TG@wxgqlfx
+      path: /announcement?ed=2048
       headers:
-        Host: tlors.wxgqlfx.cn
-    servername: tlors.wxgqlfx.cn
-  - name: 1
-    server: 222.113.18.207
-    port: 32773
-    type: trojan
-    password: 3471a7b8-40e0-40c8-87f8-e234e7dd48ee
-    sni: tlors.wxgqlfx.cn
+        Host: do-lon1.064288.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-lon1.064288.xyz
+  - name: 新疆西藏福建可用
+    server: ct.877774.xyz
+    port: 443
+    type: vless
+    uuid: 3a77584f-1e3b-4c3e-ad27-c17e2f603eb3
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: do-syd1.064288.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /TG@wxgqlfx
+      path: /announcement?ed=2048
       headers:
-        Host: tlors.wxgqlfx.cn
-    servername: tlors.wxgqlfx.cn
-  - name: 2
-    server: 106.244.201.248
-    port: 50000
-    type: trojan
-    password: 3471a7b8-40e0-40c8-87f8-e234e7dd48ee
-    sni: tlors.wxgqlfx.cn
+        Host: do-syd1.064288.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-syd1.064288.xyz
+  - name: 解锁奈飞/TikTok/ChatGPT
+    server: ct.877774.xyz
+    port: 443
+    type: vless
+    uuid: 3a77584f-1e3b-4c3e-ad27-c17e2f603eb3
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: do-blr1.064288.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /TG@wxgqlfx
+      path: /announcement?ed=2048
       headers:
-        Host: tlors.wxgqlfx.cn
-    servername: tlors.wxgqlfx.cn
-  - name: 3
-    server: 123.248.97.102
-    port: 50001
-    type: trojan
-    password: 3471a7b8-40e0-40c8-87f8-e234e7dd48ee
-    sni: tlors.wxgqlfx.cn
+        Host: do-blr1.064288.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-blr1.064288.xyz
+  - name: 提供ios小火箭共享账号
+    server: ct.877774.xyz
+    port: 443
+    type: vless
+    uuid: 3a77584f-1e3b-4c3e-ad27-c17e2f603eb3
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: do-tor1.064288.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /TG@wxgqlfx
+      path: /announcement?ed=2048
       headers:
-        Host: tlors.wxgqlfx.cn
-    servername: tlors.wxgqlfx.cn
-  - name: 4
-    server: 152.70.101.24
-    port: 16030
-    type: trojan
-    password: 3471a7b8-40e0-40c8-87f8-e234e7dd48ee
-    sni: tlors.wxgqlfx.cn
+        Host: do-tor1.064288.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-tor1.064288.xyz
+  - name: 不限速不限设备
+    server: freeyx.cloudflare88.eu.org
+    port: 443
+    type: vless
+    uuid: 3a77584f-1e3b-4c3e-ad27-c17e2f603eb3
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: do-sgp1.064288.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /TG@wxgqlfx
+      path: /announcement?ed=2048
       headers:
-        Host: tlors.wxgqlfx.cn
-    servername: tlors.wxgqlfx.cn
-  - name: 5
-    server: 152.70.101.24
-    port: 16004
-    type: trojan
-    password: 3471a7b8-40e0-40c8-87f8-e234e7dd48ee
-    sni: tlors.wxgqlfx.cn
+        Host: do-sgp1.064288.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-sgp1.064288.xyz
+  - name: 购买王者赠送IPLC专线
+    server: freev2.cloudflare.182682.xyz
+    port: 443
+    type: vless
+    uuid: 3a77584f-1e3b-4c3e-ad27-c17e2f603eb3
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: do-fra1.064288.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /TG@wxgqlfx
+      path: /announcement?ed=2048
       headers:
-        Host: tlors.wxgqlfx.cn
-    servername: tlors.wxgqlfx.cn
-  - name: 6
-    server: 152.70.101.24
-    port: 16040
-    type: trojan
-    password: 3471a7b8-40e0-40c8-87f8-e234e7dd48ee
-    sni: tlors.wxgqlfx.cn
+        Host: do-fra1.064288.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: do-fra1.064288.xyz
+  - name: 原生家宽IEPL专线
+    server: freeyx.cloudflare88.eu.org
+    port: 443
+    type: vless
+    uuid: 3a77584f-1e3b-4c3e-ad27-c17e2f603eb3
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: oracle-id-batam.064288.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /TG@wxgqlfx
+      path: /announcement?ed=2048
       headers:
-        Host: tlors.wxgqlfx.cn
-    servername: tlors.wxgqlfx.cn
-  - name: 7
-    server: 121.143.184.124
-    port: 50001
-    type: trojan
-    password: 3471a7b8-40e0-40c8-87f8-e234e7dd48ee
-    sni: tlors.wxgqlfx.cn
-    network: ws
-    ws-opts:
-      path: /TG@wxgqlfx
-      headers:
-        Host: tlors.wxgqlfx.cn
-    servername: tlors.wxgqlfx.cn
+        Host: oracle-id-batam.064288.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: oracle-id-batam.064288.xyz
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - 发布页https://kelayun.notepin.co
-      - 最低2元1000G
+      - 永久发布页https://kelayun.notepin.co
+      - 永久官网https://down.nigx.cn/kelayun.github.io
+      - 最低2元1000G流量
       - 最高200元永久无限流量
-      - "1"
-      - "2"
-      - "3"
-      - "4"
-      - "5"
-      - "6"
-      - "7"
+      - 新疆西藏福建可用
+      - 解锁奈飞/TikTok/ChatGPT
+      - 提供ios小火箭共享账号
+      - 不限速不限设备
+      - 购买王者赠送IPLC专线
+      - 原生家宽IEPL专线
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - 发布页https://kelayun.notepin.co
-      - 最低2元1000G
+      - 永久发布页https://kelayun.notepin.co
+      - 永久官网https://down.nigx.cn/kelayun.github.io
+      - 最低2元1000G流量
       - 最高200元永久无限流量
-      - "1"
-      - "2"
-      - "3"
-      - "4"
-      - "5"
-      - "6"
-      - "7"
+      - 新疆西藏福建可用
+      - 解锁奈飞/TikTok/ChatGPT
+      - 提供ios小火箭共享账号
+      - 不限速不限设备
+      - 购买王者赠送IPLC专线
+      - 原生家宽IEPL专线
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - 发布页https://kelayun.notepin.co
-      - 最低2元1000G
+      - 永久发布页https://kelayun.notepin.co
+      - 永久官网https://down.nigx.cn/kelayun.github.io
+      - 最低2元1000G流量
       - 最高200元永久无限流量
-      - "1"
-      - "2"
-      - "3"
-      - "4"
-      - "5"
-      - "6"
-      - "7"
+      - 新疆西藏福建可用
+      - 解锁奈飞/TikTok/ChatGPT
+      - 提供ios小火箭共享账号
+      - 不限速不限设备
+      - 购买王者赠送IPLC专线
+      - 原生家宽IEPL专线
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
