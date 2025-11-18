@@ -5,270 +5,84 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港1-GCORE-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: eemlsy.speed.vtbiwhda.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: eemlsy.speed.vtbiwhda.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇭🇰 香港2-GCORE-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: mbg2mqhy0v.speed.vtbiwhdb.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: mbg2mqhy0v.speed.vtbiwhdb.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇸🇬 新加坡-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cw3ldtm.speed.fcdjbisa.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: cw3ldtm.speed.fcdjbisa.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇯🇵 日本大阪1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: b7s4vs2p0.speed.jpsacibna.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: b7s4vs2p0.speed.jpsacibna.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇯🇵 日本大阪2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 7m8049qk.speed.jpsacibnb.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 7m8049qk.speed.jpsacibnb.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇯🇵 日本大阪3-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: smg665.speed.jpsacibnc.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: smg665.speed.jpsacibnc.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇯🇵 日本大阪4-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: t3oxackm1.speed.jpsacibnd.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: t3oxackm1.speed.jpsacibnd.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇯🇵 日本东京1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vcuwoer9st.speed.jobashiiudsa.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: vcuwoer9st.speed.jobashiiudsa.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇯🇵 日本东京2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ucyeya8.speed.jobashiiudsb.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: ucyeya8.speed.jobashiiudsb.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇯🇵 日本东京3-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: c8xlvd0mr.speed.jobashiiudsc.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: c8xlvd0mr.speed.jobashiiudsc.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇯🇵 日本东京4-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v06l6vhj.speed.jobashiiudsd.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: v06l6vhj.speed.jobashiiudsd.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇹🇭 泰国1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: t0ceov1ei.speed.thasduba.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: t0ceov1ei.speed.thasduba.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇮🇩 印度尼西亚1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bjgec7r.speed.ydnxya.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: bjgec7r.speed.ydnxya.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇮🇩 印度尼西亚2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: qupp6iqt.speed.ydnxyb.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: qupp6iqt.speed.ydnxyb.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇮🇩 印度尼西亚3-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dqaym0y.speed.ydnxyc.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: dqaym0y.speed.ydnxyc.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇮🇩 印度尼西亚4-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ur1nro.speed.ydnxyd.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: ur1nro.speed.ydnxyd.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇮🇳 印度-海得拉巴1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 7ry7vh.speed.ydindda.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 7ry7vh.speed.ydindda.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇮🇳 印度-海得拉巴2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: qx4k985.speed.ydinddb.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: qx4k985.speed.ydinddb.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇮🇳 印度-海得拉巴3-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 40h0fq6e.speed.ydinddc.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 40h0fq6e.speed.ydinddc.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇮🇳 印度-海得拉巴4-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: l2a0uxu62k.speed.ydinddd.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: l2a0uxu62k.speed.ydinddd.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇦🇺 澳大利亚-墨尔本1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: snjipp.speed.moerba.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: snjipp.speed.moerba.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇦🇺 澳大利亚-墨尔本2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 8hglco20kk.speed.moerbb.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 8hglco20kk.speed.moerbb.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇸🇦 沙特阿拉伯-吉达1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 2ei1dfung1.speed.shatealba.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 2ei1dfung1.speed.shatealba.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇸🇦 沙特阿拉伯-吉达2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 8cpa259.speed.shatealbb.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 8cpa259.speed.shatealbb.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国东部阿什本1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: xsul5pu.speed.asbafwa.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: xsul5pu.speed.asbafwa.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国东部阿什本2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: d1smdtmf.speed.asbafwb.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: d1smdtmf.speed.asbafwb.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国东部阿什本3-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jdw3lcnzn.speed.asbafwc.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: jdw3lcnzn.speed.asbafwc.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国西部圣何塞1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 9xkrup.speed.sjccascha.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 9xkrup.speed.sjccascha.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国西部圣何塞2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: twswypg.speed.sjccaschb.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: twswypg.speed.sjccaschb.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国西部圣何塞3-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: yo915bxdu.speed.sjccaschc.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: yo915bxdu.speed.sjccaschc.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国西部圣何塞4-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: yaci7bo5.speed.sjccaschd.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: yaci7bo5.speed.sjccaschd.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国中部芝加哥1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 40ch4vpmqj.speed.zjgsaduba.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 40ch4vpmqj.speed.zjgsaduba.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国中部芝加哥2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 4s9m26e6e8.speed.zjgsadubb.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 4s9m26e6e8.speed.zjgsadubb.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国中部芝加哥3-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ntvnberc.speed.zjgsadubc.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: ntvnberc.speed.zjgsadubc.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国中部芝加哥4-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: og0fsfhuip.speed.zjgsadubd.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: og0fsfhuip.speed.zjgsadubd.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国中部芝加哥5-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: db7t8e1q.speed.zjgsadube.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: db7t8e1q.speed.zjgsadube.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国中部芝加哥6-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zpei3n.speed.zjgsadubf.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: zpei3n.speed.zjgsadubf.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国中部芝加哥7-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: b6okjqtk.speed.zjgsadubg.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: b6okjqtk.speed.zjgsadubg.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国中部芝加哥8-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ddful6s54.speed.zjgsadubh.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: ddful6s54.speed.zjgsadubh.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国中部芝加哥9-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: poyhbu1c.speed.zjgsadubi.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: poyhbu1c.speed.zjgsadubi.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国西部洛杉矶1-高性能-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 2nqgteb2.speed.laxash.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 2nqgteb2.speed.laxash.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国南部达拉斯1-高性能-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gj05gk4p.speed.dlsashja.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: gj05gk4p.speed.dlsashja.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国东部纽约1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: egtd7m6r.speed.jysada.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: egtd7m6r.speed.jysada.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国西部洛杉矶2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zerc5e9xhf.speed.lssaasda.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: zerc5e9xhf.speed.lssaasda.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇺🇸 美国西部弗里蒙特1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: td33vud2vw.speed.awfiulaxa.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: td33vud2vw.speed.awfiulaxa.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇷🇴 罗马尼亚1-BT/PT/矿池-无分流直出-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: l3gmkof.speed.lmnyaca.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: l3gmkof.speed.lmnyaca.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇳🇬 尼日利亚1双ISP无分流直出-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cb7s2p0n.speed.nrlyacaca.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: cb7s2p0n.speed.nrlyacaca.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇹🇷 土耳其无分流直出-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 7iqvub.speed.iaugsuitrya.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 7iqvub.speed.iaugsuitrya.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇷🇺 俄罗斯-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vfbylrsf.speed.ruauba.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: vfbylrsf.speed.ruauba.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇩🇪 德国纽伦堡1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kt4vng0dm.speed.nlbasda.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: kt4vng0dm.speed.nlbasda.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇩🇪 德国纽伦堡2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 3b1xbjg.speed.nlbasdb.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 3b1xbjg.speed.nlbasdb.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇩🇪 德国纽伦堡4-高性能-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pp6e8pli.speed.nlbasdc.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: pp6e8pli.speed.nlbasdc.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇨🇦 加拿大1多伦多-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cnv5wsy3c.speed.cvbuiasda.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: cnv5wsy3c.speed.cvbuiasda.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇬🇧 英国伦敦1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bxf3wyu3nm.speed.cvbuiasdb.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: bxf3wyu3nm.speed.cvbuiasdb.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇬🇧 英国伦敦2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gass9phz7.speed.cvbuiasdc.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: gass9phz7.speed.cvbuiasdc.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇬🇧 英国伦敦3-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: x3egsc0r.speed.cvbuiasdd.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: x3egsc0r.speed.cvbuiasdd.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇬🇧 英国伦敦4-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: z4c5eb1.speed.cvbuiasde.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: z4c5eb1.speed.cvbuiasde.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇬🇧 英国伦敦5-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dsk6yyn22.speed.cvbuiasdf.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: dsk6yyn22.speed.cvbuiasdf.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇬🇧 英国伦敦6-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 17l3db916.speed.cvbuiasdg.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 17l3db916.speed.cvbuiasdg.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇪🇸 西班牙马德里1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: mg40dli.speed.xbyuaswda.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: mg40dli.speed.xbyuaswda.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇫🇷 法国马赛1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 8ysuk03.speed.fgaduyga.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 8ysuk03.speed.fgaduyga.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇳🇱 荷兰1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: svnfvs0.speed.nlsadadvsa.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: svnfvs0.speed.nlsadadvsa.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇳🇱 荷兰2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 0ceq5b.speed.nlsadadvsb.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 0ceq5b.speed.nlsadadvsb.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇮🇱 以色列1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hc2yberdb7.speed.iraadca.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: hc2yberdb7.speed.iraadca.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇮🇱 以色列2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 8g8hjwn9.speed.iraadcb.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 8g8hjwn9.speed.iraadcb.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇲🇽 墨西哥1-蒙特雷-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gtfehv.speed.maxmxga.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: gtfehv.speed.maxmxga.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇲🇽 墨西哥2-蒙特雷-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ow708s0g.speed.maxmxgb.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: ow708s0g.speed.maxmxgb.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇲🇽 墨西哥3-蒙特雷-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 1341lkszb.speed.maxmxgc.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 1341lkszb.speed.maxmxgc.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇲🇽 墨西哥4-蒙特雷-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 7yv8bi.speed.maxmxgd.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 7yv8bi.speed.maxmxgd.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇧🇷 巴西圣保罗1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: f0g1h0d.speed.baxafbasa.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: f0g1h0d.speed.baxafbasa.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇧🇷 巴西圣保罗2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 89f0kil.speed.baxafbasb.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 89f0kil.speed.baxafbasb.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇧🇷 巴西圣保罗3-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: k6vm6r0h2m.speed.baxafbasc.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: k6vm6r0h2m.speed.baxafbasc.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇧🇷 巴西维涅社1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 22y97wl.speed.baxafbasd.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 22y97wl.speed.baxafbasd.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇧🇷 巴西维涅社2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 1uugfhtgi.speed.baxafbase.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 1uugfhtgi.speed.baxafbase.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇧🇷 巴西维涅社3-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: yn22y7yu3.speed.baxafbasf.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: yn22y7yu3.speed.baxafbasf.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇧🇷 巴西维涅社4-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: snnzo4d.speed.baxafbasg.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: snnzo4d.speed.baxafbasg.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇨🇱 智利1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 4wvdx9abh5.speed.ziabsndia.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 4wvdx9abh5.speed.ziabsndia.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇨🇱 智利2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lg7dzloem.speed.ziabsndib.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: lg7dzloem.speed.ziabsndib.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇿🇦 南非约翰内斯堡1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 30i9ihl7.speed.nfyhnsbaa.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 30i9ihl7.speed.nfyhnsbaa.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇿🇦 南非约翰内斯堡2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zqgtfdb8v.speed.nfyhnsbab.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: zqgtfdb8v.speed.nfyhnsbab.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇿🇦 南非约翰内斯堡3-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: c20lpe.speed.nfyhnsbac.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: c20lpe.speed.nfyhnsbac.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇿🇦 南非约翰内斯堡4-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uxv89f0.speed.nfyhnsbad.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: uxv89f0.speed.nfyhnsbad.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇨🇴 哥伦比亚-波哥大1-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 9af1mrlf3.speed.bomdauta.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: 9af1mrlf3.speed.bomdauta.cccp.alipaybaidu.cn}}, udp: true}
-  - {name: 🇨🇴 哥伦比亚-波哥大2-CDN | 0x, server: 1763423541.bilibiliapp.cn, port: 443, type: vmess, uuid: dd1938be-833d-4cba-b60a-1b449f1dc602, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ytxxmzqi4.speed.bomdautb.cccp.alipaybaidu.cn, network: ws, ws-opts: {path: /, headers: {Host: ytxxmzqi4.speed.bomdautb.cccp.alipaybaidu.cn}}, udp: true}
+  - {name: 🇯🇵 JP3-HY2, server: jp3.dexlos.com, port: 5765, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP5-HY2, server: jp5.dexlos.com, port: 9710, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP9-HY2, server: jp9.dexlos.com, port: 17712, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP6-HY2, server: jp6.dexlos.com, port: 11591, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP8-HY2, server: jp8.dexlos.com, port: 15481, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP10-HY2, server: jp10.dexlos.com, port: 19504, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP7-HY2, server: jp7.dexlos.com, port: 13778, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP4-HY2, server: jp4.dexlos.com, port: 7940, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TW6-HY2, server: tw6.dexlos.com, port: 11422, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP1-HY2, server: jp1.dexlos.com, port: 1556, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TW3-HY2, server: tw3.dexlos.com, port: 5375, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US6-HY2, server: us6.dexlos.com, port: 11365, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US3-HY2, server: us3.dexlos.com, port: 5010, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US8-HY2, server: us8.dexlos.com, port: 15589, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US10-HY2, server: us10.dexlos.com, port: 19195, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TW7-HY2, server: tw7.dexlos.com, port: 13450, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TW4-HY2, server: tw4.dexlos.com, port: 7874, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US9-HY2, server: us9.dexlos.com, port: 17375, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US7-HY2, server: us7.dexlos.com, port: 13554, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US4-HY2, server: us4.dexlos.com, port: 7641, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US5-HY2, server: us5.dexlos.com, port: 9435, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TW2-HY2, server: tw2.dexlos.com, port: 3783, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港1-GCORE-CDN | 0x
-      - 🇭🇰 香港2-GCORE-CDN | 0x
-      - 🇸🇬 新加坡-CDN | 0x
-      - 🇯🇵 日本大阪1-CDN | 0x
-      - 🇯🇵 日本大阪2-CDN | 0x
-      - 🇯🇵 日本大阪3-CDN | 0x
-      - 🇯🇵 日本大阪4-CDN | 0x
-      - 🇯🇵 日本东京1-CDN | 0x
-      - 🇯🇵 日本东京2-CDN | 0x
-      - 🇯🇵 日本东京3-CDN | 0x
-      - 🇯🇵 日本东京4-CDN | 0x
-      - 🇹🇭 泰国1-CDN | 0x
-      - 🇮🇩 印度尼西亚1-CDN | 0x
-      - 🇮🇩 印度尼西亚2-CDN | 0x
-      - 🇮🇩 印度尼西亚3-CDN | 0x
-      - 🇮🇩 印度尼西亚4-CDN | 0x
-      - 🇮🇳 印度-海得拉巴1-CDN | 0x
-      - 🇮🇳 印度-海得拉巴2-CDN | 0x
-      - 🇮🇳 印度-海得拉巴3-CDN | 0x
-      - 🇮🇳 印度-海得拉巴4-CDN | 0x
-      - 🇦🇺 澳大利亚-墨尔本1-CDN | 0x
-      - 🇦🇺 澳大利亚-墨尔本2-CDN | 0x
-      - 🇸🇦 沙特阿拉伯-吉达1-CDN | 0x
-      - 🇸🇦 沙特阿拉伯-吉达2-CDN | 0x
-      - 🇺🇸 美国东部阿什本1-CDN | 0x
-      - 🇺🇸 美国东部阿什本2-CDN | 0x
-      - 🇺🇸 美国东部阿什本3-CDN | 0x
-      - 🇺🇸 美国西部圣何塞1-CDN | 0x
-      - 🇺🇸 美国西部圣何塞2-CDN | 0x
-      - 🇺🇸 美国西部圣何塞3-CDN | 0x
-      - 🇺🇸 美国西部圣何塞4-CDN | 0x
-      - 🇺🇸 美国中部芝加哥1-CDN | 0x
-      - 🇺🇸 美国中部芝加哥2-CDN | 0x
-      - 🇺🇸 美国中部芝加哥3-CDN | 0x
-      - 🇺🇸 美国中部芝加哥4-CDN | 0x
-      - 🇺🇸 美国中部芝加哥5-CDN | 0x
-      - 🇺🇸 美国中部芝加哥6-CDN | 0x
-      - 🇺🇸 美国中部芝加哥7-CDN | 0x
-      - 🇺🇸 美国中部芝加哥8-CDN | 0x
-      - 🇺🇸 美国中部芝加哥9-CDN | 0x
-      - 🇺🇸 美国西部洛杉矶1-高性能-CDN | 0x
-      - 🇺🇸 美国南部达拉斯1-高性能-CDN | 0x
-      - 🇺🇸 美国东部纽约1-CDN | 0x
-      - 🇺🇸 美国西部洛杉矶2-CDN | 0x
-      - 🇺🇸 美国西部弗里蒙特1-CDN | 0x
-      - 🇷🇴 罗马尼亚1-BT/PT/矿池-无分流直出-CDN | 0x
-      - 🇳🇬 尼日利亚1双ISP无分流直出-CDN | 0x
-      - 🇹🇷 土耳其无分流直出-CDN | 0x
-      - 🇷🇺 俄罗斯-CDN | 0x
-      - 🇩🇪 德国纽伦堡1-CDN | 0x
-      - 🇩🇪 德国纽伦堡2-CDN | 0x
-      - 🇩🇪 德国纽伦堡4-高性能-CDN | 0x
-      - 🇨🇦 加拿大1多伦多-CDN | 0x
-      - 🇬🇧 英国伦敦1-CDN | 0x
-      - 🇬🇧 英国伦敦2-CDN | 0x
-      - 🇬🇧 英国伦敦3-CDN | 0x
-      - 🇬🇧 英国伦敦4-CDN | 0x
-      - 🇬🇧 英国伦敦5-CDN | 0x
-      - 🇬🇧 英国伦敦6-CDN | 0x
-      - 🇪🇸 西班牙马德里1-CDN | 0x
-      - 🇫🇷 法国马赛1-CDN | 0x
-      - 🇳🇱 荷兰1-CDN | 0x
-      - 🇳🇱 荷兰2-CDN | 0x
-      - 🇮🇱 以色列1-CDN | 0x
-      - 🇮🇱 以色列2-CDN | 0x
-      - 🇲🇽 墨西哥1-蒙特雷-CDN | 0x
-      - 🇲🇽 墨西哥2-蒙特雷-CDN | 0x
-      - 🇲🇽 墨西哥3-蒙特雷-CDN | 0x
-      - 🇲🇽 墨西哥4-蒙特雷-CDN | 0x
-      - 🇧🇷 巴西圣保罗1-CDN | 0x
-      - 🇧🇷 巴西圣保罗2-CDN | 0x
-      - 🇧🇷 巴西圣保罗3-CDN | 0x
-      - 🇧🇷 巴西维涅社1-CDN | 0x
-      - 🇧🇷 巴西维涅社2-CDN | 0x
-      - 🇧🇷 巴西维涅社3-CDN | 0x
-      - 🇧🇷 巴西维涅社4-CDN | 0x
-      - 🇨🇱 智利1-CDN | 0x
-      - 🇨🇱 智利2-CDN | 0x
-      - 🇿🇦 南非约翰内斯堡1-CDN | 0x
-      - 🇿🇦 南非约翰内斯堡2-CDN | 0x
-      - 🇿🇦 南非约翰内斯堡3-CDN | 0x
-      - 🇿🇦 南非约翰内斯堡4-CDN | 0x
-      - 🇨🇴 哥伦比亚-波哥大1-CDN | 0x
-      - 🇨🇴 哥伦比亚-波哥大2-CDN | 0x
+      - 🇯🇵 JP3-HY2
+      - 🇯🇵 JP5-HY2
+      - 🇯🇵 JP9-HY2
+      - 🇯🇵 JP6-HY2
+      - 🇯🇵 JP8-HY2
+      - 🇯🇵 JP10-HY2
+      - 🇯🇵 JP7-HY2
+      - 🇯🇵 JP4-HY2
+      - 🇨🇳 TW6-HY2
+      - 🇯🇵 JP1-HY2
+      - 🇨🇳 TW3-HY2
+      - 🇺🇸 US6-HY2
+      - 🇺🇸 US3-HY2
+      - 🇺🇸 US8-HY2
+      - 🇺🇸 US10-HY2
+      - 🇨🇳 TW7-HY2
+      - 🇨🇳 TW4-HY2
+      - 🇺🇸 US9-HY2
+      - 🇺🇸 US7-HY2
+      - 🇺🇸 US4-HY2
+      - 🇺🇸 US5-HY2
+      - 🇨🇳 TW2-HY2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港1-GCORE-CDN | 0x
-      - 🇭🇰 香港2-GCORE-CDN | 0x
-      - 🇸🇬 新加坡-CDN | 0x
-      - 🇯🇵 日本大阪1-CDN | 0x
-      - 🇯🇵 日本大阪2-CDN | 0x
-      - 🇯🇵 日本大阪3-CDN | 0x
-      - 🇯🇵 日本大阪4-CDN | 0x
-      - 🇯🇵 日本东京1-CDN | 0x
-      - 🇯🇵 日本东京2-CDN | 0x
-      - 🇯🇵 日本东京3-CDN | 0x
-      - 🇯🇵 日本东京4-CDN | 0x
-      - 🇹🇭 泰国1-CDN | 0x
-      - 🇮🇩 印度尼西亚1-CDN | 0x
-      - 🇮🇩 印度尼西亚2-CDN | 0x
-      - 🇮🇩 印度尼西亚3-CDN | 0x
-      - 🇮🇩 印度尼西亚4-CDN | 0x
-      - 🇮🇳 印度-海得拉巴1-CDN | 0x
-      - 🇮🇳 印度-海得拉巴2-CDN | 0x
-      - 🇮🇳 印度-海得拉巴3-CDN | 0x
-      - 🇮🇳 印度-海得拉巴4-CDN | 0x
-      - 🇦🇺 澳大利亚-墨尔本1-CDN | 0x
-      - 🇦🇺 澳大利亚-墨尔本2-CDN | 0x
-      - 🇸🇦 沙特阿拉伯-吉达1-CDN | 0x
-      - 🇸🇦 沙特阿拉伯-吉达2-CDN | 0x
-      - 🇺🇸 美国东部阿什本1-CDN | 0x
-      - 🇺🇸 美国东部阿什本2-CDN | 0x
-      - 🇺🇸 美国东部阿什本3-CDN | 0x
-      - 🇺🇸 美国西部圣何塞1-CDN | 0x
-      - 🇺🇸 美国西部圣何塞2-CDN | 0x
-      - 🇺🇸 美国西部圣何塞3-CDN | 0x
-      - 🇺🇸 美国西部圣何塞4-CDN | 0x
-      - 🇺🇸 美国中部芝加哥1-CDN | 0x
-      - 🇺🇸 美国中部芝加哥2-CDN | 0x
-      - 🇺🇸 美国中部芝加哥3-CDN | 0x
-      - 🇺🇸 美国中部芝加哥4-CDN | 0x
-      - 🇺🇸 美国中部芝加哥5-CDN | 0x
-      - 🇺🇸 美国中部芝加哥6-CDN | 0x
-      - 🇺🇸 美国中部芝加哥7-CDN | 0x
-      - 🇺🇸 美国中部芝加哥8-CDN | 0x
-      - 🇺🇸 美国中部芝加哥9-CDN | 0x
-      - 🇺🇸 美国西部洛杉矶1-高性能-CDN | 0x
-      - 🇺🇸 美国南部达拉斯1-高性能-CDN | 0x
-      - 🇺🇸 美国东部纽约1-CDN | 0x
-      - 🇺🇸 美国西部洛杉矶2-CDN | 0x
-      - 🇺🇸 美国西部弗里蒙特1-CDN | 0x
-      - 🇷🇴 罗马尼亚1-BT/PT/矿池-无分流直出-CDN | 0x
-      - 🇳🇬 尼日利亚1双ISP无分流直出-CDN | 0x
-      - 🇹🇷 土耳其无分流直出-CDN | 0x
-      - 🇷🇺 俄罗斯-CDN | 0x
-      - 🇩🇪 德国纽伦堡1-CDN | 0x
-      - 🇩🇪 德国纽伦堡2-CDN | 0x
-      - 🇩🇪 德国纽伦堡4-高性能-CDN | 0x
-      - 🇨🇦 加拿大1多伦多-CDN | 0x
-      - 🇬🇧 英国伦敦1-CDN | 0x
-      - 🇬🇧 英国伦敦2-CDN | 0x
-      - 🇬🇧 英国伦敦3-CDN | 0x
-      - 🇬🇧 英国伦敦4-CDN | 0x
-      - 🇬🇧 英国伦敦5-CDN | 0x
-      - 🇬🇧 英国伦敦6-CDN | 0x
-      - 🇪🇸 西班牙马德里1-CDN | 0x
-      - 🇫🇷 法国马赛1-CDN | 0x
-      - 🇳🇱 荷兰1-CDN | 0x
-      - 🇳🇱 荷兰2-CDN | 0x
-      - 🇮🇱 以色列1-CDN | 0x
-      - 🇮🇱 以色列2-CDN | 0x
-      - 🇲🇽 墨西哥1-蒙特雷-CDN | 0x
-      - 🇲🇽 墨西哥2-蒙特雷-CDN | 0x
-      - 🇲🇽 墨西哥3-蒙特雷-CDN | 0x
-      - 🇲🇽 墨西哥4-蒙特雷-CDN | 0x
-      - 🇧🇷 巴西圣保罗1-CDN | 0x
-      - 🇧🇷 巴西圣保罗2-CDN | 0x
-      - 🇧🇷 巴西圣保罗3-CDN | 0x
-      - 🇧🇷 巴西维涅社1-CDN | 0x
-      - 🇧🇷 巴西维涅社2-CDN | 0x
-      - 🇧🇷 巴西维涅社3-CDN | 0x
-      - 🇧🇷 巴西维涅社4-CDN | 0x
-      - 🇨🇱 智利1-CDN | 0x
-      - 🇨🇱 智利2-CDN | 0x
-      - 🇿🇦 南非约翰内斯堡1-CDN | 0x
-      - 🇿🇦 南非约翰内斯堡2-CDN | 0x
-      - 🇿🇦 南非约翰内斯堡3-CDN | 0x
-      - 🇿🇦 南非约翰内斯堡4-CDN | 0x
-      - 🇨🇴 哥伦比亚-波哥大1-CDN | 0x
-      - 🇨🇴 哥伦比亚-波哥大2-CDN | 0x
+      - 🇯🇵 JP3-HY2
+      - 🇯🇵 JP5-HY2
+      - 🇯🇵 JP9-HY2
+      - 🇯🇵 JP6-HY2
+      - 🇯🇵 JP8-HY2
+      - 🇯🇵 JP10-HY2
+      - 🇯🇵 JP7-HY2
+      - 🇯🇵 JP4-HY2
+      - 🇨🇳 TW6-HY2
+      - 🇯🇵 JP1-HY2
+      - 🇨🇳 TW3-HY2
+      - 🇺🇸 US6-HY2
+      - 🇺🇸 US3-HY2
+      - 🇺🇸 US8-HY2
+      - 🇺🇸 US10-HY2
+      - 🇨🇳 TW7-HY2
+      - 🇨🇳 TW4-HY2
+      - 🇺🇸 US9-HY2
+      - 🇺🇸 US7-HY2
+      - 🇺🇸 US4-HY2
+      - 🇺🇸 US5-HY2
+      - 🇨🇳 TW2-HY2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -286,90 +100,28 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港1-GCORE-CDN | 0x
-      - 🇭🇰 香港2-GCORE-CDN | 0x
-      - 🇸🇬 新加坡-CDN | 0x
-      - 🇯🇵 日本大阪1-CDN | 0x
-      - 🇯🇵 日本大阪2-CDN | 0x
-      - 🇯🇵 日本大阪3-CDN | 0x
-      - 🇯🇵 日本大阪4-CDN | 0x
-      - 🇯🇵 日本东京1-CDN | 0x
-      - 🇯🇵 日本东京2-CDN | 0x
-      - 🇯🇵 日本东京3-CDN | 0x
-      - 🇯🇵 日本东京4-CDN | 0x
-      - 🇹🇭 泰国1-CDN | 0x
-      - 🇮🇩 印度尼西亚1-CDN | 0x
-      - 🇮🇩 印度尼西亚2-CDN | 0x
-      - 🇮🇩 印度尼西亚3-CDN | 0x
-      - 🇮🇩 印度尼西亚4-CDN | 0x
-      - 🇮🇳 印度-海得拉巴1-CDN | 0x
-      - 🇮🇳 印度-海得拉巴2-CDN | 0x
-      - 🇮🇳 印度-海得拉巴3-CDN | 0x
-      - 🇮🇳 印度-海得拉巴4-CDN | 0x
-      - 🇦🇺 澳大利亚-墨尔本1-CDN | 0x
-      - 🇦🇺 澳大利亚-墨尔本2-CDN | 0x
-      - 🇸🇦 沙特阿拉伯-吉达1-CDN | 0x
-      - 🇸🇦 沙特阿拉伯-吉达2-CDN | 0x
-      - 🇺🇸 美国东部阿什本1-CDN | 0x
-      - 🇺🇸 美国东部阿什本2-CDN | 0x
-      - 🇺🇸 美国东部阿什本3-CDN | 0x
-      - 🇺🇸 美国西部圣何塞1-CDN | 0x
-      - 🇺🇸 美国西部圣何塞2-CDN | 0x
-      - 🇺🇸 美国西部圣何塞3-CDN | 0x
-      - 🇺🇸 美国西部圣何塞4-CDN | 0x
-      - 🇺🇸 美国中部芝加哥1-CDN | 0x
-      - 🇺🇸 美国中部芝加哥2-CDN | 0x
-      - 🇺🇸 美国中部芝加哥3-CDN | 0x
-      - 🇺🇸 美国中部芝加哥4-CDN | 0x
-      - 🇺🇸 美国中部芝加哥5-CDN | 0x
-      - 🇺🇸 美国中部芝加哥6-CDN | 0x
-      - 🇺🇸 美国中部芝加哥7-CDN | 0x
-      - 🇺🇸 美国中部芝加哥8-CDN | 0x
-      - 🇺🇸 美国中部芝加哥9-CDN | 0x
-      - 🇺🇸 美国西部洛杉矶1-高性能-CDN | 0x
-      - 🇺🇸 美国南部达拉斯1-高性能-CDN | 0x
-      - 🇺🇸 美国东部纽约1-CDN | 0x
-      - 🇺🇸 美国西部洛杉矶2-CDN | 0x
-      - 🇺🇸 美国西部弗里蒙特1-CDN | 0x
-      - 🇷🇴 罗马尼亚1-BT/PT/矿池-无分流直出-CDN | 0x
-      - 🇳🇬 尼日利亚1双ISP无分流直出-CDN | 0x
-      - 🇹🇷 土耳其无分流直出-CDN | 0x
-      - 🇷🇺 俄罗斯-CDN | 0x
-      - 🇩🇪 德国纽伦堡1-CDN | 0x
-      - 🇩🇪 德国纽伦堡2-CDN | 0x
-      - 🇩🇪 德国纽伦堡4-高性能-CDN | 0x
-      - 🇨🇦 加拿大1多伦多-CDN | 0x
-      - 🇬🇧 英国伦敦1-CDN | 0x
-      - 🇬🇧 英国伦敦2-CDN | 0x
-      - 🇬🇧 英国伦敦3-CDN | 0x
-      - 🇬🇧 英国伦敦4-CDN | 0x
-      - 🇬🇧 英国伦敦5-CDN | 0x
-      - 🇬🇧 英国伦敦6-CDN | 0x
-      - 🇪🇸 西班牙马德里1-CDN | 0x
-      - 🇫🇷 法国马赛1-CDN | 0x
-      - 🇳🇱 荷兰1-CDN | 0x
-      - 🇳🇱 荷兰2-CDN | 0x
-      - 🇮🇱 以色列1-CDN | 0x
-      - 🇮🇱 以色列2-CDN | 0x
-      - 🇲🇽 墨西哥1-蒙特雷-CDN | 0x
-      - 🇲🇽 墨西哥2-蒙特雷-CDN | 0x
-      - 🇲🇽 墨西哥3-蒙特雷-CDN | 0x
-      - 🇲🇽 墨西哥4-蒙特雷-CDN | 0x
-      - 🇧🇷 巴西圣保罗1-CDN | 0x
-      - 🇧🇷 巴西圣保罗2-CDN | 0x
-      - 🇧🇷 巴西圣保罗3-CDN | 0x
-      - 🇧🇷 巴西维涅社1-CDN | 0x
-      - 🇧🇷 巴西维涅社2-CDN | 0x
-      - 🇧🇷 巴西维涅社3-CDN | 0x
-      - 🇧🇷 巴西维涅社4-CDN | 0x
-      - 🇨🇱 智利1-CDN | 0x
-      - 🇨🇱 智利2-CDN | 0x
-      - 🇿🇦 南非约翰内斯堡1-CDN | 0x
-      - 🇿🇦 南非约翰内斯堡2-CDN | 0x
-      - 🇿🇦 南非约翰内斯堡3-CDN | 0x
-      - 🇿🇦 南非约翰内斯堡4-CDN | 0x
-      - 🇨🇴 哥伦比亚-波哥大1-CDN | 0x
-      - 🇨🇴 哥伦比亚-波哥大2-CDN | 0x
+      - 🇯🇵 JP3-HY2
+      - 🇯🇵 JP5-HY2
+      - 🇯🇵 JP9-HY2
+      - 🇯🇵 JP6-HY2
+      - 🇯🇵 JP8-HY2
+      - 🇯🇵 JP10-HY2
+      - 🇯🇵 JP7-HY2
+      - 🇯🇵 JP4-HY2
+      - 🇨🇳 TW6-HY2
+      - 🇯🇵 JP1-HY2
+      - 🇨🇳 TW3-HY2
+      - 🇺🇸 US6-HY2
+      - 🇺🇸 US3-HY2
+      - 🇺🇸 US8-HY2
+      - 🇺🇸 US10-HY2
+      - 🇨🇳 TW7-HY2
+      - 🇨🇳 TW4-HY2
+      - 🇺🇸 US9-HY2
+      - 🇺🇸 US7-HY2
+      - 🇺🇸 US4-HY2
+      - 🇺🇸 US5-HY2
+      - 🇨🇳 TW2-HY2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
