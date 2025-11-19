@@ -5,84 +5,57 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 JP3-HY2, server: jp3.dexlos.com, port: 5765, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP5-HY2, server: jp5.dexlos.com, port: 9710, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP9-HY2, server: jp9.dexlos.com, port: 17712, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP6-HY2, server: jp6.dexlos.com, port: 11591, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP8-HY2, server: jp8.dexlos.com, port: 15481, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP10-HY2, server: jp10.dexlos.com, port: 19504, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP7-HY2, server: jp7.dexlos.com, port: 13778, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP4-HY2, server: jp4.dexlos.com, port: 7940, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TW6-HY2, server: tw6.dexlos.com, port: 11422, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP1-HY2, server: jp1.dexlos.com, port: 1556, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TW3-HY2, server: tw3.dexlos.com, port: 5375, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US6-HY2, server: us6.dexlos.com, port: 11365, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US3-HY2, server: us3.dexlos.com, port: 5010, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US8-HY2, server: us8.dexlos.com, port: 15589, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US10-HY2, server: us10.dexlos.com, port: 19195, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TW7-HY2, server: tw7.dexlos.com, port: 13450, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TW4-HY2, server: tw4.dexlos.com, port: 7874, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US9-HY2, server: us9.dexlos.com, port: 17375, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US7-HY2, server: us7.dexlos.com, port: 13554, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US4-HY2, server: us4.dexlos.com, port: 7641, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US5-HY2, server: us5.dexlos.com, port: 9435, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TW2-HY2, server: tw2.dexlos.com, port: 3783, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true}
+  - {name: '永久官网https://kelayun.notepin.co', server: jp4.dexlos.com, port: 7722, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true, fast-open: false}
+  - {name: '发布页https://down.nigx.cn/kelayun.github.io', server: jp1.dexlos.com, port: 1552, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true, fast-open: false}
+  - {name: 最低2元1000G, server: jp9.dexlos.com, port: 17323, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true, fast-open: false}
+  - {name: 最高200元永久无限流量, server: jp8.dexlos.com, port: 15883, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true, fast-open: false}
+  - {name: 1, server: jp3.dexlos.com, port: 5492, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true, fast-open: false}
+  - {name: 2, server: jp6.dexlos.com, port: 11546, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true, fast-open: false}
+  - {name: 3, server: jp7.dexlos.com, port: 13708, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true, fast-open: false}
+  - {name: 4, server: jp5.dexlos.com, port: 9605, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true, fast-open: false}
+  - {name: 5, server: tw10.dexlos.com, port: 19103, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true, fast-open: false}
+  - {name: 6, server: us5.dexlos.com, port: 9871, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true, fast-open: false}
+  - {name: 7, server: us7.dexlos.com, port: 13749, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true, fast-open: false}
+  - {name: 8, server: us3.dexlos.com, port: 5838, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true, fast-open: false}
+  - {name: 9, server: us10.dexlos.com, port: 19165, type: hysteria2, password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61, skip-cert-verify: true, udp: true, fast-open: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 JP3-HY2
-      - 🇯🇵 JP5-HY2
-      - 🇯🇵 JP9-HY2
-      - 🇯🇵 JP6-HY2
-      - 🇯🇵 JP8-HY2
-      - 🇯🇵 JP10-HY2
-      - 🇯🇵 JP7-HY2
-      - 🇯🇵 JP4-HY2
-      - 🇨🇳 TW6-HY2
-      - 🇯🇵 JP1-HY2
-      - 🇨🇳 TW3-HY2
-      - 🇺🇸 US6-HY2
-      - 🇺🇸 US3-HY2
-      - 🇺🇸 US8-HY2
-      - 🇺🇸 US10-HY2
-      - 🇨🇳 TW7-HY2
-      - 🇨🇳 TW4-HY2
-      - 🇺🇸 US9-HY2
-      - 🇺🇸 US7-HY2
-      - 🇺🇸 US4-HY2
-      - 🇺🇸 US5-HY2
-      - 🇨🇳 TW2-HY2
+      - 永久官网https://kelayun.notepin.co
+      - 发布页https://down.nigx.cn/kelayun.github.io
+      - 最低2元1000G
+      - 最高200元永久无限流量
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
+      - "9"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 JP3-HY2
-      - 🇯🇵 JP5-HY2
-      - 🇯🇵 JP9-HY2
-      - 🇯🇵 JP6-HY2
-      - 🇯🇵 JP8-HY2
-      - 🇯🇵 JP10-HY2
-      - 🇯🇵 JP7-HY2
-      - 🇯🇵 JP4-HY2
-      - 🇨🇳 TW6-HY2
-      - 🇯🇵 JP1-HY2
-      - 🇨🇳 TW3-HY2
-      - 🇺🇸 US6-HY2
-      - 🇺🇸 US3-HY2
-      - 🇺🇸 US8-HY2
-      - 🇺🇸 US10-HY2
-      - 🇨🇳 TW7-HY2
-      - 🇨🇳 TW4-HY2
-      - 🇺🇸 US9-HY2
-      - 🇺🇸 US7-HY2
-      - 🇺🇸 US4-HY2
-      - 🇺🇸 US5-HY2
-      - 🇨🇳 TW2-HY2
+      - 永久官网https://kelayun.notepin.co
+      - 发布页https://down.nigx.cn/kelayun.github.io
+      - 最低2元1000G
+      - 最高200元永久无限流量
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
+      - "9"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -100,28 +73,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 JP3-HY2
-      - 🇯🇵 JP5-HY2
-      - 🇯🇵 JP9-HY2
-      - 🇯🇵 JP6-HY2
-      - 🇯🇵 JP8-HY2
-      - 🇯🇵 JP10-HY2
-      - 🇯🇵 JP7-HY2
-      - 🇯🇵 JP4-HY2
-      - 🇨🇳 TW6-HY2
-      - 🇯🇵 JP1-HY2
-      - 🇨🇳 TW3-HY2
-      - 🇺🇸 US6-HY2
-      - 🇺🇸 US3-HY2
-      - 🇺🇸 US8-HY2
-      - 🇺🇸 US10-HY2
-      - 🇨🇳 TW7-HY2
-      - 🇨🇳 TW4-HY2
-      - 🇺🇸 US9-HY2
-      - 🇺🇸 US7-HY2
-      - 🇺🇸 US4-HY2
-      - 🇺🇸 US5-HY2
-      - 🇨🇳 TW2-HY2
+      - 永久官网https://kelayun.notepin.co
+      - 发布页https://down.nigx.cn/kelayun.github.io
+      - 最低2元1000G
+      - 最高200元永久无限流量
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
+      - "9"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
