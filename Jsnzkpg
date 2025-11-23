@@ -6,105 +6,101 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - name: 发布页https://kelayun.notepin.co
-    server: 208.87.242.77
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
+    server: 129.159.97.206
+    port: 51000
+    ports: 51000-53000
+    mport: 51000-53000
     udp: true
     skip-cert-verify: true
-    sni: www.apple.com
+    sni: cn.cremedelamer.com
     type: hysteria2
-    password: 312d3555-d7a3-4674-869a-0e5b7ee03a35
+    password: 82508c48-c489-4a30-845f-e51c97ed0ec7
     auth: ""
     fast-open: false
-    servername: www.apple.com
+    servername: cn.cremedelamer.com
   - name: 最低2元1000G
-    server: 208.87.242.97
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
+    server: 129.159.97.206
+    port: 51000
+    ports: 51000-53000
+    mport: 51000-53000
     udp: true
     skip-cert-verify: true
-    sni: www.apple.com
+    sni: cn.cremedelamer.com
     type: hysteria2
-    password: 312d3555-d7a3-4674-869a-0e5b7ee03a35
+    password: 82508c48-c489-4a30-845f-e51c97ed0ec7
     auth: ""
     fast-open: false
-    servername: www.apple.com
+    servername: cn.cremedelamer.com
   - name: 最高200元终身无限流量
-    server: 134.195.101.191
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
+    server: 129.159.97.206
+    port: 51000
+    ports: 51000-53000
+    mport: 51000-53000
     udp: true
     skip-cert-verify: true
-    sni: www.apple.com
+    sni: cn.cremedelamer.com
     type: hysteria2
-    password: 312d3555-d7a3-4674-869a-0e5b7ee03a35
+    password: 82508c48-c489-4a30-845f-e51c97ed0ec7
     auth: ""
     fast-open: false
-    servername: www.apple.com
-  - name: 不限速/不限设备/三网通用
-    server: 134.195.101.191
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
-    skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: 312d3555-d7a3-4674-869a-0e5b7ee03a35
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
+    servername: cn.cremedelamer.com
   - name: 解锁奈飞/TikTok/ChatGPT
-    type: vless
-    server: 69.84.182.13
-    port: 443
-    uuid: 312d3555-d7a3-4674-869a-0e5b7ee03a35
+    server: 129.146.215.233
+    port: 51000
+    ports: 51000-53000
+    mport: 51000-53000
     udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /kbjc/fr1
-      headers:
-        Host: fr-1-fr-1.aiopen.sbs
-    alterId: 0
-    cipher: ""
+    skip-cert-verify: true
+    sni: cn.cremedelamer.com
+    type: hysteria2
+    password: 82508c48-c489-4a30-845f-e51c97ed0ec7
+    auth: ""
+    fast-open: false
+    servername: cn.cremedelamer.com
+  - name: 不限速/不限设备/三网通用
+    server: 192.9.165.40
+    port: 51000
+    ports: 51000-53000
+    mport: 51000-53000
+    udp: true
+    skip-cert-verify: true
+    sni: cn.cremedelamer.com
+    type: hysteria2
+    password: 82508c48-c489-4a30-845f-e51c97ed0ec7
+    auth: ""
+    fast-open: false
+    servername: cn.cremedelamer.com
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - "发布页https://kelayun.notepin.co"
-      - "最低2元1000G"
-      - "最高200元终身无限流量"
-      - "不限速/不限设备/三网通用"
+      - 发布页https://kelayun.notepin.co
+      - 最低2元1000G
+      - 最高200元终身无限流量
       - 解锁奈飞/TikTok/ChatGPT
+      - 不限速/不限设备/三网通用
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - "发布页https://kelayun.notepin.co"
-      - "最低2元1000G"
-      - "最高200元终身无限流量"
-      - "不限速/不限设备/三网通用"
+      - 发布页https://kelayun.notepin.co
+      - 最低2元1000G
+      - 最高200元终身无限流量
       - 解锁奈飞/TikTok/ChatGPT
+      - 不限速/不限设备/三网通用
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - "发布页https://kelayun.notepin.co"
-      - "最低2元1000G"
-      - "最高200元终身无限流量"
-      - "不限速/不限设备/三网通用"
+      - 发布页https://kelayun.notepin.co
+      - 最低2元1000G
+      - 最高200元终身无限流量
       - 解锁奈飞/TikTok/ChatGPT
+      - 不限速/不限设备/三网通用
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
