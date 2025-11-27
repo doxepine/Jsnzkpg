@@ -6,157 +6,188 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - name: 官网https://kelayun.notepin.co
-    server: www.visa.com.hk
-    port: 443
-    type: vless
-    uuid: 2ce5e846-14ba-4973-8c47-40b5fdc5678b
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-sfo3.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-sfo3.xhs152.shop
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-sfo3.xhs152.shop
-  - name: 最低2元1000G
-    server: ct.877774.xyz
-    port: 443
-    type: vless
-    uuid: 2ce5e846-14ba-4973-8c47-40b5fdc5678b
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-lon1.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-lon1.xhs152.shop
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-lon1.xhs152.shop
-  - name: 最高200元终身无限流量
-    server: www.visa.com.hk
-    port: 443
-    type: vless
-    uuid: 2ce5e846-14ba-4973-8c47-40b5fdc5678b
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-syd1.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-syd1.xhs152.shop
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-syd1.xhs152.shop
-  - name: 新疆西藏福建可用
-    server: freev2.cloudflare.182682.xyz
-    port: 443
-    type: vless
-    uuid: 2ce5e846-14ba-4973-8c47-40b5fdc5678b
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-blr1.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-blr1.xhs152.shop
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-blr1.xhs152.shop
-  - name: 不限速不限设备
-    server: ct.877774.xyz
-    port: 443
-    type: vless
-    uuid: 2ce5e846-14ba-4973-8c47-40b5fdc5678b
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-tor1.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-tor1.xhs152.shop
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-tor1.xhs152.shop
-  - name: 解锁奈飞
-    server: freeyx.cloudflare88.eu.org
-    port: 443
-    type: vless
-    uuid: 2ce5e846-14ba-4973-8c47-40b5fdc5678b
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-sgp1.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-sgp1.xhs152.shop
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-sgp1.xhs152.shop
-  - name: 解锁TikTok
-    server: www.visa.com.hk
-    port: 443
-    type: vless
-    uuid: 2ce5e846-14ba-4973-8c47-40b5fdc5678b
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-fra1.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-fra1.xhs152.shop
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-fra1.xhs152.shop
-  - name: 解锁ChatGPT
-    server: ct.877774.xyz
-    port: 443
-    type: vless
-    uuid: 2ce5e846-14ba-4973-8c47-40b5fdc5678b
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: oracle-id-batam.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: oracle-id-batam.xhs152.shop
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: oracle-id-batam.xhs152.shop
+    server: span.yuetu2.com
+    port: 10086
+    type: ss
+    cipher: chacha20-ietf
+    password: jEq4Nc
+    udp: true
+  - name: 🇨🇳 【SVIP】台湾 1  专线
+    server: gz-ct01.yuetujsq.cc
+    port: 41206
+    type: ssr
+    cipher: aes-256-cfb
+    password: 8gyG06
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 1094414:jEq4Nc
+    obfs-param: microsoft.com
+    udp: true
+  - name: 🇨🇳 【SVIP】台湾 2  专线
+    server: sz-cu01.yuetujsq.cc
+    port: 41206
+    type: ssr
+    cipher: aes-256-cfb
+    password: 8gyG06
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 1094414:jEq4Nc
+    obfs-param: microsoft.com
+    udp: true
+  - name: 🇨🇳 【SVIP】台湾 3 专线
+    server: gz-ct01.yuetujsq.cc
+    port: 41206
+    type: ssr
+    cipher: aes-256-cfb
+    password: 8gyG06
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 1094414:jEq4Nc
+    obfs-param: microsoft.com
+    udp: true
+  - name: 🇯🇵 【SVIP】日本 1 专线
+    server: 113.108.2.124
+    port: 41205
+    type: ssr
+    cipher: aes-256-cfb
+    password: 8gyG06
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 1094414:jEq4Nc
+    obfs-param: microsoft.com
+    udp: true
+  - name: 🇯🇵 【SVIP】日本 2 专线
+    server: gz-ct01.yuetujsq.cc
+    port: 41207
+    type: ssr
+    cipher: aes-256-cfb
+    password: 8gyG06
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 1094414:jEq4Nc
+    obfs-param: microsoft.com
+    udp: true
+  - name: 🇯🇵 【SVIP】日本 3 专线
+    server: gz-ct01.yuetujsq.cc
+    port: 41207
+    type: ssr
+    cipher: aes-256-cfb
+    password: 8gyG06
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 1094414:jEq4Nc
+    obfs-param: microsoft.com
+    udp: true
+  - name: 🇺🇸 【SVIP】美国 1 专线
+    server: sz-cm02.yuetujsq.cc
+    port: 41218
+    type: ssr
+    cipher: aes-256-cfb
+    password: 8gyG06
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 1094414:jEq4Nc
+    obfs-param: microsoft.com
+    udp: true
+  - name: 🇺🇸 【SVIP】美国 2 专线
+    server: sz-cu01.yuetujsq.cc
+    port: 41228
+    type: ssr
+    cipher: aes-256-cfb
+    password: 8gyG06
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 1094414:jEq4Nc
+    obfs-param: microsoft.com
+    udp: true
+  - name: 🇰🇷 【SVIP】韩国 1 专线
+    server: sz-cm02.yuetujsq.cc
+    port: 41209
+    type: ssr
+    cipher: aes-256-cfb
+    password: 8gyG06
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 1094414:jEq4Nc
+    obfs-param: microsoft.com
+    udp: true
+  - name: 🇰🇷 【SVIP】韩国 2 专线
+    server: sz-cu01.yuetujsq.cc
+    port: 41209
+    type: ssr
+    cipher: aes-256-cfb
+    password: 8gyG06
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 1094414:jEq4Nc
+    obfs-param: microsoft.com
+    udp: true
+  - name: 🇰🇷 【SVIP】韩国 3 专线
+    server: gz-ct01.yuetujsq.cc
+    port: 41309
+    type: ssr
+    cipher: aes-256-cfb
+    password: 8gyG06
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 1094414:jEq4Nc
+    obfs-param: microsoft.com
+    udp: true
+  - name: 🇭🇰 【SVIP】香港 1 专线
+    server: gz-ct01.yuetujsq.cc
+    port: 41211
+    type: ssr
+    cipher: aes-256-cfb
+    password: 8gyG06
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 1094414:jEq4Nc
+    obfs-param: microsoft.com
+    udp: true
+  - name: 🇭🇰 【SVIP】香港 2 专线
+    server: gz-ct01.yuetujsq.cc
+    port: 41203
+    type: ssr
+    cipher: aes-256-cfb
+    password: 8gyG06
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 1094414:jEq4Nc
+    obfs-param: microsoft.com
+    udp: true
+  - name: 🇭🇰 【SVIP】香港 3 专线
+    server: sz-cu01.yuetujsq.cc
+    port: 41222
+    type: ssr
+    cipher: aes-256-cfb
+    password: 8gyG06
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 1094414:jEq4Nc
+    obfs-param: microsoft.com
+    udp: true
+  - name: 🇭🇰 【SVIP】香港 4 专线
+    server: gz-ct01.yuetujsq.cc
+    port: 41203
+    type: ssr
+    cipher: aes-256-cfb
+    password: 8gyG06
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 1094414:jEq4Nc
+    obfs-param: microsoft.com
+    udp: true
+  - name: 请选择节点
+    server: sz-cm02.yuetujsq.cc
+    port: 41218
+    type: ssr
+    cipher: aes-256-cfb
+    password: 8gyG06
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 1094414:jEq4Nc
+    obfs-param: microsoft.com
+    udp: true
 proxy-groups:
   - name: Haita Cloud
     type: select
@@ -164,39 +195,66 @@ proxy-groups:
       - 自动选择
       - 故障转移
       - 官网https://kelayun.notepin.co
-      - 最低2元1000G
-      - 最高200元终身无限流量
-      - 新疆西藏福建可用
-      - 不限速不限设备
-      - 解锁奈飞
-      - 解锁TikTok
-      - 解锁ChatGPT
+      - 🇨🇳 【SVIP】台湾 1  专线
+      - 🇨🇳 【SVIP】台湾 2  专线
+      - 🇨🇳 【SVIP】台湾 3 专线
+      - 🇯🇵 【SVIP】日本 1 专线
+      - 🇯🇵 【SVIP】日本 2 专线
+      - 🇯🇵 【SVIP】日本 3 专线
+      - 🇺🇸 【SVIP】美国 1 专线
+      - 🇺🇸 【SVIP】美国 2 专线
+      - 🇰🇷 【SVIP】韩国 1 专线
+      - 🇰🇷 【SVIP】韩国 2 专线
+      - 🇰🇷 【SVIP】韩国 3 专线
+      - 🇭🇰 【SVIP】香港 1 专线
+      - 🇭🇰 【SVIP】香港 2 专线
+      - 🇭🇰 【SVIP】香港 3 专线
+      - 🇭🇰 【SVIP】香港 4 专线
+      - 请选择节点
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
       - 官网https://kelayun.notepin.co
-      - 最低2元1000G
-      - 最高200元终身无限流量
-      - 新疆西藏福建可用
-      - 不限速不限设备
-      - 解锁奈飞
-      - 解锁TikTok
-      - 解锁ChatGPT
+      - 🇨🇳 【SVIP】台湾 1  专线
+      - 🇨🇳 【SVIP】台湾 2  专线
+      - 🇨🇳 【SVIP】台湾 3 专线
+      - 🇯🇵 【SVIP】日本 1 专线
+      - 🇯🇵 【SVIP】日本 2 专线
+      - 🇯🇵 【SVIP】日本 3 专线
+      - 🇺🇸 【SVIP】美国 1 专线
+      - 🇺🇸 【SVIP】美国 2 专线
+      - 🇰🇷 【SVIP】韩国 1 专线
+      - 🇰🇷 【SVIP】韩国 2 专线
+      - 🇰🇷 【SVIP】韩国 3 专线
+      - 🇭🇰 【SVIP】香港 1 专线
+      - 🇭🇰 【SVIP】香港 2 专线
+      - 🇭🇰 【SVIP】香港 3 专线
+      - 🇭🇰 【SVIP】香港 4 专线
+      - 请选择节点
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
       - 官网https://kelayun.notepin.co
-      - 最低2元1000G
-      - 最高200元终身无限流量
-      - 新疆西藏福建可用
-      - 不限速不限设备
-      - 解锁奈飞
-      - 解锁TikTok
-      - 解锁ChatGPT
+      - 🇨🇳 【SVIP】台湾 1  专线
+      - 🇨🇳 【SVIP】台湾 2  专线
+      - 🇨🇳 【SVIP】台湾 3 专线
+      - 🇯🇵 【SVIP】日本 1 专线
+      - 🇯🇵 【SVIP】日本 2 专线
+      - 🇯🇵 【SVIP】日本 3 专线
+      - 🇺🇸 【SVIP】美国 1 专线
+      - 🇺🇸 【SVIP】美国 2 专线
+      - 🇰🇷 【SVIP】韩国 1 专线
+      - 🇰🇷 【SVIP】韩国 2 专线
+      - 🇰🇷 【SVIP】韩国 3 专线
+      - 🇭🇰 【SVIP】香港 1 专线
+      - 🇭🇰 【SVIP】香港 2 专线
+      - 🇭🇰 【SVIP】香港 3 专线
+      - 🇭🇰 【SVIP】香港 4 专线
+      - 请选择节点
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
