@@ -64,8 +64,8 @@
         /* 主页层 */
         .main-layer {
             width: 100%;
-            max-width: 450px; /* 缩小卡片宽度 */
-            margin-top: 50px; /* 为跑马灯留出空间 */
+            max-width: 450px;
+            margin-top: 50px;
         }
 
         /* 毛玻璃跑马灯 - 绝对定位在页面最顶部 */
@@ -108,9 +108,9 @@
         /* 炫彩标题 */
         .page-title {
             text-align: center;
-            font-size: 32px; /* 加大字体 */
+            font-size: 32px;
             font-weight: 700;
-            margin-bottom: 25px; /* 增加与卡片的距离 */
+            margin-bottom: 25px;
             text-shadow: 0 1px 2px rgba(0,0,0,0.1);
             background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #54a0ff);
             background-size: 400% 400%;
@@ -161,7 +161,7 @@
             padding: 8px;
             border-radius: 6px;
             border: 1px solid var(--glass-border);
-            background: transparent; /* 透明背景 */
+            background: transparent;
             color: var(--text-primary);
             font-size: 12px;
             transition: all 0.3s ease;
@@ -176,7 +176,7 @@
             outline: none;
             border-color: var(--accent-color);
             box-shadow: 0 0 0 2px rgba(74, 108, 247, 0.2);
-            background: rgba(255, 255, 255, 0.1); /* 聚焦时轻微背景 */
+            background: rgba(255, 255, 255, 0.1);
         }
 
         .btn {
@@ -210,7 +210,7 @@
         .result-container {
             margin-top: 10px;
             padding: 10px;
-            background: transparent; /* 透明背景 */
+            background: transparent;
             border-radius: 6px;
             border: 1px solid var(--glass-border);
             word-break: break-all;
@@ -218,7 +218,7 @@
         }
 
         .result-container:hover {
-            background: rgba(255, 255, 255, 0.05); /* 悬停时轻微背景 */
+            background: rgba(255, 255, 255, 0.05);
         }
 
         .result-link {
@@ -258,6 +258,85 @@
             margin-bottom: 0;
         }
 
+        /* 音乐播放器样式 */
+        .music-player {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .music-toggle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: var(--glass-shadow);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .music-toggle:hover {
+            transform: scale(1.1);
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .music-toggle.playing::before {
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: var(--accent-color);
+            border-radius: 2px;
+            opacity: 0.8;
+        }
+
+        .music-toggle:not(.playing)::before {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 10px solid var(--accent-color);
+            border-top: 7px solid transparent;
+            border-bottom: 7px solid transparent;
+            opacity: 0.8;
+            margin-left: 2px;
+        }
+
+        .music-info {
+            position: absolute;
+            bottom: 70px;
+            right: 0;
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 8px;
+            padding: 8px 12px;
+            font-size: 12px;
+            color: var(--text-primary);
+            border: 1px solid var(--glass-border);
+            box-shadow: var(--glass-shadow);
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .music-player:hover .music-info {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
         @media (max-width: 768px) {
             body {
                 padding: 10px;
@@ -273,12 +352,17 @@
             }
             
             .page-title {
-                font-size: 28px; /* 移动端也相应调整 */
+                font-size: 28px;
                 margin-bottom: 20px;
             }
             
             .main-layer {
                 margin-top: 40px;
+            }
+            
+            .music-player {
+                bottom: 15px;
+                right: 15px;
             }
         }
     </style>
@@ -362,9 +446,15 @@
         </div>
     </div>
 
+    <!-- 简洁的音乐播放器 -->
+    <div class="music-player">
+        <div class="music-info">背景音乐：轻音乐</div>
+        <div class="music-toggle" id="music-toggle"></div>
+    </div>
+
     <!-- 背景音乐 -->
     <audio id="bg-music" loop>
-        <source src="https://mpimg.cn/view.php/8f5008b61a49f4e43b107fd2892365c4.mp3" type="audio/mpeg">
+        <source src="https://oss.dinduan.com/view.php/0e56fd2fcf1466b4b5767719a4621a90.mp3" type="audio/mpeg">
     </audio>
 
     <!-- 百度统计代码 -->
@@ -393,7 +483,8 @@
                 customConfigGroup: document.getElementById("custom-config-group"),
                 customBackendGroup: document.getElementById("custom-backend-group"),
                 resultContainer: document.getElementById("result-container"),
-                bgMusic: document.getElementById("bg-music")
+                bgMusic: document.getElementById("bg-music"),
+                musicToggle: document.getElementById("music-toggle")
             };
 
             // 支持singbox的后端列表
@@ -413,9 +504,19 @@
                 elements.subBackend.value = localStorage.getItem("sub-backend") || "https://subapi.cmliussss.net/sub?target=";
                 elements.customBackend.value = localStorage.getItem("custom-backend") || "";
 
-                // 检查音乐设置
-                if (localStorage.getItem("music-enabled") === "true") {
-                    elements.bgMusic.play().catch(e => console.log("自动播放被阻止，需要用户交互"));
+                // 初始化音乐设置 - 自动播放
+                const musicEnabled = localStorage.getItem("music-enabled") !== "false"; // 默认为true
+                
+                if (musicEnabled) {
+                    elements.musicToggle.classList.add("playing");
+                    // 延迟播放，确保页面加载完成
+                    setTimeout(() => {
+                        elements.bgMusic.play().catch(e => {
+                            console.log("自动播放被阻止，等待用户交互");
+                            // 如果自动播放失败，等待用户点击页面任意位置
+                            document.body.addEventListener('click', initAudio, { once: true });
+                        });
+                    }, 500);
                 }
 
                 updateCustomConfigVisibility();
@@ -461,14 +562,33 @@
                 // 生成订阅链接
                 elements.subGenerate.addEventListener("click", generateSubscription);
                 
-                // 首次点击页面时尝试播放音乐
-                document.body.addEventListener('click', initAudio, { once: true });
+                // 音乐控制
+                elements.musicToggle.addEventListener("click", toggleMusic);
             }
 
             // 初始化音频（在用户交互后）
             function initAudio() {
-                if (localStorage.getItem("music-enabled") === "true") {
-                    elements.bgMusic.play().catch(e => console.log("音频播放失败"));
+                elements.bgMusic.play().then(() => {
+                    elements.musicToggle.classList.add("playing");
+                    localStorage.setItem("music-enabled", "true");
+                }).catch(e => {
+                    console.log("音频播放失败:", e);
+                });
+            }
+
+            // 切换音乐播放状态
+            function toggleMusic() {
+                if (elements.bgMusic.paused) {
+                    elements.bgMusic.play().then(() => {
+                        elements.musicToggle.classList.add("playing");
+                        localStorage.setItem("music-enabled", "true");
+                    }).catch(e => {
+                        console.log("播放失败:", e);
+                    });
+                } else {
+                    elements.bgMusic.pause();
+                    elements.musicToggle.classList.remove("playing");
+                    localStorage.setItem("music-enabled", "false");
                 }
             }
 
