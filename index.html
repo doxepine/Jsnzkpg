@@ -14,6 +14,7 @@
             --text-secondary: #555;
             --accent-color: #4a6cf7;
             --accent-hover: #3a5ce5;
+            --music-icon-color: #FFFFF0; /* 乳白色 */
         }
 
         * {
@@ -291,50 +292,42 @@
             background: rgba(255, 255, 255, 0.2);
         }
 
+        /* 音乐图标 - 使用CSS绘制 */
+        .music-toggle::before {
+            content: "";
+            position: absolute;
+            width: 24px;
+            height: 18px;
+            background: var(--music-icon-color);
+            border-radius: 10px 10px 0 0;
+        }
+
+        .music-toggle::after {
+            content: "";
+            position: absolute;
+            width: 6px;
+            height: 12px;
+            background: var(--music-icon-color);
+            top: 18px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* 播放状态 - 显示为暂停图标 */
         .music-toggle.playing::before {
-            content: "";
-            position: absolute;
-            width: 20px;
+            width: 8px;
             height: 20px;
-            background: var(--accent-color);
             border-radius: 2px;
-            opacity: 0.8;
+            left: 30%;
+            transform: translateX(-50%);
         }
 
-        .music-toggle:not(.playing)::before {
-            content: "";
-            position: absolute;
-            width: 0;
-            height: 0;
-            border-left: 10px solid var(--accent-color);
-            border-top: 7px solid transparent;
-            border-bottom: 7px solid transparent;
-            opacity: 0.8;
-            margin-left: 2px;
-        }
-
-        .music-info {
-            position: absolute;
-            bottom: 70px;
-            right: 0;
-            background: var(--glass-bg);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border-radius: 8px;
-            padding: 8px 12px;
-            font-size: 12px;
-            color: var(--text-primary);
-            border: 1px solid var(--glass-border);
-            box-shadow: var(--glass-shadow);
-            opacity: 0;
-            transform: translateY(10px);
-            transition: all 0.3s ease;
-            white-space: nowrap;
-        }
-
-        .music-player:hover .music-info {
-            opacity: 1;
-            transform: translateY(0);
+        .music-toggle.playing::after {
+            width: 8px;
+            height: 20px;
+            border-radius: 2px;
+            left: 70%;
+            transform: translateX(-50%);
         }
 
         @media (max-width: 768px) {
@@ -448,7 +441,6 @@
 
     <!-- 简洁的音乐播放器 -->
     <div class="music-player">
-        <div class="music-info">背景音乐：轻音乐</div>
         <div class="music-toggle" id="music-toggle"></div>
     </div>
 
