@@ -418,7 +418,7 @@
             <div class="input-group">
                 <label for="sub-config">分流规则</label>
                 <select id="sub-config">
-                    <option value="https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/cfguize1.ini">Jsnzkpg规则</option>
+                    <!-- 已删除第一个选项 -->
                     <option value="https://raw.githubusercontent.com/Aethersailor/Custom_Clash_Rules/refs/heads/main/cfg/Custom_Clash_GFW.ini">Stymei规则</option>
                     <option value="custom">自定义</option>
                 </select>
@@ -491,7 +491,7 @@
                 // 从localStorage加载保存的设置
                 elements.subFilepath.value = localStorage.getItem("sub-filepath") || "";
                 elements.subOptions.value = localStorage.getItem("sub-options") || "clash";
-                elements.subConfig.value = localStorage.getItem("sub-config") || "https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/cfguize1.ini";
+                elements.subConfig.value = localStorage.getItem("sub-config") || "https://raw.githubusercontent.com/Aethersailor/Custom_Clash_Rules/refs/heads/main/cfg/Custom_Clash_GFW.ini";
                 elements.customConfig.value = localStorage.getItem("custom-config") || "";
                 elements.subBackend.value = localStorage.getItem("sub-backend") || "https://subapi.cmliussss.net/sub?target=";
                 elements.customBackend.value = localStorage.getItem("custom-backend") || "";
