@@ -14,7 +14,7 @@
             --text-secondary: #555;
             --accent-color: #4a6cf7;
             --accent-hover: #3a5ce5;
-            --music-icon-color: #FFFFF0; /* 乳白色 */
+            --music-icon-color: #FFFFF0;
         }
 
         * {
@@ -69,7 +69,7 @@
             margin-top: 50px;
         }
 
-        /* 毛玻璃跑马灯 - 绝对定位在页面最顶部 */
+        /* 毛玻璃跑马灯 */
         .marquee-container {
             position: fixed;
             top: 0;
@@ -390,8 +390,8 @@
                 <div class="input-group">
                     <label for="sub-backend">后端选择</label>
                     <select id="sub-backend">
-                        <option value="https://subapi.cmliussss.net/sub?target=">CM负载均衡后端</option>
-                        <option value="https://subapi.fxxk.dedyn.io/sub?target=">CM应急备用后端</option>
+                        <option value="https://sub.xeton.dev/sub?target=">Xeton后端</option>
+                        <option value="https://api.dler.io/sub?target=">DlerCloud后端</option>
                         <option value="custom">自定义</option>
                     </select>
                 </div>
@@ -418,8 +418,8 @@
             <div class="input-group">
                 <label for="sub-config">分流规则</label>
                 <select id="sub-config">
-                    <!-- 已删除第一个选项 -->
-                    <option value="https://raw.githubusercontent.com/Aethersailor/Custom_Clash_Rules/refs/heads/main/cfg/Custom_Clash_GFW.ini">Stymei规则</option>
+                    <option value="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini">Jsnzkpg规则</option>
+                    <option value="https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/Outbound.yaml">Stymei规则</option>
                     <option value="custom">自定义</option>
                 </select>
             </div>
@@ -446,19 +446,8 @@
 
     <!-- 背景音乐 -->
     <audio id="bg-music" loop>
-        <source src="https://oss.dinduan.com/view.php/0e56fd2fcf1466b4b5767719a4621a90.mp3" type="audio/mpeg">
+        <source src="https://oss.dinduan.com/view.php/0e56fd2fcf1466b4b5767719a462a190.mp3" type="audio/mpeg">
     </audio>
-
-    <!-- 百度统计代码 -->
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?f463aebe70bb41d3370a497b28a6d7ac";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -479,21 +468,14 @@
                 musicToggle: document.getElementById("music-toggle")
             };
 
-            // 支持singbox的后端列表
-            const singboxSupportedBackends = [
-                "https://subapi.cmliussss.net/sub?target=",
-                "https://subapi.fxxk.dedyn.io/sub?target=",
-                "custom"
-            ];
-
             // 初始化
             function init() {
                 // 从localStorage加载保存的设置
                 elements.subFilepath.value = localStorage.getItem("sub-filepath") || "";
                 elements.subOptions.value = localStorage.getItem("sub-options") || "clash";
-                elements.subConfig.value = localStorage.getItem("sub-config") || "https://raw.githubusercontent.com/Aethersailor/Custom_Clash_Rules/refs/heads/main/cfg/Custom_Clash_GFW.ini";
+                elements.subConfig.value = localStorage.getItem("sub-config") || "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini";
                 elements.customConfig.value = localStorage.getItem("custom-config") || "";
-                elements.subBackend.value = localStorage.getItem("sub-backend") || "https://subapi.cmliussss.net/sub?target=";
+                elements.subBackend.value = localStorage.getItem("sub-backend") || "https://sub.xeton.dev/sub?target=";
                 elements.customBackend.value = localStorage.getItem("custom-backend") || "";
 
                 // 初始化音乐设置 - 自动播放
@@ -513,8 +495,6 @@
 
                 updateCustomConfigVisibility();
                 updateCustomBackendVisibility();
-                updateBackendOptions();
-                updateOptionsBasedOnBackend();
                 
                 // 添加事件监听器
                 setupEventListeners();
@@ -535,7 +515,6 @@
                 elements.subBackend.addEventListener("change", function() {
                     localStorage.setItem("sub-backend", elements.subBackend.value);
                     updateCustomBackendVisibility();
-                    updateOptionsBasedOnBackend();
                 });
                 
                 elements.customBackend.addEventListener("input", debounce(function() {
@@ -544,7 +523,6 @@
                 
                 elements.subOptions.addEventListener("change", function() {
                     localStorage.setItem("sub-options", elements.subOptions.value);
-                    updateBackendOptions();
                 });
                 
                 elements.subFilepath.addEventListener("input", debounce(function() {
@@ -602,45 +580,6 @@
                 }
             }
 
-            // 更新后端选项
-            function updateBackendOptions() {
-                const isSingboxSelected = elements.subOptions.value === "singbox";
-                const options = elements.subBackend.options;
-                
-                for (let i = 0; i < options.length; i++) {
-                    if (isSingboxSelected) {
-                        options[i].disabled = !singboxSupportedBackends.includes(options[i].value) && 
-                                            options[i].value !== "custom";
-                    } else {
-                        options[i].disabled = false;
-                    }
-                }
-
-                if (isSingboxSelected && 
-                    !singboxSupportedBackends.includes(elements.subBackend.value) && 
-                    elements.subBackend.value !== "custom") {
-                    elements.subBackend.value = singboxSupportedBackends[0];
-                    localStorage.setItem("sub-backend", elements.subBackend.value);
-                }
-            }
-
-            // 根据后端更新选项
-            function updateOptionsBasedOnBackend() {
-                const selectedBackend = elements.subBackend.value;
-                const isSingboxBackend = singboxSupportedBackends.includes(selectedBackend);
-                const singboxOption = elements.subOptions.querySelector("option[value='singbox']");
-
-                if (isSingboxBackend) {
-                    singboxOption.disabled = false;
-                } else {
-                    singboxOption.disabled = true;
-                    if (elements.subOptions.value === "singbox") {
-                        elements.subOptions.value = "clash";
-                        localStorage.setItem("sub-options", "clash");
-                    }
-                }
-            }
-
             // 防抖函数
             function debounce(func, wait) {
                 let timeout;
@@ -661,7 +600,10 @@
                     }
                 }
 
-                const subLinks = elements.subFilepath.value.split('\n').filter(link => link.trim() !== '');
+                const subLinks = elements.subFilepath.value.split('\n')
+                    .filter(link => link.trim() !== '')
+                    .map(link => link.trim());
+                
                 if (subLinks.length === 0) {
                     alert("请输入订阅链接");
                     return;
@@ -673,19 +615,30 @@
                     configUrl = elements.customConfig.value;
                 }
 
-                let params = "";
-                if (configUrl) {
-                    params += `&config=${encodeURIComponent(configUrl)}`;
-                }
-
-                // 对每个订阅链接生成转换后的链接
+                // 生成所有转换后的链接
                 const convertedLinks = subLinks.map(link => {
-                    return backendUrl + target + '&url=' + encodeURIComponent(link) + params;
+                    let finalUrl = backendUrl + target + '&url=' + encodeURIComponent(link);
+                    if (configUrl && configUrl !== "custom") {
+                        finalUrl += `&config=${encodeURIComponent(configUrl)}`;
+                    }
+                    return finalUrl;
                 });
 
+                // 显示第一个链接，但提供所有链接的文本
                 elements.subLink.href = convertedLinks[0];
-                elements.subLink.textContent = convertedLinks[0];
+                elements.subLink.textContent = convertedLinks.length > 1 ? 
+                    `已生成 ${convertedLinks.length} 个链接（点击查看第一个）` : convertedLinks[0];
                 elements.resultContainer.classList.remove("hidden");
+                
+                // 复制所有链接到剪贴板
+                const linksText = convertedLinks.join('\n');
+                navigator.clipboard.writeText(linksText).then(() => {
+                    alert(`已生成 ${convertedLinks.length} 个订阅链接并复制到剪贴板！`);
+                }).catch(() => {
+                    // 如果复制失败，手动显示链接让用户复制
+                    elements.subLink.textContent = linksText;
+                    alert(`已生成 ${convertedLinks.length} 个订阅链接，请手动复制！`);
+                });
             }
 
             // 初始化应用
