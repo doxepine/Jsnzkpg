@@ -1,66 +1,86 @@
 <!DOCTYPE html>
-
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/wsqstar/ResHosting@0.031/build/js/Sakura.js"></script>
-
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="YSub Converter - 安全便捷的订阅链接转换工具">
-    <title>裤佬全能订阅转换 - 订阅链接转换</title>
-    <link rel="canonical" href="https://whatshub.top/ysub">
+    <meta name="description" content="订阅链接转换工具">
+    <title>裤佬订阅转换</title>
     <style>
         :root {
-            --primary-color: #ff6f6f;
-            --primary-gradient: linear-gradient(to right, #ff8a8a, #ff4b4b);
-            --primary-hover: linear-gradient(to right, #e86b6b, #ff1a1a);
-            --bg-gradient: linear-gradient(to right, #f2d1d0, #f2edbd);
-            --card-bg: #fcf5f5;
-            --text-primary: #782205;
-            --text-secondary: #b87046;
-            --border-color: #f5dbd0;
-            --input-bg: #fff9f5;
-            --shadow: 0 4px 15px rgba(0,0,0,0.2), 0 2px 6px rgba(0,0,0,0.15), 0 1px 3px rgba(0,0,0,0.1);
-        }
-
-        .dark-mode {
-            --bg-gradient: linear-gradient(to right, #2a2a2a, #3a3a3a);
-            --card-bg: #181818;
-            --text-primary: #a3a07f;
-            --text-secondary: #b87046;
-            --border-color: #363531;
-            --input-bg: #222222;
-            --shadow: 0 4px 15px rgba(0,0,0,0.4), 0 2px 6px rgba(0,0,0,0.3), 0 1px 3px rgba(0,0,0,0.2);
+            --glass-bg: rgba(255, 255, 255, 0.15);
+            --glass-border: rgba(255, 255, 255, 0.2);
+            --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            --text-primary: #333;
+            --text-secondary: #555;
+            --accent-color: #4a6cf7;
+            --accent-hover: #3a5ce5;
         }
 
         * {
+            margin: 0;
+            padding: 0;
             box-sizing: border-box;
-            transition: background-color 0.3s, color 0.3s;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
         }
 
         body {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background: var(--bg-gradient);
-            color: var(--text-primary);
-            line-height: 1.6;
-        }
-
-        .container {
+            min-height: 100vh;
             display: flex;
-            flex-direction: column;
-            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            color: var(--text-primary);
+            overflow-x: hidden;
+            position: relative;
+            padding: 15px;
         }
 
-        .marquee-container {
+        /* 背景层 */
+        .background-layer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
             overflow: hidden;
-            background: var(--primary-gradient);
-            border-radius: 8px;
-            margin-bottom: 20px;
-            padding: 10px 0;
-            box-shadow: var(--shadow);
+        }
+
+        .background-video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .background-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.7);
+            z-index: -1;
+        }
+
+        /* 主页层 */
+        .main-layer {
+            width: 100%;
+            max-width: 450px; /* 缩小卡片宽度 */
+            margin-top: 50px; /* 为跑马灯留出空间 */
+        }
+
+        /* 毛玻璃跑马灯 - 绝对定位在页面最顶部 */
+        .marquee-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            padding: 8px 0;
+            box-shadow: var(--glass-shadow);
+            overflow: hidden;
+            z-index: 100;
         }
 
         .marquee {
@@ -70,10 +90,10 @@
         }
 
         .marquee a {
-            color: white;
+            color: var(--text-primary);
             font-weight: bold;
             text-decoration: none;
-            padding: 0 20px;
+            padding: 0 15px;
         }
 
         .marquee a:hover {
@@ -85,326 +105,278 @@
             100% { transform: translateX(-100%); }
         }
 
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-
-        h1 {
-            color: var(--primary-color);
-            margin: 0;
-            font-size: 32px;
-            font-weight: 900;
+        /* 炫彩标题 */
+        .page-title {
             text-align: center;
-            width: 100%;
-            padding: 10px 0;
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+            font-size: 32px; /* 加大字体 */
+            font-weight: 700;
+            margin-bottom: 25px; /* 增加与卡片的距离 */
+            text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #54a0ff);
+            background-size: 400% 400%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradient 8s ease infinite;
         }
 
-        .theme-toggle {
-            background: var(--primary-gradient);
-            color: white;
-            border: none;
-            padding: 10px 16px;
-            border-radius: 25px;
-            cursor: pointer;
-            font-size: 14px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            box-shadow: var(--shadow);
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* 毛玻璃卡片 */
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 12px;
+            border: 1px solid var(--glass-border);
+            padding: 15px;
+            box-shadow: var(--glass-shadow);
             transition: all 0.3s ease;
         }
 
-        .theme-toggle:hover {
-            background: var(--primary-hover);
-            transform: translateY(-2px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
-        }
-
-        .card {
-            background: var(--card-bg);
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: var(--shadow);
-        }
-
-        textarea, select, input[type="text"] {
-            width: 100%;
-            padding: 14px;
-            margin-bottom: 15px;
-            border-radius: 8px;
-            border: 1px solid var(--border-color);
-            background: var(--input-bg);
-            color: var(--text-primary);
-            font-size: 15px;
-        }
-
-        textarea {
-            min-height: 120px;
-            resize: vertical;
-        }
-
-        textarea:focus, select:focus, input[type="text"]:focus {
-            outline: none;
-            border-color: var(--primary-color);
-            box-shadow: 0 0 0 2px rgba(255, 111, 111, 0.2);
+        .glass-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
         }
 
         .input-group {
             display: flex;
             flex-direction: column;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
 
         .input-group label {
-            margin-bottom: 8px;
+            margin-bottom: 4px;
             font-weight: 500;
             color: var(--text-primary);
+            font-size: 12px;
+        }
+
+        textarea, select, input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid var(--glass-border);
+            background: transparent; /* 透明背景 */
+            color: var(--text-primary);
+            font-size: 12px;
+            transition: all 0.3s ease;
+        }
+
+        textarea {
+            min-height: 60px;
+            resize: vertical;
+        }
+
+        textarea:focus, select:focus, input[type="text"]:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 2px rgba(74, 108, 247, 0.2);
+            background: rgba(255, 255, 255, 0.1); /* 聚焦时轻微背景 */
         }
 
         .btn {
-            background: var(--primary-gradient);
+            background: var(--accent-color);
             color: white;
             border: none;
-            padding: 14px 25px;
-            border-radius: 8px;
+            padding: 8px 16px;
+            border-radius: 6px;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 13px;
             font-weight: 600;
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            gap: 8px;
-            transition: all 0.2s;
+            gap: 6px;
+            transition: all 0.3s ease;
+            width: 100%;
+            margin: 8px 0;
         }
 
         .btn:hover {
-            background: var(--primary-hover);
+            background: var(--accent-hover);
             transform: translateY(-2px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
         }
 
         .btn:active {
             transform: translateY(0);
         }
 
-        .btn-container {
-            display: flex;
-            justify-content: center;
-            margin: 20px 0;
+        .result-container {
+            margin-top: 10px;
+            padding: 10px;
+            background: transparent; /* 透明背景 */
+            border-radius: 6px;
+            border: 1px solid var(--glass-border);
+            word-break: break-all;
+            transition: all 0.3s ease;
         }
 
-        .result-container {
-            margin-top: 25px;
-            padding: 20px;
-            background: var(--input-bg);
-            border-radius: 8px;
-            border: 1px solid var(--border-color);
-            word-break: break-all;
+        .result-container:hover {
+            background: rgba(255, 255, 255, 0.05); /* 悬停时轻微背景 */
         }
 
         .result-link {
-            color: var(--primary-color);
+            color: var(--accent-color);
             text-decoration: none;
-            font-size: 15px;
-            line-height: 1.5;
+            font-size: 12px;
+            line-height: 1.4;
         }
 
         .result-link:hover {
             text-decoration: underline;
         }
 
-        .footer {
-            text-align: center;
-            padding: 20px 0;
-            font-size: 14px;
-            color: var(--text-primary);
-        }
-
-        .footer a {
-            color: var(--text-primary);
-            text-decoration: none;
-        }
-
-        .footer a:hover {
-            text-decoration: underline;
-        }
-
-        .info-box {
-            background: rgba(255, 111, 111, 0.1);
-            border-left: 4px solid var(--primary-color);
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: 4px;
-            font-size: 14px;
-        }
-
-        @media (max-width: 768px) {
-            body {
-                padding: 15px;
-            }
-            
-            .card {
-                padding: 20px;
-            }
-            
-            h1 {
-                font-size: 28px;
-            }
-            
-            header {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            
-            .theme-toggle {
-                align-self: flex-end;
-                margin-top: 10px;
-            }
+        .tag {
+            display: inline-block;
+            background: rgba(74, 108, 247, 0.15);
+            color: var(--accent-color);
+            padding: 1px 4px;
+            border-radius: 3px;
+            font-size: 10px;
+            margin-left: 4px;
+            vertical-align: middle;
         }
 
         .hidden {
             display: none;
         }
 
-        .tag {
-            display: inline-block;
-            background: rgba(255, 111, 111, 0.15);
-            color: var(--primary-color);
-            padding: 3px 8px;
-            border-radius: 4px;
-            font-size: 12px;
-            margin-left: 8px;
-            vertical-align: middle;
+        .compact-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .compact-row .input-group {
+            flex: 1;
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .glass-card {
+                padding: 12px;
+            }
+            
+            .compact-row {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .page-title {
+                font-size: 28px; /* 移动端也相应调整 */
+                margin-bottom: 20px;
+            }
+            
+            .main-layer {
+                margin-top: 40px;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <!-- 跑马灯 -->
-        <div class="marquee-container">
-            <div class="marquee">
-                <a href="https://kelayun.notepin.co" target="_blank">✈️克拉云机场，月付2元1000G流量，超低延迟的家宽ip，不限速不限设备</a>
-            </div>
+    <!-- 背景层 -->
+    <div class="background-layer">
+        <video class="background-video" autoplay muted loop playsinline>
+            <source src="https://txmov2.a.kwimgs.com/upic/2023/10/13/16/BMjAyMzEwMTMxNjU4MTJfMTcyNTc4NzU4N18xMTQ4OTQ2OTgxMzRfMl8z_b_B209e890a596d64fbd174507b758b0815.mp4" type="video/mp4">
+        </video>
+        <div class="background-overlay"></div>
+    </div>
+
+    <!-- 毛玻璃跑马灯 - 固定在页面最顶部 -->
+    <div class="marquee-container">
+        <div class="marquee">
+            <a href="https://kelayun.notepin.co" target="_blank">✈️克拉云机场，月付2元1000G流量，超低延迟的家宽ip，不限速不限设备</a>
         </div>
+    </div>
 
-        <header>
-            <h1>裤佬全能订阅转换</h1>
-            <button class="theme-toggle" id="theme-toggle">
-                <span id="theme-icon">🌙</span> <span id="theme-text">暗色模式</span>
-            </button>
-        </header>
-
-        <div class="card">
+    <!-- 主页层 -->
+    <div class="main-layer">
+        <div class="page-title">裤佬订阅转换</div>
+        
+        <div class="glass-card">
             <div class="input-group">
-                <label for="sub-filepath">订阅链接或本地路径</label>
-                <textarea placeholder="请输入订阅链接，多个链接请用换行分隔..." id="sub-filepath" rows="4"></textarea>
+                <label for="sub-filepath">订阅链接</label>
+                <textarea placeholder="请输入订阅链接，多个链接请用换行分隔..." id="sub-filepath" rows="2"></textarea>
             </div>
 
-            <div class="input-group">
-                <label for="sub-backend">后端选择</label>
-                <select id="sub-backend">
-                    <option value="http://localhost:25500/sub?target=">localhost:25500</option>
-                    <option value="https://sub.id9.cc/sub?target=">sub.id9.cc <span class="tag">支持singbox</span></option>
-                    <option value="https://url.v1.mk/sub?target=">url.v1.mk <span class="tag">支持vless,hy2,singbox</span></option>
-                    <option value="https://a.y1z.org/sub?target=">a.y1z.org <span class="tag">支持vless,hy2,singbox</span></option>
-                    <option value="https://sub.xeton.dev/sub?target=">sub.xeton.dev <span class="tag">支持singbox</span></option>
-                    <option value="https://yun-api.subcloud.xyz/sub?target=">yun-api.subcloud.xyz <span class="tag">支持singbox</span></option>
-                    <option value="https://api.dler.io/sub?target=">api.dler.io <span class="tag">支持singbox</span></option>
-                    <option value="https://sub.datapipe.top/sub?target=">sub.datapipe.top <span class="tag">支持vless,hy2</span></option>
-                    <option value="https://suc-store.usuc.cc/sub?target=">suc-store.usuc.cc <span class="tag">支持vless,hy2</span></option>
-                    <option value="https://www.nameless13.com/sub?target=">www.nameless13.com</option>
-                    <option value="https://pub-api-1.bianyuan.xyz/sub?target=">pub-api-1.bianyuan.xyz</option>
-                    <option value="https://api.sublink.dev/sub?target=">api.sublink.dev</option>
-                    <option value="https://api.nexconvert.com/sub?target=">api.nexconvert.com</option>
-                    <option value="https://api.wcc.best/sub?target=">api.wcc.best</option>
-                    <option value="https://subscribe.cctv.rip/sub?target=">subscribe.cctv.rip</option>
-                    <option value="https://suc.ssltd.xyz/sub?target=">suc.ssltd.xyz</option>
-                    <option value="https://api.subcsub.com/sub?target=">api.subcsub.com</option>
-                    <option value="custom">自定义后端</option>
-                </select>
+            <div class="compact-row">
+                <div class="input-group">
+                    <label for="sub-backend">后端选择</label>
+                    <select id="sub-backend">
+                        <option value="https://subapi.cmliussss.net/sub?target=">CM负载均衡后端</option>
+                        <option value="https://subapi.fxxk.dedyn.io/sub?target=">CM应急备用后端</option>
+                        <option value="custom">自定义</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="sub-options">类型选择</label>
+                    <select id="sub-options">
+                        <option value="clash">Clash</option>
+                        <option value="singbox">Singbox</option>
+                        <option value="quanx">QuanX</option>
+                        <option value="loon">Loon</option>
+                        <option value="surge&amp;ver=4">Surge</option>
+                        <option value="surfboard">Surfboard</option>
+                        <option value="v2ray">V2Ray</option>
+                    </select>
+                </div>
             </div>
 
             <div class="input-group hidden" id="custom-backend-group">
-                <label for="custom-backend">自定义后端地址</label>
+                <label for="custom-backend">自定义后端</label>
                 <input type="text" placeholder="例如：https://api.example.com/sub?target=" id="custom-backend">
             </div>
 
             <div class="input-group">
                 <label for="sub-config">分流规则</label>
                 <select id="sub-config">
-                    <option value="">无(仅节点列表)</option>
-                    <option value="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini">ACL4SSR</option>
-                    <option value="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_AdblockPlus.ini">ACL4SSR_AdblockPlus</option>
-                    <option value="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini">ACL4SSR_Mini</option>
-                    <option value="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_AdblockPlus.ini">ACL4SSR_Mini_AdblockPlus</option>
-                    <option value="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini">ACL4SSR_Full</option>
-                    <option value="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini">ACL4SSR_Full_AdblockPlus</option>
-                    <option value="https://raw.githubusercontent.com/deezertidal/private/main/ini/y.ini">YFAMILY</option>
-                    <option value="https://raw.githubusercontent.com/deezertidal/private/main/ini/ylite.ini">YFAMILY简易分组</option>
-                    <option value="https://raw.githubusercontent.com/deezertidal/private/main/ini/y-adb.ini">YFAMILY去广告</option>
-                    <option value="https://raw.githubusercontent.com/deezertidal/private/main/ini/ylite-adb.ini">YFAMILY简易分组&amp;去广告</option>
-                    <option value="https://subweb.s3.fr-par.scw.cloud/RemoteConfig/customized/nexitally.ini">Nexitally</option>
-                    <option value="https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/customized/maying.ini">Maying</option>
-                    <option value="https://subweb.s3.fr-par.scw.cloud/RemoteConfig/customized/ytoo.ini">YTOO</option>
-                    <option value="https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/customized/socloud.ini">SoCloud</option>
-                    <option value="https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/customized/ark.ini">ARK</option>
-                    <option value="https://subweb.s3.fr-par.scw.cloud/RemoteConfig/customized/flower.ini">FlowerCloud</option>
-                    <option value="custom">自定义规则</option>
+                    <option value="https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/cfguize1.ini">Jsnzkpg规则</option>
+                    <option value="https://raw.githubusercontent.com/Aethersailor/Custom_Clash_Rules/refs/heads/main/cfg/Custom_Clash_GFW.ini">Stymei规则</option>
+                    <option value="custom">自定义</option>
                 </select>
             </div>
 
             <div class="input-group hidden" id="custom-config-group">
-                <label for="custom-config">自定义规则地址</label>
+                <label for="custom-config">自定义规则</label>
                 <input type="text" placeholder="例如：https://example.com/rule.ini" id="custom-config">
             </div>
 
-            <div class="input-group">
-                <label for="sub-options">类型选择</label>
-                <select id="sub-options">
-                    <option value="clash">Clash</option>
-                    <option value="singbox">Singbox</option>
-                    <option value="quanx">QuanX</option>
-                    <option value="loon">Loon</option>
-                    <option value="surge&amp;ver=4">Surge</option>
-                    <option value="clashr">ClashR</option>
-                    <option value="ss">SS (SIP002)</option>
-                    <option value="ssr">SSR</option>
-                    <option value="surfboard">Surfboard</option>
-                    <option value="trojan">Trojan</option>
-                    <option value="v2ray">V2Ray</option>
-                    <option value="mixed">Mixed</option>
-                </select>
-            </div>
-
-            <div class="input-group">
-                <label for="sub-params">其他参数</label>
-                <input type="text" placeholder="例如：&emoji=true&exclude=Hong Kong|Japan&filename=sub.yaml&udp=true" id="sub-params">
-            </div>
-
-            <div class="info-box">
-                <strong>使用提示：</strong> 其他参数可以添加如：emoji=true（开启表情符号）、filename=sub.yaml（指定文件名）、udp=true（开启UDP）、tfo=true（开启TCP Fast Open）等。
-            </div>
-
-            <div class="btn-container">
-                <button class="btn" id="sub-generate">
-                    <span>生成链接</span>
-                </button>
-            </div>
+            <button class="btn" id="sub-generate">
+                <span>生成链接</span>
+            </button>
 
             <div class="result-container hidden" id="result-container">
                 <a id="sub-link" class="result-link" target="_blank"></a>
             </div>
         </div>
-
-        <div class="footer">
-            <!-- 已移除版权信息 -->
-        </div>
     </div>
+
+    <!-- 背景音乐 -->
+    <audio id="bg-music" loop>
+        <source src="https://mpimg.cn/view.php/8f5008b61a49f4e43b107fd2892365c4.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- 百度统计代码 -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?f463aebe70bb41d3370a497b28a6d7ac";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -418,24 +390,16 @@
                 customConfig: document.getElementById("custom-config"),
                 subBackend: document.getElementById("sub-backend"),
                 customBackend: document.getElementById("custom-backend"),
-                subParams: document.getElementById("sub-params"),
                 customConfigGroup: document.getElementById("custom-config-group"),
                 customBackendGroup: document.getElementById("custom-backend-group"),
                 resultContainer: document.getElementById("result-container"),
-                themeToggle: document.getElementById("theme-toggle"),
-                themeIcon: document.getElementById("theme-icon"),
-                themeText: document.getElementById("theme-text")
+                bgMusic: document.getElementById("bg-music")
             };
 
             // 支持singbox的后端列表
             const singboxSupportedBackends = [
-                "http://localhost:25500/sub?target=",
-                "https://sub.id9.cc/sub?target=",
-                "https://sub.xeton.dev/sub?target=",
-                "https://api.dler.io/sub?target=",
-                "https://url.v1.mk/sub?target=",
-                "https://a.y1z.org/sub?target=",
-                "https://yun-api.subcloud.xyz/sub?target=",
+                "https://subapi.cmliussss.net/sub?target=",
+                "https://subapi.fxxk.dedyn.io/sub?target=",
                 "custom"
             ];
 
@@ -444,21 +408,14 @@
                 // 从localStorage加载保存的设置
                 elements.subFilepath.value = localStorage.getItem("sub-filepath") || "";
                 elements.subOptions.value = localStorage.getItem("sub-options") || "clash";
-                elements.subConfig.value = localStorage.getItem("sub-config") || "";
+                elements.subConfig.value = localStorage.getItem("sub-config") || "https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/cfguize1.ini";
                 elements.customConfig.value = localStorage.getItem("custom-config") || "";
-                elements.subBackend.value = localStorage.getItem("sub-backend") || "http://localhost:25500/sub?target=";
+                elements.subBackend.value = localStorage.getItem("sub-backend") || "https://subapi.cmliussss.net/sub?target=";
                 elements.customBackend.value = localStorage.getItem("custom-backend") || "";
-                elements.subParams.value = localStorage.getItem("sub-params") || "";
 
-                // 检查暗色模式
-                if (localStorage.getItem("dark-mode") === "enabled") {
-                    document.body.classList.add("dark-mode");
-                    elements.themeIcon.textContent = "☀️";
-                    elements.themeText.textContent = "亮色模式";
-                } else {
-                    document.body.classList.remove("dark-mode");
-                    elements.themeIcon.textContent = "🌙";
-                    elements.themeText.textContent = "暗色模式";
+                // 检查音乐设置
+                if (localStorage.getItem("music-enabled") === "true") {
+                    elements.bgMusic.play().catch(e => console.log("自动播放被阻止，需要用户交互"));
                 }
 
                 updateCustomConfigVisibility();
@@ -472,9 +429,6 @@
 
             // 设置事件监听器
             function setupEventListeners() {
-                // 主题切换
-                elements.themeToggle.addEventListener("click", toggleDarkMode);
-                
                 // 配置变化
                 elements.subConfig.addEventListener("change", function() {
                     localStorage.setItem("sub-config", elements.subConfig.value);
@@ -504,12 +458,18 @@
                     localStorage.setItem("sub-filepath", elements.subFilepath.value);
                 }, 300));
                 
-                elements.subParams.addEventListener("input", debounce(function() {
-                    localStorage.setItem("sub-params", elements.subParams.value);
-                }, 300));
-                
                 // 生成订阅链接
                 elements.subGenerate.addEventListener("click", generateSubscription);
+                
+                // 首次点击页面时尝试播放音乐
+                document.body.addEventListener('click', initAudio, { once: true });
+            }
+
+            // 初始化音频（在用户交互后）
+            function initAudio() {
+                if (localStorage.getItem("music-enabled") === "true") {
+                    elements.bgMusic.play().catch(e => console.log("音频播放失败"));
+                }
             }
 
             // 更新自定义配置可见性
@@ -578,21 +538,6 @@
                 };
             }
 
-            // 切换暗色模式
-            function toggleDarkMode() {
-                if (document.body.classList.contains("dark-mode")) {
-                    document.body.classList.remove("dark-mode");
-                    localStorage.setItem("dark-mode", "disabled");
-                    elements.themeIcon.textContent = "🌙";
-                    elements.themeText.textContent = "暗色模式";
-                } else {
-                    document.body.classList.add("dark-mode");
-                    localStorage.setItem("dark-mode", "enabled");
-                    elements.themeIcon.textContent = "☀️";
-                    elements.themeText.textContent = "亮色模式";
-                }
-            }
-
             // 生成订阅链接
             function generateSubscription() {
                 let backendUrl = elements.subBackend.value;
@@ -616,7 +561,7 @@
                     configUrl = elements.customConfig.value;
                 }
 
-                let params = elements.subParams.value;
+                let params = "";
                 if (configUrl) {
                     params += `&config=${encodeURIComponent(configUrl)}`;
                 }
