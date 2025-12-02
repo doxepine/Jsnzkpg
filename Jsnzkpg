@@ -6,245 +6,223 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - name: 官网https://kelayun.notepin.co
-    type: vmess
-    server: us24-3.998998.best
-    port: 443
-    uuid: b376015d-77d9-4482-9aa9-051be76aac65
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: www3.googiex.cloud-ip.cc
     network: ws
+    port: 2096
+    server: 108.162.198.11
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
     ws-opts:
-      path: /rioutghewiuorrh9823r
       headers:
-        Host: www3.googiex.cloud-ip.cc
-      max_early_data: 2560
-      early_data_header_name: Sec-WebSocket-Protocol
+        Host: kuangbao.xiejiang.dpdns.org
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: kuangbao.xiejiang.dpdns.org
+    alterId: 0
+    cipher: ""
     flow: ""
-    sni: www3.googiex.cloud-ip.cc
-  - name: 最低2元1000G流量
-    type: vmess
-    server: nl1.020118116.best
-    port: 443
-    uuid: b376015d-77d9-4482-9aa9-051be76aac65
-    alterId: 0
-    cipher: auto
-    udp: true
+    sni: kuangbao.xiejiang.dpdns.org
+  - name: 发布页https://kelayun.notepin.co
+    network: ws
+    port: 2096
+    server: freeyx.cloudflare88.eu.org
     tls: true
-    skip-cert-verify: true
-    servername: v1-dy.ixigua.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: rdthoh8239oqrty3t4
+    type: vless
+    udp: true
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    ws-opts:
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: kuangbao.xiejiang.dpdns.org
+    alterId: 0
+    cipher: ""
     flow: ""
-    sni: v1-dy.ixigua.com
-  - name: 最高200元终身无限流量
-    type: vmess
-    server: us16-4.998998.best
-    port: 443
-    uuid: b376015d-77d9-4482-9aa9-051be76aac65
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: b376015d-77d9-4482-9aa9-051be76aac65.lovecn.art
+    sni: kuangbao.xiejiang.dpdns.org
+  - name: 购买地址https://kelayun.notepin.co
     network: ws
+    port: 2095
+    server: www.wto.org
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
     ws-opts:
-      path: /serth4w5y45y
       headers:
-        Host: b376015d-77d9-4482-9aa9-051be76aac65.lovecn.art
-      max_early_data: 2560
-      early_data_header_name: Sec-WebSocket-Protocol
+        Host: fuckingfangbinxing.pusytroller.cf
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+      path: /
+    xudp: true
+    alterId: 0
+    cipher: ""
     flow: ""
-    sni: b376015d-77d9-4482-9aa9-051be76aac65.lovecn.art
-  - name: 解锁奈飞/TikTok/ChatGPT
-    type: vless
-    server: us2-1.998998.best
-    port: 443
-    uuid: b376015d-77d9-4482-9aa9-051be76aac65
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow:
-    tls: true
-    skip-cert-verify: true
-    servername: b376015d-77d9-4482-9aa9-051be76aac65.nexonfast.shop
+  - name: 这里获取https://kelayun.notepin.co
     network: ws
+    port: 2096
+    server: 108.162.198.24
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
     ws-opts:
-      path: /fiughoieuhti834t90?ed=2560
       headers:
-        Host: b376015d-77d9-4482-9aa9-051be76aac65.nexonfast.shop
-      max_early_data: 2560
-      early_data_header_name: Sec-WebSocket-Protocol
-    sni: b376015d-77d9-4482-9aa9-051be76aac65.nexonfast.shop
-  - name: 新疆西藏福建可用
-    type: vless
-    server: us10.020118116.best
-    port: 443
-    uuid: b376015d-77d9-4482-9aa9-051be76aac65
+        Host: kuangbao.xiejiang.dpdns.org
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: kuangbao.xiejiang.dpdns.org
     alterId: 0
-    cipher: auto
-    udp: true
-    flow:
-    tls: true
-    skip-cert-verify: true
-    servername: apps.apple.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: drstehgyui87y94wt
-    sni: apps.apple.com
-  - name: 1
-    type: vless
-    server: us6-4.998998.best
-    port: 443
-    uuid: b376015d-77d9-4482-9aa9-051be76aac65
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow:
-    tls: true
-    skip-cert-verify: true
-    servername: b376015d-77d9-4482-9aa9-051be76aac65.bilibili.pics
-    network: ws
-    ws-opts:
-      path: /fdtghyp98ewyt843wt
-      headers:
-        Host: b376015d-77d9-4482-9aa9-051be76aac65.bilibili.pics
-      max_early_data: 2560
-      early_data_header_name: Sec-WebSocket-Protocol
-    sni: b376015d-77d9-4482-9aa9-051be76aac65.bilibili.pics
-  - name: 2
-    type: vless
-    server: uk1.020118116.best
-    port: 443
-    uuid: b376015d-77d9-4482-9aa9-051be76aac65
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow:
-    tls: true
-    skip-cert-verify: true
-    servername: apps.apple.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: Aasdnert09
-    sni: apps.apple.com
-  - name: 3
-    type: vless
-    server: de2.020118116.best
-    port: 443
-    uuid: b376015d-77d9-4482-9aa9-051be76aac65
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow:
-    tls: true
-    skip-cert-verify: true
-    servername: cn.bing.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: GeonDMW2095
-    sni: cn.bing.com
-  - name: 4
-    type: vless
-    server: us1-1.998998.best
-    port: 443
-    uuid: b376015d-77d9-4482-9aa9-051be76aac65
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow:
-    tls: true
-    skip-cert-verify: true
-    servername: b376015d-77d9-4482-9aa9-051be76aac65.cloudns.mom
-    network: ws
-    ws-opts:
-      path: /drsukitgreiusweqa9otrh983
-      headers:
-        Host: b376015d-77d9-4482-9aa9-051be76aac65.cloudns.mom
-      max_early_data: 2560
-      early_data_header_name: Sec-WebSocket-Protocol
-    sni: b376015d-77d9-4482-9aa9-051be76aac65.cloudns.mom
-  - name: 5
-    type: vless
-    server: us6.020118116.best
-    port: 443
-    uuid: b376015d-77d9-4482-9aa9-051be76aac65
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow:
-    tls: true
-    skip-cert-verify: true
-    servername: apps.apple.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: jy56we5yu5er685467875
-    sni: apps.apple.com
-  - name: 6
-    type: vmess
-    server: us5.998998.best
-    port: 443
-    uuid: b376015d-77d9-4482-9aa9-051be76aac65
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: b376015d-77d9-4482-9aa9-051be76aac65.fasleangles.fun
-    network: ws
-    ws-opts:
-      path: /androirfdsreoightrjh
-      headers:
-        Host: b376015d-77d9-4482-9aa9-051be76aac65.fasleangles.fun
-      max_early_data: 2560
-      early_data_header_name: Sec-WebSocket-Protocol
+    cipher: ""
     flow: ""
-    sni: b376015d-77d9-4482-9aa9-051be76aac65.fasleangles.fun
-  - name: 7
-    type: vmess
-    server: uk2-2.998998.best
-    port: 443
-    uuid: b376015d-77d9-4482-9aa9-051be76aac65
-    alterId: 0
+    sni: kuangbao.xiejiang.dpdns.org
+  - alterId: 0
     cipher: auto
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: b376015d-77d9-4482-9aa9-051be76aac65.placeunaorder.fun
-    network: ws
-    ws-opts:
-      path: /logcatxiouerd34try9
-      headers:
-        Host: b376015d-77d9-4482-9aa9-051be76aac65.placeunaorder.fun
-      max_early_data: 2560
-      early_data_header_name: Sec-WebSocket-Protocol
-    flow: ""
-    sni: b376015d-77d9-4482-9aa9-051be76aac65.placeunaorder.fun
-  - name: 8
+    delay: 492
+    h2-opts: {}
+    http-opts:
+      method: GET
+      path:
+      headers: {}
+    name: 永久网址https://kelayun.notepin.co
+    network: http
+    port: 46356
+    server: 47.76.31.123
     type: vmess
-    server: us19-25.998998.best
-    port: 443
-    uuid: b376015d-77d9-4482-9aa9-051be76aac65
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: b376015d-77d9-4482-9aa9-051be76aac65.mihomo.baby
-    network: ws
-    ws-opts:
-      path: /saoihgreg9384gh8934
-      headers:
-        Host: b376015d-77d9-4482-9aa9-051be76aac65.mihomo.baby
-      max_early_data: 2560
-      early_data_header_name: Sec-WebSocket-Protocol
+    uuid: 2dec1dc2-e102-402f-e759-a719a0bc9111
     flow: ""
-    sni: b376015d-77d9-4482-9aa9-051be76aac65.mihomo.baby
+  - alterId: 2
+    cipher: auto
+    country: 🇭🇰HK
+    delay: 876
+    h2-opts: {}
+    http-opts: {}
+    name: 最低2元1000G流量
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+    flow: ""
+  - alterId: 2
+    cipher: auto
+    country: 🇭🇰HK
+    delay: 833
+    h2-opts: {}
+    http-opts: {}
+    name: 最高200元终身无限流量
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: e534d120-d32f-11ef-bdb9-f23c91cfbbc9
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+    flow: ""
+  - alterId: 2
+    cipher: auto
+    country: 🇭🇰HK
+    delay: 1262
+    h2-opts: {}
+    http-opts: {}
+    name: 全网价格最便宜
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: a664d16a-4e47-11ef-9d7e-f23c9164ca5d
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+    flow: ""
+  - alterId: 2
+    cipher: auto
+    country: 🇭🇰HK
+    delay: 2741
+    h2-opts: {}
+    http-opts: {}
+    name: 全网服务最好
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d
+    ws-opts:
+      headers:
+        HOST: hkt.gotochinatown.net
+        Host: hkt.gotochinatown.net
+      path: /
+    servername: hkt.gotochinatown.net
+    flow: ""
+  - alterId: 2
+    cipher: auto
+    country: 🇭🇰 HK
+    delay: 1301
+    h2-opts: {}
+    http-opts: {}
+    name: 全网性价比最高
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+    flow: ""
+  - alterId: 2
+    cipher: auto
+    country: 🇭🇰HK
+    delay: 784
+    h2-opts: {}
+    http-opts: {}
+    name: 全网最稳定
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+    flow: ""
+  - alterId: 2
+    cipher: auto
+    country: 🇭🇰HK
+    delay: 1344
+    h2-opts: {}
+    http-opts: {}
+    name: 全网最牛逼
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9
+    ws-opts:
+      headers:
+        HOST: hkt.gotochinatown.net
+        Host: hkt.gotochinatown.net
+      path: /
+    servername: hkt.gotochinatown.net
+    flow: ""
 proxy-groups:
   - name: Haita Cloud
     type: select
@@ -252,54 +230,51 @@ proxy-groups:
       - 自动选择
       - 故障转移
       - 官网https://kelayun.notepin.co
+      - 发布页https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
+      - 这里获取https://kelayun.notepin.co
+      - 永久网址https://kelayun.notepin.co
       - 最低2元1000G流量
       - 最高200元终身无限流量
-      - 解锁奈飞/TikTok/ChatGPT
-      - 新疆西藏福建可用
-      - "1"
-      - "2"
-      - "3"
-      - "4"
-      - "5"
-      - "6"
-      - "7"
-      - "8"
+      - 全网价格最便宜
+      - 全网服务最好
+      - 全网性价比最高
+      - 全网最稳定
+      - 全网最牛逼
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
       - 官网https://kelayun.notepin.co
+      - 发布页https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
+      - 这里获取https://kelayun.notepin.co
+      - 永久网址https://kelayun.notepin.co
       - 最低2元1000G流量
       - 最高200元终身无限流量
-      - 解锁奈飞/TikTok/ChatGPT
-      - 新疆西藏福建可用
-      - "1"
-      - "2"
-      - "3"
-      - "4"
-      - "5"
-      - "6"
-      - "7"
-      - "8"
+      - 全网价格最便宜
+      - 全网服务最好
+      - 全网性价比最高
+      - 全网最稳定
+      - 全网最牛逼
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
       - 官网https://kelayun.notepin.co
+      - 发布页https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
+      - 这里获取https://kelayun.notepin.co
+      - 永久网址https://kelayun.notepin.co
       - 最低2元1000G流量
       - 最高200元终身无限流量
-      - 解锁奈飞/TikTok/ChatGPT
-      - 新疆西藏福建可用
-      - "1"
-      - "2"
-      - "3"
-      - "4"
-      - "5"
-      - "6"
-      - "7"
-      - "8"
+      - 全网价格最便宜
+      - 全网服务最好
+      - 全网性价比最高
+      - 全网最稳定
+      - 全网最牛逼
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
