@@ -6,157 +6,245 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - name: 官网https://kelayun.notepin.co
-    server: www.visa.com.hk
+    type: vmess
+    server: us24-3.998998.best
     port: 443
-    type: vless
-    uuid: 6ce6f7dd-0572-4e85-9ff7-bfae25fdb5b0
+    uuid: b376015d-77d9-4482-9aa9-051be76aac65
+    alterId: 0
+    cipher: auto
+    udp: true
     tls: true
-    tfo: false
     skip-cert-verify: true
-    servername: do-sfo3.064288.xyz
-    client-fingerprint: random
+    servername: www3.googiex.cloud-ip.cc
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /rioutghewiuorrh9823r
       headers:
-        Host: do-sfo3.064288.xyz
-    alterId: 0
-    cipher: ""
+        Host: www3.googiex.cloud-ip.cc
+      max_early_data: 2560
+      early_data_header_name: Sec-WebSocket-Protocol
     flow: ""
-    sni: do-sfo3.064288.xyz
+    sni: www3.googiex.cloud-ip.cc
   - name: 最低2元1000G流量
-    server: freeyx.cloudflare88.eu.org
+    type: vmess
+    server: nl1.020118116.best
     port: 443
-    type: vless
-    uuid: 6ce6f7dd-0572-4e85-9ff7-bfae25fdb5b0
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-lon1.064288.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-lon1.064288.xyz
+    uuid: b376015d-77d9-4482-9aa9-051be76aac65
     alterId: 0
-    cipher: ""
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: v1-dy.ixigua.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: rdthoh8239oqrty3t4
     flow: ""
-    sni: do-lon1.064288.xyz
+    sni: v1-dy.ixigua.com
   - name: 最高200元终身无限流量
-    server: www.visa.com.hk
+    type: vmess
+    server: us16-4.998998.best
     port: 443
-    type: vless
-    uuid: 6ce6f7dd-0572-4e85-9ff7-bfae25fdb5b0
+    uuid: b376015d-77d9-4482-9aa9-051be76aac65
+    alterId: 0
+    cipher: auto
+    udp: true
     tls: true
-    tfo: false
     skip-cert-verify: true
-    servername: do-syd1.064288.xyz
-    client-fingerprint: random
+    servername: b376015d-77d9-4482-9aa9-051be76aac65.lovecn.art
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /serth4w5y45y
       headers:
-        Host: do-syd1.064288.xyz
-    alterId: 0
-    cipher: ""
+        Host: b376015d-77d9-4482-9aa9-051be76aac65.lovecn.art
+      max_early_data: 2560
+      early_data_header_name: Sec-WebSocket-Protocol
     flow: ""
-    sni: do-syd1.064288.xyz
+    sni: b376015d-77d9-4482-9aa9-051be76aac65.lovecn.art
   - name: 解锁奈飞/TikTok/ChatGPT
-    server: freeyx.cloudflare88.eu.org
-    port: 443
     type: vless
-    uuid: 6ce6f7dd-0572-4e85-9ff7-bfae25fdb5b0
+    server: us2-1.998998.best
+    port: 443
+    uuid: b376015d-77d9-4482-9aa9-051be76aac65
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
     tls: true
-    tfo: false
     skip-cert-verify: true
-    servername: do-blr1.064288.xyz
-    client-fingerprint: random
+    servername: b376015d-77d9-4482-9aa9-051be76aac65.nexonfast.shop
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /fiughoieuhti834t90?ed=2560
       headers:
-        Host: do-blr1.064288.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-blr1.064288.xyz
+        Host: b376015d-77d9-4482-9aa9-051be76aac65.nexonfast.shop
+      max_early_data: 2560
+      early_data_header_name: Sec-WebSocket-Protocol
+    sni: b376015d-77d9-4482-9aa9-051be76aac65.nexonfast.shop
   - name: 新疆西藏福建可用
-    server: ct.877774.xyz
-    port: 443
     type: vless
-    uuid: 6ce6f7dd-0572-4e85-9ff7-bfae25fdb5b0
+    server: us10.020118116.best
+    port: 443
+    uuid: b376015d-77d9-4482-9aa9-051be76aac65
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
     tls: true
-    tfo: false
     skip-cert-verify: true
-    servername: do-tor1.064288.xyz
-    client-fingerprint: random
+    servername: apps.apple.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: drstehgyui87y94wt
+    sni: apps.apple.com
+  - name: 1
+    type: vless
+    server: us6-4.998998.best
+    port: 443
+    uuid: b376015d-77d9-4482-9aa9-051be76aac65
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
+    tls: true
+    skip-cert-verify: true
+    servername: b376015d-77d9-4482-9aa9-051be76aac65.bilibili.pics
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /fdtghyp98ewyt843wt
       headers:
-        Host: do-tor1.064288.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-tor1.064288.xyz
-  - name: 提供ios小火箭共享账号
-    server: www.visa.com.hk
-    port: 443
+        Host: b376015d-77d9-4482-9aa9-051be76aac65.bilibili.pics
+      max_early_data: 2560
+      early_data_header_name: Sec-WebSocket-Protocol
+    sni: b376015d-77d9-4482-9aa9-051be76aac65.bilibili.pics
+  - name: 2
     type: vless
-    uuid: 6ce6f7dd-0572-4e85-9ff7-bfae25fdb5b0
+    server: uk1.020118116.best
+    port: 443
+    uuid: b376015d-77d9-4482-9aa9-051be76aac65
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
     tls: true
-    tfo: false
     skip-cert-verify: true
-    servername: do-sgp1.064288.xyz
-    client-fingerprint: random
+    servername: apps.apple.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: Aasdnert09
+    sni: apps.apple.com
+  - name: 3
+    type: vless
+    server: de2.020118116.best
+    port: 443
+    uuid: b376015d-77d9-4482-9aa9-051be76aac65
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
+    tls: true
+    skip-cert-verify: true
+    servername: cn.bing.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: GeonDMW2095
+    sni: cn.bing.com
+  - name: 4
+    type: vless
+    server: us1-1.998998.best
+    port: 443
+    uuid: b376015d-77d9-4482-9aa9-051be76aac65
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
+    tls: true
+    skip-cert-verify: true
+    servername: b376015d-77d9-4482-9aa9-051be76aac65.cloudns.mom
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /drsukitgreiusweqa9otrh983
       headers:
-        Host: do-sgp1.064288.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-sgp1.064288.xyz
-  - name: 真的是宝藏机场梯子
-    server: freev2.cloudflare.182682.xyz
-    port: 443
+        Host: b376015d-77d9-4482-9aa9-051be76aac65.cloudns.mom
+      max_early_data: 2560
+      early_data_header_name: Sec-WebSocket-Protocol
+    sni: b376015d-77d9-4482-9aa9-051be76aac65.cloudns.mom
+  - name: 5
     type: vless
-    uuid: 6ce6f7dd-0572-4e85-9ff7-bfae25fdb5b0
+    server: us6.020118116.best
+    port: 443
+    uuid: b376015d-77d9-4482-9aa9-051be76aac65
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow:
     tls: true
-    tfo: false
     skip-cert-verify: true
-    servername: do-fra1.064288.xyz
-    client-fingerprint: random
+    servername: apps.apple.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: jy56we5yu5er685467875
+    sni: apps.apple.com
+  - name: 6
+    type: vmess
+    server: us5.998998.best
+    port: 443
+    uuid: b376015d-77d9-4482-9aa9-051be76aac65
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: b376015d-77d9-4482-9aa9-051be76aac65.fasleangles.fun
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /androirfdsreoightrjh
       headers:
-        Host: do-fra1.064288.xyz
-    alterId: 0
-    cipher: ""
+        Host: b376015d-77d9-4482-9aa9-051be76aac65.fasleangles.fun
+      max_early_data: 2560
+      early_data_header_name: Sec-WebSocket-Protocol
     flow: ""
-    sni: do-fra1.064288.xyz
-  - name: 史上最便宜的机场
-    server: freev2.cloudflare.182682.xyz
+    sni: b376015d-77d9-4482-9aa9-051be76aac65.fasleangles.fun
+  - name: 7
+    type: vmess
+    server: uk2-2.998998.best
     port: 443
-    type: vless
-    uuid: 6ce6f7dd-0572-4e85-9ff7-bfae25fdb5b0
+    uuid: b376015d-77d9-4482-9aa9-051be76aac65
+    alterId: 0
+    cipher: auto
+    udp: true
     tls: true
-    tfo: false
     skip-cert-verify: true
-    servername: oracle-id-batam.064288.xyz
-    client-fingerprint: random
+    servername: b376015d-77d9-4482-9aa9-051be76aac65.placeunaorder.fun
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /logcatxiouerd34try9
       headers:
-        Host: oracle-id-batam.064288.xyz
-    alterId: 0
-    cipher: ""
+        Host: b376015d-77d9-4482-9aa9-051be76aac65.placeunaorder.fun
+      max_early_data: 2560
+      early_data_header_name: Sec-WebSocket-Protocol
     flow: ""
-    sni: oracle-id-batam.064288.xyz
+    sni: b376015d-77d9-4482-9aa9-051be76aac65.placeunaorder.fun
+  - name: 8
+    type: vmess
+    server: us19-25.998998.best
+    port: 443
+    uuid: b376015d-77d9-4482-9aa9-051be76aac65
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: b376015d-77d9-4482-9aa9-051be76aac65.mihomo.baby
+    network: ws
+    ws-opts:
+      path: /saoihgreg9384gh8934
+      headers:
+        Host: b376015d-77d9-4482-9aa9-051be76aac65.mihomo.baby
+      max_early_data: 2560
+      early_data_header_name: Sec-WebSocket-Protocol
+    flow: ""
+    sni: b376015d-77d9-4482-9aa9-051be76aac65.mihomo.baby
 proxy-groups:
   - name: Haita Cloud
     type: select
@@ -168,9 +256,14 @@ proxy-groups:
       - 最高200元终身无限流量
       - 解锁奈飞/TikTok/ChatGPT
       - 新疆西藏福建可用
-      - 提供ios小火箭共享账号
-      - 真的是宝藏机场梯子
-      - 史上最便宜的机场
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -181,9 +274,14 @@ proxy-groups:
       - 最高200元终身无限流量
       - 解锁奈飞/TikTok/ChatGPT
       - 新疆西藏福建可用
-      - 提供ios小火箭共享账号
-      - 真的是宝藏机场梯子
-      - 史上最便宜的机场
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -194,9 +292,14 @@ proxy-groups:
       - 最高200元终身无限流量
       - 解锁奈飞/TikTok/ChatGPT
       - 新疆西藏福建可用
-      - 提供ios小火箭共享账号
-      - 真的是宝藏机场梯子
-      - 史上最便宜的机场
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
