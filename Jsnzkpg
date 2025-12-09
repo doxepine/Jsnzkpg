@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 最低2块钱1000G流量
+  - name: 购买地址https://kelayun.notepin.co
     server: 208.87.242.77
     port: 35000
     ports: 35000-39000
@@ -14,11 +14,11 @@ proxies:
     skip-cert-verify: true
     sni: www.apple.com
     type: hysteria2
-    password: be52060e-7934-4bc6-89b3-0b6cf4cda789
+    password: 1347acec-0c12-46c0-9436-19603093d9ab
     auth: ""
     fast-open: false
     servername: www.apple.com
-  - name: 最高200元终身无限流量
+  - name: 下单地址https://kelayun.notepin.co
     server: 208.87.242.97
     port: 35000
     ports: 35000-39000
@@ -27,41 +27,41 @@ proxies:
     skip-cert-verify: true
     sni: www.apple.com
     type: hysteria2
-    password: be52060e-7934-4bc6-89b3-0b6cf4cda789
+    password: 1347acec-0c12-46c0-9436-19603093d9ab
+    auth: ""
+    fast-open: false
+    servername: www.apple.com
+  - name: 最低2块钱1000G流量
+    server: 134.195.101.191
+    port: 35000
+    ports: 35000-39000
+    mport: 35000-39000
+    udp: true
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    password: 1347acec-0c12-46c0-9436-19603093d9ab
+    auth: ""
+    fast-open: false
+    servername: www.apple.com
+  - name: 最高200元终身无限流量
+    server: 134.195.101.191
+    port: 35000
+    ports: 35000-39000
+    mport: 35000-39000
+    udp: true
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    password: 1347acec-0c12-46c0-9436-19603093d9ab
     auth: ""
     fast-open: false
     servername: www.apple.com
   - name: 全网最便宜/不限速/不限设备
-    server: 134.195.101.191
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
-    skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: be52060e-7934-4bc6-89b3-0b6cf4cda789
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
-  - name: 下单地址https://kelayun.notepin.co
-    server: 134.195.101.191
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
-    skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: be52060e-7934-4bc6-89b3-0b6cf4cda789
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
-  - name: 够买地址https://kelayun.notepin.co
     type: vless
     server: 69.84.182.13
     port: 443
-    uuid: be52060e-7934-4bc6-89b3-0b6cf4cda789
+    uuid: 1347acec-0c12-46c0-9436-19603093d9ab
     udp: true
     tls: true
     skip-cert-verify: null
@@ -80,31 +80,31 @@ proxy-groups:
     proxies:
       - 自动选择
       - 故障转移
+      - 购买地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
       - 最低2块钱1000G流量
       - 最高200元终身无限流量
       - 全网最便宜/不限速/不限设备
-      - 下单地址https://kelayun.notepin.co
-      - 够买地址https://kelayun.notepin.co
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
+      - 购买地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
       - 最低2块钱1000G流量
       - 最高200元终身无限流量
       - 全网最便宜/不限速/不限设备
-      - 下单地址https://kelayun.notepin.co
-      - 够买地址https://kelayun.notepin.co
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
+      - 购买地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
       - 最低2块钱1000G流量
       - 最高200元终身无限流量
       - 全网最便宜/不限速/不限设备
-      - 下单地址https://kelayun.notepin.co
-      - 够买地址https://kelayun.notepin.co
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
