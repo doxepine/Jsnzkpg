@@ -6,136 +6,149 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - name: 下单地址https://kelayun.notepin.co
-    server: dc7.hk.flow.host
-    port: 443
-    type: wireguard
-    uuid: 6c26c9d2-073b-4ccb-8b17-9c08d9ed9858
-    tls: true
-    tfo: false
+    server: 208.87.242.77
+    port: 35000
+    ports: 35000-39000
+    mport: 35000-39000
+    udp: true
     skip-cert-verify: true
-    servername: do-sfo3.862400.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-sfo3.862400.xyz
-    ip: 10.213.26.196
-    mtu: 1420
-    private-key: +JDc/6yPIXaBoSFXvteaRy2/0IOAjveYo6k4r10WDX0=
-    public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
-    sni: do-sfo3.862400.xyz
+    sni: www.apple.com
+    type: hysteria2
+    password: e4dbde8d-b194-4a64-afe0-093ffd258e8e
+    auth: ""
+    fast-open: false
+    servername: www.apple.com
   - name: 购买地址https://kelayun.notepin.co
-    server: dc4.hk.flow.host
-    port: 443
-    type: wireguard
-    uuid: 6c26c9d2-073b-4ccb-8b17-9c08d9ed9858
-    tls: true
-    tfo: false
+    server: 208.87.242.97
+    port: 35000
+    ports: 35000-39000
+    mport: 35000-39000
+    udp: true
     skip-cert-verify: true
-    servername: do-lon1.862400.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-lon1.862400.xyz
-    ip: 10.213.26.196
-    mtu: 1420
-    private-key: +JDc/6yPIXaBoSFXvteaRy2/0IOAjveYo6k4r10WDX0=
-    public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
-    sni: do-lon1.862400.xyz
+    sni: www.apple.com
+    type: hysteria2
+    password: e4dbde8d-b194-4a64-afe0-093ffd258e8e
+    auth: ""
+    fast-open: false
+    servername: www.apple.com
   - name: 最低2块钱1000G流量
-    server: dc6.hk.flow.host
-    port: 443
-    type: wireguard
-    uuid: 6c26c9d2-073b-4ccb-8b17-9c08d9ed9858
-    tls: true
-    tfo: false
+    server: 134.195.101.191
+    port: 35000
+    ports: 35000-39000
+    mport: 35000-39000
+    udp: true
     skip-cert-verify: true
-    servername: do-syd1.862400.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-syd1.862400.xyz
-    ip: 10.213.26.196
-    mtu: 1420
-    private-key: +JDc/6yPIXaBoSFXvteaRy2/0IOAjveYo6k4r10WDX0=
-    public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
-    sni: do-syd1.862400.xyz
-  - name: 解锁奈飞/TikTok/ChatGPT
-    server: dc1.hk.flow.host
-    port: 443
-    type: wireguard
-    uuid: 6c26c9d2-073b-4ccb-8b17-9c08d9ed9858
-    tls: true
-    tfo: false
+    sni: www.apple.com
+    type: hysteria2
+    password: e4dbde8d-b194-4a64-afe0-093ffd258e8e
+    auth: ""
+    fast-open: false
+    servername: www.apple.com
+  - name: 最高200元终身无限流量
+    server: 134.195.101.191
+    port: 35000
+    ports: 35000-39000
+    mport: 35000-39000
+    udp: true
     skip-cert-verify: true
-    servername: do-blr1.862400.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-blr1.862400.xyz
-    ip: 10.213.26.196
-    mtu: 1420
-    private-key: +JDc/6yPIXaBoSFXvteaRy2/0IOAjveYo6k4r10WDX0=
-    public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
-    sni: do-blr1.862400.xyz
+    sni: www.apple.com
+    type: hysteria2
+    password: e4dbde8d-b194-4a64-afe0-093ffd258e8e
+    auth: ""
+    fast-open: false
+    servername: www.apple.com
   - name: 新疆西藏福建可用
-    server: dc4.tw.flow.host
+    type: vless
+    server: 69.84.182.13
     port: 443
-    type: wireguard
-    uuid: 6c26c9d2-073b-4ccb-8b17-9c08d9ed9858
+    uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
+    udp: true
     tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-tor1.862400.xyz
-    client-fingerprint: random
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: chrome
+    servername: jp1-jp1.aiopen.sbs
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /kbjc/jp1
       headers:
-        Host: do-tor1.862400.xyz
-    ip: 10.213.26.196
-    mtu: 1420
-    private-key: +JDc/6yPIXaBoSFXvteaRy2/0IOAjveYo6k4r10WDX0=
-    public-key: At2LZAQx6+Cj2iNWp9QefLL9U/1WHEWqsnbtFw2HBhU=
-    sni: do-tor1.862400.xyz
+        Host: jp1-jp1.aiopen.sbs
+    alterId: 0
+    cipher: ""
+    sni: jp1-jp1.aiopen.sbs
+  - name: 不限速不限设备
+    type: vless
+    server: 69.84.182.13
+    port: 443
+    uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
+    udp: true
+    tls: true
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: chrome
+    servername: jp1-jp1.aiopen.sbs
+    network: ws
+    ws-opts:
+      path: /kbjc/jp1
+      headers:
+        Host: jp1-jp1.aiopen.sbs
+    alterId: 0
+    cipher: ""
+    sni: jp1-jp1.aiopen.sbs
+  - name: 解锁奈飞/TikTok/ChatGPT
+    type: vless
+    server: 69.84.182.13
+    port: 443
+    uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
+    udp: true
+    tls: true
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /kbjc/fr1
+      headers:
+        Host: fr-1-fr-1.aiopen.sbs
+    alterId: 0
+    cipher: ""
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - "下单地址https://kelayun.notepin.co"
-      - "购买地址https://kelayun.notepin.co"
-      - "最低2块钱1000G流量"
-      - "解锁奈飞/TikTok/ChatGPT"
-      - "新疆西藏福建可用"
+      - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
+      - 最低2块钱1000G流量
+      - 最高200元终身无限流量
+      - 新疆西藏福建可用
+      - 不限速不限设备
+      - 解锁奈飞/TikTok/ChatGPT
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - "下单地址https://kelayun.notepin.co"
-      - "购买地址https://kelayun.notepin.co"
-      - "最低2块钱1000G流量"
-      - "解锁奈飞/TikTok/ChatGPT"
-      - "新疆西藏福建可用"
+      - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
+      - 最低2块钱1000G流量
+      - 最高200元终身无限流量
+      - 新疆西藏福建可用
+      - 不限速不限设备
+      - 解锁奈飞/TikTok/ChatGPT
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - "下单地址https://kelayun.notepin.co"
-      - "购买地址https://kelayun.notepin.co"
-      - "最低2块钱1000G流量"
-      - "解锁奈飞/TikTok/ChatGPT"
-      - "新疆西藏福建可用"
+      - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
+      - 最低2块钱1000G流量
+      - 最高200元终身无限流量
+      - 新疆西藏福建可用
+      - 不限速不限设备
+      - 解锁奈飞/TikTok/ChatGPT
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
