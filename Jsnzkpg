@@ -6,105 +6,99 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - name: 下单地址https://kelayun.notepin.co
-    server: 208.87.242.77
-    port: 35000
+    server: hinet.gzcloud.shop
+    port: 1314
     ports: 35000-39000
     mport: 35000-39000
     udp: true
     skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
+    sni: buylite.music.apple.com
+    type: vless
     password: e4dbde8d-b194-4a64-afe0-093ffd258e8e
     auth: ""
     fast-open: false
-    servername: www.apple.com
+    servername: buylite.music.apple.com
+    alterId: 0
+    cipher: ""
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+      short-id: 4b070735
+    tls: true
+    uuid: 425ec5e6-1f85-4c74-b842-29cb6fd877b4
   - name: 购买地址https://kelayun.notepin.co
-    server: 208.87.242.97
-    port: 35000
+    server: hinet.gzcloud.shop
+    port: 1314
     ports: 35000-39000
     mport: 35000-39000
     udp: true
     skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
+    sni: buylite.music.apple.com
+    type: vless
     password: e4dbde8d-b194-4a64-afe0-093ffd258e8e
     auth: ""
     fast-open: false
-    servername: www.apple.com
+    servername: buylite.music.apple.com
+    alterId: 0
+    cipher: ""
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+      short-id: 4b070735
+    tls: true
+    uuid: 425ec5e6-1f85-4c74-b842-29cb6fd877b4
   - name: 最低2块钱1000G流量
-    server: 134.195.101.191
-    port: 35000
+    server: hinet.gzcloud.shop
+    port: 1314
     ports: 35000-39000
     mport: 35000-39000
     udp: true
     skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
+    sni: buylite.music.apple.com
+    type: vless
     password: e4dbde8d-b194-4a64-afe0-093ffd258e8e
     auth: ""
     fast-open: false
-    servername: www.apple.com
+    servername: buylite.music.apple.com
+    alterId: 0
+    cipher: ""
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+      short-id: 4b070735
+    tls: true
+    uuid: 425ec5e6-1f85-4c74-b842-29cb6fd877b4
   - name: 最高200元终身无限流量
-    server: 134.195.101.191
-    port: 35000
+    server: usfhc.gzcloud.shop
+    port: 15200
     ports: 35000-39000
     mport: 35000-39000
     udp: true
     skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
+    sni: buylite.music.apple.com
+    type: vless
     password: e4dbde8d-b194-4a64-afe0-093ffd258e8e
     auth: ""
     fast-open: false
-    servername: www.apple.com
-  - name: 新疆西藏福建可用
-    type: vless
-    server: 69.84.182.13
-    port: 443
-    uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: chrome
-    servername: jp1-jp1.aiopen.sbs
-    network: ws
-    ws-opts:
-      path: /kbjc/jp1
-      headers:
-        Host: jp1-jp1.aiopen.sbs
+    servername: buylite.music.apple.com
     alterId: 0
     cipher: ""
-    sni: jp1-jp1.aiopen.sbs
-  - name: 不限速不限设备
-    type: vless
-    server: 69.84.182.13
-    port: 443
-    uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
-    udp: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+      short-id: 4b070735
     tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: chrome
-    servername: jp1-jp1.aiopen.sbs
-    network: ws
-    ws-opts:
-      path: /kbjc/jp1
-      headers:
-        Host: jp1-jp1.aiopen.sbs
-    alterId: 0
-    cipher: ""
-    sni: jp1-jp1.aiopen.sbs
+    uuid: 425ec5e6-1f85-4c74-b842-29cb6fd877b4
   - name: 解锁奈飞/TikTok/ChatGPT
     type: vless
-    server: 69.84.182.13
-    port: 443
-    uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
+    server: usfhc.gzcloud.shop
+    port: 15200
+    uuid: 425ec5e6-1f85-4c74-b842-29cb6fd877b4
     udp: true
     tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: chrome
+    skip-cert-verify: true
+    flow: 'xtls-rprx-vision'
+    client-fingerprint: null
     network: ws
     ws-opts:
       path: /kbjc/fr1
@@ -112,6 +106,11 @@ proxies:
         Host: fr-1-fr-1.aiopen.sbs
     alterId: 0
     cipher: ""
+    reality-opts:
+      public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+      short-id: 4b070735
+    servername: buylite.music.apple.com
+    sni: buylite.music.apple.com
 proxy-groups:
   - name: Haita Cloud
     type: select
@@ -122,8 +121,6 @@ proxy-groups:
       - 购买地址https://kelayun.notepin.co
       - 最低2块钱1000G流量
       - 最高200元终身无限流量
-      - 新疆西藏福建可用
-      - 不限速不限设备
       - 解锁奈飞/TikTok/ChatGPT
   - name: 自动选择
     type: url-test
@@ -134,8 +131,6 @@ proxy-groups:
       - 购买地址https://kelayun.notepin.co
       - 最低2块钱1000G流量
       - 最高200元终身无限流量
-      - 新疆西藏福建可用
-      - 不限速不限设备
       - 解锁奈飞/TikTok/ChatGPT
   - name: 故障转移
     type: fallback
@@ -146,8 +141,6 @@ proxy-groups:
       - 购买地址https://kelayun.notepin.co
       - 最低2块钱1000G流量
       - 最高200元终身无限流量
-      - 新疆西藏福建可用
-      - 不限速不限设备
       - 解锁奈飞/TikTok/ChatGPT
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
