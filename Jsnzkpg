@@ -114,23 +114,6 @@ proxies:
     alterId: 0
     cipher: ""
     sni: jp1-jp1.aiopen.sbs
-  - name: 解锁奈飞/TikTok/ChatGPT
-    type: vless
-    server: 69.84.182.13
-    port: 443
-    uuid: 80ba7ae2-2809-47c9-af3f-db5f32698295
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /kbjc/fr1
-      headers:
-        Host: fr-1-fr-1.aiopen.sbs
-    alterId: 0
-    cipher: ""
 proxy-groups:
   - name: Haita Cloud
     type: select
@@ -144,7 +127,6 @@ proxy-groups:
       - 最高200元终身999999999G
       - 不限速不限设备
       - 新疆西藏福建可用
-      - 解锁奈飞/TikTok/ChatGPT
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -157,7 +139,6 @@ proxy-groups:
       - 最高200元终身999999999G
       - 不限速不限设备
       - 新疆西藏福建可用
-      - 解锁奈飞/TikTok/ChatGPT
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -170,7 +151,6 @@ proxy-groups:
       - 最高200元终身999999999G
       - 不限速不限设备
       - 新疆西藏福建可用
-      - 解锁奈飞/TikTok/ChatGPT
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
