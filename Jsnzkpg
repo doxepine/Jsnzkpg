@@ -10,105 +10,105 @@ proxies:
     port: 2083
     type: trojan
     password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-    sni: cm3-bpg.filegear-sg.me
+    sni: cm2-bpg.filegear-sg.me
     skip-cert-verify: null
     network: ws
     ws-opts:
       path: /proxyip=210.61.97.241:81
       headers:
-        Host: cm3-bpg.filegear-sg.me
-    servername: cm3-bpg.filegear-sg.me
+        Host: cm2-bpg.filegear-sg.me
+    servername: cm2-bpg.filegear-sg.me
   - name: 购买地址https://kelayun.notepin.co
     server: cmcc.090227.xyz
     port: 443
     type: trojan
     password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-    sni: cm3-bpg.filegear-sg.me
+    sni: cm2-bpg.filegear-sg.me
     skip-cert-verify: null
     network: ws
     ws-opts:
       path: /proxyip=210.61.97.241:81
       headers:
-        Host: cm3-bpg.filegear-sg.me
-    servername: cm3-bpg.filegear-sg.me
+        Host: cm2-bpg.filegear-sg.me
+    servername: cm2-bpg.filegear-sg.me
   - name: 官网地址https://kelayun.notepin.co
     server: ct.090227.xyz
     port: 443
     type: trojan
     password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-    sni: cm3-bpg.filegear-sg.me
+    sni: cm2-bpg.filegear-sg.me
     skip-cert-verify: null
     network: ws
     ws-opts:
       path: /proxyip=210.61.97.241:81
       headers:
-        Host: cm3-bpg.filegear-sg.me
-    servername: cm3-bpg.filegear-sg.me
+        Host: cm2-bpg.filegear-sg.me
+    servername: cm2-bpg.filegear-sg.me
   - name: 最低2块钱1000G流量
     server: cf.877774.xyz
     port: 2087
     type: trojan
     password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-    sni: cm3-bpg.filegear-sg.me
+    sni: cm2-bpg.filegear-sg.me
     skip-cert-verify: null
     network: ws
     ws-opts:
       path: /proxyip=210.61.97.241:81
       headers:
-        Host: cm3-bpg.filegear-sg.me
-    servername: cm3-bpg.filegear-sg.me
-  - name: 最高200元永久无限流量
+        Host: cm2-bpg.filegear-sg.me
+    servername: cm2-bpg.filegear-sg.me
+  - name: 最高200元终身无限流量
     server: cmcc.877774.xyz
     port: 443
     type: trojan
     password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-    sni: cm3-bpg.filegear-sg.me
+    sni: cm2-bpg.filegear-sg.me
     skip-cert-verify: null
     network: ws
     ws-opts:
       path: /proxyip=210.61.97.241:81
       headers:
-        Host: cm3-bpg.filegear-sg.me
-    servername: cm3-bpg.filegear-sg.me
+        Host: cm2-bpg.filegear-sg.me
+    servername: cm2-bpg.filegear-sg.me
   - name: 不限速不限设备
     server: ct.877774.xyz
     port: 443
     type: trojan
     password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-    sni: cm3-bpg.filegear-sg.me
+    sni: cm2-bpg.filegear-sg.me
     skip-cert-verify: null
     network: ws
     ws-opts:
       path: /proxyip=210.61.97.241:81
       headers:
-        Host: cm3-bpg.filegear-sg.me
-    servername: cm3-bpg.filegear-sg.me
+        Host: cm2-bpg.filegear-sg.me
+    servername: cm2-bpg.filegear-sg.me
   - name: 新疆西藏福建可用
     server: mfa.gov.ua
     port: 2096
     type: trojan
     password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-    sni: cm3-bpg.filegear-sg.me
+    sni: cm2-bpg.filegear-sg.me
     skip-cert-verify: null
     network: ws
     ws-opts:
       path: /proxyip=210.61.97.241:81
       headers:
-        Host: cm3-bpg.filegear-sg.me
-    servername: cm3-bpg.filegear-sg.me
+        Host: cm2-bpg.filegear-sg.me
+    servername: cm2-bpg.filegear-sg.me
   - name: 解锁奈飞/TikTok/ChatGPT
     server: www.shopify.com
     port: 2053
     type: trojan
     password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-    sni: cm3-bpg.filegear-sg.me
+    sni: cm2-bpg.filegear-sg.me
     skip-cert-verify: null
     network: ws
     ws-opts:
       path: /proxyip=210.61.97.241:81
       headers:
-        Host: cm3-bpg.filegear-sg.me
-    servername: cm3-bpg.filegear-sg.me
+        Host: cm2-bpg.filegear-sg.me
+    servername: cm2-bpg.filegear-sg.me
 proxy-groups:
   - name: Haita Cloud
     type: select
@@ -119,7 +119,7 @@ proxy-groups:
       - 购买地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
       - 最低2块钱1000G流量
-      - 最高200元永久无限流量
+      - 最高200元终身无限流量
       - 不限速不限设备
       - 新疆西藏福建可用
       - 解锁奈飞/TikTok/ChatGPT
@@ -132,7 +132,7 @@ proxy-groups:
       - 购买地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
       - 最低2块钱1000G流量
-      - 最高200元永久无限流量
+      - 最高200元终身无限流量
       - 不限速不限设备
       - 新疆西藏福建可用
       - 解锁奈飞/TikTok/ChatGPT
@@ -145,7 +145,7 @@ proxy-groups:
       - 购买地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
       - 最低2块钱1000G流量
-      - 最高200元永久无限流量
+      - 最高200元终身无限流量
       - 不限速不限设备
       - 新疆西藏福建可用
       - 解锁奈飞/TikTok/ChatGPT
