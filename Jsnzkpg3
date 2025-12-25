@@ -58,7 +58,6 @@
           {"name": "👖OK","remark":"✈️TG频道@stymei1","url": "https://api.okzyw.net/api.php/provide/vod/?ac=list"},
           {"name": "👖索尼","remark":"✈️TG频道@stymei1","url": "https://suoniapi.com/api.php/provide/vod/?ac=list"},
           {"name": "👖瀑布盘","remark":"✈️TG频道@stymei1","url": "https://dh.ha.cn/api.php/provide/vod/at/xml/"},
-          {"name": "👖影剧","remark":"✈️TG频道@stymei1","url": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/josn"},
           {"name": "👖荐片","remark":"✈️TG频道@stymei1","url": "http://zhangqun1818.serv00.net/jianpian1.php"},
 {"name": "👖瓜子影视App","remark":"✈️TG频道@stymei1","webSite": "https://api.gudvxty.com","codeID": "ra5Z3wtXKshzSMK2","instance": "gzapp20241001","api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzapp.txt"},
 { "name": "👖瓜子影视Web","remark":"✈️TG频道@stymei1","webSite": "https://api.gudvxty.com","instance":"gzys20240822","api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzys.js"},
