@@ -1,8 +1,5 @@
-{"live": [{
-"name": "👖裤佬IPTV",
-"url": "https://upld.zone.id/uploads/q9iq9e5iq/lvse.txt",
-"type": 10,
-"remark":"✈️TG频道@stymei1"}],
+{"live": [{"name": "👖裤佬IPTV","url":"https://upld.zone.id/uploads/q9iq9e5iq/lvse.txt","type": 10,"remark":"✈️TG频道@stymei1"},
+{"name": "👖冰茶IPTV","url":"https://bc.188766.xyz/?ip=&mima=mianfeibuhuaqian&huikan=1&json=true","type": 10,"remark":"✈️TG频道@stymei1"}],
    "vod": [
    {"name": "🔥关注TG频道@stymei1",
     "version": 3,
@@ -59,8 +56,8 @@
           {"name": "👖索尼","remark":"✈️TG频道@stymei1","url": "https://suoniapi.com/api.php/provide/vod/?ac=list"},
           {"name": "👖瀑布盘","remark":"✈️TG频道@stymei1","url": "https://dh.ha.cn/api.php/provide/vod/at/xml/"},
           {"name": "👖荐片","remark":"✈️TG频道@stymei1","url": "http://zhangqun1818.serv00.net/jianpian1.php"},
-{"name": "👖瓜子影视App","remark":"✈️TG频道@stymei1","webSite": "https://api.gudvxty.com","codeID": "ra5Z3wtXKshzSMK2","instance": "gzapp20241001","api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzapp.txt"},
-{ "name": "👖瓜子影视Web","remark":"✈️TG频道@stymei1","webSite": "https://api.gudvxty.com","instance":"gzys20240822","api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzys.js"},
+{"name": "👖瓜子影视App","remark":"✈️TG频道@stymei1","webSite": "http://api.gudvxty.com","codeID": "ra5Z3wtXKshzSMK2","instance": "gzapp20241001","api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzapp.txt"},
+{ "name": "👖瓜子影视Web","remark":"✈️TG频道@stymei1","webSite": "http://api.gudvxty.com","instance":"gzys20240822","api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzys.js"},
      {
       "name": "👖修罗影视",
       "version": 2,
@@ -230,7 +227,6 @@
         {"name": "🔞今日看料","remark":"✈️TG频道@stymei1","url": "https://learnpython.ggff.net/JRKliao"},
         {"name": "🔞911爆料网","remark":"✈️TG频道@stymei1","url": "https://learnpython.ggff.net/911BaoLiao"},
         {"name": "🔞越南","remark":"✈️TG频道@stymei1","url": "https://vnzyz.com/api.php/provide/vod"},
-        {"name": "🔞肉视频","remark":"✈️TG频道@stymei1","url": "https://learnpython.ggff.net/rsp"},
         {"name": "🔞奥斯卡","remark":"✈️TG频道@stymei1","url": "https://aosikazy4.com/api.php/provide/vod"},
         {"name": "🔞X细胞","remark":"✈️TG频道@stymei1","url": "https://www.xxibaozyw.com/api.php/provide/vod"},
         {"name": "🔞91AV","remark":"✈️TG频道@stymei1","url": "https://91av.cyou/api.php/provide/vod"},
