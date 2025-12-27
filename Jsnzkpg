@@ -6,328 +6,226 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - name: 购买地址https://kelayun.notepin.co
-    server: cf.090227.xyz
-    port: 2095
-    client-fingerprint: randomized
+    server: cf.877774.xyz
+    port: 443
     type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
+    uuid: e23d87e4-77cd-430f-8769-9508880368c1
+    tls: true
+    skip-cert-verify: true
+    servername: qmsdingyue.1949-10-01.top
     network: ws
     ws-opts:
-      path: /
+      path: /community/proxyip=kr.william.us.ci?ed=2560
       headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
+        Host: qmsdingyue.1949-10-01.top
     alterId: 0
     cipher: ""
     flow: ""
+    sni: qmsdingyue.1949-10-01.top
   - name: 下单地址https://kelayun.notepin.co
-    server: cloudflare-dns.com
-    port: 2095
-    client-fingerprint: randomized
+    server: cf.877774.xyz
+    port: 443
     type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
+    uuid: e23d87e4-77cd-430f-8769-9508880368c1
+    tls: true
+    skip-cert-verify: true
+    servername: qmsdingyue.1949-10-01.top
     network: ws
     ws-opts:
-      path: /
+      path: /pdf/videos/seasons/proxyip=kr.william.us.ci?ed=2560
       headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
+        Host: qmsdingyue.1949-10-01.top
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 抢购地址https://kelayun.notepin.co
-    server: www.temu.com
-    port: 2095
-    client-fingerprint: randomized
-    type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 加入地址https://kelayun.notepin.co
-    server: docs.cloudflare.com
-    port: 2095
-    client-fingerprint: randomized
-    type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 访问地址https://kelayun.notepin.co
-    server: itarmy.com.ua
-    port: 2095
-    client-fingerprint: randomized
-    type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 点击地址https://kelayun.notepin.co
-    server: www.shopify.com
-    port: 2095
-    client-fingerprint: randomized
-    type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 浏览地址https://kelayun.notepin.co
-    server: www.fbi.gov
-    port: 2095
-    client-fingerprint: randomized
-    type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
-    alterId: 0
-    cipher: ""
-    flow: ""
+    sni: qmsdingyue.1949-10-01.top
   - name: 官网地址https://kelayun.notepin.co
+    server: cf.877774.xyz
+    port: 443
+    type: vless
+    uuid: e23d87e4-77cd-430f-8769-9508880368c1
+    tls: true
+    skip-cert-verify: true
+    servername: qmsdingyue.1949-10-01.top
+    network: ws
+    ws-opts:
+      path: /work/data/about/proxyip=kr.william.us.ci?ed=2560
+      headers:
+        Host: qmsdingyue.1949-10-01.top
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: qmsdingyue.1949-10-01.top
+  - name: 最低2块钱1000G
+    server: cf.877774.xyz
+    port: 443
+    type: vless
+    uuid: e23d87e4-77cd-430f-8769-9508880368c1
+    tls: true
+    skip-cert-verify: true
+    servername: qmsdingyue.1949-10-01.top
+    network: ws
+    ws-opts:
+      path: /album/pages/live/proxyip=kr.william.us.ci?ed=2560
+      headers:
+        Host: qmsdingyue.1949-10-01.top
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: qmsdingyue.1949-10-01.top
+  - name: '最高200元终身无限流量'
+    server: cf.877774.xyz
+    port: 443
+    type: vless
+    uuid: e23d87e4-77cd-430f-8769-9508880368c1
+    tls: true
+    skip-cert-verify: true
+    servername: qmsdingyue.1949-10-01.top
+    network: ws
+    ws-opts:
+      path: /soft/proxyip=kr.william.us.ci?ed=2560
+      headers:
+        Host: qmsdingyue.1949-10-01.top
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: qmsdingyue.1949-10-01.top
+  - name: 1
+    server: cf.877774.xyz
+    port: 443
+    type: vless
+    uuid: e23d87e4-77cd-430f-8769-9508880368c1
+    tls: true
+    skip-cert-verify: true
+    servername: qmsdingyue.1949-10-01.top
+    network: ws
+    ws-opts:
+      path: /program/wiki/photo/proxyip=kr.william.us.ci?ed=2560
+      headers:
+        Host: qmsdingyue.1949-10-01.top
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: qmsdingyue.1949-10-01.top
+  - name: 2
+    server: poki.cn
+    port: 443
+    type: vless
+    uuid: e23d87e4-77cd-430f-8769-9508880368c1
+    tls: true
+    skip-cert-verify: true
+    servername: qmsdingyue.1949-10-01.top
+    network: ws
+    ws-opts:
+      path: /anime/setting/m/proxyip=kr.william.us.ci?ed=2560
+      headers:
+        Host: qmsdingyue.1949-10-01.top
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: qmsdingyue.1949-10-01.top
+  - name: 3
+    server: cf.hw.090227.xyz
+    port: 443
+    type: vless
+    uuid: e23d87e4-77cd-430f-8769-9508880368c1
+    tls: true
+    skip-cert-verify: true
+    servername: qmsdingyue.1949-10-01.top
+    network: ws
+    ws-opts:
+      path: /rank/pdf/proxyip=kr.william.us.ci?ed=2560
+      headers:
+        Host: qmsdingyue.1949-10-01.top
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: qmsdingyue.1949-10-01.top
+  - name: 4
+    server: www.csgo.com
+    port: 443
+    type: vless
+    uuid: e23d87e4-77cd-430f-8769-9508880368c1
+    tls: true
+    skip-cert-verify: true
+    servername: qmsdingyue.1949-10-01.top
+    network: ws
+    ws-opts:
+      path: /archives/proxyip=kr.william.us.ci?ed=2560
+      headers:
+        Host: qmsdingyue.1949-10-01.top
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: qmsdingyue.1949-10-01.top
+  - name: 5
+    server: 104.18.25.151
+    port: 443
+    type: vless
+    uuid: e23d87e4-77cd-430f-8769-9508880368c1
+    tls: true
+    skip-cert-verify: true
+    servername: qmsdingyue.1949-10-01.top
+    network: ws
+    ws-opts:
+      path: /zh-tw/info/proxyip=kr.william.us.ci?ed=2560
+      headers:
+        Host: qmsdingyue.1949-10-01.top
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: qmsdingyue.1949-10-01.top
+  - name: 6
+    server: 172.67.37.72
+    port: 443
+    type: vless
+    uuid: e23d87e4-77cd-430f-8769-9508880368c1
+    tls: true
+    skip-cert-verify: true
+    servername: qmsdingyue.1949-10-01.top
+    network: ws
+    ws-opts:
+      path: /home/product/proxyip=kr.william.us.ci?ed=2560
+      headers:
+        Host: qmsdingyue.1949-10-01.top
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: qmsdingyue.1949-10-01.top
+  - name: 7
+    server: www.speedtest.net
+    port: 443
+    type: vless
+    uuid: e23d87e4-77cd-430f-8769-9508880368c1
+    tls: true
+    skip-cert-verify: true
+    servername: qmsdingyue.1949-10-01.top
+    network: ws
+    ws-opts:
+      path: /reg/about/proxyip=kr.william.us.ci?ed=2560
+      headers:
+        Host: qmsdingyue.1949-10-01.top
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: qmsdingyue.1949-10-01.top
+  - name: 8
     server: www.wto.org
-    port: 2095
-    client-fingerprint: randomized
+    port: 443
     type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
+    uuid: e23d87e4-77cd-430f-8769-9508880368c1
+    tls: true
+    skip-cert-verify: true
+    servername: qmsdingyue.1949-10-01.top
     network: ws
     ws-opts:
-      path: /
+      path: /course/edu/books/proxyip=kr.william.us.ci?ed=2560
       headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
+        Host: qmsdingyue.1949-10-01.top
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 查询地址https://kelayun.notepin.co
-    server: www.epicgames.com
-    port: 2095
-    client-fingerprint: randomized
-    type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 查看地址https://kelayun.notepin.co
-    server: support.cloudflare.com
-    port: 2095
-    client-fingerprint: randomized
-    type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 永久地址https://kelayun.notepin.co
-    server: blog.cloudflare.com
-    port: 2095
-    client-fingerprint: randomized
-    type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 终身地址https://kelayun.notepin.co
-    server: ns.cloudflare.com
-    port: 2095
-    client-fingerprint: randomized
-    type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 批发地址https://kelayun.notepin.co
-    server: developers.cloudflare.com
-    port: 2095
-    client-fingerprint: randomized
-    type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 代理地址https://kelayun.notepin.co
-    server: openai.com
-    port: 2095
-    client-fingerprint: randomized
-    type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 付费地址https://kelayun.notepin.co
-    server: www.whatismyip.net
-    port: 2095
-    client-fingerprint: randomized
-    type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 花钱地址https://kelayun.notepin.co
-    server: www.npmjs.com
-    port: 2095
-    client-fingerprint: randomized
-    type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 梯子地址https://kelayun.notepin.co
-    server: cdnjs.com
-    port: 2095
-    client-fingerprint: randomized
-    type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: VPN地址https://kelayun.notepin.co
-    server: www.udemy.com
-    port: 2095
-    client-fingerprint: randomized
-    type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 加速器地址https://kelayun.notepin.co
-    server: www.csgo.net
-    port: 2095
-    client-fingerprint: randomized
-    type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cnmfangbinxingnmsl.cnm--fangbinxing-nmsl.workers.dev
-    alterId: 0
-    cipher: ""
-    flow: ""
+    sni: qmsdingyue.1949-10-01.top
 proxy-groups:
   - name: Haita Cloud
     type: select
@@ -336,23 +234,17 @@ proxy-groups:
       - 故障转移
       - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
-      - 抢购地址https://kelayun.notepin.co
-      - 加入地址https://kelayun.notepin.co
-      - 访问地址https://kelayun.notepin.co
-      - 点击地址https://kelayun.notepin.co
-      - 浏览地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
-      - 查询地址https://kelayun.notepin.co
-      - 查看地址https://kelayun.notepin.co
-      - 永久地址https://kelayun.notepin.co
-      - 终身地址https://kelayun.notepin.co
-      - 批发地址https://kelayun.notepin.co
-      - 代理地址https://kelayun.notepin.co
-      - 付费地址https://kelayun.notepin.co
-      - 花钱地址https://kelayun.notepin.co
-      - 梯子地址https://kelayun.notepin.co
-      - VPN地址https://kelayun.notepin.co
-      - 加速器地址https://kelayun.notepin.co
+      - 最低2块钱1000G
+      - '最高200元终身无限流量'
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -360,23 +252,17 @@ proxy-groups:
     proxies:
       - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
-      - 抢购地址https://kelayun.notepin.co
-      - 加入地址https://kelayun.notepin.co
-      - 访问地址https://kelayun.notepin.co
-      - 点击地址https://kelayun.notepin.co
-      - 浏览地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
-      - 查询地址https://kelayun.notepin.co
-      - 查看地址https://kelayun.notepin.co
-      - 永久地址https://kelayun.notepin.co
-      - 终身地址https://kelayun.notepin.co
-      - 批发地址https://kelayun.notepin.co
-      - 代理地址https://kelayun.notepin.co
-      - 付费地址https://kelayun.notepin.co
-      - 花钱地址https://kelayun.notepin.co
-      - 梯子地址https://kelayun.notepin.co
-      - VPN地址https://kelayun.notepin.co
-      - 加速器地址https://kelayun.notepin.co
+      - 最低2块钱1000G
+      - '最高200元终身无限流量'
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -384,23 +270,17 @@ proxy-groups:
     proxies:
       - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
-      - 抢购地址https://kelayun.notepin.co
-      - 加入地址https://kelayun.notepin.co
-      - 访问地址https://kelayun.notepin.co
-      - 点击地址https://kelayun.notepin.co
-      - 浏览地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
-      - 查询地址https://kelayun.notepin.co
-      - 查看地址https://kelayun.notepin.co
-      - 永久地址https://kelayun.notepin.co
-      - 终身地址https://kelayun.notepin.co
-      - 批发地址https://kelayun.notepin.co
-      - 代理地址https://kelayun.notepin.co
-      - 付费地址https://kelayun.notepin.co
-      - 花钱地址https://kelayun.notepin.co
-      - 梯子地址https://kelayun.notepin.co
-      - VPN地址https://kelayun.notepin.co
-      - 加速器地址https://kelayun.notepin.co
+      - 最低2块钱1000G
+      - '最高200元终身无限流量'
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
