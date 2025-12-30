@@ -5,198 +5,150 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 购买地址https://kelayun.notepin.co
-    server: www.visa.com.hk
-    port: 443
-    type: vless
-    uuid: 5003dc84-2c21-4dab-b383-dac596b2492c
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-sfo3.008883.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-sfo3.008883.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-sfo3.008883.xyz
   - name: 下单地址https://kelayun.notepin.co
-    server: ct.877774.xyz
-    port: 443
-    type: vless
-    uuid: 5003dc84-2c21-4dab-b383-dac596b2492c
-    tls: true
-    tfo: false
+    server: 208.87.242.77
+    port: 35000
+    ports: 35000-39000
+    mport: 35000-39000
+    udp: true
     skip-cert-verify: true
-    servername: do-lon1.008883.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-lon1.008883.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-lon1.008883.xyz
+    sni: www.apple.com
+    type: hysteria2
+    password: 12cf952b-364b-4d42-9342-115bdeb18a8e
+    auth: ""
+    fast-open: false
+    servername: www.apple.com
+  - name: 购买地址https://kelayun.notepin.co
+    server: 208.87.242.97
+    port: 35000
+    ports: 35000-39000
+    mport: 35000-39000
+    udp: true
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    password: 12cf952b-364b-4d42-9342-115bdeb18a8e
+    auth: ""
+    fast-open: false
+    servername: www.apple.com
   - name: 官网地址https://kelayun.notepin.co
-    server: ct.877774.xyz
-    port: 443
-    type: vless
-    uuid: 5003dc84-2c21-4dab-b383-dac596b2492c
-    tls: true
-    tfo: false
+    server: 134.195.101.191
+    port: 35000
+    ports: 35000-39000
+    mport: 35000-39000
+    udp: true
     skip-cert-verify: true
-    servername: do-syd1.008883.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-syd1.008883.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-syd1.008883.xyz
-  - name: 不限速不限设备
-    server: freeyx.cloudflare88.eu.org
-    port: 443
-    type: vless
-    uuid: 5003dc84-2c21-4dab-b383-dac596b2492c
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-blr1.008883.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-blr1.008883.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-blr1.008883.xyz
-  - name: 新疆西藏福建可用
-    server: freeyx.cloudflare88.eu.org
-    port: 443
-    type: vless
-    uuid: 5003dc84-2c21-4dab-b383-dac596b2492c
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-tor1.008883.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-tor1.008883.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-tor1.008883.xyz
-  - name: 解锁一切流媒体
-    server: www.visa.com.hk
-    port: 443
-    type: vless
-    uuid: 5003dc84-2c21-4dab-b383-dac596b2492c
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-sgp1.008883.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-sgp1.008883.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-sgp1.008883.xyz
+    sni: www.apple.com
+    type: hysteria2
+    password: 12cf952b-364b-4d42-9342-115bdeb18a8e
+    auth: ""
+    fast-open: false
+    servername: www.apple.com
   - name: 最低2块钱1000G流量
-    server: freeyx.cloudflare88.eu.org
-    port: 443
-    type: vless
-    uuid: 5003dc84-2c21-4dab-b383-dac596b2492c
-    tls: true
-    tfo: false
+    server: 134.195.101.191
+    port: 35000
+    ports: 35000-39000
+    mport: 35000-39000
+    udp: true
     skip-cert-verify: true
-    servername: do-fra1.008883.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-fra1.008883.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-fra1.008883.xyz
+    sni: www.apple.com
+    type: hysteria2
+    password: 12cf952b-364b-4d42-9342-115bdeb18a8e
+    auth: ""
+    fast-open: false
+    servername: www.apple.com
   - name: 最高200元终身无限流量
-    server: freev2.cloudflare.182682.xyz
-    port: 443
     type: vless
-    uuid: 5003dc84-2c21-4dab-b383-dac596b2492c
+    server: 69.84.182.13
+    port: 443
+    uuid: 12cf952b-364b-4d42-9342-115bdeb18a8e
+    udp: true
     tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: oracle-id-batam.008883.xyz
-    client-fingerprint: random
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: chrome
+    servername: jp1-jp1.aiopen.sbs
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /kbjc/jp1
       headers:
-        Host: oracle-id-batam.008883.xyz
+        Host: jp1-jp1.aiopen.sbs
     alterId: 0
     cipher: ""
-    flow: ""
-    sni: oracle-id-batam.008883.xyz
+    sni: jp1-jp1.aiopen.sbs
+  - name: 不限速不限设备
+    type: vless
+    server: 69.84.182.13
+    port: 443
+    uuid: 12cf952b-364b-4d42-9342-115bdeb18a8e
+    udp: true
+    tls: true
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: chrome
+    servername: jp1-jp1.aiopen.sbs
+    network: ws
+    ws-opts:
+      path: /kbjc/jp1
+      headers:
+        Host: jp1-jp1.aiopen.sbs
+    alterId: 0
+    cipher: ""
+    sni: jp1-jp1.aiopen.sbs
+  - name: 新疆西藏福建可用
+    type: vless
+    server: 69.84.182.13
+    port: 443
+    uuid: 12cf952b-364b-4d42-9342-115bdeb18a8e
+    udp: true
+    tls: true
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /kbjc/fr1
+      headers:
+        Host: fr-1-fr-1.aiopen.sbs
+    alterId: 0
+    cipher: ""
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
-      - 不限速不限设备
-      - 新疆西藏福建可用
-      - 解锁一切流媒体
       - 最低2块钱1000G流量
       - 最高200元终身无限流量
+      - 不限速不限设备
+      - 新疆西藏福建可用
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
-      - 不限速不限设备
-      - 新疆西藏福建可用
-      - 解锁一切流媒体
       - 最低2块钱1000G流量
       - 最高200元终身无限流量
+      - 不限速不限设备
+      - 新疆西藏福建可用
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
-      - 不限速不限设备
-      - 新疆西藏福建可用
-      - 解锁一切流媒体
       - 最低2块钱1000G流量
       - 最高200元终身无限流量
+      - 不限速不限设备
+      - 新疆西藏福建可用
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
