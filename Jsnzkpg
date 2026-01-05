@@ -6,157 +6,173 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - name: 下单地址https://kelayun.notepin.co
-    server: freeyx.cloudflare88.eu.org
-    port: 443
     type: vless
-    uuid: 3e793148-6eba-4d40-8f01-7e42ebe0dcb9
-    tls: true
-    tfo: false
+    server: jp.111000.cc.cd
+    port: 443
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    encryption: none
+    udp: true
     skip-cert-verify: true
-    servername: do-sfo3.258526.xyz
-    client-fingerprint: random
+    tfo: false
+    tls: true
+    sni: sni.111000.v6.navy
+    servername: sni.111000.v6.navy
+    client-fingerprint: ios
+    alpn:
+      - http/1.1
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /?ed=2560&proxyip=proxyip.cmliussss.net:443
       headers:
-        Host: do-sfo3.258526.xyz
+        Host: sni.111000.v6.navy
     alterId: 0
     cipher: ""
     flow: ""
-    sni: do-sfo3.258526.xyz
   - name: 购买地址https://kelayun.notepin.co
-    server: ct.877774.xyz
+    type: trojan
+    server: jp.111000.cc.cd
     port: 443
-    type: vless
-    uuid: 3e793148-6eba-4d40-8f01-7e42ebe0dcb9
-    tls: true
+    password: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    udp: true
     tfo: false
+    tls: true
+    sni: sni.111000.v6.navy
     skip-cert-verify: true
-    servername: do-lon1.258526.xyz
-    client-fingerprint: random
+    client-fingerprint: ios
+    alpn:
+      - http/1.1
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /?ed=2560&proxyip=proxyip.cmliussss.net:443
       headers:
-        Host: do-lon1.258526.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-lon1.258526.xyz
+        Host: sni.111000.v6.navy
+    servername: sni.111000.v6.navy
   - name: 官网地址https://kelayun.notepin.co
-    server: ct.877774.xyz
-    port: 443
     type: vless
-    uuid: 3e793148-6eba-4d40-8f01-7e42ebe0dcb9
-    tls: true
-    tfo: false
+    server: bestcf.030101.xyz
+    port: 443
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    encryption: none
+    udp: true
     skip-cert-verify: true
-    servername: do-syd1.258526.xyz
-    client-fingerprint: random
+    tfo: false
+    tls: true
+    sni: sni.111000.v6.navy
+    servername: sni.111000.v6.navy
+    client-fingerprint: ios
+    alpn:
+      - http/1.1
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /?ed=2560&proxyip=proxyip.cmliussss.net:443
       headers:
-        Host: do-syd1.258526.xyz
+        Host: sni.111000.v6.navy
     alterId: 0
     cipher: ""
     flow: ""
-    sni: do-syd1.258526.xyz
   - name: 最低2块钱1000G
-    server: freeyx.cloudflare88.eu.org
+    type: trojan
+    server: bestcf.030101.xyz
     port: 443
-    type: vless
-    uuid: 3e793148-6eba-4d40-8f01-7e42ebe0dcb9
-    tls: true
+    password: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    udp: true
     tfo: false
+    tls: true
+    sni: sni.111000.v6.navy
     skip-cert-verify: true
-    servername: do-blr1.258526.xyz
-    client-fingerprint: random
+    client-fingerprint: ios
+    alpn:
+      - http/1.1
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /?ed=2560&proxyip=proxyip.cmliussss.net:443
       headers:
-        Host: do-blr1.258526.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-blr1.258526.xyz
+        Host: sni.111000.v6.navy
+    servername: sni.111000.v6.navy
   - name: 最高200元终身无限流量
+    type: vless
+    server: saas.sin.fan
+    port: 443
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+    tls: true
+    sni: sni.111000.v6.navy
+    servername: sni.111000.v6.navy
+    client-fingerprint: ios
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: /?ed=2560&proxyip=proxyip.cmliussss.net:443
+      headers:
+        Host: sni.111000.v6.navy
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 新疆西藏福建可用
+    type: trojan
+    server: saas.sin.fan
+    port: 443
+    password: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    udp: true
+    tfo: false
+    tls: true
+    sni: sni.111000.v6.navy
+    skip-cert-verify: true
+    client-fingerprint: ios
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: /?ed=2560&proxyip=proxyip.cmliussss.net:443
+      headers:
+        Host: sni.111000.v6.navy
+    servername: sni.111000.v6.navy
+  - name: 不限速不限设备
+    type: vless
     server: freeyx.cloudflare88.eu.org
     port: 443
-    type: vless
-    uuid: 3e793148-6eba-4d40-8f01-7e42ebe0dcb9
-    tls: true
-    tfo: false
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    encryption: none
+    udp: true
     skip-cert-verify: true
-    servername: do-tor1.258526.xyz
-    client-fingerprint: random
+    tfo: false
+    tls: true
+    sni: sni.111000.v6.navy
+    servername: sni.111000.v6.navy
+    client-fingerprint: ios
+    alpn:
+      - http/1.1
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /?ed=2560&proxyip=proxyip.cmliussss.net:443
       headers:
-        Host: do-tor1.258526.xyz
+        Host: sni.111000.v6.navy
     alterId: 0
     cipher: ""
     flow: ""
-    sni: do-tor1.258526.xyz
-  - name: 不限速不限设备
-    server: freev2.cloudflare.182682.xyz
-    port: 443
-    type: vless
-    uuid: 3e793148-6eba-4d40-8f01-7e42ebe0dcb9
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-sgp1.258526.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-sgp1.258526.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-sgp1.258526.xyz
-  - name: 新疆西藏福建可用
-    server: www.visa.com.hk
-    port: 443
-    type: vless
-    uuid: 3e793148-6eba-4d40-8f01-7e42ebe0dcb9
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-fra1.258526.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-fra1.258526.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-fra1.258526.xyz
   - name: 解锁流媒体
-    server: freev2.cloudflare.182682.xyz
+    type: trojan
+    server: freeyx.cloudflare88.eu.org
     port: 443
-    type: vless
-    uuid: 3e793148-6eba-4d40-8f01-7e42ebe0dcb9
-    tls: true
+    password: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    udp: true
     tfo: false
+    tls: true
+    sni: sni.111000.v6.navy
     skip-cert-verify: true
-    servername: oracle-id-batam.258526.xyz
-    client-fingerprint: random
+    client-fingerprint: ios
+    alpn:
+      - http/1.1
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /?ed=2560&proxyip=proxyip.cmliussss.net:443
       headers:
-        Host: oracle-id-batam.258526.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: oracle-id-batam.258526.xyz
+        Host: sni.111000.v6.navy
+    servername: sni.111000.v6.navy
 proxy-groups:
   - name: Haita Cloud
     type: select
@@ -168,8 +184,8 @@ proxy-groups:
       - 官网地址https://kelayun.notepin.co
       - 最低2块钱1000G
       - 最高200元终身无限流量
-      - 不限速不限设备
       - 新疆西藏福建可用
+      - 不限速不限设备
       - 解锁流媒体
   - name: 自动选择
     type: url-test
@@ -181,8 +197,8 @@ proxy-groups:
       - 官网地址https://kelayun.notepin.co
       - 最低2块钱1000G
       - 最高200元终身无限流量
-      - 不限速不限设备
       - 新疆西藏福建可用
+      - 不限速不限设备
       - 解锁流媒体
   - name: 故障转移
     type: fallback
@@ -194,8 +210,8 @@ proxy-groups:
       - 官网地址https://kelayun.notepin.co
       - 最低2块钱1000G
       - 最高200元终身无限流量
-      - 不限速不限设备
       - 新疆西藏福建可用
+      - 不限速不限设备
       - 解锁流媒体
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
