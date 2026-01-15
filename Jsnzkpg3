@@ -8,9 +8,18 @@
 
 {"name": "👖JackTV直播{翻}","url":"https://php.946985.filegear-sg.me/jackTV.m3u","type": 10,"remark":"✈️TG频道@stymei1"}],
 
-"vod":[{"name": "📌关注TG频道@stymei","version": 3,"remark": "✈️TG频道@stymei1","webSite": "https://movie.douban.com","codeID":"SiU95hHc6tmlpYMzdZ8CgCi6izNKs2dT","order": "A00","api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Jian_douban2.txt","type": 101
+"vod":[
+         {
+            "name": "📌关注TG频道@stymei",
+            "version": 4,
+            "remark": "✈️TG频道@stymei1",
+            "webSite": "https://movie.douban.com",
+            "codeID": "4r9lCCTjjoqI5sGDkzho2sNKSL2BQXpc",
+            "order": "A00",
+            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Jian_douban2.txt",
+            "type": 101
            },
-          {
+           {
             "name": "👖bilibili直播",
             "version": 9,
             "remark": "✈️TG频道@stymei1",
@@ -67,14 +76,22 @@
           {"name": "👖OK","remark":"✈️TG频道@stymei1","url": "https://api.okzyw.net/api.php/provide/vod/?ac=list"},
           {"name": "👖索尼","remark":"✈️TG频道@stymei1","url": "https://suoniapi.com/api.php/provide/vod/?ac=list"},
           {"name": "👖瀑布盘","remark":"✈️TG频道@stymei1","url": "https://dh.ha.cn/api.php/provide/vod/at/xml/"},
-          {"name": "👖荐片","remark":"✈️TG频道@stymei1","url": "http://zhangqun1818.serv00.net/jianpian1.php"
-},
 {
 "name": "👖瓜子影视App","remark":"✈️TG频道@stymei1","webSite": "http://api.gudvxty.com","codeID": "ra5Z3wtXKshzSMK2","instance": "gzapp20241001","api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzapp.txt"
 },
 {
 "name": "👖瓜子影视Web","remark":"✈️TG频道@stymei1","webSite": "http://api.gudvxty.com","instance":"gzys20240822","api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzys.js"
      },
+     {
+            "name": "👖荐片",
+            "version": 1,
+            "remark": "✈️TG频道@stymei1",
+            "webSite": "jianpian",
+            "codeID": "DxTfDvFJWn5LEEvxXZpZECUC5BYmCYkF",
+            "order": "B",
+            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_jianpian.txt",
+            "type": 101
+      },
      {
       "name": "👖修罗影视",
       "version": 2,
@@ -95,6 +112,15 @@
       "type": 100
     },
     {
+            "name": "👖奇优",
+            "version": 1,
+            "remark": "✈️TG频道@stymei1",
+            "webSite": "http://www.qiyoudy4.com",
+            "order": "B",
+            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_qiyou.js",
+            "type": 101
+     },
+    {
       "name": "👖韩剧看看",
       "version": 2,
       "remark": "✈️TG频道@stymei1",
@@ -103,6 +129,16 @@
       "order": "B",
       "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_hjkk.js",
       "type": 100
+    },
+    {
+            "name": "👖4k-av",
+            "version": 2,
+            "remark": "✈️TG频道@stymei1",
+            "webSite": "https://4k-av.com",
+            "instance": "www4kav20240705",
+            "order": "B",
+            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_4kav.js",
+            "type": 100
     },
    {
     "name": "👖MX动漫",
