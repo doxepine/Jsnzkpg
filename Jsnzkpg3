@@ -8,7 +8,7 @@
 
 {"name": "👖JackTV直播{翻}","url":"https://php.946985.filegear-sg.me/jackTV.m3u","type": 10,"remark":"✈️TG频道@stymei1"}],
 
-"vod":[{"name": "🚫禁止色情丨热爱祖国","version": 3,"remark": "✈️TG频道@stymei1","webSite": "https://movie.douban.com","codeID":"SiU95hHc6tmlpYMzdZ8CgCi6izNKs2dT","order": "A00","api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Jian_douban2.txt","type": 101
+"vod":[{"name": "📌关注TG频道@stymei","version": 3,"remark": "✈️TG频道@stymei1","webSite": "https://movie.douban.com","codeID":"SiU95hHc6tmlpYMzdZ8CgCi6izNKs2dT","order": "A00","api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Jian_douban2.txt","type": 101
            },
           {
             "name": "👖bilibili直播",
@@ -21,6 +21,7 @@
             "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_doubi.txt",
             "type": 101
           },
+          {"name": "👖自建","remark":"✈️TG频道@stymei1","url": "https://dy.7772888.xyz/api.php/tvbox"},
           {"name": "👖土豆","remark":"✈️TG频道@stymei1","url": "https://learnpython.ggff.net/py_tudou"},
           {"name": "👖电影天堂","remark":"✈️TG频道@stymei1","url": "http://dyttzyw.com/api.php/provide/vod/?ac=list"},
           {"name": "👖豆瓣","remark":"✈️TG频道@stymei1","url": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/josn"},
