@@ -6,383 +6,203 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - name: 永久官网https://kelayun.notepin.co
-    server: time.is
+    server: 104.18.40.250
     port: 443
     type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+    uuid: e258977b-e413-4718-a3af-02d75492c349
     tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
+    tfo: false
     skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
+    servername: ww29.allxniu.qzz.io
     network: ws
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: snip.cfv.pp.ua
-    udp: true
+        Host: ww29.allxniu.qzz.io
     alterId: 0
     cipher: ""
     flow: ""
-    sni: snip.cfv.pp.ua
+    sni: ww29.allxniu.qzz.io
   - name: 下单地址https://kelayun.notepin.co
-    server: icook.hk
+    server: 192.9.139.160
     port: 443
     type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+    uuid: e258977b-e413-4718-a3af-02d75492c349
     tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
+    tfo: false
     skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
+    servername: ww29.allxniu.qzz.io
     network: ws
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: snip.cfv.pp.ua
-    udp: true
+        Host: ww29.allxniu.qzz.io
     alterId: 0
     cipher: ""
     flow: ""
-    sni: snip.cfv.pp.ua
+    sni: ww29.allxniu.qzz.io
   - name: 购买地址https://kelayun.notepin.co
-    server: icook.tw
+    server: 104.194.82.58
     port: 443
     type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+    uuid: e258977b-e413-4718-a3af-02d75492c349
     tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
+    tfo: false
     skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
+    servername: ww29.allxniu.qzz.io
     network: ws
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: snip.cfv.pp.ua
-    udp: true
+        Host: ww29.allxniu.qzz.io
     alterId: 0
     cipher: ""
     flow: ""
-    sni: snip.cfv.pp.ua
-  - name: 不限速不限设备
-    server: www.visa.cn
+    sni: ww29.allxniu.qzz.io
+  - name: 不限速
+    server: 148.135.52.140
     port: 443
     type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+    uuid: e258977b-e413-4718-a3af-02d75492c349
     tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
+    tfo: false
     skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
+    servername: ww29.allxniu.qzz.io
     network: ws
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: snip.cfv.pp.ua
-    udp: true
+        Host: ww29.allxniu.qzz.io
     alterId: 0
     cipher: ""
     flow: ""
-    sni: snip.cfv.pp.ua
+    sni: ww29.allxniu.qzz.io
+  - name: 不限设备
+    server: 85.234.94.186
+    port: 443
+    type: vless
+    uuid: e258977b-e413-4718-a3af-02d75492c349
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: ww29.allxniu.qzz.io
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ww29.allxniu.qzz.io
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: ww29.allxniu.qzz.io
+  - name: 解锁流媒体
+    server: 213.166.71.40
+    port: 443
+    type: vless
+    uuid: e258977b-e413-4718-a3af-02d75492c349
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: ww29.allxniu.qzz.io
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ww29.allxniu.qzz.io
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: ww29.allxniu.qzz.io
+  - name: 可以bt下载
+    server: 153.121.45.101
+    port: 443
+    type: vless
+    uuid: e258977b-e413-4718-a3af-02d75492c349
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: ww29.allxniu.qzz.io
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ww29.allxniu.qzz.io
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: ww29.allxniu.qzz.io
   - name: 新疆西藏福建可用
-    server: mfa.gov.ua
+    server: 38.89.86.82
     port: 443
     type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+    uuid: e258977b-e413-4718-a3af-02d75492c349
     tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
+    tfo: false
     skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
+    servername: ww29.allxniu.qzz.io
     network: ws
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: snip.cfv.pp.ua
-    udp: true
+        Host: ww29.allxniu.qzz.io
     alterId: 0
     cipher: ""
     flow: ""
-    sni: snip.cfv.pp.ua
-  - name: 解锁一切流媒体
-    server: www.shopify.com
+    sni: ww29.allxniu.qzz.io
+  - name: 最低2块钱1000G流量
+    server: 44.209.52.7
     port: 443
     type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+    uuid: e258977b-e413-4718-a3af-02d75492c349
     tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
+    tfo: false
     skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
+    servername: ww29.allxniu.qzz.io
     network: ws
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: snip.cfv.pp.ua
-    udp: true
+        Host: ww29.allxniu.qzz.io
     alterId: 0
     cipher: ""
     flow: ""
-    sni: snip.cfv.pp.ua
-  - name: 1
-    server: store.ubi.com
+    sni: ww29.allxniu.qzz.io
+  - name: 最高200元终身无限流量
+    server: 34.105.49.234
     port: 443
     type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+    uuid: e258977b-e413-4718-a3af-02d75492c349
     tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
+    tfo: false
     skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
+    servername: ww29.allxniu.qzz.io
     network: ws
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: snip.cfv.pp.ua
-    udp: true
+        Host: ww29.allxniu.qzz.io
     alterId: 0
     cipher: ""
     flow: ""
-    sni: snip.cfv.pp.ua
-  - name: 2
-    server: staticdelivery.nexusmods.com
+    sni: ww29.allxniu.qzz.io
+  - name: 全网最便宜最牛逼
+    server: 37.123.192.147
     port: 443
     type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+    uuid: e258977b-e413-4718-a3af-02d75492c349
     tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
+    tfo: false
     skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
+    servername: ww29.allxniu.qzz.io
     network: ws
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: snip.cfv.pp.ua
-    udp: true
+        Host: ww29.allxniu.qzz.io
     alterId: 0
     cipher: ""
     flow: ""
-    sni: snip.cfv.pp.ua
-  - name: 3
-    server: registry.cyou
-    port: 443
-    type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
-    tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
-    skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.cfv.pp.ua
-    udp: true
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snip.cfv.pp.ua
-  - name: 4
-    server: bestcf.030101.xyz
-    port: 443
-    type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
-    tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
-    skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.cfv.pp.ua
-    udp: true
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snip.cfv.pp.ua
-  - name: 5
-    server: zrf.cf.090227.xyz
-    port: 443
-    type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
-    tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
-    skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.cfv.pp.ua
-    udp: true
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snip.cfv.pp.ua
-  - name: 6
-    server: blog.811520.xyz
-    port: 443
-    type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
-    tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
-    skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.cfv.pp.ua
-    udp: true
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snip.cfv.pp.ua
-  - name: 7
-    server: cloudflare.182682.xyz
-    port: 443
-    type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
-    tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
-    skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.cfv.pp.ua
-    udp: true
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snip.cfv.pp.ua
-  - name: 8
-    server: cf.877774.xyz
-    port: 443
-    type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
-    tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
-    skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.cfv.pp.ua
-    udp: true
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snip.cfv.pp.ua
-  - name: 9
-    server: 154.218.15.198
-    port: 443
-    type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
-    tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
-    skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.cfv.pp.ua
-    udp: true
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snip.cfv.pp.ua
-  - name: 10
-    server: 27.50.48.6
-    port: 443
-    type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
-    tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
-    skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.cfv.pp.ua
-    udp: true
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snip.cfv.pp.ua
-  - name: 11
-    server: 27.50.48.13
-    port: 443
-    type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
-    tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
-    skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.cfv.pp.ua
-    udp: true
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snip.cfv.pp.ua
-  - name: 12
-    server: 154.218.15.1
-    port: 443
-    type: vless
-    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
-    tls: true
-    alpn:
-      - h3%2Ch2%2Chttp%2F1.1
-    skip-cert-verify: true
-    servername: snip.cfv.pp.ua
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.cfv.pp.ua
-    udp: true
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: snip.cfv.pp.ua
+    sni: ww29.allxniu.qzz.io
 proxy-groups:
   - name: Haita Cloud
     type: select
@@ -392,21 +212,14 @@ proxy-groups:
       - 永久官网https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
       - 购买地址https://kelayun.notepin.co
-      - 不限速不限设备
+      - 不限速
+      - 不限设备
+      - 解锁流媒体
+      - 可以bt下载
       - 新疆西藏福建可用
-      - 解锁一切流媒体
-      - "1"
-      - "2"
-      - "3"
-      - "4"
-      - "5"
-      - "6"
-      - "7"
-      - "8"
-      - "9"
-      - "10"
-      - "11"
-      - "12"
+      - 最低2块钱1000G流量
+      - 最高200元终身无限流量
+      - 全网最便宜最牛逼
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -415,21 +228,14 @@ proxy-groups:
       - 永久官网https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
       - 购买地址https://kelayun.notepin.co
-      - 不限速不限设备
+      - 不限速
+      - 不限设备
+      - 解锁流媒体
+      - 可以bt下载
       - 新疆西藏福建可用
-      - 解锁一切流媒体
-      - "1"
-      - "2"
-      - "3"
-      - "4"
-      - "5"
-      - "6"
-      - "7"
-      - "8"
-      - "9"
-      - "10"
-      - "11"
-      - "12"
+      - 最低2块钱1000G流量
+      - 最高200元终身无限流量
+      - 全网最便宜最牛逼
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -438,21 +244,14 @@ proxy-groups:
       - 永久官网https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
       - 购买地址https://kelayun.notepin.co
-      - 不限速不限设备
+      - 不限速
+      - 不限设备
+      - 解锁流媒体
+      - 可以bt下载
       - 新疆西藏福建可用
-      - 解锁一切流媒体
-      - "1"
-      - "2"
-      - "3"
-      - "4"
-      - "5"
-      - "6"
-      - "7"
-      - "8"
-      - "9"
-      - "10"
-      - "11"
-      - "12"
+      - 最低2块钱1000G流量
+      - 最高200元终身无限流量
+      - 全网最便宜最牛逼
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
