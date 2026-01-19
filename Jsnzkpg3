@@ -120,6 +120,36 @@
             "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_qiyou.js",
             "type": 101
      },
+      {
+            "name": "👖1080在线",
+            "version": 4,
+            "remark": "✈️TG频道@stymei1",
+            "webSite": "https://www.zxzjhd.com",
+            "codeID": "xgFE0TUb8SZsOIlZzcUkxRtewYrSozoC",
+            "order": "B",
+            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_zxzj.txt",
+            "type": 101
+     },
+      {
+            "name": "👖3Q影视",
+            "version": 1,
+            "remark": "✈️TG频道@stymei1",
+            "webSite": "https://qqqys.com",
+            "codeID": "D9BXZ6cn6jBL9W50ORTUU2yV4vGxYCU1",
+            "order": "B",
+            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_3qys.txt",
+            "type": 101
+     },
+      {
+            "name": "👖人人视频",
+            "version": 1,
+            "remark": "✈️TG频道@stymei1",
+            "webSite": "RRSP",
+            "codeID": "G1qne3LG1JOFjFp2KM2mYgWLWak2qyDG",
+            "order": "B",
+            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_rrsp.txt",
+            "type": 101
+     },
     {
       "name": "👖韩剧看看",
       "version": 2,
