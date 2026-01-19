@@ -110,15 +110,15 @@
       "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_olevod.js",
       "type": 100
     },
-    {
+     {
             "name": "👖奇优",
-            "version": 1,
+            "version": 2,
             "remark": "✈️TG频道@stymei1",
             "webSite": "http://www.qiyoudy4.com",
             "order": "B",
             "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_qiyou.js",
             "type": 101
-     },
+       },
       {
             "name": "👖1080在线",
             "version": 4,
