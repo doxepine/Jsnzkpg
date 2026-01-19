@@ -31,7 +31,6 @@
             "type": 101
           },
           {"name": "👖自建","remark":"✈️TG频道@stymei1","url": "https://dy.7772888.xyz/api.php/tvbox"},
-          {"name": "👖土豆","remark":"✈️TG频道@stymei1","url": "https://learnpython.ggff.net/py_tudou"},
           {"name": "👖电影天堂","remark":"✈️TG频道@stymei1","url": "http://dyttzyw.com/api.php/provide/vod/?ac=list"},
           {"name": "👖豆瓣","remark":"✈️TG频道@stymei1","url": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/josn"},
         {"name": "👖茅台","remark":"✈️TG频道@stymei1","url": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/josn"},
@@ -84,14 +83,14 @@
      },
      {
             "name": "👖荐片",
-            "version": 1,
+            "version": 2,
             "remark": "✈️TG频道@stymei1",
             "webSite": "jianpian",
-            "codeID": "DxTfDvFJWn5LEEvxXZpZECUC5BYmCYkF",
+            "codeID": "3UXc19H0H2Dzz4vJEO4yFIGCmKXIlfoM",
             "order": "B",
             "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_jianpian.txt",
             "type": 101
-      },
+     },
      {
       "name": "👖修罗影视",
       "version": 2,
