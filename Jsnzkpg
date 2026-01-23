@@ -21,23 +21,6 @@ proxies:
     password: test.+
     tls: true
     skip-cert-verify: true
-  - name: 官网地址https://kelayun.notepin.co
-    server: vip1.kaixincloud.top
-    port: 443
-    type: vless
-    uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-    tls: true
-    servername: kb.as129394.me
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kb.as129394.me
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: kb.as129394.me
   - name: 超低价付费机场梯子VPN推荐
     server: testkr3.ssv.vc
     port: 30446
@@ -53,22 +36,6 @@ proxies:
     username: fQ67Dpe5dU
     password: gs4BXwT6SW
     tls: false
-  - name: 最高200元终身无限流量
-    server: v1.dabache.top
-    port: 443
-    type: vless
-    uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-    tls: true
-    servername: kb.as129394.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kb.as129394.me
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: kb.as129394.me
   - name: 不限速不限设备
     server: 121.169.46.116
     port: 1090
@@ -97,10 +64,8 @@ proxy-groups:
       - 故障转移
       - 下单地址https://kelayun.notepin.co
       - 购买地址https://kelayun.notepin.co
-      - 官网地址https://kelayun.notepin.co
       - 超低价付费机场梯子VPN推荐
       - 最低月付2块钱1000G流量
-      - 最高200元终身无限流量
       - 不限速不限设备
       - 新疆西藏福建可用
       - 速度丝滑不卡顿犹如德芙
@@ -112,10 +77,8 @@ proxy-groups:
     proxies:
       - 下单地址https://kelayun.notepin.co
       - 购买地址https://kelayun.notepin.co
-      - 官网地址https://kelayun.notepin.co
       - 超低价付费机场梯子VPN推荐
       - 最低月付2块钱1000G流量
-      - 最高200元终身无限流量
       - 不限速不限设备
       - 新疆西藏福建可用
       - 速度丝滑不卡顿犹如德芙
@@ -127,10 +90,8 @@ proxy-groups:
     proxies:
       - 下单地址https://kelayun.notepin.co
       - 购买地址https://kelayun.notepin.co
-      - 官网地址https://kelayun.notepin.co
       - 超低价付费机场梯子VPN推荐
       - 最低月付2块钱1000G流量
-      - 最高200元终身无限流量
       - 不限速不限设备
       - 新疆西藏福建可用
       - 速度丝滑不卡顿犹如德芙
