@@ -1,44 +1,26 @@
-🔥本人自用机场分享(2元1000G)
-https://kelayun.notepin.co
+<div align="center">
+  <img src="https://pan.baidu.re/view.php/41bd9c87450a80dc2a1f7a8731a37f1d.gif" alt="置顶GIF" />
+</div>
 
-✈️我的TG频道
+## 👖Stymei全网综合分享
 
-https://t.me/stymei1
+| 图标 | 名称 | 链接 |
+|------|------|------|
+| 🔥 | 本人自用机场 (2元1000G) | [点击进入](https://kelayun.notepin.co) |
+| ✈️ | 我的TG频道 | [点击进入](https://t.me/stymei1) |
+| 🔖 | 裤佬书签收藏 | [点击进入](https://Jsnzkpg.github.io) |
+| 🚀 | 裤佬共享小火箭 | [点击进入](https://stymei.github.io) |
+| 🐈‍⬛ | 裤佬Github加速 | [点击进入](https://pyapk.github.io) |
+| 🔄 | 裤佬订阅转换 | [点击进入](https://Jsnzkpg.github.io/Jsnzkpg) |
+| 🪜 | 裤佬永久节点订阅 | [点击进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg) |
+| 📺 | 裤佬永久IPTV订阅 | [点击进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1) |
+| 🎬 | 裤佬永久TVbox订阅 | [点击进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2) |
+| 🎞️ | 裤佬永久UZ影视订阅 | [点击进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg3) |
+| ❶ | 订阅转换 | [点击进入](https://zh.momobaby.org) |
+| ❷ | Clash转换Singbox专用 | [点击进入](https://clash2sfa.xmdhs.com) |
 
-🔖裤佬书签收藏
+---
 
-https://Jsnzkpg.github.io
+## ⭐ Star History
 
-🚀裤佬共享小火箭
-
-https://stymei.github.io
-
-🐈‍⬛裤佬Github加速
-
-https://pyapk.github.io
-
-🔄裤佬订阅转换
-https://Jsnzkpg.github.io/Jsnzkpg
-
-🐈‍⬛裤佬永久节点订阅
-
-https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
-
-📺裤佬永久IPTV订阅
-
-https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1
-
-🎬裤佬永久TVbox订阅
-
-https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2
-
-🎦裤佬永久UZ影视订阅
-
-https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg3
-
-❶订阅转换
-
-https://zh.momobaby.org
-
-❷Clash转换Singbox专用
-https://clash2sfa.xmdhs.com
+[![Star History Chart](https://api.star-history.com/svg?repos=jsnzkpg/jsnzkpg&type=Date&legend=top-left)](https://www.star-history.com/#jsnzkpg/jsnzkpg&type=date&legend=top-left)
