@@ -138,7 +138,17 @@
             "order": "B",
             "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_zxzj.txt",
             "type": 101
-     },
+        },
+        {
+            "name": "👖山有木兮",
+            "version": 1,
+            "remark": "✈️TG频道@stymei1",
+            "webSite": "https://film.symx.club",
+            "codeID": "OpwROp7JEarNm4PJvnFpaiCVjAMTGa8k",
+            "order": "B",
+            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_symx.txt",
+            "type": 101
+        },
       {
             "name": "👖3Q影视",
             "version": 1,
@@ -178,6 +188,36 @@
             "order": "B",
             "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_4kav.js",
             "type": 100
+        },
+        {
+            "name": "👖iKanBot",
+            "version": 1,
+            "remark": "✈️TG频道@stymei1",
+            "webSite": "https://v.aikanbot.com",
+            "codeID": "xWEHbLCxcGGhC4tstiAXbQ5NT6FJz50X",
+            "order": "B",
+            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_iKanBot.txt",
+            "type": 101
+      },
+     {
+            "name": "👖河马短剧",
+            "version": 1,
+            "remark": "✈️TG频道@stymei1",
+            "webSite": "https://www.kuaikaw.cn",
+            "codeID": "y1JFo0Sxs3fVwTggELeJ4U4MWLVKM1dK",
+            "order": "B",
+            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_hmdj.txt",
+            "type": 101
+    },
+    {
+            "name": "👖嗷呜动漫",
+            "version": 1,
+            "remark": "✈️TG频道@stymei1",
+            "webSite": "https://www.aowu.tv",
+            "codeID": "byzBjZR3q9EK3gMag6owco6rksBCyG5k",
+            "order": "C",
+            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Xiu_aowu.txt",
+            "type": 101
     },
    {
     "name": "👖MX动漫",
@@ -298,6 +338,16 @@
       "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Xiu_libvio.js",
       "type": 101
     },
+    {
+            "name": "👖番茄畅听",
+            "version": 1,
+            "remark": "✈️TG频道@stymei1",
+            "webSite": "fanqie",
+            "codeID": "ck9JR5mmMu9fmULHPR1hbl0QRqmQm6M8",
+            "order": "B",
+            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_fqct.txt",
+            "type": 101
+     },
     {
       "name": "👖酷我听书",
       "version": 1,
