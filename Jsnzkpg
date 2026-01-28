@@ -5,97 +5,45 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 下单地址https://kelayun.notepin.co
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    port: 1443
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-    password: mrwdfNTD8M79LCukCieldrqZWqs=
+  - name: 香港全网通无限流量
+    type: vless
+    server: 8.217.111.56
+    port: 49463
+    uuid: 8ea23af5-fe68-46a6-98fa-3c076922f03d
+    encryption: none
+    udp: true
+    skip-cert-verify: null
+    tfo: false
+    flow: xtls-rprx-vision
     tls: true
-    skip-cert-verify: true
-  - name: 购买地址https://kelayun.notepin.co
-    server: testkr3.ssv.vc
-    port: 30446
-    type: http
-    username: test
-    password: test.+
-    tls: true
-    skip-cert-verify: true
-  - name: 超低价付费机场梯子VPN推荐
-    server: testkr3.ssv.vc
-    port: 30446
-    type: http
-    username: test
-    password: test.+
-    tls: true
-    skip-cert-verify: true
-  - name: 最低月付2块钱1000G流量
-    server: 154.26.192.123
-    port: 10988
-    type: http
-    username: fQ67Dpe5dU
-    password: gs4BXwT6SW
-    tls: false
-  - name: 不限速不限设备
-    server: 121.169.46.116
-    port: 1090
-    type: socks5
-  - name: 新疆西藏福建可用
-    server: 154.26.192.123
-    port: 10988
-    type: http
-    username: fQ67Dpe5dU
-    password: gs4BXwT6SW
-    tls: false
-  - name: 速度丝滑不卡顿犹如德芙
-    server: 185.194.217.97
-    port: 1080
-    type: socks5
-  - name: 解锁奈飞/TikTok/ChatGPT
-    server: 193.233.254.7
-    port: 1080
-    type: socks5
-    username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
+    reality-opts:
+      public-key: PpyKJweYWAS7uPM-sKbkpEKeld4ZM9R8aUHhrjmWMSU
+      short-id: bb2426
+    servername: www.sony.com
+    client-fingerprint: chrome
+    network: tcp
+    alterId: 0
+    cipher: ""
+    sni: www.sony.com
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - 下单地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 超低价付费机场梯子VPN推荐
-      - 最低月付2块钱1000G流量
-      - 不限速不限设备
-      - 新疆西藏福建可用
-      - 速度丝滑不卡顿犹如德芙
-      - 解锁奈飞/TikTok/ChatGPT
+      - 香港全网通无限流量
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - 下单地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 超低价付费机场梯子VPN推荐
-      - 最低月付2块钱1000G流量
-      - 不限速不限设备
-      - 新疆西藏福建可用
-      - 速度丝滑不卡顿犹如德芙
-      - 解锁奈飞/TikTok/ChatGPT
+      - 香港全网通无限流量
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - 下单地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 超低价付费机场梯子VPN推荐
-      - 最低月付2块钱1000G流量
-      - 不限速不限设备
-      - 新疆西藏福建可用
-      - 速度丝滑不卡顿犹如德芙
-      - 解锁奈飞/TikTok/ChatGPT
+      - 香港全网通无限流量
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
