@@ -20,6 +20,7 @@
 | 📺 | 裤佬永久IPTV订阅 | [进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1) |
 | 🎬 | 裤佬永久TVbox订阅 | [进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2) |
 | 🎞️ | 裤佬永久UZ影视订阅 | [进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg3) |
+| 🐱 | 裤佬永久猫源订阅 | [进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/stymei/Jsnzkpg/index.js.md5) |
 | ❶ | 订阅转换 | [进入](https://zh.momobaby.org) |
 | ❷ | Clash转换Singbox专用 | [进入](https://clash2sfa.xmdhs.com) |
 
