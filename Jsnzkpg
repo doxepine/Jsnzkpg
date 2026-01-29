@@ -6,273 +6,77 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - name: 官网地址https://kelayun.notepin.co
-    server: freeyx.cloudflare88.eu.org
-    port: 443
-    type: vless
-    uuid: c7c08c33-ad2d-4231-8863-15382625d7d0
-    tls: true
-    tfo: false
+    type: anytls
+    server: 130.162.161.208
+    port: 18443
+    password: 72856887-d91b-4b01-99ca-4d40b28fdb5c
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
+    sni: gw.alicdn.com
     skip-cert-verify: true
-    servername: do-sfo3.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-sfo3.xhs152.shop
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-sfo3.xhs152.shop
   - name: 购买地址https://kelayun.notepin.co
-    server: freeyx.cloudflare88.eu.org
-    port: 443
-    type: vless
-    uuid: c7c08c33-ad2d-4231-8863-15382625d7d0
-    tls: true
-    tfo: false
+    type: anytls
+    server: 130.162.161.208
+    port: 18443
+    password: 72856887-d91b-4b01-99ca-4d40b28fdb5c
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
+    sni: gw.alicdn.com
     skip-cert-verify: true
-    servername: do-lon1.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-lon1.xhs152.shop
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-lon1.xhs152.shop
   - name: 最低月付2元1000G流量
-    server: freeyx.cloudflare88.eu.org
-    port: 443
-    type: vless
-    uuid: c7c08c33-ad2d-4231-8863-15382625d7d0
-    tls: true
-    tfo: false
+    type: anytls
+    server: 130.162.161.208
+    port: 18443
+    password: 72856887-d91b-4b01-99ca-4d40b28fdb5c
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
+    sni: gw.alicdn.com
     skip-cert-verify: true
-    servername: do-syd1.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-syd1.xhs152.shop
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-syd1.xhs152.shop
   - name: 最高200元终身无限流量
-    server: freev2.cloudflare.182682.xyz
-    port: 443
-    type: vless
-    uuid: c7c08c33-ad2d-4231-8863-15382625d7d0
-    tls: true
-    tfo: false
+    type: anytls
+    server: 130.162.161.208
+    port: 18443
+    password: 72856887-d91b-4b01-99ca-4d40b28fdb5c
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
+    sni: gw.alicdn.com
     skip-cert-verify: true
-    servername: do-blr1.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-blr1.xhs152.shop
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-blr1.xhs152.shop
   - name: 不限速不限设备
-    server: ct.877774.xyz
-    port: 443
-    type: vless
-    uuid: c7c08c33-ad2d-4231-8863-15382625d7d0
-    tls: true
-    tfo: false
+    type: anytls
+    server: 130.162.161.208
+    port: 18443
+    password: 72856887-d91b-4b01-99ca-4d40b28fdb5c
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
+    sni: gw.alicdn.com
     skip-cert-verify: true
-    servername: do-tor1.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-tor1.xhs152.shop
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-tor1.xhs152.shop
   - name: 新疆西藏福建可用
-    server: ct.877774.xyz
-    port: 443
-    type: vless
-    uuid: c7c08c33-ad2d-4231-8863-15382625d7d0
-    tls: true
-    tfo: false
+    type: anytls
+    server: 130.162.161.208
+    port: 18443
+    password: 72856887-d91b-4b01-99ca-4d40b28fdb5c
+    client-fingerprint: chrome
+    udp: true
+    alpn:
+      - h2
+      - http/1.1
+    sni: gw.alicdn.com
     skip-cert-verify: true
-    servername: do-sgp1.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-sgp1.xhs152.shop
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-sgp1.xhs152.shop
-  - name: 解锁奈飞/TikTok/ChatGPT
-    server: ct.877774.xyz
-    port: 443
-    type: vless
-    uuid: c7c08c33-ad2d-4231-8863-15382625d7d0
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-fra1.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-fra1.xhs152.shop
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-fra1.xhs152.shop
-  - name: 🇺🇸 US-LN
-    server: freev2.cloudflare.182682.xyz
-    port: 443
-    type: vless
-    uuid: c7c08c33-ad2d-4231-8863-15382625d7d0
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: us-lax.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: us-lax.xhs152.shop
-  - name: 🇯🇵 JP-LN
-    server: freev2.cloudflare.182682.xyz
-    port: 443
-    type: vless
-    uuid: c7c08c33-ad2d-4231-8863-15382625d7d0
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: jp-osa.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: jp-osa.xhs152.shop
-  - name: 🇳🇱 NL-LN
-    server: ct.877774.xyz
-    port: 443
-    type: vless
-    uuid: c7c08c33-ad2d-4231-8863-15382625d7d0
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: nl-ams.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: nl-ams.xhs152.shop
-  - name: 🇸🇬 SG-LN
-    server: freev2.cloudflare.182682.xyz
-    port: 443
-    type: vless
-    uuid: c7c08c33-ad2d-4231-8863-15382625d7d0
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: ap-south.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: ap-south.xhs152.shop
-  - name: SE-LN
-    server: freeyx.cloudflare88.eu.org
-    port: 443
-    type: vless
-    uuid: c7c08c33-ad2d-4231-8863-15382625d7d0
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: se-sto.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: se-sto.xhs152.shop
-  - name: BR-LN
-    server: ct.877774.xyz
-    port: 443
-    type: vless
-    uuid: c7c08c33-ad2d-4231-8863-15382625d7d0
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: br-gru.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: br-gru.xhs152.shop
-  - name: IT-LN
-    server: ct.877774.xyz
-    port: 443
-    type: vless
-    uuid: c7c08c33-ad2d-4231-8863-15382625d7d0
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: it-mil.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: it-mil.xhs152.shop
-  - name: 🇩🇪 DE-LN
-    server: freeyx.cloudflare88.eu.org
-    port: 443
-    type: vless
-    uuid: c7c08c33-ad2d-4231-8863-15382625d7d0
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: eu-central.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: eu-central.xhs152.shop
-  - name: ID-O
-    server: ct.877774.xyz
-    port: 443
-    type: vless
-    uuid: c7c08c33-ad2d-4231-8863-15382625d7d0
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: oracle-id-batam.xhs152.shop
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: oracle-id-batam.xhs152.shop
 proxy-groups:
   - name: Haita Cloud
     type: select
@@ -285,16 +89,6 @@ proxy-groups:
       - 最高200元终身无限流量
       - 不限速不限设备
       - 新疆西藏福建可用
-      - 解锁奈飞/TikTok/ChatGPT
-      - 🇺🇸 US-LN
-      - 🇯🇵 JP-LN
-      - 🇳🇱 NL-LN
-      - 🇸🇬 SG-LN
-      - SE-LN
-      - BR-LN
-      - IT-LN
-      - 🇩🇪 DE-LN
-      - ID-O
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -306,16 +100,6 @@ proxy-groups:
       - 最高200元终身无限流量
       - 不限速不限设备
       - 新疆西藏福建可用
-      - 解锁奈飞/TikTok/ChatGPT
-      - 🇺🇸 US-LN
-      - 🇯🇵 JP-LN
-      - 🇳🇱 NL-LN
-      - 🇸🇬 SG-LN
-      - SE-LN
-      - BR-LN
-      - IT-LN
-      - 🇩🇪 DE-LN
-      - ID-O
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -327,16 +111,6 @@ proxy-groups:
       - 最高200元终身无限流量
       - 不限速不限设备
       - 新疆西藏福建可用
-      - 解锁奈飞/TikTok/ChatGPT
-      - 🇺🇸 US-LN
-      - 🇯🇵 JP-LN
-      - 🇳🇱 NL-LN
-      - 🇸🇬 SG-LN
-      - SE-LN
-      - BR-LN
-      - IT-LN
-      - 🇩🇪 DE-LN
-      - ID-O
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
