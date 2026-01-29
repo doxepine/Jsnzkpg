@@ -5,45 +5,129 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 香港全网通无限流量
+  - name: 付费机场梯子vpn推荐
+    server: 162.159.44.142
+    port: 443
     type: vless
-    server: 8.217.111.56
-    port: 49463
-    uuid: 8ea23af5-fe68-46a6-98fa-3c076922f03d
-    encryption: none
-    udp: true
-    skip-cert-verify: null
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: l.ayovo.netlib.re
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /x-aniu/?ed=2560
+      headers:
+        Host: l.ayovo.netlib.re
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: l.ayovo.netlib.re
+  - name: 官网地址https://kelayun.notepin.co
+    server: 173.245.59.220
+    port: 443
+    type: vless
+    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: snip.ere.de5.net
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /x-aniu/?ed=2560
+      headers:
+        Host: snip.ere.de5.net
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: snip.ere.de5.net
+  - name: 最低2块钱1000G流量
+    server: 2026.01.1.kr.aimirror.top
+    port: 443
+    type: vless
+    uuid: eeaa07ca-2693-42f8-e544-a16521d8e922
+    tls: true
     tfo: false
     flow: xtls-rprx-vision
-    tls: true
+    skip-cert-verify: true
     reality-opts:
-      public-key: PpyKJweYWAS7uPM-sKbkpEKeld4ZM9R8aUHhrjmWMSU
-      short-id: bb2426
-    servername: www.sony.com
-    client-fingerprint: chrome
+      public-key: SXqEq6ZholDwAcZRjV-E4IjCP_qUNeDcnzroQ4lwoA8
+      short-id: ""
+    servername: www.icloud.com
+    client-fingerprint: safari
     network: tcp
     alterId: 0
     cipher: ""
-    sni: www.sony.com
+    sni: www.icloud.com
+  - name: 最高200元终身无限流量
+    server: 108.162.198.38
+    port: 443
+    type: vless
+    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+    tls: true
+    tfo: false
+    skip-cert-verify: true
+    servername: snip.ere.de5.net
+    client-fingerprint: random
+    network: ws
+    ws-opts:
+      path: /x-aniu/?ed=2560
+      headers:
+        Host: snip.ere.de5.net
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: snip.ere.de5.net
+  - name: 不限速不限设备
+    server: 58.152.53.45
+    port: 443
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: true
+    servername: t.me%2Fripaojiedian
+  - name: 新疆西藏福建可用
+    server: admin.c2.havij.co
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: kaQH3hGdcP80XEDI
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - 香港全网通无限流量
+      - 付费机场梯子vpn推荐
+      - 官网地址https://kelayun.notepin.co
+      - 最低2块钱1000G流量
+      - 最高200元终身无限流量
+      - 不限速不限设备
+      - 新疆西藏福建可用
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - 香港全网通无限流量
+      - 付费机场梯子vpn推荐
+      - 官网地址https://kelayun.notepin.co
+      - 最低2块钱1000G流量
+      - 最高200元终身无限流量
+      - 不限速不限设备
+      - 新疆西藏福建可用
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - 香港全网通无限流量
+      - 付费机场梯子vpn推荐
+      - 官网地址https://kelayun.notepin.co
+      - 最低2块钱1000G流量
+      - 最高200元终身无限流量
+      - 不限速不限设备
+      - 新疆西藏福建可用
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
