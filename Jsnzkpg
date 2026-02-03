@@ -3,540 +3,644 @@ allow-lan: true
 bind-address: '*'
 mode: rule
 log-level: info
-external-controller: '127.0.0.1:9090'
-dns:
-  enable: true
-  ipv6: false
-  default-nameserver: [223.5.5.5, 119.29.29.29]
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  use-hosts: true
-  nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
-  fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
-  fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32]}
+external-controller: 127.0.0.1:9090
 proxies:
-  - {name: '购买地址https://kelayun.notepin.co', server: 134.195.101.191, port: 443, udp: true, skip-cert-verify: true, sni: www.apple.com, type: hysteria2, auth: 271ad593-3c8d-4bea-a785-350ddad205c9, fast-open: false, servername: www.apple.com}
-  - {name: '下单地址https://kelayun.notepin.co', server: 134.195.101.191, port: 443, udp: true, skip-cert-verify: true, sni: www.apple.com, type: hysteria2, auth: 271ad593-3c8d-4bea-a785-350ddad205c9, fast-open: false, servername: www.apple.com}
-  - {name: '官网地址https://kelayun.notepin.co', server: 208.87.242.77, port: 35000, ports: 35000-39000, mport: 35000-39000, udp: true, skip-cert-verify: true, sni: www.apple.com, type: hysteria2, auth: 271ad593-3c8d-4bea-a785-350ddad205c9, fast-open: false, servername: www.apple.com}
-  - {name: '最低月付2元1000G', type: vless, server: 69.84.182.13, port: 443, uuid: 271ad593-3c8d-4bea-a785-350ddad205c9, flow: '', client-fingerprint: chrome, udp: true, tls: true, servername: jp1-jp1.aiopen.sbs, network: ws, ws-opts: {path: /kbjc/jp1, headers: {Host: jp1-jp1.aiopen.sbs}}, ws-path: /kbjc/jp1, ws-headers: {Host: jp1-jp1.aiopen.sbs}, alterId: 0, cipher: "", sni: jp1-jp1.aiopen.sbs}
-  - {name: '最高200元终身无限流量', type: vless, server: 69.84.182.13, port: 443, uuid: 271ad593-3c8d-4bea-a785-350ddad205c9, flow: '', client-fingerprint: chrome, udp: true, tls: true, servername: jp1-jp1.aiopen.sbs, network: ws, ws-opts: {path: /kbjc/jp1, headers: {Host: jp1-jp1.aiopen.sbs}}, ws-path: /kbjc/jp1, ws-headers: {Host: jp1-jp1.aiopen.sbs}, alterId: 0, cipher: "", sni: jp1-jp1.aiopen.sbs}
-  - {name: '不限速不限设备解锁Gemini', type: vless, server: 69.84.182.13, port: 443, uuid: 271ad593-3c8d-4bea-a785-350ddad205c9, flow: '', client-fingerprint: chrome, udp: true, tls: true, network: ws, ws-opts: {path: /kbjc/fr1, headers: {Host: fr-1-fr-1.aiopen.sbs}}, ws-path: /kbjc/fr1, ws-headers: {Host: fr-1-fr-1.aiopen.sbs}, alterId: 0, cipher: ""}
+  - name: 购买地址https://kelayun.notepin.co
+    server: 134.195.101.191
+    port: 443
+    udp: true
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    password: 271ad593-3c8d-4bea-a785-350ddad205c9
+    auth: ""
+    fast-open: false
+    servername: www.apple.com
+  - name: 下单地址https://kelayun.notepin.co
+    server: 134.195.101.191
+    port: 443
+    udp: true
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    password: 271ad593-3c8d-4bea-a785-350ddad205c9
+    auth: ""
+    fast-open: false
+    servername: www.apple.com
+  - name: 官网地址https://kelayun.notepin.co
+    server: 208.87.242.77
+    port: 35000
+    ports: 35000-39000
+    mport: 35000-39000
+    udp: true
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    password: 271ad593-3c8d-4bea-a785-350ddad205c9
+    auth: ""
+    fast-open: false
+    servername: www.apple.com
+  - name: 最低月付2元1000G
+    type: vless
+    server: 69.84.182.13
+    port: 443
+    uuid: 271ad593-3c8d-4bea-a785-350ddad205c9
+    udp: true
+    tls: true
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: chrome
+    servername: jp1-jp1.aiopen.sbs
+    network: ws
+    ws-opts:
+      path: /kbjc/jp1
+      headers:
+        Host: jp1-jp1.aiopen.sbs
+    alterId: 0
+    cipher: ""
+    sni: jp1-jp1.aiopen.sbs
+  - name: 新疆西藏福建可用
+    type: vless
+    server: 69.84.182.13
+    port: 443
+    uuid: 271ad593-3c8d-4bea-a785-350ddad205c9
+    udp: true
+    tls: true
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: chrome
+    servername: jp1-jp1.aiopen.sbs
+    network: ws
+    ws-opts:
+      path: /kbjc/jp1
+      headers:
+        Host: jp1-jp1.aiopen.sbs
+    alterId: 0
+    cipher: ""
+    sni: jp1-jp1.aiopen.sbs
+  - name: 解锁谷歌Gemini
+    type: vless
+    server: 69.84.182.13
+    port: 443
+    uuid: 271ad593-3c8d-4bea-a785-350ddad205c9
+    udp: true
+    tls: true
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /kbjc/fr1
+      headers:
+        Host: fr-1-fr-1.aiopen.sbs
+    alterId: 0
+    cipher: ""
 proxy-groups:
-  - {name: 亏本机场, type: select, proxies: [自动选择, 故障转移, '购买地址https://kelayun.notepin.co', '下单地址https://kelayun.notepin.co', '官网地址https://kelayun.notepin.co', '最低月付2元1000G', '最高200元终身无限流量', '不限速不限设备解锁Gemini']}
-  - {name: 自动选择, type: url-test, proxies: ['购买地址https://kelayun.notepin.co', '下单地址https://kelayun.notepin.co', '官网地址https://kelayun.notepin.co', '最低月付2元1000G', '最高200元终身无限流量', '不限速不限设备解锁Gemini'], url: 'http://www.gstatic.com/generate_204', interval: 86400}
-  - {name: 故障转移, type: fallback, proxies: ['购买地址https://kelayun.notepin.co', '下单地址https://kelayun.notepin.co', '官网地址https://kelayun.notepin.co', '最低月付2元1000G', '最高200元终身无限流量', '不限速不限设备解锁Gemini'], url: 'http://www.gstatic.com/generate_204', interval: 7200}
+  - name: Haita Cloud
+    type: select
+    proxies:
+      - 自动选择
+      - 故障转移
+      - 购买地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
+      - 官网地址https://kelayun.notepin.co
+      - 最低月付2元1000G
+      - 新疆西藏福建可用
+      - 解锁谷歌Gemini
+  - name: 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 86400
+    proxies:
+      - 购买地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
+      - 官网地址https://kelayun.notepin.co
+      - 最低月付2元1000G
+      - 新疆西藏福建可用
+      - 解锁谷歌Gemini
+  - name: 故障转移
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 7200
+    proxies:
+      - 购买地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
+      - 官网地址https://kelayun.notepin.co
+      - 最低月付2元1000G
+      - 新疆西藏福建可用
+      - 解锁谷歌Gemini
 rules:
-  - 'DOMAIN,dash.knjc.cfd,DIRECT'
-  - 'DOMAIN-SUFFIX,services.googleapis.cn,亏本机场'
-  - 'DOMAIN-SUFFIX,xn--ngstr-lra8j.com,亏本机场'
-  - 'DOMAIN,safebrowsing.urlsec.qq.com,DIRECT'
-  - 'DOMAIN,safebrowsing.googleapis.com,DIRECT'
-  - 'DOMAIN,developer.apple.com,亏本机场'
-  - 'DOMAIN-SUFFIX,digicert.com,亏本机场'
-  - 'DOMAIN,ocsp.apple.com,亏本机场'
-  - 'DOMAIN,ocsp.comodoca.com,亏本机场'
-  - 'DOMAIN,ocsp.usertrust.com,亏本机场'
-  - 'DOMAIN,ocsp.sectigo.com,亏本机场'
-  - 'DOMAIN,ocsp.verisign.net,亏本机场'
-  - 'DOMAIN-SUFFIX,apple-dns.net,亏本机场'
-  - 'DOMAIN,testflight.apple.com,亏本机场'
-  - 'DOMAIN,sandbox.itunes.apple.com,亏本机场'
-  - 'DOMAIN,itunes.apple.com,亏本机场'
-  - 'DOMAIN-SUFFIX,apps.apple.com,亏本机场'
-  - 'DOMAIN-SUFFIX,blobstore.apple.com,亏本机场'
-  - 'DOMAIN,cvws.icloud-content.com,亏本机场'
-  - 'DOMAIN-SUFFIX,mzstatic.com,DIRECT'
-  - 'DOMAIN-SUFFIX,itunes.apple.com,DIRECT'
-  - 'DOMAIN-SUFFIX,icloud.com,DIRECT'
-  - 'DOMAIN-SUFFIX,icloud-content.com,DIRECT'
-  - 'DOMAIN-SUFFIX,me.com,DIRECT'
-  - 'DOMAIN-SUFFIX,aaplimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,cdn20.com,DIRECT'
-  - 'DOMAIN-SUFFIX,cdn-apple.com,DIRECT'
-  - 'DOMAIN-SUFFIX,akadns.net,DIRECT'
-  - 'DOMAIN-SUFFIX,akamaiedge.net,DIRECT'
-  - 'DOMAIN-SUFFIX,edgekey.net,DIRECT'
-  - 'DOMAIN-SUFFIX,mwcloudcdn.com,DIRECT'
-  - 'DOMAIN-SUFFIX,mwcname.com,DIRECT'
-  - 'DOMAIN-SUFFIX,apple.com,DIRECT'
-  - 'DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT'
-  - 'DOMAIN-SUFFIX,apple-mapkit.com,DIRECT'
-  - 'DOMAIN-SUFFIX,126.com,DIRECT'
-  - 'DOMAIN-SUFFIX,126.net,DIRECT'
-  - 'DOMAIN-SUFFIX,127.net,DIRECT'
-  - 'DOMAIN-SUFFIX,163.com,DIRECT'
-  - 'DOMAIN-SUFFIX,360buyimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,36kr.com,DIRECT'
-  - 'DOMAIN-SUFFIX,acfun.tv,DIRECT'
-  - 'DOMAIN-SUFFIX,air-matters.com,DIRECT'
-  - 'DOMAIN-SUFFIX,aixifan.com,DIRECT'
-  - 'DOMAIN-KEYWORD,alicdn,DIRECT'
-  - 'DOMAIN-KEYWORD,alipay,DIRECT'
-  - 'DOMAIN-KEYWORD,taobao,DIRECT'
-  - 'DOMAIN-SUFFIX,amap.com,DIRECT'
-  - 'DOMAIN-SUFFIX,autonavi.com,DIRECT'
-  - 'DOMAIN-KEYWORD,baidu,DIRECT'
-  - 'DOMAIN-SUFFIX,bdimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,bdstatic.com,DIRECT'
-  - 'DOMAIN-SUFFIX,bilibili.com,DIRECT'
-  - 'DOMAIN-SUFFIX,bilivideo.com,DIRECT'
-  - 'DOMAIN-SUFFIX,caiyunapp.com,DIRECT'
-  - 'DOMAIN-SUFFIX,clouddn.com,DIRECT'
-  - 'DOMAIN-SUFFIX,cnbeta.com,DIRECT'
-  - 'DOMAIN-SUFFIX,cnbetacdn.com,DIRECT'
-  - 'DOMAIN-SUFFIX,cootekservice.com,DIRECT'
-  - 'DOMAIN-SUFFIX,csdn.net,DIRECT'
-  - 'DOMAIN-SUFFIX,ctrip.com,DIRECT'
-  - 'DOMAIN-SUFFIX,dgtle.com,DIRECT'
-  - 'DOMAIN-SUFFIX,dianping.com,DIRECT'
-  - 'DOMAIN-SUFFIX,douban.com,DIRECT'
-  - 'DOMAIN-SUFFIX,doubanio.com,DIRECT'
-  - 'DOMAIN-SUFFIX,duokan.com,DIRECT'
-  - 'DOMAIN-SUFFIX,easou.com,DIRECT'
-  - 'DOMAIN-SUFFIX,ele.me,DIRECT'
-  - 'DOMAIN-SUFFIX,feng.com,DIRECT'
-  - 'DOMAIN-SUFFIX,fir.im,DIRECT'
-  - 'DOMAIN-SUFFIX,frdic.com,DIRECT'
-  - 'DOMAIN-SUFFIX,g-cores.com,DIRECT'
-  - 'DOMAIN-SUFFIX,godic.net,DIRECT'
-  - 'DOMAIN-SUFFIX,gtimg.com,DIRECT'
-  - 'DOMAIN,cdn.hockeyapp.net,DIRECT'
-  - 'DOMAIN-SUFFIX,hongxiu.com,DIRECT'
-  - 'DOMAIN-SUFFIX,hxcdn.net,DIRECT'
-  - 'DOMAIN-SUFFIX,iciba.com,DIRECT'
-  - 'DOMAIN-SUFFIX,ifeng.com,DIRECT'
-  - 'DOMAIN-SUFFIX,ifengimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,ipip.net,DIRECT'
-  - 'DOMAIN-SUFFIX,iqiyi.com,DIRECT'
-  - 'DOMAIN-SUFFIX,jd.com,DIRECT'
-  - 'DOMAIN-SUFFIX,jianshu.com,DIRECT'
-  - 'DOMAIN-SUFFIX,knewone.com,DIRECT'
-  - 'DOMAIN-SUFFIX,le.com,DIRECT'
-  - 'DOMAIN-SUFFIX,lecloud.com,DIRECT'
-  - 'DOMAIN-SUFFIX,lemicp.com,DIRECT'
-  - 'DOMAIN-SUFFIX,licdn.com,DIRECT'
-  - 'DOMAIN-SUFFIX,luoo.net,DIRECT'
-  - 'DOMAIN-SUFFIX,meituan.com,DIRECT'
-  - 'DOMAIN-SUFFIX,meituan.net,DIRECT'
-  - 'DOMAIN-SUFFIX,mi.com,DIRECT'
-  - 'DOMAIN-SUFFIX,miaopai.com,DIRECT'
-  - 'DOMAIN-SUFFIX,microsoft.com,DIRECT'
-  - 'DOMAIN-SUFFIX,microsoftonline.com,DIRECT'
-  - 'DOMAIN-SUFFIX,miui.com,DIRECT'
-  - 'DOMAIN-SUFFIX,miwifi.com,DIRECT'
-  - 'DOMAIN-SUFFIX,mob.com,DIRECT'
-  - 'DOMAIN-SUFFIX,netease.com,DIRECT'
-  - 'DOMAIN-SUFFIX,office.com,DIRECT'
-  - 'DOMAIN-SUFFIX,office365.com,DIRECT'
-  - 'DOMAIN-KEYWORD,officecdn,DIRECT'
-  - 'DOMAIN-SUFFIX,oschina.net,DIRECT'
-  - 'DOMAIN-SUFFIX,ppsimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,pstatp.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qcloud.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qdaily.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qdmm.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qhimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qhres.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qidian.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qihucdn.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qiniu.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qiniucdn.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qiyipic.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qq.com,DIRECT'
-  - 'DOMAIN-SUFFIX,qqurl.com,DIRECT'
-  - 'DOMAIN-SUFFIX,rarbg.to,DIRECT'
-  - 'DOMAIN-SUFFIX,ruguoapp.com,DIRECT'
-  - 'DOMAIN-SUFFIX,segmentfault.com,DIRECT'
-  - 'DOMAIN-SUFFIX,sinaapp.com,DIRECT'
-  - 'DOMAIN-SUFFIX,smzdm.com,DIRECT'
-  - 'DOMAIN-SUFFIX,snapdrop.net,DIRECT'
-  - 'DOMAIN-SUFFIX,sogou.com,DIRECT'
-  - 'DOMAIN-SUFFIX,sogoucdn.com,DIRECT'
-  - 'DOMAIN-SUFFIX,sohu.com,DIRECT'
-  - 'DOMAIN-SUFFIX,soku.com,DIRECT'
-  - 'DOMAIN-SUFFIX,speedtest.net,DIRECT'
-  - 'DOMAIN-SUFFIX,sspai.com,DIRECT'
-  - 'DOMAIN-SUFFIX,suning.com,DIRECT'
-  - 'DOMAIN-SUFFIX,taobao.com,DIRECT'
-  - 'DOMAIN-SUFFIX,tencent.com,DIRECT'
-  - 'DOMAIN-SUFFIX,tenpay.com,DIRECT'
-  - 'DOMAIN-SUFFIX,tianyancha.com,DIRECT'
-  - 'DOMAIN-SUFFIX,tmall.com,DIRECT'
-  - 'DOMAIN-SUFFIX,tudou.com,DIRECT'
-  - 'DOMAIN-SUFFIX,umetrip.com,DIRECT'
-  - 'DOMAIN-SUFFIX,upaiyun.com,DIRECT'
-  - 'DOMAIN-SUFFIX,upyun.com,DIRECT'
-  - 'DOMAIN-SUFFIX,veryzhun.com,DIRECT'
-  - 'DOMAIN-SUFFIX,weather.com,DIRECT'
-  - 'DOMAIN-SUFFIX,weibo.com,DIRECT'
-  - 'DOMAIN-SUFFIX,xiami.com,DIRECT'
-  - 'DOMAIN-SUFFIX,xiami.net,DIRECT'
-  - 'DOMAIN-SUFFIX,xiaomicp.com,DIRECT'
-  - 'DOMAIN-SUFFIX,ximalaya.com,DIRECT'
-  - 'DOMAIN-SUFFIX,xmcdn.com,DIRECT'
-  - 'DOMAIN-SUFFIX,xunlei.com,DIRECT'
-  - 'DOMAIN-SUFFIX,yhd.com,DIRECT'
-  - 'DOMAIN-SUFFIX,yihaodianimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,yinxiang.com,DIRECT'
-  - 'DOMAIN-SUFFIX,ykimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,youdao.com,DIRECT'
-  - 'DOMAIN-SUFFIX,youku.com,DIRECT'
-  - 'DOMAIN-SUFFIX,zealer.com,DIRECT'
-  - 'DOMAIN-SUFFIX,zhihu.com,DIRECT'
-  - 'DOMAIN-SUFFIX,zhimg.com,DIRECT'
-  - 'DOMAIN-SUFFIX,zimuzu.tv,DIRECT'
-  - 'DOMAIN-SUFFIX,zoho.com,DIRECT'
-  - 'DOMAIN-KEYWORD,amazon,亏本机场'
-  - 'DOMAIN-KEYWORD,google,亏本机场'
-  - 'DOMAIN-KEYWORD,gmail,亏本机场'
-  - 'DOMAIN-KEYWORD,youtube,亏本机场'
-  - 'DOMAIN-KEYWORD,facebook,亏本机场'
-  - 'DOMAIN-SUFFIX,fb.me,亏本机场'
-  - 'DOMAIN-SUFFIX,fbcdn.net,亏本机场'
-  - 'DOMAIN-KEYWORD,twitter,亏本机场'
-  - 'DOMAIN-KEYWORD,instagram,亏本机场'
-  - 'DOMAIN-KEYWORD,dropbox,亏本机场'
-  - 'DOMAIN-SUFFIX,twimg.com,亏本机场'
-  - 'DOMAIN-KEYWORD,blogspot,亏本机场'
-  - 'DOMAIN-SUFFIX,youtu.be,亏本机场'
-  - 'DOMAIN-KEYWORD,whatsapp,亏本机场'
-  - 'DOMAIN-KEYWORD,admarvel,REJECT'
-  - 'DOMAIN-KEYWORD,admaster,REJECT'
-  - 'DOMAIN-KEYWORD,adsage,REJECT'
-  - 'DOMAIN-KEYWORD,adsmogo,REJECT'
-  - 'DOMAIN-KEYWORD,adsrvmedia,REJECT'
-  - 'DOMAIN-KEYWORD,adwords,REJECT'
-  - 'DOMAIN-KEYWORD,adservice,REJECT'
-  - 'DOMAIN-SUFFIX,appsflyer.com,REJECT'
-  - 'DOMAIN-KEYWORD,domob,REJECT'
-  - 'DOMAIN-SUFFIX,doubleclick.net,REJECT'
-  - 'DOMAIN-KEYWORD,duomeng,REJECT'
-  - 'DOMAIN-KEYWORD,dwtrack,REJECT'
-  - 'DOMAIN-KEYWORD,guanggao,REJECT'
-  - 'DOMAIN-KEYWORD,lianmeng,REJECT'
-  - 'DOMAIN-SUFFIX,mmstat.com,REJECT'
-  - 'DOMAIN-KEYWORD,mopub,REJECT'
-  - 'DOMAIN-KEYWORD,omgmta,REJECT'
-  - 'DOMAIN-KEYWORD,openx,REJECT'
-  - 'DOMAIN-KEYWORD,partnerad,REJECT'
-  - 'DOMAIN-KEYWORD,pingfore,REJECT'
-  - 'DOMAIN-KEYWORD,supersonicads,REJECT'
-  - 'DOMAIN-KEYWORD,uedas,REJECT'
-  - 'DOMAIN-KEYWORD,umeng,REJECT'
-  - 'DOMAIN-KEYWORD,usage,REJECT'
-  - 'DOMAIN-SUFFIX,vungle.com,REJECT'
-  - 'DOMAIN-KEYWORD,wlmonitor,REJECT'
-  - 'DOMAIN-KEYWORD,zjtoolbar,REJECT'
-  - 'DOMAIN-SUFFIX,9to5mac.com,亏本机场'
-  - 'DOMAIN-SUFFIX,abpchina.org,亏本机场'
-  - 'DOMAIN-SUFFIX,adblockplus.org,亏本机场'
-  - 'DOMAIN-SUFFIX,adobe.com,亏本机场'
-  - 'DOMAIN-SUFFIX,akamaized.net,亏本机场'
-  - 'DOMAIN-SUFFIX,alfredapp.com,亏本机场'
-  - 'DOMAIN-SUFFIX,amplitude.com,亏本机场'
-  - 'DOMAIN-SUFFIX,ampproject.org,亏本机场'
-  - 'DOMAIN-SUFFIX,android.com,亏本机场'
-  - 'DOMAIN-SUFFIX,angularjs.org,亏本机场'
-  - 'DOMAIN-SUFFIX,aolcdn.com,亏本机场'
-  - 'DOMAIN-SUFFIX,apkpure.com,亏本机场'
-  - 'DOMAIN-SUFFIX,appledaily.com,亏本机场'
-  - 'DOMAIN-SUFFIX,appshopper.com,亏本机场'
-  - 'DOMAIN-SUFFIX,appspot.com,亏本机场'
-  - 'DOMAIN-SUFFIX,arcgis.com,亏本机场'
-  - 'DOMAIN-SUFFIX,archive.org,亏本机场'
-  - 'DOMAIN-SUFFIX,armorgames.com,亏本机场'
-  - 'DOMAIN-SUFFIX,aspnetcdn.com,亏本机场'
-  - 'DOMAIN-SUFFIX,att.com,亏本机场'
-  - 'DOMAIN-SUFFIX,awsstatic.com,亏本机场'
-  - 'DOMAIN-SUFFIX,azureedge.net,亏本机场'
-  - 'DOMAIN-SUFFIX,azurewebsites.net,亏本机场'
-  - 'DOMAIN-SUFFIX,bing.com,亏本机场'
-  - 'DOMAIN-SUFFIX,bintray.com,亏本机场'
-  - 'DOMAIN-SUFFIX,bit.com,亏本机场'
-  - 'DOMAIN-SUFFIX,bit.ly,亏本机场'
-  - 'DOMAIN-SUFFIX,bitbucket.org,亏本机场'
-  - 'DOMAIN-SUFFIX,bjango.com,亏本机场'
-  - 'DOMAIN-SUFFIX,bkrtx.com,亏本机场'
-  - 'DOMAIN-SUFFIX,blog.com,亏本机场'
-  - 'DOMAIN-SUFFIX,blogcdn.com,亏本机场'
-  - 'DOMAIN-SUFFIX,blogger.com,亏本机场'
-  - 'DOMAIN-SUFFIX,blogsmithmedia.com,亏本机场'
-  - 'DOMAIN-SUFFIX,blogspot.com,亏本机场'
-  - 'DOMAIN-SUFFIX,blogspot.hk,亏本机场'
-  - 'DOMAIN-SUFFIX,bloomberg.com,亏本机场'
-  - 'DOMAIN-SUFFIX,box.com,亏本机场'
-  - 'DOMAIN-SUFFIX,box.net,亏本机场'
-  - 'DOMAIN-SUFFIX,cachefly.net,亏本机场'
-  - 'DOMAIN-SUFFIX,chromium.org,亏本机场'
-  - 'DOMAIN-SUFFIX,cl.ly,亏本机场'
-  - 'DOMAIN-SUFFIX,cloudflare.com,亏本机场'
-  - 'DOMAIN-SUFFIX,cloudfront.net,亏本机场'
-  - 'DOMAIN-SUFFIX,cloudmagic.com,亏本机场'
-  - 'DOMAIN-SUFFIX,cmail19.com,亏本机场'
-  - 'DOMAIN-SUFFIX,cnet.com,亏本机场'
-  - 'DOMAIN-SUFFIX,cocoapods.org,亏本机场'
-  - 'DOMAIN-SUFFIX,comodoca.com,亏本机场'
-  - 'DOMAIN-SUFFIX,crashlytics.com,亏本机场'
-  - 'DOMAIN-SUFFIX,culturedcode.com,亏本机场'
-  - 'DOMAIN-SUFFIX,d.pr,亏本机场'
-  - 'DOMAIN-SUFFIX,danilo.to,亏本机场'
-  - 'DOMAIN-SUFFIX,dayone.me,亏本机场'
-  - 'DOMAIN-SUFFIX,db.tt,亏本机场'
-  - 'DOMAIN-SUFFIX,deskconnect.com,亏本机场'
-  - 'DOMAIN-SUFFIX,disq.us,亏本机场'
-  - 'DOMAIN-SUFFIX,disqus.com,亏本机场'
-  - 'DOMAIN-SUFFIX,disquscdn.com,亏本机场'
-  - 'DOMAIN-SUFFIX,dnsimple.com,亏本机场'
-  - 'DOMAIN-SUFFIX,docker.com,亏本机场'
-  - 'DOMAIN-SUFFIX,dribbble.com,亏本机场'
-  - 'DOMAIN-SUFFIX,droplr.com,亏本机场'
-  - 'DOMAIN-SUFFIX,duckduckgo.com,亏本机场'
-  - 'DOMAIN-SUFFIX,dueapp.com,亏本机场'
-  - 'DOMAIN-SUFFIX,dytt8.net,亏本机场'
-  - 'DOMAIN-SUFFIX,edgecastcdn.net,亏本机场'
-  - 'DOMAIN-SUFFIX,edgekey.net,亏本机场'
-  - 'DOMAIN-SUFFIX,edgesuite.net,亏本机场'
-  - 'DOMAIN-SUFFIX,engadget.com,亏本机场'
-  - 'DOMAIN-SUFFIX,entrust.net,亏本机场'
-  - 'DOMAIN-SUFFIX,eurekavpt.com,亏本机场'
-  - 'DOMAIN-SUFFIX,evernote.com,亏本机场'
-  - 'DOMAIN-SUFFIX,fabric.io,亏本机场'
-  - 'DOMAIN-SUFFIX,fast.com,亏本机场'
-  - 'DOMAIN-SUFFIX,fastly.net,亏本机场'
-  - 'DOMAIN-SUFFIX,fc2.com,亏本机场'
-  - 'DOMAIN-SUFFIX,feedburner.com,亏本机场'
-  - 'DOMAIN-SUFFIX,feedly.com,亏本机场'
-  - 'DOMAIN-SUFFIX,feedsportal.com,亏本机场'
-  - 'DOMAIN-SUFFIX,fiftythree.com,亏本机场'
-  - 'DOMAIN-SUFFIX,firebaseio.com,亏本机场'
-  - 'DOMAIN-SUFFIX,flexibits.com,亏本机场'
-  - 'DOMAIN-SUFFIX,flickr.com,亏本机场'
-  - 'DOMAIN-SUFFIX,flipboard.com,亏本机场'
-  - 'DOMAIN-SUFFIX,g.co,亏本机场'
-  - 'DOMAIN-SUFFIX,gabia.net,亏本机场'
-  - 'DOMAIN-SUFFIX,geni.us,亏本机场'
-  - 'DOMAIN-SUFFIX,gfx.ms,亏本机场'
-  - 'DOMAIN-SUFFIX,ggpht.com,亏本机场'
-  - 'DOMAIN-SUFFIX,ghostnoteapp.com,亏本机场'
-  - 'DOMAIN-SUFFIX,git.io,亏本机场'
-  - 'DOMAIN-KEYWORD,github,亏本机场'
-  - 'DOMAIN-SUFFIX,globalsign.com,亏本机场'
-  - 'DOMAIN-SUFFIX,gmodules.com,亏本机场'
-  - 'DOMAIN-SUFFIX,godaddy.com,亏本机场'
-  - 'DOMAIN-SUFFIX,golang.org,亏本机场'
-  - 'DOMAIN-SUFFIX,gongm.in,亏本机场'
-  - 'DOMAIN-SUFFIX,goo.gl,亏本机场'
-  - 'DOMAIN-SUFFIX,goodreaders.com,亏本机场'
-  - 'DOMAIN-SUFFIX,goodreads.com,亏本机场'
-  - 'DOMAIN-SUFFIX,gravatar.com,亏本机场'
-  - 'DOMAIN-SUFFIX,gstatic.com,亏本机场'
-  - 'DOMAIN-SUFFIX,gvt0.com,亏本机场'
-  - 'DOMAIN-SUFFIX,hockeyapp.net,亏本机场'
-  - 'DOMAIN-SUFFIX,hotmail.com,亏本机场'
-  - 'DOMAIN-SUFFIX,icons8.com,亏本机场'
-  - 'DOMAIN-SUFFIX,ifixit.com,亏本机场'
-  - 'DOMAIN-SUFFIX,ift.tt,亏本机场'
-  - 'DOMAIN-SUFFIX,ifttt.com,亏本机场'
-  - 'DOMAIN-SUFFIX,iherb.com,亏本机场'
-  - 'DOMAIN-SUFFIX,imageshack.us,亏本机场'
-  - 'DOMAIN-SUFFIX,img.ly,亏本机场'
-  - 'DOMAIN-SUFFIX,imgur.com,亏本机场'
-  - 'DOMAIN-SUFFIX,imore.com,亏本机场'
-  - 'DOMAIN-SUFFIX,instapaper.com,亏本机场'
-  - 'DOMAIN-SUFFIX,ipn.li,亏本机场'
-  - 'DOMAIN-SUFFIX,is.gd,亏本机场'
-  - 'DOMAIN-SUFFIX,issuu.com,亏本机场'
-  - 'DOMAIN-SUFFIX,itgonglun.com,亏本机场'
-  - 'DOMAIN-SUFFIX,itun.es,亏本机场'
-  - 'DOMAIN-SUFFIX,ixquick.com,亏本机场'
-  - 'DOMAIN-SUFFIX,j.mp,亏本机场'
-  - 'DOMAIN-SUFFIX,js.revsci.net,亏本机场'
-  - 'DOMAIN-SUFFIX,jshint.com,亏本机场'
-  - 'DOMAIN-SUFFIX,jtvnw.net,亏本机场'
-  - 'DOMAIN-SUFFIX,justgetflux.com,亏本机场'
-  - 'DOMAIN-SUFFIX,kat.cr,亏本机场'
-  - 'DOMAIN-SUFFIX,klip.me,亏本机场'
-  - 'DOMAIN-SUFFIX,libsyn.com,亏本机场'
-  - 'DOMAIN-SUFFIX,linkedin.com,亏本机场'
-  - 'DOMAIN-SUFFIX,line-apps.com,亏本机场'
-  - 'DOMAIN-SUFFIX,linode.com,亏本机场'
-  - 'DOMAIN-SUFFIX,lithium.com,亏本机场'
-  - 'DOMAIN-SUFFIX,littlehj.com,亏本机场'
-  - 'DOMAIN-SUFFIX,live.com,亏本机场'
-  - 'DOMAIN-SUFFIX,live.net,亏本机场'
-  - 'DOMAIN-SUFFIX,livefilestore.com,亏本机场'
-  - 'DOMAIN-SUFFIX,llnwd.net,亏本机场'
-  - 'DOMAIN-SUFFIX,macid.co,亏本机场'
-  - 'DOMAIN-SUFFIX,macromedia.com,亏本机场'
-  - 'DOMAIN-SUFFIX,macrumors.com,亏本机场'
-  - 'DOMAIN-SUFFIX,mashable.com,亏本机场'
-  - 'DOMAIN-SUFFIX,mathjax.org,亏本机场'
-  - 'DOMAIN-SUFFIX,medium.com,亏本机场'
-  - 'DOMAIN-SUFFIX,mega.co.nz,亏本机场'
-  - 'DOMAIN-SUFFIX,mega.nz,亏本机场'
-  - 'DOMAIN-SUFFIX,megaupload.com,亏本机场'
-  - 'DOMAIN-SUFFIX,microsofttranslator.com,亏本机场'
-  - 'DOMAIN-SUFFIX,mindnode.com,亏本机场'
-  - 'DOMAIN-SUFFIX,mobile01.com,亏本机场'
-  - 'DOMAIN-SUFFIX,modmyi.com,亏本机场'
-  - 'DOMAIN-SUFFIX,msedge.net,亏本机场'
-  - 'DOMAIN-SUFFIX,myfontastic.com,亏本机场'
-  - 'DOMAIN-SUFFIX,name.com,亏本机场'
-  - 'DOMAIN-SUFFIX,nextmedia.com,亏本机场'
-  - 'DOMAIN-SUFFIX,nsstatic.net,亏本机场'
-  - 'DOMAIN-SUFFIX,nssurge.com,亏本机场'
-  - 'DOMAIN-SUFFIX,nyt.com,亏本机场'
-  - 'DOMAIN-SUFFIX,nytimes.com,亏本机场'
-  - 'DOMAIN-SUFFIX,omnigroup.com,亏本机场'
-  - 'DOMAIN-SUFFIX,onedrive.com,亏本机场'
-  - 'DOMAIN-SUFFIX,onenote.com,亏本机场'
-  - 'DOMAIN-SUFFIX,ooyala.com,亏本机场'
-  - 'DOMAIN-SUFFIX,openvpn.net,亏本机场'
-  - 'DOMAIN-SUFFIX,openwrt.org,亏本机场'
-  - 'DOMAIN-SUFFIX,orkut.com,亏本机场'
-  - 'DOMAIN-SUFFIX,osxdaily.com,亏本机场'
-  - 'DOMAIN-SUFFIX,outlook.com,亏本机场'
-  - 'DOMAIN-SUFFIX,ow.ly,亏本机场'
-  - 'DOMAIN-SUFFIX,paddleapi.com,亏本机场'
-  - 'DOMAIN-SUFFIX,parallels.com,亏本机场'
-  - 'DOMAIN-SUFFIX,parse.com,亏本机场'
-  - 'DOMAIN-SUFFIX,pdfexpert.com,亏本机场'
-  - 'DOMAIN-SUFFIX,periscope.tv,亏本机场'
-  - 'DOMAIN-SUFFIX,pinboard.in,亏本机场'
-  - 'DOMAIN-SUFFIX,pinterest.com,亏本机场'
-  - 'DOMAIN-SUFFIX,pixelmator.com,亏本机场'
-  - 'DOMAIN-SUFFIX,pixiv.net,亏本机场'
-  - 'DOMAIN-SUFFIX,playpcesor.com,亏本机场'
-  - 'DOMAIN-SUFFIX,playstation.com,亏本机场'
-  - 'DOMAIN-SUFFIX,playstation.com.hk,亏本机场'
-  - 'DOMAIN-SUFFIX,playstation.net,亏本机场'
-  - 'DOMAIN-SUFFIX,playstationnetwork.com,亏本机场'
-  - 'DOMAIN-SUFFIX,pushwoosh.com,亏本机场'
-  - 'DOMAIN-SUFFIX,rime.im,亏本机场'
-  - 'DOMAIN-SUFFIX,servebom.com,亏本机场'
-  - 'DOMAIN-SUFFIX,sfx.ms,亏本机场'
-  - 'DOMAIN-SUFFIX,shadowsocks.org,亏本机场'
-  - 'DOMAIN-SUFFIX,sharethis.com,亏本机场'
-  - 'DOMAIN-SUFFIX,shazam.com,亏本机场'
-  - 'DOMAIN-SUFFIX,skype.com,亏本机场'
-  - 'DOMAIN-SUFFIX,smartdns亏本机场.com,亏本机场'
-  - 'DOMAIN-SUFFIX,smartmailcloud.com,亏本机场'
-  - 'DOMAIN-SUFFIX,sndcdn.com,亏本机场'
-  - 'DOMAIN-SUFFIX,sony.com,亏本机场'
-  - 'DOMAIN-SUFFIX,soundcloud.com,亏本机场'
-  - 'DOMAIN-SUFFIX,sourceforge.net,亏本机场'
-  - 'DOMAIN-SUFFIX,spotify.com,亏本机场'
-  - 'DOMAIN-SUFFIX,squarespace.com,亏本机场'
-  - 'DOMAIN-SUFFIX,sstatic.net,亏本机场'
-  - 'DOMAIN-SUFFIX,st.luluku.pw,亏本机场'
-  - 'DOMAIN-SUFFIX,stackoverflow.com,亏本机场'
-  - 'DOMAIN-SUFFIX,startpage.com,亏本机场'
-  - 'DOMAIN-SUFFIX,staticflickr.com,亏本机场'
-  - 'DOMAIN-SUFFIX,steamcommunity.com,亏本机场'
-  - 'DOMAIN-SUFFIX,symauth.com,亏本机场'
-  - 'DOMAIN-SUFFIX,symcb.com,亏本机场'
-  - 'DOMAIN-SUFFIX,symcd.com,亏本机场'
-  - 'DOMAIN-SUFFIX,tapbots.com,亏本机场'
-  - 'DOMAIN-SUFFIX,tapbots.net,亏本机场'
-  - 'DOMAIN-SUFFIX,tdesktop.com,亏本机场'
-  - 'DOMAIN-SUFFIX,techcrunch.com,亏本机场'
-  - 'DOMAIN-SUFFIX,techsmith.com,亏本机场'
-  - 'DOMAIN-SUFFIX,thepiratebay.org,亏本机场'
-  - 'DOMAIN-SUFFIX,theverge.com,亏本机场'
-  - 'DOMAIN-SUFFIX,time.com,亏本机场'
-  - 'DOMAIN-SUFFIX,timeinc.net,亏本机场'
-  - 'DOMAIN-SUFFIX,tiny.cc,亏本机场'
-  - 'DOMAIN-SUFFIX,tinypic.com,亏本机场'
-  - 'DOMAIN-SUFFIX,tmblr.co,亏本机场'
-  - 'DOMAIN-SUFFIX,todoist.com,亏本机场'
-  - 'DOMAIN-SUFFIX,trello.com,亏本机场'
-  - 'DOMAIN-SUFFIX,trustasiassl.com,亏本机场'
-  - 'DOMAIN-SUFFIX,tumblr.co,亏本机场'
-  - 'DOMAIN-SUFFIX,tumblr.com,亏本机场'
-  - 'DOMAIN-SUFFIX,tweetdeck.com,亏本机场'
-  - 'DOMAIN-SUFFIX,tweetmarker.net,亏本机场'
-  - 'DOMAIN-SUFFIX,twitch.tv,亏本机场'
-  - 'DOMAIN-SUFFIX,txmblr.com,亏本机场'
-  - 'DOMAIN-SUFFIX,typekit.net,亏本机场'
-  - 'DOMAIN-SUFFIX,ubertags.com,亏本机场'
-  - 'DOMAIN-SUFFIX,ublock.org,亏本机场'
-  - 'DOMAIN-SUFFIX,ubnt.com,亏本机场'
-  - 'DOMAIN-SUFFIX,ulyssesapp.com,亏本机场'
-  - 'DOMAIN-SUFFIX,urchin.com,亏本机场'
-  - 'DOMAIN-SUFFIX,usertrust.com,亏本机场'
-  - 'DOMAIN-SUFFIX,v.gd,亏本机场'
-  - 'DOMAIN-SUFFIX,v2ex.com,亏本机场'
-  - 'DOMAIN-SUFFIX,vimeo.com,亏本机场'
-  - 'DOMAIN-SUFFIX,vimeocdn.com,亏本机场'
-  - 'DOMAIN-SUFFIX,vine.co,亏本机场'
-  - 'DOMAIN-SUFFIX,vivaldi.com,亏本机场'
-  - 'DOMAIN-SUFFIX,vox-cdn.com,亏本机场'
-  - 'DOMAIN-SUFFIX,vsco.co,亏本机场'
-  - 'DOMAIN-SUFFIX,vultr.com,亏本机场'
-  - 'DOMAIN-SUFFIX,w.org,亏本机场'
-  - 'DOMAIN-SUFFIX,w3schools.com,亏本机场'
-  - 'DOMAIN-SUFFIX,webtype.com,亏本机场'
-  - 'DOMAIN-SUFFIX,wikiwand.com,亏本机场'
-  - 'DOMAIN-SUFFIX,wikileaks.org,亏本机场'
-  - 'DOMAIN-SUFFIX,wikimedia.org,亏本机场'
-  - 'DOMAIN-SUFFIX,wikipedia.com,亏本机场'
-  - 'DOMAIN-SUFFIX,wikipedia.org,亏本机场'
-  - 'DOMAIN-SUFFIX,windows.com,亏本机场'
-  - 'DOMAIN-SUFFIX,windows.net,亏本机场'
-  - 'DOMAIN-SUFFIX,wire.com,亏本机场'
-  - 'DOMAIN-SUFFIX,wordpress.com,亏本机场'
-  - 'DOMAIN-SUFFIX,workflowy.com,亏本机场'
-  - 'DOMAIN-SUFFIX,wp.com,亏本机场'
-  - 'DOMAIN-SUFFIX,wsj.com,亏本机场'
-  - 'DOMAIN-SUFFIX,wsj.net,亏本机场'
-  - 'DOMAIN-SUFFIX,xda-developers.com,亏本机场'
-  - 'DOMAIN-SUFFIX,xeeno.com,亏本机场'
-  - 'DOMAIN-SUFFIX,xiti.com,亏本机场'
-  - 'DOMAIN-SUFFIX,yahoo.com,亏本机场'
-  - 'DOMAIN-SUFFIX,yimg.com,亏本机场'
-  - 'DOMAIN-SUFFIX,ying.com,亏本机场'
-  - 'DOMAIN-SUFFIX,yoyo.org,亏本机场'
-  - 'DOMAIN-SUFFIX,ytimg.com,亏本机场'
-  - 'DOMAIN-SUFFIX,telegra.ph,亏本机场'
-  - 'DOMAIN-SUFFIX,telegram.org,亏本机场'
-  - 'IP-CIDR,91.108.4.0/22,亏本机场,no-resolve'
-  - 'IP-CIDR,91.108.8.0/21,亏本机场,no-resolve'
-  - 'IP-CIDR,91.108.16.0/22,亏本机场,no-resolve'
-  - 'IP-CIDR,91.108.56.0/22,亏本机场,no-resolve'
-  - 'IP-CIDR,149.154.160.0/20,亏本机场,no-resolve'
-  - 'IP-CIDR6,2001:67c:4e8::/48,亏本机场,no-resolve'
-  - 'IP-CIDR6,2001:b28:f23d::/48,亏本机场,no-resolve'
-  - 'IP-CIDR6,2001:b28:f23f::/48,亏本机场,no-resolve'
-  - 'IP-CIDR,120.232.181.162/32,亏本机场,no-resolve'
-  - 'IP-CIDR,120.241.147.226/32,亏本机场,no-resolve'
-  - 'IP-CIDR,120.253.253.226/32,亏本机场,no-resolve'
-  - 'IP-CIDR,120.253.255.162/32,亏本机场,no-resolve'
-  - 'IP-CIDR,120.253.255.34/32,亏本机场,no-resolve'
-  - 'IP-CIDR,120.253.255.98/32,亏本机场,no-resolve'
-  - 'IP-CIDR,180.163.150.162/32,亏本机场,no-resolve'
-  - 'IP-CIDR,180.163.150.34/32,亏本机场,no-resolve'
-  - 'IP-CIDR,180.163.151.162/32,亏本机场,no-resolve'
-  - 'IP-CIDR,180.163.151.34/32,亏本机场,no-resolve'
-  - 'IP-CIDR,203.208.39.0/24,亏本机场,no-resolve'
-  - 'IP-CIDR,203.208.40.0/24,亏本机场,no-resolve'
-  - 'IP-CIDR,203.208.41.0/24,亏本机场,no-resolve'
-  - 'IP-CIDR,203.208.43.0/24,亏本机场,no-resolve'
-  - 'IP-CIDR,203.208.50.0/24,亏本机场,no-resolve'
-  - 'IP-CIDR,220.181.174.162/32,亏本机场,no-resolve'
-  - 'IP-CIDR,220.181.174.226/32,亏本机场,no-resolve'
-  - 'IP-CIDR,220.181.174.34/32,亏本机场,no-resolve'
-  - 'DOMAIN,injections.adguard.org,DIRECT'
-  - 'DOMAIN,local.adguard.org,DIRECT'
-  - 'DOMAIN-SUFFIX,local,DIRECT'
-  - 'IP-CIDR,127.0.0.0/8,DIRECT'
-  - 'IP-CIDR,172.16.0.0/12,DIRECT'
-  - 'IP-CIDR,192.168.0.0/16,DIRECT'
-  - 'IP-CIDR,10.0.0.0/8,DIRECT'
-  - 'IP-CIDR,17.0.0.0/8,DIRECT'
-  - 'IP-CIDR,100.64.0.0/10,DIRECT'
-  - 'IP-CIDR,224.0.0.0/4,DIRECT'
-  - 'IP-CIDR6,fe80::/10,DIRECT'
-  - 'DOMAIN-SUFFIX,cn,DIRECT'
-  - 'DOMAIN-KEYWORD,-cn,DIRECT'
-  - 'GEOIP,CN,DIRECT'
-  - 'MATCH,亏本机场'
+  - DOMAIN,su.bestyuns.com,DIRECT
+  - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Haita Cloud
+  - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
+  - DOMAIN,safebrowsing.googleapis.com,DIRECT
+  - DOMAIN,developer.apple.com,Haita Cloud
+  - DOMAIN-SUFFIX,digicert.com,Haita Cloud
+  - DOMAIN,ocsp.apple.com,Haita Cloud
+  - DOMAIN,ocsp.comodoca.com,Haita Cloud
+  - DOMAIN,ocsp.usertrust.com,Haita Cloud
+  - DOMAIN,ocsp.sectigo.com,Haita Cloud
+  - DOMAIN,ocsp.verisign.net,Haita Cloud
+  - DOMAIN-SUFFIX,apple-dns.net,Haita Cloud
+  - DOMAIN,testflight.apple.com,Haita Cloud
+  - DOMAIN,sandbox.itunes.apple.com,Haita Cloud
+  - DOMAIN,itunes.apple.com,Haita Cloud
+  - DOMAIN-SUFFIX,apps.apple.com,Haita Cloud
+  - DOMAIN-SUFFIX,blobstore.apple.com,Haita Cloud
+  - DOMAIN,cvws.icloud-content.com,Haita Cloud
+  - DOMAIN-SUFFIX,mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+  - DOMAIN-SUFFIX,icloud.com,DIRECT
+  - DOMAIN-SUFFIX,icloud-content.com,DIRECT
+  - DOMAIN-SUFFIX,me.com,DIRECT
+  - DOMAIN-SUFFIX,aaplimg.com,DIRECT
+  - DOMAIN-SUFFIX,cdn20.com,DIRECT
+  - DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,akadns.net,DIRECT
+  - DOMAIN-SUFFIX,akamaiedge.net,DIRECT
+  - DOMAIN-SUFFIX,edgekey.net,DIRECT
+  - DOMAIN-SUFFIX,mwcloudcdn.com,DIRECT
+  - DOMAIN-SUFFIX,mwcname.com,DIRECT
+  - DOMAIN-SUFFIX,apple.com,DIRECT
+  - DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+  - DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
+  - DOMAIN-SUFFIX,126.com,DIRECT
+  - DOMAIN-SUFFIX,126.net,DIRECT
+  - DOMAIN-SUFFIX,127.net,DIRECT
+  - DOMAIN-SUFFIX,163.com,DIRECT
+  - DOMAIN-SUFFIX,360buyimg.com,DIRECT
+  - DOMAIN-SUFFIX,36kr.com,DIRECT
+  - DOMAIN-SUFFIX,acfun.tv,DIRECT
+  - DOMAIN-SUFFIX,air-matters.com,DIRECT
+  - DOMAIN-SUFFIX,aixifan.com,DIRECT
+  - DOMAIN-KEYWORD,alicdn,DIRECT
+  - DOMAIN-KEYWORD,alipay,DIRECT
+  - DOMAIN-KEYWORD,taobao,DIRECT
+  - DOMAIN-SUFFIX,amap.com,DIRECT
+  - DOMAIN-SUFFIX,autonavi.com,DIRECT
+  - DOMAIN-KEYWORD,baidu,DIRECT
+  - DOMAIN-SUFFIX,bdimg.com,DIRECT
+  - DOMAIN-SUFFIX,bdstatic.com,DIRECT
+  - DOMAIN-SUFFIX,bilibili.com,DIRECT
+  - DOMAIN-SUFFIX,bilivideo.com,DIRECT
+  - DOMAIN-SUFFIX,caiyunapp.com,DIRECT
+  - DOMAIN-SUFFIX,clouddn.com,DIRECT
+  - DOMAIN-SUFFIX,cnbeta.com,DIRECT
+  - DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
+  - DOMAIN-SUFFIX,cootekservice.com,DIRECT
+  - DOMAIN-SUFFIX,csdn.net,DIRECT
+  - DOMAIN-SUFFIX,ctrip.com,DIRECT
+  - DOMAIN-SUFFIX,dgtle.com,DIRECT
+  - DOMAIN-SUFFIX,dianping.com,DIRECT
+  - DOMAIN-SUFFIX,douban.com,DIRECT
+  - DOMAIN-SUFFIX,doubanio.com,DIRECT
+  - DOMAIN-SUFFIX,duokan.com,DIRECT
+  - DOMAIN-SUFFIX,easou.com,DIRECT
+  - DOMAIN-SUFFIX,ele.me,DIRECT
+  - DOMAIN-SUFFIX,feng.com,DIRECT
+  - DOMAIN-SUFFIX,fir.im,DIRECT
+  - DOMAIN-SUFFIX,frdic.com,DIRECT
+  - DOMAIN-SUFFIX,g-cores.com,DIRECT
+  - DOMAIN-SUFFIX,godic.net,DIRECT
+  - DOMAIN-SUFFIX,gtimg.com,DIRECT
+  - DOMAIN,cdn.hockeyapp.net,DIRECT
+  - DOMAIN-SUFFIX,hongxiu.com,DIRECT
+  - DOMAIN-SUFFIX,hxcdn.net,DIRECT
+  - DOMAIN-SUFFIX,iciba.com,DIRECT
+  - DOMAIN-SUFFIX,ifeng.com,DIRECT
+  - DOMAIN-SUFFIX,ifengimg.com,DIRECT
+  - DOMAIN-SUFFIX,ipip.net,DIRECT
+  - DOMAIN-SUFFIX,iqiyi.com,DIRECT
+  - DOMAIN-SUFFIX,jd.com,DIRECT
+  - DOMAIN-SUFFIX,jianshu.com,DIRECT
+  - DOMAIN-SUFFIX,knewone.com,DIRECT
+  - DOMAIN-SUFFIX,le.com,DIRECT
+  - DOMAIN-SUFFIX,lecloud.com,DIRECT
+  - DOMAIN-SUFFIX,lemicp.com,DIRECT
+  - DOMAIN-SUFFIX,licdn.com,DIRECT
+  - DOMAIN-SUFFIX,luoo.net,DIRECT
+  - DOMAIN-SUFFIX,meituan.com,DIRECT
+  - DOMAIN-SUFFIX,meituan.net,DIRECT
+  - DOMAIN-SUFFIX,mi.com,DIRECT
+  - DOMAIN-SUFFIX,miaopai.com,DIRECT
+  - DOMAIN-SUFFIX,microsoft.com,DIRECT
+  - DOMAIN-SUFFIX,microsoftonline.com,DIRECT
+  - DOMAIN-SUFFIX,miui.com,DIRECT
+  - DOMAIN-SUFFIX,miwifi.com,DIRECT
+  - DOMAIN-SUFFIX,mob.com,DIRECT
+  - DOMAIN-SUFFIX,netease.com,DIRECT
+  - DOMAIN-SUFFIX,office.com,DIRECT
+  - DOMAIN-SUFFIX,office365.com,DIRECT
+  - DOMAIN-KEYWORD,officecdn,DIRECT
+  - DOMAIN-SUFFIX,oschina.net,DIRECT
+  - DOMAIN-SUFFIX,ppsimg.com,DIRECT
+  - DOMAIN-SUFFIX,pstatp.com,DIRECT
+  - DOMAIN-SUFFIX,qcloud.com,DIRECT
+  - DOMAIN-SUFFIX,qdaily.com,DIRECT
+  - DOMAIN-SUFFIX,qdmm.com,DIRECT
+  - DOMAIN-SUFFIX,qhimg.com,DIRECT
+  - DOMAIN-SUFFIX,qhres.com,DIRECT
+  - DOMAIN-SUFFIX,qidian.com,DIRECT
+  - DOMAIN-SUFFIX,qihucdn.com,DIRECT
+  - DOMAIN-SUFFIX,qiniu.com,DIRECT
+  - DOMAIN-SUFFIX,qiniucdn.com,DIRECT
+  - DOMAIN-SUFFIX,qiyipic.com,DIRECT
+  - DOMAIN-SUFFIX,qq.com,DIRECT
+  - DOMAIN-SUFFIX,qqurl.com,DIRECT
+  - DOMAIN-SUFFIX,rarbg.to,DIRECT
+  - DOMAIN-SUFFIX,ruguoapp.com,DIRECT
+  - DOMAIN-SUFFIX,segmentfault.com,DIRECT
+  - DOMAIN-SUFFIX,sinaapp.com,DIRECT
+  - DOMAIN-SUFFIX,smzdm.com,DIRECT
+  - DOMAIN-SUFFIX,snapdrop.net,DIRECT
+  - DOMAIN-SUFFIX,sogou.com,DIRECT
+  - DOMAIN-SUFFIX,sogoucdn.com,DIRECT
+  - DOMAIN-SUFFIX,sohu.com,DIRECT
+  - DOMAIN-SUFFIX,soku.com,DIRECT
+  - DOMAIN-SUFFIX,speedtest.net,DIRECT
+  - DOMAIN-SUFFIX,sspai.com,DIRECT
+  - DOMAIN-SUFFIX,suning.com,DIRECT
+  - DOMAIN-SUFFIX,taobao.com,DIRECT
+  - DOMAIN-SUFFIX,tencent.com,DIRECT
+  - DOMAIN-SUFFIX,tenpay.com,DIRECT
+  - DOMAIN-SUFFIX,tianyancha.com,DIRECT
+  - DOMAIN-SUFFIX,tmall.com,DIRECT
+  - DOMAIN-SUFFIX,tudou.com,DIRECT
+  - DOMAIN-SUFFIX,umetrip.com,DIRECT
+  - DOMAIN-SUFFIX,upaiyun.com,DIRECT
+  - DOMAIN-SUFFIX,upyun.com,DIRECT
+  - DOMAIN-SUFFIX,veryzhun.com,DIRECT
+  - DOMAIN-SUFFIX,weather.com,DIRECT
+  - DOMAIN-SUFFIX,weibo.com,DIRECT
+  - DOMAIN-SUFFIX,xiami.com,DIRECT
+  - DOMAIN-SUFFIX,xiami.net,DIRECT
+  - DOMAIN-SUFFIX,xiaomicp.com,DIRECT
+  - DOMAIN-SUFFIX,ximalaya.com,DIRECT
+  - DOMAIN-SUFFIX,xmcdn.com,DIRECT
+  - DOMAIN-SUFFIX,xunlei.com,DIRECT
+  - DOMAIN-SUFFIX,yhd.com,DIRECT
+  - DOMAIN-SUFFIX,yihaodianimg.com,DIRECT
+  - DOMAIN-SUFFIX,yinxiang.com,DIRECT
+  - DOMAIN-SUFFIX,ykimg.com,DIRECT
+  - DOMAIN-SUFFIX,youdao.com,DIRECT
+  - DOMAIN-SUFFIX,youku.com,DIRECT
+  - DOMAIN-SUFFIX,zealer.com,DIRECT
+  - DOMAIN-SUFFIX,zhihu.com,DIRECT
+  - DOMAIN-SUFFIX,zhimg.com,DIRECT
+  - DOMAIN-SUFFIX,zimuzu.tv,DIRECT
+  - DOMAIN-SUFFIX,zoho.com,DIRECT
+  - DOMAIN-KEYWORD,amazon,Haita Cloud
+  - DOMAIN-KEYWORD,google,Haita Cloud
+  - DOMAIN-KEYWORD,gmail,Haita Cloud
+  - DOMAIN-KEYWORD,youtube,Haita Cloud
+  - DOMAIN-KEYWORD,facebook,Haita Cloud
+  - DOMAIN-SUFFIX,fb.me,Haita Cloud
+  - DOMAIN-SUFFIX,fbcdn.net,Haita Cloud
+  - DOMAIN-KEYWORD,twitter,Haita Cloud
+  - DOMAIN-KEYWORD,instagram,Haita Cloud
+  - DOMAIN-KEYWORD,dropbox,Haita Cloud
+  - DOMAIN-SUFFIX,twimg.com,Haita Cloud
+  - DOMAIN-KEYWORD,blogspot,Haita Cloud
+  - DOMAIN-SUFFIX,youtu.be,Haita Cloud
+  - DOMAIN-KEYWORD,whatsapp,Haita Cloud
+  - DOMAIN-KEYWORD,admarvel,REJECT
+  - DOMAIN-KEYWORD,admaster,REJECT
+  - DOMAIN-KEYWORD,adsage,REJECT
+  - DOMAIN-KEYWORD,adsmogo,REJECT
+  - DOMAIN-KEYWORD,adsrvmedia,REJECT
+  - DOMAIN-KEYWORD,adwords,REJECT
+  - DOMAIN-KEYWORD,adservice,REJECT
+  - DOMAIN-SUFFIX,appsflyer.com,REJECT
+  - DOMAIN-KEYWORD,domob,REJECT
+  - DOMAIN-SUFFIX,doubleclick.net,REJECT
+  - DOMAIN-KEYWORD,duomeng,REJECT
+  - DOMAIN-KEYWORD,dwtrack,REJECT
+  - DOMAIN-KEYWORD,guanggao,REJECT
+  - DOMAIN-KEYWORD,lianmeng,REJECT
+  - DOMAIN-SUFFIX,mmstat.com,REJECT
+  - DOMAIN-KEYWORD,mopub,REJECT
+  - DOMAIN-KEYWORD,omgmta,REJECT
+  - DOMAIN-KEYWORD,openx,REJECT
+  - DOMAIN-KEYWORD,partnerad,REJECT
+  - DOMAIN-KEYWORD,pingfore,REJECT
+  - DOMAIN-KEYWORD,supersonicads,REJECT
+  - DOMAIN-KEYWORD,uedas,REJECT
+  - DOMAIN-KEYWORD,umeng,REJECT
+  - DOMAIN-KEYWORD,usage,REJECT
+  - DOMAIN-SUFFIX,vungle.com,REJECT
+  - DOMAIN-KEYWORD,wlmonitor,REJECT
+  - DOMAIN-KEYWORD,zjtoolbar,REJECT
+  - DOMAIN-SUFFIX,9to5mac.com,Haita Cloud
+  - DOMAIN-SUFFIX,abpchina.org,Haita Cloud
+  - DOMAIN-SUFFIX,adblockplus.org,Haita Cloud
+  - DOMAIN-SUFFIX,adobe.com,Haita Cloud
+  - DOMAIN-SUFFIX,akamaized.net,Haita Cloud
+  - DOMAIN-SUFFIX,alfredapp.com,Haita Cloud
+  - DOMAIN-SUFFIX,amplitude.com,Haita Cloud
+  - DOMAIN-SUFFIX,ampproject.org,Haita Cloud
+  - DOMAIN-SUFFIX,android.com,Haita Cloud
+  - DOMAIN-SUFFIX,angularjs.org,Haita Cloud
+  - DOMAIN-SUFFIX,aolcdn.com,Haita Cloud
+  - DOMAIN-SUFFIX,apkpure.com,Haita Cloud
+  - DOMAIN-SUFFIX,appledaily.com,Haita Cloud
+  - DOMAIN-SUFFIX,appshopper.com,Haita Cloud
+  - DOMAIN-SUFFIX,appspot.com,Haita Cloud
+  - DOMAIN-SUFFIX,arcgis.com,Haita Cloud
+  - DOMAIN-SUFFIX,archive.org,Haita Cloud
+  - DOMAIN-SUFFIX,armorgames.com,Haita Cloud
+  - DOMAIN-SUFFIX,aspnetcdn.com,Haita Cloud
+  - DOMAIN-SUFFIX,att.com,Haita Cloud
+  - DOMAIN-SUFFIX,awsstatic.com,Haita Cloud
+  - DOMAIN-SUFFIX,azureedge.net,Haita Cloud
+  - DOMAIN-SUFFIX,azurewebsites.net,Haita Cloud
+  - DOMAIN-SUFFIX,bing.com,Haita Cloud
+  - DOMAIN-SUFFIX,bintray.com,Haita Cloud
+  - DOMAIN-SUFFIX,bit.com,Haita Cloud
+  - DOMAIN-SUFFIX,bit.ly,Haita Cloud
+  - DOMAIN-SUFFIX,bitbucket.org,Haita Cloud
+  - DOMAIN-SUFFIX,bjango.com,Haita Cloud
+  - DOMAIN-SUFFIX,bkrtx.com,Haita Cloud
+  - DOMAIN-SUFFIX,blog.com,Haita Cloud
+  - DOMAIN-SUFFIX,blogcdn.com,Haita Cloud
+  - DOMAIN-SUFFIX,blogger.com,Haita Cloud
+  - DOMAIN-SUFFIX,blogsmithmedia.com,Haita Cloud
+  - DOMAIN-SUFFIX,blogspot.com,Haita Cloud
+  - DOMAIN-SUFFIX,blogspot.hk,Haita Cloud
+  - DOMAIN-SUFFIX,bloomberg.com,Haita Cloud
+  - DOMAIN-SUFFIX,box.com,Haita Cloud
+  - DOMAIN-SUFFIX,box.net,Haita Cloud
+  - DOMAIN-SUFFIX,cachefly.net,Haita Cloud
+  - DOMAIN-SUFFIX,chromium.org,Haita Cloud
+  - DOMAIN-SUFFIX,cl.ly,Haita Cloud
+  - DOMAIN-SUFFIX,cloudflare.com,Haita Cloud
+  - DOMAIN-SUFFIX,cloudfront.net,Haita Cloud
+  - DOMAIN-SUFFIX,cloudmagic.com,Haita Cloud
+  - DOMAIN-SUFFIX,cmail19.com,Haita Cloud
+  - DOMAIN-SUFFIX,cnet.com,Haita Cloud
+  - DOMAIN-SUFFIX,cocoapods.org,Haita Cloud
+  - DOMAIN-SUFFIX,comodoca.com,Haita Cloud
+  - DOMAIN-SUFFIX,crashlytics.com,Haita Cloud
+  - DOMAIN-SUFFIX,culturedcode.com,Haita Cloud
+  - DOMAIN-SUFFIX,d.pr,Haita Cloud
+  - DOMAIN-SUFFIX,danilo.to,Haita Cloud
+  - DOMAIN-SUFFIX,dayone.me,Haita Cloud
+  - DOMAIN-SUFFIX,db.tt,Haita Cloud
+  - DOMAIN-SUFFIX,deskconnect.com,Haita Cloud
+  - DOMAIN-SUFFIX,disq.us,Haita Cloud
+  - DOMAIN-SUFFIX,disqus.com,Haita Cloud
+  - DOMAIN-SUFFIX,disquscdn.com,Haita Cloud
+  - DOMAIN-SUFFIX,dnsimple.com,Haita Cloud
+  - DOMAIN-SUFFIX,docker.com,Haita Cloud
+  - DOMAIN-SUFFIX,dribbble.com,Haita Cloud
+  - DOMAIN-SUFFIX,droplr.com,Haita Cloud
+  - DOMAIN-SUFFIX,duckduckgo.com,Haita Cloud
+  - DOMAIN-SUFFIX,dueapp.com,Haita Cloud
+  - DOMAIN-SUFFIX,dytt8.net,Haita Cloud
+  - DOMAIN-SUFFIX,edgecastcdn.net,Haita Cloud
+  - DOMAIN-SUFFIX,edgekey.net,Haita Cloud
+  - DOMAIN-SUFFIX,edgesuite.net,Haita Cloud
+  - DOMAIN-SUFFIX,engadget.com,Haita Cloud
+  - DOMAIN-SUFFIX,entrust.net,Haita Cloud
+  - DOMAIN-SUFFIX,eurekavpt.com,Haita Cloud
+  - DOMAIN-SUFFIX,evernote.com,Haita Cloud
+  - DOMAIN-SUFFIX,fabric.io,Haita Cloud
+  - DOMAIN-SUFFIX,fast.com,Haita Cloud
+  - DOMAIN-SUFFIX,fastly.net,Haita Cloud
+  - DOMAIN-SUFFIX,fc2.com,Haita Cloud
+  - DOMAIN-SUFFIX,feedburner.com,Haita Cloud
+  - DOMAIN-SUFFIX,feedly.com,Haita Cloud
+  - DOMAIN-SUFFIX,feedsportal.com,Haita Cloud
+  - DOMAIN-SUFFIX,fiftythree.com,Haita Cloud
+  - DOMAIN-SUFFIX,firebaseio.com,Haita Cloud
+  - DOMAIN-SUFFIX,flexibits.com,Haita Cloud
+  - DOMAIN-SUFFIX,flickr.com,Haita Cloud
+  - DOMAIN-SUFFIX,flipboard.com,Haita Cloud
+  - DOMAIN-SUFFIX,g.co,Haita Cloud
+  - DOMAIN-SUFFIX,gabia.net,Haita Cloud
+  - DOMAIN-SUFFIX,geni.us,Haita Cloud
+  - DOMAIN-SUFFIX,gfx.ms,Haita Cloud
+  - DOMAIN-SUFFIX,ggpht.com,Haita Cloud
+  - DOMAIN-SUFFIX,ghostnoteapp.com,Haita Cloud
+  - DOMAIN-SUFFIX,git.io,Haita Cloud
+  - DOMAIN-KEYWORD,github,Haita Cloud
+  - DOMAIN-SUFFIX,globalsign.com,Haita Cloud
+  - DOMAIN-SUFFIX,gmodules.com,Haita Cloud
+  - DOMAIN-SUFFIX,godaddy.com,Haita Cloud
+  - DOMAIN-SUFFIX,golang.org,Haita Cloud
+  - DOMAIN-SUFFIX,gongm.in,Haita Cloud
+  - DOMAIN-SUFFIX,goo.gl,Haita Cloud
+  - DOMAIN-SUFFIX,goodreaders.com,Haita Cloud
+  - DOMAIN-SUFFIX,goodreads.com,Haita Cloud
+  - DOMAIN-SUFFIX,gravatar.com,Haita Cloud
+  - DOMAIN-SUFFIX,gstatic.com,Haita Cloud
+  - DOMAIN-SUFFIX,gvt0.com,Haita Cloud
+  - DOMAIN-SUFFIX,hockeyapp.net,Haita Cloud
+  - DOMAIN-SUFFIX,hotmail.com,Haita Cloud
+  - DOMAIN-SUFFIX,icons8.com,Haita Cloud
+  - DOMAIN-SUFFIX,ifixit.com,Haita Cloud
+  - DOMAIN-SUFFIX,ift.tt,Haita Cloud
+  - DOMAIN-SUFFIX,ifttt.com,Haita Cloud
+  - DOMAIN-SUFFIX,iherb.com,Haita Cloud
+  - DOMAIN-SUFFIX,imageshack.us,Haita Cloud
+  - DOMAIN-SUFFIX,img.ly,Haita Cloud
+  - DOMAIN-SUFFIX,imgur.com,Haita Cloud
+  - DOMAIN-SUFFIX,imore.com,Haita Cloud
+  - DOMAIN-SUFFIX,instapaper.com,Haita Cloud
+  - DOMAIN-SUFFIX,ipn.li,Haita Cloud
+  - DOMAIN-SUFFIX,is.gd,Haita Cloud
+  - DOMAIN-SUFFIX,issuu.com,Haita Cloud
+  - DOMAIN-SUFFIX,itgonglun.com,Haita Cloud
+  - DOMAIN-SUFFIX,itun.es,Haita Cloud
+  - DOMAIN-SUFFIX,ixquick.com,Haita Cloud
+  - DOMAIN-SUFFIX,j.mp,Haita Cloud
+  - DOMAIN-SUFFIX,js.revsci.net,Haita Cloud
+  - DOMAIN-SUFFIX,jshint.com,Haita Cloud
+  - DOMAIN-SUFFIX,jtvnw.net,Haita Cloud
+  - DOMAIN-SUFFIX,justgetflux.com,Haita Cloud
+  - DOMAIN-SUFFIX,kat.cr,Haita Cloud
+  - DOMAIN-SUFFIX,klip.me,Haita Cloud
+  - DOMAIN-SUFFIX,libsyn.com,Haita Cloud
+  - DOMAIN-SUFFIX,linkedin.com,Haita Cloud
+  - DOMAIN-SUFFIX,line-apps.com,Haita Cloud
+  - DOMAIN-SUFFIX,linode.com,Haita Cloud
+  - DOMAIN-SUFFIX,lithium.com,Haita Cloud
+  - DOMAIN-SUFFIX,littlehj.com,Haita Cloud
+  - DOMAIN-SUFFIX,live.com,Haita Cloud
+  - DOMAIN-SUFFIX,live.net,Haita Cloud
+  - DOMAIN-SUFFIX,livefilestore.com,Haita Cloud
+  - DOMAIN-SUFFIX,llnwd.net,Haita Cloud
+  - DOMAIN-SUFFIX,macid.co,Haita Cloud
+  - DOMAIN-SUFFIX,macromedia.com,Haita Cloud
+  - DOMAIN-SUFFIX,macrumors.com,Haita Cloud
+  - DOMAIN-SUFFIX,mashable.com,Haita Cloud
+  - DOMAIN-SUFFIX,mathjax.org,Haita Cloud
+  - DOMAIN-SUFFIX,medium.com,Haita Cloud
+  - DOMAIN-SUFFIX,mega.co.nz,Haita Cloud
+  - DOMAIN-SUFFIX,mega.nz,Haita Cloud
+  - DOMAIN-SUFFIX,megaupload.com,Haita Cloud
+  - DOMAIN-SUFFIX,microsofttranslator.com,Haita Cloud
+  - DOMAIN-SUFFIX,mindnode.com,Haita Cloud
+  - DOMAIN-SUFFIX,mobile01.com,Haita Cloud
+  - DOMAIN-SUFFIX,modmyi.com,Haita Cloud
+  - DOMAIN-SUFFIX,msedge.net,Haita Cloud
+  - DOMAIN-SUFFIX,myfontastic.com,Haita Cloud
+  - DOMAIN-SUFFIX,name.com,Haita Cloud
+  - DOMAIN-SUFFIX,nextmedia.com,Haita Cloud
+  - DOMAIN-SUFFIX,nsstatic.net,Haita Cloud
+  - DOMAIN-SUFFIX,nssurge.com,Haita Cloud
+  - DOMAIN-SUFFIX,nyt.com,Haita Cloud
+  - DOMAIN-SUFFIX,nytimes.com,Haita Cloud
+  - DOMAIN-SUFFIX,omnigroup.com,Haita Cloud
+  - DOMAIN-SUFFIX,onedrive.com,Haita Cloud
+  - DOMAIN-SUFFIX,onenote.com,Haita Cloud
+  - DOMAIN-SUFFIX,ooyala.com,Haita Cloud
+  - DOMAIN-SUFFIX,openvpn.net,Haita Cloud
+  - DOMAIN-SUFFIX,openwrt.org,Haita Cloud
+  - DOMAIN-SUFFIX,orkut.com,Haita Cloud
+  - DOMAIN-SUFFIX,osxdaily.com,Haita Cloud
+  - DOMAIN-SUFFIX,outlook.com,Haita Cloud
+  - DOMAIN-SUFFIX,ow.ly,Haita Cloud
+  - DOMAIN-SUFFIX,paddleapi.com,Haita Cloud
+  - DOMAIN-SUFFIX,parallels.com,Haita Cloud
+  - DOMAIN-SUFFIX,parse.com,Haita Cloud
+  - DOMAIN-SUFFIX,pdfexpert.com,Haita Cloud
+  - DOMAIN-SUFFIX,periscope.tv,Haita Cloud
+  - DOMAIN-SUFFIX,pinboard.in,Haita Cloud
+  - DOMAIN-SUFFIX,pinterest.com,Haita Cloud
+  - DOMAIN-SUFFIX,pixelmator.com,Haita Cloud
+  - DOMAIN-SUFFIX,pixiv.net,Haita Cloud
+  - DOMAIN-SUFFIX,playpcesor.com,Haita Cloud
+  - DOMAIN-SUFFIX,playstation.com,Haita Cloud
+  - DOMAIN-SUFFIX,playstation.com.hk,Haita Cloud
+  - DOMAIN-SUFFIX,playstation.net,Haita Cloud
+  - DOMAIN-SUFFIX,playstationnetwork.com,Haita Cloud
+  - DOMAIN-SUFFIX,pushwoosh.com,Haita Cloud
+  - DOMAIN-SUFFIX,rime.im,Haita Cloud
+  - DOMAIN-SUFFIX,servebom.com,Haita Cloud
+  - DOMAIN-SUFFIX,sfx.ms,Haita Cloud
+  - DOMAIN-SUFFIX,shadowsocks.org,Haita Cloud
+  - DOMAIN-SUFFIX,sharethis.com,Haita Cloud
+  - DOMAIN-SUFFIX,shazam.com,Haita Cloud
+  - DOMAIN-SUFFIX,skype.com,Haita Cloud
+  - DOMAIN-SUFFIX,smartdnsHaita Cloud.com,Haita Cloud
+  - DOMAIN-SUFFIX,smartmailcloud.com,Haita Cloud
+  - DOMAIN-SUFFIX,sndcdn.com,Haita Cloud
+  - DOMAIN-SUFFIX,sony.com,Haita Cloud
+  - DOMAIN-SUFFIX,soundcloud.com,Haita Cloud
+  - DOMAIN-SUFFIX,sourceforge.net,Haita Cloud
+  - DOMAIN-SUFFIX,spotify.com,Haita Cloud
+  - DOMAIN-SUFFIX,squarespace.com,Haita Cloud
+  - DOMAIN-SUFFIX,sstatic.net,Haita Cloud
+  - DOMAIN-SUFFIX,st.luluku.pw,Haita Cloud
+  - DOMAIN-SUFFIX,stackoverflow.com,Haita Cloud
+  - DOMAIN-SUFFIX,startpage.com,Haita Cloud
+  - DOMAIN-SUFFIX,staticflickr.com,Haita Cloud
+  - DOMAIN-SUFFIX,steamcommunity.com,Haita Cloud
+  - DOMAIN-SUFFIX,symauth.com,Haita Cloud
+  - DOMAIN-SUFFIX,symcb.com,Haita Cloud
+  - DOMAIN-SUFFIX,symcd.com,Haita Cloud
+  - DOMAIN-SUFFIX,tapbots.com,Haita Cloud
+  - DOMAIN-SUFFIX,tapbots.net,Haita Cloud
+  - DOMAIN-SUFFIX,tdesktop.com,Haita Cloud
+  - DOMAIN-SUFFIX,techcrunch.com,Haita Cloud
+  - DOMAIN-SUFFIX,techsmith.com,Haita Cloud
+  - DOMAIN-SUFFIX,thepiratebay.org,Haita Cloud
+  - DOMAIN-SUFFIX,theverge.com,Haita Cloud
+  - DOMAIN-SUFFIX,time.com,Haita Cloud
+  - DOMAIN-SUFFIX,timeinc.net,Haita Cloud
+  - DOMAIN-SUFFIX,tiny.cc,Haita Cloud
+  - DOMAIN-SUFFIX,tinypic.com,Haita Cloud
+  - DOMAIN-SUFFIX,tmblr.co,Haita Cloud
+  - DOMAIN-SUFFIX,todoist.com,Haita Cloud
+  - DOMAIN-SUFFIX,trello.com,Haita Cloud
+  - DOMAIN-SUFFIX,trustasiassl.com,Haita Cloud
+  - DOMAIN-SUFFIX,tumblr.co,Haita Cloud
+  - DOMAIN-SUFFIX,tumblr.com,Haita Cloud
+  - DOMAIN-SUFFIX,tweetdeck.com,Haita Cloud
+  - DOMAIN-SUFFIX,tweetmarker.net,Haita Cloud
+  - DOMAIN-SUFFIX,twitch.tv,Haita Cloud
+  - DOMAIN-SUFFIX,txmblr.com,Haita Cloud
+  - DOMAIN-SUFFIX,typekit.net,Haita Cloud
+  - DOMAIN-SUFFIX,ubertags.com,Haita Cloud
+  - DOMAIN-SUFFIX,ublock.org,Haita Cloud
+  - DOMAIN-SUFFIX,ubnt.com,Haita Cloud
+  - DOMAIN-SUFFIX,ulyssesapp.com,Haita Cloud
+  - DOMAIN-SUFFIX,urchin.com,Haita Cloud
+  - DOMAIN-SUFFIX,usertrust.com,Haita Cloud
+  - DOMAIN-SUFFIX,v.gd,Haita Cloud
+  - DOMAIN-SUFFIX,v2ex.com,Haita Cloud
+  - DOMAIN-SUFFIX,vimeo.com,Haita Cloud
+  - DOMAIN-SUFFIX,vimeocdn.com,Haita Cloud
+  - DOMAIN-SUFFIX,vine.co,Haita Cloud
+  - DOMAIN-SUFFIX,vivaldi.com,Haita Cloud
+  - DOMAIN-SUFFIX,vox-cdn.com,Haita Cloud
+  - DOMAIN-SUFFIX,vsco.co,Haita Cloud
+  - DOMAIN-SUFFIX,vultr.com,Haita Cloud
+  - DOMAIN-SUFFIX,w.org,Haita Cloud
+  - DOMAIN-SUFFIX,w3schools.com,Haita Cloud
+  - DOMAIN-SUFFIX,webtype.com,Haita Cloud
+  - DOMAIN-SUFFIX,wikiwand.com,Haita Cloud
+  - DOMAIN-SUFFIX,wikileaks.org,Haita Cloud
+  - DOMAIN-SUFFIX,wikimedia.org,Haita Cloud
+  - DOMAIN-SUFFIX,wikipedia.com,Haita Cloud
+  - DOMAIN-SUFFIX,wikipedia.org,Haita Cloud
+  - DOMAIN-SUFFIX,windows.com,Haita Cloud
+  - DOMAIN-SUFFIX,windows.net,Haita Cloud
+  - DOMAIN-SUFFIX,wire.com,Haita Cloud
+  - DOMAIN-SUFFIX,wordpress.com,Haita Cloud
+  - DOMAIN-SUFFIX,workflowy.com,Haita Cloud
+  - DOMAIN-SUFFIX,wp.com,Haita Cloud
+  - DOMAIN-SUFFIX,wsj.com,Haita Cloud
+  - DOMAIN-SUFFIX,wsj.net,Haita Cloud
+  - DOMAIN-SUFFIX,xda-developers.com,Haita Cloud
+  - DOMAIN-SUFFIX,xeeno.com,Haita Cloud
+  - DOMAIN-SUFFIX,xiti.com,Haita Cloud
+  - DOMAIN-SUFFIX,yahoo.com,Haita Cloud
+  - DOMAIN-SUFFIX,yimg.com,Haita Cloud
+  - DOMAIN-SUFFIX,ying.com,Haita Cloud
+  - DOMAIN-SUFFIX,yoyo.org,Haita Cloud
+  - DOMAIN-SUFFIX,ytimg.com,Haita Cloud
+  - DOMAIN-SUFFIX,telegra.ph,Haita Cloud
+  - DOMAIN-SUFFIX,telegram.org,Haita Cloud
+  - IP-CIDR,91.108.4.0/22,Haita Cloud,no-resolve
+  - IP-CIDR,91.108.8.0/21,Haita Cloud,no-resolve
+  - IP-CIDR,91.108.16.0/22,Haita Cloud,no-resolve
+  - IP-CIDR,91.108.56.0/22,Haita Cloud,no-resolve
+  - IP-CIDR,149.154.160.0/20,Haita Cloud,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,Haita Cloud,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,Haita Cloud,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,Haita Cloud,no-resolve
+  - IP-CIDR,120.232.181.162/32,Haita Cloud,no-resolve
+  - IP-CIDR,120.241.147.226/32,Haita Cloud,no-resolve
+  - IP-CIDR,120.253.253.226/32,Haita Cloud,no-resolve
+  - IP-CIDR,120.253.255.162/32,Haita Cloud,no-resolve
+  - IP-CIDR,120.253.255.34/32,Haita Cloud,no-resolve
+  - IP-CIDR,120.253.255.98/32,Haita Cloud,no-resolve
+  - IP-CIDR,180.163.150.162/32,Haita Cloud,no-resolve
+  - IP-CIDR,180.163.150.34/32,Haita Cloud,no-resolve
+  - IP-CIDR,180.163.151.162/32,Haita Cloud,no-resolve
+  - IP-CIDR,180.163.151.34/32,Haita Cloud,no-resolve
+  - IP-CIDR,203.208.39.0/24,Haita Cloud,no-resolve
+  - IP-CIDR,203.208.40.0/24,Haita Cloud,no-resolve
+  - IP-CIDR,203.208.41.0/24,Haita Cloud,no-resolve
+  - IP-CIDR,203.208.43.0/24,Haita Cloud,no-resolve
+  - IP-CIDR,203.208.50.0/24,Haita Cloud,no-resolve
+  - IP-CIDR,220.181.174.162/32,Haita Cloud,no-resolve
+  - IP-CIDR,220.181.174.226/32,Haita Cloud,no-resolve
+  - IP-CIDR,220.181.174.34/32,Haita Cloud,no-resolve
+  - DOMAIN,injections.adguard.org,DIRECT
+  - DOMAIN,local.adguard.org,DIRECT
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,17.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,224.0.0.0/4,DIRECT
+  - IP-CIDR6,fe80::/10,DIRECT
+  - DOMAIN-SUFFIX,cn,DIRECT
+  - DOMAIN-KEYWORD,-cn,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,Haita Cloud
