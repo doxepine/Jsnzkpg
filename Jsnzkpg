@@ -22,8 +22,8 @@ proxies:
       enable: false
       query-server-name: cloudflare-ech.com+https://dns.alidns.com/dns-query
     alterId: 0
-    cipher: ""
-    flow: ""
+    cipher: ''
+    flow: ''
     sni: f70xvbj15.fx03.ccwu.cc
   - name: 购买地址https://kelayun.notepin.co
     server: mfa.gov.ua
@@ -42,8 +42,8 @@ proxies:
       enable: false
       query-server-name: cloudflare-ech.com+https://dns.alidns.com/dns-query
     alterId: 0
-    cipher: ""
-    flow: ""
+    cipher: ''
+    flow: ''
     sni: f55369x0vr911.fx03.ccwu.cc
   - name: 下单地址https://kelayun.notepin.co
     server: www.shopify.com
@@ -62,8 +62,8 @@ proxies:
       enable: false
       query-server-name: cloudflare-ech.com+https://dns.alidns.com/dns-query
     alterId: 0
-    cipher: ""
-    flow: ""
+    cipher: ''
+    flow: ''
     sni: f170xk9v1n3l.fx03.ccwu.cc
   - name: 最低月付2块钱1000G流量
     type: trojan
@@ -82,52 +82,6 @@ proxies:
       headers:
         Host: pg.hhhhh.eu.org
     servername: pg.hhhhh.eu.org
-  - name: 最高200元终身无限流量
-    type: vless
-    server: 23.227.38.65
-    port: 2053
-    uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
-    encryption: none
-    udp: true
-    skip-cert-verify: null
-    tfo: false
-    tls: true
-    sni: lucky.ekt.me
-    servername: lucky.ekt.me
-    client-fingerprint: chrome
-    alpn:
-      - h2
-    network: grpc
-    grpc-opts:
-      grpc-service-name: GunService
-      grpc-dial-options:
-        with-insecure-skip-verify: false
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 不限速不限设备解锁Gemini
-    type: vless
-    server: animal.nuaa.tech
-    port: 2053
-    uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
-    encryption: none
-    udp: true
-    skip-cert-verify: null
-    tfo: false
-    tls: true
-    sni: lucky.ekt.me
-    servername: lucky.ekt.me
-    client-fingerprint: random
-    alpn:
-      - h2
-    network: grpc
-    grpc-opts:
-      grpc-service-name: GunService
-      grpc-dial-options:
-        with-insecure-skip-verify: false
-    alterId: 0
-    cipher: ""
-    flow: ""
   - name: 新疆西藏福建可用
     type: vless
     server: cf.090227.xyz
@@ -147,6 +101,75 @@ proxies:
       headers:
         Host: pg.hhhhh.eu.org
     alterId: 0
+    cipher: ''
+    flow: ''
+  - name: 不限速不限设备
+    type: vless
+    server: 158.51.110.12
+    port: 443
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+    tls: true
+    sni: _acme-challenge.443888.xyz
+    servername: _acme-challenge.443888.xyz
+    client-fingerprint: random
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: /danfeng?ed=2560
+      headers:
+        Host: _acme-challenge.443888.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 解锁谷歌Gemini
+    type: vless
+    server: 38.207.184.52
+    port: 51010
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+    tls: true
+    sni: _acme-challenge.443888.xyz
+    servername: _acme-challenge.443888.xyz
+    client-fingerprint: random
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: /danfeng?ed=2560
+      headers:
+        Host: _acme-challenge.443888.xyz
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 最高200元终身无限流量
+    type: vless
+    server: 69.63.223.15
+    port: 47275
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+    tls: true
+    sni: _acme-challenge.443888.xyz
+    servername: _acme-challenge.443888.xyz
+    client-fingerprint: random
+    alpn:
+      - http/1.1
+    network: ws
+    ws-opts:
+      path: /danfeng?ed=2560
+      headers:
+        Host: _acme-challenge.443888.xyz
+    alterId: 0
     cipher: ""
     flow: ""
 proxy-groups:
@@ -159,9 +182,10 @@ proxy-groups:
       - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
       - 最低月付2块钱1000G流量
-      - 最高200元终身无限流量
-      - 不限速不限设备解锁Gemini
       - 新疆西藏福建可用
+      - 不限速不限设备
+      - 解锁谷歌Gemini
+      - 最高200元终身无限流量
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -171,9 +195,10 @@ proxy-groups:
       - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
       - 最低月付2块钱1000G流量
-      - 最高200元终身无限流量
-      - 不限速不限设备解锁Gemini
       - 新疆西藏福建可用
+      - 不限速不限设备
+      - 解锁谷歌Gemini
+      - 最高200元终身无限流量
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -183,9 +208,10 @@ proxy-groups:
       - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
       - 最低月付2块钱1000G流量
-      - 最高200元终身无限流量
-      - 不限速不限设备解锁Gemini
       - 新疆西藏福建可用
+      - 不限速不限设备
+      - 解锁谷歌Gemini
+      - 最高200元终身无限流量
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
