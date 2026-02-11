@@ -14,15 +14,15 @@ proxies:
     skip-cert-verify: true
     sni: www.apple.com
     type: hysteria2
-    password: da793913-33ef-45c0-806d-f23644c555f2
+    password: f7d33985-dfa7-45a1-8649-26235a90c810
     auth: ""
     fast-open: false
     servername: www.apple.com
-  - name: 下单地址https://kelayun.notepin.co
+  - name: 购买地址https://kelayun.notepin.co
     type: vless
     server: 104.19.58.118
     port: 443
-    uuid: da793913-33ef-45c0-806d-f23644c555f2
+    uuid: f7d33985-dfa7-45a1-8649-26235a90c810
     udp: true
     tls: true
     skip-cert-verify: null
@@ -37,11 +37,11 @@ proxies:
     alterId: 0
     cipher: ""
     sni: us1-us1.aiopen.sbs
-  - name: 购买地址https://kelayun.notepin.co
+  - name: 下单地址https://kelayun.notepin.co
     type: vless
     server: 104.19.58.118
     port: 443
-    uuid: da793913-33ef-45c0-806d-f23644c555f2
+    uuid: f7d33985-dfa7-45a1-8649-26235a90c810
     udp: true
     tls: true
     skip-cert-verify: null
@@ -60,7 +60,7 @@ proxies:
     type: vless
     server: 69.84.182.13
     port: 443
-    uuid: da793913-33ef-45c0-806d-f23644c555f2
+    uuid: f7d33985-dfa7-45a1-8649-26235a90c810
     udp: true
     tls: true
     skip-cert-verify: null
@@ -75,11 +75,11 @@ proxies:
     alterId: 0
     cipher: ""
     sni: jp1-jp1.aiopen.sbs
-  - name: 最高200元终身无限流量
+  - name: 不限速不限设备随便用
     type: vless
     server: 69.84.182.13
     port: 443
-    uuid: da793913-33ef-45c0-806d-f23644c555f2
+    uuid: f7d33985-dfa7-45a1-8649-26235a90c810
     udp: true
     tls: true
     skip-cert-verify: null
@@ -94,11 +94,11 @@ proxies:
     alterId: 0
     cipher: ""
     sni: jp1-jp1.aiopen.sbs
-  - name: 解锁Gemini/ChatGPT
+  - name: 新疆西藏福建都可用
     type: vless
     server: 69.84.182.13
     port: 443
-    uuid: da793913-33ef-45c0-806d-f23644c555f2
+    uuid: f7d33985-dfa7-45a1-8649-26235a90c810
     udp: true
     tls: true
     skip-cert-verify: null
@@ -118,33 +118,33 @@ proxy-groups:
       - 自动选择
       - 故障转移
       - 官网地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
       - 购买地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
       - 最低月付2元1000G流量
-      - 最高200元终身无限流量
-      - 解锁Gemini/ChatGPT
+      - 不限速不限设备随便用
+      - 新疆西藏福建都可用
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
       - 官网地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
       - 购买地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
       - 最低月付2元1000G流量
-      - 最高200元终身无限流量
-      - 解锁Gemini/ChatGPT
+      - 不限速不限设备随便用
+      - 新疆西藏福建都可用
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
       - 官网地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
       - 购买地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
       - 最低月付2元1000G流量
-      - 最高200元终身无限流量
-      - 解锁Gemini/ChatGPT
+      - 不限速不限设备随便用
+      - 新疆西藏福建都可用
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
