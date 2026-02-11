@@ -184,6 +184,8 @@
       "codeID": "USdWmrhBwHEAElFD428HKfByc0WbhzTw","api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_kwts.txt",
       "type": 101
         },
+        {"name": "👖无水印","remark":"✈️TG频道@stymei1","url": "https://api.wsyzy.net/api.php/provide/vod"},
+        {"name": "👖爬虫","remark":"✈️TG频道@stymei1","url": "https://dy.7772888.xyz/api.php/tvbox"},
         {"name": "👖极速","remark":"✈️TG频道@stymei1","url": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json"},
         {"name": "👖暴风","remark":"✈️TG频道@stymei1","url": "http://by.bfzyapi.com/api.php/provide/vod"},
           {"name": "👖电影天堂","remark":"✈️TG频道@stymei1","url": "http://dyttzyw.com/api.php/provide/vod/?ac=list"},
@@ -219,7 +221,6 @@
           {"name": "👖最大","remark":"✈️TG频道@stymei1","url": "http://zuidazy.me/api.php/provide/vod"},
           {"name": "👖飘零","remark":"✈️TG频道@stymei1","url": "https://p2100.net/api.php/provide/vod"},
           {"name": "👖1080","remark":"✈️TG频道@stymei1","url": "https://api.1080zyku.com/inc/apijson.php"},
-          {"name": "👖小绵羊","remark":"✈️TG频道@stymei1","url": "https://vs.okcdn100.top/api.php/provide/vod"},
           {"name": "👖金蝉","remark":"✈️TG频道@stymei1","url": "https://zy.jinchancaiji.com/api.php/provide/vod"},
           {"name": "👖CK","remark":"✈️TG频道@stymei1","url": "https://ckzy.me/api.php/provide/vod"},
           {"name": "👖艾旦影视","remark":"✈️TG频道@stymei1","url": "https://lovedan.net/api.php/provide/vod"},
