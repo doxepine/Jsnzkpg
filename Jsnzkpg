@@ -14,7 +14,7 @@ proxies:
     skip-cert-verify: true
     sni: www.apple.com
     type: hysteria2
-    password: f7d33985-dfa7-45a1-8649-26235a90c810
+    password: 5ecd94ce-3cd5-4f88-8386-56907190b515
     auth: ""
     fast-open: false
     servername: www.apple.com
@@ -22,7 +22,7 @@ proxies:
     type: vless
     server: 104.19.58.118
     port: 443
-    uuid: f7d33985-dfa7-45a1-8649-26235a90c810
+    uuid: 5ecd94ce-3cd5-4f88-8386-56907190b515
     udp: true
     tls: true
     skip-cert-verify: null
@@ -41,7 +41,7 @@ proxies:
     type: vless
     server: 104.19.58.118
     port: 443
-    uuid: f7d33985-dfa7-45a1-8649-26235a90c810
+    uuid: 5ecd94ce-3cd5-4f88-8386-56907190b515
     udp: true
     tls: true
     skip-cert-verify: null
@@ -56,11 +56,11 @@ proxies:
     alterId: 0
     cipher: ""
     sni: us1-us1.aiopen.sbs
-  - name: 最低月付2元1000G流量
+  - name: 最低月付2块钱1000G流量
     type: vless
     server: 69.84.182.13
     port: 443
-    uuid: f7d33985-dfa7-45a1-8649-26235a90c810
+    uuid: 5ecd94ce-3cd5-4f88-8386-56907190b515
     udp: true
     tls: true
     skip-cert-verify: null
@@ -79,7 +79,7 @@ proxies:
     type: vless
     server: 69.84.182.13
     port: 443
-    uuid: f7d33985-dfa7-45a1-8649-26235a90c810
+    uuid: 5ecd94ce-3cd5-4f88-8386-56907190b515
     udp: true
     tls: true
     skip-cert-verify: null
@@ -94,11 +94,11 @@ proxies:
     alterId: 0
     cipher: ""
     sni: jp1-jp1.aiopen.sbs
-  - name: 新疆西藏福建都可用
+  - name: 新疆西藏福建也可以用
     type: vless
     server: 69.84.182.13
     port: 443
-    uuid: f7d33985-dfa7-45a1-8649-26235a90c810
+    uuid: 5ecd94ce-3cd5-4f88-8386-56907190b515
     udp: true
     tls: true
     skip-cert-verify: null
@@ -120,9 +120,9 @@ proxy-groups:
       - 官网地址https://kelayun.notepin.co
       - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
-      - 最低月付2元1000G流量
+      - 最低月付2块钱1000G流量
       - 不限速不限设备随便用
-      - 新疆西藏福建都可用
+      - 新疆西藏福建也可以用
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -131,9 +131,9 @@ proxy-groups:
       - 官网地址https://kelayun.notepin.co
       - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
-      - 最低月付2元1000G流量
+      - 最低月付2块钱1000G流量
       - 不限速不限设备随便用
-      - 新疆西藏福建都可用
+      - 新疆西藏福建也可以用
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -142,9 +142,9 @@ proxy-groups:
       - 官网地址https://kelayun.notepin.co
       - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
-      - 最低月付2元1000G流量
+      - 最低月付2块钱1000G流量
       - 不限速不限设备随便用
-      - 新疆西藏福建都可用
+      - 新疆西藏福建也可以用
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
