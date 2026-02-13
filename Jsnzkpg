@@ -5,747 +5,721 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 官网地址https://kelayun.notepin.co
-    server: x.cf.090227.xyz
-    port: 443
+  - name: 裤佬群组https://t.me/+j664EmVv8m0wZGVk
     type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 下单地址https://kelayun.notepin.co
-    server: www.wto.org
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 购买地址https://kelayun.notepin.co
-    server: www.udacity.com
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 最低月付2块钱1000G流量
-    server: 8.217.180.234
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 最高200元终身无限流量
-    server: 8.210.137.128
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 不限速不限设备
-    server: 43.161.237.11
-    port: 30005
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 新疆西藏福建可用
-    server: 47.76.94.185
-    port: 80
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇭🇰 香港16.70MB/s
-    server: 38.55.106.199
-    port: 20000
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇭🇰 香港14.02MB/s
-    server: 47.239.69.137
-    port: 8440
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇭🇰 香港12.89MB/s
-    server: 43.154.131.189
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇭🇰 香港11.32MB/s
-    server: 47.86.12.25
-    port: 587
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇭🇰 香港10.80MB/s
-    server: 83.229.122.186
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇭🇰 香港10.69MB/s
-    server: 83.229.121.78
-    port: 8443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇭🇰 香港46.46MB/s
-    server: 8.217.180.234
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇭🇰 香港41.66MB/s
-    server: 156.59.124.58
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇭🇰 香港37.82MB/s
-    server: 8.223.63.189
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇭🇰 香港29.12MB/s
-    server: 8.210.128.85
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇭🇰 香港26.92MB/s
-    server: 8.218.189.27
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇭🇰 香港26.77MB/s
-    server: 8.210.29.68
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇭🇰 香港18.97MB/s
-    server: 16.163.147.103
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇭🇰 香港15.34MB/s
-    server: 43.161.222.233
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇭🇰 香港13.62MB/s
-    server: 149.104.26.45
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇭🇰 香港13.54MB/s
-    server: 149.104.28.14
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇸🇬 新加坡17.26MB/s
-    server: 47.129.184.205
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇸🇬 新加坡17.01MB/s
-    server: 162.159.36.27
-    port: 2082
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇸🇬 新加坡16.72MB/s
-    server: 13.215.70.9
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇸🇬 新加坡16.70MB/s
-    server: 172.64.154.248
-    port: 2053
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇸🇬 新加坡16.48MB/s
-    server: 104.18.34.62
-    port: 2083
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇸🇬 新加坡15.94MB/s
-    server: 172.64.155.249
-    port: 2053
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇸🇬 新加坡15.39MB/s
-    server: 104.18.40.178
+    server: www.shopify.com
     port: 2096
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: null
     tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /AE
       headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇸🇬 新加坡15.30MB/s
-    server: 172.64.155.131
-    port: 2087
+        Host: test.djt.cc.cd
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 裤佬频道@stymei
     type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇸🇬 新加坡14.16MB/s
-    server: 172.64.46.184
-    port: 2053
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇸🇬 新加坡13.05MB/s
-    server: 172.64.46.184
+    server: www.shopify.com
     port: 2096
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: null
     tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /AU
       headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇸🇬 新加坡16.24MB/s
-    server: 52.76.194.79
-    port: 443
+        Host: test.djt.cc.cd
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 🇬🇧 英国
     type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
     tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /GB
       headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇨🇳 台湾19.64MB/s
-    server: 34.81.140.124
-    port: 10240
+        Host: test.djt.cc.cd
+  - name: 🇬🇧 英国_1
     type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
     tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /GB2
       headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇨🇳 台湾11.78MB/s
-    server: 43.212.202.45
-    port: 443
+        Host: test.djt.cc.cd
+  - name: 🇭🇰 香港
     type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
     tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /HK
       headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇯🇵 日本26.56MB/s
-    server: 43.207.241.129
-    port: 443
+        Host: test.djt.cc.cd
+  - name: 🇮🇩 印度尼西亚
     type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
     tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /ID
       headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇯🇵 日本24.18MB/s
-    server: 54.249.81.131
-    port: 443
+        Host: test.djt.cc.cd
+  - name: 🇮🇳 印度
     type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
     tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /IN
       headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇸🇬 新加坡14.47MB/s
-    server: 13.212.188.76
-    port: 443
+        Host: test.djt.cc.cd
+  - name: 🇯🇵 日本
     type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
     tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /JP
       headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇯🇵 日本13.99MB/s
-    server: 23.106.143.183
-    port: 443
+        Host: test.djt.cc.cd
+  - name: 🇯🇵 日本_1
     type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
     tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /JP2
       headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
-  - name: 🇯🇵 日本10.34MB/s
-    server: 45.76.107.78
-    port: 443
+        Host: test.djt.cc.cd
+  - name: 🇯🇵 日本_2
     type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
     tfo: false
-    skip-cert-verify: true
-    servername: aniu9f5485c3.a-aniu-all.us.ci
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /JP3
       headers:
-        Host: aniu9f5485c3.a-aniu-all.us.ci
+        Host: test.djt.cc.cd
+  - name: 🇯🇵 日本_3
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /JP4
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇯🇵 日本_4
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /JP5
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇯🇵 日本_5
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /JP6
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇯🇵 日本_6
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /JP7
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇰🇷 韩国
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /KR
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇰🇷 韩国_1
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /KR2
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇰🇷 韩国_2
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /KR3
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇰🇷 韩国_3
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /KR4
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇲🇾 马来西亚
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /MY
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇵🇭 菲律宾
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /PH
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇸🇬 新加坡
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /SG
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇸🇬 新加坡_1
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /SG2
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇸🇬 新加坡_2
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /SG3
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇸🇬 新加坡_3
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /SG4
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇹🇭 泰国
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /TH
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇹🇼 台湾
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /TW
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇺🇸 美国
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /US
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇺🇸 美国_1
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /US2
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇺🇸 美国_2
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /US3
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇺🇸 美国_3
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /US4
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇺🇸 美国_4
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /US5
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇺🇸 美国_5
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /US6
+      headers:
+        Host: test.djt.cc.cd
+  - name: 🇺🇸 美国_6
+    type: vless
+    server: www.shopify.com
+    port: 2096
+    uuid: 32fda8f5-9104-4a7a-8167-24eff32eaa3c
+    encryption: none
+    udp: true
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    sni: test.djt.cc.cd
+    servername: test.djt.cc.cd
+    client-fingerprint: edge
+    network: ws
+    ws-opts:
+      path: /US7
+      headers:
+        Host: test.djt.cc.cd
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - 官网地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 最低月付2块钱1000G流量
-      - 最高200元终身无限流量
-      - 不限速不限设备
-      - 新疆西藏福建可用
-      - 🇭🇰 香港16.70MB/s
-      - 🇭🇰 香港14.02MB/s
-      - 🇭🇰 香港12.89MB/s
-      - 🇭🇰 香港11.32MB/s
-      - 🇭🇰 香港10.80MB/s
-      - 🇭🇰 香港10.69MB/s
-      - 🇭🇰 香港46.46MB/s
-      - 🇭🇰 香港41.66MB/s
-      - 🇭🇰 香港37.82MB/s
-      - 🇭🇰 香港29.12MB/s
-      - 🇭🇰 香港26.92MB/s
-      - 🇭🇰 香港26.77MB/s
-      - 🇭🇰 香港18.97MB/s
-      - 🇭🇰 香港15.34MB/s
-      - 🇭🇰 香港13.62MB/s
-      - 🇭🇰 香港13.54MB/s
-      - 🇸🇬 新加坡17.26MB/s
-      - 🇸🇬 新加坡17.01MB/s
-      - 🇸🇬 新加坡16.72MB/s
-      - 🇸🇬 新加坡16.70MB/s
-      - 🇸🇬 新加坡16.48MB/s
-      - 🇸🇬 新加坡15.94MB/s
-      - 🇸🇬 新加坡15.39MB/s
-      - 🇸🇬 新加坡15.30MB/s
-      - 🇸🇬 新加坡14.16MB/s
-      - 🇸🇬 新加坡13.05MB/s
-      - 🇸🇬 新加坡16.24MB/s
-      - 🇨🇳 台湾19.64MB/s
-      - 🇨🇳 台湾11.78MB/s
-      - 🇯🇵 日本26.56MB/s
-      - 🇯🇵 日本24.18MB/s
-      - 🇸🇬 新加坡14.47MB/s
-      - 🇯🇵 日本13.99MB/s
-      - 🇯🇵 日本10.34MB/s
+      - 裤佬群组https://t.me/+j664EmVv8m0wZGVk
+      - 裤佬频道@stymei
+      - 🇬🇧 英国
+      - 🇬🇧 英国_1
+      - 🇭🇰 香港
+      - 🇮🇩 印度尼西亚
+      - 🇮🇳 印度
+      - 🇯🇵 日本
+      - 🇯🇵 日本_1
+      - 🇯🇵 日本_2
+      - 🇯🇵 日本_3
+      - 🇯🇵 日本_4
+      - 🇯🇵 日本_5
+      - 🇯🇵 日本_6
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国_1
+      - 🇰🇷 韩国_2
+      - 🇰🇷 韩国_3
+      - 🇲🇾 马来西亚
+      - 🇵🇭 菲律宾
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡_1
+      - 🇸🇬 新加坡_2
+      - 🇸🇬 新加坡_3
+      - 🇹🇭 泰国
+      - 🇹🇼 台湾
+      - 🇺🇸 美国
+      - 🇺🇸 美国_1
+      - 🇺🇸 美国_2
+      - 🇺🇸 美国_3
+      - 🇺🇸 美国_4
+      - 🇺🇸 美国_5
+      - 🇺🇸 美国_6
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - 官网地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 最低月付2块钱1000G流量
-      - 最高200元终身无限流量
-      - 不限速不限设备
-      - 新疆西藏福建可用
-      - 🇭🇰 香港16.70MB/s
-      - 🇭🇰 香港14.02MB/s
-      - 🇭🇰 香港12.89MB/s
-      - 🇭🇰 香港11.32MB/s
-      - 🇭🇰 香港10.80MB/s
-      - 🇭🇰 香港10.69MB/s
-      - 🇭🇰 香港46.46MB/s
-      - 🇭🇰 香港41.66MB/s
-      - 🇭🇰 香港37.82MB/s
-      - 🇭🇰 香港29.12MB/s
-      - 🇭🇰 香港26.92MB/s
-      - 🇭🇰 香港26.77MB/s
-      - 🇭🇰 香港18.97MB/s
-      - 🇭🇰 香港15.34MB/s
-      - 🇭🇰 香港13.62MB/s
-      - 🇭🇰 香港13.54MB/s
-      - 🇸🇬 新加坡17.26MB/s
-      - 🇸🇬 新加坡17.01MB/s
-      - 🇸🇬 新加坡16.72MB/s
-      - 🇸🇬 新加坡16.70MB/s
-      - 🇸🇬 新加坡16.48MB/s
-      - 🇸🇬 新加坡15.94MB/s
-      - 🇸🇬 新加坡15.39MB/s
-      - 🇸🇬 新加坡15.30MB/s
-      - 🇸🇬 新加坡14.16MB/s
-      - 🇸🇬 新加坡13.05MB/s
-      - 🇸🇬 新加坡16.24MB/s
-      - 🇨🇳 台湾19.64MB/s
-      - 🇨🇳 台湾11.78MB/s
-      - 🇯🇵 日本26.56MB/s
-      - 🇯🇵 日本24.18MB/s
-      - 🇸🇬 新加坡14.47MB/s
-      - 🇯🇵 日本13.99MB/s
-      - 🇯🇵 日本10.34MB/s
+      - 裤佬群组https://t.me/+j664EmVv8m0wZGVk
+      - 裤佬频道@stymei
+      - 🇬🇧 英国
+      - 🇬🇧 英国_1
+      - 🇭🇰 香港
+      - 🇮🇩 印度尼西亚
+      - 🇮🇳 印度
+      - 🇯🇵 日本
+      - 🇯🇵 日本_1
+      - 🇯🇵 日本_2
+      - 🇯🇵 日本_3
+      - 🇯🇵 日本_4
+      - 🇯🇵 日本_5
+      - 🇯🇵 日本_6
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国_1
+      - 🇰🇷 韩国_2
+      - 🇰🇷 韩国_3
+      - 🇲🇾 马来西亚
+      - 🇵🇭 菲律宾
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡_1
+      - 🇸🇬 新加坡_2
+      - 🇸🇬 新加坡_3
+      - 🇹🇭 泰国
+      - 🇹🇼 台湾
+      - 🇺🇸 美国
+      - 🇺🇸 美国_1
+      - 🇺🇸 美国_2
+      - 🇺🇸 美国_3
+      - 🇺🇸 美国_4
+      - 🇺🇸 美国_5
+      - 🇺🇸 美国_6
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - 官网地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 最低月付2块钱1000G流量
-      - 最高200元终身无限流量
-      - 不限速不限设备
-      - 新疆西藏福建可用
-      - 🇭🇰 香港16.70MB/s
-      - 🇭🇰 香港14.02MB/s
-      - 🇭🇰 香港12.89MB/s
-      - 🇭🇰 香港11.32MB/s
-      - 🇭🇰 香港10.80MB/s
-      - 🇭🇰 香港10.69MB/s
-      - 🇭🇰 香港46.46MB/s
-      - 🇭🇰 香港41.66MB/s
-      - 🇭🇰 香港37.82MB/s
-      - 🇭🇰 香港29.12MB/s
-      - 🇭🇰 香港26.92MB/s
-      - 🇭🇰 香港26.77MB/s
-      - 🇭🇰 香港18.97MB/s
-      - 🇭🇰 香港15.34MB/s
-      - 🇭🇰 香港13.62MB/s
-      - 🇭🇰 香港13.54MB/s
-      - 🇸🇬 新加坡17.26MB/s
-      - 🇸🇬 新加坡17.01MB/s
-      - 🇸🇬 新加坡16.72MB/s
-      - 🇸🇬 新加坡16.70MB/s
-      - 🇸🇬 新加坡16.48MB/s
-      - 🇸🇬 新加坡15.94MB/s
-      - 🇸🇬 新加坡15.39MB/s
-      - 🇸🇬 新加坡15.30MB/s
-      - 🇸🇬 新加坡14.16MB/s
-      - 🇸🇬 新加坡13.05MB/s
-      - 🇸🇬 新加坡16.24MB/s
-      - 🇨🇳 台湾19.64MB/s
-      - 🇨🇳 台湾11.78MB/s
-      - 🇯🇵 日本26.56MB/s
-      - 🇯🇵 日本24.18MB/s
-      - 🇸🇬 新加坡14.47MB/s
-      - 🇯🇵 日本13.99MB/s
-      - 🇯🇵 日本10.34MB/s
+      - 裤佬群组https://t.me/+j664EmVv8m0wZGVk
+      - 裤佬频道@stymei
+      - 🇬🇧 英国
+      - 🇬🇧 英国_1
+      - 🇭🇰 香港
+      - 🇮🇩 印度尼西亚
+      - 🇮🇳 印度
+      - 🇯🇵 日本
+      - 🇯🇵 日本_1
+      - 🇯🇵 日本_2
+      - 🇯🇵 日本_3
+      - 🇯🇵 日本_4
+      - 🇯🇵 日本_5
+      - 🇯🇵 日本_6
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国_1
+      - 🇰🇷 韩国_2
+      - 🇰🇷 韩国_3
+      - 🇲🇾 马来西亚
+      - 🇵🇭 菲律宾
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡_1
+      - 🇸🇬 新加坡_2
+      - 🇸🇬 新加坡_3
+      - 🇹🇭 泰国
+      - 🇹🇼 台湾
+      - 🇺🇸 美国
+      - 🇺🇸 美国_1
+      - 🇺🇸 美国_2
+      - 🇺🇸 美国_3
+      - 🇺🇸 美国_4
+      - 🇺🇸 美国_5
+      - 🇺🇸 美国_6
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
