@@ -5,1362 +5,629 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 官网地址https://kelayun.notepin.co
-    server: x.cf.090227.xyz
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: aniuedc217a1.aniutw.cc.cd
-  - name: 最低月付2块钱1000G流量
-    server: www.wto.org
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: aniuedc217a1.aniutw.cc.cd
-  - name: 最高200元终身无限流量
-    server: www.udacity.com
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: aniuedc217a1.aniutw.cc.cd
-  - name: 🇭🇰 香港37.91MB/s
-    server: 8.223.63.150
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇭🇰 香港23.28MB/s
-    server: 43.161.237.11
-    port: 30005
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇭🇰 香港16.57MB/s
-    server: 38.55.106.199
-    port: 20000
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇭🇰 香港14.88MB/s
-    server: 20.205.123.124
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇭🇰 香港11.88MB/s
-    server: 43.154.131.189
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇭🇰 香港11.16MB/s
-    server: 149.104.28.216
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇭🇰 香港11.15MB/s
-    server: 149.104.28.235
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇭🇰 香港11.14MB/s
-    server: 83.229.123.13
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇭🇰 香港11.13MB/s
-    server: 47.76.94.185
-    port: 80
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇭🇰 香港11.05MB/s
-    server: 149.104.30.17
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇭🇰 香港39.77MB/s
-    server: 8.223.63.150
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇭🇰 香港32.85MB/s
-    server: 43.161.222.233
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇭🇰 香港27.67MB/s
-    server: 156.59.124.58
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇭🇰 香港22.00MB/s
-    server: 103.160.204.15
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇯🇵 日本21.96MB/s
-    server: 38.47.126.120
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇭🇰 香港21.87MB/s
-    server: 103.160.204.9
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇳🇱 荷兰21.63MB/s
-    server: 154.194.0.239
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇳🇱 荷兰21.41MB/s
-    server: 154.194.0.115
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇭🇰 香港21.38MB/s
-    server: 103.160.204.253
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇳🇱 荷兰21.38MB/s
-    server: 154.194.0.176
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇸🇬 新加坡20.73MB/s
-    server: 172.64.151.166
-    port: 2052
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇸🇬 新加坡19.63MB/s
-    server: 172.64.153.216
-    port: 8443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇸🇬 新加坡15.84MB/s
-    server: 20.191.143.151
-    port: 8080
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇸🇬 新加坡15.06MB/s
-    server: 104.18.39.199
-    port: 2096
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇸🇬 新加坡14.28MB/s
-    server: 172.64.154.248
-    port: 2087
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇸🇬 新加坡13.28MB/s
-    server: 34.92.187.216
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇸🇬 新加坡12.89MB/s
-    server: 172.64.153.216
-    port: 80
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇸🇬 新加坡12.87MB/s
-    server: 162.159.36.27
-    port: 8443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇸🇬 新加坡12.28MB/s
-    server: 172.64.154.195
-    port: 8443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇸🇬 新加坡12.23MB/s
-    server: 172.64.154.248
-    port: 2096
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇭🇰 香港11.15MB/s 2
-    server: 83.229.121.12
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇨🇳 台湾36.19MB/s
-    server: 35.229.131.1
-    port: 8443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇯🇵 日本15.28MB/s
-    server: 43.207.241.129
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇯🇵 日本14.25MB/s
-    server: 185.184.223.73
-    port: 50005
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇯🇵 日本12.64MB/s
-    server: 38.207.130.231
-    port: 8443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇯🇵 日本26.56MB/s
-    server: 115.163.106.137
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇯🇵 日本26.12MB/s
-    server: 45.78.58.124
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇯🇵 日本25.49MB/s
-    server: 23.106.140.134
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇯🇵 日本24.11MB/s
-    server: 23.106.143.183
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇵🇭 菲律宾20.82MB/s
-    server: 103.31.79.2
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇯🇵 日本20.82MB/s
-    server: 64.176.52.230
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇯🇵 日本20.13MB/s
-    server: 207.148.99.230
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇳🇱 荷兰19.98MB/s
-    server: 188.253.27.190
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇯🇵 日本19.92MB/s
-    server: 45.76.203.234
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
-  - name: 🇳🇱 荷兰19.91MB/s
-    server: 188.253.25.15
-    port: 443
-    type: vless
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: aniuedc217a1.aniutw.cc.cd
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: aniuedc217a1.aniutw.cc.cd
+- udp: false
+  skip-cert-verify: true
+  name: 1-香港-147ms
+  type: trojan
+  server: 27.50.49.188
+  port: 443
+  password: 5a2c16f9
+  tls: true
+  client-fingerprint: chrome
+  sni: 5c.hhhhh.eu.org
+  network: ws
+  ws-opts:
+    path: /27.50.49.188:443
+    headers:
+      host: 5c.hhhhh.eu.org
+  tfo: false
+- udp: false
+  skip-cert-verify: true
+  name: 2-香港-153ms
+  type: trojan
+  server: 27.50.49.8
+  port: 443
+  password: 5a2c16f9
+  tls: true
+  client-fingerprint: chrome
+  sni: 5c.hhhhh.eu.org
+  network: ws
+  ws-opts:
+    path: /27.50.49.8:443
+    headers:
+      host: 5c.hhhhh.eu.org
+  tfo: false
+- udp: false
+  skip-cert-verify: true
+  name: 3-香港-154ms
+  type: trojan
+  server: 27.50.49.2
+  port: 443
+  password: 5a2c16f9
+  tls: true
+  client-fingerprint: chrome
+  sni: 5c.hhhhh.eu.org
+  network: ws
+  ws-opts:
+    path: /27.50.49.2:443
+    headers:
+      host: 5c.hhhhh.eu.org
+  tfo: false
+- udp: false
+  skip-cert-verify: true
+  name: 4-香港-160ms
+  type: trojan
+  server: 45.192.223.17
+  port: 443
+  password: 5a2c16f9
+  tls: true
+  client-fingerprint: chrome
+  sni: 5c.hhhhh.eu.org
+  network: ws
+  ws-opts:
+    path: /45.192.223.17:443
+    headers:
+      host: 5c.hhhhh.eu.org
+  tfo: false
+- udp: false
+  skip-cert-verify: true
+  name: 5-香港-160ms
+  type: trojan
+  server: 45.192.223.17
+  port: 8443
+  password: 5a2c16f9
+  tls: true
+  client-fingerprint: chrome
+  sni: 5c.hhhhh.eu.org
+  network: ws
+  ws-opts:
+    path: /45.192.223.17:8443
+    headers:
+      host: 5c.hhhhh.eu.org
+  tfo: false
 proxy-groups:
-  - name: Haita Cloud
-    type: select
-    proxies:
-      - 自动选择
-      - 故障转移
-      - 官网地址https://kelayun.notepin.co
-      - 最低月付2块钱1000G流量
-      - 最高200元终身无限流量
-      - 🇭🇰 香港37.91MB/s
-      - 🇭🇰 香港23.28MB/s
-      - 🇭🇰 香港16.57MB/s
-      - 🇭🇰 香港14.88MB/s
-      - 🇭🇰 香港11.88MB/s
-      - 🇭🇰 香港11.16MB/s
-      - 🇭🇰 香港11.15MB/s
-      - 🇭🇰 香港11.14MB/s
-      - 🇭🇰 香港11.13MB/s
-      - 🇭🇰 香港11.05MB/s
-      - 🇭🇰 香港39.77MB/s
-      - 🇭🇰 香港32.85MB/s
-      - 🇭🇰 香港27.67MB/s
-      - 🇭🇰 香港22.00MB/s
-      - 🇯🇵 日本21.96MB/s
-      - 🇭🇰 香港21.87MB/s
-      - 🇳🇱 荷兰21.63MB/s
-      - 🇳🇱 荷兰21.41MB/s
-      - 🇭🇰 香港21.38MB/s
-      - 🇳🇱 荷兰21.38MB/s
-      - 🇸🇬 新加坡20.73MB/s
-      - 🇸🇬 新加坡19.63MB/s
-      - 🇸🇬 新加坡15.84MB/s
-      - 🇸🇬 新加坡15.06MB/s
-      - 🇸🇬 新加坡14.28MB/s
-      - 🇸🇬 新加坡13.28MB/s
-      - 🇸🇬 新加坡12.89MB/s
-      - 🇸🇬 新加坡12.87MB/s
-      - 🇸🇬 新加坡12.28MB/s
-      - 🇸🇬 新加坡12.23MB/s
-      - 🇭🇰 香港11.15MB/s 2
-      - 🇨🇳 台湾36.19MB/s
-      - 🇯🇵 日本15.28MB/s
-      - 🇯🇵 日本14.25MB/s
-      - 🇯🇵 日本12.64MB/s
-      - 🇯🇵 日本26.56MB/s
-      - 🇯🇵 日本26.12MB/s
-      - 🇯🇵 日本25.49MB/s
-      - 🇯🇵 日本24.11MB/s
-      - 🇵🇭 菲律宾20.82MB/s
-      - 🇯🇵 日本20.82MB/s
-      - 🇯🇵 日本20.13MB/s
-      - 🇳🇱 荷兰19.98MB/s
-      - 🇯🇵 日本19.92MB/s
-      - 🇳🇱 荷兰19.91MB/s
-  - name: 自动选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 86400
-    proxies:
-      - 官网地址https://kelayun.notepin.co
-      - 最低月付2块钱1000G流量
-      - 最高200元终身无限流量
-      - 🇭🇰 香港37.91MB/s
-      - 🇭🇰 香港23.28MB/s
-      - 🇭🇰 香港16.57MB/s
-      - 🇭🇰 香港14.88MB/s
-      - 🇭🇰 香港11.88MB/s
-      - 🇭🇰 香港11.16MB/s
-      - 🇭🇰 香港11.15MB/s
-      - 🇭🇰 香港11.14MB/s
-      - 🇭🇰 香港11.13MB/s
-      - 🇭🇰 香港11.05MB/s
-      - 🇭🇰 香港39.77MB/s
-      - 🇭🇰 香港32.85MB/s
-      - 🇭🇰 香港27.67MB/s
-      - 🇭🇰 香港22.00MB/s
-      - 🇯🇵 日本21.96MB/s
-      - 🇭🇰 香港21.87MB/s
-      - 🇳🇱 荷兰21.63MB/s
-      - 🇳🇱 荷兰21.41MB/s
-      - 🇭🇰 香港21.38MB/s
-      - 🇳🇱 荷兰21.38MB/s
-      - 🇸🇬 新加坡20.73MB/s
-      - 🇸🇬 新加坡19.63MB/s
-      - 🇸🇬 新加坡15.84MB/s
-      - 🇸🇬 新加坡15.06MB/s
-      - 🇸🇬 新加坡14.28MB/s
-      - 🇸🇬 新加坡13.28MB/s
-      - 🇸🇬 新加坡12.89MB/s
-      - 🇸🇬 新加坡12.87MB/s
-      - 🇸🇬 新加坡12.28MB/s
-      - 🇸🇬 新加坡12.23MB/s
-      - 🇭🇰 香港11.15MB/s 2
-      - 🇨🇳 台湾36.19MB/s
-      - 🇯🇵 日本15.28MB/s
-      - 🇯🇵 日本14.25MB/s
-      - 🇯🇵 日本12.64MB/s
-      - 🇯🇵 日本26.56MB/s
-      - 🇯🇵 日本26.12MB/s
-      - 🇯🇵 日本25.49MB/s
-      - 🇯🇵 日本24.11MB/s
-      - 🇵🇭 菲律宾20.82MB/s
-      - 🇯🇵 日本20.82MB/s
-      - 🇯🇵 日本20.13MB/s
-      - 🇳🇱 荷兰19.98MB/s
-      - 🇯🇵 日本19.92MB/s
-      - 🇳🇱 荷兰19.91MB/s
-  - name: 故障转移
-    type: fallback
-    url: http://www.gstatic.com/generate_204
-    interval: 7200
-    proxies:
-      - 官网地址https://kelayun.notepin.co
-      - 最低月付2块钱1000G流量
-      - 最高200元终身无限流量
-      - 🇭🇰 香港37.91MB/s
-      - 🇭🇰 香港23.28MB/s
-      - 🇭🇰 香港16.57MB/s
-      - 🇭🇰 香港14.88MB/s
-      - 🇭🇰 香港11.88MB/s
-      - 🇭🇰 香港11.16MB/s
-      - 🇭🇰 香港11.15MB/s
-      - 🇭🇰 香港11.14MB/s
-      - 🇭🇰 香港11.13MB/s
-      - 🇭🇰 香港11.05MB/s
-      - 🇭🇰 香港39.77MB/s
-      - 🇭🇰 香港32.85MB/s
-      - 🇭🇰 香港27.67MB/s
-      - 🇭🇰 香港22.00MB/s
-      - 🇯🇵 日本21.96MB/s
-      - 🇭🇰 香港21.87MB/s
-      - 🇳🇱 荷兰21.63MB/s
-      - 🇳🇱 荷兰21.41MB/s
-      - 🇭🇰 香港21.38MB/s
-      - 🇳🇱 荷兰21.38MB/s
-      - 🇸🇬 新加坡20.73MB/s
-      - 🇸🇬 新加坡19.63MB/s
-      - 🇸🇬 新加坡15.84MB/s
-      - 🇸🇬 新加坡15.06MB/s
-      - 🇸🇬 新加坡14.28MB/s
-      - 🇸🇬 新加坡13.28MB/s
-      - 🇸🇬 新加坡12.89MB/s
-      - 🇸🇬 新加坡12.87MB/s
-      - 🇸🇬 新加坡12.28MB/s
-      - 🇸🇬 新加坡12.23MB/s
-      - 🇭🇰 香港11.15MB/s 2
-      - 🇨🇳 台湾36.19MB/s
-      - 🇯🇵 日本15.28MB/s
-      - 🇯🇵 日本14.25MB/s
-      - 🇯🇵 日本12.64MB/s
-      - 🇯🇵 日本26.56MB/s
-      - 🇯🇵 日本26.12MB/s
-      - 🇯🇵 日本25.49MB/s
-      - 🇯🇵 日本24.11MB/s
-      - 🇵🇭 菲律宾20.82MB/s
-      - 🇯🇵 日本20.82MB/s
-      - 🇯🇵 日本20.13MB/s
-      - 🇳🇱 荷兰19.98MB/s
-      - 🇯🇵 日本19.92MB/s
-      - 🇳🇱 荷兰19.91MB/s
+- name: Haita Cloud
+  type: select
+  proxies:
+  - 自动选择
+  - 故障转移
+  - 1-香港-147ms
+  - 2-香港-153ms
+  - 3-香港-154ms
+  - 4-香港-160ms
+  - 5-香港-160ms
+- name: 自动选择
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 86400
+  proxies:
+  - 1-香港-147ms
+  - 2-香港-153ms
+  - 3-香港-154ms
+  - 4-香港-160ms
+  - 5-香港-160ms
+- name: 故障转移
+  type: fallback
+  url: http://www.gstatic.com/generate_204
+  interval: 7200
+  proxies:
+  - 1-香港-147ms
+  - 2-香港-153ms
+  - 3-香港-154ms
+  - 4-香港-160ms
+  - 5-香港-160ms
 rules:
-  - DOMAIN,su.bestyuns.com,DIRECT
-  - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Haita Cloud
-  - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
-  - DOMAIN,safebrowsing.googleapis.com,DIRECT
-  - DOMAIN,developer.apple.com,Haita Cloud
-  - DOMAIN-SUFFIX,digicert.com,Haita Cloud
-  - DOMAIN,ocsp.apple.com,Haita Cloud
-  - DOMAIN,ocsp.comodoca.com,Haita Cloud
-  - DOMAIN,ocsp.usertrust.com,Haita Cloud
-  - DOMAIN,ocsp.sectigo.com,Haita Cloud
-  - DOMAIN,ocsp.verisign.net,Haita Cloud
-  - DOMAIN-SUFFIX,apple-dns.net,Haita Cloud
-  - DOMAIN,testflight.apple.com,Haita Cloud
-  - DOMAIN,sandbox.itunes.apple.com,Haita Cloud
-  - DOMAIN,itunes.apple.com,Haita Cloud
-  - DOMAIN-SUFFIX,apps.apple.com,Haita Cloud
-  - DOMAIN-SUFFIX,blobstore.apple.com,Haita Cloud
-  - DOMAIN,cvws.icloud-content.com,Haita Cloud
-  - DOMAIN-SUFFIX,mzstatic.com,DIRECT
-  - DOMAIN-SUFFIX,itunes.apple.com,DIRECT
-  - DOMAIN-SUFFIX,icloud.com,DIRECT
-  - DOMAIN-SUFFIX,icloud-content.com,DIRECT
-  - DOMAIN-SUFFIX,me.com,DIRECT
-  - DOMAIN-SUFFIX,aaplimg.com,DIRECT
-  - DOMAIN-SUFFIX,cdn20.com,DIRECT
-  - DOMAIN-SUFFIX,cdn-apple.com,DIRECT
-  - DOMAIN-SUFFIX,akadns.net,DIRECT
-  - DOMAIN-SUFFIX,akamaiedge.net,DIRECT
-  - DOMAIN-SUFFIX,edgekey.net,DIRECT
-  - DOMAIN-SUFFIX,mwcloudcdn.com,DIRECT
-  - DOMAIN-SUFFIX,mwcname.com,DIRECT
-  - DOMAIN-SUFFIX,apple.com,DIRECT
-  - DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
-  - DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
-  - DOMAIN-SUFFIX,126.com,DIRECT
-  - DOMAIN-SUFFIX,126.net,DIRECT
-  - DOMAIN-SUFFIX,127.net,DIRECT
-  - DOMAIN-SUFFIX,163.com,DIRECT
-  - DOMAIN-SUFFIX,360buyimg.com,DIRECT
-  - DOMAIN-SUFFIX,36kr.com,DIRECT
-  - DOMAIN-SUFFIX,acfun.tv,DIRECT
-  - DOMAIN-SUFFIX,air-matters.com,DIRECT
-  - DOMAIN-SUFFIX,aixifan.com,DIRECT
-  - DOMAIN-KEYWORD,alicdn,DIRECT
-  - DOMAIN-KEYWORD,alipay,DIRECT
-  - DOMAIN-KEYWORD,taobao,DIRECT
-  - DOMAIN-SUFFIX,amap.com,DIRECT
-  - DOMAIN-SUFFIX,autonavi.com,DIRECT
-  - DOMAIN-KEYWORD,baidu,DIRECT
-  - DOMAIN-SUFFIX,bdimg.com,DIRECT
-  - DOMAIN-SUFFIX,bdstatic.com,DIRECT
-  - DOMAIN-SUFFIX,bilibili.com,DIRECT
-  - DOMAIN-SUFFIX,bilivideo.com,DIRECT
-  - DOMAIN-SUFFIX,caiyunapp.com,DIRECT
-  - DOMAIN-SUFFIX,clouddn.com,DIRECT
-  - DOMAIN-SUFFIX,cnbeta.com,DIRECT
-  - DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
-  - DOMAIN-SUFFIX,cootekservice.com,DIRECT
-  - DOMAIN-SUFFIX,csdn.net,DIRECT
-  - DOMAIN-SUFFIX,ctrip.com,DIRECT
-  - DOMAIN-SUFFIX,dgtle.com,DIRECT
-  - DOMAIN-SUFFIX,dianping.com,DIRECT
-  - DOMAIN-SUFFIX,douban.com,DIRECT
-  - DOMAIN-SUFFIX,doubanio.com,DIRECT
-  - DOMAIN-SUFFIX,duokan.com,DIRECT
-  - DOMAIN-SUFFIX,easou.com,DIRECT
-  - DOMAIN-SUFFIX,ele.me,DIRECT
-  - DOMAIN-SUFFIX,feng.com,DIRECT
-  - DOMAIN-SUFFIX,fir.im,DIRECT
-  - DOMAIN-SUFFIX,frdic.com,DIRECT
-  - DOMAIN-SUFFIX,g-cores.com,DIRECT
-  - DOMAIN-SUFFIX,godic.net,DIRECT
-  - DOMAIN-SUFFIX,gtimg.com,DIRECT
-  - DOMAIN,cdn.hockeyapp.net,DIRECT
-  - DOMAIN-SUFFIX,hongxiu.com,DIRECT
-  - DOMAIN-SUFFIX,hxcdn.net,DIRECT
-  - DOMAIN-SUFFIX,iciba.com,DIRECT
-  - DOMAIN-SUFFIX,ifeng.com,DIRECT
-  - DOMAIN-SUFFIX,ifengimg.com,DIRECT
-  - DOMAIN-SUFFIX,ipip.net,DIRECT
-  - DOMAIN-SUFFIX,iqiyi.com,DIRECT
-  - DOMAIN-SUFFIX,jd.com,DIRECT
-  - DOMAIN-SUFFIX,jianshu.com,DIRECT
-  - DOMAIN-SUFFIX,knewone.com,DIRECT
-  - DOMAIN-SUFFIX,le.com,DIRECT
-  - DOMAIN-SUFFIX,lecloud.com,DIRECT
-  - DOMAIN-SUFFIX,lemicp.com,DIRECT
-  - DOMAIN-SUFFIX,licdn.com,DIRECT
-  - DOMAIN-SUFFIX,luoo.net,DIRECT
-  - DOMAIN-SUFFIX,meituan.com,DIRECT
-  - DOMAIN-SUFFIX,meituan.net,DIRECT
-  - DOMAIN-SUFFIX,mi.com,DIRECT
-  - DOMAIN-SUFFIX,miaopai.com,DIRECT
-  - DOMAIN-SUFFIX,microsoft.com,DIRECT
-  - DOMAIN-SUFFIX,microsoftonline.com,DIRECT
-  - DOMAIN-SUFFIX,miui.com,DIRECT
-  - DOMAIN-SUFFIX,miwifi.com,DIRECT
-  - DOMAIN-SUFFIX,mob.com,DIRECT
-  - DOMAIN-SUFFIX,netease.com,DIRECT
-  - DOMAIN-SUFFIX,office.com,DIRECT
-  - DOMAIN-SUFFIX,office365.com,DIRECT
-  - DOMAIN-KEYWORD,officecdn,DIRECT
-  - DOMAIN-SUFFIX,oschina.net,DIRECT
-  - DOMAIN-SUFFIX,ppsimg.com,DIRECT
-  - DOMAIN-SUFFIX,pstatp.com,DIRECT
-  - DOMAIN-SUFFIX,qcloud.com,DIRECT
-  - DOMAIN-SUFFIX,qdaily.com,DIRECT
-  - DOMAIN-SUFFIX,qdmm.com,DIRECT
-  - DOMAIN-SUFFIX,qhimg.com,DIRECT
-  - DOMAIN-SUFFIX,qhres.com,DIRECT
-  - DOMAIN-SUFFIX,qidian.com,DIRECT
-  - DOMAIN-SUFFIX,qihucdn.com,DIRECT
-  - DOMAIN-SUFFIX,qiniu.com,DIRECT
-  - DOMAIN-SUFFIX,qiniucdn.com,DIRECT
-  - DOMAIN-SUFFIX,qiyipic.com,DIRECT
-  - DOMAIN-SUFFIX,qq.com,DIRECT
-  - DOMAIN-SUFFIX,qqurl.com,DIRECT
-  - DOMAIN-SUFFIX,rarbg.to,DIRECT
-  - DOMAIN-SUFFIX,ruguoapp.com,DIRECT
-  - DOMAIN-SUFFIX,segmentfault.com,DIRECT
-  - DOMAIN-SUFFIX,sinaapp.com,DIRECT
-  - DOMAIN-SUFFIX,smzdm.com,DIRECT
-  - DOMAIN-SUFFIX,snapdrop.net,DIRECT
-  - DOMAIN-SUFFIX,sogou.com,DIRECT
-  - DOMAIN-SUFFIX,sogoucdn.com,DIRECT
-  - DOMAIN-SUFFIX,sohu.com,DIRECT
-  - DOMAIN-SUFFIX,soku.com,DIRECT
-  - DOMAIN-SUFFIX,speedtest.net,DIRECT
-  - DOMAIN-SUFFIX,sspai.com,DIRECT
-  - DOMAIN-SUFFIX,suning.com,DIRECT
-  - DOMAIN-SUFFIX,taobao.com,DIRECT
-  - DOMAIN-SUFFIX,tencent.com,DIRECT
-  - DOMAIN-SUFFIX,tenpay.com,DIRECT
-  - DOMAIN-SUFFIX,tianyancha.com,DIRECT
-  - DOMAIN-SUFFIX,tmall.com,DIRECT
-  - DOMAIN-SUFFIX,tudou.com,DIRECT
-  - DOMAIN-SUFFIX,umetrip.com,DIRECT
-  - DOMAIN-SUFFIX,upaiyun.com,DIRECT
-  - DOMAIN-SUFFIX,upyun.com,DIRECT
-  - DOMAIN-SUFFIX,veryzhun.com,DIRECT
-  - DOMAIN-SUFFIX,weather.com,DIRECT
-  - DOMAIN-SUFFIX,weibo.com,DIRECT
-  - DOMAIN-SUFFIX,xiami.com,DIRECT
-  - DOMAIN-SUFFIX,xiami.net,DIRECT
-  - DOMAIN-SUFFIX,xiaomicp.com,DIRECT
-  - DOMAIN-SUFFIX,ximalaya.com,DIRECT
-  - DOMAIN-SUFFIX,xmcdn.com,DIRECT
-  - DOMAIN-SUFFIX,xunlei.com,DIRECT
-  - DOMAIN-SUFFIX,yhd.com,DIRECT
-  - DOMAIN-SUFFIX,yihaodianimg.com,DIRECT
-  - DOMAIN-SUFFIX,yinxiang.com,DIRECT
-  - DOMAIN-SUFFIX,ykimg.com,DIRECT
-  - DOMAIN-SUFFIX,youdao.com,DIRECT
-  - DOMAIN-SUFFIX,youku.com,DIRECT
-  - DOMAIN-SUFFIX,zealer.com,DIRECT
-  - DOMAIN-SUFFIX,zhihu.com,DIRECT
-  - DOMAIN-SUFFIX,zhimg.com,DIRECT
-  - DOMAIN-SUFFIX,zimuzu.tv,DIRECT
-  - DOMAIN-SUFFIX,zoho.com,DIRECT
-  - DOMAIN-KEYWORD,amazon,Haita Cloud
-  - DOMAIN-KEYWORD,google,Haita Cloud
-  - DOMAIN-KEYWORD,gmail,Haita Cloud
-  - DOMAIN-KEYWORD,youtube,Haita Cloud
-  - DOMAIN-KEYWORD,facebook,Haita Cloud
-  - DOMAIN-SUFFIX,fb.me,Haita Cloud
-  - DOMAIN-SUFFIX,fbcdn.net,Haita Cloud
-  - DOMAIN-KEYWORD,twitter,Haita Cloud
-  - DOMAIN-KEYWORD,instagram,Haita Cloud
-  - DOMAIN-KEYWORD,dropbox,Haita Cloud
-  - DOMAIN-SUFFIX,twimg.com,Haita Cloud
-  - DOMAIN-KEYWORD,blogspot,Haita Cloud
-  - DOMAIN-SUFFIX,youtu.be,Haita Cloud
-  - DOMAIN-KEYWORD,whatsapp,Haita Cloud
-  - DOMAIN-KEYWORD,admarvel,REJECT
-  - DOMAIN-KEYWORD,admaster,REJECT
-  - DOMAIN-KEYWORD,adsage,REJECT
-  - DOMAIN-KEYWORD,adsmogo,REJECT
-  - DOMAIN-KEYWORD,adsrvmedia,REJECT
-  - DOMAIN-KEYWORD,adwords,REJECT
-  - DOMAIN-KEYWORD,adservice,REJECT
-  - DOMAIN-SUFFIX,appsflyer.com,REJECT
-  - DOMAIN-KEYWORD,domob,REJECT
-  - DOMAIN-SUFFIX,doubleclick.net,REJECT
-  - DOMAIN-KEYWORD,duomeng,REJECT
-  - DOMAIN-KEYWORD,dwtrack,REJECT
-  - DOMAIN-KEYWORD,guanggao,REJECT
-  - DOMAIN-KEYWORD,lianmeng,REJECT
-  - DOMAIN-SUFFIX,mmstat.com,REJECT
-  - DOMAIN-KEYWORD,mopub,REJECT
-  - DOMAIN-KEYWORD,omgmta,REJECT
-  - DOMAIN-KEYWORD,openx,REJECT
-  - DOMAIN-KEYWORD,partnerad,REJECT
-  - DOMAIN-KEYWORD,pingfore,REJECT
-  - DOMAIN-KEYWORD,supersonicads,REJECT
-  - DOMAIN-KEYWORD,uedas,REJECT
-  - DOMAIN-KEYWORD,umeng,REJECT
-  - DOMAIN-KEYWORD,usage,REJECT
-  - DOMAIN-SUFFIX,vungle.com,REJECT
-  - DOMAIN-KEYWORD,wlmonitor,REJECT
-  - DOMAIN-KEYWORD,zjtoolbar,REJECT
-  - DOMAIN-SUFFIX,9to5mac.com,Haita Cloud
-  - DOMAIN-SUFFIX,abpchina.org,Haita Cloud
-  - DOMAIN-SUFFIX,adblockplus.org,Haita Cloud
-  - DOMAIN-SUFFIX,adobe.com,Haita Cloud
-  - DOMAIN-SUFFIX,akamaized.net,Haita Cloud
-  - DOMAIN-SUFFIX,alfredapp.com,Haita Cloud
-  - DOMAIN-SUFFIX,amplitude.com,Haita Cloud
-  - DOMAIN-SUFFIX,ampproject.org,Haita Cloud
-  - DOMAIN-SUFFIX,android.com,Haita Cloud
-  - DOMAIN-SUFFIX,angularjs.org,Haita Cloud
-  - DOMAIN-SUFFIX,aolcdn.com,Haita Cloud
-  - DOMAIN-SUFFIX,apkpure.com,Haita Cloud
-  - DOMAIN-SUFFIX,appledaily.com,Haita Cloud
-  - DOMAIN-SUFFIX,appshopper.com,Haita Cloud
-  - DOMAIN-SUFFIX,appspot.com,Haita Cloud
-  - DOMAIN-SUFFIX,arcgis.com,Haita Cloud
-  - DOMAIN-SUFFIX,archive.org,Haita Cloud
-  - DOMAIN-SUFFIX,armorgames.com,Haita Cloud
-  - DOMAIN-SUFFIX,aspnetcdn.com,Haita Cloud
-  - DOMAIN-SUFFIX,att.com,Haita Cloud
-  - DOMAIN-SUFFIX,awsstatic.com,Haita Cloud
-  - DOMAIN-SUFFIX,azureedge.net,Haita Cloud
-  - DOMAIN-SUFFIX,azurewebsites.net,Haita Cloud
-  - DOMAIN-SUFFIX,bing.com,Haita Cloud
-  - DOMAIN-SUFFIX,bintray.com,Haita Cloud
-  - DOMAIN-SUFFIX,bit.com,Haita Cloud
-  - DOMAIN-SUFFIX,bit.ly,Haita Cloud
-  - DOMAIN-SUFFIX,bitbucket.org,Haita Cloud
-  - DOMAIN-SUFFIX,bjango.com,Haita Cloud
-  - DOMAIN-SUFFIX,bkrtx.com,Haita Cloud
-  - DOMAIN-SUFFIX,blog.com,Haita Cloud
-  - DOMAIN-SUFFIX,blogcdn.com,Haita Cloud
-  - DOMAIN-SUFFIX,blogger.com,Haita Cloud
-  - DOMAIN-SUFFIX,blogsmithmedia.com,Haita Cloud
-  - DOMAIN-SUFFIX,blogspot.com,Haita Cloud
-  - DOMAIN-SUFFIX,blogspot.hk,Haita Cloud
-  - DOMAIN-SUFFIX,bloomberg.com,Haita Cloud
-  - DOMAIN-SUFFIX,box.com,Haita Cloud
-  - DOMAIN-SUFFIX,box.net,Haita Cloud
-  - DOMAIN-SUFFIX,cachefly.net,Haita Cloud
-  - DOMAIN-SUFFIX,chromium.org,Haita Cloud
-  - DOMAIN-SUFFIX,cl.ly,Haita Cloud
-  - DOMAIN-SUFFIX,cloudflare.com,Haita Cloud
-  - DOMAIN-SUFFIX,cloudfront.net,Haita Cloud
-  - DOMAIN-SUFFIX,cloudmagic.com,Haita Cloud
-  - DOMAIN-SUFFIX,cmail19.com,Haita Cloud
-  - DOMAIN-SUFFIX,cnet.com,Haita Cloud
-  - DOMAIN-SUFFIX,cocoapods.org,Haita Cloud
-  - DOMAIN-SUFFIX,comodoca.com,Haita Cloud
-  - DOMAIN-SUFFIX,crashlytics.com,Haita Cloud
-  - DOMAIN-SUFFIX,culturedcode.com,Haita Cloud
-  - DOMAIN-SUFFIX,d.pr,Haita Cloud
-  - DOMAIN-SUFFIX,danilo.to,Haita Cloud
-  - DOMAIN-SUFFIX,dayone.me,Haita Cloud
-  - DOMAIN-SUFFIX,db.tt,Haita Cloud
-  - DOMAIN-SUFFIX,deskconnect.com,Haita Cloud
-  - DOMAIN-SUFFIX,disq.us,Haita Cloud
-  - DOMAIN-SUFFIX,disqus.com,Haita Cloud
-  - DOMAIN-SUFFIX,disquscdn.com,Haita Cloud
-  - DOMAIN-SUFFIX,dnsimple.com,Haita Cloud
-  - DOMAIN-SUFFIX,docker.com,Haita Cloud
-  - DOMAIN-SUFFIX,dribbble.com,Haita Cloud
-  - DOMAIN-SUFFIX,droplr.com,Haita Cloud
-  - DOMAIN-SUFFIX,duckduckgo.com,Haita Cloud
-  - DOMAIN-SUFFIX,dueapp.com,Haita Cloud
-  - DOMAIN-SUFFIX,dytt8.net,Haita Cloud
-  - DOMAIN-SUFFIX,edgecastcdn.net,Haita Cloud
-  - DOMAIN-SUFFIX,edgekey.net,Haita Cloud
-  - DOMAIN-SUFFIX,edgesuite.net,Haita Cloud
-  - DOMAIN-SUFFIX,engadget.com,Haita Cloud
-  - DOMAIN-SUFFIX,entrust.net,Haita Cloud
-  - DOMAIN-SUFFIX,eurekavpt.com,Haita Cloud
-  - DOMAIN-SUFFIX,evernote.com,Haita Cloud
-  - DOMAIN-SUFFIX,fabric.io,Haita Cloud
-  - DOMAIN-SUFFIX,fast.com,Haita Cloud
-  - DOMAIN-SUFFIX,fastly.net,Haita Cloud
-  - DOMAIN-SUFFIX,fc2.com,Haita Cloud
-  - DOMAIN-SUFFIX,feedburner.com,Haita Cloud
-  - DOMAIN-SUFFIX,feedly.com,Haita Cloud
-  - DOMAIN-SUFFIX,feedsportal.com,Haita Cloud
-  - DOMAIN-SUFFIX,fiftythree.com,Haita Cloud
-  - DOMAIN-SUFFIX,firebaseio.com,Haita Cloud
-  - DOMAIN-SUFFIX,flexibits.com,Haita Cloud
-  - DOMAIN-SUFFIX,flickr.com,Haita Cloud
-  - DOMAIN-SUFFIX,flipboard.com,Haita Cloud
-  - DOMAIN-SUFFIX,g.co,Haita Cloud
-  - DOMAIN-SUFFIX,gabia.net,Haita Cloud
-  - DOMAIN-SUFFIX,geni.us,Haita Cloud
-  - DOMAIN-SUFFIX,gfx.ms,Haita Cloud
-  - DOMAIN-SUFFIX,ggpht.com,Haita Cloud
-  - DOMAIN-SUFFIX,ghostnoteapp.com,Haita Cloud
-  - DOMAIN-SUFFIX,git.io,Haita Cloud
-  - DOMAIN-KEYWORD,github,Haita Cloud
-  - DOMAIN-SUFFIX,globalsign.com,Haita Cloud
-  - DOMAIN-SUFFIX,gmodules.com,Haita Cloud
-  - DOMAIN-SUFFIX,godaddy.com,Haita Cloud
-  - DOMAIN-SUFFIX,golang.org,Haita Cloud
-  - DOMAIN-SUFFIX,gongm.in,Haita Cloud
-  - DOMAIN-SUFFIX,goo.gl,Haita Cloud
-  - DOMAIN-SUFFIX,goodreaders.com,Haita Cloud
-  - DOMAIN-SUFFIX,goodreads.com,Haita Cloud
-  - DOMAIN-SUFFIX,gravatar.com,Haita Cloud
-  - DOMAIN-SUFFIX,gstatic.com,Haita Cloud
-  - DOMAIN-SUFFIX,gvt0.com,Haita Cloud
-  - DOMAIN-SUFFIX,hockeyapp.net,Haita Cloud
-  - DOMAIN-SUFFIX,hotmail.com,Haita Cloud
-  - DOMAIN-SUFFIX,icons8.com,Haita Cloud
-  - DOMAIN-SUFFIX,ifixit.com,Haita Cloud
-  - DOMAIN-SUFFIX,ift.tt,Haita Cloud
-  - DOMAIN-SUFFIX,ifttt.com,Haita Cloud
-  - DOMAIN-SUFFIX,iherb.com,Haita Cloud
-  - DOMAIN-SUFFIX,imageshack.us,Haita Cloud
-  - DOMAIN-SUFFIX,img.ly,Haita Cloud
-  - DOMAIN-SUFFIX,imgur.com,Haita Cloud
-  - DOMAIN-SUFFIX,imore.com,Haita Cloud
-  - DOMAIN-SUFFIX,instapaper.com,Haita Cloud
-  - DOMAIN-SUFFIX,ipn.li,Haita Cloud
-  - DOMAIN-SUFFIX,is.gd,Haita Cloud
-  - DOMAIN-SUFFIX,issuu.com,Haita Cloud
-  - DOMAIN-SUFFIX,itgonglun.com,Haita Cloud
-  - DOMAIN-SUFFIX,itun.es,Haita Cloud
-  - DOMAIN-SUFFIX,ixquick.com,Haita Cloud
-  - DOMAIN-SUFFIX,j.mp,Haita Cloud
-  - DOMAIN-SUFFIX,js.revsci.net,Haita Cloud
-  - DOMAIN-SUFFIX,jshint.com,Haita Cloud
-  - DOMAIN-SUFFIX,jtvnw.net,Haita Cloud
-  - DOMAIN-SUFFIX,justgetflux.com,Haita Cloud
-  - DOMAIN-SUFFIX,kat.cr,Haita Cloud
-  - DOMAIN-SUFFIX,klip.me,Haita Cloud
-  - DOMAIN-SUFFIX,libsyn.com,Haita Cloud
-  - DOMAIN-SUFFIX,linkedin.com,Haita Cloud
-  - DOMAIN-SUFFIX,line-apps.com,Haita Cloud
-  - DOMAIN-SUFFIX,linode.com,Haita Cloud
-  - DOMAIN-SUFFIX,lithium.com,Haita Cloud
-  - DOMAIN-SUFFIX,littlehj.com,Haita Cloud
-  - DOMAIN-SUFFIX,live.com,Haita Cloud
-  - DOMAIN-SUFFIX,live.net,Haita Cloud
-  - DOMAIN-SUFFIX,livefilestore.com,Haita Cloud
-  - DOMAIN-SUFFIX,llnwd.net,Haita Cloud
-  - DOMAIN-SUFFIX,macid.co,Haita Cloud
-  - DOMAIN-SUFFIX,macromedia.com,Haita Cloud
-  - DOMAIN-SUFFIX,macrumors.com,Haita Cloud
-  - DOMAIN-SUFFIX,mashable.com,Haita Cloud
-  - DOMAIN-SUFFIX,mathjax.org,Haita Cloud
-  - DOMAIN-SUFFIX,medium.com,Haita Cloud
-  - DOMAIN-SUFFIX,mega.co.nz,Haita Cloud
-  - DOMAIN-SUFFIX,mega.nz,Haita Cloud
-  - DOMAIN-SUFFIX,megaupload.com,Haita Cloud
-  - DOMAIN-SUFFIX,microsofttranslator.com,Haita Cloud
-  - DOMAIN-SUFFIX,mindnode.com,Haita Cloud
-  - DOMAIN-SUFFIX,mobile01.com,Haita Cloud
-  - DOMAIN-SUFFIX,modmyi.com,Haita Cloud
-  - DOMAIN-SUFFIX,msedge.net,Haita Cloud
-  - DOMAIN-SUFFIX,myfontastic.com,Haita Cloud
-  - DOMAIN-SUFFIX,name.com,Haita Cloud
-  - DOMAIN-SUFFIX,nextmedia.com,Haita Cloud
-  - DOMAIN-SUFFIX,nsstatic.net,Haita Cloud
-  - DOMAIN-SUFFIX,nssurge.com,Haita Cloud
-  - DOMAIN-SUFFIX,nyt.com,Haita Cloud
-  - DOMAIN-SUFFIX,nytimes.com,Haita Cloud
-  - DOMAIN-SUFFIX,omnigroup.com,Haita Cloud
-  - DOMAIN-SUFFIX,onedrive.com,Haita Cloud
-  - DOMAIN-SUFFIX,onenote.com,Haita Cloud
-  - DOMAIN-SUFFIX,ooyala.com,Haita Cloud
-  - DOMAIN-SUFFIX,openvpn.net,Haita Cloud
-  - DOMAIN-SUFFIX,openwrt.org,Haita Cloud
-  - DOMAIN-SUFFIX,orkut.com,Haita Cloud
-  - DOMAIN-SUFFIX,osxdaily.com,Haita Cloud
-  - DOMAIN-SUFFIX,outlook.com,Haita Cloud
-  - DOMAIN-SUFFIX,ow.ly,Haita Cloud
-  - DOMAIN-SUFFIX,paddleapi.com,Haita Cloud
-  - DOMAIN-SUFFIX,parallels.com,Haita Cloud
-  - DOMAIN-SUFFIX,parse.com,Haita Cloud
-  - DOMAIN-SUFFIX,pdfexpert.com,Haita Cloud
-  - DOMAIN-SUFFIX,periscope.tv,Haita Cloud
-  - DOMAIN-SUFFIX,pinboard.in,Haita Cloud
-  - DOMAIN-SUFFIX,pinterest.com,Haita Cloud
-  - DOMAIN-SUFFIX,pixelmator.com,Haita Cloud
-  - DOMAIN-SUFFIX,pixiv.net,Haita Cloud
-  - DOMAIN-SUFFIX,playpcesor.com,Haita Cloud
-  - DOMAIN-SUFFIX,playstation.com,Haita Cloud
-  - DOMAIN-SUFFIX,playstation.com.hk,Haita Cloud
-  - DOMAIN-SUFFIX,playstation.net,Haita Cloud
-  - DOMAIN-SUFFIX,playstationnetwork.com,Haita Cloud
-  - DOMAIN-SUFFIX,pushwoosh.com,Haita Cloud
-  - DOMAIN-SUFFIX,rime.im,Haita Cloud
-  - DOMAIN-SUFFIX,servebom.com,Haita Cloud
-  - DOMAIN-SUFFIX,sfx.ms,Haita Cloud
-  - DOMAIN-SUFFIX,shadowsocks.org,Haita Cloud
-  - DOMAIN-SUFFIX,sharethis.com,Haita Cloud
-  - DOMAIN-SUFFIX,shazam.com,Haita Cloud
-  - DOMAIN-SUFFIX,skype.com,Haita Cloud
-  - DOMAIN-SUFFIX,smartdnsHaita Cloud.com,Haita Cloud
-  - DOMAIN-SUFFIX,smartmailcloud.com,Haita Cloud
-  - DOMAIN-SUFFIX,sndcdn.com,Haita Cloud
-  - DOMAIN-SUFFIX,sony.com,Haita Cloud
-  - DOMAIN-SUFFIX,soundcloud.com,Haita Cloud
-  - DOMAIN-SUFFIX,sourceforge.net,Haita Cloud
-  - DOMAIN-SUFFIX,spotify.com,Haita Cloud
-  - DOMAIN-SUFFIX,squarespace.com,Haita Cloud
-  - DOMAIN-SUFFIX,sstatic.net,Haita Cloud
-  - DOMAIN-SUFFIX,st.luluku.pw,Haita Cloud
-  - DOMAIN-SUFFIX,stackoverflow.com,Haita Cloud
-  - DOMAIN-SUFFIX,startpage.com,Haita Cloud
-  - DOMAIN-SUFFIX,staticflickr.com,Haita Cloud
-  - DOMAIN-SUFFIX,steamcommunity.com,Haita Cloud
-  - DOMAIN-SUFFIX,symauth.com,Haita Cloud
-  - DOMAIN-SUFFIX,symcb.com,Haita Cloud
-  - DOMAIN-SUFFIX,symcd.com,Haita Cloud
-  - DOMAIN-SUFFIX,tapbots.com,Haita Cloud
-  - DOMAIN-SUFFIX,tapbots.net,Haita Cloud
-  - DOMAIN-SUFFIX,tdesktop.com,Haita Cloud
-  - DOMAIN-SUFFIX,techcrunch.com,Haita Cloud
-  - DOMAIN-SUFFIX,techsmith.com,Haita Cloud
-  - DOMAIN-SUFFIX,thepiratebay.org,Haita Cloud
-  - DOMAIN-SUFFIX,theverge.com,Haita Cloud
-  - DOMAIN-SUFFIX,time.com,Haita Cloud
-  - DOMAIN-SUFFIX,timeinc.net,Haita Cloud
-  - DOMAIN-SUFFIX,tiny.cc,Haita Cloud
-  - DOMAIN-SUFFIX,tinypic.com,Haita Cloud
-  - DOMAIN-SUFFIX,tmblr.co,Haita Cloud
-  - DOMAIN-SUFFIX,todoist.com,Haita Cloud
-  - DOMAIN-SUFFIX,trello.com,Haita Cloud
-  - DOMAIN-SUFFIX,trustasiassl.com,Haita Cloud
-  - DOMAIN-SUFFIX,tumblr.co,Haita Cloud
-  - DOMAIN-SUFFIX,tumblr.com,Haita Cloud
-  - DOMAIN-SUFFIX,tweetdeck.com,Haita Cloud
-  - DOMAIN-SUFFIX,tweetmarker.net,Haita Cloud
-  - DOMAIN-SUFFIX,twitch.tv,Haita Cloud
-  - DOMAIN-SUFFIX,txmblr.com,Haita Cloud
-  - DOMAIN-SUFFIX,typekit.net,Haita Cloud
-  - DOMAIN-SUFFIX,ubertags.com,Haita Cloud
-  - DOMAIN-SUFFIX,ublock.org,Haita Cloud
-  - DOMAIN-SUFFIX,ubnt.com,Haita Cloud
-  - DOMAIN-SUFFIX,ulyssesapp.com,Haita Cloud
-  - DOMAIN-SUFFIX,urchin.com,Haita Cloud
-  - DOMAIN-SUFFIX,usertrust.com,Haita Cloud
-  - DOMAIN-SUFFIX,v.gd,Haita Cloud
-  - DOMAIN-SUFFIX,v2ex.com,Haita Cloud
-  - DOMAIN-SUFFIX,vimeo.com,Haita Cloud
-  - DOMAIN-SUFFIX,vimeocdn.com,Haita Cloud
-  - DOMAIN-SUFFIX,vine.co,Haita Cloud
-  - DOMAIN-SUFFIX,vivaldi.com,Haita Cloud
-  - DOMAIN-SUFFIX,vox-cdn.com,Haita Cloud
-  - DOMAIN-SUFFIX,vsco.co,Haita Cloud
-  - DOMAIN-SUFFIX,vultr.com,Haita Cloud
-  - DOMAIN-SUFFIX,w.org,Haita Cloud
-  - DOMAIN-SUFFIX,w3schools.com,Haita Cloud
-  - DOMAIN-SUFFIX,webtype.com,Haita Cloud
-  - DOMAIN-SUFFIX,wikiwand.com,Haita Cloud
-  - DOMAIN-SUFFIX,wikileaks.org,Haita Cloud
-  - DOMAIN-SUFFIX,wikimedia.org,Haita Cloud
-  - DOMAIN-SUFFIX,wikipedia.com,Haita Cloud
-  - DOMAIN-SUFFIX,wikipedia.org,Haita Cloud
-  - DOMAIN-SUFFIX,windows.com,Haita Cloud
-  - DOMAIN-SUFFIX,windows.net,Haita Cloud
-  - DOMAIN-SUFFIX,wire.com,Haita Cloud
-  - DOMAIN-SUFFIX,wordpress.com,Haita Cloud
-  - DOMAIN-SUFFIX,workflowy.com,Haita Cloud
-  - DOMAIN-SUFFIX,wp.com,Haita Cloud
-  - DOMAIN-SUFFIX,wsj.com,Haita Cloud
-  - DOMAIN-SUFFIX,wsj.net,Haita Cloud
-  - DOMAIN-SUFFIX,xda-developers.com,Haita Cloud
-  - DOMAIN-SUFFIX,xeeno.com,Haita Cloud
-  - DOMAIN-SUFFIX,xiti.com,Haita Cloud
-  - DOMAIN-SUFFIX,yahoo.com,Haita Cloud
-  - DOMAIN-SUFFIX,yimg.com,Haita Cloud
-  - DOMAIN-SUFFIX,ying.com,Haita Cloud
-  - DOMAIN-SUFFIX,yoyo.org,Haita Cloud
-  - DOMAIN-SUFFIX,ytimg.com,Haita Cloud
-  - DOMAIN-SUFFIX,telegra.ph,Haita Cloud
-  - DOMAIN-SUFFIX,telegram.org,Haita Cloud
-  - IP-CIDR,91.108.4.0/22,Haita Cloud,no-resolve
-  - IP-CIDR,91.108.8.0/21,Haita Cloud,no-resolve
-  - IP-CIDR,91.108.16.0/22,Haita Cloud,no-resolve
-  - IP-CIDR,91.108.56.0/22,Haita Cloud,no-resolve
-  - IP-CIDR,149.154.160.0/20,Haita Cloud,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,Haita Cloud,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,Haita Cloud,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,Haita Cloud,no-resolve
-  - IP-CIDR,120.232.181.162/32,Haita Cloud,no-resolve
-  - IP-CIDR,120.241.147.226/32,Haita Cloud,no-resolve
-  - IP-CIDR,120.253.253.226/32,Haita Cloud,no-resolve
-  - IP-CIDR,120.253.255.162/32,Haita Cloud,no-resolve
-  - IP-CIDR,120.253.255.34/32,Haita Cloud,no-resolve
-  - IP-CIDR,120.253.255.98/32,Haita Cloud,no-resolve
-  - IP-CIDR,180.163.150.162/32,Haita Cloud,no-resolve
-  - IP-CIDR,180.163.150.34/32,Haita Cloud,no-resolve
-  - IP-CIDR,180.163.151.162/32,Haita Cloud,no-resolve
-  - IP-CIDR,180.163.151.34/32,Haita Cloud,no-resolve
-  - IP-CIDR,203.208.39.0/24,Haita Cloud,no-resolve
-  - IP-CIDR,203.208.40.0/24,Haita Cloud,no-resolve
-  - IP-CIDR,203.208.41.0/24,Haita Cloud,no-resolve
-  - IP-CIDR,203.208.43.0/24,Haita Cloud,no-resolve
-  - IP-CIDR,203.208.50.0/24,Haita Cloud,no-resolve
-  - IP-CIDR,220.181.174.162/32,Haita Cloud,no-resolve
-  - IP-CIDR,220.181.174.226/32,Haita Cloud,no-resolve
-  - IP-CIDR,220.181.174.34/32,Haita Cloud,no-resolve
-  - DOMAIN,injections.adguard.org,DIRECT
-  - DOMAIN,local.adguard.org,DIRECT
-  - DOMAIN-SUFFIX,local,DIRECT
-  - IP-CIDR,127.0.0.0/8,DIRECT
-  - IP-CIDR,172.16.0.0/12,DIRECT
-  - IP-CIDR,192.168.0.0/16,DIRECT
-  - IP-CIDR,10.0.0.0/8,DIRECT
-  - IP-CIDR,17.0.0.0/8,DIRECT
-  - IP-CIDR,100.64.0.0/10,DIRECT
-  - IP-CIDR,224.0.0.0/4,DIRECT
-  - IP-CIDR6,fe80::/10,DIRECT
-  - DOMAIN-SUFFIX,cn,DIRECT
-  - DOMAIN-KEYWORD,-cn,DIRECT
-  - GEOIP,CN,DIRECT
-  - MATCH,Haita Cloud
+- DOMAIN,su.bestyuns.com,DIRECT
+- DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
+- DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Haita Cloud
+- DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
+- DOMAIN,safebrowsing.googleapis.com,DIRECT
+- DOMAIN,developer.apple.com,Haita Cloud
+- DOMAIN-SUFFIX,digicert.com,Haita Cloud
+- DOMAIN,ocsp.apple.com,Haita Cloud
+- DOMAIN,ocsp.comodoca.com,Haita Cloud
+- DOMAIN,ocsp.usertrust.com,Haita Cloud
+- DOMAIN,ocsp.sectigo.com,Haita Cloud
+- DOMAIN,ocsp.verisign.net,Haita Cloud
+- DOMAIN-SUFFIX,apple-dns.net,Haita Cloud
+- DOMAIN,testflight.apple.com,Haita Cloud
+- DOMAIN,sandbox.itunes.apple.com,Haita Cloud
+- DOMAIN,itunes.apple.com,Haita Cloud
+- DOMAIN-SUFFIX,apps.apple.com,Haita Cloud
+- DOMAIN-SUFFIX,blobstore.apple.com,Haita Cloud
+- DOMAIN,cvws.icloud-content.com,Haita Cloud
+- DOMAIN-SUFFIX,mzstatic.com,DIRECT
+- DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+- DOMAIN-SUFFIX,icloud.com,DIRECT
+- DOMAIN-SUFFIX,icloud-content.com,DIRECT
+- DOMAIN-SUFFIX,me.com,DIRECT
+- DOMAIN-SUFFIX,aaplimg.com,DIRECT
+- DOMAIN-SUFFIX,cdn20.com,DIRECT
+- DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+- DOMAIN-SUFFIX,akadns.net,DIRECT
+- DOMAIN-SUFFIX,akamaiedge.net,DIRECT
+- DOMAIN-SUFFIX,edgekey.net,DIRECT
+- DOMAIN-SUFFIX,mwcloudcdn.com,DIRECT
+- DOMAIN-SUFFIX,mwcname.com,DIRECT
+- DOMAIN-SUFFIX,apple.com,DIRECT
+- DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+- DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
+- DOMAIN-SUFFIX,126.com,DIRECT
+- DOMAIN-SUFFIX,126.net,DIRECT
+- DOMAIN-SUFFIX,127.net,DIRECT
+- DOMAIN-SUFFIX,163.com,DIRECT
+- DOMAIN-SUFFIX,360buyimg.com,DIRECT
+- DOMAIN-SUFFIX,36kr.com,DIRECT
+- DOMAIN-SUFFIX,acfun.tv,DIRECT
+- DOMAIN-SUFFIX,air-matters.com,DIRECT
+- DOMAIN-SUFFIX,aixifan.com,DIRECT
+- DOMAIN-KEYWORD,alicdn,DIRECT
+- DOMAIN-KEYWORD,alipay,DIRECT
+- DOMAIN-KEYWORD,taobao,DIRECT
+- DOMAIN-SUFFIX,amap.com,DIRECT
+- DOMAIN-SUFFIX,autonavi.com,DIRECT
+- DOMAIN-KEYWORD,baidu,DIRECT
+- DOMAIN-SUFFIX,bdimg.com,DIRECT
+- DOMAIN-SUFFIX,bdstatic.com,DIRECT
+- DOMAIN-SUFFIX,bilibili.com,DIRECT
+- DOMAIN-SUFFIX,bilivideo.com,DIRECT
+- DOMAIN-SUFFIX,caiyunapp.com,DIRECT
+- DOMAIN-SUFFIX,clouddn.com,DIRECT
+- DOMAIN-SUFFIX,cnbeta.com,DIRECT
+- DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
+- DOMAIN-SUFFIX,cootekservice.com,DIRECT
+- DOMAIN-SUFFIX,csdn.net,DIRECT
+- DOMAIN-SUFFIX,ctrip.com,DIRECT
+- DOMAIN-SUFFIX,dgtle.com,DIRECT
+- DOMAIN-SUFFIX,dianping.com,DIRECT
+- DOMAIN-SUFFIX,douban.com,DIRECT
+- DOMAIN-SUFFIX,doubanio.com,DIRECT
+- DOMAIN-SUFFIX,duokan.com,DIRECT
+- DOMAIN-SUFFIX,easou.com,DIRECT
+- DOMAIN-SUFFIX,ele.me,DIRECT
+- DOMAIN-SUFFIX,feng.com,DIRECT
+- DOMAIN-SUFFIX,fir.im,DIRECT
+- DOMAIN-SUFFIX,frdic.com,DIRECT
+- DOMAIN-SUFFIX,g-cores.com,DIRECT
+- DOMAIN-SUFFIX,godic.net,DIRECT
+- DOMAIN-SUFFIX,gtimg.com,DIRECT
+- DOMAIN,cdn.hockeyapp.net,DIRECT
+- DOMAIN-SUFFIX,hongxiu.com,DIRECT
+- DOMAIN-SUFFIX,hxcdn.net,DIRECT
+- DOMAIN-SUFFIX,iciba.com,DIRECT
+- DOMAIN-SUFFIX,ifeng.com,DIRECT
+- DOMAIN-SUFFIX,ifengimg.com,DIRECT
+- DOMAIN-SUFFIX,ipip.net,DIRECT
+- DOMAIN-SUFFIX,iqiyi.com,DIRECT
+- DOMAIN-SUFFIX,jd.com,DIRECT
+- DOMAIN-SUFFIX,jianshu.com,DIRECT
+- DOMAIN-SUFFIX,knewone.com,DIRECT
+- DOMAIN-SUFFIX,le.com,DIRECT
+- DOMAIN-SUFFIX,lecloud.com,DIRECT
+- DOMAIN-SUFFIX,lemicp.com,DIRECT
+- DOMAIN-SUFFIX,licdn.com,DIRECT
+- DOMAIN-SUFFIX,luoo.net,DIRECT
+- DOMAIN-SUFFIX,meituan.com,DIRECT
+- DOMAIN-SUFFIX,meituan.net,DIRECT
+- DOMAIN-SUFFIX,mi.com,DIRECT
+- DOMAIN-SUFFIX,miaopai.com,DIRECT
+- DOMAIN-SUFFIX,microsoft.com,DIRECT
+- DOMAIN-SUFFIX,microsoftonline.com,DIRECT
+- DOMAIN-SUFFIX,miui.com,DIRECT
+- DOMAIN-SUFFIX,miwifi.com,DIRECT
+- DOMAIN-SUFFIX,mob.com,DIRECT
+- DOMAIN-SUFFIX,netease.com,DIRECT
+- DOMAIN-SUFFIX,office.com,DIRECT
+- DOMAIN-SUFFIX,office365.com,DIRECT
+- DOMAIN-KEYWORD,officecdn,DIRECT
+- DOMAIN-SUFFIX,oschina.net,DIRECT
+- DOMAIN-SUFFIX,ppsimg.com,DIRECT
+- DOMAIN-SUFFIX,pstatp.com,DIRECT
+- DOMAIN-SUFFIX,qcloud.com,DIRECT
+- DOMAIN-SUFFIX,qdaily.com,DIRECT
+- DOMAIN-SUFFIX,qdmm.com,DIRECT
+- DOMAIN-SUFFIX,qhimg.com,DIRECT
+- DOMAIN-SUFFIX,qhres.com,DIRECT
+- DOMAIN-SUFFIX,qidian.com,DIRECT
+- DOMAIN-SUFFIX,qihucdn.com,DIRECT
+- DOMAIN-SUFFIX,qiniu.com,DIRECT
+- DOMAIN-SUFFIX,qiniucdn.com,DIRECT
+- DOMAIN-SUFFIX,qiyipic.com,DIRECT
+- DOMAIN-SUFFIX,qq.com,DIRECT
+- DOMAIN-SUFFIX,qqurl.com,DIRECT
+- DOMAIN-SUFFIX,rarbg.to,DIRECT
+- DOMAIN-SUFFIX,ruguoapp.com,DIRECT
+- DOMAIN-SUFFIX,segmentfault.com,DIRECT
+- DOMAIN-SUFFIX,sinaapp.com,DIRECT
+- DOMAIN-SUFFIX,smzdm.com,DIRECT
+- DOMAIN-SUFFIX,snapdrop.net,DIRECT
+- DOMAIN-SUFFIX,sogou.com,DIRECT
+- DOMAIN-SUFFIX,sogoucdn.com,DIRECT
+- DOMAIN-SUFFIX,sohu.com,DIRECT
+- DOMAIN-SUFFIX,soku.com,DIRECT
+- DOMAIN-SUFFIX,speedtest.net,DIRECT
+- DOMAIN-SUFFIX,sspai.com,DIRECT
+- DOMAIN-SUFFIX,suning.com,DIRECT
+- DOMAIN-SUFFIX,taobao.com,DIRECT
+- DOMAIN-SUFFIX,tencent.com,DIRECT
+- DOMAIN-SUFFIX,tenpay.com,DIRECT
+- DOMAIN-SUFFIX,tianyancha.com,DIRECT
+- DOMAIN-SUFFIX,tmall.com,DIRECT
+- DOMAIN-SUFFIX,tudou.com,DIRECT
+- DOMAIN-SUFFIX,umetrip.com,DIRECT
+- DOMAIN-SUFFIX,upaiyun.com,DIRECT
+- DOMAIN-SUFFIX,upyun.com,DIRECT
+- DOMAIN-SUFFIX,veryzhun.com,DIRECT
+- DOMAIN-SUFFIX,weather.com,DIRECT
+- DOMAIN-SUFFIX,weibo.com,DIRECT
+- DOMAIN-SUFFIX,xiami.com,DIRECT
+- DOMAIN-SUFFIX,xiami.net,DIRECT
+- DOMAIN-SUFFIX,xiaomicp.com,DIRECT
+- DOMAIN-SUFFIX,ximalaya.com,DIRECT
+- DOMAIN-SUFFIX,xmcdn.com,DIRECT
+- DOMAIN-SUFFIX,xunlei.com,DIRECT
+- DOMAIN-SUFFIX,yhd.com,DIRECT
+- DOMAIN-SUFFIX,yihaodianimg.com,DIRECT
+- DOMAIN-SUFFIX,yinxiang.com,DIRECT
+- DOMAIN-SUFFIX,ykimg.com,DIRECT
+- DOMAIN-SUFFIX,youdao.com,DIRECT
+- DOMAIN-SUFFIX,youku.com,DIRECT
+- DOMAIN-SUFFIX,zealer.com,DIRECT
+- DOMAIN-SUFFIX,zhihu.com,DIRECT
+- DOMAIN-SUFFIX,zhimg.com,DIRECT
+- DOMAIN-SUFFIX,zimuzu.tv,DIRECT
+- DOMAIN-SUFFIX,zoho.com,DIRECT
+- DOMAIN-KEYWORD,amazon,Haita Cloud
+- DOMAIN-KEYWORD,google,Haita Cloud
+- DOMAIN-KEYWORD,gmail,Haita Cloud
+- DOMAIN-KEYWORD,youtube,Haita Cloud
+- DOMAIN-KEYWORD,facebook,Haita Cloud
+- DOMAIN-SUFFIX,fb.me,Haita Cloud
+- DOMAIN-SUFFIX,fbcdn.net,Haita Cloud
+- DOMAIN-KEYWORD,twitter,Haita Cloud
+- DOMAIN-KEYWORD,instagram,Haita Cloud
+- DOMAIN-KEYWORD,dropbox,Haita Cloud
+- DOMAIN-SUFFIX,twimg.com,Haita Cloud
+- DOMAIN-KEYWORD,blogspot,Haita Cloud
+- DOMAIN-SUFFIX,youtu.be,Haita Cloud
+- DOMAIN-KEYWORD,whatsapp,Haita Cloud
+- DOMAIN-KEYWORD,admarvel,REJECT
+- DOMAIN-KEYWORD,admaster,REJECT
+- DOMAIN-KEYWORD,adsage,REJECT
+- DOMAIN-KEYWORD,adsmogo,REJECT
+- DOMAIN-KEYWORD,adsrvmedia,REJECT
+- DOMAIN-KEYWORD,adwords,REJECT
+- DOMAIN-KEYWORD,adservice,REJECT
+- DOMAIN-SUFFIX,appsflyer.com,REJECT
+- DOMAIN-KEYWORD,domob,REJECT
+- DOMAIN-SUFFIX,doubleclick.net,REJECT
+- DOMAIN-KEYWORD,duomeng,REJECT
+- DOMAIN-KEYWORD,dwtrack,REJECT
+- DOMAIN-KEYWORD,guanggao,REJECT
+- DOMAIN-KEYWORD,lianmeng,REJECT
+- DOMAIN-SUFFIX,mmstat.com,REJECT
+- DOMAIN-KEYWORD,mopub,REJECT
+- DOMAIN-KEYWORD,omgmta,REJECT
+- DOMAIN-KEYWORD,openx,REJECT
+- DOMAIN-KEYWORD,partnerad,REJECT
+- DOMAIN-KEYWORD,pingfore,REJECT
+- DOMAIN-KEYWORD,supersonicads,REJECT
+- DOMAIN-KEYWORD,uedas,REJECT
+- DOMAIN-KEYWORD,umeng,REJECT
+- DOMAIN-KEYWORD,usage,REJECT
+- DOMAIN-SUFFIX,vungle.com,REJECT
+- DOMAIN-KEYWORD,wlmonitor,REJECT
+- DOMAIN-KEYWORD,zjtoolbar,REJECT
+- DOMAIN-SUFFIX,9to5mac.com,Haita Cloud
+- DOMAIN-SUFFIX,abpchina.org,Haita Cloud
+- DOMAIN-SUFFIX,adblockplus.org,Haita Cloud
+- DOMAIN-SUFFIX,adobe.com,Haita Cloud
+- DOMAIN-SUFFIX,akamaized.net,Haita Cloud
+- DOMAIN-SUFFIX,alfredapp.com,Haita Cloud
+- DOMAIN-SUFFIX,amplitude.com,Haita Cloud
+- DOMAIN-SUFFIX,ampproject.org,Haita Cloud
+- DOMAIN-SUFFIX,android.com,Haita Cloud
+- DOMAIN-SUFFIX,angularjs.org,Haita Cloud
+- DOMAIN-SUFFIX,aolcdn.com,Haita Cloud
+- DOMAIN-SUFFIX,apkpure.com,Haita Cloud
+- DOMAIN-SUFFIX,appledaily.com,Haita Cloud
+- DOMAIN-SUFFIX,appshopper.com,Haita Cloud
+- DOMAIN-SUFFIX,appspot.com,Haita Cloud
+- DOMAIN-SUFFIX,arcgis.com,Haita Cloud
+- DOMAIN-SUFFIX,archive.org,Haita Cloud
+- DOMAIN-SUFFIX,armorgames.com,Haita Cloud
+- DOMAIN-SUFFIX,aspnetcdn.com,Haita Cloud
+- DOMAIN-SUFFIX,att.com,Haita Cloud
+- DOMAIN-SUFFIX,awsstatic.com,Haita Cloud
+- DOMAIN-SUFFIX,azureedge.net,Haita Cloud
+- DOMAIN-SUFFIX,azurewebsites.net,Haita Cloud
+- DOMAIN-SUFFIX,bing.com,Haita Cloud
+- DOMAIN-SUFFIX,bintray.com,Haita Cloud
+- DOMAIN-SUFFIX,bit.com,Haita Cloud
+- DOMAIN-SUFFIX,bit.ly,Haita Cloud
+- DOMAIN-SUFFIX,bitbucket.org,Haita Cloud
+- DOMAIN-SUFFIX,bjango.com,Haita Cloud
+- DOMAIN-SUFFIX,bkrtx.com,Haita Cloud
+- DOMAIN-SUFFIX,blog.com,Haita Cloud
+- DOMAIN-SUFFIX,blogcdn.com,Haita Cloud
+- DOMAIN-SUFFIX,blogger.com,Haita Cloud
+- DOMAIN-SUFFIX,blogsmithmedia.com,Haita Cloud
+- DOMAIN-SUFFIX,blogspot.com,Haita Cloud
+- DOMAIN-SUFFIX,blogspot.hk,Haita Cloud
+- DOMAIN-SUFFIX,bloomberg.com,Haita Cloud
+- DOMAIN-SUFFIX,box.com,Haita Cloud
+- DOMAIN-SUFFIX,box.net,Haita Cloud
+- DOMAIN-SUFFIX,cachefly.net,Haita Cloud
+- DOMAIN-SUFFIX,chromium.org,Haita Cloud
+- DOMAIN-SUFFIX,cl.ly,Haita Cloud
+- DOMAIN-SUFFIX,cloudflare.com,Haita Cloud
+- DOMAIN-SUFFIX,cloudfront.net,Haita Cloud
+- DOMAIN-SUFFIX,cloudmagic.com,Haita Cloud
+- DOMAIN-SUFFIX,cmail19.com,Haita Cloud
+- DOMAIN-SUFFIX,cnet.com,Haita Cloud
+- DOMAIN-SUFFIX,cocoapods.org,Haita Cloud
+- DOMAIN-SUFFIX,comodoca.com,Haita Cloud
+- DOMAIN-SUFFIX,crashlytics.com,Haita Cloud
+- DOMAIN-SUFFIX,culturedcode.com,Haita Cloud
+- DOMAIN-SUFFIX,d.pr,Haita Cloud
+- DOMAIN-SUFFIX,danilo.to,Haita Cloud
+- DOMAIN-SUFFIX,dayone.me,Haita Cloud
+- DOMAIN-SUFFIX,db.tt,Haita Cloud
+- DOMAIN-SUFFIX,deskconnect.com,Haita Cloud
+- DOMAIN-SUFFIX,disq.us,Haita Cloud
+- DOMAIN-SUFFIX,disqus.com,Haita Cloud
+- DOMAIN-SUFFIX,disquscdn.com,Haita Cloud
+- DOMAIN-SUFFIX,dnsimple.com,Haita Cloud
+- DOMAIN-SUFFIX,docker.com,Haita Cloud
+- DOMAIN-SUFFIX,dribbble.com,Haita Cloud
+- DOMAIN-SUFFIX,droplr.com,Haita Cloud
+- DOMAIN-SUFFIX,duckduckgo.com,Haita Cloud
+- DOMAIN-SUFFIX,dueapp.com,Haita Cloud
+- DOMAIN-SUFFIX,dytt8.net,Haita Cloud
+- DOMAIN-SUFFIX,edgecastcdn.net,Haita Cloud
+- DOMAIN-SUFFIX,edgekey.net,Haita Cloud
+- DOMAIN-SUFFIX,edgesuite.net,Haita Cloud
+- DOMAIN-SUFFIX,engadget.com,Haita Cloud
+- DOMAIN-SUFFIX,entrust.net,Haita Cloud
+- DOMAIN-SUFFIX,eurekavpt.com,Haita Cloud
+- DOMAIN-SUFFIX,evernote.com,Haita Cloud
+- DOMAIN-SUFFIX,fabric.io,Haita Cloud
+- DOMAIN-SUFFIX,fast.com,Haita Cloud
+- DOMAIN-SUFFIX,fastly.net,Haita Cloud
+- DOMAIN-SUFFIX,fc2.com,Haita Cloud
+- DOMAIN-SUFFIX,feedburner.com,Haita Cloud
+- DOMAIN-SUFFIX,feedly.com,Haita Cloud
+- DOMAIN-SUFFIX,feedsportal.com,Haita Cloud
+- DOMAIN-SUFFIX,fiftythree.com,Haita Cloud
+- DOMAIN-SUFFIX,firebaseio.com,Haita Cloud
+- DOMAIN-SUFFIX,flexibits.com,Haita Cloud
+- DOMAIN-SUFFIX,flickr.com,Haita Cloud
+- DOMAIN-SUFFIX,flipboard.com,Haita Cloud
+- DOMAIN-SUFFIX,g.co,Haita Cloud
+- DOMAIN-SUFFIX,gabia.net,Haita Cloud
+- DOMAIN-SUFFIX,geni.us,Haita Cloud
+- DOMAIN-SUFFIX,gfx.ms,Haita Cloud
+- DOMAIN-SUFFIX,ggpht.com,Haita Cloud
+- DOMAIN-SUFFIX,ghostnoteapp.com,Haita Cloud
+- DOMAIN-SUFFIX,git.io,Haita Cloud
+- DOMAIN-KEYWORD,github,Haita Cloud
+- DOMAIN-SUFFIX,globalsign.com,Haita Cloud
+- DOMAIN-SUFFIX,gmodules.com,Haita Cloud
+- DOMAIN-SUFFIX,godaddy.com,Haita Cloud
+- DOMAIN-SUFFIX,golang.org,Haita Cloud
+- DOMAIN-SUFFIX,gongm.in,Haita Cloud
+- DOMAIN-SUFFIX,goo.gl,Haita Cloud
+- DOMAIN-SUFFIX,goodreaders.com,Haita Cloud
+- DOMAIN-SUFFIX,goodreads.com,Haita Cloud
+- DOMAIN-SUFFIX,gravatar.com,Haita Cloud
+- DOMAIN-SUFFIX,gstatic.com,Haita Cloud
+- DOMAIN-SUFFIX,gvt0.com,Haita Cloud
+- DOMAIN-SUFFIX,hockeyapp.net,Haita Cloud
+- DOMAIN-SUFFIX,hotmail.com,Haita Cloud
+- DOMAIN-SUFFIX,icons8.com,Haita Cloud
+- DOMAIN-SUFFIX,ifixit.com,Haita Cloud
+- DOMAIN-SUFFIX,ift.tt,Haita Cloud
+- DOMAIN-SUFFIX,ifttt.com,Haita Cloud
+- DOMAIN-SUFFIX,iherb.com,Haita Cloud
+- DOMAIN-SUFFIX,imageshack.us,Haita Cloud
+- DOMAIN-SUFFIX,img.ly,Haita Cloud
+- DOMAIN-SUFFIX,imgur.com,Haita Cloud
+- DOMAIN-SUFFIX,imore.com,Haita Cloud
+- DOMAIN-SUFFIX,instapaper.com,Haita Cloud
+- DOMAIN-SUFFIX,ipn.li,Haita Cloud
+- DOMAIN-SUFFIX,is.gd,Haita Cloud
+- DOMAIN-SUFFIX,issuu.com,Haita Cloud
+- DOMAIN-SUFFIX,itgonglun.com,Haita Cloud
+- DOMAIN-SUFFIX,itun.es,Haita Cloud
+- DOMAIN-SUFFIX,ixquick.com,Haita Cloud
+- DOMAIN-SUFFIX,j.mp,Haita Cloud
+- DOMAIN-SUFFIX,js.revsci.net,Haita Cloud
+- DOMAIN-SUFFIX,jshint.com,Haita Cloud
+- DOMAIN-SUFFIX,jtvnw.net,Haita Cloud
+- DOMAIN-SUFFIX,justgetflux.com,Haita Cloud
+- DOMAIN-SUFFIX,kat.cr,Haita Cloud
+- DOMAIN-SUFFIX,klip.me,Haita Cloud
+- DOMAIN-SUFFIX,libsyn.com,Haita Cloud
+- DOMAIN-SUFFIX,linkedin.com,Haita Cloud
+- DOMAIN-SUFFIX,line-apps.com,Haita Cloud
+- DOMAIN-SUFFIX,linode.com,Haita Cloud
+- DOMAIN-SUFFIX,lithium.com,Haita Cloud
+- DOMAIN-SUFFIX,littlehj.com,Haita Cloud
+- DOMAIN-SUFFIX,live.com,Haita Cloud
+- DOMAIN-SUFFIX,live.net,Haita Cloud
+- DOMAIN-SUFFIX,livefilestore.com,Haita Cloud
+- DOMAIN-SUFFIX,llnwd.net,Haita Cloud
+- DOMAIN-SUFFIX,macid.co,Haita Cloud
+- DOMAIN-SUFFIX,macromedia.com,Haita Cloud
+- DOMAIN-SUFFIX,macrumors.com,Haita Cloud
+- DOMAIN-SUFFIX,mashable.com,Haita Cloud
+- DOMAIN-SUFFIX,mathjax.org,Haita Cloud
+- DOMAIN-SUFFIX,medium.com,Haita Cloud
+- DOMAIN-SUFFIX,mega.co.nz,Haita Cloud
+- DOMAIN-SUFFIX,mega.nz,Haita Cloud
+- DOMAIN-SUFFIX,megaupload.com,Haita Cloud
+- DOMAIN-SUFFIX,microsofttranslator.com,Haita Cloud
+- DOMAIN-SUFFIX,mindnode.com,Haita Cloud
+- DOMAIN-SUFFIX,mobile01.com,Haita Cloud
+- DOMAIN-SUFFIX,modmyi.com,Haita Cloud
+- DOMAIN-SUFFIX,msedge.net,Haita Cloud
+- DOMAIN-SUFFIX,myfontastic.com,Haita Cloud
+- DOMAIN-SUFFIX,name.com,Haita Cloud
+- DOMAIN-SUFFIX,nextmedia.com,Haita Cloud
+- DOMAIN-SUFFIX,nsstatic.net,Haita Cloud
+- DOMAIN-SUFFIX,nssurge.com,Haita Cloud
+- DOMAIN-SUFFIX,nyt.com,Haita Cloud
+- DOMAIN-SUFFIX,nytimes.com,Haita Cloud
+- DOMAIN-SUFFIX,omnigroup.com,Haita Cloud
+- DOMAIN-SUFFIX,onedrive.com,Haita Cloud
+- DOMAIN-SUFFIX,onenote.com,Haita Cloud
+- DOMAIN-SUFFIX,ooyala.com,Haita Cloud
+- DOMAIN-SUFFIX,openvpn.net,Haita Cloud
+- DOMAIN-SUFFIX,openwrt.org,Haita Cloud
+- DOMAIN-SUFFIX,orkut.com,Haita Cloud
+- DOMAIN-SUFFIX,osxdaily.com,Haita Cloud
+- DOMAIN-SUFFIX,outlook.com,Haita Cloud
+- DOMAIN-SUFFIX,ow.ly,Haita Cloud
+- DOMAIN-SUFFIX,paddleapi.com,Haita Cloud
+- DOMAIN-SUFFIX,parallels.com,Haita Cloud
+- DOMAIN-SUFFIX,parse.com,Haita Cloud
+- DOMAIN-SUFFIX,pdfexpert.com,Haita Cloud
+- DOMAIN-SUFFIX,periscope.tv,Haita Cloud
+- DOMAIN-SUFFIX,pinboard.in,Haita Cloud
+- DOMAIN-SUFFIX,pinterest.com,Haita Cloud
+- DOMAIN-SUFFIX,pixelmator.com,Haita Cloud
+- DOMAIN-SUFFIX,pixiv.net,Haita Cloud
+- DOMAIN-SUFFIX,playpcesor.com,Haita Cloud
+- DOMAIN-SUFFIX,playstation.com,Haita Cloud
+- DOMAIN-SUFFIX,playstation.com.hk,Haita Cloud
+- DOMAIN-SUFFIX,playstation.net,Haita Cloud
+- DOMAIN-SUFFIX,playstationnetwork.com,Haita Cloud
+- DOMAIN-SUFFIX,pushwoosh.com,Haita Cloud
+- DOMAIN-SUFFIX,rime.im,Haita Cloud
+- DOMAIN-SUFFIX,servebom.com,Haita Cloud
+- DOMAIN-SUFFIX,sfx.ms,Haita Cloud
+- DOMAIN-SUFFIX,shadowsocks.org,Haita Cloud
+- DOMAIN-SUFFIX,sharethis.com,Haita Cloud
+- DOMAIN-SUFFIX,shazam.com,Haita Cloud
+- DOMAIN-SUFFIX,skype.com,Haita Cloud
+- DOMAIN-SUFFIX,smartdnsHaita Cloud.com,Haita Cloud
+- DOMAIN-SUFFIX,smartmailcloud.com,Haita Cloud
+- DOMAIN-SUFFIX,sndcdn.com,Haita Cloud
+- DOMAIN-SUFFIX,sony.com,Haita Cloud
+- DOMAIN-SUFFIX,soundcloud.com,Haita Cloud
+- DOMAIN-SUFFIX,sourceforge.net,Haita Cloud
+- DOMAIN-SUFFIX,spotify.com,Haita Cloud
+- DOMAIN-SUFFIX,squarespace.com,Haita Cloud
+- DOMAIN-SUFFIX,sstatic.net,Haita Cloud
+- DOMAIN-SUFFIX,st.luluku.pw,Haita Cloud
+- DOMAIN-SUFFIX,stackoverflow.com,Haita Cloud
+- DOMAIN-SUFFIX,startpage.com,Haita Cloud
+- DOMAIN-SUFFIX,staticflickr.com,Haita Cloud
+- DOMAIN-SUFFIX,steamcommunity.com,Haita Cloud
+- DOMAIN-SUFFIX,symauth.com,Haita Cloud
+- DOMAIN-SUFFIX,symcb.com,Haita Cloud
+- DOMAIN-SUFFIX,symcd.com,Haita Cloud
+- DOMAIN-SUFFIX,tapbots.com,Haita Cloud
+- DOMAIN-SUFFIX,tapbots.net,Haita Cloud
+- DOMAIN-SUFFIX,tdesktop.com,Haita Cloud
+- DOMAIN-SUFFIX,techcrunch.com,Haita Cloud
+- DOMAIN-SUFFIX,techsmith.com,Haita Cloud
+- DOMAIN-SUFFIX,thepiratebay.org,Haita Cloud
+- DOMAIN-SUFFIX,theverge.com,Haita Cloud
+- DOMAIN-SUFFIX,time.com,Haita Cloud
+- DOMAIN-SUFFIX,timeinc.net,Haita Cloud
+- DOMAIN-SUFFIX,tiny.cc,Haita Cloud
+- DOMAIN-SUFFIX,tinypic.com,Haita Cloud
+- DOMAIN-SUFFIX,tmblr.co,Haita Cloud
+- DOMAIN-SUFFIX,todoist.com,Haita Cloud
+- DOMAIN-SUFFIX,trello.com,Haita Cloud
+- DOMAIN-SUFFIX,trustasiassl.com,Haita Cloud
+- DOMAIN-SUFFIX,tumblr.co,Haita Cloud
+- DOMAIN-SUFFIX,tumblr.com,Haita Cloud
+- DOMAIN-SUFFIX,tweetdeck.com,Haita Cloud
+- DOMAIN-SUFFIX,tweetmarker.net,Haita Cloud
+- DOMAIN-SUFFIX,twitch.tv,Haita Cloud
+- DOMAIN-SUFFIX,txmblr.com,Haita Cloud
+- DOMAIN-SUFFIX,typekit.net,Haita Cloud
+- DOMAIN-SUFFIX,ubertags.com,Haita Cloud
+- DOMAIN-SUFFIX,ublock.org,Haita Cloud
+- DOMAIN-SUFFIX,ubnt.com,Haita Cloud
+- DOMAIN-SUFFIX,ulyssesapp.com,Haita Cloud
+- DOMAIN-SUFFIX,urchin.com,Haita Cloud
+- DOMAIN-SUFFIX,usertrust.com,Haita Cloud
+- DOMAIN-SUFFIX,v.gd,Haita Cloud
+- DOMAIN-SUFFIX,v2ex.com,Haita Cloud
+- DOMAIN-SUFFIX,vimeo.com,Haita Cloud
+- DOMAIN-SUFFIX,vimeocdn.com,Haita Cloud
+- DOMAIN-SUFFIX,vine.co,Haita Cloud
+- DOMAIN-SUFFIX,vivaldi.com,Haita Cloud
+- DOMAIN-SUFFIX,vox-cdn.com,Haita Cloud
+- DOMAIN-SUFFIX,vsco.co,Haita Cloud
+- DOMAIN-SUFFIX,vultr.com,Haita Cloud
+- DOMAIN-SUFFIX,w.org,Haita Cloud
+- DOMAIN-SUFFIX,w3schools.com,Haita Cloud
+- DOMAIN-SUFFIX,webtype.com,Haita Cloud
+- DOMAIN-SUFFIX,wikiwand.com,Haita Cloud
+- DOMAIN-SUFFIX,wikileaks.org,Haita Cloud
+- DOMAIN-SUFFIX,wikimedia.org,Haita Cloud
+- DOMAIN-SUFFIX,wikipedia.com,Haita Cloud
+- DOMAIN-SUFFIX,wikipedia.org,Haita Cloud
+- DOMAIN-SUFFIX,windows.com,Haita Cloud
+- DOMAIN-SUFFIX,windows.net,Haita Cloud
+- DOMAIN-SUFFIX,wire.com,Haita Cloud
+- DOMAIN-SUFFIX,wordpress.com,Haita Cloud
+- DOMAIN-SUFFIX,workflowy.com,Haita Cloud
+- DOMAIN-SUFFIX,wp.com,Haita Cloud
+- DOMAIN-SUFFIX,wsj.com,Haita Cloud
+- DOMAIN-SUFFIX,wsj.net,Haita Cloud
+- DOMAIN-SUFFIX,xda-developers.com,Haita Cloud
+- DOMAIN-SUFFIX,xeeno.com,Haita Cloud
+- DOMAIN-SUFFIX,xiti.com,Haita Cloud
+- DOMAIN-SUFFIX,yahoo.com,Haita Cloud
+- DOMAIN-SUFFIX,yimg.com,Haita Cloud
+- DOMAIN-SUFFIX,ying.com,Haita Cloud
+- DOMAIN-SUFFIX,yoyo.org,Haita Cloud
+- DOMAIN-SUFFIX,ytimg.com,Haita Cloud
+- DOMAIN-SUFFIX,telegra.ph,Haita Cloud
+- DOMAIN-SUFFIX,telegram.org,Haita Cloud
+- IP-CIDR,91.108.4.0/22,Haita Cloud,no-resolve
+- IP-CIDR,91.108.8.0/21,Haita Cloud,no-resolve
+- IP-CIDR,91.108.16.0/22,Haita Cloud,no-resolve
+- IP-CIDR,91.108.56.0/22,Haita Cloud,no-resolve
+- IP-CIDR,149.154.160.0/20,Haita Cloud,no-resolve
+- IP-CIDR6,2001:67c:4e8::/48,Haita Cloud,no-resolve
+- IP-CIDR6,2001:b28:f23d::/48,Haita Cloud,no-resolve
+- IP-CIDR6,2001:b28:f23f::/48,Haita Cloud,no-resolve
+- IP-CIDR,120.232.181.162/32,Haita Cloud,no-resolve
+- IP-CIDR,120.241.147.226/32,Haita Cloud,no-resolve
+- IP-CIDR,120.253.253.226/32,Haita Cloud,no-resolve
+- IP-CIDR,120.253.255.162/32,Haita Cloud,no-resolve
+- IP-CIDR,120.253.255.34/32,Haita Cloud,no-resolve
+- IP-CIDR,120.253.255.98/32,Haita Cloud,no-resolve
+- IP-CIDR,180.163.150.162/32,Haita Cloud,no-resolve
+- IP-CIDR,180.163.150.34/32,Haita Cloud,no-resolve
+- IP-CIDR,180.163.151.162/32,Haita Cloud,no-resolve
+- IP-CIDR,180.163.151.34/32,Haita Cloud,no-resolve
+- IP-CIDR,203.208.39.0/24,Haita Cloud,no-resolve
+- IP-CIDR,203.208.40.0/24,Haita Cloud,no-resolve
+- IP-CIDR,203.208.41.0/24,Haita Cloud,no-resolve
+- IP-CIDR,203.208.43.0/24,Haita Cloud,no-resolve
+- IP-CIDR,203.208.50.0/24,Haita Cloud,no-resolve
+- IP-CIDR,220.181.174.162/32,Haita Cloud,no-resolve
+- IP-CIDR,220.181.174.226/32,Haita Cloud,no-resolve
+- IP-CIDR,220.181.174.34/32,Haita Cloud,no-resolve
+- DOMAIN,injections.adguard.org,DIRECT
+- DOMAIN,local.adguard.org,DIRECT
+- DOMAIN-SUFFIX,local,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,192.168.0.0/16,DIRECT
+- IP-CIDR,10.0.0.0/8,DIRECT
+- IP-CIDR,17.0.0.0/8,DIRECT
+- IP-CIDR,100.64.0.0/10,DIRECT
+- IP-CIDR,224.0.0.0/4,DIRECT
+- IP-CIDR6,fe80::/10,DIRECT
+- DOMAIN-SUFFIX,cn,DIRECT
+- DOMAIN-KEYWORD,-cn,DIRECT
+- GEOIP,CN,DIRECT
+- MATCH,Haita Cloud
