@@ -17,7 +17,7 @@
 | 🐈‍⬛ | 裤佬Github加速 | [进入](https://pyapk.github.io) |
 | 🔄 | 裤佬订阅转换 | [进入](https://Jsnzkpg.github.io/Jsnzkpg) |
 | 🪜 | 裤佬永久节点订阅 | [进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg) |
-| 📺 | 裤佬永久IPTV订阅 | [进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/jsnzkpg1.m3u) |
+| 📺 | 裤佬永久IPTV订阅 | [进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u) |
 | 🎥 | 裤佬永久TVbox订阅 | [进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2) |
 | 🎞️ | 裤佬永久UZ影视订阅 | [进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg3) |
 | 📽️ | 裤佬永久Cinetry订阅 | [进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg4) |
