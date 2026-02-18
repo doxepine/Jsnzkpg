@@ -1,4 +1,4 @@
-{"live":[{"name": "👖裤佬TV直播","url":"https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1","type": 10,"remark":"✈️TG频道@stymei1"},
+{"live":[{"name": "👖裤佬TV直播","url":"https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u","type": 10,"remark":"✈️TG频道@stymei1"},
 
 {"name": "👖冰茶TV直播","url":"https://bc.188766.xyz/?ip=&mima=bingcha1130&huikan=1&json=true","type": 10,"remark":"✈️TG频道@stymei1"},
 
@@ -27,6 +27,7 @@
             "codeID": "4r9lCCTjjoqI5sGDkzho2sNKSL2BQXpc",
             "order": "A00",
             "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Jian_douban2.txt",
+       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
             "type": 101
            },
            {
@@ -224,7 +225,5 @@
           {"name": "👖金蝉","remark":"✈️TG频道@stymei1","url": "https://zy.jinchancaiji.com/api.php/provide/vod"},
           {"name": "👖CK","remark":"✈️TG频道@stymei1","url": "https://ckzy.me/api.php/provide/vod"},
           {"name": "👖艾旦影视","remark":"✈️TG频道@stymei1","url": "https://lovedan.net/api.php/provide/vod"},
-          {"name": "👖蛋蛋魔法","remark":"✈️TG频道@stymei1","url": "https://ddmf.net/api.php/provide/vod"},
           {"name": "👖OK","remark":"✈️TG频道@stymei1","url": "https://api.okzyw.net/api.php/provide/vod/?ac=list"},
-          {"name": "👖索尼","remark":"✈️TG频道@stymei1","url": "https://suoniapi.com/api.php/provide/vod/?ac=list"},
-          {"name": "👖瀑布盘","remark":"✈️TG频道@stymei1","url": "https://pbpan.com/api.php/provide/vod/at/josn"}]}
+          {"name": "👖索尼","remark":"✈️TG频道@stymei1","url": "https://suoniapi.com/api.php/provide/vod/?ac=list"}]}
