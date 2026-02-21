@@ -8,9 +8,30 @@
       "remark": "✈️TG频道@stymei1"
     },
     {
-      "name": "冰茶TV直播",
+      "name": "日后TV直播",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-      "url": "https://bc.188766.xyz/?ip=&mima=bingcha1130&huikan=1&json=true",
+      "url": "http://rihou.cc:555/gggg.nzk",
+      "type": 10,
+      "remark": "✈️TG频道@stymei1"
+},
+{
+      "name": "潇雨萌萌TV直播",
+      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
+      "url": "https://ds65.tv1288.xyz",
+      "type": 10,
+      "remark": "✈️TG频道@stymei1"
+},
+{
+      "name": "风云TV直播",
+      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
+      "url": "http://iptv.4666888.xyz/FYTV.txt",
+      "type": 10,
+      "remark": "✈️TG频道@stymei1"
+},
+{
+      "name": "蜂巢TV直播",
+      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
+      "url": "https://niurl.cc/7DdpuD",
       "type": 10,
       "remark": "✈️TG频道@stymei1"
     },
@@ -22,23 +43,16 @@
       "remark": "✈️TG频道@stymei1"
     },
     {
-      "name": "猫影TV直播",
-      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-      "url": "https://iptv.catvod.com/tv.m3u",
-      "type": 10,
-      "remark": "✈️TG频道@stymei1"
-    },
-    {
       "name": "白雪TV直播",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
       "url": "http://bxtv.3a.ink/live.txt",
       "type": 10,
       "remark": "✈️TG频道@stymei1"
-    },
-    {
-      "name": "日后TV直播",
+},
+{
+      "name": "咪咕TV直播",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-      "url": "http://rihou.cc:555/gggg.nzk",
+      "url": "https://iptv.gstory.cn/Cinetry",
       "type": 10,
       "remark": "✈️TG频道@stymei1"
     },
@@ -50,23 +64,23 @@
       "remark": "✈️TG频道@stymei1"
     },
     {
-      "name": "潇雨萌萌TV直播",
-      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-      "url": "https://ds65.tv1288.xyz",
-      "type": 10,
-      "remark": "✈️TG频道@stymei1"
-    },
-    {
       "name": "JackTV直播{翻}",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
       "url": "https://php.946985.filegear-sg.me/jackTV.m3u",
       "type": 10,
       "remark": "✈️TG频道@stymei1"
-    },
-    {
+},
+{
       "name": "日本TV直播{翻}",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
       "url": "https://web.utako.moe/jp.m3u",
+      "type": 10,
+      "remark": "✈️TG频道@stymei1"
+    },
+    {
+      "name": "海外TV直播{翻}",
+      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
+      "url": "https://down.nigx.cn/iptv-org.github.io/iptv/index.m3u",
       "type": 10,
       "remark": "✈️TG频道@stymei1"
     }
