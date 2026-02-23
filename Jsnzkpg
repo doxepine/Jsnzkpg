@@ -14,15 +14,15 @@ proxies:
     skip-cert-verify: true
     sni: www.apple.com
     type: hysteria2
-    password: da8a47cb-3cc6-425b-a4da-24abe9b2c332
+    password: 4ae73062-88d4-4a06-ac26-dfac0f5338d9
     auth: ""
     fast-open: false
     servername: www.apple.com
-  - name: 最低月付2块钱1000G流量
+  - name: 最低2块钱1000G流量
     type: vless
     server: 104.19.58.118
     port: 443
-    uuid: da8a47cb-3cc6-425b-a4da-24abe9b2c332
+    uuid: 4ae73062-88d4-4a06-ac26-dfac0f5338d9
     udp: true
     tls: true
     skip-cert-verify: null
@@ -41,7 +41,7 @@ proxies:
     type: vless
     server: 104.19.58.118
     port: 443
-    uuid: da8a47cb-3cc6-425b-a4da-24abe9b2c332
+    uuid: 4ae73062-88d4-4a06-ac26-dfac0f5338d9
     udp: true
     tls: true
     skip-cert-verify: null
@@ -60,7 +60,7 @@ proxies:
     type: vless
     server: 69.84.182.13
     port: 443
-    uuid: da8a47cb-3cc6-425b-a4da-24abe9b2c332
+    uuid: 4ae73062-88d4-4a06-ac26-dfac0f5338d9
     udp: true
     tls: true
     skip-cert-verify: null
@@ -75,11 +75,11 @@ proxies:
     alterId: 0
     cipher: ""
     sni: jp1-jp1.aiopen.sbs
-  - name: 新疆西藏福建可用
+  - name: 新疆西藏福建都能用
     type: vless
     server: 69.84.182.13
     port: 443
-    uuid: da8a47cb-3cc6-425b-a4da-24abe9b2c332
+    uuid: 4ae73062-88d4-4a06-ac26-dfac0f5338d9
     udp: true
     tls: true
     skip-cert-verify: null
@@ -98,7 +98,7 @@ proxies:
     type: vless
     server: 69.84.182.13
     port: 443
-    uuid: da8a47cb-3cc6-425b-a4da-24abe9b2c332
+    uuid: 4ae73062-88d4-4a06-ac26-dfac0f5338d9
     udp: true
     tls: true
     skip-cert-verify: null
@@ -118,10 +118,10 @@ proxy-groups:
       - 自动选择
       - 故障转移
       - 官网地址https://kelayun.notepin.co
-      - 最低月付2块钱1000G流量
+      - 最低2块钱1000G流量
       - 新年6折优惠码：克拉云
       - 不限速不限设备
-      - 新疆西藏福建可用
+      - 新疆西藏福建都能用
       - 解锁Gemini和ChatGPT
   - name: 自动选择
     type: url-test
@@ -129,10 +129,10 @@ proxy-groups:
     interval: 86400
     proxies:
       - 官网地址https://kelayun.notepin.co
-      - 最低月付2块钱1000G流量
+      - 最低2块钱1000G流量
       - 新年6折优惠码：克拉云
       - 不限速不限设备
-      - 新疆西藏福建可用
+      - 新疆西藏福建都能用
       - 解锁Gemini和ChatGPT
   - name: 故障转移
     type: fallback
@@ -140,10 +140,10 @@ proxy-groups:
     interval: 7200
     proxies:
       - 官网地址https://kelayun.notepin.co
-      - 最低月付2块钱1000G流量
+      - 最低2块钱1000G流量
       - 新年6折优惠码：克拉云
       - 不限速不限设备
-      - 新疆西藏福建可用
+      - 新疆西藏福建都能用
       - 解锁Gemini和ChatGPT
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
