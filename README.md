@@ -21,7 +21,7 @@
 | 🎥 | 裤佬永久TVbox订阅 | [进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2) |
 | 🎞️ | 裤佬永久UZ影视订阅 | [进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg3) |
 | 📽️ | 裤佬永久Cinetry订阅 | [进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg4) |
-| 🐱 | 裤佬永久猫源订阅 | [进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/stymei/Jsnzkpg/index.js.md5) |
+| 🐱 | 裤佬永久index.js.md5订阅 | [进入](https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/stymei/Jsnzkpg/index.js.md5) |
 | 🆕 | 最牛订阅转换 | [进入](https://zh.momobaby.org) |
 
 ---
