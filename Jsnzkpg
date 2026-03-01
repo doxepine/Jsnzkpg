@@ -23,7 +23,7 @@ proxies:
     client-fingerprint: chrome
     network: tcp
     alterId: 0
-    cipher: ""
+    cipher: ''
     sni: www.tesla.com
   - name: 购买地址https://kelayun.notepin.co
     type: vless
@@ -43,158 +43,400 @@ proxies:
     client-fingerprint: chrome
     network: tcp
     alterId: 0
-    cipher: ""
+    cipher: ''
     sni: www.amd.com
-  - name: 官网地址https://kelayun.notepin.co
+  - name: '[Vless] rs1 [hfnb8] 1'
+    server: cf.9999669.xyz
+    port: 2087
     type: vless
-    server: time.is
-    port: 443
-    uuid: 4bebaf49-0db3-444c-876b-e86940915446
-    encryption: none
-    udp: true
-    skip-cert-verify: null
-    tfo: false
+    uuid: 77777777-6663-4ef2-b26b-ed2d70642678
     tls: true
-    sni: us.owg.dpdns.org
-    servername: us.owg.dpdns.org
-    client-fingerprint: chrome
-    alpn:
-      - http/1.1
-      - h2
-      - h3
+    tfo: true
+    skip-cert-verify: true
+    servername: hfnb8xmvw3h14.fx02.ccwu.cc
     network: ws
     ws-opts:
-      path: /go/go/go
+      path: /?ed=2560
       headers:
-        Host: us.owg.dpdns.org
-    alterId: 0
-    cipher: ""
-    flow: ""
+        Host: hfnb8xmvw3h14.fx02.ccwu.cc
+    udp: true
+    ech-opts:
+      enable: false
+      query-server-name: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  - name: '[Vless] rs1 [fx7ev] 2'
+    server: mfa.gov.ua
+    port: 2087
+    type: vless
+    uuid: 77777777-6663-4ef2-b26b-ed2d70642678
+    tls: true
+    tfo: true
+    skip-cert-verify: true
+    servername: fx7evx71.fx02.ccwu.cc
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: fx7evx71.fx02.ccwu.cc
+    udp: true
+    ech-opts:
+      enable: false
+      query-server-name: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  - name: '[Vless] rs1 [8fbxj] 3'
+    server: www.shopify.com
+    port: 2087
+    type: vless
+    uuid: 77777777-6663-4ef2-b26b-ed2d70642678
+    tls: true
+    tfo: true
+    skip-cert-verify: true
+    servername: 8fbxjhscv17.fx02.ccwu.cc
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: 8fbxjhscv17.fx02.ccwu.cc
+    udp: true
+    ech-opts:
+      enable: false
+      query-server-name: cloudflare-ech.com+https://dns.alidns.com/dns-query
   - name: 最低月付2块钱1000G流量
-    type: vless
-    server: time.is
+    server: cf.cloudflare.182682.xyz
     port: 443
-    uuid: e1ec3fcf-7e8e-4359-9fc6-7e14677571d9
-    encryption: none
-    udp: true
-    skip-cert-verify: null
-    tfo: false
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
     tls: true
-    sni: us.owg.dpdns.org
-    servername: us.owg.dpdns.org
-    client-fingerprint: chrome
-    alpn:
-      - http/1.1
-      - h2
-      - h3
+    servername: 456.org.edukg.dpdns.org
     network: ws
     ws-opts:
-      path: /go/go/go
+      path: /
       headers:
-        Host: us.owg.dpdns.org
+        Host: 456.org.edukg.dpdns.org
     alterId: 0
     cipher: ""
     flow: ""
+    sni: 456.org.edukg.dpdns.org
   - name: 最高200元终身无限流量
-    type: vless
-    server: time.is
+    server: cf.877774.xyz
     port: 443
-    uuid: 8a5fe5b7-0f55-484b-929d-411f0459bed0
-    encryption: none
-    udp: true
-    skip-cert-verify: null
-    tfo: false
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
     tls: true
-    sni: us.owg.dpdns.org
-    servername: us.owg.dpdns.org
-    client-fingerprint: chrome
-    alpn:
-      - http/1.1
-      - h2
-      - h3
+    servername: 456.org.edukg.dpdns.org
     network: ws
     ws-opts:
-      path: /go/go/go
+      path: /
       headers:
-        Host: us.owg.dpdns.org
+        Host: 456.org.edukg.dpdns.org
     alterId: 0
     cipher: ""
     flow: ""
+    sni: 456.org.edukg.dpdns.org
   - name: 不限速不限设备
-    type: vless
-    server: time.is
+    server: 104.19.62.254
     port: 443
-    uuid: 76cd1991-ef34-442b-b084-a4e17933d987
-    encryption: none
-    udp: true
-    skip-cert-verify: null
-    tfo: false
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
     tls: true
-    sni: us.owg.dpdns.org
-    servername: us.owg.dpdns.org
-    client-fingerprint: chrome
-    alpn:
-      - http/1.1
-      - h2
-      - h3
+    servername: snll300.sni.snx.loc.cc
     network: ws
     ws-opts:
-      path: /go/go/go
+      path: /
       headers:
-        Host: us.owg.dpdns.org
+        Host: snll300.sni.snx.loc.cc
     alterId: 0
     cipher: ""
     flow: ""
+    sni: snll300.sni.snx.loc.cc
   - name: 新疆西藏福建可用
+    server: 60.248.139.106
+    port: 10016
     type: vless
-    server: time.is
-    port: 443
-    uuid: c00e1d86-4d86-4b12-a395-61e0aa785fdc
-    encryption: none
-    udp: true
-    skip-cert-verify: null
-    tfo: false
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
     tls: true
-    sni: us.owg.dpdns.org
-    servername: us.owg.dpdns.org
-    client-fingerprint: chrome
-    alpn:
-      - http/1.1
-      - h2
-      - h3
+    servername: sni.edusg.loc.cc
     network: ws
     ws-opts:
-      path: /go/go/go
+      path: /
       headers:
-        Host: us.owg.dpdns.org
+        Host: sni.edusg.loc.cc
     alterId: 0
     cipher: ""
     flow: ""
+    sni: sni.edusg.loc.cc
   - name: 解锁Gemini和ChatGPT
-    type: vless
-    server: time.is
-    port: 443
-    uuid: 692861bb-e275-4149-bf2e-a89d5146a436
-    encryption: none
-    udp: true
-    skip-cert-verify: null
-    tfo: false
-    tls: true
-    sni: us.owg.dpdns.org
-    servername: us.owg.dpdns.org
-    client-fingerprint: chrome
+    server: 172.64.145.144
+    port: 8443
+    type: trojan
+    password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+    sni: snll100.pages.dev
     alpn:
-      - http/1.1
-      - h2
-      - h3
+      - h3%2Ch2%2Chttp%2F1.1
+    skip-cert-verify: null
     network: ws
     ws-opts:
-      path: /go/go/go
+      path: /
       headers:
-        Host: us.owg.dpdns.org
-    alterId: 0
-    cipher: ""
-    flow: ""
+        Host: snll100.pages.dev
+    servername: snll100.pages.dev
+  - name: 高速-GlassPanel 2
+    server: 104.17.144.235
+    port: 443
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+    tls: true
+    servername: sni.sxing.ggff.net
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.sxing.ggff.net
+  - name: 🇸🇬 高速-SG
+    server: 27.50.48.50
+    port: 2053
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+    tls: true
+    servername: 123.org.edukg.dpdns.org
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 123.org.edukg.dpdns.org
+  - name: ECH-GlassPanel
+    server: 172.64.52.251
+    port: 443
+    type: trojan
+    password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+    sni: sg680.pages.dev
+    alpn:
+      - h3%2Ch2%2Chttp%2F1.1
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: sg680.pages.dev
+  - name: 高速-GlassPanel 3
+    server: 104.19.38.213
+    port: 443
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+    tls: true
+    servername: 789.org.edukg.dpdns.org
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 789.org.edukg.dpdns.org
+  - name: 🇺🇸 高速-美国
+    server: 155.117.19.186
+    port: 443
+    type: vless
+    uuid: 29ff2954-dfea-4d20-8089-059cfa861453
+    tls: true
+    servername: wu.090881.xyz
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /products/proxyip=ProxyIP.SG.CMLiussss.net/proxyip=ProxyIP.SG.CMLiussss.net
+      headers:
+        Host: wu.090881.xyz
+  - name: 🇸🇬 高速-SG 2
+    server: 92.243.74.4
+    port: 8443
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+    tls: true
+    servername: snll300.sni-1.snx.loc.cc
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: snll300.sni-1.snx.loc.cc
+  - name: 高速-GlassPanel 4
+    server: 104.20.17.202
+    port: 443
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+    tls: true
+    servername: snll661-1.betsyangel.ndjp.net
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: snll661-1.betsyangel.ndjp.net
+  - name: 🇯🇵 高速-JP
+    server: 64.110.102.9
+    port: 16071
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+    tls: true
+    servername: snll300.sni.snx.loc.cc
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: snll300.sni.snx.loc.cc
+  - name: 🇰🇷 高速-KR
+    server: 218.152.107.124
+    port: 12262
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+    tls: true
+    servername: 123.org.edukg.dpdns.org
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 123.org.edukg.dpdns.org
+  - name: 🇺🇸 ECH-US
+    server: 45.12.90.217
+    port: 443
+    type: trojan
+    password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+    sni: snll668.sxi.ndjp.net
+    alpn:
+      - h3%2Ch2%2Chttp%2F1.1
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: snll668.sxi.ndjp.net
+  - name: T-IPDB 2
+    server: 104.17.153.219
+    port: 443
+    type: vless
+    uuid: 4eafbd9e-6cdd-45dd-9d26-1bc08126bbcb
+    tls: true
+    servername: 125.tsm.cc.cd
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 125.tsm.cc.cd
+  - name: ECH-GlassPanel 2
+    server: 108.162.198.116
+    port: 443
+    type: trojan
+    password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+    sni: snll667.pages.dev
+    alpn:
+      - h3%2Ch2%2Chttp%2F1.1
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: snll667.pages.dev
+  - name: 🇰🇷 高速-KR 2
+    server: 211.199.3.249
+    port: 12518
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+    tls: true
+    servername: snll661-2.betsyangel.ndjp.net
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: snll661-2.betsyangel.ndjp.net
+  - name: 高速-GlassPanel 5
+    server: 104.26.5.210
+    port: 443
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+    tls: true
+    servername: snll661-2.betsyangel.ndjp.net
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: snll661-2.betsyangel.ndjp.net
+  - name: 🇺🇸 高速-US
+    server: 23.94.218.170
+    port: 443
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+    tls: true
+    servername: 123.edukg.dpdns.org
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 123.edukg.dpdns.org
+  - name: 高速-GlassPanel 6
+    server: 104.20.24.112
+    port: 443
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+    tls: true
+    servername: snll661-1.betsyangel.ndjp.net
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: snll661-1.betsyangel.ndjp.net
+  - name: 🇰🇷 高速-KR 3
+    server: 211.193.169.223
+    port: 12236
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+    tls: true
+    servername: 789.org.edukg.dpdns.org
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 789.org.edukg.dpdns.org
+  - name: 🇭🇰 高速-HK
+    server: 47.242.212.253
+    port: 587
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+    tls: true
+    servername: ydsni.ssp.ndjp.net
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ydsni.ssp.ndjp.net
+  - name: 🇰🇷 高速-KR 4
+    server: 175.213.181.45
+    port: 12488
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+    tls: true
+    servername: sni.edusg.loc.cc
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.edusg.loc.cc
+  - name: 高速-IPDB
+    server: 104.17.133.188
+    port: 443
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+    tls: true
+    servername: mmglass.edus.indevs.in
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: mmglass.edus.indevs.in
+  - name: 高速-GlassPanel 7
+    server: 104.19.50.53
+    port: 443
+    type: vless
+    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+    tls: true
+    servername: myglass.edus.indevs.in
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: myglass.edus.indevs.in
 proxy-groups:
   - name: Haita Cloud
     type: select
@@ -203,12 +445,35 @@ proxy-groups:
       - 故障转移
       - 下单地址https://kelayun.notepin.co
       - 购买地址https://kelayun.notepin.co
-      - 官网地址https://kelayun.notepin.co
+      - '[Vless] rs1 [hfnb8] 1'
+      - '[Vless] rs1 [fx7ev] 2'
+      - '[Vless] rs1 [8fbxj] 3'
       - 最低月付2块钱1000G流量
       - 最高200元终身无限流量
       - 不限速不限设备
       - 新疆西藏福建可用
       - 解锁Gemini和ChatGPT
+      - 高速-GlassPanel 2
+      - 🇸🇬 高速-SG
+      - ECH-GlassPanel
+      - 高速-GlassPanel 3
+      - 🇺🇸 高速-美国
+      - 🇸🇬 高速-SG 2
+      - 高速-GlassPanel 4
+      - 🇯🇵 高速-JP
+      - 🇰🇷 高速-KR
+      - 🇺🇸 ECH-US
+      - T-IPDB 2
+      - ECH-GlassPanel 2
+      - 🇰🇷 高速-KR 2
+      - 高速-GlassPanel 5
+      - 🇺🇸 高速-US
+      - 高速-GlassPanel 6
+      - 🇰🇷 高速-KR 3
+      - 🇭🇰 高速-HK
+      - 🇰🇷 高速-KR 4
+      - 高速-IPDB
+      - 高速-GlassPanel 7
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -216,12 +481,35 @@ proxy-groups:
     proxies:
       - 下单地址https://kelayun.notepin.co
       - 购买地址https://kelayun.notepin.co
-      - 官网地址https://kelayun.notepin.co
+      - '[Vless] rs1 [hfnb8] 1'
+      - '[Vless] rs1 [fx7ev] 2'
+      - '[Vless] rs1 [8fbxj] 3'
       - 最低月付2块钱1000G流量
       - 最高200元终身无限流量
       - 不限速不限设备
       - 新疆西藏福建可用
       - 解锁Gemini和ChatGPT
+      - 高速-GlassPanel 2
+      - 🇸🇬 高速-SG
+      - ECH-GlassPanel
+      - 高速-GlassPanel 3
+      - 🇺🇸 高速-美国
+      - 🇸🇬 高速-SG 2
+      - 高速-GlassPanel 4
+      - 🇯🇵 高速-JP
+      - 🇰🇷 高速-KR
+      - 🇺🇸 ECH-US
+      - T-IPDB 2
+      - ECH-GlassPanel 2
+      - 🇰🇷 高速-KR 2
+      - 高速-GlassPanel 5
+      - 🇺🇸 高速-US
+      - 高速-GlassPanel 6
+      - 🇰🇷 高速-KR 3
+      - 🇭🇰 高速-HK
+      - 🇰🇷 高速-KR 4
+      - 高速-IPDB
+      - 高速-GlassPanel 7
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -229,12 +517,35 @@ proxy-groups:
     proxies:
       - 下单地址https://kelayun.notepin.co
       - 购买地址https://kelayun.notepin.co
-      - 官网地址https://kelayun.notepin.co
+      - '[Vless] rs1 [hfnb8] 1'
+      - '[Vless] rs1 [fx7ev] 2'
+      - '[Vless] rs1 [8fbxj] 3'
       - 最低月付2块钱1000G流量
       - 最高200元终身无限流量
       - 不限速不限设备
       - 新疆西藏福建可用
       - 解锁Gemini和ChatGPT
+      - 高速-GlassPanel 2
+      - 🇸🇬 高速-SG
+      - ECH-GlassPanel
+      - 高速-GlassPanel 3
+      - 🇺🇸 高速-美国
+      - 🇸🇬 高速-SG 2
+      - 高速-GlassPanel 4
+      - 🇯🇵 高速-JP
+      - 🇰🇷 高速-KR
+      - 🇺🇸 ECH-US
+      - T-IPDB 2
+      - ECH-GlassPanel 2
+      - 🇰🇷 高速-KR 2
+      - 高速-GlassPanel 5
+      - 🇺🇸 高速-US
+      - 高速-GlassPanel 6
+      - 🇰🇷 高速-KR 3
+      - 🇭🇰 高速-HK
+      - 🇰🇷 高速-KR 4
+      - 高速-IPDB
+      - 高速-GlassPanel 7
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
