@@ -5,145 +5,235 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 官网地址https://kelayun.notepin.co
-    server: 208.87.242.77
-    port: 35000
-    ports: 35000-39000
-    mport: 35000-39000
-    udp: true
-    skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    password: 2bc0d070-c77b-46ae-a990-8080eaca3ed6
-    auth: ""
-    fast-open: false
-    servername: www.apple.com
-  - name: 购买地址https://kelayun.notepin.co
-    type: vless
-    server: 104.19.58.118
-    port: 443
-    uuid: 2bc0d070-c77b-46ae-a990-8080eaca3ed6
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: chrome
-    servername: us1-us1.aiopen.sbs
-    network: ws
-    ws-opts:
-      path: /kbjc/us1
-      headers:
-        Host: us1-us1.aiopen.sbs
-    alterId: 0
-    cipher: ""
-    sni: us1-us1.aiopen.sbs
   - name: 下单地址https://kelayun.notepin.co
     type: vless
-    server: 104.19.58.118
-    port: 443
-    uuid: 2bc0d070-c77b-46ae-a990-8080eaca3ed6
+    server: 195.172.138.224
+    port: 20882
+    uuid: 2979477a-f96a-45e0-be6b-c24db8af2026
+    encryption: none
     udp: true
-    tls: true
     skip-cert-verify: null
-    flow: ''
+    tfo: false
+    flow: xtls-rprx-vision
+    tls: true
+    reality-opts:
+      public-key: b31oHYKY9-2rPQOsrwvfnImU2GB2BcAc2WryZl5NEA0
+      short-id: 153d40c36343cd
+    servername: www.tesla.com
     client-fingerprint: chrome
-    servername: us1-us1.aiopen.sbs
-    network: ws
-    ws-opts:
-      path: /kbjc/us1
-      headers:
-        Host: us1-us1.aiopen.sbs
+    network: tcp
     alterId: 0
     cipher: ""
-    sni: us1-us1.aiopen.sbs
+    sni: www.tesla.com
+  - name: 购买地址https://kelayun.notepin.co
+    type: vless
+    server: 195.172.138.224
+    port: 59109
+    uuid: eb24b84d-c60b-45e3-8b7d-15f5f07c5daf
+    encryption: none
+    udp: true
+    skip-cert-verify: null
+    tfo: false
+    flow: xtls-rprx-vision
+    tls: true
+    reality-opts:
+      public-key: SRcPiiNH145UYB1vu3oY1bkyO7kJD4F5YfHA8_TPuiA
+      short-id: b7a45b7cf5dda507
+    servername: www.amd.com
+    client-fingerprint: chrome
+    network: tcp
+    alterId: 0
+    cipher: ""
+    sni: www.amd.com
+  - name: 官网地址https://kelayun.notepin.co
+    type: vless
+    server: time.is
+    port: 443
+    uuid: 4bebaf49-0db3-444c-876b-e86940915446
+    encryption: none
+    udp: true
+    skip-cert-verify: null
+    tfo: false
+    tls: true
+    sni: us.owg.dpdns.org
+    servername: us.owg.dpdns.org
+    client-fingerprint: chrome
+    alpn:
+      - http/1.1
+      - h2
+      - h3
+    network: ws
+    ws-opts:
+      path: /go/go/go
+      headers:
+        Host: us.owg.dpdns.org
+    alterId: 0
+    cipher: ""
+    flow: ""
   - name: 最低月付2块钱1000G流量
     type: vless
-    server: 69.84.182.13
+    server: time.is
     port: 443
-    uuid: 2bc0d070-c77b-46ae-a990-8080eaca3ed6
+    uuid: e1ec3fcf-7e8e-4359-9fc6-7e14677571d9
+    encryption: none
     udp: true
-    tls: true
     skip-cert-verify: null
-    flow: ''
+    tfo: false
+    tls: true
+    sni: us.owg.dpdns.org
+    servername: us.owg.dpdns.org
     client-fingerprint: chrome
-    servername: jp1-jp1.aiopen.sbs
+    alpn:
+      - http/1.1
+      - h2
+      - h3
     network: ws
     ws-opts:
-      path: /kbjc/jp1
+      path: /go/go/go
       headers:
-        Host: jp1-jp1.aiopen.sbs
+        Host: us.owg.dpdns.org
     alterId: 0
     cipher: ""
-    sni: jp1-jp1.aiopen.sbs
+    flow: ""
+  - name: 最高200元终身无限流量
+    type: vless
+    server: time.is
+    port: 443
+    uuid: 8a5fe5b7-0f55-484b-929d-411f0459bed0
+    encryption: none
+    udp: true
+    skip-cert-verify: null
+    tfo: false
+    tls: true
+    sni: us.owg.dpdns.org
+    servername: us.owg.dpdns.org
+    client-fingerprint: chrome
+    alpn:
+      - http/1.1
+      - h2
+      - h3
+    network: ws
+    ws-opts:
+      path: /go/go/go
+      headers:
+        Host: us.owg.dpdns.org
+    alterId: 0
+    cipher: ""
+    flow: ""
   - name: 不限速不限设备
     type: vless
-    server: 69.84.182.13
+    server: time.is
     port: 443
-    uuid: 2bc0d070-c77b-46ae-a990-8080eaca3ed6
+    uuid: 76cd1991-ef34-442b-b084-a4e17933d987
+    encryption: none
     udp: true
-    tls: true
     skip-cert-verify: null
-    flow: ''
+    tfo: false
+    tls: true
+    sni: us.owg.dpdns.org
+    servername: us.owg.dpdns.org
     client-fingerprint: chrome
-    servername: jp1-jp1.aiopen.sbs
+    alpn:
+      - http/1.1
+      - h2
+      - h3
     network: ws
     ws-opts:
-      path: /kbjc/jp1
+      path: /go/go/go
       headers:
-        Host: jp1-jp1.aiopen.sbs
+        Host: us.owg.dpdns.org
     alterId: 0
     cipher: ""
-    sni: jp1-jp1.aiopen.sbs
+    flow: ""
+  - name: 新疆西藏福建可用
+    type: vless
+    server: time.is
+    port: 443
+    uuid: c00e1d86-4d86-4b12-a395-61e0aa785fdc
+    encryption: none
+    udp: true
+    skip-cert-verify: null
+    tfo: false
+    tls: true
+    sni: us.owg.dpdns.org
+    servername: us.owg.dpdns.org
+    client-fingerprint: chrome
+    alpn:
+      - http/1.1
+      - h2
+      - h3
+    network: ws
+    ws-opts:
+      path: /go/go/go
+      headers:
+        Host: us.owg.dpdns.org
+    alterId: 0
+    cipher: ""
+    flow: ""
   - name: 解锁Gemini和ChatGPT
     type: vless
-    server: 69.84.182.13
+    server: time.is
     port: 443
-    uuid: 2bc0d070-c77b-46ae-a990-8080eaca3ed6
+    uuid: 692861bb-e275-4149-bf2e-a89d5146a436
+    encryption: none
     udp: true
-    tls: true
     skip-cert-verify: null
-    flow: ''
+    tfo: false
+    tls: true
+    sni: us.owg.dpdns.org
+    servername: us.owg.dpdns.org
     client-fingerprint: chrome
+    alpn:
+      - http/1.1
+      - h2
+      - h3
     network: ws
     ws-opts:
-      path: /kbjc/fr1
+      path: /go/go/go
       headers:
-        Host: fr-1-fr-1.aiopen.sbs
+        Host: us.owg.dpdns.org
     alterId: 0
     cipher: ""
+    flow: ""
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - 官网地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
+      - 官网地址https://kelayun.notepin.co
       - 最低月付2块钱1000G流量
+      - 最高200元终身无限流量
       - 不限速不限设备
+      - 新疆西藏福建可用
       - 解锁Gemini和ChatGPT
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - 官网地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
+      - 官网地址https://kelayun.notepin.co
       - 最低月付2块钱1000G流量
+      - 最高200元终身无限流量
       - 不限速不限设备
+      - 新疆西藏福建可用
       - 解锁Gemini和ChatGPT
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - 官网地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
+      - 官网地址https://kelayun.notepin.co
       - 最低月付2块钱1000G流量
+      - 最高200元终身无限流量
       - 不限速不限设备
+      - 新疆西藏福建可用
       - 解锁Gemini和ChatGPT
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
