@@ -28,31 +28,10 @@
       "type": 10,
       "remark": "✈️TG频道@stymei1"
 },
-{
-      "name": "蜂巢TV直播",
-      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-      "url": "https://niurl.cc/7DdpuD",
-      "type": 10,
-      "remark": "✈️TG频道@stymei1"
-    },
     {
       "name": "宫殿TV直播",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
       "url": "https://gongdian.top/tv/iptv",
-      "type": 10,
-      "remark": "✈️TG频道@stymei1"
-    },
-    {
-      "name": "白雪TV直播",
-      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-      "url": "http://bxtv.3a.ink/live.txt",
-      "type": 10,
-      "remark": "✈️TG频道@stymei1"
-},
-{
-      "name": "咪咕TV直播",
-      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-      "url": "https://iptv.gstory.cn/Cinetry",
       "type": 10,
       "remark": "✈️TG频道@stymei1"
     },
@@ -109,14 +88,29 @@
       "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_doubi.txt",
       "type": 101
     },
-    {
-      "name": "瓜子影视",
+        {
+            "name": "[主用] 瓜子影视",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
+            "version": 4,
       "remark": "✈️TG频道@stymei1",
-      "webSite": "http://api.gudvxty.com",
-      "instance": "gzys20240822",
-      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzys.js"
-    },
+            "webSite": "http://api.gudvxty.com",
+            "instance": "gzys20240822",
+            "order": "B",
+            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzys.js",
+            "type": 100
+        },
+        {
+            "name": "[备用] 瓜子影视",
+      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
+            "version": 4,
+      "remark": "✈️TG频道@stymei1",
+            "webSite": "http://api.gudvxty.com",
+            "codeID": "ra5Z3wtXKshzSMK2",
+            "instance": "gzapp20241001",
+            "order": "B",
+            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzapp.txt",
+            "type": 100
+        },
     {
       "name": "荐片",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
