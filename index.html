@@ -3,7 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>裤佬永久直链托管 - 原生直链版</title>
+    <title>裤佬永久直链托管</title>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?f463aebe70bb41d3370a497b28a6d7ac";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
     <style>
         :root {
             --glass-bg: rgba(255, 255, 255, 0.15);
@@ -22,7 +31,7 @@
             justify-content: center;
             align-items: flex-start;
             color: var(--text-primary);
-            overflow: hidden;
+            overflow-x: hidden;
             position: relative;
             padding: 15px;
             padding-top: 8vh;
@@ -50,8 +59,8 @@
         }
         .marquee {
             white-space: nowrap;
-            display: flex;
-            animation: marquee 15s linear infinite;
+            display: inline-block;
+            animation: marquee 20s linear infinite;
         }
         .marquee a {
             color: var(--text-primary);
@@ -61,104 +70,39 @@
             font-size: 14px;
         }
         @keyframes marquee {
-            0% { transform: translateX(100%); }
+            0% { transform: translateX(100vw); }
             100% { transform: translateX(-100%); }
         }
 
-        .avatar-container {
-            text-align: center;
-            margin-bottom: 0;
-            line-height: 0;
-        }
+        .avatar-container { text-align: center; margin-bottom: 0; line-height: 0; }
         .avatar-img {
-            width: 90px;
-            height: 90px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: none;
-            background: transparent;
-            transition: transform 0.3s ease;
-            display: block;
-            margin: 0 auto;
+            width: 90px; height: 90px; border-radius: 50%; object-fit: cover;
+            transition: transform 0.3s ease; display: block; margin: 0 auto;
         }
-        .avatar-img:hover { transform: scale(1.05); }
 
         .page-title {
-            text-align: center;
-            font-size: 32px;
-            font-weight: 700;
-            margin-bottom: 15px;
+            text-align: center; font-size: 32px; font-weight: 700; margin-bottom: 15px;
             background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #54a0ff);
-            background-size: 400% 400%;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            background-size: 400% 400%; -webkit-background-clip: text; -webkit-text-fill-color: transparent;
             animation: gradient 8s ease infinite;
         }
-        @keyframes gradient {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
 
-        .main-layer { width: 100%; max-width: 450px; margin-top: 0; }
-        
+        .main-layer { width: 100%; max-width: 450px; }
         .glass-card {
-            background: var(--glass-bg);
-            backdrop-filter: blur(12px);
-            border-radius: 12px;
-            border: 1px solid var(--glass-border);
-            padding: 25px;
-            box-shadow: var(--glass-shadow);
-            text-align: center;
-            margin-top: 30px;
+            background: var(--glass-bg); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+            border-radius: 12px; border: 1px solid var(--glass-border); padding: 25px;
+            box-shadow: var(--glass-shadow); text-align: center; margin-top: 30px;
         }
 
         .upload-zone {
-            border-radius: 12px;
-            padding: 30px 20px 25px;  /* 增加底部内边距给提示语留空间 */
-            cursor: pointer;
-            background: rgba(255, 255, 255, 0.2);
-            margin-bottom: 15px;
-            transition: 0.3s;
-            position: relative;
+            border-radius: 12px; padding: 30px 20px; cursor: pointer;
+            background: rgba(255, 255, 255, 0.2); margin-bottom: 15px; transition: 0.3s;
         }
-        .upload-zone:hover { background: rgba(255, 255, 255, 0.3); transform: scale(1.02); }
-
-        /* 上传框内的提示语样式 */
-        .upload-hint {
-            margin-top: 15px;
-            font-size: 12px;
-            color: #d14545;           /* 深红色提升可读性 */
-            background: rgba(255, 255, 255, 0.6);
-            backdrop-filter: blur(2px);
-            padding: 8px 10px;
-            border-radius: 20px;
-            display: inline-block;
-            border: 1px dashed #d14545;
-            line-height: 1.5;
-            font-weight: 500;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-        }
-        .upload-hint span {
-            font-weight: 600;
-            background: #d14545;
-            color: white;
-            border-radius: 16px;
-            padding: 2px 8px;
-            margin: 0 2px;
-            font-size: 11px;
-        }
+        .upload-info { font-size: 12px; color: #666; margin-top: 8px; line-height: 1.6; }
 
         .btn {
-            background: var(--accent-color);
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: 600;
-            width: 100%;
-            transition: 0.3s;
+            background: var(--accent-color); color: white; border: none; padding: 12px;
+            border-radius: 6px; cursor: pointer; font-weight: 600; width: 100%; transition: 0.3s;
         }
 
         #progressSection, #resultSection { display: none; margin-top: 20px; }
@@ -178,25 +122,11 @@
             width: 50px; height: 50px; border-radius: 50%; background: var(--glass-bg);
             backdrop-filter: blur(12px); border: 1px solid var(--glass-border);
             display: flex; align-items: center; justify-content: center; cursor: pointer;
-            box-shadow: var(--glass-shadow);
         }
         .music-toggle.playing { animation: rotate 3s linear infinite; }
         @keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
         .music-toggle::after { content: "♫"; font-size: 24px; color: var(--accent-color); }
-        
-        /* 隐藏不再使用的元素 */
-        #retryNotice { display: none; } 
     </style>
-    <!-- 百度统计代码 -->
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?f463aebe70bb41d3370a497b28a6d7ac";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
 </head>
 <body>
 
@@ -215,36 +145,40 @@
 
     <div class="main-layer">
         <div class="page-title">裤佬永久直链托管</div>
-        
         <div class="avatar-container">
-            <img class="avatar-img" src="https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png" alt="裤佬头像" title="裤佬">
+            <img class="avatar-img" src="https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png" alt="头像">
         </div>
 
         <div class="glass-card">
             <div id="uploadForm">
-                <div class="upload-zone" id="dropZone">
+                <div class="upload-zone" id="dropZone" onclick="document.getElementById('fileInput').click()">
                     <div style="font-size: 40px;">🔗</div>
-                    <p style="font-size: 14px; color: #555; margin-top: 5px;">点击或将文件拖拽至此处</p>
-                    <!-- 提示语整合在上传框内，完全按照要求：禁止上传apk,html,htm,shtml,shtm · 最大80MB，且无视频审核字样 -->
-                    <div class="upload-hint">
-                        ⚡ 禁止上传 <span>apk</span> <span>html</span> <span>htm</span> <span>shtml</span> <span>shtm</span> · 最大 80MB
+                    <p style="font-size: 14px; color: #333; margin-top: 10px; font-weight: 600;">点击或拖拽上传文件</p>
+                    <div class="upload-info">
+                        🚫 不限制格式 · 📦 限制 200MB<br>
+                        ☁️ 永久储存 · ⚡ 专属加速通道
                     </div>
                     <input type="file" id="fileInput" hidden>
                 </div>
-                <button class="btn" onclick="document.getElementById('fileInput').click()">选择文件并上传</button>
+                <button class="btn" onclick="document.getElementById('fileInput').click()">立即上传</button>
             </div>
 
             <div id="progressSection">
-                <p style="font-size: 13px;">正在上传到云端永久储存中…</p>
+                <p id="statusTitle" style="font-size: 13px;">正在加速上传到永久存储…</p>
                 <div class="progress-bar"><div class="progress-fill" id="progressBar"></div></div>
                 <p id="percentText" style="font-size: 12px; color: var(--accent-color);">0%</p>
-                <p id="retryNotice" style="display:none;"></p>
             </div>
 
             <div id="resultSection">
-                <!-- 只保留原始链接 -->
                 <div class="result-item">
-                    <span class="label">🔗 永久直链 (API原生地址)</span>
+                    <span class="label">🚀 镜像加速链接</span>
+                    <div class="input-group">
+                        <input type="text" id="proxyLink" readonly>
+                        <button class="btn-copy" onclick="copyValue('proxyLink', this)">复制</button>
+                    </div>
+                </div>
+                <div class="result-item">
+                    <span class="label">🔗 原始官方链接</span>
                     <div class="input-group">
                         <input type="text" id="rawLink" readonly>
                         <button class="btn-copy" onclick="copyValue('rawLink', this)">复制</button>
@@ -264,40 +198,39 @@
         const bgMusic = document.getElementById('bgMusic');
         const musicToggle = document.getElementById('musicToggle');
         const fileInput = document.getElementById('fileInput');
-        const dropZone = document.getElementById('dropZone');
 
-        // 音乐播放逻辑
-        window.addEventListener('load', () => {
-            bgMusic.muted = true;
-            bgMusic.play().then(() => {
-                musicToggle.classList.add('playing');
-                document.body.addEventListener('click', () => { bgMusic.muted = false; }, { once: true });
-            }).catch(() => {});
-        });
+        // 配置参数
+        const MY_PROXY = 'https://www.jsnzkpg.workers.dev/?url='; 
+        const CATBOX_API = 'https://catbox.moe/user/api.php';
+        const MIRROR_DOMAIN = 'https://down.nigx.cn/'; 
 
-        musicToggle.onclick = () => {
+        // 音乐交互
+        window.onclick = () => { if(bgMusic.muted) { bgMusic.muted = false; bgMusic.play(); musicToggle.classList.add('playing'); } };
+        musicToggle.onclick = (e) => {
+            e.stopPropagation();
             if (bgMusic.paused) { bgMusic.play(); musicToggle.classList.add('playing'); }
             else { bgMusic.pause(); musicToggle.classList.remove('playing'); }
         };
 
-        // --- 核心配置 (直接请求API，仅返回原生直链) ---
-        const API = 'https://pan.szfx.top/api.php';  // 唯一API地址
-
-        // 界面事件
-        dropZone.onclick = () => fileInput.click();
         fileInput.onchange = (e) => { if(e.target.files[0]) handleUpload(e.target.files[0]); };
         
-        // 上传主逻辑 - 直接请求，仅显示原生链接
         async function handleUpload(file) {
+            // 大小检查
+            if (file.size > 200 * 1024 * 1024) {
+                alert('文件超过 200MB 限制！');
+                return;
+            }
+
             document.getElementById('uploadForm').style.display = 'none';
             document.getElementById('progressSection').style.display = 'block';
 
             const fd = new FormData();
-            fd.append('file', file);                // 字段名: file
-            fd.append('format', 'json');             // 强制返回JSON
+            fd.append('reqtype', 'fileupload');
+            fd.append('fileToUpload', file);
 
+            const targetUrl = MY_PROXY + encodeURIComponent(CATBOX_API);
             const xhr = new XMLHttpRequest();
-            xhr.open('POST', API);
+            xhr.open('POST', targetUrl);
 
             xhr.upload.onprogress = (e) => {
                 if (e.lengthComputable) {
@@ -308,50 +241,30 @@
             };
 
             xhr.onload = () => {
-                try {
-                    const responseText = xhr.responseText.trim();
-                    const jsonData = JSON.parse(responseText);
+                const response = xhr.responseText.trim();
+                if (xhr.status === 200 && response.includes('http')) {
+                    const rawUrl = response;
+                    const noProtocol = rawUrl.replace(/^https?:\/\//, '');
                     
-                    // 根据szfx API文档: code为0表示成功，downurl为下载地址
-                    if (jsonData.code === 0 && jsonData.downurl) {
-                        const raw = jsonData.downurl;          // 原始下载地址
-                        document.getElementById('rawLink').value = raw;
-                        
-                        document.getElementById('progressSection').style.display = 'none';
-                        document.getElementById('resultSection').style.display = 'block';
-                        return;
-                    } else {
-                        alert('上传失败：' + (jsonData.msg || '未知错误'));
-                        location.reload();
-                    }
-                } catch (e) {
-                    // JSON解析失败，尝试按文本提取链接（兼容后备）
-                    if (xhr.status === 200) {
-                        const urlMatch = responseText.match(/https?:\/\/[^\s"']+/);
-                        if (urlMatch) {
-                            const raw = urlMatch[0];
-                            document.getElementById('rawLink').value = raw;
-                            document.getElementById('progressSection').style.display = 'none';
-                            document.getElementById('resultSection').style.display = 'block';
-                            return;
-                        }
-                    }
-                    alert('上传失败：服务器返回格式异常');
+                    document.getElementById('rawLink').value = rawUrl;
+                    document.getElementById('proxyLink').value = MIRROR_DOMAIN + noProtocol;
+                    
+                    document.getElementById('progressSection').style.display = 'none';
+                    document.getElementById('resultSection').style.display = 'block';
+                } else {
+                    alert('上传异常，请检查线路或尝试刷新。');
                     location.reload();
                 }
             };
 
-            xhr.onerror = () => {
-                alert('网络错误，上传失败。请检查API地址是否可访问，或是否存在跨域限制。');
-                location.reload();
-            };
-
+            xhr.onerror = () => { alert('服务器连接中断'); location.reload(); };
             xhr.send(fd);
         }
 
         function copyValue(id, btn) {
             const input = document.getElementById(id);
             input.select();
+            input.setSelectionRange(0, 99999); // 兼容手机
             document.execCommand('copy');
             const originalText = btn.innerText;
             btn.innerText = '成功';
