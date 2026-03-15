@@ -5,196 +5,699 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 付费地址https://kelayun.notepin.co
-    type: vless
-    server: 129.153.71.226
-    port: 443
-    uuid: d46ad20a-4454-4da7-8f9c-87f9152bedee
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: xtls-rprx-vision
-    client-fingerprint: ios
-    servername: iosapps.itunes.apple.com
-    reality-opts:
-      public-key: qkP2pqQ3NHNBkyzqsC2W9wChp3OfeXdVjOhUv8vQW0o
-      short-id: aac4df9d05a5ba8f
-    alterId: 0
-    cipher: ""
-    sni: iosapps.itunes.apple.com
-  - name: 购买地址https://kelayun.notepin.co
-    type: vless
-    server: 63.141.128.188
-    port: 443
-    uuid: d46ad20a-4454-4da7-8f9c-87f9152bedee
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: chrome
-    servername: d2-us1.djwstlsweb.top
-    network: ws
-    ws-opts:
-      path: /djjc/us1
-      headers:
-        Host: d2-us1.djwstlsweb.top
-    alterId: 0
-    cipher: ""
-    sni: d2-us1.djwstlsweb.top
-  - name: 下单地址https://kelayun.notepin.co
-    type: vless
-    server: 63.141.128.188
-    port: 443
-    uuid: d46ad20a-4454-4da7-8f9c-87f9152bedee
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: ios
-    servername: d2-us3.djwstlsweb.top
-    network: ws
-    ws-opts:
-      path: /djjc/us3
-      headers:
-        Host: d2-us3.djwstlsweb.top
-    alterId: 0
-    cipher: ""
-    sni: d2-us3.djwstlsweb.top
   - name: 官网地址https://kelayun.notepin.co
     type: vless
-    server: 63.141.128.188
+    server: 23.148.20.55
     port: 443
-    uuid: d46ad20a-4454-4da7-8f9c-87f9152bedee
-    udp: true
+    client-fingerprint: chrome
     tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: ios
-    servername: d2-us4.djwstlsweb.top
-    network: ws
-    ws-opts:
-      path: /djjc/us4
-      headers:
-        Host: d2-us4.djwstlsweb.top
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    network: tcp
+    reality-opts:
+      public-key: R0M4F0Di9oppNbz_LRIkF08whSeXbBHMNkAKVq5l-U8
+      short-id: ea80ef
+    uuid: e5130eee-cf44-405e-ce04-25817f961399
     alterId: 0
     cipher: ""
-    sni: d2-us4.djwstlsweb.top
+    sni: www.apple.com
+  - name: 下单地址https://kelayun.notepin.co
+    type: anytls
+    server: us1.anliangjifei.top
+    port: 12053
+    password: ae74dd32-c336-4be4-9c15-f6108292b3e5
+    skip-cert-verify: true
+    sni: us1.anliangjifei.top
+  - name: 购买地址https://kelayun.notepin.co
+    type: vless
+    server: 45.145.42.170
+    port: 8005
+    skip-cert-verify: true
+    tls: true
+    servername: sub.mot.ip-ddns.com
+    network: ws
+    ws-opts:
+      headers:
+        Host: sub.mot.ip-ddns.com
+      path: /
+    uuid: 00000000-0000-4000-8000-000000000000
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: sub.mot.ip-ddns.com
   - name: 梯子地址https://kelayun.notepin.co
     type: vless
-    server: 63.141.128.188
-    port: 443
-    uuid: d46ad20a-4454-4da7-8f9c-87f9152bedee
-    udp: true
+    server: 45.145.42.170
+    port: 8005
+    client-fingerprint: chrome
     tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: safari
-    servername: d2-jp1.djwstlsweb.top
+    servername: sub.mot.ip-ddns.com
     network: ws
     ws-opts:
-      path: /djjc/jp1
       headers:
-        Host: d2-jp1.djwstlsweb.top
+        Host: sub.mot.ip-ddns.com
+      path: /
+    uuid: 00000000-0000-4000-8000-000000000000
     alterId: 0
     cipher: ""
-    sni: d2-jp1.djwstlsweb.top
+    flow: ""
+    sni: sub.mot.ip-ddns.com
   - name: 最低月付2块钱1000G流量
+    type: ss
+    server: lm-xx-002.sadaadf--d.com
+    port: 38385
+    cipher: chacha20-ietf-poly1305
+    password: 1a931d29-1a0b-4e7a-bcff-d8b0d2fe5722
+  - name: 最高200元终身无限流量
+    type: ss
+    server: lm-xx-002.sadaadf--d.com
+    port: 10543
+    cipher: chacha20-ietf-poly1305
+    password: 1a931d29-1a0b-4e7a-bcff-d8b0d2fe5722
+  - name: 不限速不限设备
+    type: ss
+    server: lm-xx-002.sadaadf--d.com
+    port: 39445
+    cipher: chacha20-ietf-poly1305
+    password: 1a931d29-1a0b-4e7a-bcff-d8b0d2fe5722
+  - name: 新疆西藏福建可用
+    type: ss
+    server: lm-xx-002.sadaadf--d.com
+    port: 20030
+    cipher: aes-256-gcm
+    password: 1a931d29-1a0b-4e7a-bcff-d8b0d2fe5722
+  - name: 15-🇳🇱NL-ss-300ms
+    type: ss
+    server: lm-xx-002.sadaadf--d.com
+    port: 55732
+    cipher: chacha20-ietf-poly1305
+    password: 1a931d29-1a0b-4e7a-bcff-d8b0d2fe5722
+  - name: 16-🇲🇴MO-ss-208ms
+    type: ss
+    server: lm-xx-002.sadaadf--d.com
+    port: 29655
+    cipher: chacha20-ietf-poly1305
+    password: 1a931d29-1a0b-4e7a-bcff-d8b0d2fe5722
+  - name: 17-🇻🇳VN-ss-179ms
+    type: ss
+    server: lm-xx-002.sadaadf--d.com
+    port: 23688
+    cipher: aes-256-gcm
+    password: 1a931d29-1a0b-4e7a-bcff-d8b0d2fe5722
+  - name: 18-🇧🇷BR-ss-455ms
+    type: ss
+    server: lm-xx-002.sadaadf--d.com
+    port: 27534
+    cipher: aes-256-gcm
+    password: 1a931d29-1a0b-4e7a-bcff-d8b0d2fe5722
+  - name: 19-🇨🇦CA-ss-331ms
+    type: ss
+    server: lm-xx-002.sadaadf--d.com
+    port: 25125
+    cipher: chacha20-ietf-poly1305
+    password: 1a931d29-1a0b-4e7a-bcff-d8b0d2fe5722
+  - name: 20-🇦🇺AU-ss-363ms
+    type: ss
+    server: lm-xx-002.sadaadf--d.com
+    port: 14383
+    cipher: chacha20-ietf-poly1305
+    password: 1a931d29-1a0b-4e7a-bcff-d8b0d2fe5722
+  - name: 21-🇮🇩ID-ss-462ms
+    type: ss
+    server: lm-xx-002.sadaadf--d.com
+    port: 33790
+    cipher: aes-256-gcm
+    password: 1a931d29-1a0b-4e7a-bcff-d8b0d2fe5722
+  - name: 22-🇭🇰HK-ss-230ms
+    type: ss
+    server: aaa.whtjdasha.com
+    port: 59988
+    cipher: chacha20-ietf-poly1305
+    password: ad16bf2c-ca79-4a43-9c4f-13e48b8dfaed
+  - name: 23-🇭🇰HK-ss-144ms
+    type: ss
+    server: bbb.whtjdasha.com
+    port: 47356
+    cipher: chacha20-ietf-poly1305
+    password: ad16bf2c-ca79-4a43-9c4f-13e48b8dfaed
+  - name: 24-🇭🇰HK-ss-268ms
+    type: ss
+    server: aaa.whtjdasha.com
+    port: 40574
+    cipher: chacha20-ietf-poly1305
+    password: ad16bf2c-ca79-4a43-9c4f-13e48b8dfaed
+  - name: 25-🇨🇳TW-ss-116ms
+    type: ss
+    server: bbb.whtjdasha.com
+    port: 13368
+    cipher: chacha20-ietf-poly1305
+    password: ad16bf2c-ca79-4a43-9c4f-13e48b8dfaed
+  - name: 26-🇨🇳TW-ss-139ms
+    type: ss
+    server: aaa.whtjdasha.com
+    port: 56967
+    cipher: chacha20-ietf-poly1305
+    password: ad16bf2c-ca79-4a43-9c4f-13e48b8dfaed
+  - name: 27-🇸🇬SG-ss-481ms
+    type: ss
+    server: aaa.whtjdasha.com
+    port: 54269
+    cipher: chacha20-ietf-poly1305
+    password: ad16bf2c-ca79-4a43-9c4f-13e48b8dfaed
+  - name: 28-🇺🇸US-ss-293ms
+    type: ss
+    server: aaa.whtjdasha.com
+    port: 48147
+    cipher: chacha20-ietf-poly1305
+    password: ad16bf2c-ca79-4a43-9c4f-13e48b8dfaed
+  - name: 29-🇺🇸US-ss-333ms
+    type: ss
+    server: bbb.whtjdasha.com
+    port: 42794
+    cipher: chacha20-ietf-poly1305
+    password: ad16bf2c-ca79-4a43-9c4f-13e48b8dfaed
+  - name: 30-🇰🇷KR-ss-351ms
+    type: ss
+    server: aaa.whtjdasha.com
+    port: 54506
+    cipher: chacha20-ietf-poly1305
+    password: ad16bf2c-ca79-4a43-9c4f-13e48b8dfaed
+  - name: 31-🇸🇦SA-ss-401ms
+    type: ss
+    server: lm-xx-002.sadaadf--d.com
+    port: 44459
+    cipher: chacha20-ietf-poly1305
+    password: 1a931d29-1a0b-4e7a-bcff-d8b0d2fe5722
+  - name: 32-🇳🇱NL-vless-259ms
     type: vless
-    server: 63.141.128.188
+    server: 143.20.236.51
     port: 443
-    uuid: d46ad20a-4454-4da7-8f9c-87f9152bedee
-    udp: true
+    client-fingerprint: chrome
     tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: safari
-    servername: d2-jp2.djwstlsweb.top
+    servername: yahoo.com
+    flow: xtls-rprx-vision
+    network: tcp
+    reality-opts:
+      public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+      short-id: c39cc7310a
+    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  - name: 33-🇺🇸US-vless-277ms
+    type: vless
+    server: 157.254.223.44
+    port: 18959
+    client-fingerprint: chrome
+    tls: true
+    servername: itunes.apple.com
+    network: tcp
+    reality-opts:
+      public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+      short-id: d557c6895d014075
+    uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+  - name: 34-🇫🇮FI-vless-214ms
+    type: vless
+    server: 45.145.42.170
+    port: 8005
+    client-fingerprint: chrome
+    tls: true
+    servername: sub.mot.ip-ddns.com
     network: ws
     ws-opts:
-      path: /djjc/jp2
       headers:
-        Host: d2-jp2.djwstlsweb.top
-    alterId: 0
-    cipher: ""
-    sni: d2-jp2.djwstlsweb.top
-  - name: 不限速不限设备不限地区
+        Host: sub.mot.ip-ddns.com
+      path: /
+    uuid: 00000000-0000-4000-8000-000000000000
+  - name: 35-🇳🇱NL-vless-229ms
     type: vless
-    server: 63.141.128.188
+    server: 143.20.236.51
     port: 443
-    uuid: d46ad20a-4454-4da7-8f9c-87f9152bedee
-    udp: true
+    client-fingerprint: chrome
     tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: ios
-    servername: d2-jp2.djwstlsweb.top
-    network: ws
-    ws-opts:
-      path: /djjc/jp2
-      headers:
-        Host: d2-jp2.djwstlsweb.top
-    alterId: 0
-    cipher: ""
-    sni: d2-jp2.djwstlsweb.top
-  - name: 解锁谷歌gemini
+    servername: yahoo.com
+    flow: xtls-rprx-vision
+    network: tcp
+    reality-opts:
+      public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+      short-id: c39cc7310a
+    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  - name: 36-🇺🇸US-vless-243ms
     type: vless
-    server: 63.141.128.188
-    port: 443
-    uuid: d46ad20a-4454-4da7-8f9c-87f9152bedee
-    udp: true
+    server: 157.254.223.44
+    port: 18959
+    client-fingerprint: chrome
     tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: safari
-    servername: d2-jp2.djwstlsweb.top
-    network: ws
-    ws-opts:
-      path: /djjc/jp2
-      headers:
-        Host: d2-jp2.djwstlsweb.top
-    alterId: 0
-    cipher: ""
-    sni: d2-jp2.djwstlsweb.top
+    servername: itunes.apple.com
+    network: tcp
+    reality-opts:
+      public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+      short-id: d557c6895d014075
+    uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+  - name: 37-🇭🇰HK-trojan-101ms
+    type: trojan
+    server: h7.t11-a.app
+    port: 22337
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: hk07t.goodyun.buzz
+  - name: 38-🇭🇰HK-trojan-85ms
+    type: trojan
+    server: h8.t11-a.app
+    port: 22338
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: hk08t.goodyun.buzz
+  - name: 39-🇭🇰HK-trojan-83ms
+    type: trojan
+    server: h9.t11-a.app
+    port: 22339
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: v.t202511-s.icu
+  - name: 40-🇭🇰HK-trojan-119ms
+    type: trojan
+    server: h10.t11-a.app
+    port: 22340
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: v.t202511-s.icu
+  - name: 41-🇸🇬SG-trojan-155ms
+    type: trojan
+    server: s4.t11-a.app
+    port: 26211
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: v.t202511-s.icu
+  - name: 42-🇸🇬SG-trojan-102ms
+    type: trojan
+    server: s10.t11-a.app
+    port: 26210
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: sg10t.goodyun.buzz
+  - name: 43-🇸🇬SG-trojan-481ms
+    type: trojan
+    server: s11.t11-a.app
+    port: 26218
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: sg11t.goodyun.buzz
+  - name: 44-🇸🇬SG-trojan-168ms
+    type: trojan
+    server: s12.t11-a.app
+    port: 26212
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: sg12t.goodyun.buzz
+  - name: 45-🇸🇬SG-trojan-443ms
+    type: trojan
+    server: s13.t11-a.app
+    port: 26213
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: sg13t.goodyun.buzz
+  - name: 46-🇸🇬SG-trojan-172ms
+    type: trojan
+    server: s14.t11-a.app
+    port: 26214
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: sg14t.goodyun.buzz
+  - name: 47-🇸🇬SG-trojan-122ms
+    type: trojan
+    server: s15.t11-a.app
+    port: 26215
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: sg15t.goodyun.buzz
+  - name: 48-🇯🇵JP-trojan-393ms
+    type: trojan
+    server: j01.t11-a.app
+    port: 35001
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: n.t202511-s.icu
+  - name: 49-🇯🇵JP-trojan-279ms
+    type: trojan
+    server: j02.t11-a.app
+    port: 35002
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: t.t202511-s.icu
+  - name: 50-🇯🇵JP-trojan-228ms
+    type: trojan
+    server: j3.t11-a.app
+    port: 35003
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: s.t202511-s.icu
+  - name: 51-🇯🇵JP-trojan-225ms
+    type: trojan
+    server: j4.t11-a.app
+    port: 35004
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: s.t202511-s.icu
+  - name: 52-🇯🇵JP-trojan-271ms
+    type: trojan
+    server: j7.t11-a.app
+    port: 35077
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: jp077t.goodyun.buzz
+  - name: 53-🇺🇸US-trojan-252ms
+    type: trojan
+    server: us7.t11-a.app
+    port: 33808
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: us07t.goodyun.buzz
+  - name: 54-🇺🇸US-trojan-303ms
+    type: trojan
+    server: us9.t11-a.app
+    port: 33810
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: us09t.goodyun.buzz
+  - name: 55-🇺🇸US-trojan-268ms
+    type: trojan
+    server: us10.t11-a.app
+    port: 33811
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: us10t.goodyun.buzz
+  - name: 56-🇨🇳TW-trojan-95ms
+    type: trojan
+    server: tw6.t11-a.app
+    port: 33906
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: tw06t.goodyun.buzz
+  - name: 57-🇫🇷FR-trojan-277ms
+    type: trojan
+    server: fr1.t11-a.app
+    port: 11001
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: fr01t.goodyun.buzz
+  - name: 58-🇫🇷FR-trojan-279ms
+    type: trojan
+    server: fr2.t11-a.app
+    port: 11002
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: fr02t.goodyun.buzz
+  - name: 59-🇬🇧GB-trojan-332ms
+    type: trojan
+    server: uk2.t11-a.app
+    port: 11005
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: uk02t.goodyun.buzz
+  - name: 60-🇨🇦CA-trojan-377ms
+    type: trojan
+    server: ca1.t11-a.app
+    port: 11008
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: ca01t.goodyun.buzz
+  - name: 61-🇳🇱NL-trojan-303ms
+    type: trojan
+    server: nl1.t11-a.app
+    port: 11009
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: nl01t.goodyun.buzz
+  - name: 62-🇷🇺RU-trojan-331ms
+    type: trojan
+    server: ru1.t11-a.app
+    port: 11010
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: ru01t.goodyun.buzz
+  - name: 63-🇹🇷TR-trojan-439ms
+    type: trojan
+    server: tr1.t11-a.app
+    port: 11051
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: tr01t.goodyun.buzz
+  - name: 64-🇰🇷KR-trojan-274ms
+    type: trojan
+    server: kr1.t11-a.app
+    port: 11029
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: kr011t.goodyun.buzz
+  - name: 65-🇻🇳VN-trojan-160ms
+    type: trojan
+    server: vn1.t11-a.app
+    port: 11015
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: vn01t.goodyun.buzz
+  - name: 66-🇦🇺AU-trojan-379ms
+    type: trojan
+    server: au1.t11-a.app
+    port: 11016
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: au01t.goodyun.buzz
+  - name: 67-🇦🇷AR-trojan-441ms
+    type: trojan
+    server: ar1.t11-a.app
+    port: 11018
+    password: bb0fe94d-8675-42f7-b0b7-73a5e2a0f76a
+    skip-cert-verify: true
+    network: tcp
+    sni: ar01t.goodyun.buzz
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - 付费地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
       - 梯子地址https://kelayun.notepin.co
       - 最低月付2块钱1000G流量
-      - 不限速不限设备不限地区
-      - 解锁谷歌gemini
+      - 最高200元终身无限流量
+      - 不限速不限设备
+      - 新疆西藏福建可用
+      - 15-🇳🇱NL-ss-300ms
+      - 16-🇲🇴MO-ss-208ms
+      - 17-🇻🇳VN-ss-179ms
+      - 18-🇧🇷BR-ss-455ms
+      - 19-🇨🇦CA-ss-331ms
+      - 20-🇦🇺AU-ss-363ms
+      - 21-🇮🇩ID-ss-462ms
+      - 22-🇭🇰HK-ss-230ms
+      - 23-🇭🇰HK-ss-144ms
+      - 24-🇭🇰HK-ss-268ms
+      - 25-🇨🇳TW-ss-116ms
+      - 26-🇨🇳TW-ss-139ms
+      - 27-🇸🇬SG-ss-481ms
+      - 28-🇺🇸US-ss-293ms
+      - 29-🇺🇸US-ss-333ms
+      - 30-🇰🇷KR-ss-351ms
+      - 31-🇸🇦SA-ss-401ms
+      - 32-🇳🇱NL-vless-259ms
+      - 33-🇺🇸US-vless-277ms
+      - 34-🇫🇮FI-vless-214ms
+      - 35-🇳🇱NL-vless-229ms
+      - 36-🇺🇸US-vless-243ms
+      - 37-🇭🇰HK-trojan-101ms
+      - 38-🇭🇰HK-trojan-85ms
+      - 39-🇭🇰HK-trojan-83ms
+      - 40-🇭🇰HK-trojan-119ms
+      - 41-🇸🇬SG-trojan-155ms
+      - 42-🇸🇬SG-trojan-102ms
+      - 43-🇸🇬SG-trojan-481ms
+      - 44-🇸🇬SG-trojan-168ms
+      - 45-🇸🇬SG-trojan-443ms
+      - 46-🇸🇬SG-trojan-172ms
+      - 47-🇸🇬SG-trojan-122ms
+      - 48-🇯🇵JP-trojan-393ms
+      - 49-🇯🇵JP-trojan-279ms
+      - 50-🇯🇵JP-trojan-228ms
+      - 51-🇯🇵JP-trojan-225ms
+      - 52-🇯🇵JP-trojan-271ms
+      - 53-🇺🇸US-trojan-252ms
+      - 54-🇺🇸US-trojan-303ms
+      - 55-🇺🇸US-trojan-268ms
+      - 56-🇨🇳TW-trojan-95ms
+      - 57-🇫🇷FR-trojan-277ms
+      - 58-🇫🇷FR-trojan-279ms
+      - 59-🇬🇧GB-trojan-332ms
+      - 60-🇨🇦CA-trojan-377ms
+      - 61-🇳🇱NL-trojan-303ms
+      - 62-🇷🇺RU-trojan-331ms
+      - 63-🇹🇷TR-trojan-439ms
+      - 64-🇰🇷KR-trojan-274ms
+      - 65-🇻🇳VN-trojan-160ms
+      - 66-🇦🇺AU-trojan-379ms
+      - 67-🇦🇷AR-trojan-441ms
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - 付费地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
       - 梯子地址https://kelayun.notepin.co
       - 最低月付2块钱1000G流量
-      - 不限速不限设备不限地区
-      - 解锁谷歌gemini
+      - 最高200元终身无限流量
+      - 不限速不限设备
+      - 新疆西藏福建可用
+      - 15-🇳🇱NL-ss-300ms
+      - 16-🇲🇴MO-ss-208ms
+      - 17-🇻🇳VN-ss-179ms
+      - 18-🇧🇷BR-ss-455ms
+      - 19-🇨🇦CA-ss-331ms
+      - 20-🇦🇺AU-ss-363ms
+      - 21-🇮🇩ID-ss-462ms
+      - 22-🇭🇰HK-ss-230ms
+      - 23-🇭🇰HK-ss-144ms
+      - 24-🇭🇰HK-ss-268ms
+      - 25-🇨🇳TW-ss-116ms
+      - 26-🇨🇳TW-ss-139ms
+      - 27-🇸🇬SG-ss-481ms
+      - 28-🇺🇸US-ss-293ms
+      - 29-🇺🇸US-ss-333ms
+      - 30-🇰🇷KR-ss-351ms
+      - 31-🇸🇦SA-ss-401ms
+      - 32-🇳🇱NL-vless-259ms
+      - 33-🇺🇸US-vless-277ms
+      - 34-🇫🇮FI-vless-214ms
+      - 35-🇳🇱NL-vless-229ms
+      - 36-🇺🇸US-vless-243ms
+      - 37-🇭🇰HK-trojan-101ms
+      - 38-🇭🇰HK-trojan-85ms
+      - 39-🇭🇰HK-trojan-83ms
+      - 40-🇭🇰HK-trojan-119ms
+      - 41-🇸🇬SG-trojan-155ms
+      - 42-🇸🇬SG-trojan-102ms
+      - 43-🇸🇬SG-trojan-481ms
+      - 44-🇸🇬SG-trojan-168ms
+      - 45-🇸🇬SG-trojan-443ms
+      - 46-🇸🇬SG-trojan-172ms
+      - 47-🇸🇬SG-trojan-122ms
+      - 48-🇯🇵JP-trojan-393ms
+      - 49-🇯🇵JP-trojan-279ms
+      - 50-🇯🇵JP-trojan-228ms
+      - 51-🇯🇵JP-trojan-225ms
+      - 52-🇯🇵JP-trojan-271ms
+      - 53-🇺🇸US-trojan-252ms
+      - 54-🇺🇸US-trojan-303ms
+      - 55-🇺🇸US-trojan-268ms
+      - 56-🇨🇳TW-trojan-95ms
+      - 57-🇫🇷FR-trojan-277ms
+      - 58-🇫🇷FR-trojan-279ms
+      - 59-🇬🇧GB-trojan-332ms
+      - 60-🇨🇦CA-trojan-377ms
+      - 61-🇳🇱NL-trojan-303ms
+      - 62-🇷🇺RU-trojan-331ms
+      - 63-🇹🇷TR-trojan-439ms
+      - 64-🇰🇷KR-trojan-274ms
+      - 65-🇻🇳VN-trojan-160ms
+      - 66-🇦🇺AU-trojan-379ms
+      - 67-🇦🇷AR-trojan-441ms
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - 付费地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
       - 梯子地址https://kelayun.notepin.co
       - 最低月付2块钱1000G流量
-      - 不限速不限设备不限地区
-      - 解锁谷歌gemini
+      - 最高200元终身无限流量
+      - 不限速不限设备
+      - 新疆西藏福建可用
+      - 15-🇳🇱NL-ss-300ms
+      - 16-🇲🇴MO-ss-208ms
+      - 17-🇻🇳VN-ss-179ms
+      - 18-🇧🇷BR-ss-455ms
+      - 19-🇨🇦CA-ss-331ms
+      - 20-🇦🇺AU-ss-363ms
+      - 21-🇮🇩ID-ss-462ms
+      - 22-🇭🇰HK-ss-230ms
+      - 23-🇭🇰HK-ss-144ms
+      - 24-🇭🇰HK-ss-268ms
+      - 25-🇨🇳TW-ss-116ms
+      - 26-🇨🇳TW-ss-139ms
+      - 27-🇸🇬SG-ss-481ms
+      - 28-🇺🇸US-ss-293ms
+      - 29-🇺🇸US-ss-333ms
+      - 30-🇰🇷KR-ss-351ms
+      - 31-🇸🇦SA-ss-401ms
+      - 32-🇳🇱NL-vless-259ms
+      - 33-🇺🇸US-vless-277ms
+      - 34-🇫🇮FI-vless-214ms
+      - 35-🇳🇱NL-vless-229ms
+      - 36-🇺🇸US-vless-243ms
+      - 37-🇭🇰HK-trojan-101ms
+      - 38-🇭🇰HK-trojan-85ms
+      - 39-🇭🇰HK-trojan-83ms
+      - 40-🇭🇰HK-trojan-119ms
+      - 41-🇸🇬SG-trojan-155ms
+      - 42-🇸🇬SG-trojan-102ms
+      - 43-🇸🇬SG-trojan-481ms
+      - 44-🇸🇬SG-trojan-168ms
+      - 45-🇸🇬SG-trojan-443ms
+      - 46-🇸🇬SG-trojan-172ms
+      - 47-🇸🇬SG-trojan-122ms
+      - 48-🇯🇵JP-trojan-393ms
+      - 49-🇯🇵JP-trojan-279ms
+      - 50-🇯🇵JP-trojan-228ms
+      - 51-🇯🇵JP-trojan-225ms
+      - 52-🇯🇵JP-trojan-271ms
+      - 53-🇺🇸US-trojan-252ms
+      - 54-🇺🇸US-trojan-303ms
+      - 55-🇺🇸US-trojan-268ms
+      - 56-🇨🇳TW-trojan-95ms
+      - 57-🇫🇷FR-trojan-277ms
+      - 58-🇫🇷FR-trojan-279ms
+      - 59-🇬🇧GB-trojan-332ms
+      - 60-🇨🇦CA-trojan-377ms
+      - 61-🇳🇱NL-trojan-303ms
+      - 62-🇷🇺RU-trojan-331ms
+      - 63-🇹🇷TR-trojan-439ms
+      - 64-🇰🇷KR-trojan-274ms
+      - 65-🇻🇳VN-trojan-160ms
+      - 66-🇦🇺AU-trojan-379ms
+      - 67-🇦🇷AR-trojan-441ms
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
