@@ -19,4 +19,4 @@ jobs:
           TOKEN: ${{ secrets.CODEBERG_TOKEN }}
         run: |
           git remote add codeberg https://Jsnzkpg:${TOKEN}@codeberg.org/Jsnzkpg/Jsnzkpg.git
-          git push -f codeberg Jsnzkpg:Jsnzkpg
+          git push --force codeberg Jsnzkpg
