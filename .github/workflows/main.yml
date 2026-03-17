@@ -9,14 +9,14 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout GitHub repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Push to Codeberg
         env:
-          CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
+          TOKEN: ${{ secrets.CODEBERG_TOKEN }}
         run: |
-          git remote add codeberg https://Jsnzkpg:${CODEBERG_TOKEN}@codeberg.org/Jsnzkpg/Jsnzkpg.git
+          git remote add codeberg https://Jsnzkpg:${TOKEN}@codeberg.org/Jsnzkpg/Jsnzkpg.git
           git push -f codeberg Jsnzkpg:Jsnzkpg
