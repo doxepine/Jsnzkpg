@@ -6,124 +6,219 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - name: 购买地址https://kelayun.notepin.co
-    type: vless
-    server: aws-link1.liangxin1.xyz
-    port: 35248
-    uuid: 636c7cc8-b0b5-40b6-9ad3-51588d79b171
-    alterId: 0
+    type: vmess
+    server: sv3.wy888.us
+    port: 44302
     cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
     tls: true
-    skip-cert-verify: true
-    servername: www.lamer.com.hk
-    reality-opts:
-      public-key: IGsSxC0wgn7wLy0NM0QN_yOREDKT_814Y_3_rbgDoTc
-      short-id: c8c0f951
-    client-fingerprint: chrome
-    sni: www.lamer.com.hk
+    alterId: '0'
+    network: tcp
+    uuid: 703fe06c-9f00-4308-8fe3-1e2f27da316b
+    flow: ""
   - name: 下单地址https://kelayun.notepin.co
-    type: vless
-    server: aws-link1.liangxin1.xyz
-    port: 35248
-    uuid: 636c7cc8-b0b5-40b6-9ad3-51588d79b171
-    alterId: 0
+    type: vmess
+    server: 103.181.164.237
+    port: 34114
     cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    tls: true
-    skip-cert-verify: true
-    servername: www.lamer.com.hk
-    reality-opts:
-      public-key: IGsSxC0wgn7wLy0NM0QN_yOREDKT_814Y_3_rbgDoTc
-      short-id: c8c0f951
-    client-fingerprint: chrome
-    sni: www.lamer.com.hk
+    alterId: '64'
+    network: tcp
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    flow: ""
   - name: 官网地址https://kelayun.notepin.co
     type: vless
-    server: aws-link1.liangxin1.xyz
-    port: 35248
-    uuid: 636c7cc8-b0b5-40b6-9ad3-51588d79b171
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
+    server: 103.143.238.196
+    port: 22761
+    client-fingerprint: chrome
     tls: true
-    skip-cert-verify: true
-    servername: www.lamer.com.hk
-    reality-opts:
-      public-key: IGsSxC0wgn7wLy0NM0QN_yOREDKT_814Y_3_rbgDoTc
-      short-id: c8c0f951
-    client-fingerprint: ios
-    sni: www.lamer.com.hk
-  - name: 最低月付2元1000G
-    type: vless
-    server: aws-link1.liangxin1.xyz
-    port: 35248
-    uuid: 636c7cc8-b0b5-40b6-9ad3-51588d79b171
+    servername: www.cloudflare.com
+    network: tcp
+    uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa
     alterId: 0
+    cipher: ""
+    flow: ""
+    sni: www.cloudflare.com
+  - name: 最低月付2块钱1000G
+    type: vmess
+    server: 103.143.238.196
+    port: 28384
     cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
     tls: true
-    skip-cert-verify: true
-    servername: www.lamer.com.hk
-    reality-opts:
-      public-key: IGsSxC0wgn7wLy0NM0QN_yOREDKT_814Y_3_rbgDoTc
-      short-id: c8c0f951
-    client-fingerprint: edge
-    sni: www.lamer.com.hk
+    alterId: '0'
+    network: tcp
+    uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa
+    flow: ""
   - name: 最高200元终身无限流量
-    type: vless
-    server: aws-link2.liangxin1.xyz
-    port: 38725
-    uuid: 636c7cc8-b0b5-40b6-9ad3-51588d79b171
-    alterId: 0
+    type: vmess
+    server: 103.143.238.196
+    port: 21879
     cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
     tls: true
-    skip-cert-verify: true
-    servername: www.lamer.com.hk
-    reality-opts:
-      public-key: HvwnLBMMKsmvghGX5yVPq3J2HWxwr1GGQB2WIvbPvAY
-      short-id: 8f6ca378
-    client-fingerprint: safari
-    sni: www.lamer.com.hk
+    alterId: '0'
+    network: ws
+    ws-opts:
+      headers:
+        Host: www.cloudflare.com
+      path: /vmesswss
+    uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa
+    flow: ""
   - name: 不限速不限设备不限地区
     type: vless
-    server: aws-link3.liangxin1.xyz
-    port: 27758
-    uuid: 636c7cc8-b0b5-40b6-9ad3-51588d79b171
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    tls: true
-    skip-cert-verify: null
-    servername: www.lamer.com.hk
-    reality-opts:
-      public-key: EYa4ic3GAxqznV61U-OOww-WKsu5wuQQptyS3fw7czM
-      short-id: c50db39f
-    client-fingerprint: edge
-    sni: www.lamer.com.hk
-  - name: 解锁gemini
-    type: vless
-    server: aws-link4.liangxin1.xyz
+    server: testno226.2568954.xyz
     port: 443
-    uuid: 636c7cc8-b0b5-40b6-9ad3-51588d79b171
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: xtls-rprx-vision
-    tls: true
-    skip-cert-verify: true
-    servername: www.lamer.com.hk
-    reality-opts:
-      public-key: 3FPGTaxkfOM3nEUWUyCiqkH5oJGsOx-WxPJfADi1QWY
-      short-id: 7f369e14
     client-fingerprint: chrome
-    sni: www.lamer.com.hk
+    tls: true
+    servername: www.apple.com
+    flow: xtls-rprx-vision
+    network: tcp
+    reality-opts:
+      public-key: t5K7Ki14k_3usYeaV38jwpJkezNwerWYJnCSd1z7hhk
+      short-id: '0451'
+    uuid: 2f0a3a26-8384-4bbf-f91a-e41e252b30c5
+    alterId: 0
+    cipher: ""
+    sni: www.apple.com
+  - name: 解锁谷歌gemini
+    type: anytls
+    server: us1.anliangjifei.top
+    port: 12053
+    password: ae74dd32-c336-4be4-9c15-f6108292b3e5
+    skip-cert-verify: true
+    sni: us1.anliangjifei.top
+  - name: 8-🇲🇩MD-vless-377ms
+    type: vless
+    server: 104.18.32.47
+    port: 2052
+    network: ws
+    ws-opts:
+      headers:
+        Host: oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK.
+      path: /
+    uuid: 5e62ddcf-78c9-4b15-803a-436c8c839ddc
+  - name: 9-🏳️未知-vless-273ms
+    type: vless
+    server: 116.93.199.28
+    port: 21510
+    client-fingerprint: chrome
+    tls: true
+    servername: ylnhh.cc.cd
+    network: ws
+    ws-opts:
+      headers:
+        Host: ylnhh.cc.cd
+      path: /Telegram🇨🇳@WangCai2
+    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  - name: 10-🏳️未知-vless-114ms
+    type: vless
+    server: 83.229.121.78
+    port: 8443
+    client-fingerprint: chrome
+    tls: true
+    servername: ylnhh.cc.cd
+    network: ws
+    ws-opts:
+      headers:
+        Host: ylnhh.cc.cd
+      path: /Telegram🇨🇳@WangCai2
+    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  - name: 11-🇸🇬SG-vmess-289ms
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    cipher: auto
+    alterId: '0'
+    network: tcp
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  - name: 12-🇸🇬SG-vmess-305ms
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    cipher: auto
+    alterId: '0'
+    network: tcp
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  - name: 13-🇺🇸US-anytls-258ms
+    type: anytls
+    server: us1.anliangjifei.top
+    port: 12053
+    password: ae74dd32-c336-4be4-9c15-f6108292b3e5
+    skip-cert-verify: true
+    sni: us1.anliangjifei.top
+  - name: 14-🇭🇰HK-vless-388ms
+    type: vless
+    server: 139.196.41.153
+    port: 443
+    client-fingerprint: chrome
+    tls: true
+    servername: ylnhh.cc.cd
+    network: ws
+    ws-opts:
+      headers:
+        Host: ylnhh.cc.cd
+      path: /gs5=6666:6666@47.239.178.125:6666
+    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  - name: 15-🇭🇰HK-vless-416ms
+    type: vless
+    server: 194.87.10.77
+    port: 443
+    client-fingerprint: chrome
+    tls: true
+    servername: ylnhh.cc.cd
+    network: ws
+    ws-opts:
+      headers:
+        Host: ylnhh.cc.cd
+      path: /Telegram🇨🇳@WangCai2
+    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  - name: 16-🇦🇹AT-vless-194ms
+    type: vless
+    server: 45.145.42.170
+    port: 8005
+    skip-cert-verify: true
+    tls: true
+    servername: sub.mot.ip-ddns.com
+    network: ws
+    ws-opts:
+      headers:
+        Host: sub.mot.ip-ddns.com
+      path: /
+    uuid: 00000000-0000-4000-8000-000000000000
+  - name: 17-🏳️未知-vless-137ms
+    type: vless
+    server: 221.146.116.77
+    port: 15284
+    client-fingerprint: chrome
+    tls: true
+    servername: ylnhh.cc.cd
+    network: ws
+    ws-opts:
+      headers:
+        Host: ylnhh.cc.cd
+      path: /Telegram🇨🇳@WangCai2
+    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  - name: 18-🇺🇸US-vless-222ms
+    type: vless
+    server: 157.254.223.44
+    port: 18959
+    client-fingerprint: chrome
+    tls: true
+    servername: itunes.apple.com
+    network: tcp
+    reality-opts:
+      public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+      short-id: d557c6895d014075
+    uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+  - name: 19-🇺🇸US-vless-242ms
+    type: vless
+    server: 157.254.223.44
+    port: 18959
+    client-fingerprint: chrome
+    tls: true
+    servername: itunes.apple.com
+    network: tcp
+    reality-opts:
+      public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+      short-id: d557c6895d014075
+    uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
 proxy-groups:
   - name: Haita Cloud
     type: select
@@ -133,10 +228,22 @@ proxy-groups:
       - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
-      - 最低月付2元1000G
+      - 最低月付2块钱1000G
       - 最高200元终身无限流量
       - 不限速不限设备不限地区
-      - 解锁gemini
+      - 解锁谷歌gemini
+      - 8-🇲🇩MD-vless-377ms
+      - 9-🏳️未知-vless-273ms
+      - 10-🏳️未知-vless-114ms
+      - 11-🇸🇬SG-vmess-289ms
+      - 12-🇸🇬SG-vmess-305ms
+      - 13-🇺🇸US-anytls-258ms
+      - 14-🇭🇰HK-vless-388ms
+      - 15-🇭🇰HK-vless-416ms
+      - 16-🇦🇹AT-vless-194ms
+      - 17-🏳️未知-vless-137ms
+      - 18-🇺🇸US-vless-222ms
+      - 19-🇺🇸US-vless-242ms
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -145,10 +252,22 @@ proxy-groups:
       - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
-      - 最低月付2元1000G
+      - 最低月付2块钱1000G
       - 最高200元终身无限流量
       - 不限速不限设备不限地区
-      - 解锁gemini
+      - 解锁谷歌gemini
+      - 8-🇲🇩MD-vless-377ms
+      - 9-🏳️未知-vless-273ms
+      - 10-🏳️未知-vless-114ms
+      - 11-🇸🇬SG-vmess-289ms
+      - 12-🇸🇬SG-vmess-305ms
+      - 13-🇺🇸US-anytls-258ms
+      - 14-🇭🇰HK-vless-388ms
+      - 15-🇭🇰HK-vless-416ms
+      - 16-🇦🇹AT-vless-194ms
+      - 17-🏳️未知-vless-137ms
+      - 18-🇺🇸US-vless-222ms
+      - 19-🇺🇸US-vless-242ms
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -157,10 +276,22 @@ proxy-groups:
       - 购买地址https://kelayun.notepin.co
       - 下单地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
-      - 最低月付2元1000G
+      - 最低月付2块钱1000G
       - 最高200元终身无限流量
       - 不限速不限设备不限地区
-      - 解锁gemini
+      - 解锁谷歌gemini
+      - 8-🇲🇩MD-vless-377ms
+      - 9-🏳️未知-vless-273ms
+      - 10-🏳️未知-vless-114ms
+      - 11-🇸🇬SG-vmess-289ms
+      - 12-🇸🇬SG-vmess-305ms
+      - 13-🇺🇸US-anytls-258ms
+      - 14-🇭🇰HK-vless-388ms
+      - 15-🇭🇰HK-vless-416ms
+      - 16-🇦🇹AT-vless-194ms
+      - 17-🏳️未知-vless-137ms
+      - 18-🇺🇸US-vless-222ms
+      - 19-🇺🇸US-vless-242ms
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
