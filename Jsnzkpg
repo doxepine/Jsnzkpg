@@ -5,63 +5,34 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 购买地址https://kelayun.notepin.co
-    type: vmess
-    server: sv3.wy888.us
-    port: 44302
-    cipher: auto
-    tls: true
-    alterId: '0'
-    network: tcp
-    uuid: 703fe06c-9f00-4308-8fe3-1e2f27da316b
-    flow: ""
-  - name: 下单地址https://kelayun.notepin.co
-    type: vmess
-    server: 103.181.164.237
-    port: 34114
-    cipher: auto
-    alterId: '64'
-    network: tcp
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    flow: ""
   - name: 官网地址https://kelayun.notepin.co
+    type: hysteria2
+    server: ger.v-sego.ru
+    port: 4443
+    password: SdZjuppSYTsahcx7fG8P30wMI6NSlS5yu0izOwS7zQA=
+    udp: true
+    skip-cert-verify: true
+    auth: SdZjuppSYTsahcx7fG8P30wMI6NSlS5yu0izOwS7zQA=
+    sni: ger.v-sego.ru
+    fast-open: false
+    servername: ger.v-sego.ru
+  - name: 下单地址https://kelayun.notepin.co
     type: vless
-    server: 103.143.238.196
-    port: 22761
+    server: tokyo.high-speed-test-56424.me
+    port: 443
     client-fingerprint: chrome
     tls: true
-    servername: www.cloudflare.com
+    servername: aws.amazon.com
+    flow: xtls-rprx-vision
     network: tcp
-    uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa
+    reality-opts:
+      public-key: Cv7khsXDblOJONTX99gBPIlG7ph7nMMrQBiay8kFDXE
+      short-id: '42'
+    uuid: 28455c79-1165-46a2-a1a9-ead96ad9c5cb
     alterId: 0
     cipher: ""
-    flow: ""
-    sni: www.cloudflare.com
-  - name: 最低月付2块钱1000G
-    type: vmess
-    server: 103.143.238.196
-    port: 28384
-    cipher: auto
-    tls: true
-    alterId: '0'
-    network: tcp
-    uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa
-    flow: ""
-  - name: 最高200元终身无限流量
-    type: vmess
-    server: 103.143.238.196
-    port: 21879
-    cipher: auto
-    tls: true
-    alterId: '0'
-    network: ws
-    ws-opts:
-      headers:
-        Host: www.cloudflare.com
-      path: /vmesswss
-    uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa
-    flow: ""
-  - name: 不限速不限设备不限地区
+    sni: aws.amazon.com
+  - name: 购买地址https://kelayun.notepin.co
     type: vless
     server: testno226.2568954.xyz
     port: 443
@@ -77,50 +48,7 @@ proxies:
     alterId: 0
     cipher: ""
     sni: www.apple.com
-  - name: 解锁谷歌gemini
-    type: anytls
-    server: us1.anliangjifei.top
-    port: 12053
-    password: ae74dd32-c336-4be4-9c15-f6108292b3e5
-    skip-cert-verify: true
-    sni: us1.anliangjifei.top
-  - name: 8-🇲🇩MD-vless-377ms
-    type: vless
-    server: 104.18.32.47
-    port: 2052
-    network: ws
-    ws-opts:
-      headers:
-        Host: oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK.
-      path: /
-    uuid: 5e62ddcf-78c9-4b15-803a-436c8c839ddc
-  - name: 9-🏳️未知-vless-273ms
-    type: vless
-    server: 116.93.199.28
-    port: 21510
-    client-fingerprint: chrome
-    tls: true
-    servername: ylnhh.cc.cd
-    network: ws
-    ws-opts:
-      headers:
-        Host: ylnhh.cc.cd
-      path: /Telegram🇨🇳@WangCai2
-    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  - name: 10-🏳️未知-vless-114ms
-    type: vless
-    server: 83.229.121.78
-    port: 8443
-    client-fingerprint: chrome
-    tls: true
-    servername: ylnhh.cc.cd
-    network: ws
-    ws-opts:
-      headers:
-        Host: ylnhh.cc.cd
-      path: /Telegram🇨🇳@WangCai2
-    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  - name: 11-🇸🇬SG-vmess-289ms
+  - name: 梯子地址https://kelayun.notepin.co
     type: vmess
     server: v12.hdacd.com
     port: 30812
@@ -128,48 +56,8 @@ proxies:
     alterId: '0'
     network: tcp
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  - name: 12-🇸🇬SG-vmess-305ms
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    cipher: auto
-    alterId: '0'
-    network: tcp
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  - name: 13-🇺🇸US-anytls-258ms
-    type: anytls
-    server: us1.anliangjifei.top
-    port: 12053
-    password: ae74dd32-c336-4be4-9c15-f6108292b3e5
-    skip-cert-verify: true
-    sni: us1.anliangjifei.top
-  - name: 14-🇭🇰HK-vless-388ms
-    type: vless
-    server: 139.196.41.153
-    port: 443
-    client-fingerprint: chrome
-    tls: true
-    servername: ylnhh.cc.cd
-    network: ws
-    ws-opts:
-      headers:
-        Host: ylnhh.cc.cd
-      path: /gs5=6666:6666@47.239.178.125:6666
-    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  - name: 15-🇭🇰HK-vless-416ms
-    type: vless
-    server: 194.87.10.77
-    port: 443
-    client-fingerprint: chrome
-    tls: true
-    servername: ylnhh.cc.cd
-    network: ws
-    ws-opts:
-      headers:
-        Host: ylnhh.cc.cd
-      path: /Telegram🇨🇳@WangCai2
-    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  - name: 16-🇦🇹AT-vless-194ms
+    flow: ""
+  - name: VPN地址https://kelayun.notepin.co
     type: vless
     server: 45.145.42.170
     port: 8005
@@ -182,116 +70,104 @@ proxies:
         Host: sub.mot.ip-ddns.com
       path: /
     uuid: 00000000-0000-4000-8000-000000000000
-  - name: 17-🏳️未知-vless-137ms
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: sub.mot.ip-ddns.com
+  - name: 加速器地址https://kelayun.notepin.co
     type: vless
-    server: 221.146.116.77
-    port: 15284
+    server: 45.145.42.170
+    port: 8005
     client-fingerprint: chrome
     tls: true
-    servername: ylnhh.cc.cd
+    servername: sub.mot.ip-ddns.com
     network: ws
     ws-opts:
       headers:
-        Host: ylnhh.cc.cd
-      path: /Telegram🇨🇳@WangCai2
-    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  - name: 18-🇺🇸US-vless-222ms
+        Host: sub.mot.ip-ddns.com
+      path: /
+    uuid: 00000000-0000-4000-8000-000000000000
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: sub.mot.ip-ddns.com
+  - name: 机场地址https://kelayun.notepin.co
     type: vless
-    server: 157.254.223.44
-    port: 18959
-    client-fingerprint: chrome
+    server: 206.245.157.134
+    port: 444
+    skip-cert-verify: true
     tls: true
-    servername: itunes.apple.com
-    network: tcp
-    reality-opts:
-      public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
-      short-id: d557c6895d014075
-    uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
-  - name: 19-🇺🇸US-vless-242ms
-    type: vless
-    server: 157.254.223.44
-    port: 18959
-    client-fingerprint: chrome
-    tls: true
-    servername: itunes.apple.com
-    network: tcp
-    reality-opts:
-      public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
-      short-id: d557c6895d014075
-    uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+    servername: jmc9f8ao6n5xq.saghv.filegear-sg.me
+    network: ws
+    ws-opts:
+      headers:
+        Host: jmc9f8ao6n5xq.saghv.filegear-sg.me
+      path: /@Marisa_kristi
+    uuid: 00000000-0000-4000-8000-000000000000
+    alterId: 0
+    cipher: ""
+    flow: ""
+    sni: jmc9f8ao6n5xq.saghv.filegear-sg.me
+  - name: 月付2元1000G流量
+    type: ss
+    server: 185.231.233.112
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: 不限速不限设备不限地区
+    type: hysteria2
+    server: 38.165.21.126
+    port: 29794
+    password: fGIvSUXOYn7WYPNAc2PmjYuIKbw
+    udp: true
+    skip-cert-verify: true
+    auth: fGIvSUXOYn7WYPNAc2PmjYuIKbw
+    sni: bing.com
+    fast-open: false
+    servername: bing.com
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - 购买地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
-      - 最低月付2块钱1000G
-      - 最高200元终身无限流量
+      - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
+      - 梯子地址https://kelayun.notepin.co
+      - VPN地址https://kelayun.notepin.co
+      - 加速器地址https://kelayun.notepin.co
+      - 机场地址https://kelayun.notepin.co
+      - 月付2元1000G流量
       - 不限速不限设备不限地区
-      - 解锁谷歌gemini
-      - 8-🇲🇩MD-vless-377ms
-      - 9-🏳️未知-vless-273ms
-      - 10-🏳️未知-vless-114ms
-      - 11-🇸🇬SG-vmess-289ms
-      - 12-🇸🇬SG-vmess-305ms
-      - 13-🇺🇸US-anytls-258ms
-      - 14-🇭🇰HK-vless-388ms
-      - 15-🇭🇰HK-vless-416ms
-      - 16-🇦🇹AT-vless-194ms
-      - 17-🏳️未知-vless-137ms
-      - 18-🇺🇸US-vless-222ms
-      - 19-🇺🇸US-vless-242ms
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - 购买地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
-      - 最低月付2块钱1000G
-      - 最高200元终身无限流量
+      - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
+      - 梯子地址https://kelayun.notepin.co
+      - VPN地址https://kelayun.notepin.co
+      - 加速器地址https://kelayun.notepin.co
+      - 机场地址https://kelayun.notepin.co
+      - 月付2元1000G流量
       - 不限速不限设备不限地区
-      - 解锁谷歌gemini
-      - 8-🇲🇩MD-vless-377ms
-      - 9-🏳️未知-vless-273ms
-      - 10-🏳️未知-vless-114ms
-      - 11-🇸🇬SG-vmess-289ms
-      - 12-🇸🇬SG-vmess-305ms
-      - 13-🇺🇸US-anytls-258ms
-      - 14-🇭🇰HK-vless-388ms
-      - 15-🇭🇰HK-vless-416ms
-      - 16-🇦🇹AT-vless-194ms
-      - 17-🏳️未知-vless-137ms
-      - 18-🇺🇸US-vless-222ms
-      - 19-🇺🇸US-vless-242ms
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - 购买地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
       - 官网地址https://kelayun.notepin.co
-      - 最低月付2块钱1000G
-      - 最高200元终身无限流量
+      - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
+      - 梯子地址https://kelayun.notepin.co
+      - VPN地址https://kelayun.notepin.co
+      - 加速器地址https://kelayun.notepin.co
+      - 机场地址https://kelayun.notepin.co
+      - 月付2元1000G流量
       - 不限速不限设备不限地区
-      - 解锁谷歌gemini
-      - 8-🇲🇩MD-vless-377ms
-      - 9-🏳️未知-vless-273ms
-      - 10-🏳️未知-vless-114ms
-      - 11-🇸🇬SG-vmess-289ms
-      - 12-🇸🇬SG-vmess-305ms
-      - 13-🇺🇸US-anytls-258ms
-      - 14-🇭🇰HK-vless-388ms
-      - 15-🇭🇰HK-vless-416ms
-      - 16-🇦🇹AT-vless-194ms
-      - 17-🏳️未知-vless-137ms
-      - 18-🇺🇸US-vless-222ms
-      - 19-🇺🇸US-vless-242ms
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
