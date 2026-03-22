@@ -5,36 +5,9 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 官网地址https://kelayun.notepin.co
-    type: hysteria2
-    server: ger.v-sego.ru
-    port: 4443
-    password: SdZjuppSYTsahcx7fG8P30wMI6NSlS5yu0izOwS7zQA=
-    udp: true
-    skip-cert-verify: true
-    auth: SdZjuppSYTsahcx7fG8P30wMI6NSlS5yu0izOwS7zQA=
-    sni: ger.v-sego.ru
-    fast-open: false
-    servername: ger.v-sego.ru
-  - name: 下单地址https://kelayun.notepin.co
+  - name: VPN地址https://kelayun.notepin.co
     type: vless
-    server: tokyo.high-speed-test-56424.me
-    port: 443
-    client-fingerprint: chrome
-    tls: true
-    servername: aws.amazon.com
-    flow: xtls-rprx-vision
-    network: tcp
-    reality-opts:
-      public-key: Cv7khsXDblOJONTX99gBPIlG7ph7nMMrQBiay8kFDXE
-      short-id: '42'
-    uuid: 28455c79-1165-46a2-a1a9-ead96ad9c5cb
-    alterId: 0
-    cipher: ""
-    sni: aws.amazon.com
-  - name: 购买地址https://kelayun.notepin.co
-    type: vless
-    server: testno226.2568954.xyz
+    server: 23.148.20.55
     port: 443
     client-fingerprint: chrome
     tls: true
@@ -42,22 +15,46 @@ proxies:
     flow: xtls-rprx-vision
     network: tcp
     reality-opts:
-      public-key: t5K7Ki14k_3usYeaV38jwpJkezNwerWYJnCSd1z7hhk
-      short-id: '0451'
-    uuid: 2f0a3a26-8384-4bbf-f91a-e41e252b30c5
+      public-key: R0M4F0Di9oppNbz_LRIkF08whSeXbBHMNkAKVq5l-U8
+      short-id: ea80ef
+    uuid: e5130eee-cf44-405e-ce04-25817f961399
     alterId: 0
     cipher: ""
     sni: www.apple.com
-  - name: 梯子地址https://kelayun.notepin.co
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    cipher: auto
-    alterId: '0'
+  - name: 购买地址https://kelayun.notepin.co
+    type: trojan
+    server: 194.33.45.157
+    port: 443
+    password: 3ac6a6ca99f74941b1eaf892818e2ddb
+    skip-cert-verify: true
     network: tcp
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    flow: ""
-  - name: VPN地址https://kelayun.notepin.co
+    sni: 194.33.45.157
+    servername: 194.33.45.157
+  - name: 下单地址https://kelayun.notepin.co
+    type: ss
+    server: 185.231.233.112
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: 官网地址https://kelayun.notepin.co
+    type: trojan
+    server: 185.151.146.64
+    port: 443
+    password: 3ac6a6ca99f74941b1eaf892818e2ddb
+    skip-cert-verify: true
+    network: tcp
+    sni: 185.151.146.64
+    servername: 185.151.146.64
+  - name: 梯子官网https://kelayun.notepin.co
+    type: trojan
+    server: 58.152.25.253
+    port: 443
+    password: BxceQaOe
+    skip-cert-verify: true
+    network: tcp
+    sni: t.me%2Fripaojiedian
+    servername: t.me%2Fripaojiedian
+  - name: 最低月付2块钱1000G
     type: vless
     server: 45.145.42.170
     port: 8005
@@ -74,7 +71,7 @@ proxies:
     cipher: ""
     flow: ""
     sni: sub.mot.ip-ddns.com
-  - name: 加速器地址https://kelayun.notepin.co
+  - name: 最高200元终身无限流量
     type: vless
     server: 45.145.42.170
     port: 8005
@@ -91,82 +88,62 @@ proxies:
     cipher: ""
     flow: ""
     sni: sub.mot.ip-ddns.com
-  - name: 机场地址https://kelayun.notepin.co
+  - name: 不限速不限设备不限地区
     type: vless
-    server: 206.245.157.134
-    port: 444
-    skip-cert-verify: true
+    server: 45.145.42.170
+    port: 8005
+    client-fingerprint: chrome
     tls: true
-    servername: jmc9f8ao6n5xq.saghv.filegear-sg.me
+    servername: sub.mot.ip-ddns.com
     network: ws
     ws-opts:
       headers:
-        Host: jmc9f8ao6n5xq.saghv.filegear-sg.me
-      path: /@Marisa_kristi
+        Host: sub.mot.ip-ddns.com
+      path: /
     uuid: 00000000-0000-4000-8000-000000000000
     alterId: 0
     cipher: ""
     flow: ""
-    sni: jmc9f8ao6n5xq.saghv.filegear-sg.me
-  - name: 月付2元1000G流量
-    type: ss
-    server: 185.231.233.112
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: 不限速不限设备不限地区
-    type: hysteria2
-    server: 38.165.21.126
-    port: 29794
-    password: fGIvSUXOYn7WYPNAc2PmjYuIKbw
-    udp: true
-    skip-cert-verify: true
-    auth: fGIvSUXOYn7WYPNAc2PmjYuIKbw
-    sni: bing.com
-    fast-open: false
-    servername: bing.com
+    sni: sub.mot.ip-ddns.com
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - 官网地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 梯子地址https://kelayun.notepin.co
       - VPN地址https://kelayun.notepin.co
-      - 加速器地址https://kelayun.notepin.co
-      - 机场地址https://kelayun.notepin.co
-      - 月付2元1000G流量
+      - 购买地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
+      - 官网地址https://kelayun.notepin.co
+      - 梯子官网https://kelayun.notepin.co
+      - 最低月付2块钱1000G
+      - 最高200元终身无限流量
       - 不限速不限设备不限地区
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - 官网地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 梯子地址https://kelayun.notepin.co
       - VPN地址https://kelayun.notepin.co
-      - 加速器地址https://kelayun.notepin.co
-      - 机场地址https://kelayun.notepin.co
-      - 月付2元1000G流量
+      - 购买地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
+      - 官网地址https://kelayun.notepin.co
+      - 梯子官网https://kelayun.notepin.co
+      - 最低月付2块钱1000G
+      - 最高200元终身无限流量
       - 不限速不限设备不限地区
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - 官网地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 梯子地址https://kelayun.notepin.co
       - VPN地址https://kelayun.notepin.co
-      - 加速器地址https://kelayun.notepin.co
-      - 机场地址https://kelayun.notepin.co
-      - 月付2元1000G流量
+      - 购买地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
+      - 官网地址https://kelayun.notepin.co
+      - 梯子官网https://kelayun.notepin.co
+      - 最低月付2块钱1000G
+      - 最高200元终身无限流量
       - 不限速不限设备不限地区
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
