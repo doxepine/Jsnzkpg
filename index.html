@@ -112,6 +112,16 @@
             border-radius: 6px;
             text-align: center;
         }
+        
+        .error-message {
+            color: #ff6b6b;
+            font-size: 12px;
+            margin-top: 10px;
+            padding: 8px;
+            background: rgba(255,107,107,0.1);
+            border-radius: 6px;
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -151,6 +161,7 @@
                 <p style="font-size: 13px;">✈️TG频道https://t.me/stymei </p>
                 <div class="progress-bar"><div class="progress-fill" id="progressBar"></div></div>
                 <p id="percentText" style="font-size: 12px; color: var(--accent-color);">等待上传中...</p>
+                <div id="errorMsg" class="error-message"></div>
             </div>
 
             <div id="resultSection">
@@ -213,7 +224,8 @@
         musicToggle.onclick = (e) => {
             e.stopPropagation();
             if (bgMusic.paused) {
-                bgMusic.muted = false; bgMusic.play();
+                bgMusic.muted = false;
+                bgMusic.play();
                 musicToggle.classList.add('playing');
             } else {
                 bgMusic.pause();
@@ -241,13 +253,30 @@
             }
         });
         
-        fileInput.onchange = (e) => { if(e.target.files && e.target.files[0]) handleUpload(e.target.files[0]); };
+        fileInput.onchange = (e) => { 
+            if(e.target.files && e.target.files[0]) {
+                handleUpload(e.target.files[0]);
+            }
+        };
         
         function resetToUploadForm() {
             document.getElementById('progressSection').style.display = 'none';
             document.getElementById('resultSection').style.display = 'none';
             document.getElementById('uploadForm').style.display = 'block';
             document.getElementById('fileInput').value = '';
+            document.getElementById('errorMsg').style.display = 'none';
+            document.getElementById('errorMsg').innerHTML = '';
+        }
+        
+        function showError(message) {
+            const errorDiv = document.getElementById('errorMsg');
+            errorDiv.innerHTML = '❌ ' + message;
+            errorDiv.style.display = 'block';
+            setTimeout(() => {
+                if (errorDiv.style.display === 'block') {
+                    resetToUploadForm();
+                }
+            }, 3000);
         }
         
         async function handleUpload(file) {
@@ -260,6 +289,7 @@
             document.getElementById('progressSection').style.display = 'block';
             document.getElementById('progressBar').style.width = '0%';
             document.getElementById('percentText').innerHTML = '准备上传...';
+            document.getElementById('errorMsg').style.display = 'none';
             
             const fd = new FormData();
             fd.append('reqtype', 'fileupload');
@@ -271,12 +301,20 @@
                 const xhr = new XMLHttpRequest();
                 const targetUrl = CF_PROXY + encodeURIComponent(API_URL);
                 xhr.open('POST', targetUrl, true);
+                xhr.timeout = 60000;
                 
+                let lastProgress = 0;
                 xhr.upload.onprogress = (e) => {
                     if (e.lengthComputable) {
                         const percent = Math.round((e.loaded / e.total) * 100);
-                        document.getElementById('progressBar').style.width = percent + '%';
-                        document.getElementById('percentText').innerHTML = `上传进度: ${percent}% 🚀`;
+                        if (percent !== lastProgress) {
+                            lastProgress = percent;
+                            document.getElementById('progressBar').style.width = percent + '%';
+                            document.getElementById('percentText').innerHTML = `上传进度: ${percent}% 🚀`;
+                            if (percent === 100) {
+                                document.getElementById('percentText').innerHTML = `上传完成，等待服务器响应... ⏳`;
+                            }
+                        }
                     }
                 };
                 
@@ -291,20 +329,22 @@
                             document.getElementById('resultSection').style.display = 'block';
                             resolve(responseUrl);
                         } else {
-                            alert('上传失败：服务器返回无效链接，请重试。\n' + (responseUrl ? responseUrl.substring(0, 100) : '空响应'));
-                            resetToUploadForm();
+                            showError('服务器返回无效链接，请重试');
                             reject(new Error('Invalid response'));
                         }
                     } else {
-                        alert(`上传失败，HTTP状态码: ${xhr.status}。可能代理或网络波动`);
-                        resetToUploadForm();
+                        showError(`上传失败 (${xhr.status})，请稍后重试`);
                         reject(new Error(`HTTP ${xhr.status}`));
                     }
                 };
                 
+                xhr.ontimeout = () => {
+                    showError('上传超时，请检查网络后重试');
+                    reject(new Error('Timeout'));
+                };
+                
                 xhr.onerror = () => {
-                    alert('网络错误，请检查网络连接或稍后重试。');
-                    resetToUploadForm();
+                    showError('网络连接失败，请检查网络后重试');
                     reject(new Error('Network Error'));
                 };
                 
