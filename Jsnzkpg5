@@ -384,9 +384,9 @@
   "lives": {
     "1772637934627": {
       "key": "1772637934627",
-      "name": "🏀体育直播[无法播放就是主播不在线]",
-      "api": "https://mpimg.cn/down.php/1d22e3c3b78b7363643cb80519d5cf83.m3u",
-      "url": "https://mpimg.cn/down.php/1d22e3c3b78b7363643cb80519d5cf83.m3u",
+      "name": "📺央卫视直播",
+      "api": "https://mpimg.cn/down.php/a34d44c4f0cc14bcb320c89cbb30c3d9.m3u",
+      "url": "https://mpimg.cn/down.php/a34d44c4f0cc14bcb320c89cbb30c3d9.m3u",
       "ua": null,
       "epg": null,
       "from": "custom",
