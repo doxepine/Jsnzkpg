@@ -31,7 +31,6 @@
             padding: 15px; padding-top: 8vh;
         }
 
-        /* 背景层 */
         .background-layer { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; }
         .background-video { width: 100%; height: 100%; object-fit: cover; }
         .background-overlay {
@@ -39,7 +38,6 @@
             background: rgba(255, 255, 255, 0.6); z-index: -1;
         }
 
-        /* 跑马灯 - 修正为毛玻璃风格 */
         .marquee-container {
             position: fixed; top: 0; left: 0; width: 100%;
             background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
@@ -49,7 +47,6 @@
         .marquee a { color: var(--text-primary); font-weight: bold; text-decoration: none; padding: 0 15px; font-size: 14px; }
         @keyframes marquee { 0% { transform: translateX(100vw); } 100% { transform: translateX(-100%); } }
 
-        /* 内容区 */
         .main-layer { width: 100%; max-width: 450px; }
         .page-title {
             text-align: center; font-size: 32px; font-weight: 700; margin-bottom: 15px;
@@ -84,7 +81,6 @@
         }
         .btn:active { transform: scale(0.98); }
 
-        /* 结果与进度 */
         #progressSection, #resultSection { display: none; margin-top: 20px; }
         .progress-bar { background: rgba(0,0,0,0.1); height: 8px; border-radius: 4px; overflow: hidden; margin: 10px 0; }
         .progress-fill { width: 0%; height: 100%; background: var(--accent-color); transition: 0.3s; }
@@ -97,7 +93,6 @@
         .input-group input { flex: 1; background: transparent; border: none; padding: 6px; font-size: 12px; outline: none; color: #333; }
         .btn-copy { background: var(--accent-color); color: white; border: none; padding: 0 12px; border-radius: 4px; font-size: 11px; cursor: pointer; }
 
-        /* 音乐按钮 */
         .music-player { position: fixed; bottom: 20px; right: 20px; z-index: 1000; }
         .music-toggle {
             width: 45px; height: 45px; border-radius: 50%; background: var(--glass-bg);
@@ -107,6 +102,16 @@
         .music-toggle.playing { animation: rotate 4s linear infinite; }
         @keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
         .music-toggle::after { content: "♫"; font-size: 20px; color: var(--accent-color); }
+        
+        .format-hint {
+            font-size: 10px;
+            color: #888;
+            margin-top: 8px;
+            padding: 6px;
+            background: rgba(0,0,0,0.05);
+            border-radius: 6px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -135,7 +140,7 @@
                     <p style="font-size: 14px; font-weight: 600; margin-top: 8px;">点击或拖拽上传</p>
                     <div class="upload-info">
                         ✅ 不限格式 · 📦 200MB内<br>
-                        ☁️ 永久储存 · ⚡ 加速通道
+                        ☁️ 永久储存 · ⚡ 镜像加速
                     </div>
                     <input type="file" id="fileInput" hidden>
                 </div>
@@ -143,7 +148,7 @@
             </div>
 
             <div id="progressSection">
-                <p style="font-size: 13px;">✈️TG频道: t.me/stymei </p>
+                <p style="font-size: 13px;">✈️TG频道https://t.me/stymei </p>
                 <div class="progress-bar"><div class="progress-fill" id="progressBar"></div></div>
                 <p id="percentText" style="font-size: 12px; color: var(--accent-color);">等待上传中...</p>
             </div>
@@ -163,6 +168,9 @@
                         <button class="btn-copy" onclick="copyValue('rawLink', this)">复制</button>
                     </div>
                 </div>
+                <div class="format-hint">
+                    ✈️记得关注我的TG频道https://t.me/stymei
+                </div>
                 <button class="btn" style="background:transparent; border:1px solid var(--accent-color); color:var(--accent-color); margin-top: 10px;" onclick="location.reload()">重新上传</button>
             </div>
         </div>
@@ -177,20 +185,23 @@
         const bgMusic = document.getElementById('bgMusic');
         const musicToggle = document.getElementById('musicToggle');
         const fileInput = document.getElementById('fileInput');
-
-        // 配置：已对接到你的自定义域 Worker
-        const CF_PROXY = 'https://proxy.jsnzkpg.uk/?url='; 
+        
+        const PROXY_GATEWAY = 'https://proxy.api.030101.xyz/';
         const API_URL = 'https://catbox.moe/user/api.php';
-        const MIRROR = 'https://down.nigx.cn/'; 
-
-        // --- 音乐控制逻辑 ---
+        
+        function buildMirrorWithProxy(originalUrl) {
+            if (!originalUrl) return '';
+            let cleanUrl = originalUrl.replace(/^https?:\/\//, '');
+            return PROXY_GATEWAY + cleanUrl;
+        }
+        
         function tryPlayMusic() {
             bgMusic.muted = true;
             bgMusic.play().then(() => {
                 musicToggle.classList.add('playing');
             }).catch(() => {});
         }
-
+        
         window.addEventListener('click', () => {
             if (bgMusic.muted) {
                 bgMusic.muted = false;
@@ -198,7 +209,7 @@
                 musicToggle.classList.add('playing');
             }
         }, { once: true });
-
+        
         musicToggle.onclick = (e) => {
             e.stopPropagation();
             if (bgMusic.paused) {
@@ -209,73 +220,153 @@
                 musicToggle.classList.remove('playing');
             }
         };
-
+        
         window.addEventListener('load', tryPlayMusic);
-
-        // --- 上传核心逻辑 ---
-        fileInput.onchange = (e) => { if(e.target.files[0]) handleUpload(e.target.files[0]); };
-
+        
+        const dropZone = document.getElementById('dropZone');
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, preventDefaults, false);
+        });
+        
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+        
+        dropZone.addEventListener('drop', (e) => {
+            const files = e.dataTransfer.files;
+            if (files && files.length > 0) {
+                fileInput.files = files;
+                handleUpload(files[0]);
+            }
+        });
+        
+        fileInput.onchange = (e) => { if(e.target.files && e.target.files[0]) handleUpload(e.target.files[0]); };
+        
+        function resetToUploadForm() {
+            document.getElementById('progressSection').style.display = 'none';
+            document.getElementById('resultSection').style.display = 'none';
+            document.getElementById('uploadForm').style.display = 'block';
+            document.getElementById('fileInput').value = '';
+        }
+        
         async function handleUpload(file) {
-            if (file.size > 200 * 1024 * 1024) return alert('超标了，请传200MB以内的！');
+            if (file.size > 200 * 1024 * 1024) {
+                alert('文件超过200MB限制，请重新选择！');
+                return;
+            }
             
             document.getElementById('uploadForm').style.display = 'none';
             document.getElementById('progressSection').style.display = 'block';
-
+            document.getElementById('progressBar').style.width = '0%';
+            document.getElementById('percentText').innerHTML = '准备上传...';
+            
             const fd = new FormData();
             fd.append('reqtype', 'fileupload');
             fd.append('fileToUpload', file);
-
-            const xhr = new XMLHttpRequest();
-            // 使用自定义 Worker 代理，并对目标 API 进行编码
-            xhr.open('POST', CF_PROXY + encodeURIComponent(API_URL));
-
-            xhr.upload.onprogress = (e) => {
-                if (e.lengthComputable) {
-                    const p = Math.round((e.loaded / e.total) * 100);
-                    document.getElementById('progressBar').style.width = p + '%';
-                    document.getElementById('percentText').innerText = '正在上传: ' + p + '%';
-                }
-            };
-
-            xhr.onload = () => {
-                const res = xhr.responseText.trim();
-                // 检查返回结果是否包含 http 直链
-                if (xhr.status === 200 && res.startsWith('http')) {
-                    document.getElementById('rawLink').value = res;
-                    // 修正镜像链接拼接逻辑，移除直链的协议头再拼接
-                    const cleanLink = res.replace(/^https?:\/\//, '');
-                    document.getElementById('proxyLink').value = MIRROR + cleanLink;
-                    
-                    document.getElementById('progressSection').style.display = 'none';
-                    document.getElementById('resultSection').style.display = 'block';
-                } else {
-                    console.error('Upload Error:', res);
-                    alert('上传失败，可能是由于网络波动或 Worker 拦截。');
-                    location.reload();
-                }
-            };
-
-            xhr.onerror = () => {
-                alert('网络连接错误，请检查代理域名是否生效。');
-                location.reload();
-            };
-
-            xhr.send(fd);
+            
+            const CF_PROXY = 'https://proxy.jsnzkpg.uk/?url=';
+            
+            return new Promise((resolve, reject) => {
+                const xhr = new XMLHttpRequest();
+                const targetUrl = CF_PROXY + encodeURIComponent(API_URL);
+                xhr.open('POST', targetUrl, true);
+                
+                xhr.upload.onprogress = (e) => {
+                    if (e.lengthComputable) {
+                        const percent = Math.round((e.loaded / e.total) * 100);
+                        document.getElementById('progressBar').style.width = percent + '%';
+                        document.getElementById('percentText').innerHTML = `上传进度: ${percent}% 🚀`;
+                    }
+                };
+                
+                xhr.onload = () => {
+                    if (xhr.status === 200) {
+                        let responseUrl = xhr.responseText.trim();
+                        if (responseUrl && (responseUrl.startsWith('http://') || responseUrl.startsWith('https://'))) {
+                            document.getElementById('rawLink').value = responseUrl;
+                            const newAccelLink = buildMirrorWithProxy(responseUrl);
+                            document.getElementById('proxyLink').value = newAccelLink;
+                            document.getElementById('progressSection').style.display = 'none';
+                            document.getElementById('resultSection').style.display = 'block';
+                            resolve(responseUrl);
+                        } else {
+                            alert('上传失败：服务器返回无效链接，请重试。\n' + (responseUrl ? responseUrl.substring(0, 100) : '空响应'));
+                            resetToUploadForm();
+                            reject(new Error('Invalid response'));
+                        }
+                    } else {
+                        alert(`上传失败，HTTP状态码: ${xhr.status}。可能代理或网络波动`);
+                        resetToUploadForm();
+                        reject(new Error(`HTTP ${xhr.status}`));
+                    }
+                };
+                
+                xhr.onerror = () => {
+                    alert('网络错误，请检查网络连接或稍后重试。');
+                    resetToUploadForm();
+                    reject(new Error('Network Error'));
+                };
+                
+                xhr.send(fd);
+            }).catch(err => {
+                console.warn(err);
+            });
         }
-
+        
         function copyValue(id, btn) {
             const input = document.getElementById(id);
+            if (!input || !input.value) {
+                alert('没有可复制的内容');
+                return;
+            }
+            
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(input.value).then(() => {
+                    const originalText = btn.innerText;
+                    btn.innerText = '✓ 已复制';
+                    setTimeout(() => {
+                        btn.innerText = originalText;
+                    }, 1500);
+                }).catch(() => {
+                    fallbackCopy(input, btn);
+                });
+            } else {
+                fallbackCopy(input, btn);
+            }
+        }
+        
+        function fallbackCopy(input, btn) {
             input.select();
             input.setSelectionRange(0, 99999);
             try {
-                document.execCommand('copy');
-                const old = btn.innerText;
-                btn.innerText = '成功';
-                setTimeout(() => btn.innerText = old, 2000);
+                const successful = document.execCommand('copy');
+                if (successful) {
+                    const originalText = btn.innerText;
+                    btn.innerText = '✓ 已复制';
+                    setTimeout(() => {
+                        btn.innerText = originalText;
+                    }, 1500);
+                } else {
+                    alert('手动复制吧，选中后 Ctrl+C');
+                }
             } catch (err) {
-                alert('复制失败，请手动选择复制');
+                alert('复制失败，请手动复制');
             }
         }
+        
+        dropZone.addEventListener('dragenter', (e) => {
+            dropZone.style.background = 'rgba(255,255,255,0.4)';
+            dropZone.style.borderColor = '#4a6cf7';
+        });
+        dropZone.addEventListener('dragleave', (e) => {
+            dropZone.style.background = 'rgba(255,255,255,0.2)';
+            dropZone.style.borderColor = 'var(--glass-border)';
+        });
+        dropZone.addEventListener('drop', (e) => {
+            dropZone.style.background = 'rgba(255,255,255,0.2)';
+            dropZone.style.borderColor = 'var(--glass-border)';
+        });
     </script>
 </body>
 </html>
