@@ -5,40 +5,7 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 官网地址https://kelayun.notepin.co
-    type: vmess
-    server: 103.181.164.145
-    port: 51556
-    cipher: auto
-    alterId: '64'
-    network: tcp
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    flow: ""
-  - name: 购买地址https://kelayun.notepin.co
-    type: vless
-    server: 23.148.20.55
-    port: 443
-    client-fingerprint: chrome
-    tls: true
-    servername: www.apple.com
-    flow: xtls-rprx-vision
-    network: tcp
-    reality-opts:
-      public-key: R0M4F0Di9oppNbz_LRIkF08whSeXbBHMNkAKVq5l-U8
-      short-id: ea80ef
-    uuid: e5130eee-cf44-405e-ce04-25817f961399
-    alterId: 0
-    cipher: ""
-    sni: www.apple.com
-  - name: 下单地址https://kelayun.notepin.co
-    type: trojan
-    server: outgoing-cockatoo.rooster465.autos
-    port: 443
-    password: WF42809561
-    network: tcp
-    sni: outgoing-cockatoo.rooster465.autos
-    servername: outgoing-cockatoo.rooster465.autos
-  - name: 梯子地址https://kelayun.notepin.co
+  - name: VPN地址https://kelayun.notepin.co
     type: trojan
     server: funky-platypus.rooster465.autos
     port: 443
@@ -46,7 +13,7 @@ proxies:
     network: tcp
     sni: funky-platypus.rooster465.autos
     servername: funky-platypus.rooster465.autos
-  - name: VPN地址https://kelayun.notepin.co
+  - name: 梯子地址https://kelayun.notepin.co
     type: trojan
     server: top-goshawk.rooster465.autos
     port: 443
@@ -55,78 +22,153 @@ proxies:
     sni: top-goshawk.rooster465.autos
     servername: top-goshawk.rooster465.autos
   - name: 加速器地址https://kelayun.notepin.co
-    type: ss
-    server: hk14.network-cdn-gw-yd.net
-    port: 32062
-    cipher: chacha20-ietf-poly1305
-    password: eb9aff96-654d-4b84-bfbd-30d57a927e4d
+    type: trojan
+    server: model-stingray.crayfish192.xyz
+    port: 443
+    password: WF42809561
+    network: tcp
+    sni: model-stingray.crayfish192.xyz
+    servername: model-stingray.crayfish192.xyz
   - name: 机场地址https://kelayun.notepin.co
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    cipher: auto
-    alterId: '0'
+    type: trojan
+    server: touching-pigeon.rooster465.autos
+    port: 443
+    password: WF42809561
     network: tcp
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    flow: ""
-  - name: 最低月付2块钱1000G流量
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    cipher: auto
-    alterId: '0'
-    network: tcp
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    flow: ""
+    sni: touching-pigeon.rooster465.autos
+    servername: touching-pigeon.rooster465.autos
+  - name: 最低月付2块钱1000G
+    type: ss
+    server: namrcg001662wgh.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   - name: 最高200元终身无限流量
     type: ss
-    server: 185.231.233.112
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
+    server: r3mrcg001142988.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  - name: 不限速不限设备不限地区
+    type: ss
+    server: r3mrcg0011606bh.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  - name: 新疆西藏福建可用
+    type: ss
+    server: nbmrcg003507ck6.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  - name: 解锁谷歌gemini和ChatGPT
+    type: ss
+    server: nbmrcg003466pb9.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  - name: 10-🇨🇳TW-ss-106ms
+    type: ss
+    server: n8mrcg005938lsz.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  - name: 13-🇸🇬SG-vmess-490ms
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    cipher: auto
+    alterId: '0'
+    network: tcp
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  - name: 14-🇸🇬SG-vmess-240ms
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    cipher: auto
+    alterId: '0'
+    network: tcp
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  - name: 15-🇯🇵JP-vless-175ms
+    type: vless
+    server: 206.245.157.134
+    port: 444
+    skip-cert-verify: true
+    tls: true
+    servername: jmc9f8ao6n5xq.saghv.filegear-sg.me
+    network: ws
+    ws-opts:
+      headers:
+        Host: jmc9f8ao6n5xq.saghv.filegear-sg.me
+      path: /@Marisa_kristi
+    uuid: 00000000-0000-4000-8000-000000000000
+  - name: 16-🇺🇸US-hysteria2-182ms
+    type: hysteria2
+    server: 38.165.21.126
+    port: 29794
+    password: fGIvSUXOYn7WYPNAc2PmjYuIKbw
+    udp: true
+    skip-cert-verify: true
+    auth: fGIvSUXOYn7WYPNAc2PmjYuIKbw
+    sni: bing.com
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - 官网地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
-      - 梯子地址https://kelayun.notepin.co
       - VPN地址https://kelayun.notepin.co
+      - 梯子地址https://kelayun.notepin.co
       - 加速器地址https://kelayun.notepin.co
       - 机场地址https://kelayun.notepin.co
-      - 最低月付2块钱1000G流量
+      - 最低月付2块钱1000G
       - 最高200元终身无限流量
+      - 不限速不限设备不限地区
+      - 新疆西藏福建可用
+      - 解锁谷歌gemini和ChatGPT
+      - 10-🇨🇳TW-ss-106ms
+      - 13-🇸🇬SG-vmess-490ms
+      - 14-🇸🇬SG-vmess-240ms
+      - 15-🇯🇵JP-vless-175ms
+      - 16-🇺🇸US-hysteria2-182ms
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - 官网地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
-      - 梯子地址https://kelayun.notepin.co
       - VPN地址https://kelayun.notepin.co
+      - 梯子地址https://kelayun.notepin.co
       - 加速器地址https://kelayun.notepin.co
       - 机场地址https://kelayun.notepin.co
-      - 最低月付2块钱1000G流量
+      - 最低月付2块钱1000G
       - 最高200元终身无限流量
+      - 不限速不限设备不限地区
+      - 新疆西藏福建可用
+      - 解锁谷歌gemini和ChatGPT
+      - 10-🇨🇳TW-ss-106ms
+      - 13-🇸🇬SG-vmess-490ms
+      - 14-🇸🇬SG-vmess-240ms
+      - 15-🇯🇵JP-vless-175ms
+      - 16-🇺🇸US-hysteria2-182ms
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - 官网地址https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 下单地址https://kelayun.notepin.co
-      - 梯子地址https://kelayun.notepin.co
       - VPN地址https://kelayun.notepin.co
+      - 梯子地址https://kelayun.notepin.co
       - 加速器地址https://kelayun.notepin.co
       - 机场地址https://kelayun.notepin.co
-      - 最低月付2块钱1000G流量
+      - 最低月付2块钱1000G
       - 最高200元终身无限流量
+      - 不限速不限设备不限地区
+      - 新疆西藏福建可用
+      - 解锁谷歌gemini和ChatGPT
+      - 10-🇨🇳TW-ss-106ms
+      - 13-🇸🇬SG-vmess-490ms
+      - 14-🇸🇬SG-vmess-240ms
+      - 15-🇯🇵JP-vless-175ms
+      - 16-🇺🇸US-hysteria2-182ms
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
