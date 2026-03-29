@@ -1,3 +1,11 @@
+名称：lxs-emby
+协议：Emby
+服务器：https://ey.626258.xyz
+用户名：lxs-emby
+密码：qq-qun:1092974372
+端口：443
+
+
 名称：IpacEL
 协议：Emby
 服务器：https://emby.ipacel.cc
