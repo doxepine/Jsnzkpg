@@ -5,36 +5,466 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 交流群https://t.me/+j664EmVv8m0wZGVk
+  - name: 官网地址https://kelayun.notepin.co
     type: vmess
-    server: vpnicp.xyc.hk.cn
-    port: 20001
-    uuid: 7f5f0705-3dfb-4f56-9657-c95cade2ba83
-    alterId: 0
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
+    tls: false
+    skip-cert-verify: false
     udp: true
     network: tcp
-    tls: false
+    aead: true
+    tfo: false
     flow: ""
+  - name: 下单地址https://kelayun.notepin.co
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+    network: tcp
+    aead: true
+    tfo: false
+    flow: ""
+  - name: 购买地址https://kelayun.notepin.co
+    type: vmess
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+    network: tcp
+    aead: true
+    tfo: false
+    flow: ""
+  - name: VPN地址https://kelayun.notepin.co
+    type: vmess
+    server: 152.67.8.205
+    port: 80
+    uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+    network: ws
+    aead: true
+    tfo: false
+    ws-opts:
+      path: /
+      headers:
+        Host: ''
+    flow: ""
+  - name: 加速器地址https://kelayun.notepin.co
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 13143
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 梯子地址https://kelayun.notepin.co
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 13153
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 机场地址https://kelayun.notepin.co
+    type: ss
+    server: namrcg002771r35.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 月付2元1000G流量
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 11235
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 最高200元终身无限流量
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 12742
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 不限速
+    type: ss
+    server: r3mrcg00129437x.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 不限设备
+    type: ss
+    server: n8mrcg004732fk8.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 不限地区
+    type: ss
+    server: r3mrcg001188p8v.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 新疆西藏福建可用
+    type: ss
+    server: r3mrcg001233myh.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 解锁谷歌gemini
+    type: ss
+    server: r3mrcg007168e8p.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 解锁ChatGPT
+    type: ss
+    server: n8mrcg0059595fa.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 1
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 13141
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 2
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 13154
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 3
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 12528
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 4
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 12402
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 5
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 13144
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 6
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 13146
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 7
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 13155
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 8
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 14629
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 9
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 13157
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 10
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 14630
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 11
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 13158
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 12
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 13142
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 13
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 14623
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 14
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 12361
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 15
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 12523
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 16
+    type: ss
+    server: 185.223.82.82
+    port: 10021
+    cipher: chacha20-ietf-poly1305
+    password: m02X9p9Cqn3Ic4l6PyJMF8
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 17
+    type: ss
+    server: r3mrcg007134n4g.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 18
+    type: ss
+    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+    port: 13159
+    cipher: 2022-blake3-aes-256-gcm
+    password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: 19
+    type: ss
+    server: r3mrcg001213klw.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    udp: true
+    skip-cert-verify: true
+    tfo: false
+  - name: ✈️裤佬TG频道@stymei
+    type: ss
+    server: r3mrcg0071465vz.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    udp: true
+    skip-cert-verify: true
+    tfo: false
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - 交流群https://t.me/+j664EmVv8m0wZGVk
+      - 官网地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
+      - VPN地址https://kelayun.notepin.co
+      - 加速器地址https://kelayun.notepin.co
+      - 梯子地址https://kelayun.notepin.co
+      - 机场地址https://kelayun.notepin.co
+      - 月付2元1000G流量
+      - 最高200元终身无限流量
+      - 不限速
+      - 不限设备
+      - 不限地区
+      - 新疆西藏福建可用
+      - 解锁谷歌gemini
+      - 解锁ChatGPT
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
+      - "9"
+      - "10"
+      - "11"
+      - "12"
+      - "13"
+      - "14"
+      - "15"
+      - "16"
+      - "17"
+      - "18"
+      - "19"
+      - ✈️裤佬TG频道@stymei
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - 交流群https://t.me/+j664EmVv8m0wZGVk
+      - 官网地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
+      - VPN地址https://kelayun.notepin.co
+      - 加速器地址https://kelayun.notepin.co
+      - 梯子地址https://kelayun.notepin.co
+      - 机场地址https://kelayun.notepin.co
+      - 月付2元1000G流量
+      - 最高200元终身无限流量
+      - 不限速
+      - 不限设备
+      - 不限地区
+      - 新疆西藏福建可用
+      - 解锁谷歌gemini
+      - 解锁ChatGPT
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
+      - "9"
+      - "10"
+      - "11"
+      - "12"
+      - "13"
+      - "14"
+      - "15"
+      - "16"
+      - "17"
+      - "18"
+      - "19"
+      - ✈️裤佬TG频道@stymei
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - 交流群https://t.me/+j664EmVv8m0wZGVk
+      - 官网地址https://kelayun.notepin.co
+      - 下单地址https://kelayun.notepin.co
+      - 购买地址https://kelayun.notepin.co
+      - VPN地址https://kelayun.notepin.co
+      - 加速器地址https://kelayun.notepin.co
+      - 梯子地址https://kelayun.notepin.co
+      - 机场地址https://kelayun.notepin.co
+      - 月付2元1000G流量
+      - 最高200元终身无限流量
+      - 不限速
+      - 不限设备
+      - 不限地区
+      - 新疆西藏福建可用
+      - 解锁谷歌gemini
+      - 解锁ChatGPT
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
+      - "9"
+      - "10"
+      - "11"
+      - "12"
+      - "13"
+      - "14"
+      - "15"
+      - "16"
+      - "17"
+      - "18"
+      - "19"
+      - ✈️裤佬TG频道@stymei
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
