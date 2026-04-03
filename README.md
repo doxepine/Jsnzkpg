@@ -14,11 +14,13 @@
 | ⚡ | 镜像仓库 | [进入](https://codeberg.org/Jsnzkpg/Jsnzkpg) | - |
 | ✈️ | TG频道 | [进入](https://t.me/stymei1) | - |
 | ✈️ | TG群聊 | [进入](https://t.me/+j664EmVv8m0wZGVk) | - |
+| ✈️ | TG代理 | [进入](https://Jsnzkpg.github.io/TelegramProxy) | - |
 | 🔖 | 书签收藏 | [进入](https://Jsnzkpg.github.io) | - |
 | 🚀 | 共享火箭 | [进入](https://stymei.github.io) | - |
 | 🐈‍⬛ | Github加速 | [进入](https://pyapk.github.io) | - |
 | 🔄 | 订阅转换 | [进入](https://stymei.cc.cd) | - |
 | 🔗 | 直链托管 | [进入](https://Jsnzkpg.github.io/Jsnzkpg) | - |
+| 🎧 | 音乐网 | [进入](https://Jsnzkpg.github.io/music) | - |
 | 🪜 | 节点订阅 | [原始](https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg) | [镜像](https://codeberg.org/Jsnzkpg/Jsnzkpg/raw/Jsnzkpg/Jsnzkpg) |
 | 📺 | IPTV订阅 | [原始](https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u) | [镜像](https://codeberg.org/Jsnzkpg/Jsnzkpg/raw/Jsnzkpg/Jsnzkpg1.m3u) |
 | 🎥 | TVbox订阅 | [原始](https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2) | [镜像](https://codeberg.org/Jsnzkpg/Jsnzkpg/raw/Jsnzkpg/Jsnzkpg2) |
