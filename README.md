@@ -9,10 +9,11 @@
 ---
 
 | 图标 | 名称 | 原始 | 镜像 |
-|------|------|----------|----------|
+|:---:|:---:|:---:|:---:|
 | 🔥 | 2元1T机场 | [进入](https://kelayun.notepin.co) | - |
 | ⚡ | 镜像仓库 | [进入](https://codeberg.org/Jsnzkpg/Jsnzkpg) | - |
-| ✈️ | TG频道 | [进入](https://t.me/stymei1) | - |
+| ✈️ | TG频道 | [进入](https://t.me/stymei) | - |
+| ✈️ | 备用频道 | [进入](https://t.me/pyapk) | - |
 | ✈️ | TG群聊 | [进入](https://t.me/+j664EmVv8m0wZGVk) | - |
 | ✈️ | TG代理 | [进入](https://Jsnzkpg.github.io/TelegramProxy) | - |
 | 🔖 | 书签收藏 | [进入](https://Jsnzkpg.github.io) | - |
