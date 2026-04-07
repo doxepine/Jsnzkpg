@@ -5,463 +5,262 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - udp: false
-    skip-cert-verify: true
-    name: ✈️关注TG频道@stymei
+  - name: 官网地址https://kelayun.notepin.co
     type: vless
-    server: 222.167.202.26
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    server: mfa.gov.ua
+    port: 443
+    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    tfo: false
     tls: true
+    sni: tg.wag13.ggff.net
+    servername: tg.wag13.ggff.net
     client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
     network: ws
     ws-opts:
-      path: /222.167.202.26:7443
+      path: /?ed=2560
       headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
+        Host: tg.wag13.ggff.net
     alterId: 0
     cipher: ""
     flow: ""
-    sni: 2026.hhhhh.eu.org
-  - udp: false
-    skip-cert-verify: true
-    name: 2-香港-93ms
+  - name: 史上最便宜的付费机场
     type: vless
-    server: 222.167.202.15
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    server: saas.sin.fan
+    port: 443
+    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    tfo: false
     tls: true
+    sni: tg.wag13.ggff.net
+    servername: tg.wag13.ggff.net
     client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
     network: ws
     ws-opts:
-      path: /222.167.202.15:7443
+      path: /?ed=2560
       headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 3-香港-122ms
+        Host: tg.wag13.ggff.net
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 最低月付2块钱1000G流量
     type: vless
-    server: 222.167.202.50
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    server: store.ubi.com
+    port: 443
+    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    tfo: false
     tls: true
+    sni: tg.wag13.ggff.net
+    servername: tg.wag13.ggff.net
     client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
     network: ws
     ws-opts:
-      path: /222.167.202.50:7443
+      path: /?ed=2560
       headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 4-香港-108ms
+        Host: tg.wag13.ggff.net
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 最高200元终身无限流量
     type: vless
-    server: 222.167.202.22
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    server: cf.130519.xyz
+    port: 443
+    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    tfo: false
     tls: true
+    sni: tg.wag13.ggff.net
+    servername: tg.wag13.ggff.net
     client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
     network: ws
     ws-opts:
-      path: /222.167.202.22:7443
+      path: /?ed=2560
       headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 5-香港-168ms
+        Host: tg.wag13.ggff.net
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 不限速
     type: vless
-    server: 222.167.202.14
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    server: cf.008500.xyz
+    port: 443
+    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    tfo: false
     tls: true
+    sni: tg.wag13.ggff.net
+    servername: tg.wag13.ggff.net
     client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
     network: ws
     ws-opts:
-      path: /222.167.202.14:7443
+      path: /?ed=2560
       headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 6-香港-101ms
+        Host: tg.wag13.ggff.net
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 不限设备
     type: vless
-    server: 222.167.202.60
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    server: cf.090227.xyz
+    port: 443
+    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    tfo: false
     tls: true
+    sni: tg.wag13.ggff.net
+    servername: tg.wag13.ggff.net
     client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
     network: ws
     ws-opts:
-      path: /222.167.202.60:7443
+      path: /?ed=2560
       headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 7-香港-88ms
+        Host: tg.wag13.ggff.net
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 不限地区
     type: vless
-    server: 222.167.202.2
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    server: cf.877774.xyz
+    port: 443
+    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    tfo: false
     tls: true
+    sni: tg.wag13.ggff.net
+    servername: tg.wag13.ggff.net
     client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
     network: ws
     ws-opts:
-      path: /222.167.202.2:7443
+      path: /?ed=2560
       headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 8-香港-171ms
+        Host: tg.wag13.ggff.net
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 新疆西藏福建可用
     type: vless
-    server: 222.167.202.4
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    server: cdns.doon.eu.org
+    port: 443
+    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    tfo: false
     tls: true
+    sni: tg.wag13.ggff.net
+    servername: tg.wag13.ggff.net
     client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
     network: ws
     ws-opts:
-      path: /222.167.202.4:7443
+      path: /?ed=2560
       headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 9-香港-129ms
+        Host: tg.wag13.ggff.net
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 三网优化新增广电
     type: vless
-    server: 222.167.202.21
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    server: sub.danfeng.eu.org
+    port: 443
+    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    tfo: false
     tls: true
+    sni: tg.wag13.ggff.net
+    servername: tg.wag13.ggff.net
     client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
     network: ws
     ws-opts:
-      path: /222.167.202.21:7443
+      path: /?ed=2560
       headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 10-香港-92ms
+        Host: tg.wag13.ggff.net
+    alterId: 0
+    cipher: ""
+    flow: ""
+  - name: 解锁gemini和ChatGPT
     type: vless
-    server: 222.167.202.23
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    server: cf.zhetengsha.eu.org
+    port: 443
+    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+    encryption: none
+    udp: true
+    skip-cert-verify: true
+    tfo: false
     tls: true
+    sni: tg.wag13.ggff.net
+    servername: tg.wag13.ggff.net
     client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
     network: ws
     ws-opts:
-      path: /222.167.202.23:7443
+      path: /?ed=2560
       headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 11-香港-164ms
-    type: vless
-    server: 222.167.202.32
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    tls: true
-    client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
-    network: ws
-    ws-opts:
-      path: /222.167.202.32:7443
-      headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 12-香港-125ms
-    type: vless
-    server: 222.167.202.33
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    tls: true
-    client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
-    network: ws
-    ws-opts:
-      path: /222.167.202.33:7443
-      headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 13-香港-123ms
-    type: vless
-    server: 222.167.202.35
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    tls: true
-    client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
-    network: ws
-    ws-opts:
-      path: /222.167.202.35:7443
-      headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 14-香港-94ms
-    type: vless
-    server: 222.167.202.70
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    tls: true
-    client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
-    network: ws
-    ws-opts:
-      path: /222.167.202.70:7443
-      headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 15-香港-122ms
-    type: vless
-    server: 222.167.202.6
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    tls: true
-    client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
-    network: ws
-    ws-opts:
-      path: /222.167.202.6:7443
-      headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 16-香港-154ms
-    type: vless
-    server: 222.167.202.3
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    tls: true
-    client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
-    network: ws
-    ws-opts:
-      path: /222.167.202.3:7443
-      headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 17-香港-105ms
-    type: vless
-    server: 222.167.202.10
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    tls: true
-    client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
-    network: ws
-    ws-opts:
-      path: /222.167.202.10:7443
-      headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 18-香港-129ms
-    type: vless
-    server: 222.167.202.36
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    tls: true
-    client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
-    network: ws
-    ws-opts:
-      path: /222.167.202.36:7443
-      headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 19-香港-148ms
-    type: vless
-    server: 222.167.202.52
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    tls: true
-    client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
-    network: ws
-    ws-opts:
-      path: /222.167.202.52:7443
-      headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 20-香港-129ms
-    type: vless
-    server: 222.167.202.45
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    tls: true
-    client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
-    network: ws
-    ws-opts:
-      path: /222.167.202.45:7443
-      headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 21-香港-96ms
-    type: vless
-    server: 222.167.202.16
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    tls: true
-    client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
-    network: ws
-    ws-opts:
-      path: /222.167.202.16:7443
-      headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 22-香港-102ms
-    type: vless
-    server: 222.167.202.31
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    tls: true
-    client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
-    network: ws
-    ws-opts:
-      path: /222.167.202.31:7443
-      headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
-  - udp: false
-    skip-cert-verify: true
-    name: 23-香港-129ms
-    type: vless
-    server: 222.167.202.47
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    tls: true
-    client-fingerprint: chrome
-    servername: 2026.hhhhh.eu.org
-    network: ws
-    ws-opts:
-      path: /222.167.202.47:7443
-      headers:
-        host: 2026.hhhhh.eu.org
-    tfo: false
+        Host: tg.wag13.ggff.net
+    alterId: 0
+    cipher: ""
+    flow: ""
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - ✈️关注TG频道@stymei
-      - 2-香港-93ms
-      - 3-香港-122ms
-      - 4-香港-108ms
-      - 5-香港-168ms
-      - 6-香港-101ms
-      - 7-香港-88ms
-      - 8-香港-171ms
-      - 9-香港-129ms
-      - 10-香港-92ms
-      - 11-香港-164ms
-      - 12-香港-125ms
-      - 13-香港-123ms
-      - 14-香港-94ms
-      - 15-香港-122ms
-      - 16-香港-154ms
-      - 17-香港-105ms
-      - 18-香港-129ms
-      - 19-香港-148ms
-      - 20-香港-129ms
-      - 21-香港-96ms
-      - 22-香港-102ms
-      - 23-香港-129ms
+      - 官网地址https://kelayun.notepin.co
+      - 史上最便宜的付费机场
+      - 最低月付2块钱1000G流量
+      - 最高200元终身无限流量
+      - 不限速
+      - 不限设备
+      - 不限地区
+      - 新疆西藏福建可用
+      - 三网优化新增广电
+      - 解锁gemini和ChatGPT
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - ✈️关注TG频道@stymei
-      - 2-香港-93ms
-      - 3-香港-122ms
-      - 4-香港-108ms
-      - 5-香港-168ms
-      - 6-香港-101ms
-      - 7-香港-88ms
-      - 8-香港-171ms
-      - 9-香港-129ms
-      - 10-香港-92ms
-      - 11-香港-164ms
-      - 12-香港-125ms
-      - 13-香港-123ms
-      - 14-香港-94ms
-      - 15-香港-122ms
-      - 16-香港-154ms
-      - 17-香港-105ms
-      - 18-香港-129ms
-      - 19-香港-148ms
-      - 20-香港-129ms
-      - 21-香港-96ms
-      - 22-香港-102ms
-      - 23-香港-129ms
+      - 官网地址https://kelayun.notepin.co
+      - 史上最便宜的付费机场
+      - 最低月付2块钱1000G流量
+      - 最高200元终身无限流量
+      - 不限速
+      - 不限设备
+      - 不限地区
+      - 新疆西藏福建可用
+      - 三网优化新增广电
+      - 解锁gemini和ChatGPT
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - ✈️关注TG频道@stymei
-      - 2-香港-93ms
-      - 3-香港-122ms
-      - 4-香港-108ms
-      - 5-香港-168ms
-      - 6-香港-101ms
-      - 7-香港-88ms
-      - 8-香港-171ms
-      - 9-香港-129ms
-      - 10-香港-92ms
-      - 11-香港-164ms
-      - 12-香港-125ms
-      - 13-香港-123ms
-      - 14-香港-94ms
-      - 15-香港-122ms
-      - 16-香港-154ms
-      - 17-香港-105ms
-      - 18-香港-129ms
-      - 19-香港-148ms
-      - 20-香港-129ms
-      - 21-香港-96ms
-      - 22-香港-102ms
-      - 23-香港-129ms
+      - 官网地址https://kelayun.notepin.co
+      - 史上最便宜的付费机场
+      - 最低月付2块钱1000G流量
+      - 最高200元终身无限流量
+      - 不限速
+      - 不限设备
+      - 不限地区
+      - 新疆西藏福建可用
+      - 三网优化新增广电
+      - 解锁gemini和ChatGPT
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
