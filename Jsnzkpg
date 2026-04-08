@@ -5,261 +5,175 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 官网地址https://kelayun.notepin.co
-    type: vless
-    server: mfa.gov.ua
+  - name: 官网https://proxy.api.030101.xyz/kelayun.github.io
+    server: ct.877774.xyz
     port: 443
-    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
+    type: vless
+    uuid: 45fd3715-7426-4413-8eeb-dbe805be553a
     tls: true
-    sni: tg.wag13.ggff.net
-    servername: tg.wag13.ggff.net
-    client-fingerprint: chrome
+    tfo: false
+    skip-cert-verify: true
+    servername: do-sfo3.008883.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /announcement?ed=2048
       headers:
-        Host: tg.wag13.ggff.net
+        Host: do-sfo3.008883.xyz
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 史上最便宜的付费机场
-    type: vless
-    server: saas.sin.fan
+    sni: do-sfo3.008883.xyz
+  - name: 最低月付2块钱1000G
+    server: freeyx.cloudflare88.eu.org
     port: 443
-    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
+    type: vless
+    uuid: 45fd3715-7426-4413-8eeb-dbe805be553a
     tls: true
-    sni: tg.wag13.ggff.net
-    servername: tg.wag13.ggff.net
-    client-fingerprint: chrome
+    tfo: false
+    skip-cert-verify: true
+    servername: do-lon1.008883.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /announcement?ed=2048
       headers:
-        Host: tg.wag13.ggff.net
+        Host: do-lon1.008883.xyz
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 最低月付2块钱1000G流量
-    type: vless
-    server: store.ubi.com
-    port: 443
-    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    sni: tg.wag13.ggff.net
-    servername: tg.wag13.ggff.net
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tg.wag13.ggff.net
-    alterId: 0
-    cipher: ""
-    flow: ""
+    sni: do-lon1.008883.xyz
   - name: 最高200元终身无限流量
-    type: vless
-    server: cf.130519.xyz
+    server: freev2.cloudflare.182682.xyz
     port: 443
-    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
+    type: vless
+    uuid: 45fd3715-7426-4413-8eeb-dbe805be553a
     tls: true
-    sni: tg.wag13.ggff.net
-    servername: tg.wag13.ggff.net
-    client-fingerprint: chrome
+    tfo: false
+    skip-cert-verify: true
+    servername: do-syd1.008883.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /announcement?ed=2048
       headers:
-        Host: tg.wag13.ggff.net
+        Host: do-syd1.008883.xyz
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 不限速
-    type: vless
-    server: cf.008500.xyz
+    sni: do-syd1.008883.xyz
+  - name: 不限速不限设备
+    server: freev2.cloudflare.182682.xyz
     port: 443
-    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
+    type: vless
+    uuid: 45fd3715-7426-4413-8eeb-dbe805be553a
     tls: true
-    sni: tg.wag13.ggff.net
-    servername: tg.wag13.ggff.net
-    client-fingerprint: chrome
+    tfo: false
+    skip-cert-verify: true
+    servername: do-blr1.008883.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /announcement?ed=2048
       headers:
-        Host: tg.wag13.ggff.net
+        Host: do-blr1.008883.xyz
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 不限设备
-    type: vless
-    server: cf.090227.xyz
-    port: 443
-    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    sni: tg.wag13.ggff.net
-    servername: tg.wag13.ggff.net
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tg.wag13.ggff.net
-    alterId: 0
-    cipher: ""
-    flow: ""
-  - name: 不限地区
-    type: vless
-    server: cf.877774.xyz
-    port: 443
-    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    sni: tg.wag13.ggff.net
-    servername: tg.wag13.ggff.net
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tg.wag13.ggff.net
-    alterId: 0
-    cipher: ""
-    flow: ""
+    sni: do-blr1.008883.xyz
   - name: 新疆西藏福建可用
-    type: vless
-    server: cdns.doon.eu.org
+    server: freev2.cloudflare.182682.xyz
     port: 443
-    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
+    type: vless
+    uuid: 45fd3715-7426-4413-8eeb-dbe805be553a
     tls: true
-    sni: tg.wag13.ggff.net
-    servername: tg.wag13.ggff.net
-    client-fingerprint: chrome
+    tfo: false
+    skip-cert-verify: true
+    servername: do-tor1.008883.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /announcement?ed=2048
       headers:
-        Host: tg.wag13.ggff.net
+        Host: do-tor1.008883.xyz
     alterId: 0
     cipher: ""
     flow: ""
-  - name: 三网优化新增广电
-    type: vless
-    server: sub.danfeng.eu.org
+    sni: do-tor1.008883.xyz
+  - name: 三网优化
+    server: freev2.cloudflare.182682.xyz
     port: 443
-    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
+    type: vless
+    uuid: 45fd3715-7426-4413-8eeb-dbe805be553a
     tls: true
-    sni: tg.wag13.ggff.net
-    servername: tg.wag13.ggff.net
-    client-fingerprint: chrome
+    tfo: false
+    skip-cert-verify: true
+    servername: do-sgp1.008883.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /announcement?ed=2048
       headers:
-        Host: tg.wag13.ggff.net
+        Host: do-sgp1.008883.xyz
     alterId: 0
     cipher: ""
     flow: ""
+    sni: do-sgp1.008883.xyz
   - name: 解锁gemini和ChatGPT
-    type: vless
-    server: cf.zhetengsha.eu.org
+    server: freeyx.cloudflare88.eu.org
     port: 443
-    uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
-    encryption: none
-    udp: true
-    skip-cert-verify: true
-    tfo: false
+    type: vless
+    uuid: 45fd3715-7426-4413-8eeb-dbe805be553a
     tls: true
-    sni: tg.wag13.ggff.net
-    servername: tg.wag13.ggff.net
-    client-fingerprint: chrome
+    tfo: false
+    skip-cert-verify: true
+    servername: do-fra1.008883.xyz
+    client-fingerprint: random
     network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /announcement?ed=2048
       headers:
-        Host: tg.wag13.ggff.net
+        Host: do-fra1.008883.xyz
     alterId: 0
     cipher: ""
     flow: ""
+    sni: do-fra1.008883.xyz
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - 官网地址https://kelayun.notepin.co
-      - 史上最便宜的付费机场
-      - 最低月付2块钱1000G流量
+      - 官网https://proxy.api.030101.xyz/kelayun.github.io
+      - 最低月付2块钱1000G
       - 最高200元终身无限流量
-      - 不限速
-      - 不限设备
-      - 不限地区
+      - 不限速不限设备
       - 新疆西藏福建可用
-      - 三网优化新增广电
+      - 三网优化
       - 解锁gemini和ChatGPT
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - 官网地址https://kelayun.notepin.co
-      - 史上最便宜的付费机场
-      - 最低月付2块钱1000G流量
+      - 官网https://proxy.api.030101.xyz/kelayun.github.io
+      - 最低月付2块钱1000G
       - 最高200元终身无限流量
-      - 不限速
-      - 不限设备
-      - 不限地区
+      - 不限速不限设备
       - 新疆西藏福建可用
-      - 三网优化新增广电
+      - 三网优化
       - 解锁gemini和ChatGPT
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - 官网地址https://kelayun.notepin.co
-      - 史上最便宜的付费机场
-      - 最低月付2块钱1000G流量
+      - 官网https://proxy.api.030101.xyz/kelayun.github.io
+      - 最低月付2块钱1000G
       - 最高200元终身无限流量
-      - 不限速
-      - 不限设备
-      - 不限地区
+      - 不限速不限设备
       - 新疆西藏福建可用
-      - 三网优化新增广电
+      - 三网优化
       - 解锁gemini和ChatGPT
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
