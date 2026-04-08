@@ -6,138 +6,98 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - name: 官网https://proxy.api.030101.xyz/kelayun.github.io
-    server: ct.877774.xyz
-    port: 443
     type: vless
-    uuid: 45fd3715-7426-4413-8eeb-dbe805be553a
+    server: 104.19.58.118
+    port: 443
+    uuid: 340dee85-bfd7-4395-8d2e-87dbc2781a13
+    udp: true
     tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-sfo3.008883.xyz
-    client-fingerprint: random
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: chrome
+    servername: us1-us1.aiopen.sbs
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /kbjc/us1
       headers:
-        Host: do-sfo3.008883.xyz
+        Host: us1-us1.aiopen.sbs
     alterId: 0
     cipher: ""
-    flow: ""
-    sni: do-sfo3.008883.xyz
-  - name: 最低月付2块钱1000G
-    server: freeyx.cloudflare88.eu.org
-    port: 443
-    type: vless
-    uuid: 45fd3715-7426-4413-8eeb-dbe805be553a
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-lon1.008883.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-lon1.008883.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-lon1.008883.xyz
-  - name: 最高200元终身无限流量
-    server: freev2.cloudflare.182682.xyz
-    port: 443
-    type: vless
-    uuid: 45fd3715-7426-4413-8eeb-dbe805be553a
-    tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-syd1.008883.xyz
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /announcement?ed=2048
-      headers:
-        Host: do-syd1.008883.xyz
-    alterId: 0
-    cipher: ""
-    flow: ""
-    sni: do-syd1.008883.xyz
+    sni: us1-us1.aiopen.sbs
   - name: 不限速不限设备
-    server: freev2.cloudflare.182682.xyz
-    port: 443
     type: vless
-    uuid: 45fd3715-7426-4413-8eeb-dbe805be553a
+    server: 104.19.58.118
+    port: 443
+    uuid: 340dee85-bfd7-4395-8d2e-87dbc2781a13
+    udp: true
     tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-blr1.008883.xyz
-    client-fingerprint: random
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: chrome
+    servername: us1-us1.aiopen.sbs
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /kbjc/us1
       headers:
-        Host: do-blr1.008883.xyz
+        Host: us1-us1.aiopen.sbs
     alterId: 0
     cipher: ""
-    flow: ""
-    sni: do-blr1.008883.xyz
+    sni: us1-us1.aiopen.sbs
   - name: 新疆西藏福建可用
-    server: freev2.cloudflare.182682.xyz
-    port: 443
     type: vless
-    uuid: 45fd3715-7426-4413-8eeb-dbe805be553a
+    server: 69.84.182.13
+    port: 443
+    uuid: 340dee85-bfd7-4395-8d2e-87dbc2781a13
+    udp: true
     tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-tor1.008883.xyz
-    client-fingerprint: random
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: chrome
+    servername: jp1-jp1.aiopen.sbs
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /kbjc/jp1
       headers:
-        Host: do-tor1.008883.xyz
+        Host: jp1-jp1.aiopen.sbs
     alterId: 0
     cipher: ""
-    flow: ""
-    sni: do-tor1.008883.xyz
-  - name: 三网优化
-    server: freev2.cloudflare.182682.xyz
-    port: 443
+    sni: jp1-jp1.aiopen.sbs
+  - name: 最低月付2块钱1000G流量
     type: vless
-    uuid: 45fd3715-7426-4413-8eeb-dbe805be553a
+    server: 69.84.182.13
+    port: 443
+    uuid: 340dee85-bfd7-4395-8d2e-87dbc2781a13
+    udp: true
     tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-sgp1.008883.xyz
-    client-fingerprint: random
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: chrome
+    servername: jp1-jp1.aiopen.sbs
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /kbjc/jp1
       headers:
-        Host: do-sgp1.008883.xyz
+        Host: jp1-jp1.aiopen.sbs
     alterId: 0
     cipher: ""
-    flow: ""
-    sni: do-sgp1.008883.xyz
-  - name: 解锁gemini和ChatGPT
-    server: freeyx.cloudflare88.eu.org
-    port: 443
+    sni: jp1-jp1.aiopen.sbs
+  - name: 最高200元终身无限流量
     type: vless
-    uuid: 45fd3715-7426-4413-8eeb-dbe805be553a
+    server: 69.84.182.13
+    port: 443
+    uuid: 340dee85-bfd7-4395-8d2e-87dbc2781a13
+    udp: true
     tls: true
-    tfo: false
-    skip-cert-verify: true
-    servername: do-fra1.008883.xyz
-    client-fingerprint: random
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: chrome
     network: ws
     ws-opts:
-      path: /announcement?ed=2048
+      path: /kbjc/fr1
       headers:
-        Host: do-fra1.008883.xyz
+        Host: fr-1-fr-1.aiopen.sbs
     alterId: 0
     cipher: ""
-    flow: ""
-    sni: do-fra1.008883.xyz
 proxy-groups:
   - name: Haita Cloud
     type: select
@@ -145,36 +105,30 @@ proxy-groups:
       - 自动选择
       - 故障转移
       - 官网https://proxy.api.030101.xyz/kelayun.github.io
-      - 最低月付2块钱1000G
-      - 最高200元终身无限流量
       - 不限速不限设备
       - 新疆西藏福建可用
-      - 三网优化
-      - 解锁gemini和ChatGPT
+      - 最低月付2块钱1000G流量
+      - 最高200元终身无限流量
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
       - 官网https://proxy.api.030101.xyz/kelayun.github.io
-      - 最低月付2块钱1000G
-      - 最高200元终身无限流量
       - 不限速不限设备
       - 新疆西藏福建可用
-      - 三网优化
-      - 解锁gemini和ChatGPT
+      - 最低月付2块钱1000G流量
+      - 最高200元终身无限流量
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
       - 官网https://proxy.api.030101.xyz/kelayun.github.io
-      - 最低月付2块钱1000G
-      - 最高200元终身无限流量
       - 不限速不限设备
       - 新疆西藏福建可用
-      - 三网优化
-      - 解锁gemini和ChatGPT
+      - 最低月付2块钱1000G流量
+      - 最高200元终身无限流量
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
