@@ -5,130 +5,196 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 官网https://proxy.api.030101.xyz/kelayun.github.io
+  - name: 官网https://kelayun.notepin.co
     type: vless
-    server: 104.19.58.118
+    server: 129.153.71.226
     port: 443
-    uuid: 340dee85-bfd7-4395-8d2e-87dbc2781a13
+    uuid: d46056cf-da4e-4426-a3e4-39fcbfefa112
+    udp: true
+    tls: true
+    skip-cert-verify: null
+    flow: xtls-rprx-vision
+    client-fingerprint: ios
+    servername: iosapps.itunes.apple.com
+    reality-opts:
+      public-key: qkP2pqQ3NHNBkyzqsC2W9wChp3OfeXdVjOhUv8vQW0o
+      short-id: aac4df9d05a5ba8f
+    alterId: 0
+    cipher: ""
+    sni: iosapps.itunes.apple.com
+  - name: 最低月付2块钱1000G
+    type: vless
+    server: 63.141.128.188
+    port: 443
+    uuid: d46056cf-da4e-4426-a3e4-39fcbfefa112
     udp: true
     tls: true
     skip-cert-verify: null
     flow: ''
     client-fingerprint: chrome
-    servername: us1-us1.aiopen.sbs
+    servername: d2-us1.djwstlsweb.top
     network: ws
     ws-opts:
-      path: /kbjc/us1
+      path: /djjc/us1
       headers:
-        Host: us1-us1.aiopen.sbs
+        Host: d2-us1.djwstlsweb.top
     alterId: 0
     cipher: ""
-    sni: us1-us1.aiopen.sbs
-  - name: 不限速不限设备
-    type: vless
-    server: 104.19.58.118
-    port: 443
-    uuid: 340dee85-bfd7-4395-8d2e-87dbc2781a13
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: chrome
-    servername: us1-us1.aiopen.sbs
-    network: ws
-    ws-opts:
-      path: /kbjc/us1
-      headers:
-        Host: us1-us1.aiopen.sbs
-    alterId: 0
-    cipher: ""
-    sni: us1-us1.aiopen.sbs
-  - name: 新疆西藏福建可用
-    type: vless
-    server: 69.84.182.13
-    port: 443
-    uuid: 340dee85-bfd7-4395-8d2e-87dbc2781a13
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: chrome
-    servername: jp1-jp1.aiopen.sbs
-    network: ws
-    ws-opts:
-      path: /kbjc/jp1
-      headers:
-        Host: jp1-jp1.aiopen.sbs
-    alterId: 0
-    cipher: ""
-    sni: jp1-jp1.aiopen.sbs
-  - name: 最低月付2块钱1000G流量
-    type: vless
-    server: 69.84.182.13
-    port: 443
-    uuid: 340dee85-bfd7-4395-8d2e-87dbc2781a13
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: chrome
-    servername: jp1-jp1.aiopen.sbs
-    network: ws
-    ws-opts:
-      path: /kbjc/jp1
-      headers:
-        Host: jp1-jp1.aiopen.sbs
-    alterId: 0
-    cipher: ""
-    sni: jp1-jp1.aiopen.sbs
+    sni: d2-us1.djwstlsweb.top
   - name: 最高200元终身无限流量
     type: vless
-    server: 69.84.182.13
+    server: 63.141.128.188
     port: 443
-    uuid: 340dee85-bfd7-4395-8d2e-87dbc2781a13
+    uuid: d46056cf-da4e-4426-a3e4-39fcbfefa112
     udp: true
     tls: true
     skip-cert-verify: null
     flow: ''
-    client-fingerprint: chrome
+    client-fingerprint: ios
+    servername: d2-us3.djwstlsweb.top
     network: ws
     ws-opts:
-      path: /kbjc/fr1
+      path: /djjc/us3
       headers:
-        Host: fr-1-fr-1.aiopen.sbs
+        Host: d2-us3.djwstlsweb.top
     alterId: 0
     cipher: ""
+    sni: d2-us3.djwstlsweb.top
+  - name: 不限速
+    type: vless
+    server: 63.141.128.188
+    port: 443
+    uuid: d46056cf-da4e-4426-a3e4-39fcbfefa112
+    udp: true
+    tls: true
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: ios
+    servername: d2-us4.djwstlsweb.top
+    network: ws
+    ws-opts:
+      path: /djjc/us4
+      headers:
+        Host: d2-us4.djwstlsweb.top
+    alterId: 0
+    cipher: ""
+    sni: d2-us4.djwstlsweb.top
+  - name: 不限设备
+    type: vless
+    server: 63.141.128.188
+    port: 443
+    uuid: d46056cf-da4e-4426-a3e4-39fcbfefa112
+    udp: true
+    tls: true
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: safari
+    servername: d2-jp1.djwstlsweb.top
+    network: ws
+    ws-opts:
+      path: /djjc/jp1
+      headers:
+        Host: d2-jp1.djwstlsweb.top
+    alterId: 0
+    cipher: ""
+    sni: d2-jp1.djwstlsweb.top
+  - name: 不限地区
+    type: vless
+    server: 63.141.128.188
+    port: 443
+    uuid: d46056cf-da4e-4426-a3e4-39fcbfefa112
+    udp: true
+    tls: true
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: safari
+    servername: d2-jp2.djwstlsweb.top
+    network: ws
+    ws-opts:
+      path: /djjc/jp2
+      headers:
+        Host: d2-jp2.djwstlsweb.top
+    alterId: 0
+    cipher: ""
+    sni: d2-jp2.djwstlsweb.top
+  - name: 新疆西藏福建可用
+    type: vless
+    server: 63.141.128.188
+    port: 443
+    uuid: d46056cf-da4e-4426-a3e4-39fcbfefa112
+    udp: true
+    tls: true
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: ios
+    servername: d2-jp2.djwstlsweb.top
+    network: ws
+    ws-opts:
+      path: /djjc/jp2
+      headers:
+        Host: d2-jp2.djwstlsweb.top
+    alterId: 0
+    cipher: ""
+    sni: d2-jp2.djwstlsweb.top
+  - name: 解锁gemini和ChatGPT
+    type: vless
+    server: 63.141.128.188
+    port: 443
+    uuid: d46056cf-da4e-4426-a3e4-39fcbfefa112
+    udp: true
+    tls: true
+    skip-cert-verify: null
+    flow: ''
+    client-fingerprint: safari
+    servername: d2-jp2.djwstlsweb.top
+    network: ws
+    ws-opts:
+      path: /djjc/jp2
+      headers:
+        Host: d2-jp2.djwstlsweb.top
+    alterId: 0
+    cipher: ""
+    sni: d2-jp2.djwstlsweb.top
 proxy-groups:
   - name: Haita Cloud
     type: select
     proxies:
       - 自动选择
       - 故障转移
-      - 官网https://proxy.api.030101.xyz/kelayun.github.io
-      - 不限速不限设备
-      - 新疆西藏福建可用
-      - 最低月付2块钱1000G流量
+      - 官网https://kelayun.notepin.co
+      - 最低月付2块钱1000G
       - 最高200元终身无限流量
+      - 不限速
+      - 不限设备
+      - 不限地区
+      - 新疆西藏福建可用
+      - 解锁gemini和ChatGPT
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 86400
     proxies:
-      - 官网https://proxy.api.030101.xyz/kelayun.github.io
-      - 不限速不限设备
-      - 新疆西藏福建可用
-      - 最低月付2块钱1000G流量
+      - 官网https://kelayun.notepin.co
+      - 最低月付2块钱1000G
       - 最高200元终身无限流量
+      - 不限速
+      - 不限设备
+      - 不限地区
+      - 新疆西藏福建可用
+      - 解锁gemini和ChatGPT
   - name: 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 7200
     proxies:
-      - 官网https://proxy.api.030101.xyz/kelayun.github.io
-      - 不限速不限设备
-      - 新疆西藏福建可用
-      - 最低月付2块钱1000G流量
+      - 官网https://kelayun.notepin.co
+      - 最低月付2块钱1000G
       - 最高200元终身无限流量
+      - 不限速
+      - 不限设备
+      - 不限地区
+      - 新疆西藏福建可用
+      - 解锁gemini和ChatGPT
 rules:
   - DOMAIN,su.bestyuns.com,DIRECT
   - DOMAIN-SUFFIX,services.googleapis.cn,Haita Cloud
