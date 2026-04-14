@@ -21,7 +21,9 @@
 | 🐈‍⬛ | Github加速 | [进入](https://pyapk.github.io) | - |
 | 🔄 | 订阅转换 | [进入](https://stymei.cc.cd) | - |
 | 🔗 | 直链托管 | [进入](https://Jsnzkpg.github.io/Jsnzkpg) | - |
-| 🎧 | 音乐网 | [进入](https://Jsnzkpg.github.io/music) | - |
+| 🎧 | 音乐网站 | [进入](https://Jsnzkpg.github.io/music) | - |
+| 🔍 | 网盘搜索 | [进入](https://Jsnzkpg.github.io/pansou) | - |
+| 📭 | 临时邮箱 | [进入](https://Jsnzkpg.github.io/email) | - |
 | 🪜 | 节点订阅 | [原始](https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg) | [镜像](https://codeberg.org/Jsnzkpg/Jsnzkpg/raw/Jsnzkpg/Jsnzkpg) |
 | 📺 | IPTV订阅 | [原始](https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u) | [镜像](https://codeberg.org/Jsnzkpg/Jsnzkpg/raw/Jsnzkpg/Jsnzkpg1.m3u) |
 | 🎥 | TVbox订阅 | [原始](https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg2) | [镜像](https://codeberg.org/Jsnzkpg/Jsnzkpg/raw/Jsnzkpg/Jsnzkpg2) |
