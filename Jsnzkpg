@@ -5,251 +5,362 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 官网https://kelayun.notepin.co
+  - name: 🇺🇸美国洛杉矶1号
+    server: 208.87.242.105
+    port: 50000
+    ports: 50000-53000
+    mport: 50000-53000
+    udp: true
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    password: 8e8f0173-6426-4fed-94f6-580847c744f1
+  - name: 🇺🇸美国洛杉矶2号
+    server: 208.87.242.109
+    port: 50000
+    ports: 50000-53000
+    mport: 50000-53000
+    udp: true
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    password: 8e8f0173-6426-4fed-94f6-580847c744f1
+  - name: 🇺🇸美国洛杉矶3号
+    server: 208.87.242.163
+    port: 50000
+    ports: 50000-53000
+    mport: 50000-53000
+    udp: true
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    password: 8e8f0173-6426-4fed-94f6-580847c744f1
+  - name: 🇺🇸美国凤凰城1号
+    server: 129.153.90.9
+    port: 50000
+    ports: 50000-53000
+    mport: 50000-53000
+    udp: true
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: hysteria2
+    password: 8e8f0173-6426-4fed-94f6-580847c744f1
+  - name: 🇩🇪德国法兰克福2
+    server: 152.70.176.68
+    port: 1
+    udp: true
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    password: 8e8f0173-6426-4fed-94f6-580847c744f1
+  - name: 🇯🇵日本
+    server: 131.186.42.162
+    port: 50000
+    ports: 50000-53000
+    mport: 50000-53000
+    udp: true
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: hysteria2
+    password: 8e8f0173-6426-4fed-94f6-580847c744f1
+  - name: 🇭🇰香港1号
+    server: 103.197.71.97
+    port: 50000
+    ports: 50000-53000
+    mport: 50000-53000
+    udp: true
+    skip-cert-verify: true
+    sni: www.hoyoverse.com
+    type: hysteria2
+    password: 8e8f0173-6426-4fed-94f6-580847c744f1
+  - name: 🇭🇰香港2号
+    server: 103.197.71.98
+    port: 50000
+    ports: 50000-53000
+    mport: 50000-53000
+    udp: true
+    skip-cert-verify: true
+    sni: www.hoyoverse.com
+    type: hysteria2
+    password: 8e8f0173-6426-4fed-94f6-580847c744f1
+  - name: 🇭🇰香港3号
+    server: 103.197.71.119
+    port: 50000
+    ports: 50000-53000
+    mport: 50000-53000
+    udp: true
+    skip-cert-verify: true
+    sni: www.hoyoverse.com
+    type: hysteria2
+    password: 8e8f0173-6426-4fed-94f6-580847c744f1
+  - name: 🇲🇽墨西哥克雷塔罗
+    server: 140.84.178.54
+    port: 50000
+    ports: 50000-53000
+    mport: 50000-53000
+    udp: true
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: hysteria2
+    password: 8e8f0173-6426-4fed-94f6-580847c744f1
+  - name: 🇯🇵日本1号 三网高速
     type: vless
-    server: 129.153.71.226
+    server: c8217-b2a.h2.49d2.dje11.1.b297.djjsvip.cfd
     port: 443
     uuid: 8e8f0173-6426-4fed-94f6-580847c744f1
     udp: true
     tls: true
-    skip-cert-verify: null
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: ios
+    servername: iosapps.itunes.apple.com
+    reality-opts:
+      public-key: DGzXhLIUE3NQXX-IVo5YCSeANn1vECVBdnw7dtC0sTQ
+      short-id: 92388f50ce26394f
+  - name: 🇯🇵日本2号 三网高速
+    type: vless
+    server: c8217-b2a.h2.49d2.dje11.1.b297.djjsvip.cfd
+    port: 443
+    uuid: 8e8f0173-6426-4fed-94f6-580847c744f1
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: ios
+    servername: iosapps.itunes.apple.com
+    reality-opts:
+      public-key: DGzXhLIUE3NQXX-IVo5YCSeANn1vECVBdnw7dtC0sTQ
+      short-id: 92388f50ce26394f
+  - name: 🇯🇵日本3号 三网高速
+    type: vless
+    server: c8217-b2a.h2.49d2.dje11.1.b297.djjsvip.cfd
+    port: 443
+    uuid: 8e8f0173-6426-4fed-94f6-580847c744f1
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+    client-fingerprint: ios
+    servername: iosapps.itunes.apple.com
+    reality-opts:
+      public-key: DGzXhLIUE3NQXX-IVo5YCSeANn1vECVBdnw7dtC0sTQ
+      short-id: 92388f50ce26394f
+  - name: 🇩🇪德国
+    type: vless
+    server: 63.141.128.188
+    port: 443
+    uuid: 8e8f0173-6426-4fed-94f6-580847c744f1
+    udp: true
+    tls: true
+    skip-cert-verify: false
+    flow: ''
+    client-fingerprint: ios
+    servername: d2-de1.djwstlsweb.top
+    network: ws
+    ws-opts:
+      path: /djjc/de1
+      headers:
+        Host: d2-de1.djwstlsweb.top
+  - name: 🇬🇧英国伦敦-1倍
+    type: vless
+    server: 132.145.62.88
+    port: 443
+    uuid: 8e8f0173-6426-4fed-94f6-580847c744f1
+    udp: true
+    tls: true
+    skip-cert-verify: false
     flow: xtls-rprx-vision
     client-fingerprint: ios
     servername: iosapps.itunes.apple.com
     reality-opts:
       public-key: qkP2pqQ3NHNBkyzqsC2W9wChp3OfeXdVjOhUv8vQW0o
       short-id: aac4df9d05a5ba8f
-    alterId: 0
-    cipher: ""
-    sni: iosapps.itunes.apple.com
-  - name: 机场https://kelayun.notepin.co
+  - name: 🇹🇼台湾—TK专线
     type: vless
-    server: 63.141.128.188
+    server: c8217-b2a.h1.49d2.5e11.613.b297.djjsvip.cfd
     port: 443
     uuid: 8e8f0173-6426-4fed-94f6-580847c744f1
     udp: true
     tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: chrome
-    servername: d2-us1.djwstlsweb.top
-    network: ws
-    ws-opts:
-      path: /djjc/us1
-      headers:
-        Host: d2-us1.djwstlsweb.top
-    alterId: 0
-    cipher: ""
-    sni: d2-us1.djwstlsweb.top
-  - name: 购买地址https://kelayun.notepin.co
-    type: vless
-    server: 63.141.128.188
-    port: 443
-    uuid: 8e8f0173-6426-4fed-94f6-580847c744f1
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: ios
-    servername: d2-us3.djwstlsweb.top
-    network: ws
-    ws-opts:
-      path: /djjc/us3
-      headers:
-        Host: d2-us3.djwstlsweb.top
-    alterId: 0
-    cipher: ""
-    sni: d2-us3.djwstlsweb.top
-  - name: 梯子https://kelayun.notepin.co
-    type: vless
-    server: 63.141.128.188
-    port: 443
-    uuid: 8e8f0173-6426-4fed-94f6-580847c744f1
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: ios
-    servername: d2-us4.djwstlsweb.top
-    network: ws
-    ws-opts:
-      path: /djjc/us4
-      headers:
-        Host: d2-us4.djwstlsweb.top
-    alterId: 0
-    cipher: ""
-    sni: d2-us4.djwstlsweb.top
-  - name: 最低月付2块钱1000G
-    type: vless
-    server: 63.141.128.188
-    port: 443
-    uuid: 8e8f0173-6426-4fed-94f6-580847c744f1
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: ''
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
     client-fingerprint: safari
-    servername: d2-jp1.djwstlsweb.top
-    network: ws
-    ws-opts:
-      path: /djjc/jp1
-      headers:
-        Host: d2-jp1.djwstlsweb.top
-    alterId: 0
-    cipher: ""
-    sni: d2-jp1.djwstlsweb.top
-  - name: 最高200元终身无限流量
+    servername: www.microsoft.com
+    reality-opts:
+      public-key: -QnsFApdhq1l1d2h302qhAs7usDdWLBTAOeMH54dwmU
+      short-id: c2bdc032
+  - name: 🇮🇳印度孟买
     type: vless
-    server: 63.141.128.188
+    server: 141.148.207.7
     port: 443
     uuid: 8e8f0173-6426-4fed-94f6-580847c744f1
     udp: true
     tls: true
-    skip-cert-verify: null
-    flow: ''
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
     client-fingerprint: safari
-    servername: d2-jp2.djwstlsweb.top
-    network: ws
-    ws-opts:
-      path: /djjc/jp2
-      headers:
-        Host: d2-jp2.djwstlsweb.top
-    alterId: 0
-    cipher: ""
-    sni: d2-jp2.djwstlsweb.top
-  - name: 不限速不限设备不限地区
-    type: vless
-    server: 63.141.128.188
-    port: 443
-    uuid: 8e8f0173-6426-4fed-94f6-580847c744f1
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: ios
-    servername: d2-jp2.djwstlsweb.top
-    network: ws
-    ws-opts:
-      path: /djjc/jp2
-      headers:
-        Host: d2-jp2.djwstlsweb.top
-    alterId: 0
-    cipher: ""
-    sni: d2-jp2.djwstlsweb.top
-  - name: 新疆西藏福建可用
-    type: vless
-    server: 63.141.128.188
-    port: 443
-    uuid: 8e8f0173-6426-4fed-94f6-580847c744f1
-    udp: true
-    tls: true
-    skip-cert-verify: null
-    flow: ''
-    client-fingerprint: safari
-    servername: d2-jp2.djwstlsweb.top
-    network: ws
-    ws-opts:
-      path: /djjc/jp2
-      headers:
-        Host: d2-jp2.djwstlsweb.top
-    alterId: 0
-    cipher: ""
-    sni: d2-jp2.djwstlsweb.top
+    servername: musicstatus.apps.apple.com
+    reality-opts:
+      public-key: qkP2pqQ3NHNBkyzqsC2W9wChp3OfeXdVjOhUv8vQW0o
+      short-id: aac4df9d05a5ba8f
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 官网https://kelayun.notepin.co
-      - 机场https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 梯子https://kelayun.notepin.co
-      - 最低月付2块钱1000G
-      - 最高200元终身无限流量
-      - 不限速不限设备不限地区
-      - 新疆西藏福建可用
+      - 🇺🇸美国洛杉矶1号
+      - 🇺🇸美国洛杉矶2号
+      - 🇺🇸美国洛杉矶3号
+      - 🇺🇸美国凤凰城1号
+      - 🇩🇪德国法兰克福2
+      - 🇯🇵日本
+      - 🇭🇰香港1号
+      - 🇭🇰香港2号
+      - 🇭🇰香港3号
+      - 🇲🇽墨西哥克雷塔罗
+      - 🇯🇵日本1号 三网高速
+      - 🇯🇵日本2号 三网高速
+      - 🇯🇵日本3号 三网高速
+      - 🇩🇪德国
+      - 🇬🇧英国伦敦-1倍
+      - 🇹🇼台湾—TK专线
+      - 🇮🇳印度孟买
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 官网https://kelayun.notepin.co
-      - 机场https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 梯子https://kelayun.notepin.co
-      - 最低月付2块钱1000G
-      - 最高200元终身无限流量
-      - 不限速不限设备不限地区
-      - 新疆西藏福建可用
+      - 🇺🇸美国洛杉矶1号
+      - 🇺🇸美国洛杉矶2号
+      - 🇺🇸美国洛杉矶3号
+      - 🇺🇸美国凤凰城1号
+      - 🇩🇪德国法兰克福2
+      - 🇯🇵日本
+      - 🇭🇰香港1号
+      - 🇭🇰香港2号
+      - 🇭🇰香港3号
+      - 🇲🇽墨西哥克雷塔罗
+      - 🇯🇵日本1号 三网高速
+      - 🇯🇵日本2号 三网高速
+      - 🇯🇵日本3号 三网高速
+      - 🇩🇪德国
+      - 🇬🇧英国伦敦-1倍
+      - 🇹🇼台湾—TK专线
+      - 🇮🇳印度孟买
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 官网https://kelayun.notepin.co
-      - 机场https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 梯子https://kelayun.notepin.co
-      - 最低月付2块钱1000G
-      - 最高200元终身无限流量
-      - 不限速不限设备不限地区
-      - 新疆西藏福建可用
+      - 🇺🇸美国洛杉矶1号
+      - 🇺🇸美国洛杉矶2号
+      - 🇺🇸美国洛杉矶3号
+      - 🇺🇸美国凤凰城1号
+      - 🇩🇪德国法兰克福2
+      - 🇯🇵日本
+      - 🇭🇰香港1号
+      - 🇭🇰香港2号
+      - 🇭🇰香港3号
+      - 🇲🇽墨西哥克雷塔罗
+      - 🇯🇵日本1号 三网高速
+      - 🇯🇵日本2号 三网高速
+      - 🇯🇵日本3号 三网高速
+      - 🇩🇪德国
+      - 🇬🇧英国伦敦-1倍
+      - 🇹🇼台湾—TK专线
+      - 🇮🇳印度孟买
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 官网https://kelayun.notepin.co
-      - 机场https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 梯子https://kelayun.notepin.co
-      - 最低月付2块钱1000G
-      - 最高200元终身无限流量
-      - 不限速不限设备不限地区
-      - 新疆西藏福建可用
+      - 🇺🇸美国洛杉矶1号
+      - 🇺🇸美国洛杉矶2号
+      - 🇺🇸美国洛杉矶3号
+      - 🇺🇸美国凤凰城1号
+      - 🇩🇪德国法兰克福2
+      - 🇯🇵日本
+      - 🇭🇰香港1号
+      - 🇭🇰香港2号
+      - 🇭🇰香港3号
+      - 🇲🇽墨西哥克雷塔罗
+      - 🇯🇵日本1号 三网高速
+      - 🇯🇵日本2号 三网高速
+      - 🇯🇵日本3号 三网高速
+      - 🇩🇪德国
+      - 🇬🇧英国伦敦-1倍
+      - 🇹🇼台湾—TK专线
+      - 🇮🇳印度孟买
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 官网https://kelayun.notepin.co
-      - 机场https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 梯子https://kelayun.notepin.co
-      - 最低月付2块钱1000G
-      - 最高200元终身无限流量
-      - 不限速不限设备不限地区
-      - 新疆西藏福建可用
+      - 🇺🇸美国洛杉矶1号
+      - 🇺🇸美国洛杉矶2号
+      - 🇺🇸美国洛杉矶3号
+      - 🇺🇸美国凤凰城1号
+      - 🇩🇪德国法兰克福2
+      - 🇯🇵日本
+      - 🇭🇰香港1号
+      - 🇭🇰香港2号
+      - 🇭🇰香港3号
+      - 🇲🇽墨西哥克雷塔罗
+      - 🇯🇵日本1号 三网高速
+      - 🇯🇵日本2号 三网高速
+      - 🇯🇵日本3号 三网高速
+      - 🇩🇪德国
+      - 🇬🇧英国伦敦-1倍
+      - 🇹🇼台湾—TK专线
+      - 🇮🇳印度孟买
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 官网https://kelayun.notepin.co
-      - 机场https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 梯子https://kelayun.notepin.co
-      - 最低月付2块钱1000G
-      - 最高200元终身无限流量
-      - 不限速不限设备不限地区
-      - 新疆西藏福建可用
+      - 🇺🇸美国洛杉矶1号
+      - 🇺🇸美国洛杉矶2号
+      - 🇺🇸美国洛杉矶3号
+      - 🇺🇸美国凤凰城1号
+      - 🇩🇪德国法兰克福2
+      - 🇯🇵日本
+      - 🇭🇰香港1号
+      - 🇭🇰香港2号
+      - 🇭🇰香港3号
+      - 🇲🇽墨西哥克雷塔罗
+      - 🇯🇵日本1号 三网高速
+      - 🇯🇵日本2号 三网高速
+      - 🇯🇵日本3号 三网高速
+      - 🇩🇪德国
+      - 🇬🇧英国伦敦-1倍
+      - 🇹🇼台湾—TK专线
+      - 🇮🇳印度孟买
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 官网https://kelayun.notepin.co
-      - 机场https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 梯子https://kelayun.notepin.co
-      - 最低月付2块钱1000G
-      - 最高200元终身无限流量
-      - 不限速不限设备不限地区
-      - 新疆西藏福建可用
+      - 🇺🇸美国洛杉矶1号
+      - 🇺🇸美国洛杉矶2号
+      - 🇺🇸美国洛杉矶3号
+      - 🇺🇸美国凤凰城1号
+      - 🇩🇪德国法兰克福2
+      - 🇯🇵日本
+      - 🇭🇰香港1号
+      - 🇭🇰香港2号
+      - 🇭🇰香港3号
+      - 🇲🇽墨西哥克雷塔罗
+      - 🇯🇵日本1号 三网高速
+      - 🇯🇵日本2号 三网高速
+      - 🇯🇵日本3号 三网高速
+      - 🇩🇪德国
+      - 🇬🇧英国伦敦-1倍
+      - 🇹🇼台湾—TK专线
+      - 🇮🇳印度孟买
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -277,14 +388,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 官网https://kelayun.notepin.co
-      - 机场https://kelayun.notepin.co
-      - 购买地址https://kelayun.notepin.co
-      - 梯子https://kelayun.notepin.co
-      - 最低月付2块钱1000G
-      - 最高200元终身无限流量
-      - 不限速不限设备不限地区
-      - 新疆西藏福建可用
+      - 🇺🇸美国洛杉矶1号
+      - 🇺🇸美国洛杉矶2号
+      - 🇺🇸美国洛杉矶3号
+      - 🇺🇸美国凤凰城1号
+      - 🇩🇪德国法兰克福2
+      - 🇯🇵日本
+      - 🇭🇰香港1号
+      - 🇭🇰香港2号
+      - 🇭🇰香港3号
+      - 🇲🇽墨西哥克雷塔罗
+      - 🇯🇵日本1号 三网高速
+      - 🇯🇵日本2号 三网高速
+      - 🇯🇵日本3号 三网高速
+      - 🇩🇪德国
+      - 🇬🇧英国伦敦-1倍
+      - 🇹🇼台湾—TK专线
+      - 🇮🇳印度孟买
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
