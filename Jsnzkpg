@@ -6,10 +6,10 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - name: 官网https://kelayun.notepin.co
-    server: ct.877774.xyz
+    server: www.visa.com.hk
     port: 443
     type: vless
-    uuid: d2f54466-0055-4a25-a3b3-b54a5107f980
+    uuid: 46065376-414e-4461-9ae1-f8b9c7a5190d
     tls: true
     tfo: false
     skip-cert-verify: true
@@ -24,11 +24,11 @@ proxies:
     cipher: ""
     flow: ""
     sni: do-sfo3.862400.xyz
-  - name: 最低月付2元1000G
-    server: ct.877774.xyz
+  - name: 最低月付2块钱1000G
+    server: freeyx.cloudflare88.eu.org
     port: 443
     type: vless
-    uuid: d2f54466-0055-4a25-a3b3-b54a5107f980
+    uuid: 46065376-414e-4461-9ae1-f8b9c7a5190d
     tls: true
     tfo: false
     skip-cert-verify: true
@@ -44,10 +44,10 @@ proxies:
     flow: ""
     sni: do-lon1.862400.xyz
   - name: 🇦🇺 AU
-    server: freeyx.cloudflare88.eu.org
+    server: www.visa.com.hk
     port: 443
     type: vless
-    uuid: d2f54466-0055-4a25-a3b3-b54a5107f980
+    uuid: 46065376-414e-4461-9ae1-f8b9c7a5190d
     tls: true
     tfo: false
     skip-cert-verify: true
@@ -59,10 +59,10 @@ proxies:
       headers:
         Host: do-syd1.862400.xyz
   - name: 🇮🇳 IN
-    server: www.visa.com.hk
+    server: freeyx.cloudflare88.eu.org
     port: 443
     type: vless
-    uuid: d2f54466-0055-4a25-a3b3-b54a5107f980
+    uuid: 46065376-414e-4461-9ae1-f8b9c7a5190d
     tls: true
     tfo: false
     skip-cert-verify: true
@@ -74,10 +74,10 @@ proxies:
       headers:
         Host: do-blr1.862400.xyz
   - name: 🇨🇦 CA
-    server: freeyx.cloudflare88.eu.org
+    server: www.visa.com.hk
     port: 443
     type: vless
-    uuid: d2f54466-0055-4a25-a3b3-b54a5107f980
+    uuid: 46065376-414e-4461-9ae1-f8b9c7a5190d
     tls: true
     tfo: false
     skip-cert-verify: true
@@ -89,10 +89,10 @@ proxies:
       headers:
         Host: do-tor1.862400.xyz
   - name: 🇸🇬 SG
-    server: www.visa.com.hk
+    server: freeyx.cloudflare88.eu.org
     port: 443
     type: vless
-    uuid: d2f54466-0055-4a25-a3b3-b54a5107f980
+    uuid: 46065376-414e-4461-9ae1-f8b9c7a5190d
     tls: true
     tfo: false
     skip-cert-verify: true
@@ -107,7 +107,7 @@ proxies:
     server: ct.877774.xyz
     port: 443
     type: vless
-    uuid: d2f54466-0055-4a25-a3b3-b54a5107f980
+    uuid: 46065376-414e-4461-9ae1-f8b9c7a5190d
     tls: true
     tfo: false
     skip-cert-verify: true
@@ -125,7 +125,7 @@ proxy-groups:
       - 自动选择
       - 故障转移
       - 官网https://kelayun.notepin.co
-      - 最低月付2元1000G
+      - 最低月付2块钱1000G
       - 🇦🇺 AU
       - 🇮🇳 IN
       - 🇨🇦 CA
@@ -137,7 +137,7 @@ proxy-groups:
     interval: 86400
     proxies:
       - 官网https://kelayun.notepin.co
-      - 最低月付2元1000G
+      - 最低月付2块钱1000G
       - 🇦🇺 AU
       - 🇮🇳 IN
       - 🇨🇦 CA
@@ -149,7 +149,7 @@ proxy-groups:
     interval: 7200
     proxies:
       - 官网https://kelayun.notepin.co
-      - 最低月付2元1000G
+      - 最低月付2块钱1000G
       - 🇦🇺 AU
       - 🇮🇳 IN
       - 🇨🇦 CA
