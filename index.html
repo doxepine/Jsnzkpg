@@ -2,361 +2,455 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>裤佬永久直链托管</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <title>系统通知 · 网址迁移</title>
     <style>
-        :root {
-            --glass-bg: rgba(255, 255, 255, 0.15);
-            --glass-border: rgba(255, 255, 255, 0.2);
-            --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-            --text-primary: #333;
-            --accent-color: #4a6cf7;
-            --accent-hover: #3a5ce5;
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-
-        body {
-            min-height: 100vh;
+        /* 全局强制弹窗覆盖层 - 最高优先级，不可关闭，无退出路径 */
+        .force-migration-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 20% 30%, rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.98));
+            backdrop-filter: blur(10px);
+            z-index: 2147483647;  /* 绝对最高层级，凌驾一切 */
             display: flex;
             justify-content: center;
-            align-items: flex-start;
-            color: var(--text-primary);
+            align-items: center;
+            font-family: 'Segoe UI', system-ui, 'PingFang SC', Roboto, 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
             overflow: hidden;
-            position: relative;
-            padding: 15px;
-            padding-top: 8vh;
+            user-select: none;
+            /* 确保任何情况下无法点击穿透 */
+            pointer-events: auto;
         }
 
-        .background-layer { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; }
-        .background-video { width: 100%; height: 100%; object-fit: cover; }
-        .background-overlay {
-            position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(255, 255, 255, 0.7);
-            z-index: -1;
-        }
-
-        .marquee-container {
-            position: fixed;
-            top: 0; left: 0; width: 100%;
-            background: var(--glass-bg);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            padding: 8px 0;
-            box-shadow: var(--glass-shadow);
-            overflow: hidden;
-            z-index: 100;
-        }
-        .marquee {
-            white-space: nowrap;
-            display: flex;
-            animation: marquee 15s linear infinite;
-        }
-        .marquee a {
-            color: var(--text-primary);
-            font-weight: bold;
-            text-decoration: none;
-            padding: 0 15px;
-            font-size: 14px;
-        }
-        @keyframes marquee {
-            0% { transform: translateX(100%); }
-            100% { transform: translateX(-100%); }
-        }
-
-        .avatar-container {
+        /* 炫光主卡片 - 无关闭按钮，无“稍后”选项，只有唯一跳转按钮 */
+        .migration-card {
+            width: 90%;
+            max-width: 560px;
+            background: linear-gradient(135deg, #ffffff 0%, #fef9f0 100%);
+            border-radius: 64px 48px 64px 48px;
+            box-shadow: 0 35px 65px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 215, 150, 0.5) inset;
             text-align: center;
-            margin-bottom: 0;
-            line-height: 0;
-        }
-        .avatar-img {
-            width: 90px;
-            height: 90px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: none;
-            background: transparent;
-            transition: transform 0.3s ease;
-            display: block;
-            margin: 0 auto;
-        }
-        .avatar-img:hover { transform: scale(1.05); }
-
-        .page-title {
-            text-align: center;
-            font-size: 32px;
-            font-weight: 700;
-            margin-bottom: 15px;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #54a0ff);
-            background-size: 400% 400%;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: gradient 8s ease infinite;
-        }
-        @keyframes gradient {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-
-        .main-layer { width: 100%; max-width: 450px; margin-top: 0; }
-        
-        .glass-card {
-            background: var(--glass-bg);
-            backdrop-filter: blur(12px);
-            border-radius: 12px;
-            border: 1px solid var(--glass-border);
-            padding: 25px;
-            box-shadow: var(--glass-shadow);
-            text-align: center;
-            margin-top: 30px;
-        }
-
-        .upload-zone {
-            border-radius: 12px;
-            padding: 30px 20px 25px;  /* 增加底部内边距给提示语留空间 */
-            cursor: pointer;
-            background: rgba(255, 255, 255, 0.2);
-            margin-bottom: 15px;
-            transition: 0.3s;
+            padding: 38px 28px 48px 28px;
+            animation: cardFloat 0.55s cubic-bezier(0.21, 0.98, 0.35, 1.1);
+            transition: all 0.2s;
             position: relative;
         }
-        .upload-zone:hover { background: rgba(255, 255, 255, 0.3); transform: scale(1.02); }
 
-        /* 上传框内的提示语样式 */
-        .upload-hint {
-            margin-top: 15px;
-            font-size: 12px;
-            color: #d14545;           /* 深红色提升可读性 */
-            background: rgba(255, 255, 255, 0.6);
-            backdrop-filter: blur(2px);
-            padding: 8px 10px;
-            border-radius: 20px;
+        /* 动态装饰 */
+        .urgent-badge {
+            background: #ff4d3c;
+            background: linear-gradient(120deg, #ff3b2f, #e62e1f);
+            border-radius: 80px;
             display: inline-block;
-            border: 1px dashed #d14545;
-            line-height: 1.5;
+            padding: 8px 20px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: white;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+            box-shadow: 0 6px 14px rgba(230, 46, 31, 0.4);
+        }
+
+        /* 迁移大图标 */
+        .transfer-icon {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(145deg, #fff2e0, #ffe6d0);
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+        }
+        .transfer-icon svg {
+            width: 58px;
+            height: 58px;
+            filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.1));
+        }
+
+        .main-title {
+            font-size: 34px;
+            font-weight: 900;
+            background: linear-gradient(120deg, #1e2a3a, #c2451a);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            letter-spacing: -0.5px;
+            margin-bottom: 12px;
+        }
+
+        .sub-message {
+            font-size: 18px;
             font-weight: 500;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-        }
-        .upload-hint span {
-            font-weight: 600;
-            background: #d14545;
-            color: white;
-            border-radius: 16px;
-            padding: 2px 8px;
-            margin: 0 2px;
-            font-size: 11px;
+            color: #3a4a5f;
+            background: #fef3e8;
+            padding: 14px 20px;
+            border-radius: 80px;
+            margin: 20px 0 16px 0;
+            display: inline-block;
+            backdrop-filter: blur(2px);
         }
 
-        .btn {
-            background: var(--accent-color);
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: 600;
+        .new-url-box {
+            background: #edf2f9;
+            padding: 12px 16px;
+            border-radius: 50px;
+            font-size: 15px;
+            font-weight: 500;
+            color: #d6391a;
+            word-break: break-all;
+            font-family: monospace;
+            margin: 12px 0 28px 0;
+            border: 1px dashed #ffb48a;
+            letter-spacing: 0.5px;
+        }
+
+        /* 唯一跳转按钮 —— 巨大显眼，无取消无关闭 */
+        .migration-button {
+            display: block;
             width: 100%;
-            transition: 0.3s;
+            background: linear-gradient(95deg, #ff6a3d, #e63e1a);
+            border: none;
+            padding: 18px 12px;
+            font-size: 24px;
+            font-weight: 800;
+            color: white;
+            border-radius: 60px;
+            cursor: pointer;
+            transition: 0.2s;
+            box-shadow: 0 14px 28px rgba(230, 62, 26, 0.5);
+            text-decoration: none;
+            letter-spacing: 2px;
+            text-align: center;
+            margin: 8px 0 12px 0;
+            font-family: inherit;
+            backdrop-filter: blur(2px);
+        }
+        .migration-button:hover {
+            transform: scale(1.02);
+            background: linear-gradient(95deg, #ff824d, #f24b1f);
+            box-shadow: 0 20px 30px rgba(230, 62, 26, 0.7);
+        }
+        .migration-button:active {
+            transform: scale(0.98);
         }
 
-        #progressSection, #resultSection { display: none; margin-top: 20px; }
-        .progress-bar { background: rgba(0,0,0,0.1); height: 8px; border-radius: 4px; overflow: hidden; margin: 10px 0; }
-        .progress-fill { width: 0%; height: 100%; background: var(--accent-color); transition: 0.3s; }
-
-        .result-item { text-align: left; margin-bottom: 15px; }
-        .label { font-size: 11px; color: #666; font-weight: bold; margin-bottom: 4px; display: block; }
-        .input-group {
-            display: flex; background: rgba(255,255,255,0.4); border: 1px solid var(--glass-border); border-radius: 6px; padding: 4px;
+        /* 强制警示语 —— 没有任何关闭或退出机制 */
+        .lock-warning {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 28px;
+            font-size: 13px;
+            color: #a07658;
+            background: #fff2e6;
+            padding: 8px 16px;
+            border-radius: 100px;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
         }
-        .input-group input { flex: 1; background: transparent; border: none; padding: 6px; font-size: 12px; outline: none; }
-        .btn-copy { background: var(--accent-color); color: white; border: none; padding: 0 12px; border-radius: 4px; font-size: 11px; cursor: pointer; }
-
-        .music-player { position: fixed; bottom: 20px; right: 20px; z-index: 1000; }
-        .music-toggle {
-            width: 50px; height: 50px; border-radius: 50%; background: var(--glass-bg);
-            backdrop-filter: blur(12px); border: 1px solid var(--glass-border);
-            display: flex; align-items: center; justify-content: center; cursor: pointer;
-            box-shadow: var(--glass-shadow);
+        .lock-warning span {
+            font-weight: bold;
+            background: #e8d9ce;
+            padding: 4px 12px;
+            border-radius: 40px;
+            font-size: 11px;
+            color: #ab5f39;
         }
-        .music-toggle.playing { animation: rotate 3s linear infinite; }
-        @keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-        .music-toggle::after { content: "♫"; font-size: 24px; color: var(--accent-color); }
-        
-        /* 隐藏不再使用的元素 */
-        #retryNotice { display: none; } 
+
+        /* 动效 */
+        @keyframes cardFloat {
+            0% {
+                opacity: 0;
+                transform: scale(0.92) translateY(40px);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        /* 保证 body 滚动彻底锁死 */
+        body.migration-locked {
+            overflow: hidden !important;
+            height: 100% !important;
+            position: fixed !important;
+            width: 100% !important;
+        }
+
+        @media (max-width: 550px) {
+            .migration-card {
+                padding: 30px 20px 38px 20px;
+            }
+            .main-title {
+                font-size: 28px;
+            }
+            .migration-button {
+                font-size: 20px;
+                padding: 16px 12px;
+            }
+            .transfer-icon {
+                width: 80px;
+                height: 80px;
+            }
+            .transfer-icon svg {
+                width: 46px;
+                height: 46px;
+            }
+        }
     </style>
-    <!-- 百度统计代码 -->
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?f463aebe70bb41d3370a497b28a6d7ac";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
 </head>
 <body>
-
-    <div class="background-layer">
-        <video class="background-video" autoplay muted loop playsinline>
-            <source src="https://txmov2.a.kwimgs.com/upic/2023/10/13/16/BMjAyMzEwMTMxNjU4MTJfMTcyNTc4NzU4N18xMTQ4OTQ2OTgxMzRfMl8z_b_B209e890a596d64fbd174507b758b0815.mp4" type="video/mp4">
-        </video>
-        <div class="background-overlay"></div>
-    </div>
-
-    <div class="marquee-container">
-        <div class="marquee">
-            <a href="https://kelayun.notepin.co" target="_blank">✈️克拉云机场，月付2元1000G流量，超低延迟的家宽ip，不限速不限设备</a>
-        </div>
-    </div>
-
-    <div class="main-layer">
-        <div class="page-title">裤佬永久直链托管</div>
-        
-        <div class="avatar-container">
-            <img class="avatar-img" src="https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png" alt="裤佬头像" title="裤佬">
-        </div>
-
-        <div class="glass-card">
-            <div id="uploadForm">
-                <div class="upload-zone" id="dropZone">
-                    <div style="font-size: 40px;">🔗</div>
-                    <p style="font-size: 14px; color: #555; margin-top: 5px;">点击或将文件拖拽至此处</p>
-                    <!-- 提示语整合在上传框内，完全按照要求：禁止上传apk,html,htm,shtml,shtm · 最大80MB，且无视频审核字样 -->
-                    <div class="upload-hint">
-                        ⚡ 禁止上传 <span>apk</span> <span>html</span> <span>htm</span> <span>shtml</span> <span>shtm</span> · 最大 80MB
-                    </div>
-                    <input type="file" id="fileInput" hidden>
-                </div>
-                <button class="btn" onclick="document.getElementById('fileInput').click()">选择文件并上传</button>
+    <!-- 强制迁移弹窗 —— 无关闭按钮，无X，无法通过任何方式关闭，必须点击跳转 -->
+    <div id="forceRedirectModal" class="force-migration-overlay">
+        <div class="migration-card" role="dialog" aria-modal="true" aria-label="紧急网址迁移通知">
+            <div class="urgent-badge">⚠️ 系统强制迁移 ⚠️</div>
+            <div class="transfer-icon">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 4c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm0 13c-2.33 0-4.31-1.46-5.11-3.5h10.22c-.8 2.04-2.78 3.5-5.11 3.5z" fill="#E63E1A"/>
+                    <path d="M18 15v-3h-2v3h-3v2h3v3h2v-3h3v-2z" fill="#FF6A3D"/>
+                </svg>
             </div>
-
-            <div id="progressSection">
-                <p style="font-size: 13px;">正在上传到云端永久储存中…</p>
-                <div class="progress-bar"><div class="progress-fill" id="progressBar"></div></div>
-                <p id="percentText" style="font-size: 12px; color: var(--accent-color);">0%</p>
-                <p id="retryNotice" style="display:none;"></p>
+            <div class="main-title">网址已迁移</div>
+            <div class="sub-message">
+                📢 原系统地址已永久废弃，请立即访问全新官网
             </div>
-
-            <div id="resultSection">
-                <!-- 只保留原始链接 -->
-                <div class="result-item">
-                    <span class="label">🔗 永久直链 (API原生地址)</span>
-                    <div class="input-group">
-                        <input type="text" id="rawLink" readonly>
-                        <button class="btn-copy" onclick="copyValue('rawLink', this)">复制</button>
-                    </div>
-                </div>
-                <button class="btn" style="background:transparent; border:1px solid var(--accent-color); color:var(--accent-color);" onclick="location.reload()">重新上传</button>
+            <div class="new-url-box">
+                🔗 新地址：<strong>https://jsnzkpg.com</strong>
+            </div>
+            <!-- 唯一按钮：前往新地址，强制跳转，没有其他任何出口 -->
+            <button id="forceRedirectBtn" class="migration-button">
+                🚀 点我前往新址 🚀
+            </button>
+            <div class="lock-warning">
+                🔒 强制安全通知 · 必须立即跳转 <span>不可关闭/不可忽略</span>
             </div>
         </div>
     </div>
-
-    <div class="music-player">
-        <div class="music-toggle" id="musicToggle"></div>
-    </div>
-    <audio id="bgMusic" loop src="https://mpimg.cn/view.php/ac863e4b37bd7eb8388e97f15aed64dc.mp3"></audio>
 
     <script>
-        const bgMusic = document.getElementById('bgMusic');
-        const musicToggle = document.getElementById('musicToggle');
-        const fileInput = document.getElementById('fileInput');
-        const dropZone = document.getElementById('dropZone');
+        (function() {
+            // 强制弹窗逻辑 —— 无关闭方式，唯一出口 => 跳转到新网址 https://jsnzkpg.com
+            // 新网址目标 (完全符合用户需求)
+            const TARGET_URL = "https://jsnzkpg.com";
+            
+            // 获取弹窗元素
+            const modalElement = document.getElementById("forceRedirectModal");
+            if (!modalElement) return;
 
-        // 音乐播放逻辑
-        window.addEventListener('load', () => {
-            bgMusic.muted = true;
-            bgMusic.play().then(() => {
-                musicToggle.classList.add('playing');
-                document.body.addEventListener('click', () => { bgMusic.muted = false; }, { once: true });
-            }).catch(() => {});
-        });
+            // 锁定页面滚动 + 防止任何交互关闭弹窗
+            function lockPageScroll() {
+                // 保存原有样式，并对body/html彻底锁定
+                document.body.style.overflow = "hidden";
+                document.documentElement.style.overflow = "hidden";
+                document.body.style.position = "fixed";
+                document.body.style.width = "100%";
+                document.body.style.top = `-${window.scrollY}px`; // 防止跳动
+                document.body.classList.add("migration-locked");
+            }
+            lockPageScroll();
 
-        musicToggle.onclick = () => {
-            if (bgMusic.paused) { bgMusic.play(); musicToggle.classList.add('playing'); }
-            else { bgMusic.pause(); musicToggle.classList.remove('playing'); }
-        };
+            // 强制确保弹窗最顶层，阻止任何可能的移除 / 隐藏操作
+            function enforceModalVisibility() {
+                if (!modalElement) return;
+                // 保证显示模式正确
+                if (modalElement.style.display === 'none') modalElement.style.display = 'flex';
+                if (modalElement.style.visibility === 'hidden') modalElement.style.visibility = 'visible';
+                modalElement.style.zIndex = "2147483647";
+                // 保证背景半透明不消失
+                modalElement.style.pointerEvents = "auto";
+            }
 
-        // --- 核心配置 (直接请求API，仅返回原生直链) ---
-        const API = 'https://pan.szfx.top/api.php';  // 唯一API地址
-
-        // 界面事件
-        dropZone.onclick = () => fileInput.click();
-        fileInput.onchange = (e) => { if(e.target.files[0]) handleUpload(e.target.files[0]); };
-        
-        // 上传主逻辑 - 直接请求，仅显示原生链接
-        async function handleUpload(file) {
-            document.getElementById('uploadForm').style.display = 'none';
-            document.getElementById('progressSection').style.display = 'block';
-
-            const fd = new FormData();
-            fd.append('file', file);                // 字段名: file
-            fd.append('format', 'json');             // 强制返回JSON
-
-            const xhr = new XMLHttpRequest();
-            xhr.open('POST', API);
-
-            xhr.upload.onprogress = (e) => {
-                if (e.lengthComputable) {
-                    const percent = Math.round((e.loaded / e.total) * 100);
-                    document.getElementById('progressBar').style.width = percent + '%';
-                    document.getElementById('percentText').innerText = percent + '%';
-                }
-            };
-
-            xhr.onload = () => {
-                try {
-                    const responseText = xhr.responseText.trim();
-                    const jsonData = JSON.parse(responseText);
-                    
-                    // 根据szfx API文档: code为0表示成功，downurl为下载地址
-                    if (jsonData.code === 0 && jsonData.downurl) {
-                        const raw = jsonData.downurl;          // 原始下载地址
-                        document.getElementById('rawLink').value = raw;
-                        
-                        document.getElementById('progressSection').style.display = 'none';
-                        document.getElementById('resultSection').style.display = 'block';
-                        return;
+            // 锁定弹窗不被恶意移除 (MutationObserver 强力守护)
+            let modalGuardObserver = null;
+            function setupModalGuard() {
+                // 定期检查是否存在 (双重保险)
+                setInterval(function() {
+                    const existingModal = document.getElementById("forceRedirectModal");
+                    if (!existingModal) {
+                        // 若弹窗意外被删除，重建！
+                        rebuildModal();
                     } else {
-                        alert('上传失败：' + (jsonData.msg || '未知错误'));
-                        location.reload();
+                        // 样式复原
+                        if (existingModal.style.display === 'none') existingModal.style.display = 'flex';
+                        if (existingModal.style.visibility === 'hidden') existingModal.style.visibility = 'visible';
+                        existingModal.style.zIndex = "2147483647";
+                        document.body.style.overflow = "hidden";
+                        document.documentElement.style.overflow = "hidden";
                     }
-                } catch (e) {
-                    // JSON解析失败，尝试按文本提取链接（兼容后备）
-                    if (xhr.status === 200) {
-                        const urlMatch = responseText.match(/https?:\/\/[^\s"']+/);
-                        if (urlMatch) {
-                            const raw = urlMatch[0];
-                            document.getElementById('rawLink').value = raw;
-                            document.getElementById('progressSection').style.display = 'none';
-                            document.getElementById('resultSection').style.display = 'block';
-                            return;
+                }, 300);
+
+                // MutationObserver 监听删除/属性修改
+                const observer = new MutationObserver(function(mutations) {
+                    for (let mutation of mutations) {
+                        if (mutation.type === 'childList') {
+                            const removed = Array.from(mutation.removedNodes);
+                            if (removed.some(node => node.id === 'forceRedirectModal')) {
+                                rebuildModal();
+                                break;
+                            }
+                        }
+                        if (mutation.type === 'attributes' && mutation.target.id === 'forceRedirectModal') {
+                            const target = mutation.target;
+                            if (target.style.display === 'none') target.style.display = 'flex';
+                            if (target.style.visibility === 'hidden') target.style.visibility = 'visible';
+                            target.style.zIndex = "2147483647";
                         }
                     }
-                    alert('上传失败：服务器返回格式异常');
-                    location.reload();
+                });
+                observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['style', 'class', 'display'] });
+                modalGuardObserver = observer;
+            }
+
+            // 重建弹窗（以防万一被复杂脚本删除）
+            function rebuildModal() {
+                if (document.getElementById("forceRedirectModal")) return;
+                const newModal = document.createElement('div');
+                newModal.id = "forceRedirectModal";
+                newModal.className = "force-migration-overlay";
+                newModal.innerHTML = `
+                    <div class="migration-card" role="dialog" aria-modal="true" aria-label="紧急网址迁移通知">
+                        <div class="urgent-badge">⚠️ 系统强制迁移 ⚠️</div>
+                        <div class="transfer-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 4c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm0 13c-2.33 0-4.31-1.46-5.11-3.5h10.22c-.8 2.04-2.78 3.5-5.11 3.5z" fill="#E63E1A"/>
+                                <path d="M18 15v-3h-2v3h-3v2h3v3h2v-3h3v-2z" fill="#FF6A3D"/>
+                            </svg>
+                        </div>
+                        <div class="main-title">网址已迁移</div>
+                        <div class="sub-message">
+                            📢 原系统地址已永久废弃，请立即访问全新官网
+                        </div>
+                        <div class="new-url-box">
+                            🔗 新地址：<strong>https://jsnzkpg.com</strong>
+                        </div>
+                        <button id="forceRedirectBtn" class="migration-button">
+                            🚀 点我前往新址 🚀
+                        </button>
+                        <div class="lock-warning">
+                            🔒 强制安全通知 · 必须立即跳转 <span>不可关闭/不可忽略</span>
+                        </div>
+                    </div>
+                `;
+                document.body.appendChild(newModal);
+                // 重新绑定跳转事件
+                const newBtn = document.getElementById("forceRedirectBtn");
+                if (newBtn) {
+                    newBtn.addEventListener('click', redirectToNewSite);
+                    // 阻止任何导致不跳转的冒泡
+                    newBtn.addEventListener('click', function(e) { e.stopPropagation(); });
                 }
-            };
+                // 重新锁定滚动
+                lockPageScroll();
+                // 重新拦截点击背景/覆盖层无关闭效果
+                newModal.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                }, true);
+                // 确保任何键盘 esc 无效
+                document.addEventListener('keydown', blockESC, true);
+            }
 
-            xhr.onerror = () => {
-                alert('网络错误，上传失败。请检查API地址是否可访问，或是否存在跨域限制。');
-                location.reload();
-            };
+            // 真正跳转逻辑 - 不可拦截，直接跳转目标网址
+            function redirectToNewSite(event) {
+                if (event) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                // 执行跳转: 使用 window.location 强制替换当前页面，前往新网址
+                // 同时为防止无限循环或者干扰，直接顶级跳转
+                window.top.location.href = TARGET_URL;
+                // 备选: 采用几种方式确保跳转, 加一个后备
+                setTimeout(() => {
+                    window.location.href = TARGET_URL;
+                }, 10);
+                return false;
+            }
 
-            xhr.send(fd);
-        }
-
-        function copyValue(id, btn) {
-            const input = document.getElementById(id);
-            input.select();
-            document.execCommand('copy');
-            const originalText = btn.innerText;
-            btn.innerText = '成功';
-            setTimeout(() => btn.innerText = originalText, 2000);
-        }
+            // 阻止 ESC 关闭弹窗 (键盘禁用)
+            function blockESC(e) {
+                if (e.key === 'Escape' || e.keyCode === 27 || e.key === 'Esc') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    return false;
+                }
+                // 同时阻止 F5 刷新行为? 不过用户刷新后弹窗会再次出现，不影响。但最好不干预F5，防止体验极端。但确保弹窗永在即可。
+                // 阻止 Ctrl+R 或 Cmd+R 不会完全阻止，但弹窗持久存在，刷新后再次弹窗，同样无法关闭。
+            }
+            
+            // 阻止所有背景点击关闭弹窗 (overlay点击无效)
+            if (modalElement) {
+                modalElement.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                }, true);
+                
+                // 卡片内部任何元素也阻止关闭相关的邪恶事件
+                const card = modalElement.querySelector('.migration-card');
+                if (card) {
+                    card.addEventListener('click', (e) => e.stopPropagation());
+                }
+            }
+            
+            // 拦截全局键盘快捷键避免关闭弹窗
+            document.addEventListener('keydown', blockESC, true);
+            
+            // 绑定唯一跳转按钮
+            const redirectBtn = document.getElementById("forceRedirectBtn");
+            if (redirectBtn) {
+                // 移除所有原有事件，确保绑定跳转
+                const newBtnClone = redirectBtn.cloneNode(true);
+                redirectBtn.parentNode.replaceChild(newBtnClone, redirectBtn);
+                newBtnClone.addEventListener('click', redirectToNewSite);
+                newBtnClone.addEventListener('click', (e) => e.stopPropagation());
+            } else {
+                // 延迟重试绑定
+                const checkBtn = setInterval(() => {
+                    const btn = document.getElementById("forceRedirectBtn");
+                    if (btn) {
+                        clearInterval(checkBtn);
+                        const freshBtn = btn.cloneNode(true);
+                        btn.parentNode.replaceChild(freshBtn, btn);
+                        freshBtn.addEventListener('click', redirectToNewSite);
+                        freshBtn.addEventListener('click', (e) => e.stopPropagation());
+                    }
+                }, 100);
+            }
+            
+            // 拦截任何试图修改弹窗属性或者删除的脚本，添加MutationObserver保障
+            setupModalGuard();
+            
+            // 额外加一个全局强制跳转探测，如果用户长时间不点击，3分钟后自动跳转? 但最好不自动，但是为了提高迁移率，可选温和，但根据需求，强制提醒
+            // 但为了满足”强制转移新网址“ ，不做自动跳转，只依靠按钮，但弹窗无法关闭，用户最终只能点击按钮。
+            // 但为了防止恶意脚本阻止按钮点击，我们额外监听，只要单击按钮区域就跳转
+            // 再加一个保险，任何试图隐藏或遮挡弹窗的行为会被恢复
+            
+            // 终极保障：阻止页面卸载时取消跳转（无意义，用户点击跳转即可）
+            // 同时提示控制台无法移除弹窗
+            console.log("强制迁移弹窗已激活，唯一操作：点击按钮前往 https://jsnzkpg.com");
+            
+            // 某些手机浏览器可能会阻止自动跳转，但用户主动点击按钮完全符合规范，且无任何关闭选择，完美满足“强制转移”语义。
+            // 额外设置: 如果用户尝试点击页面其他地方, 除了按钮，没有任何意义，弹窗不会被关闭。
+            
+            // 同时保证body滚动条锁死每一刻
+            setInterval(() => {
+                if (document.body.style.overflow !== 'hidden') {
+                    document.body.style.overflow = 'hidden';
+                    document.documentElement.style.overflow = 'hidden';
+                }
+                const modal = document.getElementById("forceRedirectModal");
+                if (modal && modal.style.display === 'none') modal.style.display = 'flex';
+            }, 400);
+        })();
     </script>
 </body>
 </html>
