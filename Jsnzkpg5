@@ -5,7 +5,7 @@
     "1772635443107": {
       "key": "1772635443107",
       "name": "✈️关注TG频道@stymei",
-      "api": "https://lovedan.net/api.php/provide/vod",
+      "api": "https://19q.cc/api.php/provide/vod",
       "detail": null,
       "from": "custom",
       "disabled": false,
@@ -87,15 +87,6 @@
       "key": "1772635872719",
       "name": "👖量子",
       "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "detail": null,
-      "from": "subscription",
-      "disabled": false,
-      "subscriptionId": "1774508348956"
-    },
-    "1772635891270": {
-      "key": "1772635891270",
-      "name": "👖卧龙",
-      "api": "https://collect.wolongzy.cc/api.php/provide/vod",
       "detail": null,
       "from": "subscription",
       "disabled": false,
@@ -344,15 +335,6 @@
       "disabled": false,
       "subscriptionId": "1774508348956"
     },
-    "1772637116976": {
-      "key": "1772637116976",
-      "name": "👖金蝉",
-      "api": "https://zy.jinchancaiji.com/api.php/provide/vod",
-      "detail": null,
-      "from": "subscription",
-      "disabled": false,
-      "subscriptionId": "1774508348956"
-    },
     "1772637177381": {
       "key": "1772637177381",
       "name": "👖OK",
@@ -370,19 +352,28 @@
       "from": "subscription",
       "disabled": false,
       "subscriptionId": "1774508348956"
+    },
+    "1780505240003": {
+      "key": "1780505240003",
+      "name": "👖艾旦",
+      "api": "https://lovedan.net/api.php/provide/vod",
+      "detail": null,
+      "from": "custom",
+      "disabled": false,
+      "subscriptionId": null
     }
   },
   "lives": {
     "1772637934627": {
       "key": "1772637934627",
-      "name": "📺央卫视直播",
-      "api": "https://mpimg.cn/down.php/a34d44c4f0cc14bcb320c89cbb30c3d9.m3u",
-      "url": "https://mpimg.cn/down.php/a34d44c4f0cc14bcb320c89cbb30c3d9.m3u",
+      "name": "📺洋马直播",
+      "api": "http://adultiptv.net/lists/all.m3u",
+      "url": "http://adultiptv.net/lists/all.m3u",
       "ua": null,
       "epg": null,
-      "from": "subscription",
+      "from": "custom",
       "disabled": false,
-      "subscriptionId": "1774508348956"
+      "subscriptionId": null
     }
   },
   "custom_category": []
