@@ -73,7 +73,7 @@
   ],
   "vod": [
     {
-      "name": "⚽2026美加墨世界杯直播",
+      "name": "2026美加墨世界杯直播",
       "logo": "https://mpimg.cn/view.php/9996f5e93ec1b9c9bd300936e137f6c2.jpeg",
       "remark": "✈️TG频道@stymei1",
       "url": "https://sports.jsnzkpg.ccwu.cc"
@@ -174,6 +174,12 @@
       "order": "C",
       "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_bhys.js",
       "type": 101
+    },
+    {
+      "name": "无广影视",
+      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
+      "remark": "✈️TG频道@stymei1",
+      "url": "https://php.doube.eu.org/spider/php/电影天堂.php"
     },
     {
       "name": "iKanBot",
