@@ -14,17 +14,24 @@
       "type": 10,
       "remark": "✈️TG频道@stymei1"
 },
-{
-      "name": "潇雨萌萌TV直播",
+    {
+      "name": "咪咕TV直播",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-      "url": "https://ds65.tv1288.xyz",
+      "url": "https://proxy.api.030101.xyz/develop202.github.io/migu_video/interface.txt",
+      "type": 10,
+      "remark": "✈️TG频道@stymei1"
+    },
+{
+      "name": "涛涛TV直播",
+      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/taoBox2620/taoBox2620/refs/heads/main/log.png",
       "type": 10,
       "remark": "✈️TG频道@stymei1"
 },
 {
-      "name": "风云TV直播",
+      "name": "虎牙TV直播",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-      "url": "http://iptv.4666888.xyz/FYTV.txt",
+      "url": "https://yg.ygbox.de5.net/huya.php",
       "type": 10,
       "remark": "✈️TG频道@stymei1"
 },
@@ -50,14 +57,14 @@
       "remark": "✈️TG频道@stymei1"
 },
 {
-      "name": "日本TV直播{翻}",
+      "name": "台湾TV直播{翻}",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-      "url": "https://web.utako.moe/jp.m3u",
+      "url": "https://ha.msbot.dpdns.org/4gtv_api.php",
       "type": 10,
       "remark": "✈️TG频道@stymei1"
     },
     {
-      "name": "海外TV直播{翻}",
+      "name": "全球TV直播{翻}",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
       "url": "https://proxy.api.030101.xyz/iptv-org.github.io/iptv/index.m3u",
       "type": 10,
@@ -65,6 +72,12 @@
     }
   ],
   "vod": [
+    {
+      "name": "⚽2026美加墨世界杯直播",
+      "logo": "https://mpimg.cn/view.php/9996f5e93ec1b9c9bd300936e137f6c2.jpeg",
+      "remark": "✈️TG频道@stymei1",
+      "url": "https://sports.jsnzkpg.ccwu.cc"
+    },
     {
       "name": "关注TG频道@stymei",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
@@ -89,27 +102,15 @@
       "type": 101
     },
         {
-            "name": "[主用] 瓜子影视",
-      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-            "version": 4,
-      "remark": "✈️TG频道@stymei1",
-            "webSite": "http://api.gudvxty.com",
-            "instance": "gzys20240822",
+            "name": "瓜子影视",
+            "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
+            "version": 2,
+            "remark": "✈️TG频道@stymei1",
+            "webSite": "https://api.w32z7vtd.com",
+            "codeID": "GsrfFOqB7JtHhaMDFHw9Xv3uHrCGSdwe",
             "order": "B",
-            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzys.js",
-            "type": 100
-        },
-        {
-            "name": "[备用] 瓜子影视",
-      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-            "version": 4,
-      "remark": "✈️TG频道@stymei1",
-            "webSite": "http://api.gudvxty.com",
-            "codeID": "ra5Z3wtXKshzSMK2",
-            "instance": "gzapp20241001",
-            "order": "B",
-            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzapp.txt",
-            "type": 100
+            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_guazi.txt",
+            "type": 101
         },
     {
       "name": "荐片",
@@ -123,6 +124,17 @@
       "type": 101
     },
         {
+            "name": "移动云盘",
+            "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
+            "version": 1,
+            "remark": "✈️TG频道@stymei1",
+            "webSite": "https://www.91panta.cn/",
+            "codeID": "fYX7prspKVl5o8VMImJQllzG3NHeBdpp",
+            "order": "A12",
+            "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Pan_panta.txt",
+            "type": 101
+        },
+        {
             "name": "乌云影视",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
             "version": 3,
@@ -132,26 +144,6 @@
             "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_wooyun.js",
             "type": 101
         },
-    {
-      "name": "两个BT",
-      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-      "version": 3,
-      "remark": "✈️TG频道@stymei1",
-      "webSite": "https://www.bttwoo.com",
-      "order": "B",
-      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_bttwoo.js",
-      "type": 101
-    },
-    {
-      "name": "修罗影视",
-      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-      "version": 2,
-      "remark": "✈️TG频道@stymei1",
-      "webSite": "https://xl01.com.de",
-      "order": "B",
-      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_biliys.js",
-      "type": 101
-    },
     {
       "name": "欧乐影视",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
@@ -172,39 +164,6 @@
       "order": "B",
       "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_qiyou.js",
       "type": 101
-    },
-    {
-      "name": "1080在线",
-      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-      "version": 4,
-      "remark": "✈️TG频道@stymei1",
-      "webSite": "https://www.zxzjhd.com",
-      "codeID": "xgFE0TUb8SZsOIlZzcUkxRtewYrSozoC",
-      "order": "B",
-      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_zxzj.txt",
-      "type": 101
-    },
-    {
-      "name": "人人视频",
-      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-      "version": 2,
-      "remark": "✈️TG频道@stymei1",
-      "webSite": "RRSP",
-      "codeID": "a2buZX6jr7AcTQppx1MTcXMQOGNZFAAF",
-      "order": "B",
-      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_rrsp.txt",
-      "type": 101
-    },
-    {
-      "name": "韩剧看看",
-      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-      "version": 2,
-      "remark": "✈️TG频道@stymei1",
-      "webSite": "https://www.hanjukankan.com",
-      "instance": "hjkk20240624",
-      "order": "B",
-      "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_hjkk.js",
-      "type": 100
     },
     {
       "name": "八号影视",
@@ -323,7 +282,7 @@
       "name": "豆瓣",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
       "remark": "✈️TG频道@stymei1",
-      "url": "https://caiji.doubanzy.cc/api.php/provide/vod/at/josn"
+      "url": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/xml"
     },
     {
       "name": "茅台",
@@ -342,12 +301,6 @@
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
       "remark": "✈️TG频道@stymei1",
       "url": "https://cj.lziapi.com/api.php/provide/vod/?ac=list"
-    },
-    {
-      "name": "卧龙",
-      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-      "remark": "✈️TG频道@stymei1",
-      "url": "https://collect.wolongzy.cc/api.php/provide/vod"
     },
     {
       "name": "360",
@@ -510,12 +463,6 @@
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
       "remark": "✈️TG频道@stymei1",
       "url": "https://api.1080zyku.com/inc/apijson.php"
-    },
-    {
-      "name": "金蝉",
-      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
-      "remark": "✈️TG频道@stymei1",
-      "url": "https://zy.jinchancaiji.com/api.php/provide/vod"
     },
     {
       "name": "艾旦影视",
