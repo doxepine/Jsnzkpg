@@ -41,12 +41,3 @@
 密码：guest
 端口：443
 路径：/dav
-
-
-名称：Cinetry
-协议：WebDAV
-地址：http://154.217.240.24
-用户名：Cinetry
-密码：Cinetry
-端口：8422
-路径：/dav
