@@ -1,33 +1,9 @@
-名称：lxs-emby
-协议：Emby
-服务器：https://ey.626258.xyz
-用户名：lxs-emby
-密码：qq-qun:1092974372
-端口：443
-
-
-名称：IpacEL
-协议：Emby
-服务器：https://emby.ipacel.cc
-用户名：visit
-密码：留空就行不用填密码
-端口：443
-
-
 名称：AniHub
 协议：Emby
 服务器：https://ani.cappuccino.moe
 用户名：linux.do
 密码：linux.do
 端口：443
-
-
-名称：番剧收藏夹
-协议：Emby
-服务器：http://107.175.233.82
-用户名：share
-密码：share
-端口：8091
 
 
 名称：Phoenix
@@ -37,10 +13,16 @@
 密码：kiss0507
 端口：443
 
-
-名称：依贝正式服
+名称：OKEmby
 协议：Emby
-服务器：http://81.70.142.77
-用户名：www.ybpan.top
-密码：5sK9@2pR7!qG4#bN8$dF1%hJ6&zX3*mQ2^wE9+Uj7=Dg5#S8n$Bv2
-端口：8888
+服务器：https://link00.okemby.org
+用户名：kknb
+密码：RwCpvWqi
+端口：8443
+
+名称：HGEmby
+协议：Emby
+服务器：https://111660.xyz
+用户名：kkhnb
+密码：TNBZLt4i
+端口：443
