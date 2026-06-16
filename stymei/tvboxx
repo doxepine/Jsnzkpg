@@ -1,37 +1,17 @@
 {
     "spider": "https://pan.szfx.top/down.php/8487389cb6ed8d427e523510ab38d23b.jar",
-    "wallpaper": "https://789.st/1KzsXeU",
+    "wallpaper": "https://pan.szfx.top/down.php/91de26150dee0f2e52b30413171e4701.png",
     "logo": "https://789.st/GlhcG1r",
     "lives": [
         {
             "name": "🔞大秀TV[直播]",
             "type": 0,
-            "url": "https://omds.zzong6599.workers.dev/live.m3u"
-        },
-        {
-            "name": "🔞导管TV[直播]",
-            "type": 0,
-            "url": "http://adultiptv.net/lists/all.m3u"
-        },
-        {
-            "name": "🔞乌拉TV[直播]",
-            "type": 0,
-            "url": "https://ilook.epg.one/EDTZN7ANS84N86"
-        },
-        {
-            "name": "🔞欧美TV[直播]",
-            "type": 0,
-            "url": "https://pan.szfx.top/down.php/97bd622189730e39718ee33c6ef06ad2.m3u"
+            "url": "https://proxy.api.030101.xyz/https://omds.zzong6599.workers.dev/live.m3u"
         },
         {
             "name": "🔞台湾TV[直播]",
             "type": 1,
             "url": "https://pan.szfx.top/down.php/46a3539ac0df0c32687ea8079addec15.txt"
-        },
-        {
-            "name": "🔞麻豆传媒[点播]",
-            "type": 0,
-            "url": "https://pan.szfx.top/down.php/b5da05827a05eca34a3a08ddfd697596.m3u"
         }
     ],
   "sites": [
@@ -42,15 +22,6 @@
             "api": "https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/apiv2134色播.js",
             "searchable": 1,
             "changeable": 0
-        },
-        {
-            "key": "XM",
-            "name": "🔞XM",
-            "type": 3,
-            "api": "csp_XMVideo",
-            "searchable": 1,
-            "filterable": 1,
-            "jar": "./a/182.jar"
         },
         {
             "key": "推特",
