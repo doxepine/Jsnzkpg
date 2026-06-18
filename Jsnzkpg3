@@ -8,6 +8,13 @@
       "remark": "✈️TG频道@stymei1"
     },
     {
+      "name": "潇雨萌萌TV直播",
+      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
+      "url": "https://itv.tv1288.xyz",
+      "type": 10,
+      "remark": "✈️TG频道@stymei1"
+},
+    {
       "name": "日后TV直播",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
       "url": "http://rihou.cc:555/gggg.nzk",
@@ -74,9 +81,9 @@
   "vod": [
     {
       "name": "2026美加墨世界杯直播",
-      "logo": "https://mpimg.cn/view.php/9996f5e93ec1b9c9bd300936e137f6c2.jpeg",
+      "logo": "https://mpimg.cn/view.php/249e347b9656ef54467430b1e44de0a0.png",
       "remark": "✈️TG频道@stymei1",
-      "url": "https://sports.jsnzkpg.ccwu.cc"
+      "url": "https://jsnzkpg.us.ci"
     },
     {
       "name": "关注TG频道@stymei",
@@ -112,6 +119,12 @@
             "api": "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_guazi.txt",
             "type": 101
         },
+    {
+      "name": "永乐视频",
+      "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
+      "remark": "✈️TG频道@stymei1",
+      "url": "https://ylsp.jsnzkpg.ccwu.cc"
+    },
     {
       "name": "荐片",
       "logo": "https://mpimg.cn/view.php/f28da3eac8f392e9fa2ba91723b2bf4c.png",
