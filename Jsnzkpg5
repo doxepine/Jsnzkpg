@@ -7,9 +7,9 @@
       "name": "✈️关注TG频道@stymei",
       "api": "https://19q.cc/api.php/provide/vod",
       "detail": null,
-      "from": "custom",
+      "from": "subscription",
       "disabled": false,
-      "subscriptionId": null
+      "subscriptionId": "1774508348956"
     },
     "1772635515259": {
       "key": "1772635515259",
@@ -358,17 +358,17 @@
       "name": "👖艾旦",
       "api": "https://lovedan.net/api.php/provide/vod",
       "detail": null,
-      "from": "custom",
+      "from": "subscription",
       "disabled": false,
-      "subscriptionId": null
+      "subscriptionId": "1774508348956"
     }
   },
   "lives": {
     "1772637934627": {
       "key": "1772637934627",
-      "name": "📺洋马直播",
-      "api": "http://adultiptv.net/lists/all.m3u",
-      "url": "http://adultiptv.net/lists/all.m3u",
+      "name": "⚽2026美加墨世界杯",
+      "api": "https://jsnzkpg.us.ci/live.m3u",
+      "url": "https://jsnzkpg.us.ci/live.m3u",
       "ua": null,
       "epg": null,
       "from": "custom",
