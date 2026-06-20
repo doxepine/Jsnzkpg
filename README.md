@@ -19,8 +19,8 @@
 | ✈️ | TG代理 | [进入](https://tg.dhsv.eu.org) | - |
 | 📦 | 软件网盘 | [进入](https://526900.xyz) | - |
 | 🔖 | 书签收藏 | [进入](https://jsnzkpg.dhsv.eu.org) | - |
-| 🚀 | 共享火箭 | [进入](https://id.dhsv.eu.org) | - |
-| 🐈‍⬛ | Github加速 | [进入](https://proxy.dhsv.eu.org) | - |
+| 🚀 | 共享账号 | [进入](https://id.dhsv.eu.org) | - |
+| 🐈‍⬛ | 代理加速 | [进入](https://proxy.dhsv.eu.org) | - |
 | 🔄 | 订阅转换 | [进入](https://zh.dhsv.eu.org) | - |
 | 🔗 | 直链托管 | [进入](https://upload.dhsv.eu.org) | - |
 | 🎧 | 音乐网站 | [进入](https://music.dhsv.eu.org) | - |
